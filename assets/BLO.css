@@ -1,6 +1,32 @@
 /* THIS IS CUSTOM BLO CSS OVERRIDES FOR THIS THEME */
 
 
+/* -------------------- CUSTOM COLOR VARIABLES -------------------- */
+
+:root {
+    --greyscale-White: #FFFFFF;
+    --greyscale-UltraLight: #F5F5F5;
+    --greyscale-Light: #EBEBEB;
+    --greyscale-MediumLight: #D7D7D7;
+    --greyscale-Medium: #BEBEBE;
+    --greyscale-MediumDark: #909090;
+    --greyscale-Dark: #595959;
+    --greyscale-Black: #161616;
+}
+:root {
+    --tan-Light: #F8F4EE;
+    --tan-Medium: #EFE8DE;
+    --tan-Dark: #E7DDD0;
+    --tan-ExtraDark: #B8AC98;
+
+    --tan-Camel: #A67C3E;
+
+}
+
+
+
+
+
 /* -------------------- CUSTOM FONT OVERRIDE -------------------- */
 
 @font-face {
@@ -115,5 +141,27 @@ p.announcement-bar__message.h5
 }
 .product-card-wrapper .card__information .price .price-item {
     margin-right: 4px;
+}
+
+
+.product-card-wrapper .card__content {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+.product-card-wrapper .card__content .card__information {
+    width: 100%;
+
+}
+.product-card-wrapper .card__content .quick-add {
+    width: 36px;
+    height: 36px;
+    align-self: center;
+    margin: 0 20px 0 0;
+}
+.product-card-wrapper .card__content .quick-add .button {
+    background-color: var(--greyscale-UltraLight);
+    border: none;
+
 }
 
