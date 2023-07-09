@@ -18,7 +18,7 @@
       ],
       "settings": {
         "color_scheme": "background-2",
-        "show_line_separator": true,
+        "show_line_separator": false,
         "show_social": false,
         "auto_rotate": true,
         "change_slides_speed": 5
