@@ -47,7 +47,7 @@ H1, .h1,  div.h1.hero__title, h1>p, H2, .h2, H2>p, H3, .h3, h3>p, H4, .h4, h4>p,
   -webkit-font-smoothing: antialiased;
 }
 
-H6, .h6, button, .button, a.button, .grid-product__title, .announcement__text, form label, .cart__header-labels, .badge {
+H6, .h6, button, .button, a.button, .grid-product__title, .announcement__text, form label, .cart__header-labels, .badge, .product-card-wrapper .card__information h3 {
 
   font-family: 'GothamRounded-Medium' !important;
   font-style: normal !important;
@@ -55,7 +55,7 @@ H6, .h6, button, .button, a.button, .grid-product__title, .announcement__text, f
   -webkit-font-smoothing: antialiased;
 }
 
-body, p, form, input, textarea, select, .slide-nav__link, .slide-nav__sublist-link {
+body, p, form, input, textarea, select, .slide-nav__link, .slide-nav__sublist-link, .product-card-wrapper .card__information .price {
 
   font-family: 'GothamRounded-Book' !important;
   font-style: normal !important;
@@ -95,3 +95,25 @@ p.announcement-bar__message.h5
 .card__content .card__information {
     padding: 1.7rem;
 }
+
+
+
+
+
+
+
+
+
+
+/* -------------------- CUSTOM PRODUCT CARD ADJUSTMENTS -------------------- */
+
+
+.product-card-wrapper .card__information h3,
+.product-card-wrapper .card__information .price-item--regular, 
+.product-card-wrapper .card__information .price-item--sale{
+    font-size: 14px;
+}
+.product-card-wrapper .card__information .price .price-item {
+    margin-right: 4px;
+}
+
