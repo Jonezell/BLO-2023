@@ -1,0 +1,97 @@
+/* THIS IS CUSTOM BLO CSS OVERRIDES FOR THIS THEME */
+
+
+/* -------------------- CUSTOM FONT OVERRIDE -------------------- */
+
+@font-face {
+    font-family: 'GothamRounded-Book';
+    src: url("https://cdn.shopify.com/s/files/1/0964/6074/files/GothamRounded-Book.woff2?v=1642977509") format("woff2"),
+         url("https://cdn.shopify.com/s/files/1/0964/6074/files/GothamRounded-Book.woff?v=1642977509") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GothamRounded-Medium';
+    src: url("https://cdn.shopify.com/s/files/1/0964/6074/files/GothamRounded-Medium.woff2?v=1642977509") format("woff2"),
+         url("https://cdn.shopify.com/s/files/1/0964/6074/files/GothamRounded-Medium.woff?v=1642977509") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GothamRounded-Bold';
+    src: url("https://cdn.shopify.com/s/files/1/0964/6074/files/GothamRounded-Bold.woff2?v=1642977509") format("woff2"),
+         url("https://cdn.shopify.com/s/files/1/0964/6074/files/GothamRounded-Bold.woff?v=1642977509") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Professor';
+    src: url("https://cdn.shopify.com/s/files/1/0964/6074/files/Professor.woff2?v=1642977393") format("woff2"),
+         url("https://cdn.shopify.com/s/files/1/0964/6074/files/Professor.woff?v=1642977390") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Recoleta';
+    src: url("https://cdn.shopify.com/s/files/1/0964/6074/files/RecoletaAlt-Medium.woff2?v=1672678792") format("woff2"),
+         url("https://cdn.shopify.com/s/files/1/0964/6074/files/RecoletaAlt-Medium.woff?v=1672678792") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+H1, .h1,  div.h1.hero__title, h1>p, H2, .h2, H2>p, H3, .h3, h3>p, H4, .h4, h4>p, H5, .h5, h5>p {
+
+  font-family: 'Recoleta' !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+H6, .h6, button, .button, a.button, .grid-product__title, .announcement__text, form label, .cart__header-labels, .badge {
+
+  font-family: 'GothamRounded-Medium' !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+body, p, form, input, textarea, select, .slide-nav__link, .slide-nav__sublist-link {
+
+  font-family: 'GothamRounded-Book' !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(var(--color-foreground));
+}
+
+.eyebrow, th {
+  font-family: 'GothamRounded-Bold' !important;;
+  font-style: normal !important;;
+  font-weight: 400 !important;;
+  font-size: 12px;
+  line-height: 130%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(var(--color-foreground));
+}
+p.announcement-bar__message.h5
+{
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: 'GothamRounded-Medium' !important;
+}
+.header__inline-menu .link{
+  font-size: 1.6rem;
+  font-family: 'GothamRounded-Medium' !important;
+}
+.card__information .card__heading.h5{
+  font-size: 1.6rem;
+  margin-bottom:0;
+}
+.card__information .card-information .price {
+  font-size: 1.6rem;
+  margin-bottom:0;
+}
+.card__content .card__information {
+    padding: 1.7rem;
+}
