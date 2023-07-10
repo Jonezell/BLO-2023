@@ -2,6 +2,38 @@
   "sections": {
     "ff89b0a8-7e03-49ca-a54a-9cff08c5d7a6": {
       "type": "blo-banner",
+      "blocks": {
+        "71574e6a-6ed6-40e4-a8d3-0df068a16139": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "f0ab4fd9-bbe0-4127-9d9a-bcb7662e92ec": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "25b2579f-58af-4eed-9977-37c7897bc32f": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "71574e6a-6ed6-40e4-a8d3-0df068a16139",
+        "f0ab4fd9-bbe0-4127-9d9a-bcb7662e92ec",
+        "25b2579f-58af-4eed-9977-37c7897bc32f"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Banner-Desktop.jpg",
         "image_2": "shopify:\/\/shop_images\/Banner-Mobile_fec90939-7a6f-46c9-9518-407eb24a1618.jpg",
