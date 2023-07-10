@@ -75,7 +75,7 @@ H1, .h1,  div.h1.hero__title, h1>p, H2, .h2, H2>p, H3, .h3, h3>p {
   -webkit-font-smoothing: antialiased;
 }
 
-H4, .h4, h4>p, H5, .h5, h5>p, H6, .h6, button, .button, a.button, .grid-product__title, .announcement__text, form label, .cart__header-labels, .badge, .product-card-wrapper .card__information , footer .footer-block__heading {
+H4, .h4, h4>p, H5, .h5, h5>p, H6, .h6, button, .button, a.button, .grid-product__title, .announcement__text, form label, .cart__header-labels, .badge, .product-card-wrapper .card__information , footer .footer-block__heading, .toggle {
 
   font-family: 'GothamRounded-Medium' !important;
   font-style: normal !important;
@@ -144,7 +144,7 @@ H3, .h3 {
 
 
 /* H4-H6 STYLES */
-H4, .h4, H5, .h5, H6, .h6, footer .footer-block__heading {
+H4, .h4, H5, .h5, H6, .h6, footer .footer-block__heading, .toggle {
     font-size: 16px;
     line-height: 180%;
     letter-spacing: 0.32px;
@@ -282,3 +282,36 @@ header .header__inline-menu {
 }
 
 
+
+
+/* VUS */
+
+
+.toggle-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+.toggle {
+    display: flex;
+    padding: 6px 17px;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+    border-radius: 50px;
+    background: var(--tan-medium, #EFE8DE);
+    color:  var(--greyscale-black, #161616);
+}
+.toggle:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+.toggle:active {
+    opacity: 1;
+}
+.toggle.selected {
+    background: var(--greyscale-black, #161616);
+    color: var(--tan-light, #EFE8DE);
+}
