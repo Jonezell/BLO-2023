@@ -1,7 +1,7 @@
 /* THIS IS CUSTOM BLO CSS OVERRIDES FOR THIS THEME */
 
 
-/* -------------------- CUSTOM COLOR VARIABLES -------------------- */
+/* -------------------- CUSTOM VARIABLES -------------------- */
 
 :root {
     --greyscale-White: #FFFFFF;
@@ -12,8 +12,7 @@
     --greyscale-MediumDark: #909090;
     --greyscale-Dark: #595959;
     --greyscale-Black: #161616;
-}
-:root {
+
     --tan-Light: #F8F4EE;
     --tan-Medium: #EFE8DE;
     --tan-Dark: #E7DDD0;
@@ -21,6 +20,7 @@
 
     --tan-Camel: #A67C3E;
 
+    --blo-corner-radius: 16px;
 }
 
 
