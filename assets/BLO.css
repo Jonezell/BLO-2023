@@ -65,7 +65,9 @@
     font-style: normal;
 }
 
-H1, .h1,  div.h1.hero__title, h1>p, H2, .h2, H2>p, H3, .h3, h3>p, H4, .h4, h4>p, H5, .h5, h5>p {
+
+
+H1, .h1,  div.h1.hero__title, h1>p, H2, .h2, H2>p, H3, .h3, h3>p {
 
   font-family: 'Recoleta' !important;
   font-style: normal !important;
@@ -73,7 +75,7 @@ H1, .h1,  div.h1.hero__title, h1>p, H2, .h2, H2>p, H3, .h3, h3>p, H4, .h4, h4>p,
   -webkit-font-smoothing: antialiased;
 }
 
-H6, .h6, button, .button, a.button, .grid-product__title, .announcement__text, form label, .cart__header-labels, .badge, .product-card-wrapper .card__information h3 {
+H4, .h4, h4>p, H5, .h5, h5>p, H6, .h6, button, .button, a.button, .grid-product__title, .announcement__text, form label, .cart__header-labels, .badge, .product-card-wrapper .card__information , footer .footer-block__heading {
 
   font-family: 'GothamRounded-Medium' !important;
   font-style: normal !important;
@@ -81,7 +83,7 @@ H6, .h6, button, .button, a.button, .grid-product__title, .announcement__text, f
   -webkit-font-smoothing: antialiased;
 }
 
-body, p, form, input, textarea, select, .slide-nav__link, .slide-nav__sublist-link, .product-card-wrapper .card__information .price {
+body, p, form, input, textarea, select, .slide-nav__link, .slide-nav__sublist-link, .product-card-wrapper .card__information .price, footer .footer-block__details-content {
 
   font-family: 'GothamRounded-Book' !important;
   font-style: normal !important;
@@ -90,22 +92,87 @@ body, p, form, input, textarea, select, .slide-nav__link, .slide-nav__sublist-li
   color: rgba(var(--color-foreground));
 }
 
-.eyebrow, th {
-  font-family: 'GothamRounded-Bold' !important;;
-  font-style: normal !important;;
-  font-weight: 400 !important;;
+
+
+/* H1 STYLES */
+H1, .h1 {
+    font-size: 34px;
+    line-height: 130%;
+    letter-spacing: 0.68px; 
+    
+}
+@media screen and (min-width: 750px) { 
+    H1, .h1 {
+        font-size: 40px;
+        line-height: 130%;
+        letter-spacing: 0.8px;
+    }
+}
+
+
+
+/* H2 STYLES */
+H2, .h2 {
+    font-size: 28px;
+    line-height: 130%;
+    letter-spacing: 0.56px;
+}
+@media screen and (min-width: 750px) { 
+    H2, .h2 {
+        font-size: 34px;
+        line-height: 130%;
+        letter-spacing: 0.68px;    
+    }
+}
+
+
+
+/* H3 STYLES */
+H3, .h3 {
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0.44px;   
+}
+@media screen and (min-width: 750px) { 
+    H3, .h3 {
+        font-size: 28px;
+        line-height: 130%;
+        letter-spacing: 0.56px;
+    }
+}
+
+
+
+/* H4-H6 STYLES */
+H4, .h4, H5, .h5, H6, .h6, footer .footer-block__heading {
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.32px;
+}
+
+
+/* BODY STYLES */
+
+p, .p, footer .footer-block__details-content a {
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.32px;
+}
+
+
+/* EYEBROW STYLES */
+
+.eyebrow, th, p.announcement-bar__message.h5 {
+  font-family: 'GothamRounded-Bold' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
   font-size: 12px;
   line-height: 130%;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: rgba(var(--color-foreground));
 }
-p.announcement-bar__message.h5
-{
-  font-size: 13px;
-  text-transform: uppercase;
-  font-family: 'GothamRounded-Medium' !important;
-}
+
 .header__inline-menu .link{
   font-size: 1.6rem;
   font-family: 'GothamRounded-Medium' !important;
@@ -173,4 +240,45 @@ p.announcement-bar__message.h5
     border: none;
     box-shadow: none;
 }
+
+
+
+
+
+
+
+
+
+/* -------------------- CUSTOM NAV STYLES -------------------- */
+header.header.page-width {
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+header .header__inline-menu {
+
+}
+@media screen and (min-width: 750px) { 
+    header.header.page-width {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .header__search {
+        margin-left: 30px;
+    }
+    .header__icons {
+        margin-right: 30px;
+    }
+    header .header__inline-menu {
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid var(--tan-Medium);
+        margin-top: 0 !important;
+    }
+    .header__menu-item {
+        padding: 20px 15px;
+        color: var(--greyscale-Black);
+    }
+}
+
 
