@@ -39,6 +39,59 @@
         "title": "We got what you’re looking for."
       }
     },
+    "4b1165c6-b8a9-4249-a026-ac24d705f1f2": {
+      "type": "blo-oh-so-soft",
+      "blocks": {
+        "template--16166779355305__4b1165c6-b8a9-4249-a026-ac24d705f1f2-1689022936c1d9d8ab-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "So buttery soft and stretchy, you’ll wish you had a pair too."
+          }
+        },
+        "template--16166779355305__4b1165c6-b8a9-4249-a026-ac24d705f1f2-1689022936c1d9d8ab-1": {
+          "type": "text",
+          "settings": {
+            "text": "Made from ultra-soft & ultra-stretchy durable bamboo vicose"
+          }
+        },
+        "00eeaad0-cf15-4fd1-8e37-cc6388cbf716": {
+          "type": "text",
+          "settings": {
+            "text": "CPSC compliant & never treated with flame-retardants or chemicals."
+          }
+        },
+        "eb83a54f-cd7b-4630-9a4f-b901130df674": {
+          "type": "text",
+          "settings": {
+            "text": "Temperature regulating to keep your little ones cool in the summer and warm in the winter"
+          }
+        },
+        "3f67c4e8-7d8b-477a-9e66-a5f9956a39a8": {
+          "type": "text",
+          "settings": {
+            "text": "Soft non-irritating fabric perfect for sensitive skin"
+          }
+        },
+        "template--16166779355305__4b1165c6-b8a9-4249-a026-ac24d705f1f2-1689022936c1d9d8ab-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16166779355305__4b1165c6-b8a9-4249-a026-ac24d705f1f2-1689022936c1d9d8ab-0",
+        "template--16166779355305__4b1165c6-b8a9-4249-a026-ac24d705f1f2-1689022936c1d9d8ab-1",
+        "00eeaad0-cf15-4fd1-8e37-cc6388cbf716",
+        "eb83a54f-cd7b-4630-9a4f-b901130df674",
+        "3f67c4e8-7d8b-477a-9e66-a5f9956a39a8",
+        "template--16166779355305__4b1165c6-b8a9-4249-a026-ac24d705f1f2-1689022936c1d9d8ab-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/test_245b7f7d-8945-49a4-a787-17197b96b71a.png"
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -66,44 +119,12 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
-    },
-    "4b1165c6-b8a9-4249-a026-ac24d705f1f2": {
-      "type": "blo-oh-so-soft",
-      "blocks": {
-        "template--16166779355305__4b1165c6-b8a9-4249-a026-ac24d705f1f2-1689022936c1d9d8ab-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner"
-          }
-        },
-        "template--16166779355305__4b1165c6-b8a9-4249-a026-ac24d705f1f2-1689022936c1d9d8ab-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "template--16166779355305__4b1165c6-b8a9-4249-a026-ac24d705f1f2-1689022936c1d9d8ab-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16166779355305__4b1165c6-b8a9-4249-a026-ac24d705f1f2-1689022936c1d9d8ab-0",
-        "template--16166779355305__4b1165c6-b8a9-4249-a026-ac24d705f1f2-1689022936c1d9d8ab-1",
-        "template--16166779355305__4b1165c6-b8a9-4249-a026-ac24d705f1f2-1689022936c1d9d8ab-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/test_245b7f7d-8945-49a4-a787-17197b96b71a.png"
-      }
     }
   },
   "order": [
     "ff89b0a8-7e03-49ca-a54a-9cff08c5d7a6",
     "de916c71-b979-4c56-ab19-f192e2af4f26",
-    "featured_collection",
-    "4b1165c6-b8a9-4249-a026-ac24d705f1f2"
+    "4b1165c6-b8a9-4249-a026-ac24d705f1f2",
+    "featured_collection"
   ]
 }
