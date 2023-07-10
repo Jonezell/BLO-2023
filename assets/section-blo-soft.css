@@ -1,0 +1,42 @@
+.blo-oh-so-soft {
+    background: var(--tan-Medium);
+    display: flex;
+    position: relative;
+
+    padding: 160px 0;
+   
+}
+
+.blo-oh-so-soft .page-width {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.blo-soft-image-wrapper {
+    position: absolute;
+    left: -20px;
+}
+.blo-soft-image-wrapper img {
+    position: absolute;
+    width: 630px;
+    height: 630px;
+    transform: rotate(20.037deg);
+    position: absolute;
+    left: 111px;
+    top: -74px;
+    filter: drop-shadow(0px 20px 24px rgba(0, 0, 0, 0.16));
+}
+
+.blo-soft-text-wrapper {
+    min-height: 400px;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+

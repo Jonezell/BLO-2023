@@ -1,4 +1,4 @@
-{{ 'section-blo-banner.css' | asset_url | stylesheet_tag }}
+{{ 'section-blo-soft.css' | asset_url | stylesheet_tag }}
 
 <div class="page-width">
   <div class="blo-soft-image-wrapper">
@@ -18,26 +18,26 @@
     {{ section.settings.image | image_url: width: 700 | image_tag: loading: 'lazy', class: 'blo-floating-image' }}
   </div>
 
-  <div class="blo-banner-card {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+  <div class="blo-soft-text-wrapper {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when 'heading' -%}
-          <h1
-            class="blo-banner-title inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+          <h2
+            class="blo-soft-title inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
             {{ block.shopify_attributes }}
           >
             {{ block.settings.heading }}
-          </h1>
+          </h2>
         {%- when 'text' -%}
           <div
-            class="blo-banner-text rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            class="blo-soft-text rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
             {{ block.shopify_attributes }}
           >
             <p>{{ block.settings.text }}</p>
           </div>
         {%- when 'buttons' -%}
           <div
-            class="blo-banner-buttons {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            class="blo-soft-buttons {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
             {{ block.shopify_attributes }}
           >
             <a
