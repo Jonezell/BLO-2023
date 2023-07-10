@@ -18,8 +18,8 @@
         "25b2579f-58af-4eed-9977-37c7897bc32f": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/collections"
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/shop-all"
           }
         }
       },
