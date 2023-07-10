@@ -6,26 +6,20 @@
         "71574e6a-6ed6-40e4-a8d3-0df068a16139": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
+            "heading": "Image banner"
           }
         },
         "f0ab4fd9-bbe0-4127-9d9a-bcb7662e92ec": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "text": "Give customers details about the banner image(s) or content on the template."
           }
         },
         "25b2579f-58af-4eed-9977-37c7897bc32f": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/collections"
           }
         }
       },
@@ -35,18 +29,8 @@
         "25b2579f-58af-4eed-9977-37c7897bc32f"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Banner-Desktop.jpg",
-        "image_2": "shopify:\/\/shop_images\/Banner-Mobile_fec90939-7a6f-46c9-9518-407eb24a1618.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "zoom-in",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "image_desktop": "shopify:\/\/shop_images\/Banner-Desktop.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Banner-Mobile_fec90939-7a6f-46c9-9518-407eb24a1618.jpg"
       }
     },
     "image_banner": {
