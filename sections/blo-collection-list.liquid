@@ -1,0 +1,40 @@
+{{ 'section-blo-collection-list.css' | asset_url | stylesheet_tag }}
+
+<div class="page-width">
+  <h1
+    class="blo-banner-title inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+    {{ block.shopify_attributes }}
+  >
+    {{ block.settings.heading }}
+  </h1>
+
+  <div class="blo-collection-list-toggles">
+    <label for="1">Testing</label>
+    <label for="2">Testing</label>
+  </div>
+
+  <input type="radio" id="" checked>
+</div>
+
+{% schema %}
+{
+  "name": "BLO Collection List",
+  "tag": "section",
+  "class": "section blo-collection-list",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title"
+    }
+  ],
+  "presets": [
+    {
+      "name": "BLO Collection List"
+    }
+  ]
+}
+{% endschema %}
