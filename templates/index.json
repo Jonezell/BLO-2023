@@ -1,7 +1,13 @@
 {
   "sections": {
+    "ff89b0a8-7e03-49ca-a54a-9cff08c5d7a6": {
+      "type": "blo-banner",
+      "settings": {
+      }
+    },
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -184,6 +190,7 @@
     }
   },
   "order": [
+    "ff89b0a8-7e03-49ca-a54a-9cff08c5d7a6",
     "image_banner",
     "featured_collection",
     "collage",
