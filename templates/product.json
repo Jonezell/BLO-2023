@@ -26,6 +26,17 @@
             "picker_type": "button"
           }
         },
+        "496b4226-e4d0-4584-a5ae-f630efc1661c": {
+          "type": "produdct-as-variants",
+          "settings": {
+            "label": "Options",
+            "style": "image",
+            "target_collection": "accessories",
+            "swatch_offset_Y": 50,
+            "swatch_offset_X": 50,
+            "hide_sold_out": true
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -91,6 +102,7 @@
         "caption",
         "price",
         "variant_picker",
+        "496b4226-e4d0-4584-a5ae-f630efc1661c",
         "quantity_selector",
         "buy_buttons",
         "description",
