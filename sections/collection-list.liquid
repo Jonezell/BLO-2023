@@ -39,7 +39,7 @@
           <a
             href="{{ routes.collections_url }}"
             id="ViewAll-{{ section.id }}"
-            class="link underlined-link large-up-hide{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            class="link underlined-link hidden large-up-hide{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
             aria-labelledby="ViewAll-{{ section.id }} SectionHeading-{{ section.id }}"
           >
             {{- 'sections.collection_list.view_all' | t -}}
@@ -111,7 +111,7 @@
 
     {%- if section.settings.show_view_all and section.blocks.size < collections.size -%}
       <div
-        class="center collection-list-view-all{% if show_mobile_slider %} small-hide medium-hide{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+        class="center collection-list-view-all {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
         {% if settings.animations_reveal_on_scroll %}
           data-cascade
         {% endif %}

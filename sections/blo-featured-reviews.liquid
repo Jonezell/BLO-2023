@@ -2,7 +2,7 @@
 
 {% stylesheet %}
   .blo-featured-reviews {
-    background: var(--blue-Green);
+    background: var(--blue-Green, #B5BDB8);
   }
   .blo-featured-reviews .page-width {
     display: flex;
@@ -62,6 +62,9 @@
   .blo-featured-review-block hr:last-child {
     display: none;
   }
+  .blo-featured-review-name {
+    font-style: italic !important;
+  }
 
   @media screen and (min-width: 750px) {
     .blo-featured-reviews .page-width {
@@ -90,8 +93,8 @@
 <div class="page-width">
   <div class="blo-featured-reviews-top">
     {% render 'blo-five-stars', fill: '#234051' %}
-    <h2>{{ section.settings.title }}</h2>
-    <p>{{ section.settings.text }}<p>
+    <h2 class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">{{ section.settings.title }}</h2>
+    <p class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">{{ section.settings.text }}<p>
   </div>
 
   <div class="blo-featured-review-block-wrapper {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
@@ -112,7 +115,7 @@
                 >
                     <p>{{ block.settings.review_text }}</p>
                 </div>
-                <p>{{ block.settings.review_name }}</p>
+                <p class="blo-featured-review-name {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">{{ block.settings.review_name }}</p>
                 <hr/>
             </div>
       {%- endcase -%}

@@ -79,7 +79,7 @@ H1, .h1,  div.h1.hero__title, h1>p, H2, .h2, H2>p, H3, .h3, h3>p {
   -webkit-font-smoothing: antialiased;
 }
 
-H4, .h4, h4>p, H5, .h5, h5>p, H6, .h6, button, .button, a.button, .grid-product__title, .announcement__text, form label, .cart__header-labels, .badge, .product-card-wrapper .card__information , footer .footer-block__heading, .toggle {
+H4, .h4, h4>p, H5, .h5, h5>p, H6, .h6, button, .button, a.button, .grid-product__title, .announcement__text, form label, .cart__header-labels, .badge, .product-card-wrapper .card__information , footer .footer-block__heading, .toggle, .collection-list-wrapper .card__information h3 {
 
   font-family: 'GothamRounded-Medium' !important;
   font-style: normal !important;
@@ -148,7 +148,7 @@ H3, .h3 {
 
 
 /* H4-H6 STYLES */
-H4, .h4, H5, .h5, H6, .h6, footer .footer-block__heading, .toggle {
+H4, .h4, H5, .h5, H6, .h6, footer .footer-block__heading, .toggle, .collection-list-wrapper .card__information h3 {
     font-size: 16px;
     line-height: 180%;
     letter-spacing: 0.32px;
@@ -359,3 +359,36 @@ header .header__inline-menu {
 .blo-edge-texture.flip {
     transform: rotate(180deg);
 }
+
+
+
+
+
+/* SECTION STYLE OVERRIDES */
+.shopify-section .collection .collection__title, 
+.collection-list-wrapper .title-wrapper--no-top-margin {
+    margin-bottom: 30px;
+}
+.shopify-section .collection .collection__view-all, 
+.collection-list-wrapper .collection-list-view-all {
+    margin-top: 30px;
+}
+.shopify-section .collection .collection__view-all .button, 
+.shopify-section .collection-list-wrapper .collection-list-view-all .button {
+    min-width: 220px;
+}
+@media screen and (min-width: 750px) {
+    .shopify-section .collection .collection__title, 
+    .collection-list-wrapper .title-wrapper--no-top-margin {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .collection-list-wrapper .title-wrapper--no-top-margin h2 {
+      text-align: center;
+      width: 100%;
+    }
+    .shopify-section .collection .collection__view-all, 
+    .collection-list-wrapper .collection-list-view-all {
+        margin-top: 50px;
+    }
+  }
