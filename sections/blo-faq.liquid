@@ -1,21 +1,38 @@
 {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
-{{ 'custom-sections.css' | asset_url | stylesheet_tag }}
+{{ 'blo-sections.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-
-  @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
-  }
 
-  #shopify-section-{{section.id}} {
-    background-color: {{ section.settings.background_color }};
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+
+    #shopify-section-{{section.id}} {
+      background-color: {{ section.settings.background_color }};
+    }
+
+
+    /* ---------- CUSTOM - FAQ Section ---------- */
+  .custom-faq-section .custom-image-and-text-section_wrapper {
+    align-items: start;
+  }
+  .custom-faq-section .image-with-text__heading {
+    margin-bottom:0;
+  }
+  .custom-faq-section .custom-image-and-text-section_image {
+    margin-bottom: 20px;
+  }
+  @media only screen and (max-width: 749px) {
+    .custom-faq-section .custom-image-and-text-section_image {
+      text-align: center;
+    }
   }
 {%- endstyle -%}
 
@@ -91,37 +108,17 @@
   </div>
 
   {%- if section.settings.texture_top == true -%}
-    <svg
-      class="custom-texture custom-texture_pin-top"
-      preserveAspectRatio="none"
-      width="1480"
-      height="15"
-      viewBox="0 0 1480 15"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path d="M37 7.5L0 15V0H1480V15L1443 7.5C1418.58 2.55033 1393.42 2.55033 1369 7.5C1344.58 12.4497 1319.42 12.4497 1295 7.5C1270.58 2.55034 1245.42 2.55033 1221 7.5C1196.58 12.4497 1171.42 12.4497 1147 7.50001C1122.58 2.55035 1097.42 2.55033 1073 7.5C1048.58 12.4497 1023.42 12.4497 999 7.5C974.582 2.55033 949.418 2.55033 925 7.5C900.582 12.4497 875.418 12.4497 851 7.5C826.582 2.55033 801.418 2.55033 777 7.5C752.582 12.4497 727.418 12.4497 703 7.5C678.582 2.55033 653.418 2.55033 629 7.5C604.582 12.4497 579.418 12.4497 555 7.5C530.582 2.55034 505.418 2.55033 481 7.5C456.582 12.4497 431.418 12.4497 407 7.5C382.582 2.55033 357.418 2.55033 333 7.5C308.582 12.4497 283.418 12.4497 259 7.5C234.582 2.55034 209.418 2.55033 185 7.5C160.582 12.4497 135.418 12.4497 111 7.5C86.5816 2.55033 61.4184 2.55033 37 7.5Z" fill="white"/>
-    </svg>
+    {% render 'blo-edge-texture', pinDirection: 'top' %}
   {%- endif -%}
   {%- if section.settings.texture_bottom == true -%}
-    <svg
-      class="custom-texture custom-texture_pin-bottom custom-texture_flip"
-      preserveAspectRatio="none"
-      width="1480"
-      height="15"
-      viewBox="0 0 1480 15"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path d="M37 7.5L0 15V0H1480V15L1443 7.5C1418.58 2.55033 1393.42 2.55033 1369 7.5C1344.58 12.4497 1319.42 12.4497 1295 7.5C1270.58 2.55034 1245.42 2.55033 1221 7.5C1196.58 12.4497 1171.42 12.4497 1147 7.50001C1122.58 2.55035 1097.42 2.55033 1073 7.5C1048.58 12.4497 1023.42 12.4497 999 7.5C974.582 2.55033 949.418 2.55033 925 7.5C900.582 12.4497 875.418 12.4497 851 7.5C826.582 2.55033 801.418 2.55033 777 7.5C752.582 12.4497 727.418 12.4497 703 7.5C678.582 2.55033 653.418 2.55033 629 7.5C604.582 12.4497 579.418 12.4497 555 7.5C530.582 2.55034 505.418 2.55033 481 7.5C456.582 12.4497 431.418 12.4497 407 7.5C382.582 2.55033 357.418 2.55033 333 7.5C308.582 12.4497 283.418 12.4497 259 7.5C234.582 2.55034 209.418 2.55033 185 7.5C160.582 12.4497 135.418 12.4497 111 7.5C86.5816 2.55033 61.4184 2.55033 37 7.5Z" fill="white"/>
-    </svg>
+    {% render 'blo-edge-texture', pinDirection: 'bottom' %}
   {%- endif -%}
 </div>
 
 {% schema %}
 {
   "name": "BLO: FAQ",
-  "class": "section custom-faq-section custom-image-and-text custom-texture_wrapper",
+  "class": "section custom-faq-section custom-image-and-text blo-edge-texture-wrapper",
   "settings": [
     {
       "type": "color",

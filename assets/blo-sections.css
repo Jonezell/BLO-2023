@@ -40,3 +40,97 @@
     background: var(--greyscale-black, #161616);
     color: #fff;
 }
+
+
+
+
+
+/* MIGRATED IMAGE & TEXT SECTION */
+
+
+/* ---------- CUSTOM - IMAGE AND TEXT SECTION ---------- */
+
+.custom-image-and-text-section_wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .custom-image-and-text-section_image {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .custom-image-and-text-section_image img {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    display: block;
+    filter: var(--shadow-4-percent)
+  }
+  .custom-image-and-text-section_content {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .custom-image-and-text-section_content .image-with-text__heading {
+    margin-bottom: 10px;
+    margin-top:0;
+  }
+  .eyebrow-wrapper + .image-with-text__heading {
+    margin-top: 20px;
+  }
+  .custom-image-and-text-section_content .button {
+    margin-top: 30px;
+  }
+  .custom-image-and-text-section_content .eyebrow-wrapper {
+    display: inline-block;
+    position: relative;
+  }
+  .custom-image-and-text-section_content .eyebrow {
+    padding: 11px 17px 9px;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+  }
+  .custom-image-and-text-section_content .eyebrow-wrapper svg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    filter: var(--shadow-4-percent);
+    z-index: 0;
+  }
+  .custom-image-and-text .accordion__content{
+    padding-left: 0;
+  }
+  .custom-image-and-text .accordion__content p {
+      text-align: left;
+  }
+  @media only screen and (min-width: 750px) {
+    .custom-image-and-text-section_wrapper{
+      flex-direction: row;
+    }
+    .custom-image-and-text-section_image {
+      margin-bottom: 0;
+      margin-right: 10%;
+      width: 50%;
+    }
+    .custom-image-and-text-section_content {
+      align-items: left;
+      text-align: left;
+      width: 50%;
+    }
+    .custom-image-and-text-section_text_first {
+      flex-direction: row-reverse;
+    }
+    .custom-image-and-text-section_text_first .custom-image-and-text-section_image {
+      margin-right: 0;
+      margin-left: 10%;
+    }
+  }
+  @media only screen and (max-width: 749px) {
+    .custom-image-and-text-section_content .button {
+      width: 100%;
+    }
+  }
