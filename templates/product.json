@@ -31,7 +31,7 @@
           "settings": {
             "label": "Options",
             "style": "image",
-            "target_collection": "accessories",
+            "target_collection": "zip-rompers",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
@@ -127,6 +127,22 @@
         "padding_bottom": 12
       }
     },
+    "1689095601e7facfa4": {
+      "type": "apps",
+      "blocks": {
+        "b57b9dfc-be08-472f-9b60-621e325bb54d": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "b57b9dfc-be08-472f-9b60-621e325bb54d"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -184,6 +200,7 @@
   },
   "order": [
     "main",
+    "1689095601e7facfa4",
     "image-with-text",
     "related-products"
   ]
