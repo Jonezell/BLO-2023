@@ -42,6 +42,12 @@
     "4b1165c6-b8a9-4249-a026-ac24d705f1f2": {
       "type": "blo-oh-so-soft",
       "blocks": {
+        "1ce2ff1d-7b8d-434d-ad63-5ff142d31b34": {
+          "type": "badge",
+          "settings": {
+            "badge": "our Fabric"
+          }
+        },
         "template--16166779355305__4b1165c6-b8a9-4249-a026-ac24d705f1f2-1689022936c1d9d8ab-0": {
           "type": "heading",
           "settings": {
@@ -81,6 +87,7 @@
         }
       },
       "block_order": [
+        "1ce2ff1d-7b8d-434d-ad63-5ff142d31b34",
         "template--16166779355305__4b1165c6-b8a9-4249-a026-ac24d705f1f2-1689022936c1d9d8ab-0",
         "template--16166779355305__4b1165c6-b8a9-4249-a026-ac24d705f1f2-1689022936c1d9d8ab-1",
         "00eeaad0-cf15-4fd1-8e37-cc6388cbf716",
