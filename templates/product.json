@@ -69,10 +69,10 @@
             "style": "text-decoration:none"
           }
         },
-        "105b33ae-8105-427a-bbb6-789d289c3f8e": {
+        "4620763d-b34b-4ded-a857-504751a5f38d": {
           "type": "blo-payment-plans",
           "settings": {
-            "test": "Split your purchase into multiple small interest-free payments with"
+            "text": "Split your purchase into multiple small interest-free payments with"
           }
         },
         "description": {
@@ -133,7 +133,7 @@
         "14d206d1-bc58-4ca6-baa4-d38ba878182e",
         "buy_buttons",
         "d32cf3ff-3cf1-42b1-95be-fd31a14eefc2",
-        "105b33ae-8105-427a-bbb6-789d289c3f8e",
+        "4620763d-b34b-4ded-a857-504751a5f38d",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
