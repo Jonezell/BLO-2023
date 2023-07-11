@@ -42,6 +42,13 @@
           "settings": {
           }
         },
+        "14d206d1-bc58-4ca6-baa4-d38ba878182e": {
+          "type": "custom-low-stock",
+          "settings": {
+            "inventory_threshold": 25,
+            "show_inventory_quantity": false
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -117,6 +124,7 @@
         "variant_picker",
         "496b4226-e4d0-4584-a5ae-f630efc1661c",
         "quantity_selector",
+        "14d206d1-bc58-4ca6-baa4-d38ba878182e",
         "buy_buttons",
         "d32cf3ff-3cf1-42b1-95be-fd31a14eefc2",
         "description",
