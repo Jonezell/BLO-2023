@@ -432,6 +432,24 @@
               {% render 'icon-with-text',
                 block: block
               %}
+            {% comment %} START CUSTOM CODE {% endcomment %}
+            {%- when 'produdct-as-variants' -%}
+              {% render 'blo-PAV-block', 
+                PAV_product_handle: product.handle, 
+                PAV_target_collection: block.settings.target_collection, 
+                PAV_product_type: product.type, 
+                PAV_label: block.settings.label, 
+                PAV_style: block.settings.style,
+                PAV_swatch_offset_Y: block.settings.swatch_offset_Y,
+                PAV_swatch_offset_X: block.settings.swatch_offset_X,
+                PAV_hide_sold_out: block.settings.hide_sold_out
+              %}
+            {%- when 'custom-low-stock' -%}
+                {% render 'custom-low-stock', 
+                  block: block,
+                  product: product
+                %} 
+            {% comment %} END CUSTOM CODE {% endcomment %}        
           {%- endcase -%}
         {%- endfor -%}
         <a href="{{ product.url }}" class="link product__view-details animate-arrow">
@@ -1897,6 +1915,66 @@
           "label": "t:sections.main-product.blocks.icon_with_text.settings.heading_3.label",
           "info": "t:sections.main-product.blocks.icon_with_text.settings.heading.info"
         }
+      ]
+    },
+    {
+      "type": "produdct-as-variants",
+      "name": "Products As Variants",
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "default": "Options",
+          "label": "Label"
+        },
+        {
+          "type": "select",
+          "id": "style",
+          "options": [
+            {
+              "value": "image",
+              "label": "Product Image"
+            },
+            {
+              "value": "swatch",
+              "label": "Product Swatch"
+            }
+          ],
+          "default": "image",
+          "label": "Style"
+        },
+        {
+          "type": "collection",
+          "id": "target_collection",
+          "label": "Collection",
+          "info": "Choose collection that you want all the show products as variant links"
+       },
+       {
+        "type": "range",
+        "id": "swatch_offset_Y",
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "unit": "%",
+        "label": "Swatch vertical offset",
+        "default": 50
+        },
+        {
+          "type": "range",
+          "id": "swatch_offset_X",
+          "min": 0,
+          "max": 100,
+          "step": 5,
+          "unit": "%",
+          "label": "Swatch horizontal offset",
+          "default": 50
+          },
+          {
+            "type": "checkbox",
+            "id": "hide_sold_out",
+            "default": true,
+            "label": "Hide Sold Out Products"
+          }
       ]
     }
   ],
