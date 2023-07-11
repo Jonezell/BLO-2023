@@ -1,5 +1,8 @@
 {{ 'section-blo-soft.css' | asset_url | stylesheet_tag }}
 
+{% render 'blo-edge-texture', pinDirection: 'top' %}
+{% render 'blo-edge-texture', pinDirection: 'bottom' %}
+
 <div class="page-width">
   <div class="blo-soft-image-wrapper">
     <svg width="474" height="737" viewBox="0 0 474 737" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -57,7 +60,7 @@
 {
   "name": "BLO Oh So Soft",
   "tag": "section",
-  "class": "section blo-oh-so-soft",
+  "class": "section blo-oh-so-soft blo-edge-texture-wrapper",
   "disabled_on": {
     "groups": ["header", "footer"]
   },

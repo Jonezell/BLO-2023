@@ -318,7 +318,7 @@ header .header__inline-menu {
 
 
 
-
+/* PAGE WIDTH ADJUSTMENT */
 
 .page-width {
     max-width: var(--page-width);
@@ -330,3 +330,28 @@ header .header__inline-menu {
       padding: 0 5rem;
     }
   }
+
+
+
+
+
+
+
+/* EDGE TEXTURE */
+.blo-edge-texture-wrapper {
+    position: relative;
+}
+.blo-edge-texture {
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+.blo-edge-texture.top {
+    top:0;
+}
+.blo-edge-texture.bottom {
+    bottom: 0;
+}
+.blo-edge-texture.flip {
+    transform: rotate(180deg);
+}
