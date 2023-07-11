@@ -449,6 +449,8 @@
                   block: block,
                   product: product
                 %} 
+            {%- when 'blo-payment-plans', block: block -%}
+              {% render 'blo-payment-plans'%} 
             {% comment %} END CUSTOM CODE {% endcomment %}        
           {%- endcase -%}
         {%- endfor -%}
@@ -2002,6 +2004,18 @@
             "default": true,
             "label": "Hide Sold Out Products"
           }
+      ]
+    }, 
+    {
+      "type": "blo-payment-plans",
+      "name": "BLO: Payment Plans",
+      "settings": [
+        {
+          "type": "text",
+          "id": "test",
+          "default": "Split your purchase into multiple small interest-free payments with",
+          "label": "Text"
+        }
       ]
     }
   ],
