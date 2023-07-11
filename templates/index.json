@@ -171,6 +171,26 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "39a14b17-5c76-41f4-b440-d63a3f398506": {
+      "type": "blo-featured-reviews",
+      "blocks": {
+        "653bb533-fc27-4936-957b-d333511620d7": {
+          "type": "review",
+          "settings": {
+            "review_title": "Amazing quality",
+            "review_text": "“I recently switched to BLO over other brands and the quality is unmatched. I’m so impressed and I love the simplicity of the designs.”",
+            "review_name": "- Susan M"
+          }
+        }
+      },
+      "block_order": [
+        "653bb533-fc27-4936-957b-d333511620d7"
+      ],
+      "settings": {
+        "title": "Welcome to the bamboo  fan club.",
+        "text": "Lorem ipsum dolor sit amet consectetur. Purus orci volutpat malesuada vel volutpat fames dictum ut fringilla."
+      }
     }
   },
   "order": [
@@ -179,6 +199,7 @@
     "4b1165c6-b8a9-4249-a026-ac24d705f1f2",
     "featured_collection",
     "7f2ba396-b421-44a7-8ac9-529611c0153f",
-    "df8aef45-6daf-43dd-af64-24a678001ba3"
+    "df8aef45-6daf-43dd-af64-24a678001ba3",
+    "39a14b17-5c76-41f4-b440-d63a3f398506"
   ]
 }
