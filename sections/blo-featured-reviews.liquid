@@ -7,17 +7,82 @@
   .blo-featured-reviews .page-width {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     padding-top: 80px;
     padding-bottom: 80px;
-    gap: 50px;
+    gap: 40px;
+  }
+  .blo-featured-reviews-top {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .blo-featured-reviews-top svg {
+    width: 155px;
+    margin-bottom: 15px;
+  }
+  .blo-featured-reviews-top p, 
+  .blo-featured-reviews-top h2 {
+    margin: 0;
+    color: #234051;
+  }
+  .blo-featured-review-block-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .blo-featured-review-block {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .blo-featured-review-block svg {
+    width: 101px;
+    height: auto;
+    margin-bottom: 16px;
+  }
+  .blo-featured-review-block h6 {
+    margin: 0;
+    color: #234051;
+  }
+  .blo-featured-review-block p {
+    margin: 0;
+    color: #234051;
+  }
+  .blo-featured-review-block hr {
+    border: 1px solid #234051;
+    margin: 0;
+    border-radius: 2px;
+    height: 2px;
+  }
+  .blo-featured-review-block hr:first-child {
+    margin-bottom: 30px;
+  }
+  .blo-featured-review-block hr:last-child {
+    display: none;
   }
 
   @media screen and (min-width: 750px) {
-
+    .blo-featured-reviews .page-width {
+        padding-top: 160px;
+        padding-bottom: 160px;
+        gap: 80px;
+    }
+    .blo-featured-review-block-wrapper {
+        flex-direction: row;
+        gap: 60px;
+    }
+    .blo-featured-review-block hr:first-child {
+    margin-bottom: 40px;
+  }
+  .blo-featured-review-block hr:last-child {
+    margin-top: 40px;
+    display: block;
+  }
   }
 {% endstylesheet %}
+
 
 {% render 'blo-edge-texture', pinDirection: 'top' %}
 {% render 'blo-edge-texture', pinDirection: 'bottom' %}
@@ -25,15 +90,16 @@
 <div class="page-width">
   <div class="blo-featured-reviews-top">
     {% render 'blo-five-stars', fill: '#234051' %}
-    <h2>Testing<h2>
-    <p>Testing<p>
+    <h2>{{ section.settings.title }}</h2>
+    <p>{{ section.settings.text }}<p>
   </div>
 
-  <div class="blo-text-block {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+  <div class="blo-featured-review-block-wrapper {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when 'review' -%}
             <div class="blo-featured-review-block">
+                <hr/>
                 {% render 'blo-five-stars', fill: '#234051' %}
                 <h6
                     class="blo-text-block-title {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
@@ -47,6 +113,7 @@
                     <p>{{ block.settings.review_text }}</p>
                 </div>
                 <p>{{ block.settings.review_name }}</p>
+                <hr/>
             </div>
       {%- endcase -%}
     {%- endfor -%}
