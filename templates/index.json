@@ -145,8 +145,8 @@
         "template--16166779355305__7f2ba396-b421-44a7-8ac9-529611c0153f-168908674393111e5a-2": {
           "type": "buttons",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/pages\/help-us-give-back"
           }
         }
       },
