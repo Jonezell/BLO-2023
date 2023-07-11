@@ -162,7 +162,7 @@ p, .p, footer .footer-block__details-content a {
 
 /* EYEBROW STYLES */
 
-.eyebrow, th, p.announcement-bar__message.h5 {
+.eyebrow, th, p.announcement-bar__message.h5, .badge {
   font-family: 'GothamRounded-Bold' !important;
   font-style: normal !important;
   font-weight: 400 !important;
@@ -315,3 +315,18 @@ header .header__inline-menu {
     background: var(--greyscale-black, #161616);
     color: var(--tan-light, #EFE8DE);
 }
+
+
+
+
+
+.page-width {
+    max-width: var(--page-width);
+    margin: 0 auto;
+    padding: 0 3rem;
+  }
+@media screen and (min-width: 750px) {
+    .page-width {
+      padding: 0 5rem;
+    }
+  }
