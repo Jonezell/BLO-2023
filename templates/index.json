@@ -146,7 +146,7 @@
         "image_ratio": "square",
         "columns_desktop": 5,
         "color_scheme": "",
-        "show_view_all": true,
+        "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 100,
