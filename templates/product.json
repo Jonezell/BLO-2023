@@ -24,7 +24,7 @@
           "type": "produdct-as-variants",
           "settings": {
             "label": "Options",
-            "style": "image",
+            "style": "swatch",
             "target_collection": "zip-rompers",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
