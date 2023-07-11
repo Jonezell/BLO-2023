@@ -126,12 +126,59 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "7f2ba396-b421-44a7-8ac9-529611c0153f": {
+      "type": "blo-africa",
+      "blocks": {
+        "template--16166779355305__7f2ba396-b421-44a7-8ac9-529611c0153f-168908674393111e5a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner"
+          }
+        },
+        "template--16166779355305__7f2ba396-b421-44a7-8ac9-529611c0153f-168908674393111e5a-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "template--16166779355305__7f2ba396-b421-44a7-8ac9-529611c0153f-168908674393111e5a-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16166779355305__7f2ba396-b421-44a7-8ac9-529611c0153f-168908674393111e5a-0",
+        "template--16166779355305__7f2ba396-b421-44a7-8ac9-529611c0153f-168908674393111e5a-1",
+        "template--16166779355305__7f2ba396-b421-44a7-8ac9-529611c0153f-168908674393111e5a-2"
+      ],
+      "settings": {
+      }
+    },
+    "df8aef45-6daf-43dd-af64-24a678001ba3": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "ff89b0a8-7e03-49ca-a54a-9cff08c5d7a6",
     "de916c71-b979-4c56-ab19-f192e2af4f26",
     "4b1165c6-b8a9-4249-a026-ac24d705f1f2",
-    "featured_collection"
+    "featured_collection",
+    "7f2ba396-b421-44a7-8ac9-529611c0153f",
+    "df8aef45-6daf-43dd-af64-24a678001ba3"
   ]
 }
