@@ -183,7 +183,7 @@
         "b57b9dfc-be08-472f-9b60-621e325bb54d"
       ],
       "settings": {
-        "include_margins": true
+        "include_margins": false
       }
     },
     "image-with-text": {
