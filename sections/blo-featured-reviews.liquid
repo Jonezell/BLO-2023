@@ -1,0 +1,107 @@
+{{ 'blo-sections.css' | asset_url | stylesheet_tag }}
+
+{% stylesheet %}
+  .blo-featured-reviews {
+    background: var(--blue-Green);
+  }
+  .blo-featured-reviews .page-width {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 50px;
+  }
+
+  @media screen and (min-width: 750px) {
+
+  }
+{% endstylesheet %}
+
+{% render 'blo-edge-texture', pinDirection: 'top' %}
+{% render 'blo-edge-texture', pinDirection: 'bottom' %}
+
+<div class="page-width">
+  <div class="blo-featured-reviews-top">
+    {% render 'blo-five-stars', fill: '#234051' %}
+    <h2>Testing<h2>
+    <p>Testing<p>
+  </div>
+
+  <div class="blo-text-block {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when 'review' -%}
+            <div class="blo-featured-review-block">
+                {% render 'blo-five-stars', fill: '#234051' %}
+                <h6
+                    class="blo-text-block-title {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+                >
+                    {{ block.settings.review_title }}
+                </h6>
+
+                <div
+                    class="blo-text-block-text rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+                >
+                    <p>{{ block.settings.review_text }}</p>
+                </div>
+                <p>{{ block.settings.review_name }}</p>
+            </div>
+      {%- endcase -%}
+    {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "BLO Africa",
+  "tag": "section",
+  "class": "section blo-featured-reviews blo-edge-texture-wrapper",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+    "type": "text",
+    "id": "title",
+    "label": "Title"
+    },
+    {
+    "type": "inline_richtext",
+    "id": "text",
+    "label": "Text"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "review",
+      "limit": 3,
+      "settings": [
+        {
+        "type": "text",
+        "id": "review_title",
+        "label": "Review Title"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "review_text",
+          "label": "Review Text"
+        },
+        {
+            "type": "text",
+            "id": "review_name",
+            "label": "Reviewer's Name"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "BLO Africa"
+      
+    }
+  ]
+}
+{% endschema %}

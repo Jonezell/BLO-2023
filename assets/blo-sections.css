@@ -21,10 +21,11 @@
 .blo-text-block-text svg {
     width: 19px;
     height: 19px;
-    margin-top: 4px;
+    margin-top: 4px !important;
 }
 .blo-text-block-text p {
     margin-top: 0;
+    width: 100%;
 }
 .blo-text-block-buttons {
     margin-top: 10px;
