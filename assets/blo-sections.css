@@ -1,0 +1,41 @@
+/* -----------------------  BLO TEXT BLOCK  ----------------------- */
+
+.blo-text-block {
+    min-height: 400px;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.blo-text-block-title {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.blo-text-block-text {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+.blo-text-block-text svg {
+    width: 19px;
+    height: 19px;
+    margin-top: 4px;
+}
+.blo-text-block-text p {
+    margin-top: 0;
+}
+.blo-text-block-buttons {
+    margin-top: 10px;
+}
+
+.blo-text-block .badge {
+    display: inline-flex;
+    padding: 5px 12px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    background: var(--greyscale-black, #161616);
+    color: #fff;
+}

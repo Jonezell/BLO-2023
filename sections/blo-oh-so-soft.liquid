@@ -1,4 +1,4 @@
-{{ 'section-blo-soft.css' | asset_url | stylesheet_tag }}
+{{ 'blo-sections.css' | asset_url | stylesheet_tag }}
 
 {% render 'blo-edge-texture', pinDirection: 'top' %}
 {% render 'blo-edge-texture', pinDirection: 'bottom' %}
@@ -14,7 +14,7 @@
     {{ section.settings.image | image_url: width: 700 | image_tag: loading: 'lazy', class: 'blo-floating-image' }}
   </div>
 
-  <div class="blo-soft-text-wrapper {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+  <div class="blo-soft-text-wrapper blo-text-block {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when 'badge' -%}
@@ -25,20 +25,20 @@
           </div>
         {%- when 'heading' -%}
           <h2
-            class="blo-soft-title inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            class="blo-text-block-title inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
           >
             {{ block.settings.heading }}
           </h2>
         {%- when 'text' -%}
           <div
-            class="blo-soft-text rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            class="blo-text-block-text rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
           >
             {% render 'icon-checklist' %}
             <p>{{ block.settings.text }}</p>
           </div>
         {%- when 'buttons' -%}
           <div
-            class="blo-soft-buttons {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            class="blo-text-block-buttons {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
           >
             <a
               {% if block.settings.button_link == blank %}
@@ -55,6 +55,78 @@
     {%- endfor -%}
   </div>
 </div>
+
+{% stylesheet %}
+  .blo-oh-so-soft {
+    background: var(--tan-Medium);
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+  .blo-oh-so-soft .page-width {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    width: 100%;
+  }
+  .blo-soft-image-wrapper {
+    margin-left: -70px;
+    position: relative;
+  }
+  .blo-soft-image-wrapper img {
+    position: absolute;
+    width: 630px;
+    height: 630px;
+    transform: rotate(20.037deg);
+    left: 120px;
+    top: -74px;
+    filter: drop-shadow(0px 20px 24px rgba(0, 0, 0, 0.16));
+  }
+  .blo-soft-image-wrapper svg {
+    margin-bottom: -80px;
+  }
+  .blo-soft-image-wrapper svg path {
+    animation-name: svg-blinking;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    fill: none;
+    stroke: var(--tan-Dark);
+    stroke-width: 2px;
+  }
+  .blo-soft-image-wrapper svg path:nth-of-type(2) {
+    animation-delay: 1s;
+  }
+  .blo-soft-image-wrapper svg path:nth-of-type(3) {
+    animation-delay: 2s;
+  }
+  @keyframes svg-blinking {
+    0% {
+      fill: var(--tan-Dark);
+    }
+
+    100% {
+      fill: none;
+    }
+  }
+
+  @media screen and (max-width: 989px) {
+    .blo-oh-so-soft .page-width {
+      flex-direction: column;
+      display: flex;
+      width: 100%;
+      gap: 50px;
+    }
+  }
+  @media screen and (min-width: 990px) {
+    .blo-soft-image-wrapper {
+      padding-right: 180px;
+    }
+  }
+{% endstylesheet %}
 
 {% schema %}
 {
