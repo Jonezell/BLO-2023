@@ -1,0 +1,27 @@
+<div
+  class="custom-low-stock no-js-hidden{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
+  {{ block.shopify_attributes }}
+  id="Inventory-{{ section.id }}"
+  role="status"
+>
+  {%- if product.selected_or_first_available_variant.inventory_management == 'shopify' -%}
+    {%- if product.selected_or_first_available_variant.inventory_quantity > 0 -%}
+      {%- if product.selected_or_first_available_variant.inventory_quantity <= block.settings.inventory_threshold -%}
+        {% comment %} LOW STOCK MESSAGE {% endcomment %}
+        <h6>
+          {%- if block.settings.show_inventory_quantity -%}
+            Hurry, there's only {{ product.selected_or_first_available_variant.inventory_quantity }} left!
+          {%- else -%}
+            Hurry, there's only a few left!
+          {%- endif -%}
+        </h6>
+      {%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+</div>
+
+{% style %}
+  .custom-low-stock {
+    text-align: center;
+  }
+{% endstyle %}

@@ -445,7 +445,7 @@
                 PAV_hide_sold_out: block.settings.hide_sold_out
               %}
             {%- when 'custom-low-stock' -%}
-                {% render 'custom-low-stock', 
+                {% render 'blo-low-stock', 
                   block: block,
                   product: product
                 %} 
@@ -1918,8 +1918,35 @@
       ]
     },
     {
+      "type": "custom-low-stock",
+      "name": "BLO: Low Stock Alert",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "range",
+          "id": "inventory_threshold",
+          "label": "t:sections.main-product.blocks.inventory.settings.inventory_threshold.label",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "info": "Show a low stock message when less there is less than this amount avaliable",
+          "default": 20
+        },
+        {
+          "type": "checkbox",
+          "id": "show_inventory_quantity",
+          "label": "t:sections.main-product.blocks.inventory.settings.show_inventory_quantity.label",
+          "default": false
+        },
+        {
+          "type": "paragraph",
+          "content": "Please note, this block only shows when inventory below threshold. It will automatically hide when it is sold out (since button says sold out)"
+        }
+      ]
+    },
+    {
       "type": "produdct-as-variants",
-      "name": "Products As Variants",
+      "name": "BLO: Products As Variants",
       "settings": [
         {
           "type": "text",
