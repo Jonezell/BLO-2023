@@ -191,6 +191,34 @@
         "text": "Lorem ipsum dolor sit amet consectetur. Purus orci volutpat malesuada vel volutpat fames dictum ut fringilla."
       }
     },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best Sellers? Yeah, we got them.",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "top-sellers-1",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "7f2ba396-b421-44a7-8ac9-529611c0153f": {
       "type": "blo-africa",
       "blocks": {
@@ -222,22 +250,22 @@
       "settings": {
       }
     },
-    "featured_collection": {
+    "195f620b-7ce1-4b67-a6dd-a623cb29aece": {
       "type": "featured-collection",
       "settings": {
-        "title": "Best Sellers? Yeah, we got them.",
+        "title": "Shop New Releases",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "top-sellers-1",
-        "products_to_show": 8,
+        "collection": "new",
+        "products_to_show": 25,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
-        "color_scheme": "background-1",
+        "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -257,7 +285,8 @@
     "4b1165c6-b8a9-4249-a026-ac24d705f1f2",
     "f693b7ae-a969-4088-99a8-10a8092bacc9",
     "39a14b17-5c76-41f4-b440-d63a3f398506",
+    "featured_collection",
     "7f2ba396-b421-44a7-8ac9-529611c0153f",
-    "featured_collection"
+    "195f620b-7ce1-4b67-a6dd-a623cb29aece"
   ]
 }
