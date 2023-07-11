@@ -1,3 +1,44 @@
+{{ 'blo-sections.css' | asset_url | stylesheet_tag }}
+
+{% stylesheet %}
+  .blo-africa {
+    background: var(--tan-Medium);
+  }
+  .blo-africa .page-width {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 50px;
+  }
+  .blo-africa-image-wrapper {
+    width: 410px;
+  }
+  .blo-africa-image-wrapper svg {
+    margin-left: -57px;
+    width: 350px;
+    height: auto;
+  }
+  @media screen and (min-width: 750px) {
+    .blo-africa .page-width {
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 50px;
+      padding-top: 160px;
+      padding-bottom: 160px;
+    }
+    .blo-africa-image-wrapper svg {
+      width: 554px;
+      margin-left: -140px;
+    }
+    .blo-africa-image-wrapper {
+      width: 410px;
+    }
+  }
+{% endstylesheet %}
+
 {% render 'blo-edge-texture', pinDirection: 'top' %}
 {% render 'blo-edge-texture', pinDirection: 'bottom' %}
 
@@ -28,7 +69,6 @@
           <div
             class="blo-text-block-text rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
           >
-            {% render 'icon-checklist' %}
             <p>{{ block.settings.text }}</p>
           </div>
         {%- when 'buttons' -%}
@@ -50,9 +90,6 @@
     {%- endfor -%}
   </div>
 </div>
-
-{% stylesheet %}
-{% endstylesheet %}
 
 {% schema %}
 {
