@@ -8,15 +8,13 @@
           "settings": {
           }
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
+          "settings": {
+          }
+        },
+        "696a4332-a3f8-4333-a9dd-51ed29fd166f": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -25,7 +23,7 @@
           "settings": {
             "label": "Options",
             "style": "swatch",
-            "target_collection": "zip-rompers",
+            "target_collection": "toddler-beanies",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
@@ -138,8 +136,8 @@
       },
       "block_order": [
         "title",
-        "caption",
         "price",
+        "696a4332-a3f8-4333-a9dd-51ed29fd166f",
         "496b4226-e4d0-4584-a5ae-f630efc1661c",
         "variant_picker",
         "quantity_selector",
