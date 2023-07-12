@@ -33,8 +33,66 @@
         "image_mobile": "shopify:\/\/shop_images\/Banner-Mobile_fec90939-7a6f-46c9-9518-407eb24a1618.jpg"
       }
     },
+    "ee363dd5-1c44-4b82-b551-3972740be32c": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16166779355305__ee363dd5-1c44-4b82-b551-3972740be32c-16891948341722d1e1-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "zip-rompers"
+          }
+        },
+        "template--16166779355305__ee363dd5-1c44-4b82-b551-3972740be32c-16891948341722d1e1-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "two-piece-sets"
+          }
+        },
+        "template--16166779355305__ee363dd5-1c44-4b82-b551-3972740be32c-16891948341722d1e1-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shirts"
+          }
+        },
+        "e0f66208-4a9a-4a94-b382-b1b1cfa7971e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "womens"
+          }
+        },
+        "e8786353-c114-415a-9b2d-b8f2253c0af2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shop-all"
+          }
+        }
+      },
+      "block_order": [
+        "template--16166779355305__ee363dd5-1c44-4b82-b551-3972740be32c-16891948341722d1e1-0",
+        "template--16166779355305__ee363dd5-1c44-4b82-b551-3972740be32c-16891948341722d1e1-1",
+        "template--16166779355305__ee363dd5-1c44-4b82-b551-3972740be32c-16891948341722d1e1-2",
+        "e0f66208-4a9a-4a94-b382-b1b1cfa7971e",
+        "e8786353-c114-415a-9b2d-b8f2253c0af2"
+      ],
+      "custom_css": [
+        ".blo-collection-list-row-item {background: #efe8de;}"
+      ],
+      "settings": {
+        "title": "We got what you’re looking for.",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "de916c71-b979-4c56-ab19-f192e2af4f26": {
       "type": "blo-collection-list",
+      "disabled": true,
       "settings": {
         "title": "We got what you’re looking for."
       }
@@ -281,6 +339,7 @@
   },
   "order": [
     "ff89b0a8-7e03-49ca-a54a-9cff08c5d7a6",
+    "ee363dd5-1c44-4b82-b551-3972740be32c",
     "de916c71-b979-4c56-ab19-f192e2af4f26",
     "4b1165c6-b8a9-4249-a026-ac24d705f1f2",
     "f693b7ae-a969-4088-99a8-10a8092bacc9",
