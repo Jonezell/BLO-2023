@@ -12,11 +12,9 @@
       "type": "blo-collection-pills",
       "settings": {
         "collection_list": [
-          "shop-all",
-          "shop-all-toddler",
-          "shop-all-baby",
-          "womens",
-          "accessories"
+          "zip-rompers",
+          "zip-rompers-with-fold-over-feet",
+          "zip-rompers-without-fold-over-feet"
         ]
       }
     },
