@@ -79,7 +79,7 @@ H1, .h1,  div.h1.hero__title, h1>p, H2, .h2, H2>p, H3, .h3, h3>p {
   -webkit-font-smoothing: antialiased;
 }
 
-H4, .h4, h4>p, H5, .h5, h5>p, H6, .h6, button, .button, a.button, .grid-product__title, .announcement__text, form label, .cart__header-labels, .badge, .product-card-wrapper .card__information , footer .footer-block__heading, .toggle, .collection-list-wrapper .card__information h3, .jdgm-write-rev-link, .jdgm-paginate__load-more, .product .price__container, variant-radios .product-form__input label, .facets__summary, .product-count__text.text-body {
+H4, .h4, h4>p, H5, .h5, h5>p, H6, .h6, button, .button, a.button, .grid-product__title, .announcement__text, form label, .cart__header-labels, .badge, .product-card-wrapper .card__information , footer .footer-block__heading, .toggle, .collection-list-wrapper .card__information h3, .jdgm-write-rev-link, .jdgm-paginate__load-more, .product .price__container, variant-radios .product-form__input label, .facets__summary, .product-count__text.text-body, .mobile-facets__open {
 
   font-family: 'GothamRounded-Medium' !important;
   font-style: normal !important;
@@ -148,7 +148,7 @@ H3, .h3 {
 
 
 /* H4-H6 STYLES */
-H4, .h4, H5, .h5, H6, .h6, footer .footer-block__heading, .toggle, .collection-list-wrapper .card__information h3, .product .price__container, .facets-vertical .facets__summary, .product-count__text.text-body, .facet-filters__field .facet-filters__label, .facet-filters__field .facet-filters__sort {
+H4, .h4, H5, .h5, H6, .h6, footer .footer-block__heading, .toggle, .collection-list-wrapper .card__information h3, .product .price__container, .facets-vertical .facets__summary, .product-count__text.text-body, .facet-filters__field .facet-filters__label, .facet-filters__field .facet-filters__sort, .mobile-facets__open, .button, .button-label, .shopify-challenge__button, .customer button {
     font-size: 16px;
     line-height: 180%;
     letter-spacing: 0.32px;
@@ -616,9 +616,22 @@ facet-remove .active-facets__button--light .active-facets__button-inner:active {
 .facets-vertical-sort.page-width .facet-filters.sorting.caption {
     padding-left: 0;
 }
-.facets-vertical-sort.page-width .product-count__text.text-body {
+.facets-vertical-sort.page-width .product-count__text.text-body, 
+.mobile-facets__open {
     color: var(--greyscale-Black);
 }
 .product-count-vertical.light {
     opacity: 1;
+}
+
+@media screen and (max-width: 749px) {
+    .facets-wrapper {
+        border-top: 2px solid var(--greyscale-Black);
+        border-bottom: 2px solid var(--greyscale-Black);
+        padding: 20px 0;
+        margin-bottom: 30px;
+    }
+    .facets-wrapper .facets-container {
+        padding-top: 0;
+    }
 }
