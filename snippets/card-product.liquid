@@ -134,6 +134,13 @@
                 {{- 'products.product.on_sale' | t -}}
               </span>
             {%- endif -%}
+            {%- if card_product.metafields.custom.label != blank -%}
+              <span
+                class="badge badge--bottom-left blo-custom-product-badge color-{{ settings.sale_badge_color_scheme }}"
+              >
+                {{ card_product.metafields.custom.label }}
+              </span>
+            {%- endif -%}
           </div>
         </div>
       </div>

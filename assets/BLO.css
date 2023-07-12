@@ -79,7 +79,7 @@ H1, .h1,  div.h1.hero__title, h1>p, H2, .h2, H2>p, H3, .h3, h3>p {
   -webkit-font-smoothing: antialiased;
 }
 
-H4, .h4, h4>p, H5, .h5, h5>p, H6, .h6, button, .button, a.button, .grid-product__title, .announcement__text, form label, .cart__header-labels, .badge, .product-card-wrapper .card__information , footer .footer-block__heading, .toggle, .collection-list-wrapper .card__information h3, .jdgm-write-rev-link, .jdgm-paginate__load-more, .product .price__container, variant-radios .product-form__input label, .facets__summary, .product-count__text.text-body, .mobile-facets__open, .mega-menu__link.mega-menu__link--level-2, .header__menu-item.list-menu__item {
+H4, .h4, h4>p, H5, .h5, h5>p, H6, .h6, button, .button, a.button, .grid-product__title, .announcement__text, form label, .cart__header-labels, .badge, .product-card-wrapper .card__information , footer .footer-block__heading, .toggle, .collection-list-wrapper .card__information h3, .jdgm-write-rev-link, .jdgm-paginate__load-more, .product .price__container, variant-radios .product-form__input label, .facets__summary, .product-count__text.text-body, .mobile-facets__open, .mega-menu__link.mega-menu__link--level-2, .header__menu-item.list-menu__item, .menu-drawer .menu-drawer__menu-item, .mobile-facets .mobile-facets__summary  {
 
   font-family: 'GothamRounded-Medium' !important;
   font-style: normal !important;
@@ -87,7 +87,7 @@ H4, .h4, h4>p, H5, .h5, h5>p, H6, .h6, button, .button, a.button, .grid-product_
   -webkit-font-smoothing: antialiased;
 }
 
-body, p, form, input, textarea, select, .slide-nav__link, .slide-nav__sublist-link, .product-card-wrapper .card__information .price, footer .footer-block__details-content, .facets-vertical .facet-checkbox, .mega-menu__link {
+body, p, form, input, textarea, select, .slide-nav__link, .slide-nav__sublist-link, .product-card-wrapper .card__information .price, footer .footer-block__details-content, .facets-vertical .facet-checkbox, .mega-menu__link, .mobile-facets .mobile-facets__label {
 
   font-family: 'GothamRounded-Book' !important;
   font-style: normal !important;
@@ -150,7 +150,7 @@ H3, .h3 {
 
 /* H4-H6 AND BODY STYLES */
 H4, .h4, H5, .h5, H6, .h6, footer .footer-block__heading, .toggle, .collection-list-wrapper .card__information h3, .product .price__container, .facets-vertical .facets__summary, .product-count__text.text-body, .facet-filters__field .facet-filters__label, .facet-filters__field .facet-filters__sort, .mobile-facets__open, .button, .button-label, .shopify-challenge__button, .customer button,
-p, .p, footer .footer-block__details-content a, .facets-vertical .facet-checkbox, .facet-filters__field .facet-filters__sort, .mega-menu__link, .mega-menu__link--level-2, .mega-menu__content .mega-menu__link, .header__menu-item.list-menu__item {
+p, .p, footer .footer-block__details-content a, .facets-vertical .facet-checkbox, .facet-filters__field .facet-filters__sort, .mega-menu__link, .mega-menu__link--level-2, .mega-menu__content .mega-menu__link, .header__menu-item.list-menu__item, .menu-drawer .menu-drawer__menu-item, .mobile-facets .mobile-facets__summary, .mobile-facets .mobile-facets__label  {
     font-size: 16px;
     line-height: 180%;
     letter-spacing: 0.32px;
@@ -553,7 +553,8 @@ header .header__inline-menu {
 .facets-vertical .facet-checkbox .icon-checkmark {
     top: 1.45rem;
 }
-.facets-vertical .facet-checkbox > svg {
+.facets-vertical .facet-checkbox > svg, 
+.mobile-facets__label > svg {
     margin-top: 5px;;
 }
 facet-remove .active-facets__button--light .active-facets__button-inner {
@@ -638,4 +639,69 @@ facet-remove .active-facets__button--light .active-facets__button-inner:active {
 
 .blo-custom-sort .facet-filters.sorting {
     padding-left: 0;
+}
+.mobile-facets__heading, 
+.mobile-facets__count {
+    text-align: left;
+}
+
+
+
+
+
+
+
+/* CUSTOM MOBILE MENU */
+
+.menu-drawer .list-social{
+    display: none;
+}
+
+
+
+/* ---------- CUSTOM - ICON ADJUSTMENTS ---------- */
+
+svg.icon-accordion,
+svg.icon-account,
+svg.icon-arrow,
+svg.icon-caret,
+svg.icon-cart-empty,
+svg.icon-cart,
+svg.icon-checkmark,
+svg.icon-clipboard,
+svg.icon-close-small,
+svg.icon-close,
+svg.icon-discount,
+svg.icon-error,
+svg.icon-filter,
+svg.icon-hamburger,
+svg.icon-minus,
+svg.icon-padlock,
+svg.icon-pause,
+svg.icon-play,
+svg.icon-plus,
+svg.icon-remove,
+svg.icon-search,
+svg.icon-share,
+svg.icon-success,
+svg.icon-tick,
+svg.icon-unavailable,
+svg.icon-zoom {
+  stroke-width: 1;
+  stroke: currentColor;
+  stroke-linecap: round;
+}
+svg.icon {
+  overflow: visible;
+}
+
+
+
+/* CUSTOM PRODUCT CARD BADGE */
+.product-card-wrapper .card__badge {
+    display: flex;
+    gap: 5px;
+}
+.product-card-wrapper .card__badge .badge {
+    border: none;
 }
