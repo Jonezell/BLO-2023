@@ -8,27 +8,14 @@
           "settings": {
           }
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
           }
         },
-        "496b4226-e4d0-4584-a5ae-f630efc1661c": {
-          "type": "produdct-as-variants",
+        "cccb7607-3379-4e2a-85dd-63e8374f09fa": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "label": "Options",
-            "style": "swatch",
-            "target_collection": "zip-rompers",
-            "swatch_offset_Y": 50,
-            "swatch_offset_X": 50,
-            "hide_sold_out": true
           }
         },
         "variant_picker": {
@@ -82,6 +69,7 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Materials",
             "icon": "leather",
@@ -91,6 +79,7 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
@@ -100,6 +89,7 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
@@ -109,6 +99,7 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
@@ -138,9 +129,8 @@
       },
       "block_order": [
         "title",
-        "caption",
         "price",
-        "496b4226-e4d0-4584-a5ae-f630efc1661c",
+        "cccb7607-3379-4e2a-85dd-63e8374f09fa",
         "variant_picker",
         "quantity_selector",
         "14d206d1-bc58-4ca6-baa4-d38ba878182e",
@@ -199,7 +189,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Gentle enough for your newborn and durable enough for your older kids, our luxurious and buttery-soft bamboo will keep your little ones comfortable and stylish day and night. Our snug-fitting cozy pajamas are CPSC compliant and never treated with flame-retardants or chemicals.<\/p>",
+            "text": "<p>Gentle enough for your newborn and durable enough for your older kids, our luxurious and buttery-soft bamboo will keep your little ones comfortable and stylish day and night.<\/p>",
             "text_style": "body"
           }
         }
