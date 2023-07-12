@@ -100,3 +100,35 @@
       flex-direction: row;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------- CUSTOM STYLES ------------------- */
+
+.mega-menu__content {
+  border-bottom: 2px solid var(--tan-Medium);
+}
+.mega-menu__content .mega-menu__list {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-between;
+}
+.mega-menu__content .mega-menu__list li{
+  width: auto;
+  text-align: left;
+}
+
+.mega-menu__content .mega-menu__list .mega-menu__link {
+  padding: 5px 0;
+}
+.mega-menu__link {
+  color: var(--greyscale-Black, #161616);
+}
