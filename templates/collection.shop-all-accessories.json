@@ -12,11 +12,14 @@
       "type": "blo-collection-pills",
       "settings": {
         "collection_list": [
-          "shop-all",
-          "shop-all-toddler",
-          "shop-all-baby",
-          "womens",
-          "accessories"
+          "accessories",
+          "bows",
+          "infant-beanies",
+          "toddler-beanies",
+          "trucker-hats",
+          "briefs-underwear",
+          "blankets-loveys",
+          "backpacks"
         ]
       }
     },
