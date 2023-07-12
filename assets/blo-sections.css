@@ -134,3 +134,11 @@
       width: 100%;
     }
   }
+
+  .custom-image-and-text .product__accordion {
+    border-top: 2px solid var(--greyscale-black, #161616);
+    border-bottom: 2px solid var(--greyscale-black, #161616);
+  }
+  .custom-image-and-text .product__accordion + .product__accordion {
+    border-top: none;
+  }

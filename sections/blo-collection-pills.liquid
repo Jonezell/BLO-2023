@@ -1,0 +1,34 @@
+{{ 'component-accordion.css' | asset_url | stylesheet_tag }}
+{{ 'blo-sections.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+{%- endstyle -%}
+
+<div class="page-width ">
+  <div class="blo-collection-pills-container">
+    {%- for colleciton in section.settings.collection_list -%}
+      <a class="blo-collection-pill toggle" href="{{collection.url}}">
+        {{ collection.name }}
+      </a>
+    {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "BLO: Collection Pills",
+  "class": "section blo-collection-pills",
+  "settings": [
+    {
+      "type": "collection_list",
+      "id": "collection_list",
+      "label": "Collections"
+    }
+  ],
+  "presets": [
+    {
+      "name": "BLO: Collection Pills"
+    }
+  ]
+}
+{% endschema %}
