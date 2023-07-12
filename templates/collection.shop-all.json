@@ -8,6 +8,17 @@
         "color_scheme": "background-1"
       }
     },
+    "11d20f32-0dfd-4c1b-b66a-c4f0483024ec": {
+      "type": "blo-collection-pills",
+      "settings": {
+        "collection_list": [
+          "shop-all-toddler",
+          "shop-all-baby",
+          "womens",
+          "accessories"
+        ]
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -30,6 +41,7 @@
   },
   "order": [
     "banner",
+    "11d20f32-0dfd-4c1b-b66a-c4f0483024ec",
     "product-grid"
   ]
 }
