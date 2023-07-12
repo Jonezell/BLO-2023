@@ -12,6 +12,7 @@
       "type": "blo-collection-pills",
       "settings": {
         "collection_list": [
+          "shop-all",
           "shop-all-toddler",
           "shop-all-baby",
           "womens",
