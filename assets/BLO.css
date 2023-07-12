@@ -307,6 +307,8 @@ header .header__inline-menu {
     border-radius: 50px;
     background: var(--tan-medium, #EFE8DE);
     color:  var(--greyscale-black, #161616);
+    text-decoration: none;
+    white-space: nowrap;
 }
 .toggle:hover {
     opacity: .8;

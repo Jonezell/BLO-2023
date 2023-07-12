@@ -2,13 +2,34 @@
 {{ 'blo-sections.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
+  .section.blo-collection-pills {
+    margin-top: 5px;
+  }
+  .blo-collection-pills-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .blo-collection-pills-container {
+    display: inline-flex;
+    overflow-x: scroll;
+    padding: 0 30px;
+    justify-content: flex-start;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .blo-collection-pills-container::-webkit-scrollbar {
+    display: none;
+  }
 {%- endstyle -%}
 
-<div class="page-width ">
-  <div class="blo-collection-pills-container">
-    {%- for colleciton in section.settings.collection_list -%}
-      <a class="blo-collection-pill toggle" href="{{collection.url}}">
-        {{ collection.name }}
+<div class="blo-collection-pills-wrapper">
+  <div class="blo-collection-pills-container toggle-wrapper">
+    {%- for pill in section.settings.collection_list -%}
+      <a
+        class="blo-collection-pill toggle {% if collection.url == pill.url %}selected{% endif%}"
+        href="{{pill.url}}"
+      >
+        {{ pill.title }}
       </a>
     {%- endfor -%}
   </div>
