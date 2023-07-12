@@ -6,7 +6,7 @@
         "2cfdef60-096c-4b9c-91a4-d06026ee5fe6": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "{%- if product.metafields.custom.label != blank -%}\n\n<p class=\"eyebrow\" style=\"padding: 5px 14px; background: #191919; color: #fff; display: inline-block; border-radius: 20px;\">\n{{product.metafields.custom.label}}\n<\/p>\n\n{%- endif -%}"
           }
         },
         "title": {
@@ -19,12 +19,17 @@
           "settings": {
           }
         },
+        "88be7005-e01b-4bca-ace7-dd1b72230a1a": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
         "496b4226-e4d0-4584-a5ae-f630efc1661c": {
           "type": "produdct-as-variants",
           "settings": {
             "label": "Options",
-            "style": "swatch",
-            "target_collection": "zip-rompers",
+            "style": "image",
+            "target_collection": "backpacks",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
@@ -139,6 +144,7 @@
         "2cfdef60-096c-4b9c-91a4-d06026ee5fe6",
         "title",
         "price",
+        "88be7005-e01b-4bca-ace7-dd1b72230a1a",
         "496b4226-e4d0-4584-a5ae-f630efc1661c",
         "variant_picker",
         "quantity_selector",
