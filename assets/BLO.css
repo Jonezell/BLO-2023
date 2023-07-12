@@ -611,7 +611,9 @@ facet-remove .active-facets__button--light .active-facets__button-inner:active {
 .product-count-vertical.light {
     opacity: 1;
 }
-
+.section.blo-collection {
+    margin-top: 50px;
+}
 @media screen and (max-width: 749px) {
     .facets-wrapper {
         border-top: 2px solid var(--greyscale-Black);
@@ -622,4 +624,18 @@ facet-remove .active-facets__button--light .active-facets__button-inner:active {
     .facets-wrapper .facets-container {
         padding-top: 0;
     }
+    .section.blo-collection {
+        margin-top: 30px;
+    }
+}
+
+.blo-custom-sort {
+    border-top: 2px solid var(--greyscale-Black);
+    border-bottom: 2px solid var(--greyscale-Black);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.blo-custom-sort .facet-filters.sorting {
+    padding-left: 0;
 }
