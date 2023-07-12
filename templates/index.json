@@ -75,7 +75,7 @@
         "e8786353-c114-415a-9b2d-b8f2253c0af2"
       ],
       "custom_css": [
-        ".blo-collection-list-row-item {background: #efe8de;}"
+        ".collection-list__item .card--media {background: #efe8de; padding-top: 20px}"
       ],
       "settings": {
         "title": "We got what you’re looking for.",
