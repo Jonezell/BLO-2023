@@ -12,11 +12,19 @@
       "type": "blo-collection-pills",
       "settings": {
         "collection_list": [
-          "shop-all",
           "shop-all-toddler",
-          "shop-all-baby",
-          "womens",
-          "accessories"
+          "two-piece-sets",
+          "shorts-two-piece-set",
+          "shirts",
+          "tanks",
+          "pullovers",
+          "denim",
+          "swim-trunks",
+          "briefs-underwear",
+          "blankets-loveys",
+          "trucker-hats",
+          "toddler-beanies",
+          "backpacks"
         ]
       }
     },

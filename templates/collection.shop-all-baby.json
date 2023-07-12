@@ -12,11 +12,20 @@
       "type": "blo-collection-pills",
       "settings": {
         "collection_list": [
-          "shop-all",
-          "shop-all-toddler",
           "shop-all-baby",
-          "womens",
-          "accessories"
+          "zip-rompers",
+          "summer-zip-rompers",
+          "knotted-gowns",
+          "muslin-swaddles",
+          "stretchy-swaddle-sets",
+          "blankets-loveys",
+          "shirts",
+          "tanks",
+          "pullovers",
+          "swim-trunks",
+          "infant-beanies",
+          "trucker-hats",
+          "bows"
         ]
       }
     },
