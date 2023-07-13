@@ -109,38 +109,44 @@
         "template--16166779355305__4b1165c6-b8a9-4249-a026-ac24d705f1f2-1689022936c1d9d8ab-0": {
           "type": "heading",
           "settings": {
-            "heading": "So buttery soft and stretchy, you’ll wish you had a pair too."
+            "heading": "Say hello to pjs your littles will want to live in."
           }
         },
         "template--16166779355305__4b1165c6-b8a9-4249-a026-ac24d705f1f2-1689022936c1d9d8ab-1": {
           "type": "text",
           "settings": {
-            "text": "Made from ultra-soft & ultra-stretchy durable bamboo vicose"
+            "text": "Made from buttery soft Bamboo Viscose. Our luxurious material keeps your little one cozy, day and night."
           }
         },
         "00eeaad0-cf15-4fd1-8e37-cc6388cbf716": {
           "type": "text",
           "settings": {
-            "text": "CPSC compliant & never treated with flame-retardants or chemicals."
+            "text": "Our pjs offer the gentlest touch to your little ones skin, limiting irritation for sensitive skin."
           }
         },
         "eb83a54f-cd7b-4630-9a4f-b901130df674": {
           "type": "text",
           "settings": {
-            "text": "Temperature regulating to keep your little ones cool in the summer and warm in the winter"
+            "text": "Temperature regulating keeping your little one cool in summer and warm in winter."
           }
         },
         "3f67c4e8-7d8b-477a-9e66-a5f9956a39a8": {
           "type": "text",
           "settings": {
-            "text": "Soft non-irritating fabric perfect for sensitive skin"
+            "text": "Never treated with flame retardants or harsh chemicals."
+          }
+        },
+        "5379ebb7-8266-4575-aaab-6fd9f34a4180": {
+          "type": "text",
+          "settings": {
+            "text": "Our bamboo is OEKO-TEX certified and has been rigorously tested against a list of over 350 toxic chemicals."
           }
         },
         "template--16166779355305__4b1165c6-b8a9-4249-a026-ac24d705f1f2-1689022936c1d9d8ab-2": {
           "type": "buttons",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/blogs\/blog\/why-we-fell-in-love-with-bamboo"
           }
         }
       },
@@ -151,6 +157,7 @@
         "00eeaad0-cf15-4fd1-8e37-cc6388cbf716",
         "eb83a54f-cd7b-4630-9a4f-b901130df674",
         "3f67c4e8-7d8b-477a-9e66-a5f9956a39a8",
+        "5379ebb7-8266-4575-aaab-6fd9f34a4180",
         "template--16166779355305__4b1165c6-b8a9-4249-a026-ac24d705f1f2-1689022936c1d9d8ab-2"
       ],
       "settings": {
