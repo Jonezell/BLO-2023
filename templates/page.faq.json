@@ -2,13 +2,166 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "29ca002c-c36f-4d56-81f6-cd161a8ebf50": {
+      "type": "blo-faq",
+      "blocks": {
+        "template--16169361965225__29ca002c-c36f-4d56-81f6-cd161a8ebf50-1689257344322153c9-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "When will my order ship?",
+            "icon": "none",
+            "content": "<p>Orders are typically shipped within one to two business days (Monday- Friday). Orders are not shipped on weekends. During times of high order volume, please allow up to 5 business days for your order to ship. <\/p>",
+            "page": ""
+          }
+        },
+        "template--16169361965225__29ca002c-c36f-4d56-81f6-cd161a8ebf50-1689257344322153c9-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do you ship internationally?",
+            "icon": "none",
+            "content": "<p>We currently do not ship internationally.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16169361965225__29ca002c-c36f-4d56-81f6-cd161a8ebf50-1689257344322153c9-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What if my package is missing?",
+            "icon": "none",
+            "content": "<p>If you added <strong>Brave Little Ones Package Protection<\/strong> at checkout then do not worry! Our package protection offers peace of mind for all of your orders. If you added the insurance, your package is fully protected in the event that it is lost, damaged, or stolen. Exclusions apply.<\/p><p>See <a href=\"https:\/\/bravelittleones.com\/pages\/package-protection\" title=\"Brave Little Ones Package Insurance\">Brave Little Ones Package Protection Guarantee<\/a> for more.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16169361965225__29ca002c-c36f-4d56-81f6-cd161a8ebf50-1689257344322153c9-0",
+        "template--16169361965225__29ca002c-c36f-4d56-81f6-cd161a8ebf50-1689257344322153c9-1",
+        "template--16169361965225__29ca002c-c36f-4d56-81f6-cd161a8ebf50-1689257344322153c9-2"
+      ],
+      "settings": {
+        "background_color": "",
+        "texture_top": false,
+        "texture_bottom": false,
+        "mainHeading": "Shipping Policy",
+        "mainText": "<p>We offer FREE shipping on all United States orders over $40.<\/p>",
+        "layout": "image_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ff57ad06-0392-469d-81df-b52f4409a423": {
+      "type": "blo-faq",
+      "blocks": {
+        "940a9686-82db-43cd-93e1-dbf790f7b75f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I start an exchange?",
+            "icon": "none",
+            "content": "<p>We’re sorry your purchase didn’t work out. We allow exchanges within 30 days. All items applicable for exchange must be unwashed, unworn and in original condition. Product must have the original packaging with tags. A store credit will be issued within 3 days after return is received. $6.99 will be deducted from your store credit for the return shipping label. Please use a poly mailer or bubble envelope to return items. Additional fees may apply for returning items in large boxes.<br\/><br\/><a href=\"https:\/\/brave-little-ones.happyreturns.com\/\" target=\"_blank\" title=\"Start a Return\">Start a Return<\/a><\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "940a9686-82db-43cd-93e1-dbf790f7b75f"
+      ],
+      "settings": {
+        "background_color": "",
+        "texture_top": false,
+        "texture_bottom": false,
+        "mainHeading": "Returns and Exchanges",
+        "mainText": "<p>We’re sorry your purchase didn’t work out. We allow exchanges within 30 days. <\/p>",
+        "layout": "image_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "128d0c79-0e6d-4c62-9afc-b5ad92887ba1": {
+      "type": "blo-faq",
+      "blocks": {
+        "0d35b35d-58c9-42ff-87bd-4b7fcac43d75": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Our Guarantee",
+            "icon": "none",
+            "content": "<p>Brave Little Ones Package Protection offers you peace of mind and package protection for all of your orders. If you add insurance, your package is fully protected in the event that it is lost, damaged, or stolen.<\/p><p><strong>Our Brave Little Ones $0.98 Package Protection guarantees delivery on all orders placed within the United States.<\/strong><\/p><p>You are eligible to file a claim if any of the following criteria apply:<\/p><p>- Your package states delivered but has not been received, and it has been 5+ days since marked delivered.<\/p><p>- Your tracking\/package has not moved in 15+ days.<\/p><p>- Your product arrives damaged, you have 5 business days to file a claim. Pictures must be provided.<\/p><p>In the event that your Brave Little Ones package is lost, damaged, or stolen we will reship your items if they are in stock. If items are not in stock, we will issue you a shop credit for the amount of the original purchase.<\/p><p>If you’re eligible to file a Package Protection Claim, please email us at <a href=\"mailto:support@bravelittleones.com\">support@bravelittleones.com<\/a> with the following information:<\/p><p>Name (first & last)<\/p><p>Order number (6 digits found in your confirmation email)<\/p><p>Email address<\/p><p>Description of claim (lost, stolen or damaged)<\/p><p>Photo(s) if applicable<\/p><p> <\/p><p><strong>Exclusions:<\/strong><\/p><p>International deliveries<\/p><p>Products damaged by user error<\/p><p>Products destroyed by pets<\/p><p>Discolored\/stained products<\/p><p>Orders without proof of purchase from us or an approved retailer<\/p><p><em><strong>Please Note:<\/strong><\/em><em> Brave Little Ones reserves the right to reject replacements and compensation at any time. Claim assessments will take place on an individual basis. Abuse of services (multiple claims filed) will result in the removal of one’s purchasing privileges with Brave Little Ones LLC.<\/em><\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "0d35b35d-58c9-42ff-87bd-4b7fcac43d75"
+      ],
+      "settings": {
+        "background_color": "",
+        "texture_top": false,
+        "texture_bottom": false,
+        "mainHeading": "Package Protection",
+        "mainText": "<p>Our Brave Little Ones $0.98 Package Protection guarantees delivery on all orders placed within the United States.<\/p>",
+        "layout": "image_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "33ff1203-bdab-4b14-b3d2-a387ec6158b4": {
+      "type": "blo-faq",
+      "blocks": {
+        "a36460c9-0278-4635-90e0-3039aea9070a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Size Chart",
+            "icon": "none",
+            "content": "<p>Need sizing help? <a href=\"https:\/\/bravelittleones.com\/pages\/size-chart\" title=\"Size Chart\">See our size chart here<\/a>. <\/p><p><em>Our zip rompers fit true to size. It is recommended to size up one size in two-piece sets for longer wear.<\/em><\/p>",
+            "page": ""
+          }
+        },
+        "5289b914-dd4f-49b1-9b9e-892e3800b03c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do your product sizing run?",
+            "icon": "none",
+            "content": "<p>Our zip rompers fit true to size. <\/p><p>It is recommended to size up one size in two-piece sets for longer wear.<\/p>",
+            "page": ""
+          }
+        },
+        "955e567e-2bcf-45b9-88e3-550f98820a68": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What is my little one is in between sizes?",
+            "icon": "none",
+            "content": "<p>If your little one is in-between sizes, we always go by the weight section on our <a href=\"https:\/\/bravelittleones.com\/pages\/size-chart\" title=\"Size Chart\">size chart<\/a>. <\/p><p>If you little one is at the end of that weight we recommend sizing up.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "a36460c9-0278-4635-90e0-3039aea9070a",
+        "5289b914-dd4f-49b1-9b9e-892e3800b03c",
+        "955e567e-2bcf-45b9-88e3-550f98820a68"
+      ],
+      "settings": {
+        "background_color": "",
+        "texture_top": false,
+        "texture_bottom": false,
+        "mainHeading": "Sizing Help",
+        "mainText": "<p>Our Brave Little Ones $0.98 Package Protection guarantees delivery on all orders placed within the United States.<\/p>",
+        "layout": "image_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "29ca002c-c36f-4d56-81f6-cd161a8ebf50",
+    "ff57ad06-0392-469d-81df-b52f4409a423",
+    "128d0c79-0e6d-4c62-9afc-b5ad92887ba1",
+    "33ff1203-bdab-4b14-b3d2-a387ec6158b4"
   ]
 }
