@@ -21,7 +21,7 @@
         "496b4226-e4d0-4584-a5ae-f630efc1661c": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Options",
+            "label": "Style",
             "style": "swatch",
             "target_collection": "two-piece-sets",
             "swatch_offset_Y": 25,
