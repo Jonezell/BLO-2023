@@ -8,25 +8,69 @@
         "color_scheme": "background-1"
       }
     },
-    "11d20f32-0dfd-4c1b-b66a-c4f0483024ec": {
+    "f1236ce5-9d12-4ab3-88f1-189504cba15d": {
       "type": "blo-collection-pills",
+      "blocks": {
+        "3922c1d0-59a5-4e40-9892-60be247b5912": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/shop-all-baby",
+            "linktext": "All"
+          }
+        },
+        "23d3e84a-774f-48b6-ae8f-562e457ed6d9": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/zip-rompers",
+            "linktext": "Zip Romper"
+          }
+        },
+        "38b70655-75b5-47c5-8402-0095d2fa5a05": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/knotted-gowns",
+            "linktext": "Knotted Gowns"
+          }
+        },
+        "c7c164aa-733c-4fd8-9551-b22f9c990cae": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/muslin-swaddles",
+            "linktext": "Muslin Swaddles"
+          }
+        },
+        "7de62096-67ef-4463-8b35-5794f89819c4": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/stretchy-swaddle-sets",
+            "linktext": "Swaddle Sets"
+          }
+        },
+        "9a6cda47-abdf-43b6-bbd0-4934b74ea29e": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/tops",
+            "linktext": "Tops"
+          }
+        },
+        "08b3314a-1469-465e-906b-eabfb9ddb82e": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/bottoms",
+            "linktext": "Bottoms"
+          }
+        }
+      },
+      "block_order": [
+        "3922c1d0-59a5-4e40-9892-60be247b5912",
+        "23d3e84a-774f-48b6-ae8f-562e457ed6d9",
+        "38b70655-75b5-47c5-8402-0095d2fa5a05",
+        "c7c164aa-733c-4fd8-9551-b22f9c990cae",
+        "7de62096-67ef-4463-8b35-5794f89819c4",
+        "9a6cda47-abdf-43b6-bbd0-4934b74ea29e",
+        "08b3314a-1469-465e-906b-eabfb9ddb82e"
+      ],
       "settings": {
-        "collection_list": [
-          "shop-all-baby",
-          "zip-rompers",
-          "summer-zip-rompers",
-          "knotted-gowns",
-          "muslin-swaddles",
-          "stretchy-swaddle-sets",
-          "blankets-loveys",
-          "shirts",
-          "tanks",
-          "pullovers",
-          "swim-trunks",
-          "infant-beanies",
-          "trucker-hats",
-          "bows"
-        ]
       }
     },
     "product-grid": {
@@ -51,7 +95,7 @@
   },
   "order": [
     "banner",
-    "11d20f32-0dfd-4c1b-b66a-c4f0483024ec",
+    "f1236ce5-9d12-4ab3-88f1-189504cba15d",
     "product-grid"
   ]
 }
