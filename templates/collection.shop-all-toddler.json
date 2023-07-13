@@ -38,13 +38,37 @@
             "linkurl": "shopify:\/\/collections\/shirts",
             "linktext": "Shirts"
           }
+        },
+        "bed93f4f-df10-456b-ac64-e625a9bd569e": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/tanks",
+            "linktext": "Tanks"
+          }
+        },
+        "935d152d-e76b-41a6-95f9-1b60cf498497": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/pullovers",
+            "linktext": "Pullovers"
+          }
+        },
+        "786bafd5-04e4-4263-b404-7fe4d3a57b2e": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/denim",
+            "linktext": "Jackets"
+          }
         }
       },
       "block_order": [
         "c7403c74-bc41-4a26-823f-d207c3c66ce5",
         "06cbbc59-d1ca-4ea9-9e13-e589d26a9257",
         "ce317e5e-870e-41bf-a460-b0fd9a4657bd",
-        "6bfd07ee-031a-4a56-9f00-117c1b95dedd"
+        "6bfd07ee-031a-4a56-9f00-117c1b95dedd",
+        "bed93f4f-df10-456b-ac64-e625a9bd569e",
+        "935d152d-e76b-41a6-95f9-1b60cf498497",
+        "786bafd5-04e4-4263-b404-7fe4d3a57b2e"
       ],
       "settings": {
       }
