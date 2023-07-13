@@ -8,24 +8,22 @@
           "settings": {
           }
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
+          "settings": {
+          }
+        },
+        "f9fb3a43-9558-41ef-97a5-ed8415ca03b0": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
         "496b4226-e4d0-4584-a5ae-f630efc1661c": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Options",
-            "style": "swatch",
-            "target_collection": "zip-rompers",
+            "label": "Style",
+            "style": "image",
+            "target_collection": "pullovers",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
@@ -138,8 +136,8 @@
       },
       "block_order": [
         "title",
-        "caption",
         "price",
+        "f9fb3a43-9558-41ef-97a5-ed8415ca03b0",
         "496b4226-e4d0-4584-a5ae-f630efc1661c",
         "variant_picker",
         "quantity_selector",
