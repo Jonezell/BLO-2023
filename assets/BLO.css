@@ -719,3 +719,32 @@ svg.icon {
    display: inline-block; 
    border-radius: 20px;
 }
+
+
+
+
+
+/* BLO COLLECTION STYLE PAGE */
+
+.blo-collection-list {
+
+}
+.blo-collection-list .collection-list__item {
+    background: #fff;
+    border-radius: var(--blo-corner-radius);
+    overflow: hidden;
+}
+.blo-style-collection-tile {
+    width: 100%;
+    text-decoration: none;
+}
+.blo-style-collection-tile h6 {
+    padding: 20px;
+    text-decoration: none;
+    margin: 0;
+}
+.blo-style-collection-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
