@@ -159,7 +159,7 @@ p, .p, footer .footer-block__details-content a, .facets-vertical .facet-checkbox
 
 /* EYEBROW STYLES */
 
-.eyebrow, th, p.announcement-bar__message.h5, .badge, .product .form__label {
+.eyebrow, th, p.announcement-bar__message.h5, .badge, .product .form__label, cart-drawer .free_shipping_card_title_clk1hm7264194051ouy4kiwfuy5.h2{
   font-family: 'GothamRounded-Bold' !important;
   font-style: normal !important;
   font-weight: 400 !important;
@@ -758,4 +758,48 @@ svg.icon {
 /* MAIN PAGE TEMPLATE ADJUSTMENTS */
 .main-page-title.page-title.h2 {
     text-align: center;
+}
+
+
+
+
+
+/* CUSTOM CART DRAWER STYLING */
+cart-drawer.drawer {
+    background: rgba(0,0,0,.2);
+}
+cart-drawer .drawer__inner {
+    padding: 0;
+}
+@media screen and (min-width: 750px) {
+    cart-drawer .drawer__inner {
+        width: 50rem;
+    }
+}
+cart-drawer .drawer__header, 
+cart-drawer .drawer__contents, 
+cart-drawer .drawer__footer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+cart-drawer .drawer__close {
+    right: 10px;
+}
+cart-drawer .drawer__close svg {
+    height: 1.6rem;
+    width: 1.6rem
+}
+cart-drawer .totals__subtotal-value {
+    font-size: 16px;
+}
+cart-drawer.drawer .tax-note {
+    text-align: center;
+}
+
+.free_shipping_card_wrapper_clk1hm7264194051ouy4kiwfuy5 {
+
+}
+
+.free_shipping_card_title_clk1hm7264194051ouy4kiwfuy5.h2{
+
 }

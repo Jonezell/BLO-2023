@@ -27,7 +27,7 @@
         <div class="drawer__inner-empty">
           <div class="cart-drawer__warnings center{% if settings.cart_drawer_collection != blank %} cart-drawer__warnings--has-collection{% endif %}">
             <div class="cart-drawer__empty-content">
-              <h2 class="cart__empty-text">{{ 'sections.cart.empty' | t }}</h2>
+              <h2 class="cart__empty-text h3">{{ 'sections.cart.empty' | t }}</h2>
               <button
                 class="drawer__close"
                 type="button"
@@ -56,7 +56,7 @@
         </div>
       {%- endif -%}
       <div class="drawer__header">
-        <h2 class="drawer__heading">{{ 'sections.cart.title' | t }}</h2>
+        <h2 class="drawer__heading h3">{{ 'sections.cart.title' | t }}</h2>
         <button
           class="drawer__close"
           type="button"
@@ -66,6 +66,7 @@
           {% render 'icon-close' %}
         </button>
       </div>
+
       <cart-drawer-items
         {% if cart == empty %}
           class=" is-empty"
@@ -351,6 +352,12 @@
         </form>
       </cart-drawer-items>
       <div class="drawer__footer">
+        {% comment %} CUSTOM B2B LOGIC {% endcomment %}
+        {%- if customer.b2b? -%}
+          {% render 'blo-custom-b2b-cart', cart: cart, block: block, location: 'drawer' %}
+        {%- endif -%}
+        {% comment %} END CUSTOM B2B LOGIC {% endcomment %}
+
         {%- if settings.show_cart_note -%}
           <details id="Details-CartDrawer">
             <summary>
@@ -376,8 +383,8 @@
 
         <div class="cart-drawer__footer" {{ block.shopify_attributes }}>
           <div class="totals" role="status">
-            <h2 class="totals__subtotal">{{ 'sections.cart.subtotal' | t }}</h2>
-            <p class="totals__subtotal-value">{{ cart.total_price | money_with_currency }}</p>
+            <h6 class="totals__subtotal">{{ 'sections.cart.subtotal' | t }}</h6>
+            <h6 class="totals__subtotal-value">{{ cart.total_price | money_with_currency }}</h6>
           </div>
 
           <div>

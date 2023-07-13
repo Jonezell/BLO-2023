@@ -1,0 +1,105 @@
+{% comment %} NOTE THIS ONLY SHOWS FOR B2B CUSTOMERS {% endcomment %}
+
+Location: {{ location }}
+
+{%- if customer.b2b? -%}
+  <div class="b2b-min-note" id="b2b-min-note-{{ location }}">
+    <p class="b2b-cart-note">
+      Our wholesale order minimum is $600. Please add more products to your cart to meet the minimum requirement.
+    </p>
+  </div>
+
+  {%- if location == 'drawer' -%}
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        function checkConditions() {
+          console.log('Fired');
+
+          var subtotalElement = document.querySelector('.cart-drawer__footer .totals__subtotal-value');
+          var subtotalContent = subtotalElement ? subtotalElement.textContent.trim() : '';
+          var subtotalValue = parseFloat(subtotalContent.replace(/[^0-9.-]+/g, ''));
+
+          if (subtotalValue < 600) {
+            document.querySelector('#CartDrawer-Checkout').classList.add('hidden');
+            document.querySelector('#b2b-min-note-drawer').classList.remove('hidden');
+          } else {
+            document.querySelector('#CartDrawer-Checkout').classList.remove('hidden');
+            document.querySelector('#b2b-min-note-drawer').classList.add('hidden');
+          }
+          console.log(subtotalContent);
+          console.log('yes');
+        }
+
+        // Run the initial check
+        checkConditions();
+
+        let containingElement = document.querySelector('.drawer__inner');
+        document.body.addEventListener('click', function (event) {
+          if (containingElement.contains(event.target)) {
+            checkConditions();
+          }
+        });
+      });
+    </script>
+
+  {%- else -%}
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          // Function to check customer.b2b? and .totals__subtotal content
+
+
+          function checkConditions() {
+
+
+              var subtotalElement = document.querySelector('.cart__footer-wrapper .totals__subtotal-value');
+              var subtotalContent = subtotalElement ? subtotalElement.textContent.trim() : '';
+              var subtotalValue = parseFloat(subtotalContent.replace(/[^0-9.-]+/g,""));
+
+
+            console.log(subtotalElement);
+            console.log("yes");
+
+
+              if (subtotalValue < 600) {
+                  document.querySelector('#checkout').classList.add('hidden');
+                  document.querySelector('#b2b-min-note-page').classList.remove('hidden');
+              } else {
+                  document.querySelector('#checkout').classList.remove('hidden');
+                  document.querySelector('#b2b-min-note-page').classList.add('hidden');
+              };
+
+          }
+
+          // Run the initial check
+          checkConditions();
+
+          // Event listener for click events on any element
+          {% comment %} document.addEventListener('click', function() {
+          setTimeout(function() {
+              checkConditions();
+          }, 1500);
+          }); {% endcomment %}
+
+          // Event listener for class changes on .cart__items element
+          var cartItemsElement = document.querySelector('.cart__items');
+          var observer = new MutationObserver(function() {
+              checkConditions();
+          });
+          observer.observe(cartItemsElement, { attributes: true, attributeFilter: ['class'] });
+      });
+    </script>
+  {%- endif -%}
+
+  <style>
+    .b2b-cart-note {
+      background-color: #fae8e8;
+      color: rgb(213, 69, 69);
+      padding: 20px 10px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .free_shipping_card_wrapper_clk1hm7264194051ouy4kiwfuy5 {
+      display: none !important;
+    }
+  </style>
+{%- endif -%}

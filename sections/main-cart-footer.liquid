@@ -90,6 +90,11 @@
         <div id="cart-errors"></div>
       </div>
     </div>
+    {% comment %} CUSTOM B2B LOGIC {% endcomment %}
+    {%- if customer.b2b? -%}
+      {% render 'blo-custom-b2b-cart', cart: cart, block: block, location: 'page' %}
+    {%- endif -%}
+    {% comment %} END CUSTOM B2B LOGIC {% endcomment %}
   </div>
 </div>
 
