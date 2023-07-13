@@ -8,15 +8,13 @@
           "settings": {
           }
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
+          "settings": {
+          }
+        },
+        "f373451d-82c3-48c0-84d9-f5a1f5e6f2bd": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -25,9 +23,9 @@
           "settings": {
             "label": "Options",
             "style": "swatch",
-            "target_collection": "zip-rompers",
+            "target_collection": "bows",
             "swatch_offset_Y": 50,
-            "swatch_offset_X": 50,
+            "swatch_offset_X": 35,
             "hide_sold_out": true
           }
         },
@@ -80,39 +78,12 @@
           "settings": {
           }
         },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
+            "icon": "washing",
+            "content": "<p>Hand Wash \/ Spot Clean Only.<\/p>",
             "page": ""
           }
         },
@@ -138,8 +109,8 @@
       },
       "block_order": [
         "title",
-        "caption",
         "price",
+        "f373451d-82c3-48c0-84d9-f5a1f5e6f2bd",
         "496b4226-e4d0-4584-a5ae-f630efc1661c",
         "variant_picker",
         "quantity_selector",
@@ -148,9 +119,6 @@
         "d32cf3ff-3cf1-42b1-95be-fd31a14eefc2",
         "4620763d-b34b-4ded-a857-504751a5f38d",
         "description",
-        "collapsible-row-0",
-        "collapsible-row-1",
-        "collapsible-row-2",
         "collapsible-row-3",
         "85d7636a-745b-4ef8-a7d8-e26226d2518f",
         "share"
@@ -192,14 +160,14 @@
         "image-with-text-0": {
           "type": "heading",
           "settings": {
-            "heading": "Buttery Soft, Ultra Stretchy Bamboo Fabric",
+            "heading": "Cute, Stretchy Bows",
             "heading_size": "h2"
           }
         },
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Gentle enough for your newborn and durable enough for your older kids, our luxurious and buttery-soft bamboo will keep your little ones comfortable and stylish day and night. Our snug-fitting cozy pajamas are CPSC compliant and never treated with flame-retardants or chemicals.<\/p>",
+            "text": "<p>Our stylish bows are made from the same super soft and stretchy Bamboo Viscose material we're most known for. Pair a matching bow with our Knotted Gowns, Zip Rompers & Stretchy Swaddles to add a girly touch!<\/p>",
             "text_style": "body"
           }
         }
@@ -209,18 +177,33 @@
         "image-with-text-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-7_fc00063c-73f9-49d6-b957-618e74110a92.jpg",
+        "image": "shopify:\/\/shop_images\/Bow.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "image_behavior": "zoom-in",
         "mobile_content_alignment": "left",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "8b19f664-29f4-413b-81c4-ba5f4340c45e": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/Brave Knotted - Revised.mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85": {
@@ -293,6 +276,7 @@
     "main",
     "1689095601e7facfa4",
     "image-with-text",
+    "8b19f664-29f4-413b-81c4-ba5f4340c45e",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
     "related-products"
   ]
