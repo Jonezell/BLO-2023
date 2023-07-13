@@ -221,6 +221,169 @@
         "padding_bottom": 100
       }
     },
+    "64bf9eb5-785d-40f7-be20-214f5d799838": {
+      "type": "image-with-text",
+      "blocks": {
+        "1d4d039a-8e7b-4575-b08d-12c0645e4d78": {
+          "type": "heading",
+          "settings": {
+            "heading": "Convenient Two-Way Zippers",
+            "heading_size": "h2"
+          }
+        },
+        "ea128725-4d03-4fdd-9197-64b35db0ae15": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We know how tricky diaper changes can be, so we wanted to help. All of our rompers have a two-way zipper to make those middle of the night or on-the-go diaper changes quick and easy!<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1d4d039a-8e7b-4575-b08d-12c0645e4d78",
+        "ea128725-4d03-4fdd-9197-64b35db0ae15"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Zipper.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "3a76cf5f-b2de-4852-8878-0feb69807621": {
+      "type": "image-with-text",
+      "blocks": {
+        "0bd7fc96-e035-4b21-bc7c-28da2b95fede": {
+          "type": "heading",
+          "settings": {
+            "heading": "Soft and Stretchy Fold-Over Mittens",
+            "heading_size": "h2"
+          }
+        },
+        "44d4c3fb-5057-4338-be22-52d5b2e15f97": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our stretchy fold-over mittens not only keep your infant's hands warm, but keep them from scratching their delicate skin too. Fold-over mittens are available up to size 6-12M.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "0bd7fc96-e035-4b21-bc7c-28da2b95fede",
+        "44d4c3fb-5057-4338-be22-52d5b2e15f97"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mitten.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2b0041ed-0605-4862-8418-d682ae816f74": {
+      "type": "image-with-text",
+      "blocks": {
+        "42cce41a-fc96-4a74-937d-63930702ab53": {
+          "type": "heading",
+          "settings": {
+            "heading": "Soft and Stretchy Fold-Over Feet",
+            "heading_size": "h2"
+          }
+        },
+        "9f5e0cf8-a369-4452-b2bf-ce48b508bc45": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our newly released rompers now include fold-over feet to help keep your little ones cozy.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "42cce41a-fc96-4a74-937d-63930702ab53",
+        "9f5e0cf8-a369-4452-b2bf-ce48b508bc45"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Feet.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "3b3682f3-ae42-41b2-b100-e9b23a0c6039": {
+      "type": "image-with-text",
+      "blocks": {
+        "b5b45db7-ad85-46f7-a926-5a58afb7189f": {
+          "type": "heading",
+          "settings": {
+            "heading": "Comfortable Tagless Labels",
+            "heading_size": "h2"
+          }
+        },
+        "3729c394-0d08-4814-9051-0c4954105e3f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "b5b45db7-ad85-46f7-a926-5a58afb7189f",
+        "3729c394-0d08-4814-9051-0c4954105e3f"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Tagless-Romper.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "f6b72d8e-5509-4d9f-8ee0-2713e2650694": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/bravezipromperrevised.mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85": {
       "type": "blo-faq",
       "blocks": {
@@ -291,6 +454,11 @@
     "main",
     "1689095601e7facfa4",
     "image-with-text",
+    "64bf9eb5-785d-40f7-be20-214f5d799838",
+    "3a76cf5f-b2de-4852-8878-0feb69807621",
+    "2b0041ed-0605-4862-8418-d682ae816f74",
+    "3b3682f3-ae42-41b2-b100-e9b23a0c6039",
+    "f6b72d8e-5509-4d9f-8ee0-2713e2650694",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
     "related-products"
   ]
