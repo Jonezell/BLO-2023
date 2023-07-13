@@ -87,15 +87,6 @@
             "page": "size-chart-knotted-gowns"
           }
         },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
@@ -138,7 +129,6 @@
         "4620763d-b34b-4ded-a857-504751a5f38d",
         "description",
         "collapsible-row-0",
-        "collapsible-row-2",
         "collapsible-row-3",
         "85d7636a-745b-4ef8-a7d8-e26226d2518f",
         "share"
@@ -180,21 +170,29 @@
         "image-with-text-0": {
           "type": "heading",
           "settings": {
-            "heading": "Buttery Soft, Ultra Stretchy Bamboo Fabric",
+            "heading": "Buttery Soft Newborn Knotted Gowns",
             "heading_size": "h2"
           }
         },
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Gentle enough for your newborn and durable enough for your older kids, our luxurious and buttery-soft bamboo will keep your little ones comfortable and stylish day and night. Our snug-fitting cozy pajamas are CPSC compliant and never treated with flame-retardants or chemicals.<\/p>",
+            "text": "<p>These luxurious gowns are made from our signature buttery soft bamboo material in order to keep your newborn comfortable day and night. Our knotted gowns feature a functional knot, making diaper changes a breeze while keeping your little one's chest covered.<\/p>",
             "text_style": "body"
+          }
+        },
+        "cdfa3f5e-ef3d-45e2-9a1e-6a8e41928b27": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/blogs\/blog\/why-we-fell-in-love-with-bamboo"
           }
         }
       },
       "block_order": [
         "image-with-text-0",
-        "image-with-text-1"
+        "image-with-text-1",
+        "cdfa3f5e-ef3d-45e2-9a1e-6a8e41928b27"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-7_fc00063c-73f9-49d6-b957-618e74110a92.jpg",
@@ -208,7 +206,96 @@
         "image_behavior": "zoom-in",
         "mobile_content_alignment": "left",
         "padding_top": 100,
-        "padding_bottom": 100
+        "padding_bottom": 0
+      }
+    },
+    "1d11c832-46f0-44e9-a0bf-eac81e9d064a": {
+      "type": "image-with-text",
+      "blocks": {
+        "6ff1641d-8679-4374-92f4-864db7174a67": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fold-Over Mittens",
+            "heading_size": "h2"
+          }
+        },
+        "9aef39e2-26f8-4570-b384-64f3e0624353": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our stretchy fold-over mittens not only keep your infant's hands warm, but keep them from scratching their delicate skin too.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "6ff1641d-8679-4374-92f4-864db7174a67",
+        "9aef39e2-26f8-4570-b384-64f3e0624353"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mitten.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "8ba250b3-2245-44f3-8ff0-f48f7cbd33a8": {
+      "type": "image-with-text",
+      "blocks": {
+        "dccd587b-702c-449e-84de-4b0f647b34b9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Comfortable Tagless Labels",
+            "heading_size": "h2"
+          }
+        },
+        "e7f22dfc-d043-4f08-bfe3-b567dc8e046c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "dccd587b-702c-449e-84de-4b0f647b34b9",
+        "e7f22dfc-d043-4f08-bfe3-b567dc8e046c"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Tagless-gown_6c11bd6d-fe0c-476a-b906-292798758728.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "f5686f00-de88-436c-9fd8-39a79c159bbe": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/Brave Knotted - Revised.mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85": {
@@ -281,6 +368,9 @@
     "main",
     "1689095601e7facfa4",
     "image-with-text",
+    "1d11c832-46f0-44e9-a0bf-eac81e9d064a",
+    "8ba250b3-2245-44f3-8ff0-f48f7cbd33a8",
+    "f5686f00-de88-436c-9fd8-39a79c159bbe",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
     "related-products"
   ]
