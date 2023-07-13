@@ -209,6 +209,58 @@
         "padding_bottom": 100
       }
     },
+    "7589c9df-82ac-4236-b1f8-b07a10fb4c45": {
+      "type": "image-with-text",
+      "blocks": {
+        "e138fab3-ee6b-4663-9da0-f477e69429e2": {
+          "type": "heading",
+          "settings": {
+            "heading": "Comfortable Tagless Labels",
+            "heading_size": "h2"
+          }
+        },
+        "3055241c-0abb-43cd-b32b-f0c82cbb0018": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "e138fab3-ee6b-4663-9da0-f477e69429e2",
+        "3055241c-0abb-43cd-b32b-f0c82cbb0018"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Tagless-set_e812ee54-ffd7-41fc-9a6a-a241f8b00c20.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "25c005c2-3687-4fe5-b4cf-c3a12de8acaa": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/Brave 2 piece.mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85": {
       "type": "blo-faq",
       "blocks": {
@@ -279,6 +331,8 @@
     "main",
     "1689095601e7facfa4",
     "image-with-text",
+    "7589c9df-82ac-4236-b1f8-b07a10fb4c45",
+    "25c005c2-3687-4fe5-b4cf-c3a12de8acaa",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
     "related-products"
   ]
