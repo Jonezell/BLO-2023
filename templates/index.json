@@ -160,18 +160,6 @@
     "f8984855-9525-4334-88ac-f4e6f241f447": {
       "type": "blo-find-your-favorite",
       "blocks": {
-        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "blue-bees"
-          }
-        },
-        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "blue-triangles"
-          }
-        },
         "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-2": {
           "type": "featured_collection",
           "settings": {
@@ -184,6 +172,18 @@
             "collection": "cream-floral"
           }
         },
+        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "blue-bees"
+          }
+        },
+        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "blue-triangles"
+          }
+        },
         "19bcaa4e-45bd-4a73-910b-a4328600a1ac": {
           "type": "featured_collection",
           "settings": {
@@ -192,10 +192,10 @@
         }
       },
       "block_order": [
-        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-0",
-        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-1",
         "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-2",
         "f1a9d6de-1d02-4f66-bac5-19636ffa6e75",
+        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-0",
+        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-1",
         "19bcaa4e-45bd-4a73-910b-a4328600a1ac"
       ],
       "settings": {
