@@ -67,13 +67,6 @@
             "linktext": "Pullovers"
           }
         },
-        "c7592f94-6edc-46c0-8c8b-905d7d102745": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/collections\/briefs-underwear",
-            "linktext": "Briefs & Underwear"
-          }
-        },
         "07f8856b-a0f3-42e0-952d-a9cc78d40a67": {
           "type": "link",
           "settings": {
@@ -81,11 +74,25 @@
             "linktext": "Denim"
           }
         },
+        "c7592f94-6edc-46c0-8c8b-905d7d102745": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/briefs-underwear",
+            "linktext": "Briefs & Underwear"
+          }
+        },
         "ea92a351-84ad-4cdf-b974-a24167992bcd": {
           "type": "link",
           "settings": {
             "linkurl": "shopify:\/\/collections\/swim-trunks",
             "linktext": "Swim Trunks"
+          }
+        },
+        "8b8a8e1e-7198-453c-96d0-26e653a9eae4": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/summer-zip-rompers",
+            "linktext": "Summer Zip Rompers"
           }
         }
       },
@@ -98,9 +105,10 @@
         "9a6cda47-abdf-43b6-bbd0-4934b74ea29e",
         "a6e02faa-9c87-407d-9eea-2c4dbf24f50a",
         "08b3314a-1469-465e-906b-eabfb9ddb82e",
-        "c7592f94-6edc-46c0-8c8b-905d7d102745",
         "07f8856b-a0f3-42e0-952d-a9cc78d40a67",
-        "ea92a351-84ad-4cdf-b974-a24167992bcd"
+        "c7592f94-6edc-46c0-8c8b-905d7d102745",
+        "ea92a351-84ad-4cdf-b974-a24167992bcd",
+        "8b8a8e1e-7198-453c-96d0-26e653a9eae4"
       ],
       "settings": {
       }
