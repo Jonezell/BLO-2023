@@ -72,11 +72,18 @@
 
 
         {% comment %} CUSTOM CODE {% endcomment %}
-          {%- if product.metafields.custom.label != blank -%}
-            <p class="blo-product-badge eyebrow" style="padding: 5px 14px; background: #191919; color: #fff; display: inline-block; border-radius: 20px;">
-            {{product.metafields.custom.label}}
+        <div class="blo-product-badge-container">
+          {%- if product.template_suffix == 'rompers-foldover' -%}
+            <p class="blo-product-badge eyebrow" >
+              Fold-Over Feet
             </p>
           {%- endif -%}
+          {%- if product.metafields.custom.label != blank -%}
+            <p class="blo-product-badge eyebrow">
+              {{product.metafields.custom.label}}
+            </p>
+          {%- endif -%}
+        </div>
 
         {% comment %} END CUSTOM CODE {% endcomment %}
 

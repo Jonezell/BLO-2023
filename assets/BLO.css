@@ -705,3 +705,17 @@ svg.icon {
 .product-card-wrapper .card__badge .badge {
     border: none;
 }
+
+/* CUSTOM PRODUCT PAGE BADGE */
+
+.blo-product-badge-container {
+    display: flex;
+    gap: 8px;
+}
+.blo-product-badge {
+   padding: 5px 14px; 
+   background: var(--tan-Dark);
+   color: var(--greyscale-Black); 
+   display: inline-block; 
+   border-radius: 20px;
+}
