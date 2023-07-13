@@ -8,16 +8,53 @@
         "color_scheme": "background-1"
       }
     },
-    "11d20f32-0dfd-4c1b-b66a-c4f0483024ec": {
+    "0a4a408e-c3d2-4720-aec7-422e60b6c7c8": {
       "type": "blo-collection-pills",
+      "blocks": {
+        "7a33aa6d-4a07-4a78-91ad-c625daa84f7a": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/shop-all",
+            "linktext": "All"
+          }
+        },
+        "8ec20306-3298-44fb-ad08-6f9cb6de3791": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/shop-all-baby",
+            "linktext": "Shop Baby"
+          }
+        },
+        "9a2e0d4a-49fc-42a7-b0f9-05e71a33323a": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/shop-all-toddler",
+            "linktext": "Shop Toddler"
+          }
+        },
+        "ce642108-7d0a-4637-af81-5f2ec0709f31": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/womens",
+            "linktext": "Shop Womens"
+          }
+        },
+        "107ac8d3-142c-472c-a4aa-f026b296cd46": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/accessories",
+            "linktext": "Shop Accessories"
+          }
+        }
+      },
+      "block_order": [
+        "7a33aa6d-4a07-4a78-91ad-c625daa84f7a",
+        "8ec20306-3298-44fb-ad08-6f9cb6de3791",
+        "9a2e0d4a-49fc-42a7-b0f9-05e71a33323a",
+        "ce642108-7d0a-4637-af81-5f2ec0709f31",
+        "107ac8d3-142c-472c-a4aa-f026b296cd46"
+      ],
       "settings": {
-        "collection_list": [
-          "shop-all",
-          "shop-all-toddler",
-          "shop-all-baby",
-          "womens",
-          "accessories"
-        ]
       }
     },
     "product-grid": {
@@ -42,7 +79,7 @@
   },
   "order": [
     "banner",
-    "11d20f32-0dfd-4c1b-b66a-c4f0483024ec",
+    "0a4a408e-c3d2-4720-aec7-422e60b6c7c8",
     "product-grid"
   ]
 }
