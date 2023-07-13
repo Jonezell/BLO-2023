@@ -8,22 +8,21 @@
           "settings": {
           }
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
           }
         },
+        "adbbbaab-6c11-43d1-8ac2-ea30472fa2b8": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
         "496b4226-e4d0-4584-a5ae-f630efc1661c": {
           "type": "produdct-as-variants",
+          "disabled": true,
           "settings": {
-            "label": "Options",
+            "label": "Style",
             "style": "swatch",
             "target_collection": "zip-rompers",
             "swatch_offset_Y": 50,
@@ -83,36 +82,18 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensions",
+            "heading": "Sizing",
             "icon": "ruler",
             "content": "",
-            "page": ""
+            "page": "size-chart-denim-jeans"
           }
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
+            "icon": "washing",
+            "content": "<p><strong>Step One:  <\/strong>Wash in cold water on the normal or quick cycle. We do not recommend washing on delicate since it makes products sit in water for too long.<br\/><br\/><strong>Step Two:  <\/strong>Dry on the normal heat setting.<\/p>",
             "page": ""
           }
         },
@@ -138,8 +119,8 @@
       },
       "block_order": [
         "title",
-        "caption",
         "price",
+        "adbbbaab-6c11-43d1-8ac2-ea30472fa2b8",
         "496b4226-e4d0-4584-a5ae-f630efc1661c",
         "variant_picker",
         "quantity_selector",
@@ -149,8 +130,6 @@
         "4620763d-b34b-4ded-a857-504751a5f38d",
         "description",
         "collapsible-row-0",
-        "collapsible-row-1",
-        "collapsible-row-2",
         "collapsible-row-3",
         "85d7636a-745b-4ef8-a7d8-e26226d2518f",
         "share"
@@ -192,14 +171,14 @@
         "image-with-text-0": {
           "type": "heading",
           "settings": {
-            "heading": "Buttery Soft, Ultra Stretchy Bamboo Fabric",
+            "heading": "Soft, Stretchy Denim Material",
             "heading_size": "h2"
           }
         },
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Gentle enough for your newborn and durable enough for your older kids, our luxurious and buttery-soft bamboo will keep your little ones comfortable and stylish day and night. Our snug-fitting cozy pajamas are CPSC compliant and never treated with flame-retardants or chemicals.<\/p>",
+            "text": "<p>Our denim will give your little ones that that worn-in feeling right out of the box. Made intentionally, these pants are stretchy, very soft, and will feel like butter whether your kiddo is playing or relaxing.<\/p>",
             "text_style": "body"
           }
         }
@@ -209,17 +188,128 @@
         "image-with-text-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-7_fc00063c-73f9-49d6-b957-618e74110a92.jpg",
+        "image": "shopify:\/\/shop_images\/Denim-Fabric.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "246e3ecc-d5e1-4e92-a7e0-c052b5270c20": {
+      "type": "image-with-text",
+      "blocks": {
+        "98464726-47ce-47da-8450-84e7e6c07c3f": {
+          "type": "heading",
+          "settings": {
+            "heading": "Functional Drawstring & Comfortable Elastic Waist",
+            "heading_size": "h2"
+          }
+        },
+        "459eeee8-50e9-4710-91eb-4af48c686d1c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our denim pants feature an elastic waist and functional, easy to use drawstring to make getting dressed easy for you and your little ones!<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "98464726-47ce-47da-8450-84e7e6c07c3f",
+        "459eeee8-50e9-4710-91eb-4af48c686d1c"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Denim-Waist.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
-        "image_behavior": "zoom-in",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 100,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "3c1a5d3a-bfe2-409d-9115-6db43d25dcab": {
+      "type": "image-with-text",
+      "blocks": {
+        "c2f99a41-f594-48c8-ba62-ab249dc92185": {
+          "type": "heading",
+          "settings": {
+            "heading": "Leather Brave Little Ones Patch",
+            "heading_size": "h2"
+          }
+        },
+        "552f534a-0481-4801-982b-87c99e461192": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You'll find a leather Brave Little Ones patch on the pocket of this denim which gives the pants a unique stylish touch.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "c2f99a41-f594-48c8-ba62-ab249dc92185",
+        "552f534a-0481-4801-982b-87c99e461192"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Denim-Tag.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "3883d3e0-6027-4e5d-968c-80f44a1ab7dc": {
+      "type": "image-with-text",
+      "blocks": {
+        "45e55392-f226-4acd-97bb-3feafa2fe0ae": {
+          "type": "heading",
+          "settings": {
+            "heading": "Light, Stylish Distressing",
+            "heading_size": "h2"
+          }
+        },
+        "b6f4415c-f47e-4f75-b11a-c3eeadc0b8b3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No detail was lost when creating this denim! Made with light destressing, your kiddos are sure to be stylish in these new pants.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "45e55392-f226-4acd-97bb-3feafa2fe0ae",
+        "b6f4415c-f47e-4f75-b11a-c3eeadc0b8b3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Denim-Tear.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
         "padding_bottom": 100
       }
     },
@@ -293,6 +383,9 @@
     "main",
     "1689095601e7facfa4",
     "image-with-text",
+    "246e3ecc-d5e1-4e92-a7e0-c052b5270c20",
+    "3c1a5d3a-bfe2-409d-9115-6db43d25dcab",
+    "3883d3e0-6027-4e5d-968c-80f44a1ab7dc",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
     "related-products"
   ]
