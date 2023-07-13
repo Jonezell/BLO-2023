@@ -78,31 +78,13 @@
           "settings": {
           }
         },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Dimensions",
+            "heading": "Sizing",
             "icon": "ruler",
             "content": "",
-            "page": ""
+            "page": "size-chart-shirts-tanks"
           }
         },
         "collapsible-row-3": {
@@ -110,7 +92,7 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
-            "content": "",
+            "content": "<p><strong>How do I care for bamboo?<\/strong><\/p><p><em><strong>Step One: <\/strong><\/em><br\/>Turn the garment inside out before washing and drying.<br\/><\/p><p><em><strong>Step Two: <\/strong><\/em><br\/>Wash in cold water on the normal or quick cycle. We do not recommend washing on delicate since it makes products sit in water for too long.<br\/><\/p><p><em><strong>Step Three: <\/strong><\/em><strong><br\/><\/strong>Dry on the normal heat setting.<\/p>",
             "page": ""
           }
         },
@@ -146,8 +128,6 @@
         "d32cf3ff-3cf1-42b1-95be-fd31a14eefc2",
         "4620763d-b34b-4ded-a857-504751a5f38d",
         "description",
-        "collapsible-row-0",
-        "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
         "85d7636a-745b-4ef8-a7d8-e26226d2518f",
