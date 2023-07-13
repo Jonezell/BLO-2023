@@ -7,6 +7,47 @@
         "padding_bottom": 100
       }
     },
+    "b6cbfe88-8e87-47de-92bf-8562e2e6fef1": {
+      "type": "blo-collection-pills",
+      "blocks": {
+        "d74ee482-4ce9-4935-92c3-09938c8009eb": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/shop-by-all",
+            "linktext": "All"
+          }
+        },
+        "23b8a541-1ac2-4d5d-a7a4-c4c565cf3619": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/shop-by-print",
+            "linktext": "Prints"
+          }
+        },
+        "341433bd-fa37-49b0-868b-9ad4d8ebcdf9": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/shop-by-small-ribbed",
+            "linktext": "Small Ribbed"
+          }
+        },
+        "79dd6ebe-19cf-4079-a9aa-ba7c07f618f4": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/shop-by-big-ribbed",
+            "linktext": "Big Ribbed"
+          }
+        }
+      },
+      "block_order": [
+        "d74ee482-4ce9-4935-92c3-09938c8009eb",
+        "23b8a541-1ac2-4d5d-a7a4-c4c565cf3619",
+        "341433bd-fa37-49b0-868b-9ad4d8ebcdf9",
+        "79dd6ebe-19cf-4079-a9aa-ba7c07f618f4"
+      ],
+      "settings": {
+      }
+    },
     "dda66e8b-ce7f-40a0-9eb5-72966151523d": {
       "type": "custom-liquid",
       "settings": {
@@ -19,6 +60,7 @@
   },
   "order": [
     "main",
+    "b6cbfe88-8e87-47de-92bf-8562e2e6fef1",
     "dda66e8b-ce7f-40a0-9eb5-72966151523d"
   ]
 }
