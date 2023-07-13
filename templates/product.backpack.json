@@ -3,12 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "2cfdef60-096c-4b9c-91a4-d06026ee5fe6": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{%- if product.metafields.custom.label != blank -%}\n\n<p class=\"eyebrow\" style=\"padding: 5px 14px; background: #191919; color: #fff; display: inline-block; border-radius: 20px;\">\n{{product.metafields.custom.label}}\n<\/p>\n\n{%- endif -%}"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -145,7 +139,6 @@
         }
       },
       "block_order": [
-        "2cfdef60-096c-4b9c-91a4-d06026ee5fe6",
         "title",
         "price",
         "88be7005-e01b-4bca-ace7-dd1b72230a1a",
