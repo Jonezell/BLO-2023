@@ -8,26 +8,24 @@
           "settings": {
           }
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
+          "settings": {
+          }
+        },
+        "6daaaed2-530b-4354-9214-bc8f062acb4d": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
         "496b4226-e4d0-4584-a5ae-f630efc1661c": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Options",
+            "label": "Style",
             "style": "swatch",
-            "target_collection": "zip-rompers",
-            "swatch_offset_Y": 50,
-            "swatch_offset_X": 50,
+            "target_collection": "blankets",
+            "swatch_offset_Y": 30,
+            "swatch_offset_X": 30,
             "hide_sold_out": true
           }
         },
@@ -80,53 +78,13 @@
           "settings": {
           }
         },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
+            "icon": "washing",
+            "content": "<p><em><strong>Step One: <\/strong><\/em><strong><br\/><\/strong>Wash in cold water on the normal or quick cycle. We do not recommend washing on delicate since it makes products sit in water for too long.<br\/><\/p><p><em><strong>Step Two: <\/strong><\/em><strong><br\/><\/strong>Dry on the normal heat setting.<\/p>",
             "page": ""
-          }
-        },
-        "85d7636a-745b-4ef8-a7d8-e26226d2518f": {
-          "type": "complementary",
-          "settings": {
-            "block_heading": "Pairs well with",
-            "make_collapsible_row": true,
-            "icon": "price_tag",
-            "product_list_limit": 10,
-            "products_per_page": 3,
-            "pagination_style": "counter",
-            "image_ratio": "square",
-            "enable_quick_add": true
           }
         },
         "share": {
@@ -138,8 +96,8 @@
       },
       "block_order": [
         "title",
-        "caption",
         "price",
+        "6daaaed2-530b-4354-9214-bc8f062acb4d",
         "496b4226-e4d0-4584-a5ae-f630efc1661c",
         "variant_picker",
         "quantity_selector",
@@ -148,11 +106,7 @@
         "d32cf3ff-3cf1-42b1-95be-fd31a14eefc2",
         "4620763d-b34b-4ded-a857-504751a5f38d",
         "description",
-        "collapsible-row-0",
-        "collapsible-row-1",
-        "collapsible-row-2",
         "collapsible-row-3",
-        "85d7636a-745b-4ef8-a7d8-e26226d2518f",
         "share"
       ],
       "settings": {
