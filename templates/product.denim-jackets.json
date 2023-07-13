@@ -170,14 +170,14 @@
         "image-with-text-0": {
           "type": "heading",
           "settings": {
-            "heading": "Buttery Soft, Ultra Stretchy Bamboo Fabric",
+            "heading": "Soft Denim Material",
             "heading_size": "h2"
           }
         },
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Gentle enough for your newborn and durable enough for your older kids, our luxurious and buttery-soft bamboo will keep your little ones comfortable and stylish day and night. Our snug-fitting cozy pajamas are CPSC compliant and never treated with flame-retardants or chemicals.<\/p>",
+            "text": "<p>Our denim jackets are made from a high quality, soft denim that will keep your little ones both comfortable and warm. Whether you're purchasing oversized to layer with one of our pullovers, or buying true to size, you won't be disappointed in these long-lasting and functional jackets.<\/p>",
             "text_style": "body"
           }
         }
@@ -187,18 +187,92 @@
         "image-with-text-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-7_fc00063c-73f9-49d6-b957-618e74110a92.jpg",
+        "image": "shopify:\/\/shop_images\/Denim-Jacket-Fabric.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "2e3f8bab-d089-4276-a9a2-b8aeafa61186": {
+      "type": "image-with-text",
+      "blocks": {
+        "c24b761f-4cad-4259-acc8-1fc77622323d": {
+          "type": "heading",
+          "settings": {
+            "heading": "Custom Brave Little Ones Buttons",
+            "heading_size": "h2"
+          }
+        },
+        "0725344b-05c7-4b0f-80be-2eb2e00c5822": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our denim jackets feature customized Brave Little Ones buttons, adding an extra bit of unique detail!<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "c24b761f-4cad-4259-acc8-1fc77622323d",
+        "0725344b-05c7-4b0f-80be-2eb2e00c5822"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Denim-Jacket-Button.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
-        "image_behavior": "zoom-in",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "0c093a2c-b80f-4c8d-a626-0657232f51e8": {
+      "type": "image-with-text",
+      "blocks": {
+        "e10746e5-fb63-42f0-bb06-ba389893927b": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stylish Front Pockets",
+            "heading_size": "h2"
+          }
+        },
+        "6eb4048b-616c-41bc-8d6f-aa423c5136f7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our newly released denim jackets include two button flap front pockets and two side pockets making them a fashionable addition to any outfit.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "e10746e5-fb63-42f0-bb06-ba389893927b",
+        "6eb4048b-616c-41bc-8d6f-aa423c5136f7"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Denim-Jacket-Pocket.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85": {
@@ -271,6 +345,8 @@
     "main",
     "1689095601e7facfa4",
     "image-with-text",
+    "2e3f8bab-d089-4276-a9a2-b8aeafa61186",
+    "0c093a2c-b80f-4c8d-a626-0657232f51e8",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
     "related-products"
   ]
