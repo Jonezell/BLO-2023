@@ -155,6 +155,196 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "19377e30-16eb-4742-b517-36c612483e17": {
+      "type": "blo-faq",
+      "blocks": {
+        "2aaf9e64-204a-42f5-8b7e-a9041fcd273a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Slight variation in fit or color?",
+            "icon": "none",
+            "content": "<p>Brave Little Ones pjs are very stretchy, and sewn by human hands. A small sewing variance from item to item is normal. While we aim to keep our sizing as consistent as possible, there will always be slight variation.<br\/><br\/>Similarly, we do our absolute best to ensure our colors remain consistent. However, we custom dye and print our fabric, so there may be slight variations between batches. Print and pattern placement may also vary between pieces.<\/p>",
+            "page": ""
+          }
+        },
+        "5f65693e-f62d-4378-9d18-40a2260b8900": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I care for bamboo?",
+            "icon": "none",
+            "content": "<p><em>Step One: <\/em><br\/>Turn the garment inside out before washing and drying.<br\/><\/p><p><em>Step Two: <\/em><br\/>Wash in cold water on the normal or quick cycle. We do not recommend washing on delicate since it makes products sit in water for too long.<br\/><\/p><p><em>Step Three: <\/em><br\/>Dry on the normal heat setting.<\/p>",
+            "page": ""
+          }
+        },
+        "1c6e4069-44ea-4053-babf-647cc27cf5fd": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How can I limit pilling?",
+            "icon": "none",
+            "content": "<p>Bamboo is a natural fiber, and it's delicate. When bamboo is rubbed against rough surfaces, especially while wet, it may cause pilling. It should be washed separately from items that may be damaging, like jeans, towels or velcro. <\/p><p>For the longest wear, you can wash them inside out and line dry when possible.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "2aaf9e64-204a-42f5-8b7e-a9041fcd273a",
+        "5f65693e-f62d-4378-9d18-40a2260b8900",
+        "1c6e4069-44ea-4053-babf-647cc27cf5fd"
+      ],
+      "settings": {
+        "background_color": "",
+        "texture_top": false,
+        "texture_bottom": false,
+        "mainHeading": "Care Instructions",
+        "mainText": "",
+        "layout": "image_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "30b027c7-c291-4b9d-a320-3c7e5f0cf3d4": {
+      "type": "blo-faq",
+      "blocks": {
+        "0b163227-b3c0-45f0-9b7e-b6bd4d357de4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How much is international shipping?",
+            "icon": "none",
+            "content": "<p>International shipping is $45 per order, for all international orders.<\/p>",
+            "page": ""
+          }
+        },
+        "1d93ecbd-ffaa-4025-89d3-3fa6a7b3ff47": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How long will it take to receive my order?",
+            "icon": "none",
+            "content": "<p>Items shipped internationally take 18-40 days to arrive.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "0b163227-b3c0-45f0-9b7e-b6bd4d357de4",
+        "1d93ecbd-ffaa-4025-89d3-3fa6a7b3ff47"
+      ],
+      "settings": {
+        "background_color": "",
+        "texture_top": false,
+        "texture_bottom": false,
+        "mainHeading": "International Shipping",
+        "mainText": "",
+        "layout": "image_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2e5f3094-9f93-473a-a6a0-e36530632c34": {
+      "type": "blo-faq",
+      "blocks": {
+        "e8df1594-69fa-4d5b-a0bf-745c6b650d08": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I apply?",
+            "icon": "none",
+            "content": "<p>Are you interested in carrying Brave Little Ones in your shop? Brave Little Ones is the perfect addition to your shop. The best part is every Brave Little Ones purchase helps feed children in Rwanda, Africa. <\/p><p>Please read\/ agree to our <a href=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSfC_j8SRjVorc6qjDlq61fr2KPjLRMn_7Vu7QXLGyiVyJ2wOA\/viewform?usp=sf_link\" target=\"_blank\">Terms & Conditions<\/a> & fill out the application <a href=\"https:\/\/brave-little-ones.myshopify.com\/pages\/wholesale\" title=\"Wholesale\">here<\/a>. If accepted, you will receive an email with our wholesale pricing and login information. We're excited to hear from you!<\/p><p><em>Please note: We are currently NOT selling to online retailers. Please only apply if you have a brick and mortar shop.<\/em><\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "e8df1594-69fa-4d5b-a0bf-745c6b650d08"
+      ],
+      "settings": {
+        "background_color": "",
+        "texture_top": false,
+        "texture_bottom": false,
+        "mainHeading": "Wholesale",
+        "mainText": "",
+        "layout": "image_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8ba55bfb-8b33-43c5-83fa-6e8c766846dc": {
+      "type": "blo-faq",
+      "blocks": {
+        "a2593a97-a4d2-4e76-a980-5cebf124fcaa": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How does Sezzle work?",
+            "icon": "none",
+            "content": "<p>We offer the option to buy now and pay later with Sezzle. When you choose Sezzle at checkout, you can split your purchase into 4 equal, 0% interest installment payments--with no additional fees.<\/p><p>To learn more about Sezzle, click <a href=\"https:\/\/sezzle.com\/\" target=\"_blank\" title=\"https:\/\/sezzle.com\/\">here.<\/a><\/p>",
+            "page": ""
+          }
+        },
+        "9b178011-923e-4d19-8d6e-94b20b06b212": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How does ShopPay Installments work?",
+            "icon": "none",
+            "content": "<p>Shop Pay gives you the option to pay in full at checkout, or to pay for your order over time. Depending on your purchase amount, there are two ways that you can pay for your order in installments:<\/p><p>1. For orders between $50 to $999.99 USD, you can split your purchase into four bi-weekly, interest-free installment payments. <\/p><p>2. For orders between $150 to 17,500 USD, you can split your purchase into monthly installment payments. <\/p><p>To learn more about ShopPay Installments, <a href=\"https:\/\/help.shop.app\/hc\/en-us\/articles\/360057800071-Shop-Pay-Installments-overview\">Click Here<\/a><\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "a2593a97-a4d2-4e76-a980-5cebf124fcaa",
+        "9b178011-923e-4d19-8d6e-94b20b06b212"
+      ],
+      "settings": {
+        "background_color": "",
+        "texture_top": false,
+        "texture_bottom": false,
+        "mainHeading": "Shop Now, Pay Later",
+        "mainText": "",
+        "layout": "image_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "892da375-fdf8-4406-b77b-a10fe43f3abb": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16169361965225__892da375-fdf8-4406-b77b-a10fe43f3abb-1689257750b2d890f1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Other Questions?",
+            "heading_size": "h2"
+          }
+        },
+        "template--16169361965225__892da375-fdf8-4406-b77b-a10fe43f3abb-1689257750b2d890f1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For more questions, please reach out to our support team at<a href=\"https:\/\/bravelittleones.com\/pages\/contact-us\" title=\"Contact Us\">Support@bravelittleones.com<\/a>. All inquires will be reponded to within 2 business days (Monday - Friday)<\/p>"
+          }
+        },
+        "template--16169361965225__892da375-fdf8-4406-b77b-a10fe43f3abb-1689257750b2d890f1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "shopify:\/\/pages\/contact-us",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16169361965225__892da375-fdf8-4406-b77b-a10fe43f3abb-1689257750b2d890f1-0",
+        "template--16169361965225__892da375-fdf8-4406-b77b-a10fe43f3abb-1689257750b2d890f1-1",
+        "template--16169361965225__892da375-fdf8-4406-b77b-a10fe43f3abb-1689257750b2d890f1-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
@@ -162,6 +352,11 @@
     "29ca002c-c36f-4d56-81f6-cd161a8ebf50",
     "ff57ad06-0392-469d-81df-b52f4409a423",
     "128d0c79-0e6d-4c62-9afc-b5ad92887ba1",
-    "33ff1203-bdab-4b14-b3d2-a387ec6158b4"
+    "33ff1203-bdab-4b14-b3d2-a387ec6158b4",
+    "19377e30-16eb-4742-b517-36c612483e17",
+    "30b027c7-c291-4b9d-a320-3c7e5f0cf3d4",
+    "2e5f3094-9f93-473a-a6a0-e36530632c34",
+    "8ba55bfb-8b33-43c5-83fa-6e8c766846dc",
+    "892da375-fdf8-4406-b77b-a10fe43f3abb"
   ]
 }
