@@ -724,10 +724,15 @@ svg.icon {
 
 
 
-/* BLO COLLECTION STYLE PAGE */
+/* BLO COLLECTION - FIND YOUR FAVORITE PAGE */
 
 .blo-collection-list {
-
+    margin-top: -70px;
+}
+@media screen and (min-width: 750px) {
+    .blo-collection-list {
+        margin-top: -90px;
+    }
 }
 .blo-collection-list .collection-list__item {
     background: #fff;
