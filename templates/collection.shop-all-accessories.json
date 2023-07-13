@@ -8,19 +8,61 @@
         "color_scheme": "background-1"
       }
     },
-    "11d20f32-0dfd-4c1b-b66a-c4f0483024ec": {
+    "04742817-3596-466c-b5c0-987c05e29236": {
       "type": "blo-collection-pills",
+      "blocks": {
+        "772b654d-7a4d-4a72-a07e-2172cb218df0": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/accessories",
+            "linktext": "All"
+          }
+        },
+        "b762a33b-8d2e-47c5-b327-f216aabfedc5": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/toddler-beanies",
+            "linktext": "Beanies"
+          }
+        },
+        "382256df-3454-48ca-afdd-6f72766dc23a": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/trucker-hats",
+            "linktext": "Hats"
+          }
+        },
+        "4689d9e5-00de-4c38-8596-b30732514289": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/briefs-underwear",
+            "linktext": "Briefs & Underwear"
+          }
+        },
+        "c43f78eb-3926-408f-a1bc-ca7acc49ab5f": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/blankets-loveys",
+            "linktext": "Blankets & Loveys"
+          }
+        },
+        "8b4e4b6a-0186-4fd8-916a-b7971658ac9d": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/backpacks",
+            "linktext": "Backpacks"
+          }
+        }
+      },
+      "block_order": [
+        "772b654d-7a4d-4a72-a07e-2172cb218df0",
+        "b762a33b-8d2e-47c5-b327-f216aabfedc5",
+        "382256df-3454-48ca-afdd-6f72766dc23a",
+        "4689d9e5-00de-4c38-8596-b30732514289",
+        "c43f78eb-3926-408f-a1bc-ca7acc49ab5f",
+        "8b4e4b6a-0186-4fd8-916a-b7971658ac9d"
+      ],
       "settings": {
-        "collection_list": [
-          "accessories",
-          "bows",
-          "infant-beanies",
-          "toddler-beanies",
-          "trucker-hats",
-          "briefs-underwear",
-          "blankets-loveys",
-          "backpacks"
-        ]
       }
     },
     "product-grid": {
@@ -45,7 +87,7 @@
   },
   "order": [
     "banner",
-    "11d20f32-0dfd-4c1b-b66a-c4f0483024ec",
+    "04742817-3596-466c-b5c0-987c05e29236",
     "product-grid"
   ]
 }
