@@ -11,18 +11,10 @@
             "text": "FREE SHIPPING ON U.S. ORDERS OVER $40!",
             "link": ""
           }
-        },
-        "4985fcdd-532b-4147-8f4a-4b630fda42d0": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "4985fcdd-532b-4147-8f4a-4b630fda42d0"
+        "announcement-bar-0"
       ],
       "settings": {
         "color_scheme": "background-2",
@@ -49,10 +41,20 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "307df5a4-e823-47c4-95c1-9572afede1d2": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if customer.b2b? %}\n  Welcome back, {{ customer.first_name }}!\n\n{%else%}\n Welcome back, {{ customer.first_name }}!\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "307df5a4-e823-47c4-95c1-9572afede1d2"
   ]
 }
