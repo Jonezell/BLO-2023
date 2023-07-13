@@ -2,10 +2,17 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 100,
         "padding_bottom": 100
+      }
+    },
+    "1a559760-1d4e-4252-aa9d-46253b275bf6": {
+      "type": "blo-collection-pills",
+      "settings": {
+        "collection_list": [
+
+        ]
       }
     },
     "6e982dbf-9ca1-4520-ab7e-d2492fec3245": {
@@ -20,6 +27,7 @@
   },
   "order": [
     "main",
+    "1a559760-1d4e-4252-aa9d-46253b275bf6",
     "6e982dbf-9ca1-4520-ab7e-d2492fec3245"
   ]
 }
