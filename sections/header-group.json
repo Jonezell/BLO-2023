@@ -41,20 +41,10 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "307df5a4-e823-47c4-95c1-9572afede1d2": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{% if customer.b2b? %}\n  Welcome back, {{ customer.first_name }}!\n\n{%else%}\n Welcome back, {{ company.name }}!\n{% endif %}",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
     "announcement-bar",
-    "header",
-    "307df5a4-e823-47c4-95c1-9572afede1d2"
+    "header"
   ]
 }
