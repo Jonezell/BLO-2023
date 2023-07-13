@@ -8,24 +8,22 @@
           "settings": {
           }
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
+          "settings": {
+          }
+        },
+        "edbe10c5-994b-4d98-94de-8060458c399b": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
         "496b4226-e4d0-4584-a5ae-f630efc1661c": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Options",
+            "label": "Style",
             "style": "swatch",
-            "target_collection": "zip-rompers",
+            "target_collection": "summer-zip-rompers",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
@@ -80,15 +78,6 @@
           "settings": {
           }
         },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
-            "page": ""
-          }
-        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
@@ -101,18 +90,18 @@
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Dimensions",
+            "heading": "Sizing",
             "icon": "ruler",
             "content": "",
-            "page": ""
+            "page": "size-chart-summer-zip-rompers"
           }
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
+            "icon": "washing",
+            "content": "<p><strong>How do I care for bamboo?<\/strong><\/p><p><em><strong>Step One: <\/strong><\/em><br\/>Turn the garment inside out before washing and drying.<br\/><\/p><p><em><strong>Step Two: <\/strong><\/em><br\/>Wash in cold water on the normal or quick cycle. We do not recommend washing on delicate since it makes products sit in water for too long.<br\/><\/p><p><em><strong>Step Three: <\/strong><\/em><strong><br\/><\/strong>Dry on the normal heat setting.<\/p>",
             "page": ""
           }
         },
@@ -138,8 +127,8 @@
       },
       "block_order": [
         "title",
-        "caption",
         "price",
+        "edbe10c5-994b-4d98-94de-8060458c399b",
         "496b4226-e4d0-4584-a5ae-f630efc1661c",
         "variant_picker",
         "quantity_selector",
@@ -148,7 +137,6 @@
         "d32cf3ff-3cf1-42b1-95be-fd31a14eefc2",
         "4620763d-b34b-4ded-a857-504751a5f38d",
         "description",
-        "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
@@ -199,14 +187,22 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Gentle enough for your newborn and durable enough for your older kids, our luxurious and buttery-soft bamboo will keep your little ones comfortable and stylish day and night. Our snug-fitting cozy pajamas are CPSC compliant and never treated with flame-retardants or chemicals.<\/p>",
+            "text": "<p>Gentle enough for your newborn and durable enough for your older kids, our luxurious and buttery-soft bamboo will keep your little ones comfortable and stylish day and night. Our snug-fitting cozy pajamas are CPSC compliant and never treated with flame-retardants or chemicals. <\/p>",
             "text_style": "body"
+          }
+        },
+        "9f7dc990-4b71-4221-b3d1-2e151e4590f4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/blogs\/blog\/why-we-fell-in-love-with-bamboo"
           }
         }
       },
       "block_order": [
         "image-with-text-0",
-        "image-with-text-1"
+        "image-with-text-1",
+        "9f7dc990-4b71-4221-b3d1-2e151e4590f4"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-7_fc00063c-73f9-49d6-b957-618e74110a92.jpg",
