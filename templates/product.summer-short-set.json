@@ -203,6 +203,43 @@
         "padding_bottom": 100
       }
     },
+    "f5cd64ce-c085-4350-a595-a835e3d1f5f0": {
+      "type": "image-with-text",
+      "blocks": {
+        "88ad7e18-3b1e-42cc-9fea-b5099e02ecf9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Comfortable Tagless Labels",
+            "heading_size": "h2"
+          }
+        },
+        "c09d0457-4256-4666-99d4-c84a5117ccf0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "88ad7e18-3b1e-42cc-9fea-b5099e02ecf9",
+        "c09d0457-4256-4666-99d4-c84a5117ccf0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Tagless-set_bda56049-589b-4832-8d31-a50d84a39a4a.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85": {
       "type": "blo-faq",
       "blocks": {
@@ -273,6 +310,7 @@
     "main",
     "1689095601e7facfa4",
     "image-with-text",
+    "f5cd64ce-c085-4350-a595-a835e3d1f5f0",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
     "related-products"
   ]
