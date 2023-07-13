@@ -7,12 +7,45 @@
         "padding_bottom": 100
       }
     },
-    "1a559760-1d4e-4252-aa9d-46253b275bf6": {
+    "c73bc0bb-1e0a-4378-b5d2-d110a45d1edd": {
       "type": "blo-collection-pills",
+      "blocks": {
+        "4c215b08-ab78-455a-bcb1-b30be7e4fa4a": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/shop-by-all",
+            "linktext": "All"
+          }
+        },
+        "d6965570-5794-4779-86e9-b8b9d143fd0e": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/shop-by-print",
+            "linktext": "Prints"
+          }
+        },
+        "c1f0ad7b-b415-4c9e-b1cb-6e16164a59ed": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/shop-by-small-ribbed",
+            "linktext": "Small Ribbed"
+          }
+        },
+        "17cbd391-9360-4bb4-b859-a4861438156b": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/shop-by-big-ribbed",
+            "linktext": "Big Ribbed"
+          }
+        }
+      },
+      "block_order": [
+        "4c215b08-ab78-455a-bcb1-b30be7e4fa4a",
+        "d6965570-5794-4779-86e9-b8b9d143fd0e",
+        "c1f0ad7b-b415-4c9e-b1cb-6e16164a59ed",
+        "17cbd391-9360-4bb4-b859-a4861438156b"
+      ],
       "settings": {
-        "collection_list": [
-
-        ]
       }
     },
     "6e982dbf-9ca1-4520-ab7e-d2492fec3245": {
@@ -27,7 +60,7 @@
   },
   "order": [
     "main",
-    "1a559760-1d4e-4252-aa9d-46253b275bf6",
+    "c73bc0bb-1e0a-4378-b5d2-d110a45d1edd",
     "6e982dbf-9ca1-4520-ab7e-d2492fec3245"
   ]
 }
