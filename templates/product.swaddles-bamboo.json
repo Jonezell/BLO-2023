@@ -8,24 +8,22 @@
           "settings": {
           }
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
+          "settings": {
+          }
+        },
+        "eadd7381-1543-4aee-9f54-2d129d848e9f": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
         "496b4226-e4d0-4584-a5ae-f630efc1661c": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Options",
+            "label": "Style",
             "style": "swatch",
-            "target_collection": "zip-rompers",
+            "target_collection": "stretchy-swaddle-sets",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
@@ -138,8 +136,8 @@
       },
       "block_order": [
         "title",
-        "caption",
         "price",
+        "eadd7381-1543-4aee-9f54-2d129d848e9f",
         "496b4226-e4d0-4584-a5ae-f630efc1661c",
         "variant_picker",
         "quantity_selector",
