@@ -157,60 +157,6 @@
         "image": "shopify:\/\/shop_images\/test_245b7f7d-8945-49a4-a787-17197b96b71a.png"
       }
     },
-    "f693b7ae-a969-4088-99a8-10a8092bacc9": {
-      "type": "collection-list",
-      "blocks": {
-        "template--16166779355305__f693b7ae-a969-4088-99a8-10a8092bacc9-1689092616188c3a4f-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "geometric-pjs-surf-club-shirt-stripe-swim-trunks-palm-trees-shirt"
-          }
-        },
-        "template--16166779355305__f693b7ae-a969-4088-99a8-10a8092bacc9-1689092616188c3a4f-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "on-the-farm-coastal-blue-small-ribbed"
-          }
-        },
-        "52713e7e-bc10-4bdf-bfab-a2f8dac02241": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "palm-trees-and-sea-green-small-ribbed"
-          }
-        },
-        "93c79cc6-fbdc-4302-b278-500241a9ea1d": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "daisy-mauve-blue-triangles"
-          }
-        },
-        "template--16166779355305__f693b7ae-a969-4088-99a8-10a8092bacc9-1689092616188c3a4f-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "coconuts-shirt-palm-trees-black-and-tan-trunks-pray-for-surf-stripe-tank-palm-trees-and-coconuts-hat"
-          }
-        }
-      },
-      "block_order": [
-        "template--16166779355305__f693b7ae-a969-4088-99a8-10a8092bacc9-1689092616188c3a4f-0",
-        "template--16166779355305__f693b7ae-a969-4088-99a8-10a8092bacc9-1689092616188c3a4f-2",
-        "52713e7e-bc10-4bdf-bfab-a2f8dac02241",
-        "93c79cc6-fbdc-4302-b278-500241a9ea1d",
-        "template--16166779355305__f693b7ae-a969-4088-99a8-10a8092bacc9-1689092616188c3a4f-1"
-      ],
-      "settings": {
-        "title": "Find your new favorite print.",
-        "heading_size": "h2",
-        "image_ratio": "square",
-        "columns_desktop": 5,
-        "color_scheme": "",
-        "show_view_all": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
     "f8984855-9525-4334-88ac-f4e6f241f447": {
       "type": "blo-find-your-favorite",
       "blocks": {
@@ -259,7 +205,7 @@
         "columns_desktop": 5,
         "color_scheme": "",
         "show_view_all": true,
-        "view_all_link": "",
+        "view_all_link": "shopify:\/\/pages\/shop-by-all",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 100,
@@ -397,7 +343,6 @@
     "ee363dd5-1c44-4b82-b551-3972740be32c",
     "de916c71-b979-4c56-ab19-f192e2af4f26",
     "4b1165c6-b8a9-4249-a026-ac24d705f1f2",
-    "f693b7ae-a969-4088-99a8-10a8092bacc9",
     "f8984855-9525-4334-88ac-f4e6f241f447",
     "39a14b17-5c76-41f4-b440-d63a3f398506",
     "featured_collection",
