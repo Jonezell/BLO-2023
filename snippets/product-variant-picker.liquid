@@ -9,6 +9,7 @@
   Usage:
   {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
 {% endcomment %}
+
 {%- unless product.has_only_default_variant -%}
   {%- if block.settings.picker_type == 'button' -%}
     <variant-radios
@@ -22,7 +23,12 @@
       {{ block.shopify_attributes }}
     >
       {%- for option in product.options_with_values -%}
-        <fieldset class="js product-form__input">
+        <fieldset
+          class="js product-form__input"
+          {%- if option.name == 'Style' and option.values.size <= 1 -%}
+            hidden
+          {%- endif -%}
+        >
           <legend class="form__label">{{ option.name }}</legend>
           {% render 'product-variant-options', product: product, option: option, block: block %}
         </fieldset>
@@ -43,7 +49,12 @@
       {{ block.shopify_attributes }}
     >
       {%- for option in product.options_with_values -%}
-        <div class="product-form__input product-form__input--dropdown">
+        <div
+          class="product-form__input product-form__input--dropdown"
+          {%- if option.name == 'Style' and option.values.size <= 1 -%}
+            hidden
+          {%- endif -%}
+        >
           <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
             {{ option.name }}
           </label>
