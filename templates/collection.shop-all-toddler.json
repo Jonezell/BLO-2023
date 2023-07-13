@@ -8,24 +8,37 @@
         "color_scheme": "background-1"
       }
     },
-    "11d20f32-0dfd-4c1b-b66a-c4f0483024ec": {
+    "93c74d29-84f3-4129-b617-902e8d299733": {
       "type": "blo-collection-pills",
+      "blocks": {
+        "c7403c74-bc41-4a26-823f-d207c3c66ce5": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/shop-all-toddler",
+            "linktext": "All"
+          }
+        },
+        "06cbbc59-d1ca-4ea9-9e13-e589d26a9257": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/two-piece-sets",
+            "linktext": "Two-Piece Sets"
+          }
+        },
+        "ce317e5e-870e-41bf-a460-b0fd9a4657bd": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/shorts-two-piece-set",
+            "linktext": "Short Sets"
+          }
+        }
+      },
+      "block_order": [
+        "c7403c74-bc41-4a26-823f-d207c3c66ce5",
+        "06cbbc59-d1ca-4ea9-9e13-e589d26a9257",
+        "ce317e5e-870e-41bf-a460-b0fd9a4657bd"
+      ],
       "settings": {
-        "collection_list": [
-          "shop-all-toddler",
-          "two-piece-sets",
-          "shorts-two-piece-set",
-          "shirts",
-          "tanks",
-          "pullovers",
-          "denim",
-          "swim-trunks",
-          "briefs-underwear",
-          "blankets-loveys",
-          "trucker-hats",
-          "toddler-beanies",
-          "backpacks"
-        ]
       }
     },
     "product-grid": {
@@ -50,7 +63,7 @@
   },
   "order": [
     "banner",
-    "11d20f32-0dfd-4c1b-b66a-c4f0483024ec",
+    "93c74d29-84f3-4129-b617-902e8d299733",
     "product-grid"
   ]
 }
