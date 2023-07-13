@@ -8,35 +8,35 @@
         "color_scheme": "background-1"
       }
     },
-    "11d20f32-0dfd-4c1b-b66a-c4f0483024ec": {
+    "4cbbe32e-e788-4a96-8792-f03cf5c4b9bd": {
       "type": "blo-collection-pills",
       "blocks": {
-        "5f32e5ea-132f-451e-a9ba-96af638b39c1": {
+        "605aea17-d9e9-4ae7-b9ac-176066dba0fe": {
           "type": "link",
           "settings": {
             "linkurl": "shopify:\/\/collections\/zip-rompers",
             "linktext": "All"
           }
         },
-        "7b3c3b29-2ad9-4648-95f8-dc789bb89497": {
+        "d71d8e5a-4fa6-4763-979d-bfb830d2f818": {
           "type": "link",
           "settings": {
             "linkurl": "shopify:\/\/collections\/zip-rompers-with-fold-over-feet",
-            "linktext": "With Fold-Over"
+            "linktext": "With Fold-Over Feet"
           }
         },
-        "8a62fbf0-3259-4411-b498-100272666fc8": {
+        "29d2dc09-b6e7-47e0-aabe-8f2c0f0bf09b": {
           "type": "link",
           "settings": {
             "linkurl": "shopify:\/\/collections\/zip-rompers-without-fold-over-feet",
-            "linktext": "Without Fold-Over"
+            "linktext": "Without Fold-Over Feet"
           }
         }
       },
       "block_order": [
-        "5f32e5ea-132f-451e-a9ba-96af638b39c1",
-        "7b3c3b29-2ad9-4648-95f8-dc789bb89497",
-        "8a62fbf0-3259-4411-b498-100272666fc8"
+        "605aea17-d9e9-4ae7-b9ac-176066dba0fe",
+        "d71d8e5a-4fa6-4763-979d-bfb830d2f818",
+        "29d2dc09-b6e7-47e0-aabe-8f2c0f0bf09b"
       ],
       "settings": {
       }
@@ -63,7 +63,7 @@
   },
   "order": [
     "banner",
-    "11d20f32-0dfd-4c1b-b66a-c4f0483024ec",
+    "4cbbe32e-e788-4a96-8792-f03cf5c4b9bd",
     "product-grid"
   ]
 }
