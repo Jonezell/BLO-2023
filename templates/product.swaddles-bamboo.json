@@ -196,7 +196,22 @@
         "image_behavior": "zoom-in",
         "mobile_content_alignment": "left",
         "padding_top": 100,
-        "padding_bottom": 100
+        "padding_bottom": 0
+      }
+    },
+    "f1dae97d-8db7-4de4-a2f2-aaa1ad74d919": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/swaddlesetrevised.mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85": {
@@ -269,6 +284,7 @@
     "main",
     "1689095601e7facfa4",
     "image-with-text",
+    "f1dae97d-8db7-4de4-a2f2-aaa1ad74d919",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
     "related-products"
   ]
