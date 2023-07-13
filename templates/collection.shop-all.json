@@ -22,28 +22,28 @@
           "type": "link",
           "settings": {
             "linkurl": "shopify:\/\/collections\/shop-all-baby",
-            "linktext": "Shop Baby"
+            "linktext": "Baby"
           }
         },
         "9a2e0d4a-49fc-42a7-b0f9-05e71a33323a": {
           "type": "link",
           "settings": {
             "linkurl": "shopify:\/\/collections\/shop-all-toddler",
-            "linktext": "Shop Toddler"
+            "linktext": "Toddler"
           }
         },
         "ce642108-7d0a-4637-af81-5f2ec0709f31": {
           "type": "link",
           "settings": {
             "linkurl": "shopify:\/\/collections\/womens",
-            "linktext": "Shop Womens"
+            "linktext": "Womens"
           }
         },
         "107ac8d3-142c-472c-a4aa-f026b296cd46": {
           "type": "link",
           "settings": {
             "linkurl": "shopify:\/\/collections\/accessories",
-            "linktext": "Shop Accessories"
+            "linktext": "Accessories"
           }
         }
       },
