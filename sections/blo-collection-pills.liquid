@@ -27,13 +27,13 @@
 {%- endstyle -%}
 
 <div class="blo-collection-pills-wrapper">
-  <div class="blo-collection-pills-container toggle-wrapper">
-    {%- for pill in section.blocks -%}
+  <div class="blo-collection-pills-container toggle-wrapper {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+    {%- for block in section.blocks -%}
       <a
-        class="blo-collection-pill toggle {% if collection.url == pill.url or page.url == pill.url %}selected{% endif%}"
-        href="{{pill.url}}"
+        class="blo-collection-pill toggle {% if collection.url == block.settings.linkurl or page.url == block.settings.linkurl %}selected{% endif%}"
+        href="{{block.settings.linkurl}}"
       >
-        {{ pill.title }}
+        {{ block.settings.linktext }}
       </a>
     {%- endfor -%}
   </div>
