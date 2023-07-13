@@ -1,4 +1,3 @@
-{{ 'component-accordion.css' | asset_url | stylesheet_tag }}
 {{ 'blo-sections.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
@@ -29,9 +28,9 @@
 
 <div class="blo-collection-pills-wrapper">
   <div class="blo-collection-pills-container toggle-wrapper">
-    {%- for pill in section.settings.collection_list -%}
+    {%- for pill in section.blocks -%}
       <a
-        class="blo-collection-pill toggle {% if collection.url == pill.url %}selected{% endif%}"
+        class="blo-collection-pill toggle {% if collection.url == pill.url or page.url == pill.url %}selected{% endif%}"
         href="{{pill.url}}"
       >
         {{ pill.title }}
@@ -42,18 +41,29 @@
 
 {% schema %}
 {
-  "name": "BLO: Collection Pills",
+  "name": "BLO: Page Pills",
   "class": "section blo-collection-pills",
-  "settings": [
+  "blocks": [
     {
-      "type": "collection_list",
-      "id": "collection_list",
-      "label": "Collections"
+      "type": "link",
+      "name": "Link",
+      "settings": [
+        {
+          "id": "linkurl",
+          "type": "url",
+          "label": "URL link"
+        },
+        {
+          "id": "linktext",
+          "type": "text",
+          "label": "Link text"
+        }
+      ]
     }
   ],
   "presets": [
     {
-      "name": "BLO: Collection Pills"
+      "name": "BLO: Page Pills"
     }
   ]
 }

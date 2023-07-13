@@ -748,3 +748,9 @@ svg.icon {
     height: auto;
     display: block;
 }
+
+
+/* MAIN PAGE TEMPLATE ADJUSTMENTS */
+.main-page-title.page-title.h2 {
+    text-align: center;
+}
