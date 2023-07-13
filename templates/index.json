@@ -78,7 +78,7 @@
         ".collection-list__item .card--media {background: #efe8de; padding-top: 20px;}"
       ],
       "settings": {
-        "title": "We got what you’re looking for.",
+        "title": "We’ve got what you’re looking for.",
         "heading_size": "h2",
         "image_ratio": "adapt",
         "columns_desktop": 5,
@@ -284,7 +284,7 @@
         "template--16166779355305__7f2ba396-b421-44a7-8ac9-529611c0153f-168908674393111e5a-0": {
           "type": "heading",
           "settings": {
-            "heading": "You’ve Helped Us Donate Over 34,360 Meals!"
+            "heading": "You’ve helped us donate over 34,360 meals… and counting!"
           }
         },
         "template--16166779355305__7f2ba396-b421-44a7-8ac9-529611c0153f-168908674393111e5a-1": {
