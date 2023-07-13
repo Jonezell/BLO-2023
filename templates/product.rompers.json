@@ -218,6 +218,132 @@
         "image_behavior": "zoom-in",
         "mobile_content_alignment": "left",
         "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "276d863e-6857-4b9f-8b59-6b5d7f1a4439": {
+      "type": "image-with-text",
+      "blocks": {
+        "550ad82d-a1da-430f-8b99-3317a4b450dc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Convenient Two-Way Zippers",
+            "heading_size": "h2"
+          }
+        },
+        "6c958d02-e492-45b1-a139-db56ceb2c8bf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We know how tricky diaper changes can be, so we wanted to help. All of our rompers have a two-way zipper to make those middle of the night or on-the-go diaper changes quick and easy!<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "550ad82d-a1da-430f-8b99-3317a4b450dc",
+        "6c958d02-e492-45b1-a139-db56ceb2c8bf"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Zipper.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "7683f94b-ea84-4405-8b05-dd2001c71816": {
+      "type": "image-with-text",
+      "blocks": {
+        "5d490e4a-adeb-461c-899a-de2d415593b2": {
+          "type": "heading",
+          "settings": {
+            "heading": "Soft and Stretchy Fold-Over Mittens",
+            "heading_size": "h2"
+          }
+        },
+        "13b8b467-494a-451c-add7-254ccc33ce6a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our stretchy fold-over mittens not only keep your infant's hands warm, but keep them from scratching their delicate skin too. Fold-over mittens are available up to size 6-12M.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "5d490e4a-adeb-461c-899a-de2d415593b2",
+        "13b8b467-494a-451c-add7-254ccc33ce6a"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mitten.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "6fcbbed5-a801-4fcb-a963-fc9ed2072dfa": {
+      "type": "image-with-text",
+      "blocks": {
+        "52c13971-5d3e-44dc-8d4c-f049f5bc7988": {
+          "type": "heading",
+          "settings": {
+            "heading": "Comfortable Tagless Labels",
+            "heading_size": "h2"
+          }
+        },
+        "097bb6c7-350e-4a8f-b1d8-7d0de32f37a8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "52c13971-5d3e-44dc-8d4c-f049f5bc7988",
+        "097bb6c7-350e-4a8f-b1d8-7d0de32f37a8"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Tagless-Romper.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "51c9489a-b70a-4850-94b7-7aa6af41b3e7": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/bravezipromperrevised.mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 0,
         "padding_bottom": 100
       }
     },
@@ -291,6 +417,10 @@
     "main",
     "1689095601e7facfa4",
     "image-with-text",
+    "276d863e-6857-4b9f-8b59-6b5d7f1a4439",
+    "7683f94b-ea84-4405-8b05-dd2001c71816",
+    "6fcbbed5-a801-4fcb-a963-fc9ed2072dfa",
+    "51c9489a-b70a-4850-94b7-7aa6af41b3e7",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
     "related-products"
   ]
