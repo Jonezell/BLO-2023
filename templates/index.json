@@ -204,7 +204,62 @@
         "image_ratio": "square",
         "columns_desktop": 5,
         "color_scheme": "",
-        "show_view_all": false,
+        "show_view_all": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "f8984855-9525-4334-88ac-f4e6f241f447": {
+      "type": "blo-find-your-favorite",
+      "blocks": {
+        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "blue-bees"
+          }
+        },
+        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "blue-triangles"
+          }
+        },
+        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "camel-floral"
+          }
+        },
+        "f1a9d6de-1d02-4f66-bac5-19636ffa6e75": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cream-floral"
+          }
+        },
+        "19bcaa4e-45bd-4a73-910b-a4328600a1ac": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dinosaurs"
+          }
+        }
+      },
+      "block_order": [
+        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-0",
+        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-1",
+        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-2",
+        "f1a9d6de-1d02-4f66-bac5-19636ffa6e75",
+        "19bcaa4e-45bd-4a73-910b-a4328600a1ac"
+      ],
+      "settings": {
+        "title": "Find your new favorite",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "",
+        "show_view_all": true,
+        "view_all_link": "",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 100,
@@ -343,6 +398,7 @@
     "de916c71-b979-4c56-ab19-f192e2af4f26",
     "4b1165c6-b8a9-4249-a026-ac24d705f1f2",
     "f693b7ae-a969-4088-99a8-10a8092bacc9",
+    "f8984855-9525-4334-88ac-f4e6f241f447",
     "39a14b17-5c76-41f4-b440-d63a3f398506",
     "featured_collection",
     "7f2ba396-b421-44a7-8ac9-529611c0153f",
