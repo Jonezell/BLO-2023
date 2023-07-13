@@ -8,26 +8,24 @@
           "settings": {
           }
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
+          "settings": {
+          }
+        },
+        "a2e941d3-f560-44ed-a8e4-8baedca928c5": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
         "496b4226-e4d0-4584-a5ae-f630efc1661c": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Options",
+            "label": "Style",
             "style": "swatch",
-            "target_collection": "zip-rompers",
-            "swatch_offset_Y": 50,
-            "swatch_offset_X": 50,
+            "target_collection": "knotted-gowns",
+            "swatch_offset_Y": 30,
+            "swatch_offset_X": 45,
             "hide_sold_out": true
           }
         },
@@ -83,19 +81,10 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
+            "heading": "Sizing",
+            "icon": "ruler",
             "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
-            "page": ""
+            "page": "size-chart-knotted-gowns"
           }
         },
         "collapsible-row-2": {
@@ -111,8 +100,8 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
+            "icon": "washing",
+            "content": "<p><strong>How do I care for bamboo?<\/strong><\/p><p><em><strong>Step One: <\/strong><\/em><br\/>Turn the garment inside out before washing and drying.<br\/><\/p><p><em><strong>Step Two: <\/strong><\/em><br\/>Wash in cold water on the normal or quick cycle. We do not recommend washing on delicate since it makes products sit in water for too long.<br\/><\/p><p><em><strong>Step Three: <\/strong><\/em><strong><br\/><\/strong>Dry on the normal heat setting.<\/p>",
             "page": ""
           }
         },
@@ -138,8 +127,8 @@
       },
       "block_order": [
         "title",
-        "caption",
         "price",
+        "a2e941d3-f560-44ed-a8e4-8baedca928c5",
         "496b4226-e4d0-4584-a5ae-f630efc1661c",
         "variant_picker",
         "quantity_selector",
@@ -149,7 +138,6 @@
         "4620763d-b34b-4ded-a857-504751a5f38d",
         "description",
         "collapsible-row-0",
-        "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
         "85d7636a-745b-4ef8-a7d8-e26226d2518f",
