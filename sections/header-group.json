@@ -11,17 +11,25 @@
             "text": "FREE SHIPPING ON U.S. ORDERS OVER $40!",
             "link": ""
           }
+        },
+        "4985fcdd-532b-4147-8f4a-4b630fda42d0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "4985fcdd-532b-4147-8f4a-4b630fda42d0"
       ],
       "settings": {
         "color_scheme": "background-2",
         "show_line_separator": false,
         "show_social": false,
         "auto_rotate": true,
-        "change_slides_speed": 5
+        "change_slides_speed": 3
       }
     },
     "header": {
