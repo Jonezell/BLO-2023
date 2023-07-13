@@ -176,6 +176,73 @@
         "include_margins": false
       }
     },
+    "fd0ce518-521c-4663-b266-b54fd083f08a": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16169033695401__fd0ce518-521c-4663-b266-b54fd083f08a-1689283490e040c409-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/A87D08E7-7A14-4486-993E-E19ABE8DE81B.gif",
+            "title": "Buttery Soft",
+            "text": "<p>Made from buttery soft Bamboo Viscose. Our luxurious material keeps your little one comfortable and stylish, day and night.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16169033695401__fd0ce518-521c-4663-b266-b54fd083f08a-1689283490e040c409-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3F02344C-B535-4601-93D1-C447626AEA92.gif",
+            "title": "Breathable",
+            "text": "<p>Bamboo mimics breathability through hollow micro-fibers naturally allowing more airflow.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16169033695401__fd0ce518-521c-4663-b266-b54fd083f08a-1689283490e040c409-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1E901AB4-4050-4D01-8276-91106985717A.gif",
+            "title": "Gentle on Skin",
+            "text": "<p>Bamboo offers the gentlest touch to a baby’s skin. Smooth fibers lay flat against the skin, limiting irritation for sensitive skin.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "106a1786-b14f-4a7b-91bd-9350a0dccb2a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ED465C9D-781C-4AB0-8918-DF18C011DCE1.gif",
+            "title": "Temperature Regulating",
+            "text": "<p>Keeps your little one a few degrees cooler in summer and a few degrees warmer in winter.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16169033695401__fd0ce518-521c-4663-b266-b54fd083f08a-1689283490e040c409-0",
+        "template--16169033695401__fd0ce518-521c-4663-b266-b54fd083f08a-1689283490e040c409-1",
+        "template--16169033695401__fd0ce518-521c-4663-b266-b54fd083f08a-1689283490e040c409-2",
+        "106a1786-b14f-4a7b-91bd-9350a0dccb2a"
+      ],
+      "settings": {
+        "title": "Why is Bamboo Better?",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -416,6 +483,7 @@
   "order": [
     "main",
     "1689095601e7facfa4",
+    "fd0ce518-521c-4663-b266-b54fd083f08a",
     "image-with-text",
     "276d863e-6857-4b9f-8b59-6b5d7f1a4439",
     "7683f94b-ea84-4405-8b05-dd2001c71816",
