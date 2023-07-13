@@ -726,14 +726,7 @@ svg.icon {
 
 /* BLO COLLECTION - FIND YOUR FAVORITE PAGE */
 
-.blo-collection-list {
-    margin-top: -70px;
-}
-@media screen and (min-width: 750px) {
-    .blo-collection-list {
-        margin-top: -90px;
-    }
-}
+
 .blo-collection-list .collection-list__item {
     background: #fff;
     border-radius: var(--blo-corner-radius);
