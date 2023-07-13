@@ -68,6 +68,18 @@
       >
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
+
+
+
+        {% comment %} CUSTOM CODE {% endcomment %}
+          {%- if product.metafields.custom.label != blank -%}
+            <p class="blo-product-badge eyebrow" style="padding: 5px 14px; background: #191919; color: #fff; display: inline-block; border-radius: 20px;">
+            {{product.metafields.custom.label}}
+            </p>
+          {%- endif -%}
+
+        {% comment %} END CUSTOM CODE {% endcomment %}
+
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when '@app' -%}
