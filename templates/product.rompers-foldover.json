@@ -8,24 +8,22 @@
           "settings": {
           }
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
+          "settings": {
+          }
+        },
+        "664cf731-790c-40f0-8fbd-6dbf412e903b": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
         "496b4226-e4d0-4584-a5ae-f630efc1661c": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Options",
+            "label": "WITH FOLD-OVER FEET",
             "style": "swatch",
-            "target_collection": "zip-rompers",
+            "target_collection": "zip-rompers-with-fold-over-feet",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
@@ -134,12 +132,23 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "290414b6-f5dc-4c97-9cc5-dc3390dc951d": {
+          "type": "produdct-as-variants",
+          "settings": {
+            "label": "WITHOUT FOLD-OVER FEET",
+            "style": "swatch",
+            "target_collection": "zip-rompers-without-fold-over-feet",
+            "swatch_offset_Y": 50,
+            "swatch_offset_X": 50,
+            "hide_sold_out": true
+          }
         }
       },
       "block_order": [
         "title",
-        "caption",
         "price",
+        "664cf731-790c-40f0-8fbd-6dbf412e903b",
         "496b4226-e4d0-4584-a5ae-f630efc1661c",
         "variant_picker",
         "quantity_selector",
@@ -153,7 +162,8 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "85d7636a-745b-4ef8-a7d8-e26226d2518f",
-        "share"
+        "share",
+        "290414b6-f5dc-4c97-9cc5-dc3390dc951d"
       ],
       "settings": {
         "enable_sticky_info": true,
