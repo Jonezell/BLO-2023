@@ -803,3 +803,14 @@ cart-drawer.drawer .tax-note {
 .free_shipping_card_title_clk1hm7264194051ouy4kiwfuy5.h2{
 
 }
+
+
+
+/* FOOTER ADJUSTMENTS */
+footer shop-login-button {
+    opacity: 0.5;
+    filter: invert(1) grayscale(1);
+  }
+footer .footer__content-bottom {
+    padding-top: 10px;
+  }
