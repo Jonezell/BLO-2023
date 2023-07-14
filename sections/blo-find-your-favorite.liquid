@@ -42,7 +42,7 @@
             class="link underlined-link hidden large-up-hide{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
             aria-labelledby="ViewAll-{{ section.id }} SectionHeading-{{ section.id }}"
           >
-            {{- 'sections.collection_list.view_all' | t -}}
+            {{ section.settings.view_all_label }}
           </a>
         {%- endif -%}
       </div>
@@ -212,6 +212,11 @@
       "type": "url",
       "id": "view_all_link",
       "label": "View All Link"
+    },
+    {
+      "type": "text",
+      "id": "view_all_label",
+      "label": "View All Label"
     },
     {
       "type": "header",
