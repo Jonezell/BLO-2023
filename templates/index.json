@@ -398,9 +398,10 @@
         "a7f3659b-0bb0-451a-850d-cd2e715e382f"
       ],
       "settings": {
-        "background_color": "",
+        "background_color": "#efe8de",
         "texture_top": true,
         "texture_bottom": false,
+        "image": "shopify:\/\/shop_images\/Test.png",
         "layout": "image_first",
         "padding_top": 36,
         "padding_bottom": 36
