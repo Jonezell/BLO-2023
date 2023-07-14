@@ -230,14 +230,6 @@
             "review_name": "- Maggie R."
           }
         },
-        "737894a8-05b5-4c39-b25a-08f3697e02a9": {
-          "type": "review",
-          "settings": {
-            "review_title": "Worth the price",
-            "review_text": "“Absolutely love this! They last so much longer than other brands and stretch to like double or triple their size. So so good”",
-            "review_name": "- Shannon E"
-          }
-        },
         "a7c164fd-d977-4049-898a-b11f5cbf150a": {
           "type": "review",
           "settings": {
@@ -245,12 +237,20 @@
             "review_text": "“Love this material. My kids are hot sleepers but these keep them perfectly covered and comfortable year-round.”",
             "review_name": "- Cassie K."
           }
+        },
+        "737894a8-05b5-4c39-b25a-08f3697e02a9": {
+          "type": "review",
+          "settings": {
+            "review_title": "Worth the price",
+            "review_text": "“Absolutely love this! They last so much longer than other brands and stretch to like double or triple their size. So so good”",
+            "review_name": "- Shannon E"
+          }
         }
       },
       "block_order": [
         "653bb533-fc27-4936-957b-d333511620d7",
-        "737894a8-05b5-4c39-b25a-08f3697e02a9",
-        "a7c164fd-d977-4049-898a-b11f5cbf150a"
+        "a7c164fd-d977-4049-898a-b11f5cbf150a",
+        "737894a8-05b5-4c39-b25a-08f3697e02a9"
       ],
       "settings": {
         "title": "Welcome To Our Fan Club",
