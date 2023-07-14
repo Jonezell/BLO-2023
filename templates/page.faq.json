@@ -2,10 +2,9 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "padding_top": 100,
+        "padding_bottom": 0
       }
     },
     "29ca002c-c36f-4d56-81f6-cd161a8ebf50": {
@@ -51,8 +50,8 @@
         "mainHeading": "Shipping Policy",
         "mainText": "<p>We offer FREE shipping on all United States orders over $40.<\/p>",
         "layout": "image_first",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "ff57ad06-0392-469d-81df-b52f4409a423": {
@@ -78,8 +77,8 @@
         "mainHeading": "Returns and Exchanges",
         "mainText": "<p>We’re sorry your purchase didn’t work out. We allow exchanges within 30 days. <\/p>",
         "layout": "image_first",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "128d0c79-0e6d-4c62-9afc-b5ad92887ba1": {
@@ -105,8 +104,8 @@
         "mainHeading": "Package Protection",
         "mainText": "<p>Our Brave Little Ones $0.98 Package Protection guarantees delivery on all orders placed within the United States.<\/p>",
         "layout": "image_first",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "33ff1203-bdab-4b14-b3d2-a387ec6158b4": {
@@ -152,8 +151,8 @@
         "mainHeading": "Sizing Help",
         "mainText": "<p>Our Brave Little Ones $0.98 Package Protection guarantees delivery on all orders placed within the United States.<\/p>",
         "layout": "image_first",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "19377e30-16eb-4742-b517-36c612483e17": {
@@ -199,8 +198,8 @@
         "mainHeading": "Care Instructions",
         "mainText": "",
         "layout": "image_first",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "30b027c7-c291-4b9d-a320-3c7e5f0cf3d4": {
@@ -236,8 +235,8 @@
         "mainHeading": "International Shipping",
         "mainText": "",
         "layout": "image_first",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "2e5f3094-9f93-473a-a6a0-e36530632c34": {
@@ -263,8 +262,8 @@
         "mainHeading": "Wholesale",
         "mainText": "",
         "layout": "image_first",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "8ba55bfb-8b33-43c5-83fa-6e8c766846dc": {
@@ -300,8 +299,8 @@
         "mainHeading": "Shop Now, Pay Later",
         "mainText": "",
         "layout": "image_first",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "892da375-fdf8-4406-b77b-a10fe43f3abb": {
@@ -317,7 +316,7 @@
         "template--16169361965225__892da375-fdf8-4406-b77b-a10fe43f3abb-1689257750b2d890f1-1": {
           "type": "text",
           "settings": {
-            "text": "<p>For more questions, please reach out to our support team at<a href=\"https:\/\/bravelittleones.com\/pages\/contact-us\" title=\"Contact Us\">Support@bravelittleones.com<\/a>. All inquires will be reponded to within 2 business days (Monday - Friday)<\/p>"
+            "text": "<p>For more questions, please reach out to our support team at <a href=\"https:\/\/bravelittleones.com\/pages\/contact-us\" title=\"Contact Us\">Support@bravelittleones.com<\/a>. All inquires will be reponded to within 2 business days (Monday - Friday)<\/p>"
           }
         },
         "template--16169361965225__892da375-fdf8-4406-b77b-a10fe43f3abb-1689257750b2d890f1-2": {
