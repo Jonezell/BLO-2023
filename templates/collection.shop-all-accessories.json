@@ -18,6 +18,13 @@
             "linktext": "All"
           }
         },
+        "be2815ab-cd9a-4001-afe1-a1308e0f3a3b": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/bows",
+            "linktext": "Bows"
+          }
+        },
         "b762a33b-8d2e-47c5-b327-f216aabfedc5": {
           "type": "link",
           "settings": {
@@ -52,23 +59,16 @@
             "linkurl": "shopify:\/\/collections\/backpacks",
             "linktext": "Backpacks"
           }
-        },
-        "be2815ab-cd9a-4001-afe1-a1308e0f3a3b": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/collections\/bows",
-            "linktext": "Bows"
-          }
         }
       },
       "block_order": [
         "772b654d-7a4d-4a72-a07e-2172cb218df0",
+        "be2815ab-cd9a-4001-afe1-a1308e0f3a3b",
         "b762a33b-8d2e-47c5-b327-f216aabfedc5",
         "382256df-3454-48ca-afdd-6f72766dc23a",
         "4689d9e5-00de-4c38-8596-b30732514289",
         "c43f78eb-3926-408f-a1bc-ca7acc49ab5f",
-        "8b4e4b6a-0186-4fd8-916a-b7971658ac9d",
-        "be2815ab-cd9a-4001-afe1-a1308e0f3a3b"
+        "8b4e4b6a-0186-4fd8-916a-b7971658ac9d"
       ],
       "settings": {
       }
