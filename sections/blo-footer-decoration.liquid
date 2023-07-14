@@ -1,0 +1,24 @@
+{% render 'blo-edge-texture', pinDirection: 'top' %}
+
+<div class="page-width">???</div>
+
+{% stylesheet %}
+  .blo-footer-decoration {
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "BLO: Footer Decoration",
+  "tag": "section",
+  "class": "section blo-footer-decoration blo-edge-texture-wrapper",
+  "enabled_on": {
+    "groups": ["footer"]
+  },
+  "presets": [
+    {
+      "name": "BLO Oh So Soft"
+    }
+  ]
+}
+{% endschema %}
