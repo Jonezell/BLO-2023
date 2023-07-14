@@ -1,11 +1,46 @@
 {% render 'blo-edge-texture', pinDirection: 'top' %}
+{% render 'blo-logo-spinner' %}
 
-<div class="page-width">???</div>
-
-{% stylesheet %}
-  .blo-footer-decoration {
+{%- style -%}
+  .shopify-section.blo-footer-decoration + .shopify-section {
+    margin-top: 0;
   }
-{% endstylesheet %}
+  .blo-footer-decoration {
+    margin-top: 100px;
+    padding-bottom: 80px;
+    background: var(--tan-Medium);
+  }
+  .blo-logo-spinner {
+    position: absolute;
+    top: -54px;
+    left: calc(50% - 57.5px);
+    height: 115px;
+    width: 115px;
+    opacity: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+  .blo-logo-spinner_text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: rotation 20s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-359deg);
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+  }
+{%- endstyle -%}
 
 {% schema %}
 {
