@@ -555,6 +555,26 @@ header .header__inline-menu {
     background-color: rgba(0,0,0,.05);
     border: none;
 }
+.quick-add-modal .quick-add-modal__toggle {
+    background-color: var(--tan-Medium);
+    border: none;
+    height: 40px;
+    width: 40px;
+}
+.price__badge-sold-out {
+    background: var(--greyscale-Black);
+    color: var(--tan-Light);
+}
+@media screen and (max-width: 749px) {
+    .quick-add-modal .product__media-wrapper slider-component:not(.thumbnail-slider--no-slide) {
+        margin-right: -1.5rem;
+        margin-left: -1.5rem;
+    }
+    .quick-add-modal .product__column-sticky .product__media-list {
+        gap: 0;
+    }
+}
+
 
 
 /* ------------------------ CUSTOM COLLECTION PAGE ADJUSTMENTS ------------------------ */
@@ -746,6 +766,9 @@ svg.icon {
 .product-card-wrapper .card__badge .badge {
     border: none;
 }
+body .badge {
+    padding: 0.6rem 1.3rem 0.5rem 1.3rem;
+}
 
 /* CUSTOM PRODUCT PAGE BADGE */
 
@@ -754,11 +777,11 @@ svg.icon {
     gap: 8px;
 }
 .blo-product-badge {
-   padding: 5px 14px; 
    background: var(--tan-Dark);
    color: var(--greyscale-Black); 
    display: inline-block; 
    border-radius: 20px;
+   border: none;
 }
 
 
