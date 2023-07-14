@@ -2,6 +2,11 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "22b6019b-1824-4586-bee0-512d7a0c717c": {
+      "type": "blo-footer-decoration",
+      "settings": {
+      }
+    },
     "1833dc52-2ea1-4f7b-be67-0b9a45b169f7": {
       "type": "newsletter",
       "blocks": {
@@ -83,6 +88,7 @@
     }
   },
   "order": [
+    "22b6019b-1824-4586-bee0-512d7a0c717c",
     "1833dc52-2ea1-4f7b-be67-0b9a45b169f7",
     "footer"
   ]
