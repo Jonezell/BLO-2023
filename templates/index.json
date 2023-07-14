@@ -115,7 +115,7 @@
         "template--16166779355305__4b1165c6-b8a9-4249-a026-ac24d705f1f2-1689022936c1d9d8ab-1": {
           "type": "text",
           "settings": {
-            "text": "Made from buttery soft Bamboo Viscose. Our luxurious material keeps your little one cozy, day and night."
+            "text": "Made from buttery soft bamboo viscose. Our luxurious material keeps your little one cozy, day and night."
           }
         },
         "00eeaad0-cf15-4fd1-8e37-cc6388cbf716": {
@@ -139,7 +139,7 @@
         "5379ebb7-8266-4575-aaab-6fd9f34a4180": {
           "type": "text",
           "settings": {
-            "text": "Our bamboo is OEKO-TEX certified and has been rigorously tested against a list of over 350 toxic chemicals."
+            "text": "Our bamboo viscose is OEKO-TEX certified and has been rigorously tested against 350 toxic chemicals."
           }
         },
         "template--16166779355305__4b1165c6-b8a9-4249-a026-ac24d705f1f2-1689022936c1d9d8ab-2": {
@@ -225,36 +225,36 @@
         "653bb533-fc27-4936-957b-d333511620d7": {
           "type": "review",
           "settings": {
-            "review_title": "Amazing quality",
-            "review_text": "“I recently switched to BLO over other brands and the quality is unmatched. I’m so impressed and I love the simplicity of the designs.”",
-            "review_name": "- Susan M"
-          }
-        },
-        "737894a8-05b5-4c39-b25a-08f3697e02a9": {
-          "type": "review",
-          "settings": {
-            "review_title": "Amazing quality",
-            "review_text": "“I recently switched to BLO over other brands and the quality is unmatched. I’m so impressed and I love the simplicity of the designs.”",
-            "review_name": "- Susan M"
+            "review_title": "Best PJs out there!",
+            "review_text": "“Long lasting and so soft. Obsessed is an understatement.”",
+            "review_name": "- Maggie R."
           }
         },
         "a7c164fd-d977-4049-898a-b11f5cbf150a": {
           "type": "review",
           "settings": {
-            "review_title": "Amazing quality",
-            "review_text": "“I recently switched to BLO over other brands and the quality is unmatched. I’m so impressed and I love the simplicity of the designs.”",
-            "review_name": "- Susan M"
+            "review_title": "Buttery soft and breathable",
+            "review_text": "“Love this material. My kids are hot sleepers but these keep them perfectly covered and comfortable year-round.”",
+            "review_name": "- Cassie K."
+          }
+        },
+        "737894a8-05b5-4c39-b25a-08f3697e02a9": {
+          "type": "review",
+          "settings": {
+            "review_title": "Worth the price",
+            "review_text": "“Absolutely love this! They last so much longer than other brands and stretch to like double or triple their size. So so good”",
+            "review_name": "- Shannon E."
           }
         }
       },
       "block_order": [
         "653bb533-fc27-4936-957b-d333511620d7",
-        "737894a8-05b5-4c39-b25a-08f3697e02a9",
-        "a7c164fd-d977-4049-898a-b11f5cbf150a"
+        "a7c164fd-d977-4049-898a-b11f5cbf150a",
+        "737894a8-05b5-4c39-b25a-08f3697e02a9"
       ],
       "settings": {
-        "title": "Welcome to the bamboo  fan club.",
-        "text": "Lorem ipsum dolor sit amet consectetur. Purus orci volutpat malesuada vel volutpat fames dictum ut fringilla."
+        "title": "Welcome To Our Fan Club",
+        "text": "Customers love our buttery soft clothes, but don't just take our word for it. We have over 3,000 raving five star reviews!"
       }
     },
     "featured_collection": {
