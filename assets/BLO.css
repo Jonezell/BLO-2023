@@ -706,8 +706,9 @@ facet-remove .active-facets__button--light .active-facets__button-inner:active {
 .mobile-facets label[for="Filter-filter.v.availability-mobile-2"] {
     display: none;
 }
-
-
+.rte a.button {
+    color: var(--greyscale-White);
+}
 
 
 /* CUSTOM MOBILE MENU */
