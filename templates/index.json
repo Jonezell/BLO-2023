@@ -343,6 +343,68 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "b0cf012d-10de-4d21-8db7-f832182c2114": {
+      "type": "blo-who-we-are",
+      "blocks": {
+        "template--16166779355305__b0cf012d-10de-4d21-8db7-f832182c2114-16893469560863c134-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Who We Are"
+          }
+        },
+        "6a53c905-76b0-4f3c-b789-a88784a10e9d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Woman Owned",
+            "icon": "none",
+            "content": "<p>Hi, I’m Tiffaney Ezell, Founder and Owner of Brave Little Ones. We are proud to be a woman owned & women-run business. Our brand story is one of resilience, purpose, and empowerment. During my transition into motherhood, I was incredibly excited to shop for my baby boy, but the items I found came up short of my desires for neutral, soft, and high quality clothing. I quickly realized I had found a gap in the market for children’s clothing with a neutral aesthetic, and so, Brave Little Ones’ path for growth became clear. Since launching with shirts in 2015, we have extended our collections as demand grows. We now offer buttery soft bamboo pjs, shirts, tanks, swim and so much more!<\/p><p>I have been inspired by so many women entrepreneurs while growing this business. With more than 40% of all US businesses now being women owned (YAY), I feel confident our growth will continue with your support. I hope you love our products, and I hope our brand inspires women in business to keep going, and keep growing.<\/p>",
+            "page": ""
+          }
+        },
+        "5f51cada-8f49-4284-9555-91abb9fed62e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Neutral Designs",
+            "icon": "none",
+            "content": "<p>The vision behind our aesthetic was inspired by the growing desire for modern, visually appealing, warm-toned clothing for children. Each piece is curated with unique designs and textures to be neutrally beautiful while providing maximum comfort, functionality and versatility. In addition, all of our colors and designs are hand-drawn and selected, so you won’t find them anywhere else.<\/p><p>Whether you’re shopping for pjs, back to school outfits or loungewear for you, you’ll always find Brave Little Ones to be as fashionable as it is comfortable.<\/p>",
+            "page": ""
+          }
+        },
+        "0dbd0844-3aa1-41e7-891e-f17be36350b8": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Designed in Tennessee",
+            "icon": "none",
+            "content": "<p>Each beautiful piece is designed in Nashville, TN and custom made in China. Brave Little Ones' prints are drawn and chosen by us, for our community who values unique one-of-a-kind pieces. We maintain a close and long-term relationship with our manufacturer, who has been thoroughly vetted, independently audited and complies with all International Labor Standards.<\/p>",
+            "page": ""
+          }
+        },
+        "a7f3659b-0bb0-451a-850d-cd2e715e382f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Giving Back",
+            "icon": "none",
+            "content": "<p>What’s better than cozy snuggles? Knowing that every purchase helps fight childhood hunger. Since starting Brave Little Ones, it has always been about putting people first. We now proudly provide over 550 nutritious meals to children at the Vineyard Christian School in Rwanda every month. Since 2015 Brave Little Ones has been able to donate over 44,260 meals to the children at the Vineyard Christian School.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16166779355305__b0cf012d-10de-4d21-8db7-f832182c2114-16893469560863c134-0",
+        "6a53c905-76b0-4f3c-b789-a88784a10e9d",
+        "5f51cada-8f49-4284-9555-91abb9fed62e",
+        "0dbd0844-3aa1-41e7-891e-f17be36350b8",
+        "a7f3659b-0bb0-451a-850d-cd2e715e382f"
+      ],
+      "settings": {
+        "background_color": "",
+        "texture_top": true,
+        "texture_bottom": false,
+        "layout": "image_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -354,6 +416,7 @@
     "39a14b17-5c76-41f4-b440-d63a3f398506",
     "featured_collection",
     "7f2ba396-b421-44a7-8ac9-529611c0153f",
-    "195f620b-7ce1-4b67-a6dd-a623cb29aece"
+    "195f620b-7ce1-4b67-a6dd-a623cb29aece",
+    "b0cf012d-10de-4d21-8db7-f832182c2114"
   ]
 }
