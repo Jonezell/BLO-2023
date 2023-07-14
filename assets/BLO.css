@@ -271,6 +271,9 @@ header .header__inline-menu {
         padding: 20px 15px;
         color: var(--greyscale-Black);
     }
+    header header-drawer {
+        margin-left: 10px;
+    }
 }
 
 
@@ -582,11 +585,8 @@ header .header__inline-menu {
 .facets-vertical .facets__summary {
     color: var(--greyscale-Black, #161616);
 }
-.facets-vertical .facet-checkbox {
-
-}
 .facets-vertical .facet-checkbox .icon-checkmark {
-    top: 1.45rem;
+    top: 9px;
 }
 .facets-vertical .facet-checkbox > svg, 
 .mobile-facets__label > svg {
@@ -625,11 +625,6 @@ facet-remove .active-facets__button--light .active-facets__button-inner:active {
         margin-top: 50px;
     }
 }
-
-.facets-vertical-sort.page-width {
-
-}
-
 .facets-vertical-sort.page-width .facets-vertical-form {
     justify-content: space-between;
     border-top: 2px solid var(--greyscale-Black);
@@ -706,8 +701,11 @@ facet-remove .active-facets__button--light .active-facets__button-inner:active {
 .active-facets__button-remove.underlined-link {
     display: none;
 }
-
-
+/* CODE TO HIDE OUT OF STOCK FITER */
+.facets label[for="Filter-filter.v.availability-2"],
+.mobile-facets label[for="Filter-filter.v.availability-mobile-2"] {
+    display: none;
+}
 
 
 
