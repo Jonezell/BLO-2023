@@ -12,14 +12,14 @@
         "f0ab4fd9-bbe0-4127-9d9a-bcb7662e92ec": {
           "type": "text",
           "settings": {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus tortor massa sed ut aliquam est."
+            "text": "Get sleepy, stay busy, play rough or snuggle sweetly. Our cozy pjs and daywear are kid and mom approved for every occasion."
           }
         },
         "25b2579f-58af-4eed-9977-37c7897bc32f": {
           "type": "buttons",
           "settings": {
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/shop-all"
+            "button_label": "Shop Best Sellers",
+            "button_link": "shopify:\/\/collections\/best-sellers"
           }
         }
       },
