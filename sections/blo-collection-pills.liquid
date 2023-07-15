@@ -10,6 +10,7 @@
     padding-top: 10px;
     padding-bottom: 30px;
   }
+
   .blo-collection-pills-container {
     display: inline-flex;
     overflow-x: scroll;
@@ -27,6 +28,32 @@
     }
     .blo-collection-pills-wrapper {
       padding-bottom: 50px;
+    }
+    .blo-collection-pills-wrapper {
+      max-width: var(--page-width);
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+    }
+    .blo-collection-pills-wrapper:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 30px;
+      z-index: 1;
+      background: linear-gradient(90deg, #f8f4ee 0%, #f8f4ee00 100%);
+    }
+    .blo-collection-pills-wrapper:after {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 30px;
+      z-index: 1;
+      background: linear-gradient(90deg, #f8f4ee00 0%, #f8f4ee 100%);
     }
   }
 {%- endstyle -%}
