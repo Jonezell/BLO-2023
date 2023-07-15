@@ -136,8 +136,8 @@
   }
 
   .custom-image-and-text .product__accordion {
-    border-top: 2px solid var(--tan-Medium);
-    border-bottom: 2px solid var(--tan-Medium);
+    border-top: 2px solid rgba(0,0,0,0.04);
+    border-bottom: 2px solid rgba(0,0,0,0.04);
   }
   .custom-image-and-text .product__accordion + .product__accordion {
     border-top: none;
