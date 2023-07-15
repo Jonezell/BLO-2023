@@ -583,6 +583,11 @@ header .header__inline-menu {
         gap: 0;
     }
 }
+.multicolumn-card .multicolumn-card__image-wrapper {
+    max-width: 220px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
 
 
 
