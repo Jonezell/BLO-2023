@@ -52,55 +52,6 @@
             "linkurl": "shopify:\/\/collections\/knotted-gowns",
             "linktext": "Knotted Gowns"
           }
-        },
-        "56714d5f-b58e-4848-9c86-5637c77d3aa5": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/collections\/swim-trunks",
-            "linktext": "Swim Trunks"
-          }
-        },
-        "15eb5570-bf60-4c67-9565-a2bb47e4b5b9": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/collections\/denim",
-            "linktext": "Denim"
-          }
-        },
-        "5cc99d2a-511d-42e6-8df4-8d54268c2568": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/collections\/briefs-underwear",
-            "linktext": "Briefs & Underwear"
-          }
-        },
-        "22f13ac4-c6e9-46cb-b415-5cd465f035af": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/collections\/blankets",
-            "linktext": "Blankets"
-          }
-        },
-        "0fe22351-50bf-45e8-bd93-8fb3e48140e0": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/collections\/trucker-hats",
-            "linktext": "Hats"
-          }
-        },
-        "8832d4ba-efe2-41d1-b436-13096f967660": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/collections\/toddler-beanies",
-            "linktext": "Beanies"
-          }
-        },
-        "0f474758-ae93-4a6d-94d7-71a4b25080cb": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/collections\/backpacks",
-            "linktext": "Backpacks"
-          }
         }
       },
       "block_order": [
@@ -109,14 +60,7 @@
         "ce317e5e-870e-41bf-a460-b0fd9a4657bd",
         "6bfd07ee-031a-4a56-9f00-117c1b95dedd",
         "bed93f4f-df10-456b-ac64-e625a9bd569e",
-        "935d152d-e76b-41a6-95f9-1b60cf498497",
-        "56714d5f-b58e-4848-9c86-5637c77d3aa5",
-        "15eb5570-bf60-4c67-9565-a2bb47e4b5b9",
-        "5cc99d2a-511d-42e6-8df4-8d54268c2568",
-        "22f13ac4-c6e9-46cb-b415-5cd465f035af",
-        "0fe22351-50bf-45e8-bd93-8fb3e48140e0",
-        "8832d4ba-efe2-41d1-b436-13096f967660",
-        "0f474758-ae93-4a6d-94d7-71a4b25080cb"
+        "935d152d-e76b-41a6-95f9-1b60cf498497"
       ],
       "settings": {
       }
