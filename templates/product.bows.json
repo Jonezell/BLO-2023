@@ -185,7 +185,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "image_behavior": "zoom-in",
+        "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 0
@@ -200,10 +200,10 @@
         "video": "shopify:\/\/files\/videos\/Brave Knotted - Revised.mp4",
         "video_url": "",
         "description": "",
-        "full_width": true,
+        "full_width": false,
         "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85": {
