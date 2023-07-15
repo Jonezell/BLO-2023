@@ -1,6 +1,6 @@
 {{ 'blo-sections.css' | asset_url | stylesheet_tag }}
 
-{% stylesheet %}
+{%- style -%}
   .blo-featured-reviews {
     background: var(--blue-Green, #B5BDB8);
   }
@@ -87,7 +87,9 @@
       flex: 1;
     }
   }
-{% endstylesheet %}
+
+
+{%- endstyle -%}
 
 
 {% render 'blo-edge-texture', pinDirection: 'top' %}
