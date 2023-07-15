@@ -18,20 +18,6 @@
             "linktext": "All"
           }
         },
-        "06cbbc59-d1ca-4ea9-9e13-e589d26a9257": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/collections\/two-piece-sets",
-            "linktext": "Two-Piece Sets"
-          }
-        },
-        "ce317e5e-870e-41bf-a460-b0fd9a4657bd": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/collections\/shorts-two-piece-set",
-            "linktext": "Shorts Two-Piece Sets"
-          }
-        },
         "6bfd07ee-031a-4a56-9f00-117c1b95dedd": {
           "type": "link",
           "settings": {
@@ -105,8 +91,6 @@
       },
       "block_order": [
         "c7403c74-bc41-4a26-823f-d207c3c66ce5",
-        "06cbbc59-d1ca-4ea9-9e13-e589d26a9257",
-        "ce317e5e-870e-41bf-a460-b0fd9a4657bd",
         "6bfd07ee-031a-4a56-9f00-117c1b95dedd",
         "bed93f4f-df10-456b-ac64-e625a9bd569e",
         "935d152d-e76b-41a6-95f9-1b60cf498497",
