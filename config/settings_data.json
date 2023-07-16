@@ -115,7 +115,7 @@
     "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
-    "cart_drawer_collection": "top-sellers",
+    "cart_drawer_collection": "best-sellers",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
