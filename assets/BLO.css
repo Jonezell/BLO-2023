@@ -330,6 +330,57 @@ header .header__inline-menu {
 .page-width.page-width--narrow {
     max-width: 800px;
 }
+@media screen and (max-width: 989px) {
+    .section-collection-list .title-wrapper--self-padded-tablet-down, 
+    .section-collection-list .title-wrapper--self-padded-mobile {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .section-collection-list .grid--peek.slider .grid__item:first-of-type,
+    .shopify-section .collection .grid--peek.slider .grid__item:first-of-type {
+        margin-left: 5rem;
+    }
+    .section-collection-list .slider.slider--tablet,
+    .shopify-section .collection .slider--tablet.product-grid {
+        scroll-padding-left: 5rem;
+    }
+    .section-collection-list .slider--tablet:after, 
+    .shopify-section .collection .slider--tablet:after {
+        padding-left: 5rem;
+    }
+    .shopify-section .collection .slider--tablet.grid--peek.grid--1-col-tablet-down .grid__item, 
+    .shopify-section .collection .slider--mobile.grid--peek.grid--1-col-tablet-down .grid__item {
+        width: calc(100% - 30px - 5rem);
+    }
+    .shopify-section.section-collection-list .slider-mobile-gutter {
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+}
+@media screen and (max-width: 749px) {
+    .section-collection-list .title-wrapper--self-padded-tablet-down, 
+    .section-collection-list .title-wrapper--self-padded-mobile {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .section-collection-list .grid--peek.slider .grid__item:first-of-type,
+    .shopify-section .collection .grid--peek.slider .grid__item:first-of-type {
+        margin-left: 3rem;
+    }
+    .section-collection-list .slider.slider--tablet,
+    .shopify-section .collection .slider--tablet.product-grid {
+        scroll-padding-left: 3rem;
+    }
+    .section-collection-list .slider--tablet:after, 
+    .shopify-section .collection .slider--tablet:after {
+        padding-left: 3rem;
+    }
+    .shopify-section .collection .slider--tablet.grid--peek.grid--1-col-tablet-down .grid__item, 
+    .shopify-section .collection .slider--mobile.grid--peek.grid--1-col-tablet-down .grid__item {
+        width: calc(100% - 30px - 3rem);
+    }
+}
+
 
 
 
@@ -883,3 +934,9 @@ footer shop-login-button {
 footer .footer__content-bottom {
     padding-top: 10px;
   }
+
+
+
+
+
+
