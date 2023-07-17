@@ -639,6 +639,9 @@ header .header__inline-menu {
     margin-left: auto !important;
     margin-right: auto !important;
 }
+.product .product-form__buttons {
+    max-width: none;
+}
 
 
 
