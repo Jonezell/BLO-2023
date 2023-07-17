@@ -20,7 +20,7 @@
 {%- endstyle -%}
 
 <div class="page-width custom-image-and-text-section_wrapper custom-image-and-text-section_{{ section.settings.layout }} section-{{ section.id }}-padding">
-  <div class="custom-image-and-text-section_image">
+  <div class="custom-image-and-text-section_image {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     <img
       srcset="
         {%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
@@ -41,7 +41,7 @@
     {%- for block in section.blocks -%}
       {% case block.type %}
         {%- when 'eyebrow' -%}
-          <div class="eyebrow-wrapper">
+          <div class="eyebrow-wrapper {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
             <p class="eyebrow" {{ block.shopify_attributes }}>{{ block.settings.eyebrow | escape }}</p>
             <svg
               fill="{{ block.settings.eyebrow_color }}"
@@ -55,15 +55,31 @@
             </svg>
           </div>
         {%- when 'heading' -%}
-          <h2 class="image-with-text__heading" {{ block.shopify_attributes }}>
+          <h2
+            class="image-with-text__heading {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            {{ block.shopify_attributes }}
+          >
             {{ block.settings.heading | escape }}
           </h2>
         {%- when 'caption' -%}
-          <p class="h4" {{ block.shopify_attributes }}>{{ block.settings.caption | escape }}</p>
+          <p
+            class="h4 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            {{ block.shopify_attributes }}
+          >
+            {{ block.settings.caption | escape }}
+          </p>
         {%- when 'text' -%}
-          <div class="image-with-text__text rte " {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+          <div
+            class="image-with-text__text rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            {{ block.shopify_attributes }}
+          >
+            {{ block.settings.text }}
+          </div>
         {%- when 'collapsible_tab' -%}
-          <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
+          <div
+            class="product__accordion accordion quick-add-hidden {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            {{ block.shopify_attributes }}
+          >
             <details id="Details-{{ block.id }}-{{ section.id }}">
               <summary>
                 <div class="summary__title">
@@ -88,7 +104,7 @@
               {% else %}
                 href="{{ block.settings.button_link }}"
               {% endif %}
-              class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+              class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
               {{ block.shopify_attributes }}
             >
               {{ block.settings.button_label | escape }}
