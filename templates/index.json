@@ -2,7 +2,6 @@
   "sections": {
     "102eb650-32a6-4159-af05-c7fc53d2990e": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--16166779355305__102eb650-32a6-4159-af05-c7fc53d2990e-1689599181b1c17ce2-0": {
           "type": "heading",
@@ -97,6 +96,7 @@
     },
     "ff89b0a8-7e03-49ca-a54a-9cff08c5d7a6": {
       "type": "blo-banner",
+      "disabled": true,
       "blocks": {
         "71574e6a-6ed6-40e4-a8d3-0df068a16139": {
           "type": "heading",
