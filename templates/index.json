@@ -1,5 +1,100 @@
 {
   "sections": {
+    "102eb650-32a6-4159-af05-c7fc53d2990e": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "template--16166779355305__102eb650-32a6-4159-af05-c7fc53d2990e-1689599181b1c17ce2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Christmas in July sale is here!",
+            "heading_size": "h2"
+          }
+        },
+        "template--16166779355305__102eb650-32a6-4159-af05-c7fc53d2990e-1689599181b1c17ce2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Take 30% off sitewide with code ‘ChristmasInJuly’! Sale ends Monday the 24th at 11:59 PM PST. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16166779355305__102eb650-32a6-4159-af05-c7fc53d2990e-1689599181b1c17ce2-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "https:\/\/bravelittleones.com\/discount\/ChristmasinJuly?redirect=\/collections\/shop-all"
+          }
+        }
+      },
+      "block_order": [
+        "template--16166779355305__102eb650-32a6-4159-af05-c7fc53d2990e-1689599181b1c17ce2-0",
+        "template--16166779355305__102eb650-32a6-4159-af05-c7fc53d2990e-1689599181b1c17ce2-1",
+        "template--16166779355305__102eb650-32a6-4159-af05-c7fc53d2990e-1689599181b1c17ce2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/christmas-in-july.gif",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-0aa9ae75-d6fb-4d4d-929d-498bf1d5c6be",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "left",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "4bd8b0f4-3764-442a-90f6-b398a4f2694e": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "template--16166779355305__4bd8b0f4-3764-442a-90f6-b398a4f2694e-168959887338df5968-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Christmas in July sale is here!",
+            "heading_size": "h2"
+          }
+        },
+        "template--16166779355305__4bd8b0f4-3764-442a-90f6-b398a4f2694e-168959887338df5968-1": {
+          "type": "text",
+          "settings": {
+            "text": "Take 30% off sitewide with code ‘ChristmasInJuly’! Sale ends Monday the 24th at 11:59 PM PST.",
+            "text_style": "body"
+          }
+        },
+        "template--16166779355305__4bd8b0f4-3764-442a-90f6-b398a4f2694e-168959887338df5968-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "https:\/\/bravelittleones.com\/discount\/ChristmasinJuly?redirect=\/collections\/shop-all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16166779355305__4bd8b0f4-3764-442a-90f6-b398a4f2694e-168959887338df5968-0",
+        "template--16166779355305__4bd8b0f4-3764-442a-90f6-b398a4f2694e-168959887338df5968-1",
+        "template--16166779355305__4bd8b0f4-3764-442a-90f6-b398a4f2694e-168959887338df5968-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cfb9fc60-8ca7-4d60-8c31-155bfd6cbe44.gif",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-right",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "ff89b0a8-7e03-49ca-a54a-9cff08c5d7a6": {
       "type": "blo-banner",
       "blocks": {
@@ -438,6 +533,8 @@
     }
   },
   "order": [
+    "102eb650-32a6-4159-af05-c7fc53d2990e",
+    "4bd8b0f4-3764-442a-90f6-b398a4f2694e",
     "ff89b0a8-7e03-49ca-a54a-9cff08c5d7a6",
     "ee363dd5-1c44-4b82-b551-3972740be32c",
     "de916c71-b979-4c56-ab19-f192e2af4f26",
