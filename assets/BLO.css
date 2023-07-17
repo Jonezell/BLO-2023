@@ -330,7 +330,7 @@ header .header__inline-menu {
 .page-width.page-width--narrow {
     max-width: 800px;
 }
-@media screen and (max-width: 989px) {
+@media screen and (max-width: 989px) and (min-width: 750px) {
     .section-collection-list .title-wrapper--self-padded-tablet-down, 
     .section-collection-list .title-wrapper--self-padded-mobile {
         padding-left: 5rem;
