@@ -642,6 +642,13 @@ header .header__inline-menu {
 .product .product-form__buttons {
     max-width: none;
 }
+.product__accordion .accordion__content table {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
 
 
 
@@ -943,3 +950,32 @@ footer .footer__content-bottom {
 
 
 
+/* CUSTOM TABLE STYLING */
+
+table tr p{
+    margin: 0;
+}
+table tr strong{
+    font-family: 'GothamRounded-Medium' !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    -webkit-font-smoothing: antialiased;
+}
+table:not([class]) tr td, 
+table:not([class]) tr th {
+    border: 2px solid var(--tan-Medium);
+    border-left: none;
+    border-right: none;
+    padding: 15px;
+}
+table:not([class]) tr td:first-child, 
+table:not([class]) tr th:first-child {
+    padding-left: 0;
+}
+table:not([class]) {
+    box-shadow: none;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.32px;
+    color: var(--greyscale-Black);
+}
