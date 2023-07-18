@@ -82,7 +82,8 @@
           "type": "blo-restock-note",
           "settings": {
             "header": "Restocking",
-            "text": "Signup for restock notifications to be the first to know when it is back in stock!"
+            "text": "",
+            "hide-payment-plan": true
           }
         },
         "4620763d-b34b-4ded-a857-504751a5f38d": {
