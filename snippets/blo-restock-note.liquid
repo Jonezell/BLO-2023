@@ -1,6 +1,19 @@
-<p class="blo-restock-note">
-  {{ block.settings.text }}
-</p>
+{% if product.selected_or_first_available_variant.inventory_quantity <= 0 and product.metafields.custom.restock_date %}
+  <div class="blo-restock-note">
+    <div class="blo-restock-note-header">
+      {% render 'icon-calendar' %}
+      <h6>
+        {{ block.settings.header }}
+        {{ product.metafields.custom.restock_date }}
+      </h6>
+    </div>
+    <p>
+      {{ block.settings.text }}
+
+      ({{ product.selected_or_first_available_variant.inventory_quantity }})
+    </p>
+  </div>
+{% endif %}
 
 {%- style -%}
   .blo-restock-note {
@@ -10,5 +23,17 @@
     margin-top: 30px;
     text-style: italic;
     text-decoration: none !important;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .blo-restock-note-header {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    gap: 10px;
+  }
+  .blo-restock-note p {
+    margin: 0;
   }
 {%- endstyle -%}
