@@ -13,6 +13,13 @@
       ({{ product.selected_or_first_available_variant.inventory_quantity }})
     </p>
   </div>
+  {% if block.settings['hide-payment-plan'] == true %}
+    <style>
+      .blo-custom-payments {
+        display: none;
+      }
+    </style>
+  {% endif %}
 {% endif %}
 
 {%- style -%}
@@ -32,6 +39,9 @@
     flex-direction: row;
     justify-items: center;
     gap: 10px;
+  }
+  .blo-restock-note-header h6 {
+    margin: 0;
   }
   .blo-restock-note p {
     margin: 0;
