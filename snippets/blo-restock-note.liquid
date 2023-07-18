@@ -1,3 +1,5 @@
+!! {{ product.selected_or_first_available_variant.inventory_quantity }}
+
 {% if product.selected_or_first_available_variant.inventory_quantity <= 0 and product.metafields.custom.restock_date %}
   <div class="blo-restock-note">
     <div class="blo-restock-note-header">
