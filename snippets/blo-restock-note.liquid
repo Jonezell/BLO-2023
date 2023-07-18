@@ -17,9 +17,9 @@
         {{ product.metafields.custom.restock_date }}
       </h6>
     </div>
-    <p>
-      {{ block.settings.text }}
-    </p>
+    {% unless block.settings.text == blank %}
+      <p>"{{ block.settings.text }}</p>
+    {% endunless %}
   </div>
 
   {% comment %} This hides the payment note when there are none {% endcomment %}
@@ -38,11 +38,9 @@
     border-radius: 10px;
     padding: 18px 20px;
     margin-top: 30px;
-    text-style: italic;
     text-decoration: none !important;
     display: flex;
     flex-direction: column;
-    gap: 10px;
   }
   .blo-restock-note-header {
     display: flex;
@@ -55,6 +53,6 @@
     color: var(--greyscale-Black);
   }
   .blo-restock-note p {
-    margin: 0;
+    margin: 6px 0 0 0;
   }
 {%- endstyle -%}
