@@ -78,16 +78,16 @@
             "style": "text-decoration:none"
           }
         },
+        "4cf74992-594d-4f7b-a5cb-d077df7656fd": {
+          "type": "blo-restock-note",
+          "settings": {
+            "text": "Restocking in"
+          }
+        },
         "4620763d-b34b-4ded-a857-504751a5f38d": {
           "type": "blo-payment-plans",
           "settings": {
             "text": "Or, split your purchase into multiple small interest-free payments with"
-          }
-        },
-        "4cf74992-594d-4f7b-a5cb-d077df7656fd": {
-          "type": "blo-restock-note",
-          "settings": {
-            "text": "Restocking on:"
           }
         },
         "description": {
@@ -144,8 +144,8 @@
         "14d206d1-bc58-4ca6-baa4-d38ba878182e",
         "buy_buttons",
         "d32cf3ff-3cf1-42b1-95be-fd31a14eefc2",
-        "4620763d-b34b-4ded-a857-504751a5f38d",
         "4cf74992-594d-4f7b-a5cb-d077df7656fd",
+        "4620763d-b34b-4ded-a857-504751a5f38d",
         "description",
         "collapsible-row-2",
         "collapsible-row-3",
