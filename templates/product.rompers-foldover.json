@@ -81,7 +81,7 @@
         "4cf74992-594d-4f7b-a5cb-d077df7656fd": {
           "type": "blo-restock-note",
           "settings": {
-            "header": "Restocking",
+            "header": "Restocking in",
             "text": "Signup for notifications to be the first to know when it restocks!"
           }
         },
