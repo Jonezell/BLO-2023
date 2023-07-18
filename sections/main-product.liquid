@@ -470,6 +470,8 @@
                 %} 
             {%- when 'blo-payment-plans' -%}
               {% render 'blo-payment-plans', block: block%} 
+            {%- when 'blo-restock-note' -%}
+              {% render 'blo-restock-note', block: block%} 
             {% comment %} END CUSTOM CODE {% endcomment %}        
           {%- endcase -%}
         {%- endfor -%}
@@ -2033,6 +2035,18 @@
           "type": "text",
           "id": "text",
           "default": "Split your purchase into multiple small interest-free payments with",
+          "label": "Text"
+        }
+      ]
+    },
+    {
+      "type": "blo-restock-note",
+      "name": "BLO: Restock Note",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "Restocking on:",
           "label": "Text"
         }
       ]
