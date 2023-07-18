@@ -56,6 +56,14 @@
             "style": "text-decoration:none"
           }
         },
+        "d828ce5d-f44b-4833-9b8d-0a405b12654d": {
+          "type": "blo-restock-note",
+          "settings": {
+            "header": "Restocking",
+            "text": "Signup for restock notifications to be the first to know when it is back in stock!",
+            "hide-payment-plan": true
+          }
+        },
         "4620763d-b34b-4ded-a857-504751a5f38d": {
           "type": "blo-payment-plans",
           "settings": {
@@ -83,6 +91,7 @@
         "14d206d1-bc58-4ca6-baa4-d38ba878182e",
         "buy_buttons",
         "d32cf3ff-3cf1-42b1-95be-fd31a14eefc2",
+        "d828ce5d-f44b-4833-9b8d-0a405b12654d",
         "4620763d-b34b-4ded-a857-504751a5f38d",
         "description",
         "share"
