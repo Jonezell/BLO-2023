@@ -142,10 +142,20 @@
             "content": "<p>We’re sorry your purchase didn’t work out. We allow exchanges within 30 days. All items applicable for exchange must be unwashed, unworn and in original condition. Product must have the original packaging with tags. A store credit will be issued within 3 days after return is received. $6.99 will be deducted from your store credit for the return shipping label. Please use a poly mailer or bubble envelope to return items. Additional fees may apply for returning items in large boxes.<br\/><br\/><a href=\"https:\/\/brave-little-ones.happyreturns.com\/\" target=\"_blank\" title=\"Start a Return\">Start a Return<\/a><\/p>",
             "page": ""
           }
+        },
+        "f46b0465-46fe-4027-b4a6-a189a0d21535": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can I return or exchange an international order?",
+            "icon": "none",
+            "content": "<p>Unfortunately, we do not allow returns or exchanges for international orders at this time.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
-        "940a9686-82db-43cd-93e1-dbf790f7b75f"
+        "940a9686-82db-43cd-93e1-dbf790f7b75f",
+        "f46b0465-46fe-4027-b4a6-a189a0d21535"
       ],
       "settings": {
         "background_color": "",
