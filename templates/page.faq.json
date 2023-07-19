@@ -279,43 +279,6 @@
         "padding_bottom": 100
       }
     },
-    "30b027c7-c291-4b9d-a320-3c7e5f0cf3d4": {
-      "type": "blo-faq",
-      "blocks": {
-        "0b163227-b3c0-45f0-9b7e-b6bd4d357de4": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How much is international shipping?",
-            "icon": "none",
-            "content": "<p>International shipping is $45 per order, for all international orders.<\/p>",
-            "page": ""
-          }
-        },
-        "1d93ecbd-ffaa-4025-89d3-3fa6a7b3ff47": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How long will it take to receive my order?",
-            "icon": "none",
-            "content": "<p>Items shipped internationally take 18-40 days to arrive.<\/p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "0b163227-b3c0-45f0-9b7e-b6bd4d357de4",
-        "1d93ecbd-ffaa-4025-89d3-3fa6a7b3ff47"
-      ],
-      "settings": {
-        "background_color": "",
-        "texture_top": false,
-        "texture_bottom": false,
-        "mainHeading": "International Shipping",
-        "mainText": "",
-        "layout": "image_first",
-        "padding_top": 0,
-        "padding_bottom": 100
-      }
-    },
     "2e5f3094-9f93-473a-a6a0-e36530632c34": {
       "type": "blo-faq",
       "blocks": {
@@ -431,7 +394,6 @@
     "128d0c79-0e6d-4c62-9afc-b5ad92887ba1",
     "33ff1203-bdab-4b14-b3d2-a387ec6158b4",
     "19377e30-16eb-4742-b517-36c612483e17",
-    "30b027c7-c291-4b9d-a320-3c7e5f0cf3d4",
     "2e5f3094-9f93-473a-a6a0-e36530632c34",
     "8ba55bfb-8b33-43c5-83fa-6e8c766846dc",
     "892da375-fdf8-4406-b77b-a10fe43f3abb"
