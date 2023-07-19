@@ -106,7 +106,7 @@
           "settings": {
             "heading": "More questions?",
             "icon": "none",
-            "content": "<p>Passport has detailed FAQs <a href=\"https:\/\/passportshipping.zendesk.com\/hc\/en-us\/categories\/360001441273-Frequently-Asked-Questions\"><span style=\"text-decoration:underline\">here<\/span><\/a><\/p>",
+            "content": "<p>Passport has detailed FAQs <a href=\"https:\/\/passportshipping.zendesk.com\/hc\/en-us\/categories\/360001441273-Frequently-Asked-Questions\" target=\"_blank\" title=\"Passport FAQs\"><span style=\"text-decoration:underline\">here<\/span><\/a><\/p>",
             "page": ""
           }
         }
