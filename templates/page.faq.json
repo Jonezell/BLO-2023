@@ -88,7 +88,7 @@
           "settings": {
             "heading": "How can I track my package?",
             "icon": "none",
-            "content": "<p>Once your order has been fulfilled, you will receive an email from us with your tracking information. You can track the progress of your order directly on your Brave Little Ones tracking page.<\/p>",
+            "content": "<p>Once your order has been fulfilled, you will receive an email from us with your tracking information. You can track the progress of your order directly on your Brave Little Ones <a href=\"https:\/\/account.bravelittleones.com\" title=\"https:\/\/account.bravelittleones.com\">tracking page<\/a>.<\/p>",
             "page": ""
           }
         },
