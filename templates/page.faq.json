@@ -61,7 +61,7 @@
           "settings": {
             "heading": "What is the service you use?",
             "icon": "none",
-            "content": "<p>Passport Shipping is a modern shipping carrier that helps direct-to-consumer brands ship their products internationally. They will be your main go-to for all questions once our products leave the warehouse. <\/p><p>Please message them at <a href=\"mailto:help@passportshipping.com\"><span style=\"text-decoration:underline\">help@passportshipping.com<\/span><\/a> for any questions regarding your order.<\/p>",
+            "content": "<p>Passport Shipping is a modern shipping carrier that helps direct-to-consumer brands ship their products internationally. They will be your main go-to for all questions once our products leave the warehouse. Passport has detailed FAQs<strong> <\/strong><a href=\"https:\/\/passportshipping.zendesk.com\/hc\/en-us\/categories\/360001441273-Frequently-Asked-Questions\"><span style=\"text-decoration:underline\">here<\/span><\/a>.<\/p><p>Please message them at <a href=\"mailto:help@passportshipping.com\"><span style=\"text-decoration:underline\">help@passportshipping.com<\/span><\/a> for any questions regarding your order.<br\/><\/p><p><\/p>",
             "page": ""
           }
         },
