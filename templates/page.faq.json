@@ -68,18 +68,18 @@
         "template--16169361965225__8820224c-172b-4fc4-a5f2-b7e85d680d3d-1689773697ae2fd14c-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "How much is international shipping?",
+            "heading": "How much is shipping? Do I have to pay duties and taxes?",
             "icon": "none",
-            "content": "<p>Shipping cost varies depending on  the final destinations and weight of order. <\/p>",
+            "content": "<p>Shipping cost varies depending on  the final destinations and weight of order. <br\/><br\/>To create a better delivery experience for you, we ship all international orders Delivered Duty Paid (DDP). By shipping DDP, duties and taxes are collected directly at checkout so that your package is not stopped and held by customs.<br\/><br\/>Please note that duties and taxes assessed by customs vary by country and product.<\/p>",
             "page": ""
           }
         },
         "a930a09e-2b7c-4ca0-9660-7baf487efdf9": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "When can I expect my package?",
+            "heading": "When will I receive my order?",
             "icon": "none",
-            "content": "<p>Estimated shipping is 8-15 business days but could take less or more time. If your package is lost or you have any issues with your package <a href=\"mailto:help@passportshipping.com\"><span style=\"text-decoration:underline\">help@passportshipping.com<\/span><\/a> is your best contact for all questions.<\/p>",
+            "content": "<p>We want you to receive your order as fast as possible!<\/p><p>International orders are typically delivered within 6-15 business days once the order has been fulfilled. Once your order has been fulfilled, the estimated delivery date will be shown on your tracking page.<\/p>",
             "page": ""
           }
         },
@@ -91,6 +91,15 @@
             "content": "<p>We do not accept returns on international orders at this time. <\/p>",
             "page": ""
           }
+        },
+        "e277ca39-4d82-481d-a107-79acbbca2586": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How can I track my package?",
+            "icon": "none",
+            "content": "<p>Once your order has been fulfilled, you will receive an email from us with your tracking information. You can track the progress of your order directly on your Brave Little Ones tracking page.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -98,7 +107,8 @@
         "template--16169361965225__8820224c-172b-4fc4-a5f2-b7e85d680d3d-1689773697ae2fd14c-1",
         "template--16169361965225__8820224c-172b-4fc4-a5f2-b7e85d680d3d-1689773697ae2fd14c-2",
         "a930a09e-2b7c-4ca0-9660-7baf487efdf9",
-        "fc4ef8fc-5264-4737-a759-44db6182775c"
+        "fc4ef8fc-5264-4737-a759-44db6182775c",
+        "e277ca39-4d82-481d-a107-79acbbca2586"
       ],
       "settings": {
         "background_color": "",
