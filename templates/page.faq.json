@@ -91,15 +91,6 @@
             "content": "<p>We do not accept returns on international orders at this time. <\/p>",
             "page": ""
           }
-        },
-        "92ce19bd-0b30-462d-b491-e033e0357419": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "More questions?",
-            "icon": "none",
-            "content": "<p>Passport has detailed FAQs <a href=\"https:\/\/passportshipping.zendesk.com\/hc\/en-us\/categories\/360001441273-Frequently-Asked-Questions\" target=\"_blank\" title=\"Passport FAQs\"><span style=\"text-decoration:underline\">here<\/span><\/a><\/p>",
-            "page": ""
-          }
         }
       },
       "block_order": [
@@ -107,8 +98,7 @@
         "template--16169361965225__8820224c-172b-4fc4-a5f2-b7e85d680d3d-1689773697ae2fd14c-1",
         "template--16169361965225__8820224c-172b-4fc4-a5f2-b7e85d680d3d-1689773697ae2fd14c-2",
         "a930a09e-2b7c-4ca0-9660-7baf487efdf9",
-        "fc4ef8fc-5264-4737-a759-44db6182775c",
-        "92ce19bd-0b30-462d-b491-e033e0357419"
+        "fc4ef8fc-5264-4737-a759-44db6182775c"
       ],
       "settings": {
         "background_color": "",
