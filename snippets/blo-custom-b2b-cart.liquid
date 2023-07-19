@@ -10,80 +10,79 @@
   {%- if location == 'drawer' -%}
     <script>
       document.addEventListener('DOMContentLoaded', function () {
+
+
+        {% comment %} CONDITION CHECKER {% endcomment %}
         function checkConditions() {
-          console.log('Fired');
 
-          var subtotalElement = document.querySelector('.cart-drawer__footer .totals__subtotal-value');
-          var subtotalContent = subtotalElement ? subtotalElement.textContent.trim() : '';
-          var subtotalValue = parseFloat(subtotalContent.replace(/[^0-9.-]+/g, ''));
+          const htmlElement = document.querySelector('.cart-drawer__footer .totals__subtotal-value');
+          const text = htmlElement.textContent;
+          const subtotalValue = text.replace(/[^0-9]/g, '');
 
-          if (subtotalValue < 600) {
+
+          if (subtotalValue < 60000) {
             document.querySelector('#CartDrawer-Checkout').classList.add('hidden');
             document.querySelector('#b2b-min-note-drawer').classList.remove('hidden');
           } else {
             document.querySelector('#CartDrawer-Checkout').classList.remove('hidden');
             document.querySelector('#b2b-min-note-drawer').classList.add('hidden');
           }
-          console.log(subtotalContent);
-          console.log('yes');
         }
 
         // Run the initial check
         checkConditions();
 
-        let containingElement = document.querySelector('.drawer__inner');
-        document.body.addEventListener('click', function (event) {
-          if (containingElement.contains(event.target)) {
-            checkConditions();
-          }
+
+        {% comment %} CLICK TRIGGER {% endcomment %}
+          var myElementToCheckIfClicksAreInsideOf = document.querySelector('#CartDrawer');
+          // Listen for click events on body
+          document.body.addEventListener('click', function (event) {
+              if (myElementToCheckIfClicksAreInsideOf.contains(event.target)) {
+                setTimeout(function () {
+                  checkConditions();
+                }, 1500);
+              }
+          });
+
+        {% comment %} DRAWER TRIGGER {% endcomment %}
+        var drawerItemsElement = document.querySelector('.drawer');
+        var observer = new MutationObserver(function () {
+          checkConditions();
         });
+        observer.observe(drawerItemsElement, { attributes: true, attributeFilter: ['class'] });
+
+
       });
     </script>
 
   {%- else -%}
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
-          // Function to check customer.b2b? and .totals__subtotal content
+      document.addEventListener('DOMContentLoaded', function () {
+        // Function to check customer.b2b? and .totals__subtotal content
 
+        function checkConditions() {
+          const htmlElement = document.querySelector('.cart__footer-wrapper .totals__subtotal-value');
+          const text = htmlElement.textContent;
+          const subtotalValue = text.replace(/[^0-9]/g, '');
 
-          function checkConditions() {
-
-
-              var subtotalElement = document.querySelector('.cart__footer-wrapper .totals__subtotal-value');
-              var subtotalContent = subtotalElement ? subtotalElement.textContent.trim() : '';
-              var subtotalValue = parseFloat(subtotalContent.replace(/[^0-9.-]+/g,""));
-
-
-            console.log(subtotalElement);
-            console.log("yes");
-
-
-              if (subtotalValue < 600) {
-                  document.querySelector('#checkout').classList.add('hidden');
-                  document.querySelector('#b2b-min-note-page').classList.remove('hidden');
-              } else {
-                  document.querySelector('#checkout').classList.remove('hidden');
-                  document.querySelector('#b2b-min-note-page').classList.add('hidden');
-              };
-
+          if (subtotalValue < 60000) {
+            document.querySelector('#checkout').classList.add('hidden');
+            document.querySelector('#b2b-min-note-page').classList.remove('hidden');
+          } else {
+            document.querySelector('#checkout').classList.remove('hidden');
+            document.querySelector('#b2b-min-note-page').classList.add('hidden');
           }
+        }
 
-          // Run the initial check
+        // Run the initial check
+        checkConditions();
+
+        // Event listener for class changes on .cart__items element
+        var cartItemsElement = document.querySelector('.cart__items');
+        var observer = new MutationObserver(function () {
           checkConditions();
-
-          // Event listener for click events on any element
-          {% comment %} document.addEventListener('click', function() {
-          setTimeout(function() {
-              checkConditions();
-          }, 1500);
-          }); {% endcomment %}
-
-          // Event listener for class changes on .cart__items element
-          var cartItemsElement = document.querySelector('.cart__items');
-          var observer = new MutationObserver(function() {
-              checkConditions();
-          });
-          observer.observe(cartItemsElement, { attributes: true, attributeFilter: ['class'] });
+        });
+        observer.observe(cartItemsElement, { attributes: true, attributeFilter: ['class'] });
       });
     </script>
   {%- endif -%}
