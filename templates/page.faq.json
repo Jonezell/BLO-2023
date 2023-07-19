@@ -51,8 +51,8 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Where do you ship to?",
-            "icon": "check_mark",
-            "content": "<p>We use a service called Passport Shipping which delivers to over 200 countries! Click <a href=\"https:\/\/drive.google.com\/file\/d\/10OplD_uPTzKRlvOz9jLca7OQ9CzUhpz4\/view\"><span style=\"text-decoration:underline\">here <\/span><\/a>to learn more.<\/p>",
+            "icon": "none",
+            "content": "<p>We use a service called Passport Shipping which delivers to over 200 countries. Click <a href=\"https:\/\/help.passportshipping.com\/hc\/en-us\/articles\/360063408193-Which-countries-does-Passport-ship-to-\" target=\"_blank\" title=\"https:\/\/help.passportshipping.com\/hc\/en-us\/articles\/360063408193-Which-countries-does-Passport-ship-to-\"><span style=\"text-decoration:underline\">here<\/span><\/a> to learn more.<\/p>",
             "page": ""
           }
         },
