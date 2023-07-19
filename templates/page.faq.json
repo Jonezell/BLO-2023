@@ -27,11 +27,21 @@
             "content": "<p>If you added <strong>Brave Little Ones Package Protection<\/strong> at checkout then do not worry! Our package protection offers peace of mind for all of your orders. If you added the insurance, your package is fully protected in the event that it is lost, damaged, or stolen. Exclusions apply.<\/p><p>See <a href=\"https:\/\/bravelittleones.com\/pages\/package-protection\" title=\"Brave Little Ones Package Insurance\">Brave Little Ones Package Protection Guarantee<\/a> for more.<\/p>",
             "page": ""
           }
+        },
+        "6a4ca31a-7e40-4ac6-b39a-45851d1faa51": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How can I track my order?",
+            "icon": "none",
+            "content": "<p>You can easily track your order from your Brave Little Ones <a href=\"https:\/\/account.bravelittleones.com\" title=\"https:\/\/account.bravelittleones.com\">account page<\/a>.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "template--16169361965225__29ca002c-c36f-4d56-81f6-cd161a8ebf50-1689257344322153c9-0",
-        "template--16169361965225__29ca002c-c36f-4d56-81f6-cd161a8ebf50-1689257344322153c9-2"
+        "template--16169361965225__29ca002c-c36f-4d56-81f6-cd161a8ebf50-1689257344322153c9-2",
+        "6a4ca31a-7e40-4ac6-b39a-45851d1faa51"
       ],
       "settings": {
         "background_color": "",
