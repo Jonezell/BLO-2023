@@ -68,9 +68,9 @@
         "template--16169361965225__8820224c-172b-4fc4-a5f2-b7e85d680d3d-1689773697ae2fd14c-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Why does it cost what it costs?",
+            "heading": "How much is international shipping?",
             "icon": "none",
-            "content": "<p>There is a shipping cost and a duties and taxes cost. We default to each country's laws when it comes to covering duties and taxes upfront or upon receipt. Please note that Brave Little Ones is not responsible for re-shipping a package if duties and taxes are unpaid and it impedes delivery.<\/p>",
+            "content": "<p>Shipping cost varies depending on  the final destinations and weight of order. <\/p>",
             "page": ""
           }
         },
