@@ -1,9 +1,7 @@
 {% comment %} NOTE THIS ONLY SHOWS FOR B2B CUSTOMERS {% endcomment %}
 
-Location: {{ location }}
-
 {%- if customer.b2b? -%}
-  <div class="b2b-min-note" id="b2b-min-note-{{ location }}">
+  <div class="b2b-min-note hidden" id="b2b-min-note-{{ location }}">
     <p class="b2b-cart-note">
       Our wholesale order minimum is $600. Please add more products to your cart to meet the minimum requirement.
     </p>
