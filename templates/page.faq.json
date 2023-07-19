@@ -50,9 +50,9 @@
         "template--16169361965225__8820224c-172b-4fc4-a5f2-b7e85d680d3d-1689773697ae2fd14c-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Where do you ship to?",
+            "heading": "Do you ship internationally?",
             "icon": "none",
-            "content": "<p>We use a service called Passport Shipping which delivers to over 200 countries. Click <a href=\"https:\/\/help.passportshipping.com\/hc\/en-us\/articles\/360063408193-Which-countries-does-Passport-ship-to-\" target=\"_blank\" title=\"https:\/\/help.passportshipping.com\/hc\/en-us\/articles\/360063408193-Which-countries-does-Passport-ship-to-\"><span style=\"text-decoration:underline\">here<\/span><\/a> to learn more.<\/p>",
+            "content": "<p>Yes! International shipping is currently available to over 200 countries. <\/p>",
             "page": ""
           }
         },
