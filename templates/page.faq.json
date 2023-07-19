@@ -19,15 +19,6 @@
             "page": ""
           }
         },
-        "template--16169361965225__29ca002c-c36f-4d56-81f6-cd161a8ebf50-1689257344322153c9-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Do you ship internationally?",
-            "icon": "none",
-            "content": "<p>We currently do not ship internationally.<\/p>",
-            "page": ""
-          }
-        },
         "template--16169361965225__29ca002c-c36f-4d56-81f6-cd161a8ebf50-1689257344322153c9-2": {
           "type": "collapsible_tab",
           "settings": {
@@ -40,18 +31,64 @@
       },
       "block_order": [
         "template--16169361965225__29ca002c-c36f-4d56-81f6-cd161a8ebf50-1689257344322153c9-0",
-        "template--16169361965225__29ca002c-c36f-4d56-81f6-cd161a8ebf50-1689257344322153c9-1",
         "template--16169361965225__29ca002c-c36f-4d56-81f6-cd161a8ebf50-1689257344322153c9-2"
       ],
       "settings": {
         "background_color": "",
         "texture_top": false,
         "texture_bottom": false,
-        "mainHeading": "Shipping Policy",
+        "mainHeading": "U.S. Shipping Policy",
         "mainText": "<p>We offer FREE shipping on all United States orders over $40.<\/p>",
         "layout": "image_first",
         "padding_top": 0,
         "padding_bottom": 100
+      }
+    },
+    "8820224c-172b-4fc4-a5f2-b7e85d680d3d": {
+      "type": "blo-faq",
+      "blocks": {
+        "template--16169361965225__8820224c-172b-4fc4-a5f2-b7e85d680d3d-1689773697ae2fd14c-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Where do you ship to?",
+            "icon": "check_mark",
+            "content": "<p>We use a service called Passport Shipping which delivers to over 200 countries! Click <a href=\"https:\/\/drive.google.com\/file\/d\/10OplD_uPTzKRlvOz9jLca7OQ9CzUhpz4\/view\"><span style=\"text-decoration:underline\">here <\/span><\/a>to learn more.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16169361965225__8820224c-172b-4fc4-a5f2-b7e85d680d3d-1689773697ae2fd14c-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "template--16169361965225__8820224c-172b-4fc4-a5f2-b7e85d680d3d-1689773697ae2fd14c-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16169361965225__8820224c-172b-4fc4-a5f2-b7e85d680d3d-1689773697ae2fd14c-0",
+        "template--16169361965225__8820224c-172b-4fc4-a5f2-b7e85d680d3d-1689773697ae2fd14c-1",
+        "template--16169361965225__8820224c-172b-4fc4-a5f2-b7e85d680d3d-1689773697ae2fd14c-2"
+      ],
+      "settings": {
+        "background_color": "",
+        "texture_top": false,
+        "texture_bottom": false,
+        "mainHeading": "International Shipping",
+        "mainText": "",
+        "layout": "image_first",
+        "padding_top": 0,
+        "padding_bottom": 200
       }
     },
     "ff57ad06-0392-469d-81df-b52f4409a423": {
@@ -349,6 +386,7 @@
   "order": [
     "main",
     "29ca002c-c36f-4d56-81f6-cd161a8ebf50",
+    "8820224c-172b-4fc4-a5f2-b7e85d680d3d",
     "ff57ad06-0392-469d-81df-b52f4409a423",
     "128d0c79-0e6d-4c62-9afc-b5ad92887ba1",
     "33ff1203-bdab-4b14-b3d2-a387ec6158b4",
