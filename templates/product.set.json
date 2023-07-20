@@ -244,6 +244,7 @@
     },
     "c4cdee0e-37f1-45f3-b125-c96720718c15": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "template--16169024061609__c4cdee0e-37f1-45f3-b125-c96720718c15-1689283490e040c409-0": {
           "type": "column",
@@ -311,6 +312,7 @@
     },
     "image-with-text": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "image-with-text-0": {
           "type": "heading",
