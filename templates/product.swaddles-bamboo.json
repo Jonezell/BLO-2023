@@ -231,6 +231,21 @@
         "padding_bottom": 0
       }
     },
+    "f1dae97d-8db7-4de4-a2f2-aaa1ad74d919": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/swaddlesetrevised.mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "11d5616a-9bad-42c0-9c73-6159b3d6903b": {
       "type": "blo-fabric",
       "blocks": {
@@ -267,7 +282,7 @@
         "33a27b15-2acb-4ef5-9fdd-2245789509e7": {
           "type": "text",
           "settings": {
-            "text": "Our snug-fitting cozy pajamas are CPSC compliant and never treated with flame-retardants or chemicals."
+            "text": "Our stretchy swaddle sets are never treated with flame-retardants or chemicals."
           }
         },
         "a80bb817-6094-43a0-83f7-ec880c65ed7a": {
@@ -346,21 +361,6 @@
         "padding_bottom": 0
       }
     },
-    "f1dae97d-8db7-4de4-a2f2-aaa1ad74d919": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video": "shopify:\/\/files\/videos\/swaddlesetrevised.mp4",
-        "video_url": "",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85": {
       "type": "blo-faq",
       "blocks": {
@@ -398,14 +398,14 @@
         "template--16166779289769__d0291347-d783-4f94-a5aa-f5ef56fe5d85-16891060528ec65540-2"
       ],
       "settings": {
-        "background_color": "#efe8de",
+        "background_color": "#f8f4ee",
         "texture_top": true,
         "texture_bottom": true,
         "mainHeading": "Have A Question? We Have The Answer.",
         "mainText": "",
         "layout": "image_first",
         "padding_top": 200,
-        "padding_bottom": 200
+        "padding_bottom": 100
       }
     },
     "related-products": {
@@ -431,9 +431,9 @@
     "main",
     "1689095601e7facfa4",
     "9c989e6a-1966-4f39-8728-f6bf93375aa8",
+    "f1dae97d-8db7-4de4-a2f2-aaa1ad74d919",
     "11d5616a-9bad-42c0-9c73-6159b3d6903b",
     "image-with-text",
-    "f1dae97d-8db7-4de4-a2f2-aaa1ad74d919",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
     "related-products"
   ]
