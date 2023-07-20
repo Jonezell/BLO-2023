@@ -1,0 +1,192 @@
+{{ 'blo-sections.css' | asset_url | stylesheet_tag }}
+
+{% render 'blo-edge-texture', pinDirection: 'top' %}
+{% render 'blo-edge-texture', pinDirection: 'bottom' %}
+
+<div class="page-width">
+  {{
+    section.settings.image
+    | image_url: width: 1260
+    | image_tag: loading: 'lazy', class: 'blo-floating-image scroll-trigger animate--fade-in'
+  }}
+
+  <div class="blo-fabric-text-wrapper blo-text-block {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when 'badge' -%}
+          <div
+            class="inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+          >
+            <label class="badge">{{ block.settings.badge }}</label>
+          </div>
+        {%- when 'heading' -%}
+          <h2
+            class="blo-text-block-title inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+          >
+            {{ block.settings.heading }}
+          </h2>
+        {%- when 'text' -%}
+          <div
+            class="blo-text-block-text rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+          >
+            {% render 'icon-checklist' %}
+            <p>{{ block.settings.text }}</p>
+          </div>
+        {%- when 'buttons' -%}
+          <div
+            class="blo-text-block-buttons {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+          >
+            <a
+              {% if block.settings.button_link == blank %}
+                role="link" aria-disabled="true"
+              {% else %}
+                href="{{ block.settings.button_link }}"
+              {% endif %}
+              class="button button--primary"
+            >
+              {{- block.settings.button_label | escape -}}
+            </a>
+          </div>
+      {%- endcase -%}
+    {%- endfor -%}
+  </div>
+</div>
+
+{% stylesheet %}
+  .blo-fabric {
+    background: var(--tan-Medium);
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+  .blo-fabric .page-width {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    width: 100%;
+  }
+  .blo-fabric-image-wrapper {
+    margin-left: -70px;
+    position: relative;
+  }
+  .blo-fabric-image-wrapper img {
+    position: absolute;
+    width: 630px;
+    height: 630px;
+    transform: rotate(20.037deg);
+    left: 120px;
+    top: -74px;
+    filter: drop-shadow(0px 20px 24px rgba(0, 0, 0, 0.16));
+  }
+
+  @media screen and (max-width: 989px) {
+    .blo-fabric .page-width {
+      flex-direction: column;
+      display: flex;
+      width: 100%;
+      gap: 50px;
+    }
+  }
+  @media screen and (min-width: 990px) {
+    .blo-fabric-image-wrapper {
+      padding-right: 180px;
+    }
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "BLO: Fabric",
+  "tag": "section",
+  "class": "section blo-fabric blo-edge-texture-wrapper",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "PNG Image"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "badge",
+      "name": "Badge",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "badge",
+          "default": "Badge",
+          "label": "Badge Text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "name": "t:sections.image-banner.blocks.heading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "heading",
+          "default": "Image banner",
+          "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.image-banner.blocks.text.name",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "text",
+          "default": "Give customers details about the banner image(s) or content on the template.",
+          "label": "t:sections.image-banner.blocks.text.settings.text.label"
+        }
+      ]
+    },
+    {
+      "type": "buttons",
+      "name": "t:sections.image-banner.blocks.buttons.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label",
+          "default": "Button label",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_1.label",
+          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_1.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "BLO: Fabric",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "buttons"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
