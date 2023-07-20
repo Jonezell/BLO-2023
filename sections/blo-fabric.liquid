@@ -4,12 +4,6 @@
 {% render 'blo-edge-texture', pinDirection: 'bottom' %}
 
 <div class="page-width">
-  {{
-    section.settings.image
-    | image_url: width: 1260
-    | image_tag: loading: 'lazy', class: 'blo-floating-image scroll-trigger animate--fade-in'
-  }}
-
   <div class="blo-fabric-text-wrapper blo-text-block {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
@@ -52,51 +46,69 @@
   </div>
 </div>
 
-{% stylesheet %}
+{%- style -%}
   .blo-fabric {
     background: var(--tan-Medium);
     display: flex;
+    flex-direction: row;
+    justify-items: flex-end;
     position: relative;
     overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   .blo-fabric .page-width {
     flex-direction: row;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     gap: 30px;
     padding-top: 160px;
     padding-bottom: 160px;
     width: 100%;
   }
-  .blo-fabric-image-wrapper {
-    margin-left: -70px;
-    position: relative;
+  .blo-fabric-text-wrapper.blo-text-block {
+    background: var(--greyscale-White);
+    padding: 50px;
+    border-radius: var(--blo-corner-radius);
+    max-width: 600px;
   }
-  .blo-fabric-image-wrapper img {
-    position: absolute;
-    width: 630px;
-    height: 630px;
-    transform: rotate(20.037deg);
-    left: 120px;
-    top: -74px;
-    filter: drop-shadow(0px 20px 24px rgba(0, 0, 0, 0.16));
-  }
-
   @media screen and (max-width: 989px) {
+    .blo-fabric {
+        background-image: url({{section.settings.image.src| image_url: width: 1200}});
+    }
     .blo-fabric .page-width {
       flex-direction: column;
       display: flex;
       width: 100%;
       gap: 50px;
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .blo-fabric {
+        background-image: url({{section.settings.image.src| image_url: width: 1000}});
+    }
+    .blo-fabric .page-width {
+      flex-direction: column;
+      display: flex;
+      width: 100%;
+      gap: 50px;
+      padding-top: 100px;
+      padding-bottom: 100px;
     }
   }
   @media screen and (min-width: 990px) {
     .blo-fabric-image-wrapper {
       padding-right: 180px;
     }
+    .blo-fabric {
+        background-image: url({{section.settings.image.src| image_url: width: 2200}});
+    }
   }
-{% endstylesheet %}
+{%- endstyle -%}
 
 {% schema %}
 {
@@ -111,6 +123,18 @@
       "type": "image_picker",
       "id": "image",
       "label": "PNG Image"
+    },
+    {
+      "type": "checkbox",
+      "id": "texture_top",
+      "label": "Show Top Texture?",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "texture_bottom",
+      "label": "Show Bottom Texture?",
+      "default": true
     }
   ],
   "blocks": [
