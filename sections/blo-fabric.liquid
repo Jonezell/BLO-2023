@@ -36,9 +36,10 @@
               {% else %}
                 href="{{ block.settings.button_link }}"
               {% endif %}
-              class="button button--primary"
+              class="button button--secondary"
             >
               {{- block.settings.button_label | escape -}}
+              {% render 'icon-arrow' %}
             </a>
           </div>
       {%- endcase -%}
@@ -73,6 +74,15 @@
     padding: 50px;
     border-radius: var(--blo-corner-radius);
     max-width: 600px;
+  }
+  .blo-text-block-buttons .button--secondary {
+    background: var(--greyscale-White);
+  }
+  .blo-fabric-text-wrapper.blo-text-block .badge {
+    background: var(--tan-Medium);
+    color: #716859;
+    border: none;
+    padding: 0.6rem 1.3rem 0.5rem 1.3rem;
   }
   @media screen and (max-width: 989px) {
     .blo-fabric {

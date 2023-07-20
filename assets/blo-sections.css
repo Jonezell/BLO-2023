@@ -8,6 +8,9 @@
     justify-content: center;
     gap: 10px;
 }
+.blo-text-block .badge {
+  margin-bottom: 10px;
+}
 .blo-text-block-title {
     margin-bottom: 10px;
     margin-top: 0;
@@ -29,6 +32,9 @@
 }
 .blo-text-block-buttons {
     margin-top: 10px;
+}
+.blo-text-block-buttons .button svg {
+  margin-left: 10px;
 }
 
 .blo-text-block .badge {
