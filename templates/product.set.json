@@ -176,6 +176,12 @@
     "70604352-6031-4eba-84e8-f54531272110": {
       "type": "blo-fabric",
       "blocks": {
+        "b478921d-3222-4330-8cde-917ae36912d3": {
+          "type": "badge",
+          "settings": {
+            "badge": "Our Fabric"
+          }
+        },
         "template--16169024061609__70604352-6031-4eba-84e8-f54531272110-heading-1": {
           "type": "heading",
           "settings": {
@@ -221,6 +227,7 @@
         }
       },
       "block_order": [
+        "b478921d-3222-4330-8cde-917ae36912d3",
         "template--16169024061609__70604352-6031-4eba-84e8-f54531272110-heading-1",
         "template--16169024061609__70604352-6031-4eba-84e8-f54531272110-text-1",
         "4bf51c68-8a64-4ffe-8325-83fee1249320",
@@ -230,7 +237,9 @@
         "template--16169024061609__70604352-6031-4eba-84e8-f54531272110-buttons-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-7.jpg"
+        "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-7.jpg",
+        "texture_top": true,
+        "texture_bottom": true
       }
     },
     "c4cdee0e-37f1-45f3-b125-c96720718c15": {
