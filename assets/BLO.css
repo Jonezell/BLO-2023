@@ -397,10 +397,10 @@ header .header__inline-menu {
     left: 0;
 }
 .blo-edge-texture.top {
-    top:0;
+    top:-1px;
 }
 .blo-edge-texture.bottom {
-    bottom: 0;
+    bottom: -1px;
 }
 .blo-edge-texture.flip {
     transform: rotate(180deg);
