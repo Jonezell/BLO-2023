@@ -331,8 +331,8 @@
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "170e24fe-d0bb-473a-b5fb-2003723c4a99": {
@@ -441,7 +441,7 @@
         "template--16166779289769__d0291347-d783-4f94-a5aa-f5ef56fe5d85-16891060528ec65540-2"
       ],
       "settings": {
-        "background_color": "#efe8de",
+        "background_color": "#f8f4ee",
         "texture_top": true,
         "texture_bottom": true,
         "mainHeading": "Have A Question? We Have The Answer.",
