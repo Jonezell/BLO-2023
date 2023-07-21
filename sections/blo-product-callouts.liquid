@@ -59,7 +59,14 @@
             <p>{{ block.settings.block_text }}</p>
           </div>
         </div>
-        {% comment %} arrow: {{ block.settings.arrow }} {% endcomment %}
+        {%- if block.settings.arrow == 'arch' -%}
+          {%- render 'blo-handdrawn-arrow-arch' -%}
+        {%- elsif block.settings.arrow == 'curly' -%}
+          {%- render 'blo-handdrawn-arrow-curly' -%}
+        {%- elsif block.settings.arrow == 'wavy' -%}
+          {%- render 'blo-handdrawn-arrow-wavy' -%}
+        {%- elsif block.settings.arrow == 'bottom_left' -%}
+        {%- endif -%}
       </label>
     {%- endfor -%}
   </div>
@@ -70,7 +77,7 @@
     max-width: 500px;
     text-align: center;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
   }
   .blo-product-callouts-header h2 {
     margin: 0 0 10px 0;
@@ -84,12 +91,13 @@
   .blo-product-callouts-image-wrapper img {
     width: 100%;
     height: auto;
-    mix-blend-mode: multiply;
+    max-width: 1500px;
   }
   .blo-product-callout-wrapper {
     position: absolute;
     z-index: 1;
     cursor: pointer;
+    transform: translateY(-24px);
   }
   .blo-product-callout-innerwrapper {
     max-width: 300px;
@@ -167,10 +175,10 @@
   }
 
   @media screen and (max-width: 749px) {
-    .blo-product-callouts-image-wrapper {
+    /* .blo-product-callouts-image-wrapper {
       margin-left: -30px;
       margin-right: -30px;
-    }
+    } */
   }
 {%- endstyle -%}
 
