@@ -1,125 +1,157 @@
 {{ 'blo-sections.css' | asset_url | stylesheet_tag }}
 
-{% render 'blo-edge-texture', pinDirection: 'top' %}
-{% render 'blo-edge-texture', pinDirection: 'bottom' %}
-
 <div class="page-width">
-  <div class="blo-fabric-text-wrapper blo-text-block {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+  <div class="blo-product-callouts-header">
+    <h2>{{ section.settings.title }}</h2>
+    <div
+      class="rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+    >
+      <p>{{ section.settings.text }}</p>
+    </div>
+  </div>
+
+  <div class="blo-product-callouts-image-wrapper">
+    {{
+      section.settings.image
+      | image_url: width: 3840
+      | image_tag:
+        loading: 'lazy',
+        width: section.settings.image.width,
+        height: image_height,
+        class: image_class,
+        sizes: sizes,
+        widths: widths
+    }}
     {%- for block in section.blocks -%}
-      {%- case block.type -%}
-        {%- when 'badge' -%}
-          <div
+      <label
+        for="blo-callout-{{block.id}}"
+        class="blo-product-callout-wrapper"
+        style="
+            {%- if block.settings.pin_direction == 'top_right' -%}
+                top:{{block.settings.vertical_position}}%;
+                right:{{block.settings.horizontal_position}}%;
+            {%- elsif block.settings.pin_direction == 'top_left' -%}
+                top:{{block.settings.vertical_position}}%;
+                left:{{block.settings.horizontal_position}}%;
+            {%- elsif block.settings.pin_direction == 'bottom_right' -%}
+                bottom:{{block.settings.vertical_position}}%;
+                right:{{block.settings.horizontal_position}}%;
+            {%- elsif block.settings.pin_direction == 'bottom_left' -%}
+                bottom:{{block.settings.vertical_position}}%;
+                left:{{block.settings.horizontal_position}}%;
+          {%- endif -%}
+        "
+      >
+        <input type="checkbox" name="callout" id="blo-callout-{{block.id}}">
+        <div class="blo-product-callout-innerwrapper">
+          <h6
             class="inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
           >
-            <label class="badge">{{ block.settings.badge }}</label>
-          </div>
-        {%- when 'heading' -%}
-          <h2
-            class="blo-text-block-title inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
-          >
-            {{ block.settings.heading }}
-          </h2>
-        {%- when 'text' -%}
+            {{ block.settings.block_title }}
+            <div class="blo-product-callout-icon">
+              {%- render 'icon-plus' -%}
+              {%- render 'icon-minus' -%}
+            </div>
+          </h6>
           <div
-            class="blo-text-block-text rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            class="rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
           >
-            {% render 'icon-checklist' %}
-            <p>{{ block.settings.text }}</p>
+            <p>{{ block.settings.block_text }}</p>
           </div>
-        {%- when 'buttons' -%}
-          <div
-            class="blo-text-block-buttons {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
-          >
-            <a
-              {% if block.settings.button_link == blank %}
-                role="link" aria-disabled="true"
-              {% else %}
-                href="{{ block.settings.button_link }}"
-              {% endif %}
-              class="button button--secondary"
-            >
-              {{- block.settings.button_label | escape -}}
-              {% render 'icon-arrow' %}
-            </a>
-          </div>
-      {%- endcase -%}
+        </div>
+        {% comment %} arrow: {{ block.settings.arrow }} {% endcomment %}
+      </label>
     {%- endfor -%}
   </div>
 </div>
 
 {%- style -%}
-  .blo-fabric {
-    background: var(--tan-Medium);
-    display: flex;
-    flex-direction: row;
-    justify-items: flex-end;
+  .blo-product-callouts-header {
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  .blo-product-callouts-header h2 {
+    margin: 0 0 10px 0;
+  }
+  .blo-product-callouts-header p {
+    margin: 0;
+  }
+  .blo-product-callouts-image-wrapper {
     position: relative;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
   }
-  .blo-fabric .page-width {
-    flex-direction: row;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 30px;
-    padding-top: 160px;
-    padding-bottom: 160px;
+  .blo-product-callouts-image-wrapper img {
     width: 100%;
+    height: auto;
+    mix-blend-mode: multiply;
   }
-  .blo-fabric-text-wrapper.blo-text-block {
-    background: var(--greyscale-White);
-    padding: 50px;
-    border-radius: var(--blo-corner-radius);
-    max-width: 600px;
+  .blo-product-callout-wrapper {
+    position: absolute;
+    z-index: 10;
   }
-  .blo-text-block-buttons .button--secondary {
-    background: var(--greyscale-White);
-  }
-  .blo-fabric-text-wrapper.blo-text-block .badge {
+  .blo-product-callout-innerwrapper {
+    max-width: 300px;
     background: var(--tan-Medium);
-    color: #716859;
-    border: none;
-    padding: 0.6rem 1.3rem 0.5rem 1.3rem;
+    border-radius: 40px;
+    padding: 10px 20px;
+    transition: 100ms ease-in-out;
   }
-  @media screen and (max-width: 989px) {
-    .blo-fabric {
-      background-image: url({{section.settings.image.src| image_url: width: 2000}});
-    }
-    .blo-fabric .page-width {
-      flex-direction: column;
-      display: flex;
-      width: 100%;
-      gap: 50px;
-      padding-top: 100px;
-      padding-bottom: 100px;
-    }
+  .blo-product-callout-wrapper input:checked ~ .blo-product-callout-innerwrapper {
+    border-radius: var(--blo-corner-radius);
+    padding: 30px;
+    max-width: 320px;
   }
-  @media screen and (max-width: 600px) {
-    .blo-fabric {
-      background-image: url({{section.settings.image.src| image_url: width: 1500}});
-    }
-    .blo-fabric .page-width {
-      flex-direction: column;
-      display: flex;
-      width: 100%;
-      gap: 50px;
-      padding-top: 100px;
-      padding-bottom: 100px;
-    }
-    .blo-fabric-text-wrapper.blo-text-block {
-      padding: 30px;
-    }
+  .blo-product-callout-wrapper h6 {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
   }
-  @media screen and (min-width: 990px) {
-    .blo-fabric-image-wrapper {
-      padding-right: 180px;
-    }
-    .blo-fabric {
-      background-image: url({{section.settings.image.src| image_url: width: 2500}});
-    }
+  .blo-product-callout-wrapper p {
+    margin: 0;
+  }
+  .blo-product-callout-wrapper .rte {
+    display: none;
+  }
+  .blo-product-callout-wrapper input:checked ~ .blo-product-callout-innerwrapper .rte {
+    display: block;
+  }
+  .blo-product-callout-wrapper input {
+    display: none;
+  }
+  .blo-product-callout-icon {
+    display: inline-flex;
+    border: 2px solid var(--greyscale-Black);
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .blo-product-callout-icon svg {
+    height: 12px;
+    width: 12px;
+    margin: 0px;
+  }
+  .blo-product-callout-icon svg:last-child {
+    display: none;
+  }
+  .blo-product-callout-wrapper
+    input:checked
+    ~ .blo-product-callout-innerwrapper
+    .blo-product-callout-icon
+    svg:last-child {
+    display: block;
+  }
+  .blo-product-callout-wrapper
+    input:checked
+    ~ .blo-product-callout-innerwrapper
+    .blo-product-callout-icon
+    svg:first-child {
+    display: none;
   }
 {%- endstyle -%}
 
@@ -148,18 +180,6 @@
       "type": "image_picker",
       "id": "image",
       "label": "Product Image"
-    },
-    {
-      "type": "checkbox",
-      "id": "texture_top",
-      "label": "Show Top Texture?",
-      "default": true
-    },
-    {
-      "type": "checkbox",
-      "id": "texture_bottom",
-      "label": "Show Bottom Texture?",
-      "default": true
     }
   ],
   "blocks": [
