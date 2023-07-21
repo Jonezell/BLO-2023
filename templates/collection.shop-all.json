@@ -79,7 +79,7 @@
     "38c0548b-7793-47c7-8b2b-9c2d5f6f892d": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<script>\n\n$(document).ready(function() {\n\/\/ Set \"In stock\" as the default option in the availability filter\nif ($(\".collection-filter__form select[name='availability'] option:first-child\").text() == \"In stock\") {\n$(\".collection-filter__form select[name='availability'] option:first-child\").prop(\"selected\", true);\n}\n});\n\n<script>",
+        "custom_liquid": "",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
