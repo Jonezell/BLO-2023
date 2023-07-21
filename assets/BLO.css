@@ -582,11 +582,9 @@ header .header__inline-menu {
     background: var(--greyscale-black, #161616);
     color: var(--tan-light, #EFE8DE);
 }
-
 .product .card--horizontal__quick-add .icon-wrap{
     display: none;
 }
-
 .product .complementary-slider .card--horizontal {
     align-items: center;
     padding-right: 20px;
@@ -649,6 +647,12 @@ header .header__inline-menu {
 .product__accordion .accordion__content table {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+/* fixing PAV tooltip showing under the image */
+@media screen and (min-width: 750px) {
+    .product__info-wrapper.grid__item {
+        z-index: 2;
+    }
 }
 
 
