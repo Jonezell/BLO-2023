@@ -52,6 +52,20 @@
             "linkurl": "shopify:\/\/collections\/knotted-gowns",
             "linktext": "Knotted Gowns"
           }
+        },
+        "0b1bf622-1748-4727-926b-686d2e62abb4": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/stretchy-swaddle-sets",
+            "linktext": "Swaddle Sets"
+          }
+        },
+        "6990c498-8d70-4b53-a053-736a03b83fc0": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/muslin-swaddles",
+            "linktext": "Muslin Swaddles"
+          }
         }
       },
       "block_order": [
@@ -60,7 +74,9 @@
         "ce317e5e-870e-41bf-a460-b0fd9a4657bd",
         "6bfd07ee-031a-4a56-9f00-117c1b95dedd",
         "bed93f4f-df10-456b-ac64-e625a9bd569e",
-        "935d152d-e76b-41a6-95f9-1b60cf498497"
+        "935d152d-e76b-41a6-95f9-1b60cf498497",
+        "0b1bf622-1748-4727-926b-686d2e62abb4",
+        "6990c498-8d70-4b53-a053-736a03b83fc0"
       ],
       "settings": {
       }
