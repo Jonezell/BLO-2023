@@ -633,6 +633,10 @@ header .header__inline-menu {
     .quick-add-modal .product__column-sticky .product__media-list {
         gap: 0;
     }
+    /* making product zoom not zoom in as far */
+    .product-media-modal img.global-media-settings{
+        max-width: 700px;
+    }
 }
 .multicolumn-card .multicolumn-card__image-wrapper {
     max-width: 220px;
