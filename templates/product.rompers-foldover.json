@@ -185,6 +185,32 @@
         "include_margins": false
       }
     },
+    "292a1c30-79a3-4b92-aff1-e1d28fa66951": {
+      "type": "blo-product-callouts",
+      "blocks": {
+        "38d9d336-f376-40b5-88db-d6d23b55d945": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Fold-Over Mittens",
+            "block_text": "Our stretchy fold-over mittens not only keep your infant's hands warm, but keep them from scratching their delicate skin too. Fold-over mittens are available up to size 6-12M.",
+            "horizontal_position": 50,
+            "vertical_position": 50,
+            "arrow": "arch"
+          }
+        }
+      },
+      "block_order": [
+        "38d9d336-f376-40b5-88db-d6d23b55d945"
+      ],
+      "settings": {
+        "title": "We’ve thought of it so you don’t have to.",
+        "text": "Lorem ipsum dolor sit amet consectetur",
+        "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-Zip-Romper.jpg",
+        "texture_top": true,
+        "texture_bottom": true
+      }
+    },
     "542bfae1-9f63-4712-9ca0-0edcd9077876": {
       "type": "multicolumn",
       "disabled": true,
@@ -600,6 +626,7 @@
   "order": [
     "main",
     "1689095601e7facfa4",
+    "292a1c30-79a3-4b92-aff1-e1d28fa66951",
     "542bfae1-9f63-4712-9ca0-0edcd9077876",
     "image-with-text",
     "64bf9eb5-785d-40f7-be20-214f5d799838",
