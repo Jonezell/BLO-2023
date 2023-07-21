@@ -188,36 +188,25 @@
     "292a1c30-79a3-4b92-aff1-e1d28fa66951": {
       "type": "blo-product-callouts",
       "blocks": {
-        "38d9d336-f376-40b5-88db-d6d23b55d945": {
-          "type": "Callout",
-          "settings": {
-            "pin_direction": "top_right",
-            "block_title": "Fold-Over Mittens",
-            "block_text": "Our stretchy fold-over mittens not only keep your infant's hands warm, but keep them from scratching their delicate skin too. Fold-over mittens are available up to size 6-12M.",
-            "horizontal_position": 26,
-            "vertical_position": 35,
-            "arrow": "arch"
-          }
-        },
         "d5457409-4e49-41aa-af2b-4cc958b40ec3": {
           "type": "Callout",
           "settings": {
             "pin_direction": "top_left",
             "block_title": "Tagless Label",
             "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
-            "horizontal_position": 32,
-            "vertical_position": 4,
+            "horizontal_position": 29,
+            "vertical_position": 1,
             "arrow": "arch"
           }
         },
-        "1db4ce0f-5414-49f9-9114-afd8f69265ff": {
+        "38d9d336-f376-40b5-88db-d6d23b55d945": {
           "type": "Callout",
           "settings": {
-            "pin_direction": "bottom_right",
-            "block_title": "Fold-Over Feet",
-            "block_text": "Our newly released rompers now include fold-over feet to help keep your little ones cozy.",
-            "horizontal_position": 26,
-            "vertical_position": 7,
+            "pin_direction": "top_right",
+            "block_title": "Fold-Over Mittens",
+            "block_text": "Our stretchy fold-over mittens not only keep your infant's hands warm, but keep them from scratching their delicate skin too. Fold-over mittens are available up to size 6-12M.",
+            "horizontal_position": 9,
+            "vertical_position": 34,
             "arrow": "arch"
           }
         },
@@ -227,17 +216,28 @@
             "pin_direction": "bottom_left",
             "block_title": "Two-Way Zipper",
             "block_text": "We know how tricky diaper changes can be, so we wanted to help. All of our rompers have a two-way zipper to make those middle of the night or on-the-go diaper changes quick and easy!",
-            "horizontal_position": 24,
-            "vertical_position": 19,
+            "horizontal_position": 18,
+            "vertical_position": 16,
+            "arrow": "arch"
+          }
+        },
+        "1db4ce0f-5414-49f9-9114-afd8f69265ff": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "bottom_right",
+            "block_title": "Fold-Over Feet",
+            "block_text": "Our newly released rompers now include fold-over feet to help keep your little ones cozy.",
+            "horizontal_position": 17,
+            "vertical_position": 7,
             "arrow": "arch"
           }
         }
       },
       "block_order": [
-        "38d9d336-f376-40b5-88db-d6d23b55d945",
         "d5457409-4e49-41aa-af2b-4cc958b40ec3",
-        "1db4ce0f-5414-49f9-9114-afd8f69265ff",
-        "e29631c0-07e1-4581-a5b4-70573b94816e"
+        "38d9d336-f376-40b5-88db-d6d23b55d945",
+        "e29631c0-07e1-4581-a5b4-70573b94816e",
+        "1db4ce0f-5414-49f9-9114-afd8f69265ff"
       ],
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
