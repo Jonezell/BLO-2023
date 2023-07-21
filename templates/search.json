@@ -11,7 +11,7 @@
         "show_rating": false,
         "enable_filtering": true,
         "filter_type": "vertical",
-        "enable_sorting": true,
+        "enable_sorting": false,
         "article_show_date": true,
         "article_show_author": false,
         "columns_mobile": "1",
