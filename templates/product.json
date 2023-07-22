@@ -135,7 +135,7 @@
           "settings": {
             "heading": "Shipping",
             "icon": "truck",
-            "content": "<p>Orders are typically shipped within one to two business days (Monday- Friday). Orders are not shipped on weekends. During times of high order volume, please allow up to 5 business days for your order to ship. <br\/><br\/><br\/>??<\/p>{{ block.settings.page.metafields.custom.faq_shipping | metafield_tag }}",
+            "content": "<p>Orders are typically shipped within one to two business days (Monday- Friday). Orders are not shipped on weekends. During times of high order volume, please allow up to 5 business days for your order to ship. <\/p>",
             "page": ""
           }
         },
