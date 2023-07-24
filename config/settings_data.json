@@ -171,11 +171,10 @@
           "position": "right"
         }
       },
-      "10605408327587305396": {
-        "type": "shopify:\/\/apps\/easygift\/blocks\/app-embed\/0f7d4f74-1e89-4820-aec4-6564d7e535d2",
-        "disabled": true,
+      "5674012996228588682": {
+        "type": "shopify:\/\/apps\/cartbot\/blocks\/cartbot-script-append\/f7a44e3b-3901-4412-9d5a-3db0980a9db0",
+        "disabled": false,
         "settings": {
-          "version": "v3"
         }
       }
     },
