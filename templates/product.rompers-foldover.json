@@ -207,7 +207,7 @@
             "arrow_direction": "arrow_left",
             "block_title": "Fold-Over Mittens",
             "block_text": "Our stretchy fold-over mittens not only keep your infant's hands warm, but keep them from scratching their delicate skin too. Fold-over mittens are available up to size 6-12M.",
-            "horizontal_position": 16,
+            "horizontal_position": -10,
             "vertical_position": 66,
             "arrow": "curly"
           }
@@ -231,8 +231,8 @@
             "arrow_direction": "arrow_left",
             "block_title": "Fold-Over Feet",
             "block_text": "Our newly released rompers now include fold-over feet to help keep your little ones cozy.",
-            "horizontal_position": 42,
-            "vertical_position": 98,
+            "horizontal_position": 16,
+            "vertical_position": 94,
             "arrow": "wavy"
           }
         }
