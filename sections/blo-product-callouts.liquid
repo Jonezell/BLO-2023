@@ -47,7 +47,9 @@
           <h6
             class="inline-richtext {{block.settings.pin_direction}} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
           >
-            {{ block.settings.block_title }}
+            <span class="blo-product-callout-innerwrapper-header">
+              {{ block.settings.block_title }}
+            </span>
             <div class="blo-product-callout-icon">
               {%- render 'icon-plus' -%}
               {%- render 'icon-minus' -%}
@@ -230,12 +232,19 @@
   .blo-product-callout-wrapper.top_left {
     align-items: flex-start;
   }
-
   @media screen and (max-width: 749px) {
-    /* .blo-product-callouts-image-wrapper {
-      margin-left: -30px;
-      margin-right: -30px;
-    } */
+    .blo-product-callout-innerwrapper-header {
+      display: none;
+    }
+    .blo-product-callout-wrapper
+      input:checked
+      ~ .blo-product-callout-innerwrapper
+      .blo-product-callout-innerwrapper-header {
+      display: block;
+    }
+    .blo-product-callout-innerwrapper {
+      padding: 10px;
+    }
   }
 {%- endstyle -%}
 
