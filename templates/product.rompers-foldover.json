@@ -192,6 +192,7 @@
           "type": "Callout",
           "settings": {
             "pin_direction": "bottom_right",
+            "arrow_direction": "arrow_right",
             "block_title": "Tagless Label",
             "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
             "horizontal_position": 56,
@@ -203,6 +204,7 @@
           "type": "Callout",
           "settings": {
             "pin_direction": "bottom_right",
+            "arrow_direction": "arrow_left",
             "block_title": "Fold-Over Mittens",
             "block_text": "Our stretchy fold-over mittens not only keep your infant's hands warm, but keep them from scratching their delicate skin too. Fold-over mittens are available up to size 6-12M.",
             "horizontal_position": 16,
@@ -214,6 +216,7 @@
           "type": "Callout",
           "settings": {
             "pin_direction": "top_right",
+            "arrow_direction": "arrow_right",
             "block_title": "Two-Way Zipper",
             "block_text": "We know how tricky diaper changes can be, so we wanted to help. All of our rompers have a two-way zipper to make those middle of the night or on-the-go diaper changes quick and easy!",
             "horizontal_position": 66,
@@ -225,6 +228,7 @@
           "type": "Callout",
           "settings": {
             "pin_direction": "top_right",
+            "arrow_direction": "arrow_left",
             "block_title": "Fold-Over Feet",
             "block_text": "Our newly released rompers now include fold-over feet to help keep your little ones cozy.",
             "horizontal_position": 42,
