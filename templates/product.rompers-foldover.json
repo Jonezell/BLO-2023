@@ -191,12 +191,12 @@
         "d5457409-4e49-41aa-af2b-4cc958b40ec3": {
           "type": "Callout",
           "settings": {
-            "pin_direction": "bottom_left",
+            "pin_direction": "bottom_right",
             "block_title": "Tagless Label",
             "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
-            "horizontal_position": 50,
-            "vertical_position": 100,
-            "arrow": "arch"
+            "horizontal_position": 56,
+            "vertical_position": 94,
+            "arrow": "wavy"
           }
         },
         "38d9d336-f376-40b5-88db-d6d23b55d945": {
