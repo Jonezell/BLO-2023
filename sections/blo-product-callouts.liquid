@@ -59,14 +59,16 @@
             <p>{{ block.settings.block_text }}</p>
           </div>
         </div>
-        {%- if block.settings.arrow == 'arch' -%}
-          {%- render 'blo-handdrawn-arrow-arch' -%}
-        {%- elsif block.settings.arrow == 'curly' -%}
-          {%- render 'blo-handdrawn-arrow-curly' -%}
-        {%- elsif block.settings.arrow == 'wavy' -%}
-          {%- render 'blo-handdrawn-arrow-wavy' -%}
-        {%- elsif block.settings.arrow == 'bottom_left' -%}
-        {%- endif -%}
+        {% comment %}
+          {%- if block.settings.arrow == 'arch' -%}
+            {%- render 'blo-handdrawn-arrow-arch' -%}
+          {%- elsif block.settings.arrow == 'curly' -%}
+            {%- render 'blo-handdrawn-arrow-curly' -%}
+          {%- elsif block.settings.arrow == 'wavy' -%}
+            {%- render 'blo-handdrawn-arrow-wavy' -%}
+          {%- elsif block.settings.arrow == 'bottom_left' -%}
+          {%- endif -%}
+        {% endcomment %}
       </label>
     {%- endfor -%}
   </div>
@@ -93,8 +95,6 @@
   .blo-product-callouts-image-wrapper {
     position: relative;
     max-width: 1000px;
-    margin-top: 232px;
-    margin-bottom: 232px;
   }
   .blo-product-callouts-image-wrapper img {
     width: 100%;
@@ -108,6 +108,7 @@
     flex-direction: column;
     gap: 10px;
     align-items: center;
+    transform: translateY(-24px);
   }
   .blo-product-callout-wrapper {
     position: absolute;
@@ -191,7 +192,7 @@
     svg:first-child {
     display: none;
   }
-  .blo-product-callout-wrapper.bottom_left.arrow_left .blo-handdrawn-arrow {
+  /* .blo-product-callout-wrapper.bottom_left.arrow_left .blo-handdrawn-arrow {
     transform: scale(-1, -1);
   }
   .blo-product-callout-wrapper.bottom_left.arrow_right .blo-handdrawn-arrow {
@@ -212,7 +213,7 @@
   }
   .blo-product-callout-wrapper.top_left.arrow_left .blo-handdrawn-arrow {
     transform: scaleX(-1);
-  }
+  } */
 
   .blo-product-callout-wrapper.top_right,
   .blo-product-callout-wrapper.top_left {
