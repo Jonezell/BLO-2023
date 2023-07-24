@@ -107,6 +107,16 @@
     flex-direction: column;
     gap: 10px;
   }
+  .blo-product-callout-wrapper {
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 232px;
+    margin-bottom: 232px;
+  }
   .blo-product-callout-innerwrapper {
     max-width: 300px;
     background: var(--tan-Medium);
@@ -190,9 +200,14 @@
   .blo-product-callout-wrapper.bottom_right .blo-handdrawn-arrow {
     transform: scaleX(-1);
   }
+  .blo-product-callout-wrapper.top_right,
+  .blo-product-callout-wrapper.top_left {
+    transform: translateY(-232px);
+  }
   .blo-product-callout-wrapper.bottom_right,
   .blo-product-callout-wrapper.bottom_left {
     flex-direction: column-reverse;
+    transform: translateY(232px);
   }
   .blo-product-callout-wrapper.bottom_right,
   .blo-product-callout-wrapper.top_right {
@@ -282,9 +297,9 @@
         {
           "type": "range",
           "id": "horizontal_position",
-          "min": 0,
-          "max": 100,
-          "step": 1,
+          "min": -10,
+          "max": 110,
+          "step": 2,
           "unit": "%",
           "label": "Horizontal Position",
           "default": 50
@@ -292,9 +307,9 @@
         {
           "type": "range",
           "id": "vertical_position",
-          "min": 0,
-          "max": 100,
-          "step": 1,
+          "min": -10,
+          "max": 110,
+          "step": 2,
           "unit": "%",
           "label": "Vertical Position",
           "default": 50
