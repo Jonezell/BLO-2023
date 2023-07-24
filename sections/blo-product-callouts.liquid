@@ -25,7 +25,7 @@
     {%- for block in section.blocks -%}
       <label
         for="blo-callout-{{block.id}}"
-        class="blo-product-callout-wrapper {{block.settings.pin_direction}}"
+        class="blo-product-callout-wrapper {{block.settings.pin_direction}} {{block.settings.arrow_direction}}"
         style="
             {%- if block.settings.pin_direction == 'top_right' -%}
                 top:{{block.settings.vertical_position}}%;
@@ -191,17 +191,29 @@
     svg:first-child {
     display: none;
   }
-  .blo-product-callout-wrapper.bottom_left .blo-handdrawn-arrow {
+  .blo-product-callout-wrapper.bottom_left.arrow_left .blo-handdrawn-arrow {
     transform: scale(-1, -1);
   }
-  .blo-product-callout-wrapper.top_right .blo-handdrawn-arrow {
+  .blo-product-callout-wrapper.bottom_left.arrow_right .blo-handdrawn-arrow {
+    transform: scale(1, -1);
   }
-  .blo-product-callout-wrapper.top_left .blo-handdrawn-arrow {
-    transform: scaleX(-1);
-  }
-  .blo-product-callout-wrapper.bottom_right .blo-handdrawn-arrow {
+  .blo-product-callout-wrapper.bottom_right.arrow_right .blo-handdrawn-arrow {
     transform: scaleY(-1);
   }
+  .blo-product-callout-wrapper.bottom_right.arrow_left .blo-handdrawn-arrow {
+    transform: scale(-1, -1);
+  }
+
+  .blo-product-callout-wrapper.top_right.arrow_left .blo-handdrawn-arrow {
+    transform: scale(-1, 1);
+  }
+  .blo-product-callout-wrapper.top_right.arrow_right .blo-handdrawn-arrow {
+    transform: scaleX(1);
+  }
+  .blo-product-callout-wrapper.top_left.arrow_left .blo-handdrawn-arrow {
+    transform: scaleX(-1);
+  }
+
   .blo-product-callout-wrapper.top_right,
   .blo-product-callout-wrapper.top_left {
     flex-direction: column-reverse;
