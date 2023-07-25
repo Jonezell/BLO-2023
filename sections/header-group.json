@@ -7,6 +7,7 @@
       "blocks": {
         "b2c8f540-4fc7-4d06-a260-4338d7d00e4e": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "30% off sitewide with code \"ChristmasinJuly\"",
             "link": "https:\/\/bravelittleones.com\/discount\/ChristmasinJuly?redirect=\/collections\/shop-all"
