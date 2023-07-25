@@ -2,21 +2,23 @@
 
 <div class="page-width"> 
   <div class="blo-banner-container">
-    {{
-      section.settings.image_desktop
-      | image_url: width: 2900
-      | image_tag:
-        loading: 'lazy',
-        class: 'blo-banner-image-desktop'
-    }}
-
-    {{
-      section.settings.image_mobile
-      | image_url: width: 1000
-      | image_tag:
-        loading: 'lazy',
-        class: 'blo-banner-image-mobile'
-    }}
+    <div class="blo-banner-image-wrapper blo-edge-texture-wrapper">
+      {{
+        section.settings.image_desktop
+        | image_url: width: 2900
+        | image_tag:
+          loading: 'lazy',
+          class: 'blo-banner-image-desktop'
+      }}
+      {{
+        section.settings.image_mobile
+        | image_url: width: 1000
+        | image_tag:
+          loading: 'lazy',
+          class: 'blo-banner-image-mobile'
+      }}
+      {% render 'blo-edge-texture', pinDirection: 'bottom' %}
+    </div>
     
     <div class="blo-banner-card {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       <div class="blo-banner-stars-container">
@@ -105,6 +107,12 @@
 .blo-banner-container {
     padding-bottom: 50px;
 }
+.blo-banner-image-wrapper {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
 .blo-banner-image-desktop, 
 .blo-banner-image-mobile {
     display: block;
@@ -143,9 +151,11 @@
     display: flex;
     align-items: flex-start;
     gap: 2px;
+    margin-bottom: 2px;
 }
 .blo-banner-stars-container p {
     margin: 0;
+    margin-top: 2px;
 }
 .blo-banner-title {
     margin-top: 0;
@@ -186,27 +196,31 @@
 
 
 @media screen and (min-width: 990px) { 
-    .blo-banner-container {
-        position: relative;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        padding-right: 50px;
-    }
-    .blo-banner-card {
-        position: absolute;
-        bottom: 0px;
-        right: 0px;
-        width: 550px;
-        min-height: calc(100% - 100px);
-        padding: 50px;
-    }
-    .blo-banner-image-mobile {
-        display: none;
-    }
-    .blo-banner-image-desktop {
-        display: block;
-        border-radius: var(--blo-corner-radius);
-    }
+  .blo-banner-container {
+      position: relative;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-right: 50px;
+  }
+  .blo-banner-card {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      width: 550px;
+      min-height: calc(100% - 100px);
+      padding: 50px;
+  }
+  .blo-banner-image-mobile {
+      display: none;
+  }
+  .blo-banner-image-desktop {
+      display: block;
+      border-radius: var(--blo-corner-radius);
+  }
+  .blo-banner .blo-banner-image-wrapper svg.blo-edge-texture {
+    opacity: 0;
+  }
+
 }
 
 
