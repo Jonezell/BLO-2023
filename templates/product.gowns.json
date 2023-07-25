@@ -442,7 +442,8 @@
         "full_width": false,
         "color_scheme": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "show_texture": false
       }
     },
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85": {
