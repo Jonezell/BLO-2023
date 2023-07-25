@@ -1,0 +1,27 @@
+{
+    "short_name": "Brave Little Ones",
+    "name": "Brave Little Ones: Buttery Soft Bamboo Loungewear",
+    "start_url": "\/",
+    "background_color": "#F8F4EE",
+    "display": "standalone",
+    "scope": "\/",
+    "theme_color": "#F8F4EE",
+    "description": "Buttery Soft Bamboo Loungewear",
+    "icons": [
+      {
+        "src": "https:\/\/cdn.shopify.com\/s\/files\/1\/0964\/6074\/files\/App-Icon-432.png?v=1682715375",
+        "type": "image\/png",
+        "sizes": "432x432"
+      },
+      {
+        "src": "https:\/\/cdn.shopify.com\/s\/files\/1\/0964\/6074\/files\/App-Icon-288.png?v=1682715334",
+        "type": "image\/png",
+        "sizes": "288x288"
+      },
+      {
+        "src": "https:\/\/cdn.shopify.com\/s\/files\/1\/0964\/6074\/files\/App-Icon-144.png?v=1682715213",
+        "type": "image\/png",
+        "sizes": "144x144"
+      }
+    ]
+  }

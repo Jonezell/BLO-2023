@@ -7,6 +7,12 @@
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
 
+    {% comment %} CUSTOM CODE - TO ADD WEB APP FUNCTIONALITY {% endcomment %}
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="{{ 'manifest.json' | asset_url }}">
+    {% comment %} END CUSTOM CODE {% endcomment %}
+
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
@@ -262,9 +268,9 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-  
-{% render 'gsf-conversion-pixels' %}
-</head>
+
+    {% render 'gsf-conversion-pixels' %}
+  </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -326,8 +332,8 @@
   </body>
 </html>
 
-<script src='https://widget.sezzle.com/v1/javascript/price-widget?uuid=1878f60e-46d2-4cae-b7c6-ec7021802280'></script>
+<script src="https://widget.sezzle.com/v1/javascript/price-widget?uuid=1878f60e-46d2-4cae-b7c6-ec7021802280"></script>
 
-<script src='https://widget.sezzle.com/v1/javascript/price-widget?uuid=1878f60e-46d2-4cae-b7c6-ec7021802280'></script>
+<script src="https://widget.sezzle.com/v1/javascript/price-widget?uuid=1878f60e-46d2-4cae-b7c6-ec7021802280"></script>
 
-<script src='https://widget.sezzle.com/v1/javascript/price-widget?uuid=1878f60e-46d2-4cae-b7c6-ec7021802280'></script>
+<script src="https://widget.sezzle.com/v1/javascript/price-widget?uuid=1878f60e-46d2-4cae-b7c6-ec7021802280"></script>
