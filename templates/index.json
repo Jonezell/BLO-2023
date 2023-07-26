@@ -147,6 +147,7 @@
     },
     "ee363dd5-1c44-4b82-b551-3972740be32c": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "template--16166779355305__ee363dd5-1c44-4b82-b551-3972740be32c-16891948341722d1e1-0": {
           "type": "featured_collection",
