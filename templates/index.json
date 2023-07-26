@@ -79,6 +79,77 @@
         "image_mobile": "shopify:\/\/shop_images\/Banner-Mobile_fec90939-7a6f-46c9-9518-407eb24a1618.jpg"
       }
     },
+    "824201d6-ab39-4535-b10b-033005d18033": {
+      "type": "blo-toggle-collections",
+      "blocks": {
+        "402865f8-3ebd-46a7-b5ef-971309eda3a8": {
+          "type": "collection_group",
+          "settings": {
+            "collection_group_title": "Baby",
+            "collection_list": [
+              "zip-rompers",
+              "summer-zip-rompers",
+              "stretchy-swaddle-sets",
+              "knotted-gowns",
+              "blankets-loveys",
+              "shop-all-baby"
+            ]
+          }
+        },
+        "444d7551-af1d-4be4-bb9f-28000a878f9b": {
+          "type": "collection_group",
+          "settings": {
+            "collection_group_title": "Toddler",
+            "collection_list": [
+              "two-piece-sets",
+              "shorts-two-piece-set",
+              "shirts",
+              "tanks",
+              "swim-trunks",
+              "briefs-underwear",
+              "blankets",
+              "shop-all-toddler"
+            ]
+          }
+        },
+        "fad30f75-5b3e-45ea-a2de-aa010120bf71": {
+          "type": "collection_group",
+          "settings": {
+            "collection_group_title": "Accessories",
+            "collection_list": [
+              "bows",
+              "toddler-beanies",
+              "trucker-hats",
+              "briefs-underwear",
+              "blankets-loveys",
+              "backpacks",
+              "accessories"
+            ]
+          }
+        },
+        "396b8e8c-e792-4554-ab56-e5154ab97f39": {
+          "type": "collection_group",
+          "settings": {
+            "collection_group_title": "And More",
+            "collection_list": [
+              "womens",
+              "new",
+              "sale",
+              "restocks"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "402865f8-3ebd-46a7-b5ef-971309eda3a8",
+        "444d7551-af1d-4be4-bb9f-28000a878f9b",
+        "fad30f75-5b3e-45ea-a2de-aa010120bf71",
+        "396b8e8c-e792-4554-ab56-e5154ab97f39"
+      ],
+      "settings": {
+        "title": "We got what you’re looking for."
+      }
+    },
     "ee363dd5-1c44-4b82-b551-3972740be32c": {
       "type": "collection-list",
       "blocks": {
@@ -134,13 +205,6 @@
         "swipe_on_mobile": true,
         "padding_top": 0,
         "padding_bottom": 100
-      }
-    },
-    "de916c71-b979-4c56-ab19-f192e2af4f26": {
-      "type": "blo-collection-list",
-      "disabled": true,
-      "settings": {
-        "title": "We got what you’re looking for."
       }
     },
     "4b1165c6-b8a9-4249-a026-ac24d705f1f2": {
@@ -486,8 +550,8 @@
   "order": [
     "102eb650-32a6-4159-af05-c7fc53d2990e",
     "ff89b0a8-7e03-49ca-a54a-9cff08c5d7a6",
+    "824201d6-ab39-4535-b10b-033005d18033",
     "ee363dd5-1c44-4b82-b551-3972740be32c",
-    "de916c71-b979-4c56-ab19-f192e2af4f26",
     "4b1165c6-b8a9-4249-a026-ac24d705f1f2",
     "f8984855-9525-4334-88ac-f4e6f241f447",
     "39a14b17-5c76-41f4-b440-d63a3f398506",
