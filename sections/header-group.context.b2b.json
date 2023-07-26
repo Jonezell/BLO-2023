@@ -5,6 +5,7 @@
   },
   "sections": {
     "announcement-bar": {
+      "disabled": false,
       "settings": {
       },
       "blocks": {
