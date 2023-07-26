@@ -142,7 +142,9 @@
         "396b8e8c-e792-4554-ab56-e5154ab97f39"
       ],
       "settings": {
-        "title": "We’ve Got What You’re Looking For."
+        "title": "We’ve Got What You’re Looking For.",
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "ee363dd5-1c44-4b82-b551-3972740be32c": {
