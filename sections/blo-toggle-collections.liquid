@@ -1,4 +1,4 @@
-<div class="page-width">
+<div class="page-width section-{{ section.id }}-padding">
   <h2
     class="blo-banner-title inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
     {{ block.shopify_attributes }}
@@ -158,7 +158,8 @@
   }
   @media screen and (max-width: 989px) {
     .blo-toggle-collections .page-width {
-      padding: 0;
+      padding-left: 0;
+      padding-right: 0;
     }
     .blo-banner-title {
       padding-left: 30px;
@@ -180,6 +181,17 @@
       scroll-padding-left: 3rem;
     }
   }
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
 {% endstyle %}
 
 {% schema %}
@@ -196,6 +208,30 @@
       "id": "title",
       "label": "Section Title",
       "default": "We’ve Got What You’re Looking For."
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 100
     }
   ],
   "blocks": [
