@@ -4,5 +4,27 @@
     "b2b": true
   },
   "sections": {
-  }
+    "2bb6d1e5-98bb-46fb-9b1b-cd8ee004d916": {
+      "type": "custom-liquid",
+      "disabled": false,
+      "settings": {
+        "custom_liquid": "<style>\n.free_shipping_card {\n  display: none !important;\n}\n<\/style>",
+        "color_scheme": "",
+        "header-827efbf68c7ff6a285b1662aaf7ad734": null,
+        "padding_top": 0,
+        "padding_bottom": 0
+      },
+      "blocks": {
+      },
+      "block_order": [
+
+      ]
+    }
+  },
+  "order": [
+    "2bb6d1e5-98bb-46fb-9b1b-cd8ee004d916",
+    "cart-items",
+    "cart-footer",
+    "featured-collection"
+  ]
 }
