@@ -328,6 +328,69 @@
         "padding_bottom": 100
       }
     },
+    "a55edcc6-a898-42f6-b41b-14879be538ca": {
+      "type": "blo-find-your-favotite-v2",
+      "blocks": {
+        "7dc42e8f-08fe-4241-9e60-1d549b16bb74": {
+          "type": "collection_group",
+          "settings": {
+            "collection_group_title": "Prints",
+            "collection_list": [
+              "camel-floral",
+              "cream-floral",
+              "blue-bees",
+              "blue-triangles",
+              "dinosaurs"
+            ]
+          }
+        },
+        "17e74dfb-47af-4762-95ee-cda10780d9e2": {
+          "type": "collection_group",
+          "settings": {
+            "collection_group_title": "Small Ribbed",
+            "collection_list": [
+              "camel-small-ribbed",
+              "camel-stripe",
+              "blue-small-stripe",
+              "lilac-small-ribbed",
+              "coastal-blue-small-ribbed"
+            ]
+          }
+        },
+        "0fb59179-4d56-4792-ba4c-6617211a7283": {
+          "type": "collection_group",
+          "settings": {
+            "collection_group_title": "Big Ribbed",
+            "collection_list": [
+              "jet-black",
+              "stormy-blue",
+              "tan-big-ribbed",
+              "dark-olive",
+              "deep-taupe"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "7dc42e8f-08fe-4241-9e60-1d549b16bb74",
+        "17e74dfb-47af-4762-95ee-cda10780d9e2",
+        "0fb59179-4d56-4792-ba4c-6617211a7283"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": true,
+        "view_all_link": "",
+        "view_all_label": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "39a14b17-5c76-41f4-b440-d63a3f398506": {
       "type": "blo-featured-reviews",
       "blocks": {
@@ -552,6 +615,7 @@
     "ee363dd5-1c44-4b82-b551-3972740be32c",
     "4b1165c6-b8a9-4249-a026-ac24d705f1f2",
     "f8984855-9525-4334-88ac-f4e6f241f447",
+    "a55edcc6-a898-42f6-b41b-14879be538ca",
     "39a14b17-5c76-41f4-b440-d63a3f398506",
     "featured_collection",
     "7f2ba396-b421-44a7-8ac9-529611c0153f",
