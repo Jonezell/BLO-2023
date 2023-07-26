@@ -6,174 +6,117 @@
     {{ section.settings.title }}
   </h2>
 
-  <input type="radio" id="1" name="toggle-collections" checked>
-  <input type="radio" id="2" name="toggle-collections">
+  {%- for block in section.blocks -%}
+    <input
+      type="radio"
+      id="{{ block.id }}"
+      name="toggle-collections"
+      {% if forloop.index == 1 %}
+        checked
+      {% endif %}
+    >
+  {%- endfor -%}
 
   <div class="toggle-wrapper">
-    <label class="toggle" for="1">Testing</label>
-    <label class="toggle" for="2">Testing</label>
+    {%- for block in section.blocks -%}
+      <label class="toggle" for="{{ block.id }}">{{ block.settings.collection_group_title }}</label>
+    {%- endfor -%}
   </div>
 
   <div class="toggle-collections-container">
-    <div class="toggle-collections-row">
-      <a class="toggle-collections-row-item" href="#">
-        <img
-          srcset="
-                                                                                                                                                            //bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=165 165w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=330 330w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=535 535w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=750 750w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400 800w
-          "
-          src="//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=1500"
-          sizes="
-            (min-width: 1400px) 433px,
-            (min-width: 750px) calc((100vw - 10rem) / 2),
-            calc(100vw - 3rem)
-          "
-          alt=""
-          height="801"
-          width="800"
-          loading="lazy"
-          class="motion-reduce"
+    {%- for block in section.blocks -%}
+      <slider-component class="toggle-collections-row slider-mobile-gutter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        <ul
+          class="collection-list contains-card contains-card--collection{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--5-col-desktop grid--2-col-tablet-down slider slider--tablet grid--peek collection-list--{{ section.blocks.size }}-items"
+          id="Slider-{{ section.id }}"
+          role="list"
         >
-        <h6>1 Testing</h6>
-      </a>
+          {%- liquid
+            assign columns = section.blocks.size
+            if columns > 3
+              assign columns = 3
+            endif
+          -%}
+          {%- for collection in block.settings.collection_list -%}
+            <li
+              id="Slide-{{ section.id }}-{{ forloop.index }}"
+              class="collection-list__item grid__item slider__slide {% if collection.featured_image == nil %} collection-list__item--no-media{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              {{ block.shopify_attributes }}
+              {% if settings.animations_reveal_on_scroll %}
+                data-cascade
+                style="--animation-order: {{ forloop.index }};"
+              {% endif %}
+            >
+              {%- assign placeholder_image_index = forloop.index0 | modulo: 4 | plus: 1 -%}
+              {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index -%}
+              {% render 'card-collection',
+                card_collection: collection,
+                media_aspect_ratio: section.settings.image_ratio,
+                columns: columns,
+                placeholder_image: placeholder_image
+              %}
+            </li>
+          {%- endfor -%}
+        </ul>
+        <div class="slider-buttons no-js-hidden">
+          <button
+            type="button"
+            class="slider-button slider-button--prev"
+            name="previous"
+            aria-label="{{ 'general.slider.previous_slide' | t }}"
+          >
+            {% render 'icon-caret' %}
+          </button>
+          <div class="slider-counter caption">
+            <span class="slider-counter--current">1</span>
+            <span aria-hidden="true"> / </span>
+            <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+            <span class="slider-counter--total">{{ section.blocks.size }}</span>
+          </div>
+          <button
+            type="button"
+            class="slider-button slider-button--next"
+            name="next"
+            aria-label="{{ 'general.slider.next_slide' | t }}"
+          >
+            {% render 'icon-caret' %}
+          </button>
+        </div>
+      </slider-component>
 
-      <a class="toggle-collections-row-item" href="#">
-        <img
-          srcset="
-                                                                                                                                                              //bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=165 165w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=330 330w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=535 535w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=750 750w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400 800w
-          "
-          src="//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=1500"
-          sizes="
-            (min-width: 1400px) 433px,
-            (min-width: 750px) calc((100vw - 10rem) / 2),
-            calc(100vw - 3rem)
-          "
-          alt=""
-          height="801"
-          width="800"
-          loading="lazy"
-          class="motion-reduce"
-        >
-        <h6>Testing</h6>
-      </a>
-      <a class="toggle-collections-row-item" href="#">
-        <img
-          srcset="
-                                                                                                                                                              //bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=165 165w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=330 330w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=535 535w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=750 750w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400 800w
-          "
-          src="//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=1500"
-          sizes="
-            (min-width: 1400px) 433px,
-            (min-width: 750px) calc((100vw - 10rem) / 2),
-            calc(100vw - 3rem)
-          "
-          alt=""
-          height="801"
-          width="800"
-          loading="lazy"
-          class="motion-reduce"
-        >
-        <h6>Testing</h6>
-      </a>
-      <a class="toggle-collections-row-item" href="#">
-        <img
-          srcset="
-                                                                                                                                                              //bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=165 165w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=330 330w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=535 535w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=750 750w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400 800w
-          "
-          src="//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=1500"
-          sizes="
-            (min-width: 1400px) 433px,
-            (min-width: 750px) calc((100vw - 10rem) / 2),
-            calc(100vw - 3rem)
-          "
-          alt=""
-          height="801"
-          width="800"
-          loading="lazy"
-          class="motion-reduce"
-        >
-        <h6>Testing</h6>
-      </a>
-      <a class="toggle-collections-row-item" href="#">
-        <img
-          srcset="
-                                                                                                                                                              //bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=165 165w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=330 330w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=535 535w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=750 750w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400 800w
-          "
-          src="//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=1500"
-          sizes="
-            (min-width: 1400px) 433px,
-            (min-width: 750px) calc((100vw - 10rem) / 2),
-            calc(100vw - 3rem)
-          "
-          alt=""
-          height="801"
-          width="800"
-          loading="lazy"
-          class="motion-reduce"
-        >
-        <h6>Testing</h6>
-      </a>
-      <a class="toggle-collections-row-item" href="#">
-        <img
-          srcset="
-                                                                                                                                                              //bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=165 165w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=330 330w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=535 535w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=750 750w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400 800w
-          "
-          src="//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=1500"
-          sizes="
-            (min-width: 1400px) 433px,
-            (min-width: 750px) calc((100vw - 10rem) / 2),
-            calc(100vw - 3rem)
-          "
-          alt=""
-          height="801"
-          width="800"
-          loading="lazy"
-          class="motion-reduce"
-        >
-        <h6>Testing</h6>
-      </a>
-    </div>
-
-    <div class="toggle-collections-row">
-      <a class="toggle-collections-row-item" href="#">
-        <img
-          srcset="
-                                                                                                                                                  //bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=165 165w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=330 330w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=535 535w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=750 750w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400 800w
-          "
-          src="//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=1500"
-          sizes="
-            (min-width: 1400px) 433px,
-            (min-width: 750px) calc((100vw - 10rem) / 2),
-            calc(100vw - 3rem)
-          "
-          alt=""
-          height="801"
-          width="800"
-          loading="lazy"
-          class="motion-reduce"
-        >
-        <h6>2 Testing</h6>
-      </a>
-
-      <a class="toggle-collections-row-item" href="#">
-        <img
-          srcset="
-                                                                                                                                                  //bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=165 165w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=330 330w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=535 535w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=750 750w,//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400 800w
-          "
-          src="//bravelittleones.com/cdn/shop/collections/Zip_Romper_2x_f2fa177b-5259-498e-9edc-48a9d2f8cf12.png?v=1686579400&amp;width=1500"
-          sizes="
-            (min-width: 1400px) 433px,
-            (min-width: 750px) calc((100vw - 10rem) / 2),
-            calc(100vw - 3rem)
-          "
-          alt=""
-          height="801"
-          width="800"
-          loading="lazy"
-          class="motion-reduce"
-        >
-        <h6>Testing</h6>
-      </a>
-    </div>
+      {% comment %}
+        <div class="toggle-collections-row">
+          {%- for collection in block.settings.collection_list -%}
+            <a class="toggle-collections-row-item" href="{{ collection.url }}">
+              <img
+                srcset="
+                  {%- if collection.featured_image.width >= 165 -%}{{ collection.featured_image | image_url: width: 165 }} 165w,{%- endif -%}
+                  {%- if collection.featured_image.width >= 330 -%}{{ collection.featured_image | image_url: width: 330 }} 330w,{%- endif -%}
+                  {%- if collection.featured_image.width >= 535 -%}{{ collection.featured_image | image_url: width: 535 }} 535w,{%- endif -%}
+                  {%- if collection.featured_image.width >= 750 -%}{{ collection.featured_image | image_url: width: 750 }} 750w,{%- endif -%}
+                  {%- if collection.featured_image.width >= 1000 -%}{{ collection.featured_image | image_url: width: 1000 }} 1000w,{%- endif -%}
+                  {%- if collection.featured_image.width >= 1500 -%}{{ collection.featured_image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                  {%- if collection.featured_image.width >= 3000 -%}{{ collection.featured_image | image_url: width: 3000 }} 3000w,{%- endif -%}
+                  {{ collection.featured_image | image_url }} {{ collection.featured_image.width }}w
+                "
+                src="{{ collection.featured_image | image_url: width: 1500 }}"
+                sizes="
+                  (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: columns }}px,
+                  (min-width: 750px) {% if columns > 1 %}calc((100vw - 10rem) / 2){% else %}calc(100vw - 10rem){% endif %},
+                  calc(100vw - 3rem)
+                "
+                alt=""
+                height="{{ collection.featured_image.height }}"
+                width="{{ collection.featured_image.width }}"
+                loading="lazy"
+                class="motion-reduce"
+              >
+              <h6>{{ collection.title }}</h6>
+            </a>
+          {%- endfor -%}
+        </div>
+      {% endcomment %}
+    {%- endfor -%}
   </div>
 </div>
 
@@ -289,7 +232,7 @@
           "type": "collection_list",
           "id": "collection_list",
           "label": "Collections",
-          "limit": 8
+          "limit": 5
         }
       ]
     }
