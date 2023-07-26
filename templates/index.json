@@ -512,8 +512,8 @@
         "texture_bottom": true,
         "image": "shopify:\/\/shop_images\/Test.png",
         "layout": "image_first",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 200,
+        "padding_bottom": 200
       }
     },
     "0b3cf5e2-4816-4a22-a8a1-a8de97f62ab1": {
