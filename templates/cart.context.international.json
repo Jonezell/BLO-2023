@@ -4,5 +4,27 @@
     "market": "international"
   },
   "sections": {
-  }
+    "4b6f3421-3476-46ea-8081-e0ba4645f291": {
+      "type": "custom-liquid",
+      "disabled": false,
+      "settings": {
+        "custom_liquid": "<style>\n\n.free_shipping_card {\n  display: none !important;\n}\n<\/style>",
+        "color_scheme": "",
+        "header-827efbf68c7ff6a285b1662aaf7ad734": null,
+        "padding_top": 0,
+        "padding_bottom": 0
+      },
+      "blocks": {
+      },
+      "block_order": [
+
+      ]
+    }
+  },
+  "order": [
+    "4b6f3421-3476-46ea-8081-e0ba4645f291",
+    "cart-items",
+    "cart-footer",
+    "featured-collection"
+  ]
 }
