@@ -5,17 +5,8 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "b2c8f540-4fc7-4d06-a260-4338d7d00e4e": {
-          "type": "announcement",
-          "disabled": true,
-          "settings": {
-            "text": "30% off sitewide with code \"ChristmasinJuly\"",
-            "link": "https:\/\/bravelittleones.com\/discount\/ChristmasinJuly?redirect=\/collections\/shop-all"
-          }
-        },
         "announcement-bar-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "FREE SHIPPING ON U.S. ORDERS OVER $40!",
             "link": ""
@@ -23,7 +14,6 @@
         }
       },
       "block_order": [
-        "b2c8f540-4fc7-4d06-a260-4338d7d00e4e",
         "announcement-bar-0"
       ],
       "settings": {
