@@ -10,22 +10,22 @@
     <input
       type="radio"
       id="{{ block.id }}"
-      name="toggle-collections"
+      name="blo-toggle-collections"
       {% if forloop.index == 1 %}
         checked
       {% endif %}
     >
   {%- endfor -%}
 
-  <div class="toggle-wrapper">
+  <div class="toggle-wrapper {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     {%- for block in section.blocks -%}
       <label class="toggle" for="{{ block.id }}">{{ block.settings.collection_group_title }}</label>
     {%- endfor -%}
   </div>
 
-  <div class="toggle-collections-container">
+  <div class="blo-toggle-collections-container">
     {%- for block in section.blocks -%}
-      <slider-component class="toggle-collections-row slider-mobile-gutter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      <slider-component class="blo-toggle-collections-row slider-mobile-gutter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <ul
           class="collection-list contains-card contains-card--collection{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--5-col-desktop grid--2-col-tablet-down slider slider--tablet grid--peek collection-list--{{ section.blocks.size }}-items"
           id="Slider-{{ section.id }}"
@@ -83,120 +83,101 @@
           </button>
         </div>
       </slider-component>
-
-      {% comment %}
-        <div class="toggle-collections-row">
-          {%- for collection in block.settings.collection_list -%}
-            <a class="toggle-collections-row-item" href="{{ collection.url }}">
-              <img
-                srcset="
-                  {%- if collection.featured_image.width >= 165 -%}{{ collection.featured_image | image_url: width: 165 }} 165w,{%- endif -%}
-                  {%- if collection.featured_image.width >= 330 -%}{{ collection.featured_image | image_url: width: 330 }} 330w,{%- endif -%}
-                  {%- if collection.featured_image.width >= 535 -%}{{ collection.featured_image | image_url: width: 535 }} 535w,{%- endif -%}
-                  {%- if collection.featured_image.width >= 750 -%}{{ collection.featured_image | image_url: width: 750 }} 750w,{%- endif -%}
-                  {%- if collection.featured_image.width >= 1000 -%}{{ collection.featured_image | image_url: width: 1000 }} 1000w,{%- endif -%}
-                  {%- if collection.featured_image.width >= 1500 -%}{{ collection.featured_image | image_url: width: 1500 }} 1500w,{%- endif -%}
-                  {%- if collection.featured_image.width >= 3000 -%}{{ collection.featured_image | image_url: width: 3000 }} 3000w,{%- endif -%}
-                  {{ collection.featured_image | image_url }} {{ collection.featured_image.width }}w
-                "
-                src="{{ collection.featured_image | image_url: width: 1500 }}"
-                sizes="
-                  (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: columns }}px,
-                  (min-width: 750px) {% if columns > 1 %}calc((100vw - 10rem) / 2){% else %}calc(100vw - 10rem){% endif %},
-                  calc(100vw - 3rem)
-                "
-                alt=""
-                height="{{ collection.featured_image.height }}"
-                width="{{ collection.featured_image.width }}"
-                loading="lazy"
-                class="motion-reduce"
-              >
-              <h6>{{ collection.title }}</h6>
-            </a>
-          {%- endfor -%}
-        </div>
-      {% endcomment %}
     {%- endfor -%}
   </div>
 </div>
 
 {% style %}
-  .toggle-collections h2 {
+  .blo-toggle-collections h2 {
     text-align: center;
     margin-bottom: 30px;
   }
-
-  .toggle-collections input[type='radio'] {
+  .blo-toggle-collections input[type='radio'] {
     display: none;
   }
-  .toggle-collections input:nth-of-type(1):checked ~ .toggle-wrapper .toggle:nth-of-type(1),
-  .toggle-collections input:nth-of-type(2):checked ~ .toggle-wrapper .toggle:nth-of-type(2),
-  .toggle-collections input:nth-of-type(3):checked ~ .toggle-wrapper .toggle:nth-of-type(3),
-  .toggle-collections input:nth-of-type(4):checked ~ .toggle-wrapper .toggle:nth-of-type(4),
-  .toggle-collections input:nth-of-type(5):checked ~ .toggle-wrapper .toggle:nth-of-type(5) {
+  .blo-toggle-collections input:nth-of-type(1):checked ~ .toggle-wrapper .toggle:nth-of-type(1),
+  .blo-toggle-collections input:nth-of-type(2):checked ~ .toggle-wrapper .toggle:nth-of-type(2),
+  .blo-toggle-collections input:nth-of-type(3):checked ~ .toggle-wrapper .toggle:nth-of-type(3),
+  .blo-toggle-collections input:nth-of-type(4):checked ~ .toggle-wrapper .toggle:nth-of-type(4),
+  .blo-toggle-collections input:nth-of-type(5):checked ~ .toggle-wrapper .toggle:nth-of-type(5) {
     background: var(--greyscale-black, #161616);
     color: var(--tan-light, #efe8de);
   }
-
-  .toggle-collections-row {
+  .blo-toggle-collections-row {
     display: none;
   }
-  .toggle-collections
+  .blo-toggle-collections
     input:nth-of-type(1):checked
-    ~ .toggle-collections-container
-    .toggle-collections-row:nth-of-type(1),
-  .toggle-collections
+    ~ .blo-toggle-collections-container
+    .blo-toggle-collections-row:nth-of-type(1),
+  .blo-toggle-collections
     input:nth-of-type(2):checked
-    ~ .toggle-collections-container
-    .toggle-collections-row:nth-of-type(2),
-  .toggle-collections
+    ~ .blo-toggle-collections-container
+    .blo-toggle-collections-row:nth-of-type(2),
+  .blo-toggle-collections
     input:nth-of-type(3):checked
-    ~ .toggle-collections-container
-    .toggle-collections-row:nth-of-type(3),
-  .toggle-collections
+    ~ .blo-toggle-collections-container
+    .blo-toggle-collections-row:nth-of-type(3),
+  .blo-toggle-collections
     input:nth-of-type(4):checked
-    ~ .toggle-collections-container
-    .toggle-collections-row:nth-of-type(4),
-  .toggle-collections
+    ~ .blo-toggle-collections-container
+    .blo-toggle-collections-row:nth-of-type(4),
+  .blo-toggle-collections
     input:nth-of-type(5):checked
-    ~ .toggle-collections-container
-    .toggle-collections-row:nth-of-type(5) {
+    ~ .blo-toggle-collections-container
+    .blo-toggle-collections-row:nth-of-type(5) {
     display: flex;
   }
-
-  .toggle-collections .toggle-wrapper {
+  .blo-toggle-collections .toggle-wrapper {
     margin-bottom: 50px;
   }
-
-  .toggle-collections-row {
-    flex-direction: row;
-    gap: 20px;
-    overflow-y: scroll;
+  .blo-toggle-collections-row {
+    flex-direction: column;
   }
-  .toggle-collections-row-item {
+  .blo-toggle-collections-row .card--media {
     background: var(--tan-Medium);
-    border-radius: var(--blo-corner-radius);
-    text-decoration: none;
-    padding-top: 20px;
   }
-  .toggle-collections-row-item img {
-    width: 250px;
-    height: auto;
+  .blo-toggle-collections .toggle-wrapper {
+    width: 100%;
+    overflow: scroll;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
   }
-  .toggle-collections-row-item h6 {
-    display: block;
-    padding: 10px 30px 30px 30px;
-    text-align: center;
-    margin: 0;
+  .blo-toggle-collections .toggle-wrapper::-webkit-scrollbar {
+    display: none;
   }
 
   @media screen and (max-width: 750px) {
-    .toggle-collections h2 {
+    .blo-toggle-collections h2 {
       text-align: left;
     }
-    .toggle-collections .toggle-wrapper {
+    .blo-toggle-collections .toggle-wrapper {
       margin-bottom: 30px;
       justify-content: flex-start;
+    }
+  }
+  @media screen and (max-width: 989px) {
+    .blo-toggle-collections .page-width {
+      padding: 0;
+    }
+    .blo-banner-title {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .toggle-wrapper .toggle:first-child {
+      margin-left: 30px;
+    }
+    .toggle-wrapper .toggle:last-child {
+      margin-right: 30px;
+    }
+    .blo-toggle-collections .grid--peek.slider .grid__item:first-of-type {
+      margin-left: 3rem;
+    }
+    .blo-toggle-collections .slider--tablet:after {
+      padding-left: 3rem;
+    }
+    .blo-toggle-collections .slider.slider--tablet {
+      scroll-padding-left: 3rem;
     }
   }
 {% endstyle %}
@@ -205,7 +186,7 @@
 {
   "name": "BLO: Toggle Collections",
   "tag": "section",
-  "class": "section toggle-collections",
+  "class": "section blo-toggle-collections",
   "disabled_on": {
     "groups": ["header", "footer"]
   },
@@ -214,7 +195,7 @@
       "type": "text",
       "id": "title",
       "label": "Section Title",
-      "default": "We got what you’re looking for."
+      "default": "We’ve Got What You’re Looking For."
     }
   ],
   "blocks": [
