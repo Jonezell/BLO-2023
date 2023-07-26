@@ -4,5 +4,15 @@
     "market": "us"
   },
   "sections": {
+    "announcement-bar": {
+      "settings": {
+      },
+      "blocks": {
+        "announcement-bar-0": {
+          "settings": {
+          }
+        }
+      }
+    }
   }
 }
