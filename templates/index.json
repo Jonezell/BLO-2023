@@ -274,6 +274,7 @@
     },
     "f8984855-9525-4334-88ac-f4e6f241f447": {
       "type": "blo-find-your-favorite",
+      "disabled": true,
       "blocks": {
         "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-2": {
           "type": "featured_collection",
@@ -383,7 +384,7 @@
         "columns_desktop": 5,
         "color_scheme": "",
         "show_view_all": true,
-        "view_all_link": "shopify:\/\/pages\/shop-by-print",
+        "view_all_link": "shopify:\/\/pages\/shop-by-all",
         "view_all_label": "Shop By Prints & Ribbed",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
