@@ -79,7 +79,7 @@ H1, .h1,  div.h1.hero__title, h1>p, H2, .h2, H2>p, H3, .h3, h3>p {
   -webkit-font-smoothing: antialiased;
 }
 
-H4, .h4, h4>p, H5, .h5, h5>p, H6, .h6, button, .button, a.button, .grid-product__title, .announcement__text, form label, .cart__header-labels, .badge, .product-card-wrapper .card__information , footer .footer-block__heading, .toggle, .collection-list-wrapper .card__information h3, .jdgm-write-rev-link, .jdgm-paginate__load-more, .product .price__container, variant-radios .product-form__input label, .facets__summary, .product-count__text.text-body, .mobile-facets__open, .mega-menu__link.mega-menu__link--level-2, .header__menu-item.list-menu__item, .menu-drawer .menu-drawer__menu-item, .mobile-facets .mobile-facets__summary, .blo-toggle-collections-row .card__heading  {
+H4, .h4, h4>p, H5, .h5, h5>p, H6, .h6, button, .button, a.button, .grid-product__title, .announcement__text, form label, .cart__header-labels, .badge, .product-card-wrapper .card__information , footer .footer-block__heading, .toggle, .collection-list-wrapper .card__information h3, .jdgm-write-rev-link, .jdgm-paginate__load-more, .product .price__container, variant-radios .product-form__input label, .facets__summary, .product-count__text.text-body, .mobile-facets__open, .mega-menu__link.mega-menu__link--level-2, .header__menu-item.list-menu__item, .menu-drawer .menu-drawer__menu-item, .mobile-facets .mobile-facets__summary, .blo-toggle-collections .card__heading  {
 
   font-family: 'GothamRounded-Medium' !important;
   font-style: normal !important;
@@ -150,7 +150,7 @@ H3, .h3 {
 
 /* H4-H6 AND BODY STYLES */
 H4, .h4, H5, .h5, H6, .h6, footer .footer-block__heading, .toggle, .collection-list-wrapper .card__information h3, .product .price__container, .facets-vertical .facets__summary, .product-count__text.text-body, .facet-filters__field .facet-filters__label, .facet-filters__field .facet-filters__sort, .mobile-facets__open, .button, .button-label, .shopify-challenge__button, .customer button,
-p, .p, footer .footer-block__details-content a, .facets-vertical .facet-checkbox, .facet-filters__field .facet-filters__sort, .mega-menu__link, .mega-menu__link--level-2, .mega-menu__content .mega-menu__link, .header__menu-item.list-menu__item, .menu-drawer .menu-drawer__menu-item, .mobile-facets .mobile-facets__summary, .mobile-facets .mobile-facets__label,  .blo-toggle-collections-row .card__heading  {
+p, .p, footer .footer-block__details-content a, .facets-vertical .facet-checkbox, .facet-filters__field .facet-filters__sort, .mega-menu__link, .mega-menu__link--level-2, .mega-menu__content .mega-menu__link, .header__menu-item.list-menu__item, .menu-drawer .menu-drawer__menu-item, .mobile-facets .mobile-facets__summary, .mobile-facets .mobile-facets__label,  .blo-toggle-collections .card__heading  {
     font-size: 16px;
     line-height: 180%;
     letter-spacing: 0.32px;

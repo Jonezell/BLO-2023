@@ -1,6 +1,8 @@
+{{ 'blo-sections.css' | asset_url | stylesheet_tag }}
+
 <div class="page-width section-{{ section.id }}-padding">
   <h2
-    class="blo-banner-title inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+    class="blo-toggle-swap-title inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
     {{ block.shopify_attributes }}
   >
     {{ section.settings.title }}
@@ -23,9 +25,9 @@
     {%- endfor -%}
   </div>
 
-  <div class="blo-toggle-collections-container">
+  <div class="blo-toggle-swap-container">
     {%- for block in section.blocks -%}
-      <slider-component class="blo-toggle-collections-row slider-mobile-gutter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      <slider-component class="blo-toggle-swap-row slider-mobile-gutter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <ul
           class="collection-list contains-card contains-card--collection{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--5-col-desktop grid--2-col-tablet-down slider slider--tablet grid--peek collection-list--{{ section.blocks.size }}-items"
           id="Slider-{{ section.id }}"
@@ -88,98 +90,12 @@
 </div>
 
 {% style %}
-  .blo-toggle-collections h2 {
-    text-align: center;
-    margin-bottom: 30px;
+  .blo-toggle-collections .collection-card-wrapper .card__content {
+    padding-top: 0;
+    padding-bottom: 0;
   }
-  .blo-toggle-collections input[type='radio'] {
-    display: none;
-  }
-  .blo-toggle-collections input:nth-of-type(1):checked ~ .toggle-wrapper .toggle:nth-of-type(1),
-  .blo-toggle-collections input:nth-of-type(2):checked ~ .toggle-wrapper .toggle:nth-of-type(2),
-  .blo-toggle-collections input:nth-of-type(3):checked ~ .toggle-wrapper .toggle:nth-of-type(3),
-  .blo-toggle-collections input:nth-of-type(4):checked ~ .toggle-wrapper .toggle:nth-of-type(4),
-  .blo-toggle-collections input:nth-of-type(5):checked ~ .toggle-wrapper .toggle:nth-of-type(5) {
-    background: var(--greyscale-black, #161616);
-    color: var(--tan-light, #efe8de);
-  }
-  .blo-toggle-collections-row {
-    display: none;
-  }
-  .blo-toggle-collections
-    input:nth-of-type(1):checked
-    ~ .blo-toggle-collections-container
-    .blo-toggle-collections-row:nth-of-type(1),
-  .blo-toggle-collections
-    input:nth-of-type(2):checked
-    ~ .blo-toggle-collections-container
-    .blo-toggle-collections-row:nth-of-type(2),
-  .blo-toggle-collections
-    input:nth-of-type(3):checked
-    ~ .blo-toggle-collections-container
-    .blo-toggle-collections-row:nth-of-type(3),
-  .blo-toggle-collections
-    input:nth-of-type(4):checked
-    ~ .blo-toggle-collections-container
-    .blo-toggle-collections-row:nth-of-type(4),
-  .blo-toggle-collections
-    input:nth-of-type(5):checked
-    ~ .blo-toggle-collections-container
-    .blo-toggle-collections-row:nth-of-type(5) {
-    display: flex;
-  }
-  .blo-toggle-collections .toggle-wrapper {
-    margin-bottom: 50px;
-  }
-  .blo-toggle-collections-row {
-    flex-direction: column;
-  }
-  .blo-toggle-collections-row .card--media {
-    background: var(--tan-Medium);
-  }
-  .blo-toggle-collections .toggle-wrapper {
-    width: 100%;
-    overflow: scroll;
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-  }
-  .blo-toggle-collections .toggle-wrapper::-webkit-scrollbar {
-    display: none;
-  }
-
-  @media screen and (max-width: 750px) {
-    .blo-toggle-collections h2 {
-      text-align: left;
-    }
-    .blo-toggle-collections .toggle-wrapper {
-      margin-bottom: 30px;
-      justify-content: flex-start;
-    }
-  }
-  @media screen and (max-width: 989px) {
-    .blo-toggle-collections .page-width {
-      padding-left: 0;
-      padding-right: 0;
-    }
-    .blo-banner-title {
-      padding-left: 30px;
-      padding-right: 30px;
-    }
-    .toggle-wrapper .toggle:first-child {
-      margin-left: 30px;
-    }
-    .toggle-wrapper .toggle:last-child {
-      margin-right: 30px;
-    }
-    .blo-toggle-collections .grid--peek.slider .grid__item:first-of-type {
-      margin-left: 3rem;
-    }
-    .blo-toggle-collections .slider--tablet:after {
-      padding-left: 3rem;
-    }
-    .blo-toggle-collections .slider.slider--tablet {
-      scroll-padding-left: 3rem;
-    }
+  .blo-toggle-collections .collection-card-wrapper .card__information {
+    padding-top: 0;
   }
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -198,7 +114,7 @@
 {
   "name": "BLO: Toggle Collections",
   "tag": "section",
-  "class": "section blo-toggle-collections",
+  "class": "section blo-toggle-collections blo-toggle-swap",
   "disabled_on": {
     "groups": ["header", "footer"]
   },

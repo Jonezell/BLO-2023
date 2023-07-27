@@ -1,6 +1,7 @@
 {{ 'section-collection-list.css' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
+{{ 'blo-sections.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -52,7 +53,7 @@
       <input
         type="radio"
         id="{{ block.id }}"
-        name="blo-toggle-collections-{{section.id}}"
+        name="blo-toggle-swap-{{section.id}}"
         {% if forloop.index == 1 %}
           checked
         {% endif %}
@@ -65,9 +66,9 @@
       {%- endfor -%}
     </div>
 
-    <div class="blo-toggle-collections-container">
+    <div class="blo-toggle-swap-container">
       {%- for block in section.blocks -%}
-        <slider-component class="slider-mobile-gutter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        <slider-component class="blo-toggle-swap-row slider-mobile-gutter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
           <ul
             class="collection-list contains-card contains-card--collection{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down{% if section.settings.swipe_on_mobile %} slider slider--tablet grid--peek{% endif %} collection-list--{{ section.blocks.size }}-items"
             id="Slider-{{ section.id }}"
@@ -150,11 +151,20 @@
   </div>
 </div>
 
+{% style %}
+  .blo-find-your-favorite h2.collection-list-title {
+    margin-bottom: 0;
+  }
+  .blo-find-your-favorite .card__content {
+    padding-bottom: 0;
+  }
+{% endstyle %}
+
 {% schema %}
 {
   "name": "BLO: Find Your Fav V2",
   "tag": "section",
-  "class": "section section-collection-list blo-find-your-favorite",
+  "class": "section section-collection-list blo-find-your-favorite blo-toggle-swap",
   "max_blocks": 15,
   "disabled_on": {
     "groups": ["header", "footer"]
@@ -294,6 +304,7 @@
     {
       "type": "collection_group",
       "name": "Collection Group",
+      "limit": 5,
       "settings": [
         {
           "type": "text",
