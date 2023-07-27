@@ -272,63 +272,6 @@
         "image": "shopify:\/\/shop_images\/soft3.png"
       }
     },
-    "f8984855-9525-4334-88ac-f4e6f241f447": {
-      "type": "blo-find-your-favorite",
-      "disabled": true,
-      "blocks": {
-        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "camel-floral"
-          }
-        },
-        "f1a9d6de-1d02-4f66-bac5-19636ffa6e75": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cream-floral"
-          }
-        },
-        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "blue-bees"
-          }
-        },
-        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "blue-triangles"
-          }
-        },
-        "19bcaa4e-45bd-4a73-910b-a4328600a1ac": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "dinosaurs"
-          }
-        }
-      },
-      "block_order": [
-        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-2",
-        "f1a9d6de-1d02-4f66-bac5-19636ffa6e75",
-        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-0",
-        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-1",
-        "19bcaa4e-45bd-4a73-910b-a4328600a1ac"
-      ],
-      "settings": {
-        "title": "Find Your New Favorite",
-        "heading_size": "h2",
-        "image_ratio": "square",
-        "columns_desktop": 5,
-        "color_scheme": "",
-        "show_view_all": true,
-        "view_all_link": "shopify:\/\/pages\/shop-by-all",
-        "view_all_label": "Shop By Prints & Ribbed",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
     "a55edcc6-a898-42f6-b41b-14879be538ca": {
       "type": "blo-find-your-favotite-v2",
       "blocks": {
@@ -376,6 +319,63 @@
         "7dc42e8f-08fe-4241-9e60-1d549b16bb74",
         "17e74dfb-47af-4762-95ee-cda10780d9e2",
         "0fb59179-4d56-4792-ba4c-6617211a7283"
+      ],
+      "settings": {
+        "title": "Find Your New Favorite",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "",
+        "show_view_all": true,
+        "view_all_link": "shopify:\/\/pages\/shop-by-all",
+        "view_all_label": "Shop By Prints & Ribbed",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "f8984855-9525-4334-88ac-f4e6f241f447": {
+      "type": "blo-find-your-favorite",
+      "disabled": true,
+      "blocks": {
+        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "camel-floral"
+          }
+        },
+        "f1a9d6de-1d02-4f66-bac5-19636ffa6e75": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cream-floral"
+          }
+        },
+        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "blue-bees"
+          }
+        },
+        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "blue-triangles"
+          }
+        },
+        "19bcaa4e-45bd-4a73-910b-a4328600a1ac": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dinosaurs"
+          }
+        }
+      },
+      "block_order": [
+        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-2",
+        "f1a9d6de-1d02-4f66-bac5-19636ffa6e75",
+        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-0",
+        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-1",
+        "19bcaa4e-45bd-4a73-910b-a4328600a1ac"
       ],
       "settings": {
         "title": "Find Your New Favorite",
@@ -615,8 +615,8 @@
     "824201d6-ab39-4535-b10b-033005d18033",
     "ee363dd5-1c44-4b82-b551-3972740be32c",
     "4b1165c6-b8a9-4249-a026-ac24d705f1f2",
-    "f8984855-9525-4334-88ac-f4e6f241f447",
     "a55edcc6-a898-42f6-b41b-14879be538ca",
+    "f8984855-9525-4334-88ac-f4e6f241f447",
     "39a14b17-5c76-41f4-b440-d63a3f398506",
     "featured_collection",
     "7f2ba396-b421-44a7-8ac9-529611c0153f",
