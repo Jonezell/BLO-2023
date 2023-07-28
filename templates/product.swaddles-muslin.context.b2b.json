@@ -1,0 +1,8 @@
+{
+  "parent": "product.swaddles-muslin.json",
+  "context": {
+    "b2b": true
+  },
+  "sections": {
+  }
+}
