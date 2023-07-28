@@ -4,5 +4,15 @@
     "b2b": true
   },
   "sections": {
-  }
+  },
+  "order": [
+    "main",
+    "1689095601e7facfa4",
+    "image-with-text",
+    "b58c1632-a253-4067-8f0e-8e3028c83250",
+    "f4fd5ada-d53d-4cfb-9946-2c842b407d4e",
+    "46740828-92db-4676-a76d-705438a15b73",
+    "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
+    "related-products"
+  ]
 }
