@@ -1,0 +1,8 @@
+{
+  "parent": "product.denim-jackets.json",
+  "context": {
+    "b2b": true
+  },
+  "sections": {
+  }
+}
