@@ -21,6 +21,7 @@
 {% endcomment %}
 
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
+{{ 'component-volume-pricing.css' | asset_url | stylesheet_tag }}
 
 {%- if card_product and card_product != empty -%}
   {%- liquid
@@ -205,7 +206,12 @@
               </p>
             {%- endif -%}
 
-            {% render 'price', product: card_product, price_class: '' %}
+            {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
+            {%- if card_product.quantity_price_breaks_configured? -%}
+              <div class="card__information-volume-pricing-note">
+                <span class="caption">{{ 'products.product.volume_pricing.note' | t }}</span>
+              </div>
+            {%- endif -%}
           </div>
         </div>
         {%- if show_quick_add -%}
@@ -271,7 +277,7 @@
                 </div>
               </quick-add-modal>
             {%- else -%}
-              <product-form>
+              <product-form data-section-id="{{ section.id }}">
                 {%- form 'product',
                   card_product,
                   id: product_form_id,
@@ -283,6 +289,7 @@
                     type="hidden"
                     name="id"
                     value="{{ card_product.selected_or_first_available_variant.id }}"
+                    class="product-variant-id"
                     disabled
                   >
                   <button
@@ -392,7 +399,7 @@
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
               <div class="caption-with-letter-spacing light">{{ 'products.product.vendor' | t }}</div>
             {%- endif -%}
-            {% render 'price' %}
+            {% render 'price', show_compare_at_price: true %}
           </div>
         </div>
       </div>
