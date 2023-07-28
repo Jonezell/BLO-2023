@@ -746,6 +746,9 @@ facet-remove .active-facets__button--light .active-facets__button-inner:active {
     .section.blo-collection {
         margin-top: 0px;
     }
+    .mobile-facets__main .mobile-facets__label .icon-checkmark {
+        top: 1.2rem;
+    }
 }
 
 .blo-custom-sort {
