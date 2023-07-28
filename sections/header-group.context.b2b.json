@@ -13,28 +13,20 @@
         "8ec5e40e-dc0d-4d87-bde8-5febe256c134": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to Wholesale Ordering!",
+            "text": "Welcome to Wholesale!",
             "link": ""
           }
         },
         "e0a30a9c-f7b6-413d-9767-d0ffb58e6751": {
           "type": "announcement",
           "settings": {
-            "text": "Wholesale Order Minimum is $600",
-            "link": ""
-          }
-        },
-        "4d9a37e9-9408-4561-80be-f7a0e0107fe8": {
-          "type": "announcement",
-          "settings": {
-            "text": "Wholesale Pricing is automatically applied",
+            "text": "Wholesale Minimum is $600",
             "link": ""
           }
         }
       },
       "block_order": [
         "8ec5e40e-dc0d-4d87-bde8-5febe256c134",
-        "4d9a37e9-9408-4561-80be-f7a0e0107fe8",
         "e0a30a9c-f7b6-413d-9767-d0ffb58e6751"
       ]
     }
