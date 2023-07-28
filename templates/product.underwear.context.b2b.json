@@ -1,0 +1,8 @@
+{
+  "parent": "product.underwear.json",
+  "context": {
+    "b2b": true
+  },
+  "sections": {
+  }
+}
