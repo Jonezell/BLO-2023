@@ -10,8 +10,8 @@
       "settings": {
         "show_image": false,
         "show_sku": false,
-        "color_scheme": "",
-        "header-c3062b8b115d6223f43c71f5ccf48092": null,
+        "color_scheme": "background-2",
+        "header-3e472a9b952dc9ffc731dadfc7e10ed2": null,
         "padding_top": 100,
         "padding_bottom": 100
       },
@@ -20,6 +20,13 @@
       "block_order": [
 
       ]
+    },
+    "main": {
+      "settings": {
+        "padding_bottom": 100
+      },
+      "blocks": {
+      }
     }
   },
   "order": [
