@@ -1,0 +1,8 @@
+{
+  "parent": "product.tanks.json",
+  "context": {
+    "b2b": true
+  },
+  "sections": {
+  }
+}
