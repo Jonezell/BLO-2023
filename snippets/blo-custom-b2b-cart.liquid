@@ -10,12 +10,13 @@
   {%- if location == 'drawer' -%}
     <script>
       document.addEventListener('DOMContentLoaded', function () {
+        // Function to check cart price & add classes to show or hide buttons & wholesale note
 
 
         {% comment %} CONDITION CHECKER {% endcomment %}
         function checkConditions() {
 
-          const htmlElement = document.querySelector('.cart-drawer__footer .totals__subtotal-value');
+          const htmlElement = document.querySelector('.cart-drawer__footer .totals__total-value');
           const text = htmlElement.textContent;
           const subtotalValue = text.replace(/[^0-9]/g, '');
 
@@ -58,10 +59,10 @@
   {%- else -%}
     <script>
       document.addEventListener('DOMContentLoaded', function () {
-        // Function to check customer.b2b? and .totals__subtotal content
+        // Function to check cart price & add classes to show or hide buttons & wholesale note
 
         function checkConditions() {
-          const htmlElement = document.querySelector('.cart__footer-wrapper .totals__subtotal-value');
+          const htmlElement = document.querySelector('.cart__footer-wrapper .totals__total-value');
           const text = htmlElement.textContent;
           const subtotalValue = text.replace(/[^0-9]/g, '');
 
