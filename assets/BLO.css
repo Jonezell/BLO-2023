@@ -596,6 +596,9 @@ header .header__inline-menu {
 .product__accordion .h6{
     color: var(--greyscale-Black);
 }
+.product__accordion .accordion__title {
+    text-align: left;
+}
 @media screen and (max-width: 749px) {
     .product .product__media-wrapper slider-component:not(.thumbnail-slider--no-slide) {
         margin-left: -3rem;
