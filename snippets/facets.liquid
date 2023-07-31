@@ -154,14 +154,14 @@
                           </facet-remove>
                         </div>
                       {%- endif -%}
-                      <fieldset class="facets-wrap parent-wrap {% if filter_type == 'vertical' %} facets-wrap-vertical{% endif %}">
+                      <fieldset class="facets-wrap parent-wrap {% if filter_type == 'vertical' %} facets-wrap-vertical{% endif %} {% if filter.label == 'Color' %} blo-filter-{{ filter.label | escape }}{% endif %}">
                         <legend class="visually-hidden">{{ filter.label | escape }}</legend>
                         <ul
                           class="{% if filter_type != 'vertical' %} facets__list{% endif %} list-unstyled no-js-hidden"
                           role="list"
                         >
                           {%- for value in filter.values -%}
-                            <li class="list-menu__item facets__item{% if forloop.index > 10 and filter_type == 'vertical' %} show-more-item hidden{% endif %}">
+                            <li class="list-menu__item facets__item{% if forloop.index > 10 and filter_type == 'vertical' %} show-more-item hidden{% endif %} {% if filter.label == 'Color' %} blo-filter-Color-{{ value.label | escape }}{% endif %}">
                               <label
                                 for="Filter-{{ filter.param_name | escape }}-{{ forloop.index }}"
                                 class="facet-checkbox{% if value.count == 0 and value.active == false %} facet-checkbox--disabled{% endif %}"
@@ -215,6 +215,9 @@
                                   {%- endif -%}
                                   )</span
                                 >
+                                {% if filter.label == 'Color' %}
+                                  <div class="blo-filter-Color-label">{{ value.label | escape }}</div>
+                                {% endif %}
                               </label>
                             </li>
                           {%- endfor -%}
@@ -695,7 +698,7 @@
                     {% when 'boolean', 'list' %}
                       <details
                         id="Details-Mobile-{{ forloop.index }}-{{ section.id }}"
-                        class="mobile-facets__details js-filter"
+                        class="mobile-facets__details js-filter {% if filter.label == 'Color' %} blo-filter-{{ filter.label | escape }}{% endif %}"
                         data-index="mobile-{{ forloop.index }}"
                       >
                         <summary class="mobile-facets__summary focus-inset">
@@ -717,9 +720,12 @@
                             {% render 'icon-arrow' %}
                             {{ filter.label | escape }}
                           </button>
-                          <ul class="mobile-facets__list list-unstyled" role="list">
+                          <ul
+                            class="mobile-facets__list list-unstyled"
+                            role="list"
+                          >
                             {%- for value in filter.values -%}
-                              <li class="mobile-facets__item list-menu__item">
+                              <li class="mobile-facets__item list-menu__item {% if filter.label == 'Color' %} blo-filter-Color-{{ value.label | escape }}{% endif %}">
                                 <label
                                   for="Filter-{{ filter.param_name | escape }}-mobile-{{ forloop.index }}"
                                   class="mobile-facets__label{% if value.count == 0 and value.active == false %} mobile-facets__label--disabled{% endif %}"
@@ -772,6 +778,9 @@
                                     {%- endif -%}
                                     )</span
                                   >
+                                  {% if filter.label == 'Color' %}
+                                    <div class="blo-filter-Color-label">{{ value.label | escape }}</div>
+                                  {% endif %}
                                 </label>
                               </li>
                             {%- endfor -%}
