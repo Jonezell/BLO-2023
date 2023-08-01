@@ -173,8 +173,34 @@
         "include_margins": false
       }
     },
+    "a2f22c68-0d3e-46f1-b2d5-7f3d72a720f3": {
+      "type": "blo-product-callouts",
+      "blocks": {
+        "043b36ef-2301-4540-89b8-417aaf49f4ee": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_left",
+            "block_title": "Tagless Labels",
+            "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
+            "horizontal_position": 42,
+            "vertical_position": 4
+          }
+        }
+      },
+      "block_order": [
+        "043b36ef-2301-4540-89b8-417aaf49f4ee"
+      ],
+      "settings": {
+        "title": "We’ve thought of it so you don’t have to.",
+        "text": "Discover the ultimate bedtime comfort with our perfectly crafted PJs.",
+        "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-2-Piece-Set-2.jpg",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "7589c9df-82ac-4236-b1f8-b07a10fb4c45": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "e138fab3-ee6b-4663-9da0-f477e69429e2": {
           "type": "heading",
@@ -369,7 +395,8 @@
           "type": "button",
           "settings": {
             "button_label": "Learn More",
-            "button_link": "shopify:\/\/blogs\/blog\/why-we-fell-in-love-with-bamboo"
+            "button_link": "shopify:\/\/blogs\/blog\/why-we-fell-in-love-with-bamboo",
+            "button_style_secondary": false
           }
         }
       },
@@ -405,7 +432,8 @@
         "full_width": false,
         "color_scheme": "",
         "padding_top": 100,
-        "padding_bottom": 100
+        "padding_bottom": 100,
+        "show_texture": true
       }
     },
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85": {
@@ -477,6 +505,7 @@
   "order": [
     "main",
     "1689095601e7facfa4",
+    "a2f22c68-0d3e-46f1-b2d5-7f3d72a720f3",
     "7589c9df-82ac-4236-b1f8-b07a10fb4c45",
     "70604352-6031-4eba-84e8-f54531272110",
     "c4cdee0e-37f1-45f3-b125-c96720718c15",
