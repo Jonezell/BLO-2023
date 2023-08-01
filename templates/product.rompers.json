@@ -349,6 +349,7 @@
     },
     "276d863e-6857-4b9f-8b59-6b5d7f1a4439": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "550ad82d-a1da-430f-8b99-3317a4b450dc": {
           "type": "heading",
@@ -386,6 +387,7 @@
     },
     "7683f94b-ea84-4405-8b05-dd2001c71816": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "5d490e4a-adeb-461c-899a-de2d415593b2": {
           "type": "heading",
@@ -423,6 +425,7 @@
     },
     "6fcbbed5-a801-4fcb-a963-fc9ed2072dfa": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "52c13971-5d3e-44dc-8d4c-f049f5bc7988": {
           "type": "heading",
