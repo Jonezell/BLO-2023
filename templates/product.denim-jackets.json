@@ -173,6 +173,53 @@
         "include_margins": false
       }
     },
+    "3bfc6831-e27c-401a-912c-f0a46311e872": {
+      "type": "blo-product-callouts",
+      "blocks": {
+        "f54a0870-cfed-4d20-b3d3-46f89d5dc659": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_left",
+            "block_title": "Soft Denim",
+            "block_text": "Our denim jackets are made from a high quality, soft denim that will keep your little ones both comfortable and warm. Whether you're purchasing oversized to layer with one of our pullovers, or buying true to size, you won't be disappointed in these long-lasting and functional jackets.",
+            "horizontal_position": 24,
+            "vertical_position": 22
+          }
+        },
+        "73e3e03b-3e4d-4474-a7ee-00a7c122bb69": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_left",
+            "block_title": "Custom Buttons",
+            "block_text": "Our denim jackets feature customized Brave Little Ones buttons, adding an extra bit of unique detail!",
+            "horizontal_position": 52,
+            "vertical_position": 50
+          }
+        },
+        "d86b19c7-8fa4-4dfa-9dfa-c31396231d8c": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_left",
+            "block_title": "Functional Pockets",
+            "block_text": "Our denim jackets include two button flap front pockets and two side pockets making them a fashionable addition to any outfit.",
+            "horizontal_position": 24,
+            "vertical_position": 76
+          }
+        }
+      },
+      "block_order": [
+        "f54a0870-cfed-4d20-b3d3-46f89d5dc659",
+        "73e3e03b-3e4d-4474-a7ee-00a7c122bb69",
+        "d86b19c7-8fa4-4dfa-9dfa-c31396231d8c"
+      ],
+      "settings": {
+        "title": "We’ve thought of it so you don’t have to.",
+        "text": "",
+        "image": "shopify:\/\/shop_images\/1-plan-denim--Pullover-3.jpg",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -353,6 +400,7 @@
   "order": [
     "main",
     "1689095601e7facfa4",
+    "3bfc6831-e27c-401a-912c-f0a46311e872",
     "image-with-text",
     "2e3f8bab-d089-4276-a9a2-b8aeafa61186",
     "0c093a2c-b80f-4c8d-a626-0657232f51e8",
