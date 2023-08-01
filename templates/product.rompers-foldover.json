@@ -358,6 +358,7 @@
     },
     "64bf9eb5-785d-40f7-be20-214f5d799838": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1d4d039a-8e7b-4575-b08d-12c0645e4d78": {
           "type": "heading",
@@ -395,6 +396,7 @@
     },
     "3a76cf5f-b2de-4852-8878-0feb69807621": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "0bd7fc96-e035-4b21-bc7c-28da2b95fede": {
           "type": "heading",
@@ -432,6 +434,7 @@
     },
     "2b0041ed-0605-4862-8418-d682ae816f74": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "42cce41a-fc96-4a74-937d-63930702ab53": {
           "type": "heading",
@@ -469,6 +472,7 @@
     },
     "3b3682f3-ae42-41b2-b100-e9b23a0c6039": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "b5b45db7-ad85-46f7-a926-5a58afb7189f": {
           "type": "heading",
