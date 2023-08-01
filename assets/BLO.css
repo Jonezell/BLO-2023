@@ -752,7 +752,7 @@ facet-remove .active-facets__button--light .active-facets__button-inner:active {
     .mobile-facets__main .mobile-facets__label .icon-checkmark {
         top: 1.2rem;
     }
-    .mobile-facets__summary {
+    .mobile-facets__wrapper div.mobile-facets__details:first-of-type .mobile-facets__summary {
         padding-top: 4px;
         padding-bottom: 4px;
     }
