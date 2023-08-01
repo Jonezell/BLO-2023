@@ -173,8 +173,45 @@
         "include_margins": false
       }
     },
+    "0ad7164f-4e1e-4743-8471-ab003dcf814e": {
+      "type": "blo-product-callouts",
+      "blocks": {
+        "e13cc185-e1f3-4184-b8fa-28bec2e0f37c": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "bottom_right",
+            "block_title": "Ultra-Soft Fabric",
+            "block_text": "Made from a unique blend of polyester and bamboo, our ultra soft shirts will keep your infants and toddlers stylish and comfortable year-round.",
+            "horizontal_position": 26,
+            "vertical_position": 6
+          }
+        },
+        "2e13e4c0-9a8c-407f-8948-52d07dbe34fb": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Tagless Labels",
+            "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
+            "horizontal_position": 54,
+            "vertical_position": 14
+          }
+        }
+      },
+      "block_order": [
+        "e13cc185-e1f3-4184-b8fa-28bec2e0f37c",
+        "2e13e4c0-9a8c-407f-8948-52d07dbe34fb"
+      ],
+      "settings": {
+        "title": "We’ve thought of it so you don’t have to.",
+        "text": "Discover the ultimate daytime comfort with our perfectly crafted Shirts.",
+        "image": "shopify:\/\/shop_images\/2-Brave-Skate-Club-Shirt-Front-2.jpg",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "image-with-text-0": {
           "type": "heading",
@@ -212,6 +249,7 @@
     },
     "49dc32c5-7fe2-42d2-bf49-9f8bf6c885b6": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "4c77e1cb-f2d2-4bd6-9bd8-4d6a2a0581d7": {
           "type": "heading",
@@ -316,6 +354,7 @@
   "order": [
     "main",
     "1689095601e7facfa4",
+    "0ad7164f-4e1e-4743-8471-ab003dcf814e",
     "image-with-text",
     "49dc32c5-7fe2-42d2-bf49-9f8bf6c885b6",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
