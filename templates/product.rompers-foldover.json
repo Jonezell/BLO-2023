@@ -187,12 +187,11 @@
     },
     "292a1c30-79a3-4b92-aff1-e1d28fa66951": {
       "type": "blo-product-callouts",
-      "disabled": true,
       "blocks": {
         "d5457409-4e49-41aa-af2b-4cc958b40ec3": {
           "type": "Callout",
           "settings": {
-            "pin_direction": "bottom_left",
+            "pin_direction": "bottom_right",
             "arrow_direction": "arrow_right",
             "block_title": "Tagless Label",
             "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
@@ -220,8 +219,8 @@
             "arrow_direction": "arrow_right",
             "block_title": "Two-Way Zipper",
             "block_text": "We know how tricky diaper changes can be, so we wanted to help. All of our rompers have a two-way zipper to make those middle of the night or on-the-go diaper changes quick and easy!",
-            "horizontal_position": 38,
-            "vertical_position": 84,
+            "horizontal_position": 12,
+            "vertical_position": 82,
             "arrow": "curly"
           }
         },
@@ -233,7 +232,7 @@
             "block_title": "Fold-Over Feet",
             "block_text": "Our newly released rompers now include fold-over feet to help keep your little ones cozy.",
             "horizontal_position": 16,
-            "vertical_position": 96,
+            "vertical_position": 92,
             "arrow": "wavy"
           }
         }
@@ -340,7 +339,8 @@
           "type": "button",
           "settings": {
             "button_label": "Learn More",
-            "button_link": "shopify:\/\/blogs\/blog\/why-we-fell-in-love-with-bamboo"
+            "button_link": "shopify:\/\/blogs\/blog\/why-we-fell-in-love-with-bamboo",
+            "button_style_secondary": false
           }
         }
       },
@@ -593,7 +593,8 @@
         "full_width": false,
         "color_scheme": "",
         "padding_top": 100,
-        "padding_bottom": 100
+        "padding_bottom": 100,
+        "show_texture": true
       }
     },
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85": {
