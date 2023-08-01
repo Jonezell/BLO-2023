@@ -23,6 +23,7 @@
         widths: widths
     }}
     {%- for block in section.blocks -%}
+      <input type="checkbox" name="callout" id="blo-callout-{{block.id}}">
       <label
         for="blo-callout-{{block.id}}"
         class="blo-product-callout-wrapper {{block.settings.pin_direction}} {{block.settings.arrow_direction}}"
@@ -42,7 +43,6 @@
           {%- endif -%}
         "
       >
-        <input type="checkbox" name="callout" id="blo-callout-{{block.id}}">
         <div class="blo-product-callout-innerwrapper">
           <h6
             class="inline-richtext {{block.settings.pin_direction}} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
@@ -61,16 +61,6 @@
             <p>{{ block.settings.block_text }}</p>
           </div>
         </div>
-        {% comment %}
-          {%- if block.settings.arrow == 'arch' -%}
-            {%- render 'blo-handdrawn-arrow-arch' -%}
-          {%- elsif block.settings.arrow == 'curly' -%}
-            {%- render 'blo-handdrawn-arrow-curly' -%}
-          {%- elsif block.settings.arrow == 'wavy' -%}
-            {%- render 'blo-handdrawn-arrow-wavy' -%}
-          {%- elsif block.settings.arrow == 'bottom_left' -%}
-          {%- endif -%}
-        {% endcomment %}
       </label>
     {%- endfor -%}
   </div>
@@ -110,27 +100,26 @@
     flex-direction: column;
     gap: 10px;
     align-items: center;
+    max-width: 340px;
     transform: translateY(-24px);
+    transition: all 200ms ease-out;
   }
-  .blo-product-callout-wrapper {
-    position: absolute;
-    z-index: 1;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  input:checked + .blo-product-callout-wrapper {
+    z-index: 5;
   }
   .blo-product-callout-innerwrapper {
-    max-width: 300px;
     background: var(--tan-Medium);
     border-radius: 24px;
     padding: 10px 20px;
-    transition: all 250ms ease-out;
+    transition: all 200ms ease-out;
+
+    background: var(--greyscale-White);
+    box-shadow: 0px 14px 24px 0px rgba(0, 0, 0, 0.07);
   }
-  .blo-product-callout-wrapper input:checked ~ .blo-product-callout-innerwrapper {
+  input:checked + .blo-product-callout-wrapper .blo-product-callout-innerwrapper {
     border-radius: var(--blo-corner-radius);
     padding: 30px;
-    max-width: 320px;
+    margin: -20px -10px;
   }
   .blo-product-callout-wrapper h6 {
     margin: 0;
@@ -157,10 +146,10 @@
     display: none;
     margin-top: 10px;
   }
-  .blo-product-callout-wrapper input:checked ~ .blo-product-callout-innerwrapper .rte {
+  input:checked + .blo-product-callout-wrapper .blo-product-callout-innerwrapper .rte {
     display: block;
   }
-  .blo-product-callout-wrapper input {
+  .blo-product-callouts-image-wrapper input[type='checkbox'] {
     display: none;
   }
   .blo-product-callout-icon {
@@ -180,43 +169,22 @@
   .blo-product-callout-icon svg:last-child {
     display: none;
   }
-  .blo-product-callout-wrapper
-    input:checked
-    ~ .blo-product-callout-innerwrapper
+
+  input:checked
+    + .blo-product-callout-wrapper
+    .blo-product-callout-innerwrapper
     .blo-product-callout-icon
     svg:last-child {
     display: block;
   }
-  .blo-product-callout-wrapper
-    input:checked
-    ~ .blo-product-callout-innerwrapper
+
+  input:checked
+    + .blo-product-callout-wrapper
+    .blo-product-callout-innerwrapper
     .blo-product-callout-icon
     svg:first-child {
     display: none;
   }
-  /* .blo-product-callout-wrapper.bottom_left.arrow_left .blo-handdrawn-arrow {
-    transform: scale(-1, -1);
-  }
-  .blo-product-callout-wrapper.bottom_left.arrow_right .blo-handdrawn-arrow {
-    transform: scale(1, -1);
-  }
-  .blo-product-callout-wrapper.bottom_right.arrow_right .blo-handdrawn-arrow {
-    transform: scaleY(-1);
-  }
-  .blo-product-callout-wrapper.bottom_right.arrow_left .blo-handdrawn-arrow {
-    transform: scale(-1, -1);
-  }
-
-  .blo-product-callout-wrapper.top_right.arrow_left .blo-handdrawn-arrow {
-    transform: scale(-1, 1);
-  }
-  .blo-product-callout-wrapper.top_right.arrow_right .blo-handdrawn-arrow {
-    transform: scaleX(1);
-  }
-  .blo-product-callout-wrapper.top_left.arrow_left .blo-handdrawn-arrow {
-    transform: scaleX(-1);
-  } */
-
   .blo-product-callout-wrapper.top_right,
   .blo-product-callout-wrapper.top_left {
     flex-direction: column-reverse;
@@ -234,16 +202,24 @@
   }
   @media screen and (max-width: 749px) {
     .blo-product-callout-innerwrapper-header {
-      display: none;
+      font-size: 14px;
     }
-    .blo-product-callout-wrapper
-      input:checked
-      ~ .blo-product-callout-innerwrapper
+    input:checked
+      + .blo-product-callout-wrapper
+      .blo-product-callout-innerwrapper
       .blo-product-callout-innerwrapper-header {
       display: block;
     }
     .blo-product-callout-innerwrapper {
-      padding: 10px;
+      padding: 5px 10px;
+    }
+    input:checked + .blo-product-callout-wrapper {
+      left: 10px !important;
+      right: 10px !important;
+      max-width: none;
+    }
+    input:checked + .blo-product-callout-wrapper .blo-product-callout-innerwrapper-header {
+      font-size: 16px;
     }
   }
 {%- endstyle -%}
@@ -305,22 +281,6 @@
           "default": "top_right"
         },
         {
-          "type": "select",
-          "id": "arrow_direction",
-          "label": "Arrow Direction",
-          "options": [
-            {
-              "value": "arrow_right",
-              "label": "Right"
-            },
-            {
-              "value": "arrow_left",
-              "label": "Left"
-            }
-          ],
-          "default": "arrow_right"
-        },
-        {
           "type": "text",
           "id": "block_title",
           "label": "Feature Name",
@@ -351,26 +311,6 @@
           "unit": "%",
           "label": "Vertical Position",
           "default": 50
-        },
-        {
-          "type": "select",
-          "id": "arrow",
-          "label": "Arrow Style",
-          "options": [
-            {
-              "value": "arch",
-              "label": "Arch"
-            },
-            {
-              "value": "curly",
-              "label": "Curly"
-            },
-            {
-              "value": "wavy",
-              "label": "Wavy"
-            }
-          ],
-          "default": "arch"
         }
       ]
     }
