@@ -188,6 +188,7 @@
         },
         "d8818063-ebe6-49e1-86ce-9394138385fa": {
           "type": "Callout",
+          "disabled": true,
           "settings": {
             "pin_direction": "top_right",
             "block_title": "Elastic Waistband",
