@@ -753,6 +753,10 @@ facet-remove .active-facets__button--light .active-facets__button-inner:active {
         top: 1.2rem;
     }
 }
+.mobile-facets__sort .select__select {
+    font-size: 16px;
+    text-align: right;
+}
 
 .blo-custom-sort {
     border-top: 2px solid var(--greyscale-Black);
@@ -883,14 +887,6 @@ fieldset.blo-filter-Color {
 }
 .blo-filter-Color .blo-filter-Color-Rust .blo-filter-Color-label:before {
     background: #a15033;
-}
-
-.active-facets-mobile {
-    padding: 1.2rem;
-    gap: 1.2rem;
-}
-.active-facets-mobile facet-remove a {
-    padding: 0;
 }
 .blo-filter-Color .facet-checkbox--disabled .blo-filter-Color-label {
     opacity: .5;
