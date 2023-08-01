@@ -185,6 +185,53 @@
         "include_margins": false
       }
     },
+    "340153f7-0d7d-419e-a145-5a909db7ae4a": {
+      "type": "blo-product-callouts",
+      "blocks": {
+        "4d55d513-0c7d-4e24-8ff6-1f11979baad2": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_left",
+            "block_title": "Tagless Labels",
+            "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
+            "horizontal_position": 24,
+            "vertical_position": 2
+          }
+        },
+        "b8210f1a-1684-4c58-9872-5e1e0730ba34": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_left",
+            "block_title": "Two-Way Zippers",
+            "block_text": "We know how tricky diaper changes can be, so we wanted to help. All of our rompers have a two-way zipper to make those middle of the night or on-the-go diaper changes quick and easy!",
+            "horizontal_position": 30,
+            "vertical_position": 84
+          }
+        },
+        "4893fe1a-6019-481e-a857-60147fdbb74b": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Fold-Over Mittens",
+            "block_text": "Our stretchy fold-over mittens not only keep your infant's hands warm, but keep them from scratching their delicate skin too. Fold-over mittens are available up to size 6-12M.",
+            "horizontal_position": 6,
+            "vertical_position": 42
+          }
+        }
+      },
+      "block_order": [
+        "4d55d513-0c7d-4e24-8ff6-1f11979baad2",
+        "b8210f1a-1684-4c58-9872-5e1e0730ba34",
+        "4893fe1a-6019-481e-a857-60147fdbb74b"
+      ],
+      "settings": {
+        "title": "We’ve thought of it so you don’t have to.",
+        "text": "Discover the ultimate bedtime comfort with our perfectly crafted PJs.",
+        "image": "shopify:\/\/shop_images\/Tan-Ribbed-4-2.jpg",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "fd0ce518-521c-4663-b266-b54fd083f08a": {
       "type": "multicolumn",
       "disabled": true,
@@ -275,7 +322,8 @@
           "type": "button",
           "settings": {
             "button_label": "Learn More",
-            "button_link": "shopify:\/\/blogs\/blog\/why-we-fell-in-love-with-bamboo"
+            "button_link": "shopify:\/\/blogs\/blog\/why-we-fell-in-love-with-bamboo",
+            "button_style_secondary": false
           }
         }
       },
@@ -491,7 +539,8 @@
         "full_width": false,
         "color_scheme": "",
         "padding_top": 0,
-        "padding_bottom": 100
+        "padding_bottom": 100,
+        "show_texture": true
       }
     },
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85": {
@@ -563,6 +612,7 @@
   "order": [
     "main",
     "1689095601e7facfa4",
+    "340153f7-0d7d-419e-a145-5a909db7ae4a",
     "fd0ce518-521c-4663-b266-b54fd083f08a",
     "image-with-text",
     "276d863e-6857-4b9f-8b59-6b5d7f1a4439",
