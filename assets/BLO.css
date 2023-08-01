@@ -247,9 +247,6 @@ header.header.page-width {
     padding-left: 20px;
     padding-right: 20px;
 }
-header .header__inline-menu {
-
-}
 @media screen and (min-width: 750px) { 
     header.header.page-width {
         padding-left: 0px !important;
@@ -275,8 +272,10 @@ header .header__inline-menu {
         margin-left: 10px;
     }
 }
-
-
+.announcement-bar__message {
+    padding-top: 1.15rem;
+    padding-bottom: 0.85rem;
+}
 
 
 /* TOGGLES */
