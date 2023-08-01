@@ -192,48 +192,40 @@
           "type": "Callout",
           "settings": {
             "pin_direction": "top_left",
-            "arrow_direction": "arrow_left",
             "block_title": "Tagless Label",
             "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
             "horizontal_position": 28,
-            "vertical_position": 4,
-            "arrow": "wavy"
+            "vertical_position": 4
           }
         },
         "38d9d336-f376-40b5-88db-d6d23b55d945": {
           "type": "Callout",
           "settings": {
             "pin_direction": "top_right",
-            "arrow_direction": "arrow_left",
             "block_title": "Fold-Over Mittens",
             "block_text": "Our stretchy fold-over mittens not only keep your infant's hands warm, but keep them from scratching their delicate skin too. Fold-over mittens are available up to size 6-12M.",
             "horizontal_position": 6,
-            "vertical_position": 36,
-            "arrow": "curly"
+            "vertical_position": 36
           }
         },
         "e29631c0-07e1-4581-a5b4-70573b94816e": {
           "type": "Callout",
           "settings": {
             "pin_direction": "top_left",
-            "arrow_direction": "arrow_right",
             "block_title": "Two-Way Zipper",
             "block_text": "We know how tricky diaper changes can be, so we wanted to help. All of our rompers have a two-way zipper to make those middle of the night or on-the-go diaper changes quick and easy!",
-            "horizontal_position": 12,
-            "vertical_position": 82,
-            "arrow": "curly"
+            "horizontal_position": 36,
+            "vertical_position": 74
           }
         },
         "1db4ce0f-5414-49f9-9114-afd8f69265ff": {
           "type": "Callout",
           "settings": {
             "pin_direction": "top_right",
-            "arrow_direction": "arrow_left",
             "block_title": "Fold-Over Feet",
             "block_text": "Our newly released rompers now include fold-over feet to help keep your little ones cozy.",
             "horizontal_position": 16,
-            "vertical_position": 92,
-            "arrow": "wavy"
+            "vertical_position": 92
           }
         }
       },
@@ -245,7 +237,7 @@
       ],
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
-        "text": "Lorem ipsum dolor sit amet consectetur",
+        "text": "Discover the Ultimate in Bedtime Comfort with Perfectly Crafted PJs.",
         "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-Zip-Romper.jpg"
       }
     },
@@ -366,6 +358,7 @@
     },
     "64bf9eb5-785d-40f7-be20-214f5d799838": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1d4d039a-8e7b-4575-b08d-12c0645e4d78": {
           "type": "heading",
@@ -403,6 +396,7 @@
     },
     "3a76cf5f-b2de-4852-8878-0feb69807621": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "0bd7fc96-e035-4b21-bc7c-28da2b95fede": {
           "type": "heading",
@@ -440,6 +434,7 @@
     },
     "2b0041ed-0605-4862-8418-d682ae816f74": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "42cce41a-fc96-4a74-937d-63930702ab53": {
           "type": "heading",
@@ -477,6 +472,7 @@
     },
     "3b3682f3-ae42-41b2-b100-e9b23a0c6039": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "b5b45db7-ad85-46f7-a926-5a58afb7189f": {
           "type": "heading",
