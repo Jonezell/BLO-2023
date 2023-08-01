@@ -185,10 +185,21 @@
             "horizontal_position": 42,
             "vertical_position": 4
           }
+        },
+        "d8818063-ebe6-49e1-86ce-9394138385fa": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Elastic Waistband",
+            "block_text": "Make your little ones feel comfortable all night long with our flexible and snug elastic waistband!",
+            "horizontal_position": 32,
+            "vertical_position": 34
+          }
         }
       },
       "block_order": [
-        "043b36ef-2301-4540-89b8-417aaf49f4ee"
+        "043b36ef-2301-4540-89b8-417aaf49f4ee",
+        "d8818063-ebe6-49e1-86ce-9394138385fa"
       ],
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
