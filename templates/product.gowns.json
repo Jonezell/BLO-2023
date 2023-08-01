@@ -173,6 +173,42 @@
         "include_margins": false
       }
     },
+    "35b67eae-9fd7-4995-a0b5-4a4b948f7715": {
+      "type": "blo-product-callouts",
+      "blocks": {
+        "66e27e5e-b9d8-4e8b-9808-a41ba64566cd": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_left",
+            "block_title": "Tagless Labels",
+            "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
+            "horizontal_position": 44,
+            "vertical_position": 4
+          }
+        },
+        "14c180ba-4703-4b38-8b0b-b93311c7e14a": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_left",
+            "block_title": "Fold-Over Mittens",
+            "block_text": "Our stretchy fold-over mittens not only keep your infant's hands warm, but keep them from scratching their delicate skin too.",
+            "horizontal_position": 6,
+            "vertical_position": 32
+          }
+        }
+      },
+      "block_order": [
+        "66e27e5e-b9d8-4e8b-9808-a41ba64566cd",
+        "14c180ba-4703-4b38-8b0b-b93311c7e14a"
+      ],
+      "settings": {
+        "title": "We’ve thought of it so you don’t have to.",
+        "text": "Discover the ultimate bedtime comfort with our perfectly crafted PJs.",
+        "image": "shopify:\/\/shop_images\/pinecone-1--Gown-2.jpg",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "adff747f-76a8-4bc9-b96f-caff878685ae": {
       "type": "multicolumn",
       "disabled": true,
@@ -263,7 +299,8 @@
           "type": "button",
           "settings": {
             "button_label": "Learn More",
-            "button_link": "shopify:\/\/blogs\/blog\/why-we-fell-in-love-with-bamboo"
+            "button_link": "shopify:\/\/blogs\/blog\/why-we-fell-in-love-with-bamboo",
+            "button_style_secondary": false
           }
         }
       },
@@ -289,6 +326,7 @@
     },
     "1d11c832-46f0-44e9-a0bf-eac81e9d064a": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "6ff1641d-8679-4374-92f4-864db7174a67": {
           "type": "heading",
@@ -326,6 +364,7 @@
     },
     "8ba250b3-2245-44f3-8ff0-f48f7cbd33a8": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "dccd587b-702c-449e-84de-4b0f647b34b9": {
           "type": "heading",
@@ -515,6 +554,7 @@
   "order": [
     "main",
     "1689095601e7facfa4",
+    "35b67eae-9fd7-4995-a0b5-4a4b948f7715",
     "adff747f-76a8-4bc9-b96f-caff878685ae",
     "image-with-text",
     "1d11c832-46f0-44e9-a0bf-eac81e9d064a",
