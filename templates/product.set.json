@@ -188,19 +188,29 @@
         },
         "d8818063-ebe6-49e1-86ce-9394138385fa": {
           "type": "Callout",
-          "disabled": true,
           "settings": {
             "pin_direction": "top_right",
-            "block_title": "Elastic Waistband",
-            "block_text": "Make your little ones feel comfortable all night long with our flexible and snug elastic waistband!",
+            "block_title": "Super Stretchy",
+            "block_text": "Our pjs fit longer and keep your kids super comfortable thanks to their incredible stretch.",
             "horizontal_position": 32,
             "vertical_position": 34
+          }
+        },
+        "027771a7-7932-4b21-ab26-d0661e2a1742": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_left",
+            "block_title": "Match With Siblings",
+            "block_text": "Your older toddlers and kids will love matching their brothers and sister ever night.",
+            "horizontal_position": 26,
+            "vertical_position": 88
           }
         }
       },
       "block_order": [
         "043b36ef-2301-4540-89b8-417aaf49f4ee",
-        "d8818063-ebe6-49e1-86ce-9394138385fa"
+        "d8818063-ebe6-49e1-86ce-9394138385fa",
+        "027771a7-7932-4b21-ab26-d0661e2a1742"
       ],
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
