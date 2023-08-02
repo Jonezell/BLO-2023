@@ -31,6 +31,31 @@
         "padding_bottom": 52
       }
     },
+    "bf4b2c56-f3fb-4d6e-9767-46d41b11233a": {
+      "type": "blo-collection-pills",
+      "blocks": {
+        "42ef8985-811c-48aa-baae-273d60955bd6": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart",
+            "linktext": "All"
+          }
+        },
+        "c4383b77-a783-4b37-a52f-4aa088153e6d": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart-zip-rompers-fold-over",
+            "linktext": "Zip Rompers"
+          }
+        }
+      },
+      "block_order": [
+        "42ef8985-811c-48aa-baae-273d60955bd6",
+        "c4383b77-a783-4b37-a52f-4aa088153e6d"
+      ],
+      "settings": {
+      }
+    },
     "5907c2d3-d681-48bb-af49-d110a145f891": {
       "type": "page",
       "settings": {
@@ -215,6 +240,7 @@
   "order": [
     "main",
     "5b15a417-7aac-408c-92b7-e324a551989e",
+    "bf4b2c56-f3fb-4d6e-9767-46d41b11233a",
     "5907c2d3-d681-48bb-af49-d110a145f891",
     "047b842c-5eab-44c7-abb3-504b7e0c96ec",
     "22049756-e6c8-4a88-8e63-8e497043cdc2",
