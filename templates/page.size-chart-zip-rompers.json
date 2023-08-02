@@ -156,28 +156,6 @@
         "padding_bottom": 0
       }
     },
-    "8ca026ea-12d0-4109-bee3-3a6916272260": {
-      "type": "page",
-      "disabled": true,
-      "settings": {
-        "page": "size-chart-jacquard-weave",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "5ec1dda7-5feb-4d18-86ba-b05741ef686a": {
-      "type": "page",
-      "disabled": true,
-      "settings": {
-        "page": "size-chart-knitwear",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "91eefe05-a9b2-452a-9e4b-36aa5372d5ba": {
       "type": "page",
       "settings": {
@@ -185,29 +163,7 @@
         "heading_size": "h2",
         "color_scheme": "",
         "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "d5be1906-fd1f-4b19-92ec-bb80e7df5f45": {
-      "type": "page",
-      "disabled": true,
-      "settings": {
-        "page": "size-chart-dresses",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "97b9c367-ddf2-418f-be98-87449d528e37": {
-      "type": "page",
-      "disabled": true,
-      "settings": {
-        "page": "size-chart-harem-rompers",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 100
       }
     }
   },
@@ -217,10 +173,6 @@
     "bf4b2c56-f3fb-4d6e-9767-46d41b11233a",
     "5907c2d3-d681-48bb-af49-d110a145f891",
     "047b842c-5eab-44c7-abb3-504b7e0c96ec",
-    "8ca026ea-12d0-4109-bee3-3a6916272260",
-    "5ec1dda7-5feb-4d18-86ba-b05741ef686a",
-    "91eefe05-a9b2-452a-9e4b-36aa5372d5ba",
-    "d5be1906-fd1f-4b19-92ec-bb80e7df5f45",
-    "97b9c367-ddf2-418f-be98-87449d528e37"
+    "91eefe05-a9b2-452a-9e4b-36aa5372d5ba"
   ]
 }
