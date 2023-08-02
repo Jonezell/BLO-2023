@@ -51,7 +51,7 @@
         "95d62b90-eec6-47dd-b391-7c9c7ed5c5fc": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart-two-piece-set",
+            "linkurl": "shopify:\/\/pages\/size-chart-two-piece-sets",
             "linktext": "Two-Piece Sets"
           }
         },
@@ -88,13 +88,6 @@
           "settings": {
             "linkurl": "shopify:\/\/pages\/size-chart-womens",
             "linktext": "Women's"
-          }
-        },
-        "7026ade8-60cb-4ca3-856c-f153150ffb9b": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart-shorts-two-piece-set",
-            "linktext": "Shorts Two-Piece Set"
           }
         },
         "8751b13a-2726-47fd-9d0b-d569aca32589": {
@@ -135,7 +128,6 @@
         "3ea562d7-75de-4617-bddc-0eb73863a4b5",
         "0db66442-e88e-4a79-8863-90ed860914f3",
         "c0d37a81-2097-4705-aad4-d16156da235a",
-        "7026ade8-60cb-4ca3-856c-f153150ffb9b",
         "8751b13a-2726-47fd-9d0b-d569aca32589",
         "8273db02-551d-447f-8450-ebd5de3d73c0",
         "3066519c-c420-4a98-998c-91bdff7cb1f6",
