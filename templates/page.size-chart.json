@@ -33,6 +33,7 @@
     },
     "bf4b2c56-f3fb-4d6e-9767-46d41b11233a": {
       "type": "blo-collection-pills",
+      "disabled": true,
       "blocks": {
         "42ef8985-811c-48aa-baae-273d60955bd6": {
           "type": "link",
@@ -45,13 +46,69 @@
           "type": "link",
           "settings": {
             "linkurl": "shopify:\/\/pages\/size-chart-zip-rompers-fold-over",
-            "linktext": "Zip Rompers"
+            "linktext": "Zip Rompers (With Fold-Over Feet)"
+          }
+        },
+        "c23a1ab6-030f-42b5-93e4-0a0c97edd32b": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart-rompers",
+            "linktext": "Zip Rompers (Without Fold-Over Feet)"
+          }
+        },
+        "95d62b90-eec6-47dd-b391-7c9c7ed5c5fc": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart-two-piece-set",
+            "linktext": "Two-Piece Sets"
+          }
+        },
+        "218cbd96-4e3d-4508-ac20-6bde851e6168": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart-knotted-gowns",
+            "linktext": "Knotted Gowns"
+          }
+        },
+        "e7f7c58f-c2ea-4c1a-af2d-6e02d5b06c32": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart-shirts-tanks",
+            "linktext": "Shirts & Tanks"
+          }
+        },
+        "3ea562d7-75de-4617-bddc-0eb73863a4b5": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart-pullovers",
+            "linktext": "Pullovers"
+          }
+        },
+        "0db66442-e88e-4a79-8863-90ed860914f3": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart-trunks",
+            "linktext": "Swim Trunks"
+          }
+        },
+        "c0d37a81-2097-4705-aad4-d16156da235a": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart-womens",
+            "linktext": "Women's"
           }
         }
       },
       "block_order": [
         "42ef8985-811c-48aa-baae-273d60955bd6",
-        "c4383b77-a783-4b37-a52f-4aa088153e6d"
+        "c4383b77-a783-4b37-a52f-4aa088153e6d",
+        "c23a1ab6-030f-42b5-93e4-0a0c97edd32b",
+        "95d62b90-eec6-47dd-b391-7c9c7ed5c5fc",
+        "218cbd96-4e3d-4508-ac20-6bde851e6168",
+        "e7f7c58f-c2ea-4c1a-af2d-6e02d5b06c32",
+        "3ea562d7-75de-4617-bddc-0eb73863a4b5",
+        "0db66442-e88e-4a79-8863-90ed860914f3",
+        "c0d37a81-2097-4705-aad4-d16156da235a"
       ],
       "settings": {
       }
@@ -118,6 +175,7 @@
     },
     "8ca026ea-12d0-4109-bee3-3a6916272260": {
       "type": "page",
+      "disabled": true,
       "settings": {
         "page": "size-chart-jacquard-weave",
         "heading_size": "h2",
@@ -128,6 +186,7 @@
     },
     "5ec1dda7-5feb-4d18-86ba-b05741ef686a": {
       "type": "page",
+      "disabled": true,
       "settings": {
         "page": "size-chart-knitwear",
         "heading_size": "h2",
