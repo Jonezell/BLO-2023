@@ -90,13 +90,6 @@
             "linktext": "Women's"
           }
         },
-        "7026ade8-60cb-4ca3-856c-f153150ffb9b": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart-shorts-two-piece-set",
-            "linktext": "Shorts Two-Piece Set"
-          }
-        },
         "8751b13a-2726-47fd-9d0b-d569aca32589": {
           "type": "link",
           "settings": {
@@ -135,7 +128,6 @@
         "3ea562d7-75de-4617-bddc-0eb73863a4b5",
         "0db66442-e88e-4a79-8863-90ed860914f3",
         "c0d37a81-2097-4705-aad4-d16156da235a",
-        "7026ade8-60cb-4ca3-856c-f153150ffb9b",
         "8751b13a-2726-47fd-9d0b-d569aca32589",
         "8273db02-551d-447f-8450-ebd5de3d73c0",
         "3066519c-c420-4a98-998c-91bdff7cb1f6",
@@ -147,7 +139,7 @@
     "5907c2d3-d681-48bb-af49-d110a145f891": {
       "type": "page",
       "settings": {
-        "page": "size-chart-zip-rompers-fold-over",
+        "page": "size-chart-two-piece-set",
         "heading_size": "h2",
         "color_scheme": "",
         "padding_top": 0,
@@ -163,60 +155,6 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "8ca026ea-12d0-4109-bee3-3a6916272260": {
-      "type": "page",
-      "disabled": true,
-      "settings": {
-        "page": "size-chart-jacquard-weave",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "5ec1dda7-5feb-4d18-86ba-b05741ef686a": {
-      "type": "page",
-      "disabled": true,
-      "settings": {
-        "page": "size-chart-knitwear",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "91eefe05-a9b2-452a-9e4b-36aa5372d5ba": {
-      "type": "page",
-      "settings": {
-        "page": "size-chart-summer-zip-rompers",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "d5be1906-fd1f-4b19-92ec-bb80e7df5f45": {
-      "type": "page",
-      "disabled": true,
-      "settings": {
-        "page": "size-chart-dresses",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "97b9c367-ddf2-418f-be98-87449d528e37": {
-      "type": "page",
-      "disabled": true,
-      "settings": {
-        "page": "size-chart-harem-rompers",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
@@ -224,11 +162,6 @@
     "5b15a417-7aac-408c-92b7-e324a551989e",
     "bf4b2c56-f3fb-4d6e-9767-46d41b11233a",
     "5907c2d3-d681-48bb-af49-d110a145f891",
-    "047b842c-5eab-44c7-abb3-504b7e0c96ec",
-    "8ca026ea-12d0-4109-bee3-3a6916272260",
-    "5ec1dda7-5feb-4d18-86ba-b05741ef686a",
-    "91eefe05-a9b2-452a-9e4b-36aa5372d5ba",
-    "d5be1906-fd1f-4b19-92ec-bb80e7df5f45",
-    "97b9c367-ddf2-418f-be98-87449d528e37"
+    "047b842c-5eab-44c7-abb3-504b7e0c96ec"
   ]
 }
