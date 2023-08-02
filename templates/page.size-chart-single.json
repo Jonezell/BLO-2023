@@ -36,15 +36,8 @@
         "c4383b77-a783-4b37-a52f-4aa088153e6d": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart-zip-rompers-fold-over",
-            "linktext": "Zip Rompers (With Fold-Over Feet)"
-          }
-        },
-        "c23a1ab6-030f-42b5-93e4-0a0c97edd32b": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart-rompers",
-            "linktext": "Zip Rompers (Without Fold-Over Feet)"
+            "linkurl": "shopify:\/\/pages\/size-charts-zip-rompers",
+            "linktext": "Zip Rompers"
           }
         },
         "95d62b90-eec6-47dd-b391-7c9c7ed5c5fc": {
@@ -89,13 +82,6 @@
             "linktext": "Women's"
           }
         },
-        "e6765b70-e6c4-4bd4-a71b-80a6f803c2fc": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart-summer-zip-rompers",
-            "linktext": "Summer Zip Rompers"
-          }
-        },
         "7026ade8-60cb-4ca3-856c-f153150ffb9b": {
           "type": "link",
           "settings": {
@@ -135,14 +121,12 @@
       "block_order": [
         "42ef8985-811c-48aa-baae-273d60955bd6",
         "c4383b77-a783-4b37-a52f-4aa088153e6d",
-        "c23a1ab6-030f-42b5-93e4-0a0c97edd32b",
         "95d62b90-eec6-47dd-b391-7c9c7ed5c5fc",
         "218cbd96-4e3d-4508-ac20-6bde851e6168",
         "e7f7c58f-c2ea-4c1a-af2d-6e02d5b06c32",
         "3ea562d7-75de-4617-bddc-0eb73863a4b5",
         "0db66442-e88e-4a79-8863-90ed860914f3",
         "c0d37a81-2097-4705-aad4-d16156da235a",
-        "e6765b70-e6c4-4bd4-a71b-80a6f803c2fc",
         "7026ade8-60cb-4ca3-856c-f153150ffb9b",
         "8751b13a-2726-47fd-9d0b-d569aca32589",
         "8273db02-551d-447f-8450-ebd5de3d73c0",
