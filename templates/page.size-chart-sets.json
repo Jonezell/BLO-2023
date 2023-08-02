@@ -1,0 +1,234 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "5b15a417-7aac-408c-92b7-e324a551989e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16169374843049__5b15a417-7aac-408c-92b7-e324a551989e-1689257750b2d890f1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Size Charts",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--16169374843049__5b15a417-7aac-408c-92b7-e324a551989e-1689257750b2d890f1-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 28
+      }
+    },
+    "bf4b2c56-f3fb-4d6e-9767-46d41b11233a": {
+      "type": "blo-collection-pills",
+      "blocks": {
+        "42ef8985-811c-48aa-baae-273d60955bd6": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart",
+            "linktext": "All"
+          }
+        },
+        "c4383b77-a783-4b37-a52f-4aa088153e6d": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-charts-zip-rompers",
+            "linktext": "Zip Rompers"
+          }
+        },
+        "95d62b90-eec6-47dd-b391-7c9c7ed5c5fc": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart-two-piece-set",
+            "linktext": "Two-Piece Sets"
+          }
+        },
+        "218cbd96-4e3d-4508-ac20-6bde851e6168": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart-knotted-gowns",
+            "linktext": "Knotted Gowns"
+          }
+        },
+        "e7f7c58f-c2ea-4c1a-af2d-6e02d5b06c32": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart-shirts-tanks",
+            "linktext": "Shirts & Tanks"
+          }
+        },
+        "3ea562d7-75de-4617-bddc-0eb73863a4b5": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart-pullovers",
+            "linktext": "Pullovers"
+          }
+        },
+        "0db66442-e88e-4a79-8863-90ed860914f3": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart-trunks",
+            "linktext": "Swim Trunks"
+          }
+        },
+        "c0d37a81-2097-4705-aad4-d16156da235a": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart-womens",
+            "linktext": "Women's"
+          }
+        },
+        "7026ade8-60cb-4ca3-856c-f153150ffb9b": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart-shorts-two-piece-set",
+            "linktext": "Shorts Two-Piece Set"
+          }
+        },
+        "8751b13a-2726-47fd-9d0b-d569aca32589": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart-denim-jacket",
+            "linktext": "Denim Jacket"
+          }
+        },
+        "8273db02-551d-447f-8450-ebd5de3d73c0": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart-denim-jeans",
+            "linktext": "Denim Jeans"
+          }
+        },
+        "3066519c-c420-4a98-998c-91bdff7cb1f6": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart-briefs",
+            "linktext": "Briefs"
+          }
+        },
+        "da857c37-8080-4c13-9a5d-4fae1dfd9541": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart-girl-underwear",
+            "linktext": "Underwear"
+          }
+        }
+      },
+      "block_order": [
+        "42ef8985-811c-48aa-baae-273d60955bd6",
+        "c4383b77-a783-4b37-a52f-4aa088153e6d",
+        "95d62b90-eec6-47dd-b391-7c9c7ed5c5fc",
+        "218cbd96-4e3d-4508-ac20-6bde851e6168",
+        "e7f7c58f-c2ea-4c1a-af2d-6e02d5b06c32",
+        "3ea562d7-75de-4617-bddc-0eb73863a4b5",
+        "0db66442-e88e-4a79-8863-90ed860914f3",
+        "c0d37a81-2097-4705-aad4-d16156da235a",
+        "7026ade8-60cb-4ca3-856c-f153150ffb9b",
+        "8751b13a-2726-47fd-9d0b-d569aca32589",
+        "8273db02-551d-447f-8450-ebd5de3d73c0",
+        "3066519c-c420-4a98-998c-91bdff7cb1f6",
+        "da857c37-8080-4c13-9a5d-4fae1dfd9541"
+      ],
+      "settings": {
+      }
+    },
+    "5907c2d3-d681-48bb-af49-d110a145f891": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-zip-rompers-fold-over",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "047b842c-5eab-44c7-abb3-504b7e0c96ec": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-rompers",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "8ca026ea-12d0-4109-bee3-3a6916272260": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "page": "size-chart-jacquard-weave",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5ec1dda7-5feb-4d18-86ba-b05741ef686a": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "page": "size-chart-knitwear",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "91eefe05-a9b2-452a-9e4b-36aa5372d5ba": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-summer-zip-rompers",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "d5be1906-fd1f-4b19-92ec-bb80e7df5f45": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "page": "size-chart-dresses",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "97b9c367-ddf2-418f-be98-87449d528e37": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "page": "size-chart-harem-rompers",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "5b15a417-7aac-408c-92b7-e324a551989e",
+    "bf4b2c56-f3fb-4d6e-9767-46d41b11233a",
+    "5907c2d3-d681-48bb-af49-d110a145f891",
+    "047b842c-5eab-44c7-abb3-504b7e0c96ec",
+    "8ca026ea-12d0-4109-bee3-3a6916272260",
+    "5ec1dda7-5feb-4d18-86ba-b05741ef686a",
+    "91eefe05-a9b2-452a-9e4b-36aa5372d5ba",
+    "d5be1906-fd1f-4b19-92ec-bb80e7df5f45",
+    "97b9c367-ddf2-418f-be98-87449d528e37"
+  ]
+}
