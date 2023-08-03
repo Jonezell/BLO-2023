@@ -81,7 +81,7 @@
   .blo-product-callouts .page-width {
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 80px;
     align-items: center;
   }
   .blo-product-callouts-header {
@@ -102,6 +102,7 @@
   .blo-product-callouts-image-wrapper img {
     width: 100%;
     height: auto;
+    max-height: 100vh;
   }
   .blo-product-callout-wrapper {
     position: absolute;
@@ -119,18 +120,21 @@
     z-index: 5;
   }
   .blo-product-callout-innerwrapper {
-    background: var(--tan-Medium);
     border-radius: 24px;
     padding: 10px 20px;
     transition: all 200ms ease-out;
-
-    background: var(--greyscale-White);
-    box-shadow: 0px 14px 24px 0px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 14px 24px 0px rgba(0, 0, 0, 0.07), inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background: rgba(259,255,255,0.65);
   }
   input:checked + .blo-product-callout-wrapper .blo-product-callout-innerwrapper {
     border-radius: var(--blo-corner-radius);
     padding: 30px;
     margin: -20px -10px;
+    background: rgba(259,255,255,0.8);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
   }
   .blo-product-callout-wrapper h6 {
     margin: 0;
@@ -165,16 +169,16 @@
   }
   .blo-product-callout-icon {
     display: inline-flex;
-    border: 2px solid var(--greyscale-Black);
+    background: rgba(0,0,0,.07);
     border-radius: 20px;
-    height: 20px;
-    width: 20px;
+    height: 22px;
+    width: 22px;
     align-items: center;
     justify-content: center;
   }
   .blo-product-callout-icon svg {
-    height: 12px;
-    width: 12px;
+    height: 10px;
+    width: 10px;
     margin: 0px;
   }
   .blo-product-callout-icon svg:last-child {
@@ -222,7 +226,11 @@
       display: block;
     }
     .blo-product-callout-innerwrapper {
-      padding: 5px 10px;
+      padding: 5px 15px 5px 10px;
+    }
+    .blo-product-callout-wrapper.bottom_right .blo-product-callout-innerwrapper ,
+    .blo-product-callout-wrapper.top_right .blo-product-callout-innerwrapper  {
+      padding: 5px 10px 5px 15px;
     }
     input:checked + .blo-product-callout-wrapper {
       left: 10px !important;
@@ -231,6 +239,9 @@
     }
     input:checked + .blo-product-callout-wrapper .blo-product-callout-innerwrapper-header {
       font-size: 16px;
+    }
+    .blo-product-callouts .page-width {
+      gap: 50px;
     }
   }
 {%- endstyle -%}
