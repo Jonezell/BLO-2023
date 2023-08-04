@@ -36,6 +36,11 @@
             "show_inventory_quantity": false
           }
         },
+        "09df0f8f-2c7c-4ea8-b026-3fc460117a53": {
+          "type": "shopify:\/\/apps\/kaktus-preorder-now-presale\/blocks\/kaktus-bundle\/65705a60-a3b0-43ae-9dc8-15db78d76b3b",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -89,6 +94,7 @@
         "variant_picker",
         "quantity_selector",
         "14d206d1-bc58-4ca6-baa4-d38ba878182e",
+        "09df0f8f-2c7c-4ea8-b026-3fc460117a53",
         "buy_buttons",
         "d32cf3ff-3cf1-42b1-95be-fd31a14eefc2",
         "d828ce5d-f44b-4833-9b8d-0a405b12654d",
