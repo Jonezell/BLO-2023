@@ -21,20 +21,9 @@
         "496b4226-e4d0-4584-a5ae-f630efc1661c": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "WITH FOLD-OVER FEET",
+            "label": "Options",
             "style": "swatch",
-            "target_collection": "zip-rompers-with-fold-over-feet",
-            "swatch_offset_Y": 45,
-            "swatch_offset_X": 50,
-            "hide_sold_out": true
-          }
-        },
-        "290414b6-f5dc-4c97-9cc5-dc3390dc951d": {
-          "type": "produdct-as-variants",
-          "settings": {
-            "label": "WITHOUT FOLD-OVER FEET",
-            "style": "swatch",
-            "target_collection": "zip-rompers-without-fold-over-feet",
+            "target_collection": "bed-sheets",
             "swatch_offset_Y": 45,
             "swatch_offset_X": 50,
             "hide_sold_out": true
@@ -111,7 +100,7 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "washing",
-            "content": "<p><strong>How do I care for bamboo?<\/strong><\/p><p><em><strong>Step One: <\/strong><\/em><br\/>Turn the garment inside out before washing and drying.<br\/><\/p><p><em><strong>Step Two: <\/strong><\/em><br\/>Wash in cold water on the normal or quick cycle. We do not recommend washing on delicate since it makes products sit in water for too long.<br\/><\/p><p><em><strong>Step Three: <\/strong><\/em><strong><br\/><\/strong>Dry on the normal heat setting.<\/p>",
+            "content": "<p><strong>How do I care for bamboo?<\/strong><\/p><p><em><strong>Step One: <\/strong><\/em><br\/>Wash in cold water on the normal or quick cycle. We do not recommend washing on delicate since it makes products sit in water for too long.<br\/><\/p><p><em><strong>Step Two: <\/strong><\/em><strong><br\/><\/strong>Dry on the normal heat setting.<\/p>",
             "page": ""
           }
         },
@@ -140,7 +129,6 @@
         "price",
         "664cf731-790c-40f0-8fbd-6dbf412e903b",
         "496b4226-e4d0-4584-a5ae-f630efc1661c",
-        "290414b6-f5dc-4c97-9cc5-dc3390dc951d",
         "variant_picker",
         "quantity_selector",
         "14d206d1-bc58-4ca6-baa4-d38ba878182e",
@@ -185,331 +173,6 @@
         "include_margins": false
       }
     },
-    "292a1c30-79a3-4b92-aff1-e1d28fa66951": {
-      "type": "blo-product-callouts",
-      "blocks": {
-        "d5457409-4e49-41aa-af2b-4cc958b40ec3": {
-          "type": "Callout",
-          "settings": {
-            "pin_direction": "top_left",
-            "block_title": "Tagless Label",
-            "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
-            "horizontal_position": 28,
-            "vertical_position": 4
-          }
-        },
-        "38d9d336-f376-40b5-88db-d6d23b55d945": {
-          "type": "Callout",
-          "settings": {
-            "pin_direction": "top_right",
-            "block_title": "Fold-Over Mittens",
-            "block_text": "Our stretchy fold-over mittens not only keep your infant's hands warm, but keep them from scratching their delicate skin too. Fold-over mittens are available up to size 6-12M.",
-            "horizontal_position": 6,
-            "vertical_position": 36
-          }
-        },
-        "e29631c0-07e1-4581-a5b4-70573b94816e": {
-          "type": "Callout",
-          "settings": {
-            "pin_direction": "top_left",
-            "block_title": "Two-Way Zipper",
-            "block_text": "We know how tricky diaper changes can be, so we wanted to help. All of our rompers have a two-way zipper to make those middle of the night or on-the-go diaper changes quick and easy!",
-            "horizontal_position": 36,
-            "vertical_position": 74
-          }
-        },
-        "1db4ce0f-5414-49f9-9114-afd8f69265ff": {
-          "type": "Callout",
-          "settings": {
-            "pin_direction": "top_right",
-            "block_title": "Fold-Over Feet",
-            "block_text": "Our newly released rompers now include fold-over feet to help keep your little ones cozy.",
-            "horizontal_position": 16,
-            "vertical_position": 92
-          }
-        }
-      },
-      "block_order": [
-        "d5457409-4e49-41aa-af2b-4cc958b40ec3",
-        "38d9d336-f376-40b5-88db-d6d23b55d945",
-        "e29631c0-07e1-4581-a5b4-70573b94816e",
-        "1db4ce0f-5414-49f9-9114-afd8f69265ff"
-      ],
-      "settings": {
-        "title": "We’ve thought of it so you don’t have to.",
-        "text": "Discover the ultimate bedtime comfort with our perfectly crafted PJs.",
-        "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-Zip-Romper_50c5f3af-90f4-4fe5-8644-c0c790b46009.jpg",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
-    "542bfae1-9f63-4712-9ca0-0edcd9077876": {
-      "type": "multicolumn",
-      "disabled": true,
-      "blocks": {
-        "template--16169023996073__542bfae1-9f63-4712-9ca0-0edcd9077876-1689283490e040c409-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/A87D08E7-7A14-4486-993E-E19ABE8DE81B.gif",
-            "title": "Buttery Soft",
-            "text": "<p>Made from buttery soft Bamboo Viscose. Our luxurious material keeps your little one comfortable and stylish, day and night.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--16169023996073__542bfae1-9f63-4712-9ca0-0edcd9077876-1689283490e040c409-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3F02344C-B535-4601-93D1-C447626AEA92.gif",
-            "title": "Breathable",
-            "text": "<p>Bamboo mimics breathability through hollow micro-fibers naturally allowing more airflow.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--16169023996073__542bfae1-9f63-4712-9ca0-0edcd9077876-1689283490e040c409-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1E901AB4-4050-4D01-8276-91106985717A.gif",
-            "title": "Gentle on Skin",
-            "text": "<p>Bamboo offers the gentlest touch to a baby’s skin. Smooth fibers lay flat against the skin, limiting irritation for sensitive skin.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "a4ed41ee-8a88-4444-ab7e-cddcbe64ba46": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ED465C9D-781C-4AB0-8918-DF18C011DCE1.gif",
-            "title": "Temperature Regulating",
-            "text": "<p>Keeps your little one a few degrees cooler in summer and a few degrees warmer in winter.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16169023996073__542bfae1-9f63-4712-9ca0-0edcd9077876-1689283490e040c409-0",
-        "template--16169023996073__542bfae1-9f63-4712-9ca0-0edcd9077876-1689283490e040c409-1",
-        "template--16169023996073__542bfae1-9f63-4712-9ca0-0edcd9077876-1689283490e040c409-2",
-        "a4ed41ee-8a88-4444-ab7e-cddcbe64ba46"
-      ],
-      "settings": {
-        "title": "Why is Bamboo Better?",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "Learn More",
-        "button_link": "shopify:\/\/blogs\/blog\/why-we-fell-in-love-with-bamboo",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 100,
-        "padding_bottom": 0
-      }
-    },
-    "image-with-text": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "image-with-text-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Buttery Soft, Ultra Stretchy Bamboo Fabric",
-            "heading_size": "h2"
-          }
-        },
-        "image-with-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Gentle enough for your newborn and durable enough for your older kids, our luxurious and buttery-soft bamboo will keep your little ones comfortable and stylish day and night. Our snug-fitting cozy pajamas are CPSC compliant and never treated with flame-retardants or chemicals.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "9d593ba1-f20e-44f0-9ff4-d0b686b8eadd": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "shopify:\/\/blogs\/blog\/why-we-fell-in-love-with-bamboo",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "image-with-text-0",
-        "image-with-text-1",
-        "9d593ba1-f20e-44f0-9ff4-d0b686b8eadd"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-7_fc00063c-73f9-49d6-b957-618e74110a92.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-2",
-        "image_behavior": "zoom-in",
-        "mobile_content_alignment": "left",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
-    "64bf9eb5-785d-40f7-be20-214f5d799838": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "1d4d039a-8e7b-4575-b08d-12c0645e4d78": {
-          "type": "heading",
-          "settings": {
-            "heading": "Convenient Two-Way Zippers",
-            "heading_size": "h2"
-          }
-        },
-        "ea128725-4d03-4fdd-9197-64b35db0ae15": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We know how tricky diaper changes can be, so we wanted to help. All of our rompers have a two-way zipper to make those middle of the night or on-the-go diaper changes quick and easy!<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "1d4d039a-8e7b-4575-b08d-12c0645e4d78",
-        "ea128725-4d03-4fdd-9197-64b35db0ae15"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/zipper-2.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "3a76cf5f-b2de-4852-8878-0feb69807621": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "0bd7fc96-e035-4b21-bc7c-28da2b95fede": {
-          "type": "heading",
-          "settings": {
-            "heading": "Soft and Stretchy Fold-Over Mittens",
-            "heading_size": "h2"
-          }
-        },
-        "44d4c3fb-5057-4338-be22-52d5b2e15f97": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Our stretchy fold-over mittens not only keep your infant's hands warm, but keep them from scratching their delicate skin too. Fold-over mittens are available up to size 6-12M.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "0bd7fc96-e035-4b21-bc7c-28da2b95fede",
-        "44d4c3fb-5057-4338-be22-52d5b2e15f97"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Mitten.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "2b0041ed-0605-4862-8418-d682ae816f74": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "42cce41a-fc96-4a74-937d-63930702ab53": {
-          "type": "heading",
-          "settings": {
-            "heading": "Soft and Stretchy Fold-Over Feet",
-            "heading_size": "h2"
-          }
-        },
-        "9f5e0cf8-a369-4452-b2bf-ce48b508bc45": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Our newly released rompers now include fold-over feet to help keep your little ones cozy.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "42cce41a-fc96-4a74-937d-63930702ab53",
-        "9f5e0cf8-a369-4452-b2bf-ce48b508bc45"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Feet.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "3b3682f3-ae42-41b2-b100-e9b23a0c6039": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "b5b45db7-ad85-46f7-a926-5a58afb7189f": {
-          "type": "heading",
-          "settings": {
-            "heading": "Comfortable Tagless Labels",
-            "heading_size": "h2"
-          }
-        },
-        "3729c394-0d08-4814-9051-0c4954105e3f": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "b5b45db7-ad85-46f7-a926-5a58afb7189f",
-        "3729c394-0d08-4814-9051-0c4954105e3f"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Tagless-Romper.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 100
-      }
-    },
     "108ec0e3-68c9-4732-a1bb-6f40880ba3fd": {
       "type": "blo-fabric",
       "blocks": {
@@ -522,7 +185,7 @@
         "template--16169023996073__108ec0e3-68c9-4732-a1bb-6f40880ba3fd-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Say Hello To Pjs Your Littles Will Want To Live In."
+            "heading": "Say Hello To Bed Sheets Your Littles Will Want To Live In."
           }
         },
         "template--16169023996073__108ec0e3-68c9-4732-a1bb-6f40880ba3fd-text-1": {
@@ -534,19 +197,13 @@
         "702d3a47-c1b2-4780-9e85-57ab9373e416": {
           "type": "text",
           "settings": {
-            "text": "Our pjs offer the gentlest touch to your little ones skin, limiting irritation for sensitive skin."
+            "text": "Our bamboo offers the gentlest touch to your little ones skin, limiting irritation for sensitive skin."
           }
         },
         "aa2e27b0-19af-4f28-99d1-31bd497ab83d": {
           "type": "text",
           "settings": {
             "text": "Temperature regulating keeping your little one cool in summer and warm in winter."
-          }
-        },
-        "73bc58f1-b1f0-4d5f-a00a-cc61d03f96c6": {
-          "type": "text",
-          "settings": {
-            "text": "Our snug-fitting cozy pajamas are CPSC compliant and never treated with flame-retardants or chemicals."
           }
         },
         "dd517bd1-8e8d-45e1-8bc9-40978dea59e4": {
@@ -569,7 +226,6 @@
         "template--16169023996073__108ec0e3-68c9-4732-a1bb-6f40880ba3fd-text-1",
         "702d3a47-c1b2-4780-9e85-57ab9373e416",
         "aa2e27b0-19af-4f28-99d1-31bd497ab83d",
-        "73bc58f1-b1f0-4d5f-a00a-cc61d03f96c6",
         "dd517bd1-8e8d-45e1-8bc9-40978dea59e4",
         "template--16169023996073__108ec0e3-68c9-4732-a1bb-6f40880ba3fd-buttons-1"
       ],
@@ -577,22 +233,6 @@
         "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-7_fc00063c-73f9-49d6-b957-618e74110a92.jpg",
         "texture_top": true,
         "texture_bottom": true
-      }
-    },
-    "f6b72d8e-5509-4d9f-8ee0-2713e2650694": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video": "shopify:\/\/files\/videos\/2023-ZipRomper-Foldover.mp4",
-        "video_url": "",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "show_texture": true
       }
     },
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85": {
@@ -664,15 +304,7 @@
   "order": [
     "main",
     "1689095601e7facfa4",
-    "292a1c30-79a3-4b92-aff1-e1d28fa66951",
-    "542bfae1-9f63-4712-9ca0-0edcd9077876",
-    "image-with-text",
-    "64bf9eb5-785d-40f7-be20-214f5d799838",
-    "3a76cf5f-b2de-4852-8878-0feb69807621",
-    "2b0041ed-0605-4862-8418-d682ae816f74",
-    "3b3682f3-ae42-41b2-b100-e9b23a0c6039",
     "108ec0e3-68c9-4732-a1bb-6f40880ba3fd",
-    "f6b72d8e-5509-4d9f-8ee0-2713e2650694",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
     "related-products"
   ]
