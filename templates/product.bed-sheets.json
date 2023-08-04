@@ -157,22 +157,6 @@
         "padding_bottom": 100
       }
     },
-    "1689095601e7facfa4": {
-      "type": "apps",
-      "blocks": {
-        "b57b9dfc-be08-472f-9b60-621e325bb54d": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "b57b9dfc-be08-472f-9b60-621e325bb54d"
-      ],
-      "settings": {
-        "include_margins": false
-      }
-    },
     "108ec0e3-68c9-4732-a1bb-6f40880ba3fd": {
       "type": "blo-fabric",
       "blocks": {
@@ -272,7 +256,7 @@
         "template--16166779289769__d0291347-d783-4f94-a5aa-f5ef56fe5d85-16891060528ec65540-2"
       ],
       "settings": {
-        "background_color": "#efe8de",
+        "background_color": "#f8f4ee",
         "texture_top": true,
         "texture_bottom": true,
         "mainHeading": "Have A Question? We Have The Answer.",
@@ -280,6 +264,22 @@
         "layout": "image_first",
         "padding_top": 200,
         "padding_bottom": 200
+      }
+    },
+    "1689095601e7facfa4": {
+      "type": "apps",
+      "blocks": {
+        "b57b9dfc-be08-472f-9b60-621e325bb54d": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "b57b9dfc-be08-472f-9b60-621e325bb54d"
+      ],
+      "settings": {
+        "include_margins": false
       }
     },
     "related-products": {
@@ -303,9 +303,9 @@
   },
   "order": [
     "main",
-    "1689095601e7facfa4",
     "108ec0e3-68c9-4732-a1bb-6f40880ba3fd",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
+    "1689095601e7facfa4",
     "related-products"
   ]
 }
