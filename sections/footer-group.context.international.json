@@ -4,5 +4,12 @@
     "market": "international"
   },
   "sections": {
+    "footer": {
+      "settings": {
+        "enable_country_selector": true
+      },
+      "blocks": {
+      }
+    }
   }
 }
