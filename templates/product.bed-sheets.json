@@ -21,7 +21,7 @@
         "496b4226-e4d0-4584-a5ae-f630efc1661c": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Crib Sheets",
+            "label": "Crib",
             "style": "image",
             "target_collection": "crib-sheets",
             "swatch_offset_Y": 45,
@@ -32,7 +32,7 @@
         "48cad54b-1517-494a-b2e9-3f229db86ebd": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Twin Sheets",
+            "label": "Twin",
             "style": "image",
             "target_collection": "twin-sheets",
             "swatch_offset_Y": 50,
