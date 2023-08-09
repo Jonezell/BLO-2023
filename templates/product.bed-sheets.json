@@ -21,10 +21,21 @@
         "496b4226-e4d0-4584-a5ae-f630efc1661c": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Options",
-            "style": "swatch",
-            "target_collection": "bed-sheets",
+            "label": "Crib Sheets",
+            "style": "image",
+            "target_collection": "crib-sheets",
             "swatch_offset_Y": 45,
+            "swatch_offset_X": 50,
+            "hide_sold_out": true
+          }
+        },
+        "48cad54b-1517-494a-b2e9-3f229db86ebd": {
+          "type": "produdct-as-variants",
+          "settings": {
+            "label": "Twin Sheets",
+            "style": "image",
+            "target_collection": "twin-sheets",
+            "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
           }
@@ -129,6 +140,7 @@
         "price",
         "664cf731-790c-40f0-8fbd-6dbf412e903b",
         "496b4226-e4d0-4584-a5ae-f630efc1661c",
+        "48cad54b-1517-494a-b2e9-3f229db86ebd",
         "variant_picker",
         "quantity_selector",
         "14d206d1-bc58-4ca6-baa4-d38ba878182e",
