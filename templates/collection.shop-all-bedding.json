@@ -1,0 +1,85 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "93c74d29-84f3-4129-b617-902e8d299733": {
+      "type": "blo-collection-pills",
+      "blocks": {
+        "c7403c74-bc41-4a26-823f-d207c3c66ce5": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/tops",
+            "linktext": "All"
+          }
+        },
+        "6bfd07ee-031a-4a56-9f00-117c1b95dedd": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/shirts",
+            "linktext": "Shirts"
+          }
+        },
+        "bed93f4f-df10-456b-ac64-e625a9bd569e": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/tanks",
+            "linktext": "Tanks"
+          }
+        },
+        "935d152d-e76b-41a6-95f9-1b60cf498497": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/pullovers",
+            "linktext": "Pullovers"
+          }
+        },
+        "088e1002-c557-4e56-a0c1-143325d595fa": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/jackets",
+            "linktext": "Jackets"
+          }
+        }
+      },
+      "block_order": [
+        "c7403c74-bc41-4a26-823f-d207c3c66ce5",
+        "6bfd07ee-031a-4a56-9f00-117c1b95dedd",
+        "bed93f4f-df10-456b-ac64-e625a9bd569e",
+        "935d152d-e76b-41a6-95f9-1b60cf498497",
+        "088e1002-c557-4e56-a0c1-143325d595fa"
+      ],
+      "settings": {
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "columns_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "93c74d29-84f3-4129-b617-902e8d299733",
+    "product-grid"
+  ]
+}
