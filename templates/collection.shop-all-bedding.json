@@ -14,36 +14,29 @@
         "c7403c74-bc41-4a26-823f-d207c3c66ce5": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/tops",
+            "linkurl": "shopify:\/\/collections\/bedding",
             "linktext": "All"
           }
         },
         "6bfd07ee-031a-4a56-9f00-117c1b95dedd": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/shirts",
-            "linktext": "Shirts"
+            "linkurl": "shopify:\/\/collections\/blankets",
+            "linktext": "Blankets"
           }
         },
         "bed93f4f-df10-456b-ac64-e625a9bd569e": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/tanks",
-            "linktext": "Tanks"
+            "linkurl": "shopify:\/\/collections\/twin-sheets",
+            "linktext": "Twin Sheets"
           }
         },
         "935d152d-e76b-41a6-95f9-1b60cf498497": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/pullovers",
-            "linktext": "Pullovers"
-          }
-        },
-        "088e1002-c557-4e56-a0c1-143325d595fa": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/collections\/jackets",
-            "linktext": "Jackets"
+            "linkurl": "shopify:\/\/collections\/crib-sheets",
+            "linktext": "Crib Sheets"
           }
         }
       },
@@ -51,8 +44,7 @@
         "c7403c74-bc41-4a26-823f-d207c3c66ce5",
         "6bfd07ee-031a-4a56-9f00-117c1b95dedd",
         "bed93f4f-df10-456b-ac64-e625a9bd569e",
-        "935d152d-e76b-41a6-95f9-1b60cf498497",
-        "088e1002-c557-4e56-a0c1-143325d595fa"
+        "935d152d-e76b-41a6-95f9-1b60cf498497"
       ],
       "settings": {
       }
