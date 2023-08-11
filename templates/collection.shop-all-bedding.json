@@ -10,13 +10,12 @@
     },
     "93c74d29-84f3-4129-b617-902e8d299733": {
       "type": "blo-collection-pills",
-      "disabled": true,
       "blocks": {
         "c7403c74-bc41-4a26-823f-d207c3c66ce5": {
           "type": "link",
           "settings": {
             "linkurl": "shopify:\/\/collections\/bedding",
-            "linktext": "All"
+            "linktext": "All Bedding"
           }
         },
         "6bfd07ee-031a-4a56-9f00-117c1b95dedd": {
