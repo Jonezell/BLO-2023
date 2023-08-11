@@ -22,10 +22,10 @@
           "type": "produdct-as-variants",
           "settings": {
             "label": "Crib",
-            "style": "image",
+            "style": "swatch",
             "target_collection": "crib-sheets",
-            "swatch_offset_Y": 45,
-            "swatch_offset_X": 50,
+            "swatch_offset_Y": 60,
+            "swatch_offset_X": 60,
             "hide_sold_out": true
           }
         },
@@ -33,10 +33,10 @@
           "type": "produdct-as-variants",
           "settings": {
             "label": "Twin",
-            "style": "image",
+            "style": "swatch",
             "target_collection": "twin-sheets",
-            "swatch_offset_Y": 50,
-            "swatch_offset_X": 50,
+            "swatch_offset_Y": 65,
+            "swatch_offset_X": 70,
             "hide_sold_out": true
           }
         },
