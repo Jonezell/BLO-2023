@@ -120,12 +120,35 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "83c7f0d5-ab57-4cd7-8330-c9a193b522aa": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16193075478697__83c7f0d5-ab57-4cd7-8330-c9a193b522aa-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Wholesale Terms:<\/strong><\/p><ol><li>Shipping is $50 for orders under $1,200 and $60 for orders over $1,200.<\/li><li>Advertised online discounts over 15% off MSRP are not permitted. We do allow up to 30% off to be offered during Black Friday\/Cyber Monday.<\/li><li>Reselling Brave Little Ones in Facebook groups, Amazon, Ebay, Etsy, or similar platforms is not allowed.<\/li><li>Accounts are subject to closure for failure to follow the above terms.<\/li><\/ol>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16193075478697__83c7f0d5-ab57-4cd7-8330-c9a193b522aa-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "d1a329a8-49d9-4605-846e-4bca4b2f7352",
     "dad44210-6c90-4b2e-95a6-6896fe1085b4",
-    "1692815720b7b1de5f"
+    "1692815720b7b1de5f",
+    "83c7f0d5-ab57-4cd7-8330-c9a193b522aa"
   ]
 }
