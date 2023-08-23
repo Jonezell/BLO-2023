@@ -2,26 +2,18 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 100,
-        "padding_bottom": 100
+        "padding_bottom": 0
       }
     },
     "d1a329a8-49d9-4605-846e-4bca4b2f7352": {
       "type": "rich-text",
       "blocks": {
-        "template--16193075478697__d1a329a8-49d9-4605-846e-4bca4b2f7352-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Already An Approved Retailer?<\/strong>",
-            "heading_size": "h2"
-          }
-        },
         "template--16193075478697__d1a329a8-49d9-4605-846e-4bca4b2f7352-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Simply log in with your wholesale email to shop. All items are automatically discounted to show wholesale pricing. <\/p>"
+            "text": "<h6><strong>Already An Approved Retailer?<\/strong><\/h6><p>Simply log in with your wholesale email to shop. All items are automatically discounted to show wholesale pricing. <\/p>"
           }
         },
         "template--16193075478697__d1a329a8-49d9-4605-846e-4bca4b2f7352-button-1": {
@@ -37,7 +29,6 @@
         }
       },
       "block_order": [
-        "template--16193075478697__d1a329a8-49d9-4605-846e-4bca4b2f7352-heading-1",
         "template--16193075478697__d1a329a8-49d9-4605-846e-4bca4b2f7352-text-1",
         "template--16193075478697__d1a329a8-49d9-4605-846e-4bca4b2f7352-button-1"
       ],
@@ -46,24 +37,17 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 100,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
     "dad44210-6c90-4b2e-95a6-6896fe1085b4": {
       "type": "rich-text",
       "blocks": {
-        "e3354cc2-5a8b-4cd0-96cd-b1ecf4727049": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Want To Be A Retailer? <\/strong>",
-            "heading_size": "h2"
-          }
-        },
         "5001f1e7-ec2f-49df-a165-1a68fd8a8048": {
           "type": "text",
           "settings": {
-            "text": "<p>Are you interested in carrying Brave Little Ones in your shop? Please fill out the application below to apply to become a retailer. If accepted, you will receive an email with our wholesale pricing and login information. Let's do this!<\/p><p><\/p><p><em>Please note: We are currently NOT selling to online retailers. Please only apply if you have a physical shop.<\/em><\/p>"
+            "text": "<h6><strong>Want To Be A Retailer? <\/strong><\/h6><h6><\/h6><p>Are you interested in carrying Brave Little Ones in your shop? Please fill out the application below to apply to become a retailer. If accepted, you will receive an email with our wholesale pricing and login information. Let's do this!<\/p><p><\/p><p><em>Please note: We are currently NOT selling to online retailers. Please only apply if you have a physical shop.<\/em><\/p>"
           }
         },
         "11057a25-18c3-40d5-a0a0-bc959c5a9b75": {
@@ -80,7 +64,6 @@
         }
       },
       "block_order": [
-        "e3354cc2-5a8b-4cd0-96cd-b1ecf4727049",
         "5001f1e7-ec2f-49df-a165-1a68fd8a8048",
         "11057a25-18c3-40d5-a0a0-bc959c5a9b75"
       ],
@@ -134,13 +117,16 @@
       "block_order": [
         "template--16193075478697__83c7f0d5-ab57-4cd7-8330-c9a193b522aa-text-1"
       ],
+      "custom_css": [
+        ".rich-text__text {border-radius: 16px; background: rgba(0, 0, 0, 0.03); text-align: left !important; padding: 30px; max-width: 450px; margin: auto;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     }
   },
