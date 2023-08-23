@@ -7,6 +7,90 @@
         "padding_bottom": 100
       }
     },
+    "d1a329a8-49d9-4605-846e-4bca4b2f7352": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16193075478697__d1a329a8-49d9-4605-846e-4bca4b2f7352-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Already An Approved Retailer?<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "template--16193075478697__d1a329a8-49d9-4605-846e-4bca4b2f7352-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Simply log in with your wholesale email to shop. All items are automatically discounted to show wholesale pricing. <\/p>"
+          }
+        },
+        "template--16193075478697__d1a329a8-49d9-4605-846e-4bca4b2f7352-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Log in",
+            "button_link": "http:\/\/account.bravelittleones.com\/",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16193075478697__d1a329a8-49d9-4605-846e-4bca4b2f7352-heading-1",
+        "template--16193075478697__d1a329a8-49d9-4605-846e-4bca4b2f7352-text-1",
+        "template--16193075478697__d1a329a8-49d9-4605-846e-4bca4b2f7352-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "dad44210-6c90-4b2e-95a6-6896fe1085b4": {
+      "type": "rich-text",
+      "blocks": {
+        "e3354cc2-5a8b-4cd0-96cd-b1ecf4727049": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Want To Be A Retailer? <\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "5001f1e7-ec2f-49df-a165-1a68fd8a8048": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you interested in carrying Brave Little Ones in your shop? Please fill out the application below to apply to become a retailer. If accepted, you will receive an email with our wholesale pricing and login information. Let's do this!<\/p><p><\/p><p><em>Please note: We are currently NOT selling to online retailers. Please only apply if you have a physical shop.<\/em><\/p>"
+          }
+        },
+        "11057a25-18c3-40d5-a0a0-bc959c5a9b75": {
+          "type": "button",
+          "settings": {
+            "button_label": "Log in",
+            "button_link": "http:\/\/account.bravelittleones.com\/",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "e3354cc2-5a8b-4cd0-96cd-b1ecf4727049",
+        "5001f1e7-ec2f-49df-a165-1a68fd8a8048",
+        "11057a25-18c3-40d5-a0a0-bc959c5a9b75"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "1692815720b7b1de5f": {
       "type": "apps",
       "blocks": {
@@ -16,9 +100,9 @@
             "form_id": "26887",
             "text_color": "#202020",
             "button_background_color": "#202020",
-            "button_label_color": "#FFFFFF",
-            "links_color": "#1878B9",
-            "errors_color": "#E02229",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
             "text_alignment": "center",
             "form_alignment": "center",
             "padding_top": 0,
@@ -38,6 +122,8 @@
   },
   "order": [
     "main",
+    "d1a329a8-49d9-4605-846e-4bca4b2f7352",
+    "dad44210-6c90-4b2e-95a6-6896fe1085b4",
     "1692815720b7b1de5f"
   ]
 }
