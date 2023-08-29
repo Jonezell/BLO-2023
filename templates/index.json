@@ -2,7 +2,6 @@
   "sections": {
     "102eb650-32a6-4159-af05-c7fc53d2990e": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--16166779355305__102eb650-32a6-4159-af05-c7fc53d2990e-1689599181b1c17ce2-0": {
           "type": "heading",
@@ -22,7 +21,8 @@
           "type": "button",
           "settings": {
             "button_label": "Shop Now",
-            "button_link": "https:\/\/bravelittleones.com\/discount\/ChristmasinJuly?redirect=\/collections\/shop-all"
+            "button_link": "https:\/\/bravelittleones.com\/discount\/ChristmasinJuly?redirect=\/collections\/shop-all",
+            "button_style_secondary": false
           }
         }
       },
@@ -31,6 +31,7 @@
         "template--16166779355305__102eb650-32a6-4159-af05-c7fc53d2990e-1689599181b1c17ce2-1",
         "template--16166779355305__102eb650-32a6-4159-af05-c7fc53d2990e-1689599181b1c17ce2-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/christmas-in-july.gif",
         "height": "adapt",
@@ -149,7 +150,6 @@
     },
     "ee363dd5-1c44-4b82-b551-3972740be32c": {
       "type": "collection-list",
-      "disabled": true,
       "blocks": {
         "template--16166779355305__ee363dd5-1c44-4b82-b551-3972740be32c-16891948341722d1e1-0": {
           "type": "featured_collection",
@@ -189,6 +189,7 @@
         "e0f66208-4a9a-4a94-b382-b1b1cfa7971e",
         "e8786353-c114-415a-9b2d-b8f2253c0af2"
       ],
+      "disabled": true,
       "custom_css": [
         ".collection-list__item .card--media {background: #efe8de; padding-top: 20px;}"
       ],
@@ -253,8 +254,8 @@
         "template--16166779355305__4b1165c6-b8a9-4249-a026-ac24d705f1f2-1689022936c1d9d8ab-2": {
           "type": "buttons",
           "settings": {
-            "button_label": "Learn More",
-            "button_link": "shopify:\/\/blogs\/blog\/why-we-fell-in-love-with-bamboo"
+            "button_label": "Shop PJs",
+            "button_link": "shopify:\/\/collections\/shop-all-pjs"
           }
         }
       },
@@ -337,7 +338,6 @@
     },
     "f8984855-9525-4334-88ac-f4e6f241f447": {
       "type": "blo-find-your-favorite",
-      "disabled": true,
       "blocks": {
         "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-2": {
           "type": "featured_collection",
@@ -377,6 +377,7 @@
         "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-1",
         "19bcaa4e-45bd-4a73-910b-a4328600a1ac"
       ],
+      "disabled": true,
       "settings": {
         "title": "Find Your New Favorite",
         "heading_size": "h2",
