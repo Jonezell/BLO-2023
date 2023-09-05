@@ -245,7 +245,6 @@
     },
     "542bfae1-9f63-4712-9ca0-0edcd9077876": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--16169023996073__542bfae1-9f63-4712-9ca0-0edcd9077876-1689283490e040c409-0": {
           "type": "column",
@@ -294,6 +293,7 @@
         "template--16169023996073__542bfae1-9f63-4712-9ca0-0edcd9077876-1689283490e040c409-2",
         "a4ed41ee-8a88-4444-ab7e-cddcbe64ba46"
       ],
+      "disabled": true,
       "settings": {
         "title": "Why is Bamboo Better?",
         "heading_size": "h2",
@@ -313,7 +313,6 @@
     },
     "image-with-text": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "image-with-text-0": {
           "type": "heading",
@@ -343,6 +342,7 @@
         "image-with-text-1",
         "9d593ba1-f20e-44f0-9ff4-d0b686b8eadd"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-7_fc00063c-73f9-49d6-b957-618e74110a92.jpg",
         "height": "adapt",
@@ -360,7 +360,6 @@
     },
     "64bf9eb5-785d-40f7-be20-214f5d799838": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "1d4d039a-8e7b-4575-b08d-12c0645e4d78": {
           "type": "heading",
@@ -381,6 +380,7 @@
         "1d4d039a-8e7b-4575-b08d-12c0645e4d78",
         "ea128725-4d03-4fdd-9197-64b35db0ae15"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/zipper-2.png",
         "height": "adapt",
@@ -398,7 +398,6 @@
     },
     "3a76cf5f-b2de-4852-8878-0feb69807621": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "0bd7fc96-e035-4b21-bc7c-28da2b95fede": {
           "type": "heading",
@@ -419,6 +418,7 @@
         "0bd7fc96-e035-4b21-bc7c-28da2b95fede",
         "44d4c3fb-5057-4338-be22-52d5b2e15f97"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Mitten.png",
         "height": "adapt",
@@ -436,7 +436,6 @@
     },
     "2b0041ed-0605-4862-8418-d682ae816f74": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "42cce41a-fc96-4a74-937d-63930702ab53": {
           "type": "heading",
@@ -457,6 +456,7 @@
         "42cce41a-fc96-4a74-937d-63930702ab53",
         "9f5e0cf8-a369-4452-b2bf-ce48b508bc45"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Feet.png",
         "height": "adapt",
@@ -474,7 +474,6 @@
     },
     "3b3682f3-ae42-41b2-b100-e9b23a0c6039": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "b5b45db7-ad85-46f7-a926-5a58afb7189f": {
           "type": "heading",
@@ -495,6 +494,7 @@
         "b5b45db7-ad85-46f7-a926-5a58afb7189f",
         "3729c394-0d08-4814-9051-0c4954105e3f"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Tagless-Romper.png",
         "height": "adapt",
@@ -552,7 +552,7 @@
         "dd517bd1-8e8d-45e1-8bc9-40978dea59e4": {
           "type": "text",
           "settings": {
-            "text": "Our bamboo viscose is Oeko-Tex® Standard 100 certified and has been rigorously tested against hundreds of toxic chemicals."
+            "text": "Our bamboo viscose fabric is Oeko-Tex® Standard 100 certified and has been rigorously tested against hundreds of toxic chemicals."
           }
         },
         "template--16169023996073__108ec0e3-68c9-4732-a1bb-6f40880ba3fd-buttons-1": {
