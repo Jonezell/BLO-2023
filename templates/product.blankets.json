@@ -21,9 +21,9 @@
         "496b4226-e4d0-4584-a5ae-f630efc1661c": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Style",
+            "label": "Toddler Size",
             "style": "swatch",
-            "target_collection": "blankets",
+            "target_collection": "toddler-blankets",
             "swatch_offset_Y": 30,
             "swatch_offset_X": 30,
             "hide_sold_out": true
