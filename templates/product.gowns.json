@@ -211,7 +211,6 @@
     },
     "adff747f-76a8-4bc9-b96f-caff878685ae": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--16169023832233__adff747f-76a8-4bc9-b96f-caff878685ae-1689283490e040c409-0": {
           "type": "column",
@@ -260,6 +259,7 @@
         "template--16169023832233__adff747f-76a8-4bc9-b96f-caff878685ae-1689283490e040c409-2",
         "c004a8e0-bad6-4490-aeaa-c50bca0c9174"
       ],
+      "disabled": true,
       "settings": {
         "title": "Why is Bamboo Better?",
         "heading_size": "h2",
@@ -279,7 +279,6 @@
     },
     "image-with-text": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "image-with-text-0": {
           "type": "heading",
@@ -309,6 +308,7 @@
         "image-with-text-1",
         "cdfa3f5e-ef3d-45e2-9a1e-6a8e41928b27"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-7_fc00063c-73f9-49d6-b957-618e74110a92.jpg",
         "height": "adapt",
@@ -326,7 +326,6 @@
     },
     "1d11c832-46f0-44e9-a0bf-eac81e9d064a": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "6ff1641d-8679-4374-92f4-864db7174a67": {
           "type": "heading",
@@ -347,6 +346,7 @@
         "6ff1641d-8679-4374-92f4-864db7174a67",
         "9aef39e2-26f8-4570-b384-64f3e0624353"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Mitten.png",
         "height": "adapt",
@@ -364,7 +364,6 @@
     },
     "8ba250b3-2245-44f3-8ff0-f48f7cbd33a8": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "dccd587b-702c-449e-84de-4b0f647b34b9": {
           "type": "heading",
@@ -385,6 +384,7 @@
         "dccd587b-702c-449e-84de-4b0f647b34b9",
         "e7f22dfc-d043-4f08-bfe3-b567dc8e046c"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Tagless-gown_6c11bd6d-fe0c-476a-b906-292798758728.png",
         "height": "adapt",
@@ -442,7 +442,7 @@
         "58fcaaeb-8315-46f9-a09d-e1437c54aa79": {
           "type": "text",
           "settings": {
-            "text": "Our bamboo viscose is Oeko-Tex® Standard 100 certified and has been rigorously tested against hundreds of toxic chemicals."
+            "text": "Our bamboo viscose fabric is Oeko-Tex® Standard 100 certified and has been rigorously tested against hundreds of toxic chemicals."
           }
         },
         "template--16169023832233__0479aa19-0050-43e3-9a84-5ee9e62a54ea-buttons-1": {
