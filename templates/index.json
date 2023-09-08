@@ -75,6 +75,7 @@
         "f0ab4fd9-bbe0-4127-9d9a-bcb7662e92ec",
         "25b2579f-58af-4eed-9977-37c7897bc32f"
       ],
+      "disabled": true,
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/Banner-Desktop.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Banner-Mobile_fec90939-7a6f-46c9-9518-407eb24a1618.jpg"
@@ -108,78 +109,9 @@
         "10bbc462-2e5b-4f38-b81a-b6b95efa501d",
         "4658ae19-32a4-4ec9-a32e-cbb21ab225ab"
       ],
-      "disabled": true,
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/Banner-Desktop_f4f0b646-a1d6-4862-bf54-4fe431e7098c.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Banner-Mobile_0f4e037f-2282-43a4-958a-a802f5fc3fcd.jpg"
-      }
-    },
-    "0ae405c4-ec54-48c9-8538-14b9ac40aafa": {
-      "type": "blo-banner",
-      "blocks": {
-        "ea5a20d8-704a-48e5-a92c-c807801e2e21": {
-          "type": "heading",
-          "settings": {
-            "heading": "Buttery Soft Apparel For"
-          }
-        },
-        "e00583c3-6e69-45d5-a837-e9a4d83d1d00": {
-          "type": "text",
-          "settings": {
-            "text": "Our cozy pjs and daywear are kid and mom approved for every occasion. Morning, noon, or night, we've got you covered."
-          }
-        },
-        "eabf1ab1-c323-44a9-acb3-fb678aef1123": {
-          "type": "buttons",
-          "settings": {
-            "button_label": "Shop Best Sellers",
-            "button_link": "shopify:\/\/collections\/best-sellers"
-          }
-        }
-      },
-      "block_order": [
-        "ea5a20d8-704a-48e5-a92c-c807801e2e21",
-        "e00583c3-6e69-45d5-a837-e9a4d83d1d00",
-        "eabf1ab1-c323-44a9-acb3-fb678aef1123"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_desktop": "shopify:\/\/shop_images\/Banner-Desktop-2_4fc11536-5f08-47ee-be26-4e46477b54f6.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Banner-Mobile-2_fba7ec49-7fa8-475c-beab-b4c07860462d.jpg"
-      }
-    },
-    "68aaf82a-35db-444d-96ea-416a31d0148f": {
-      "type": "blo-banner",
-      "blocks": {
-        "cff4fc18-e5f3-47da-8a27-5afb63eb5402": {
-          "type": "heading",
-          "settings": {
-            "heading": "Buttery Soft Apparel For"
-          }
-        },
-        "e4c0ebc2-90a2-4071-8056-6f8957b95049": {
-          "type": "text",
-          "settings": {
-            "text": "Our cozy pjs and daywear are kid and mom approved for every occasion. Morning, noon, or night, we've got you covered."
-          }
-        },
-        "baa568fe-eb30-4e0c-a9e2-2332c016d591": {
-          "type": "buttons",
-          "settings": {
-            "button_label": "Shop Best Sellers",
-            "button_link": "shopify:\/\/collections\/best-sellers"
-          }
-        }
-      },
-      "block_order": [
-        "cff4fc18-e5f3-47da-8a27-5afb63eb5402",
-        "e4c0ebc2-90a2-4071-8056-6f8957b95049",
-        "baa568fe-eb30-4e0c-a9e2-2332c016d591"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_desktop": "shopify:\/\/shop_images\/Banner-Desktop-3_cb79c911-31f6-48e1-9bac-15600fe5ea77.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Banner-Mobile-3_448667c0-3632-4f4f-9793-18c7d858e35c.jpg"
       }
     },
     "824201d6-ab39-4535-b10b-033005d18033": {
@@ -716,8 +648,6 @@
     "102eb650-32a6-4159-af05-c7fc53d2990e",
     "ff89b0a8-7e03-49ca-a54a-9cff08c5d7a6",
     "ef424140-16f7-4341-9117-1d25d594aa70",
-    "0ae405c4-ec54-48c9-8538-14b9ac40aafa",
-    "68aaf82a-35db-444d-96ea-416a31d0148f",
     "824201d6-ab39-4535-b10b-033005d18033",
     "ee363dd5-1c44-4b82-b551-3972740be32c",
     "4b1165c6-b8a9-4249-a026-ac24d705f1f2",
