@@ -107,7 +107,7 @@
         "85d7636a-745b-4ef8-a7d8-e26226d2518f": {
           "type": "complementary",
           "settings": {
-            "block_heading": "Pairs well with",
+            "block_heading": "Or buy them separate:",
             "make_collapsible_row": true,
             "icon": "price_tag",
             "product_list_limit": 10,
