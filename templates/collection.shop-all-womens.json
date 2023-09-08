@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "4cbbe32e-e788-4a96-8792-f03cf5c4b9bd": {
+      "type": "blo-collection-pills",
+      "blocks": {
+        "605aea17-d9e9-4ae7-b9ac-176066dba0fe": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/zip-rompers",
+            "linktext": "All"
+          }
+        },
+        "d71d8e5a-4fa6-4763-979d-bfb830d2f818": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/zip-rompers-with-fold-over-feet",
+            "linktext": "With Fold-Over Feet"
+          }
+        },
+        "29d2dc09-b6e7-47e0-aabe-8f2c0f0bf09b": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/zip-rompers-without-fold-over-feet",
+            "linktext": "Without Fold-Over Feet"
+          }
+        }
+      },
+      "block_order": [
+        "605aea17-d9e9-4ae7-b9ac-176066dba0fe",
+        "d71d8e5a-4fa6-4763-979d-bfb830d2f818",
+        "29d2dc09-b6e7-47e0-aabe-8f2c0f0bf09b"
+      ],
+      "settings": {
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "columns_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "4cbbe32e-e788-4a96-8792-f03cf5c4b9bd",
+    "product-grid"
+  ]
+}
