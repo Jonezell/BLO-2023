@@ -21,9 +21,20 @@
         "496b4226-e4d0-4584-a5ae-f630efc1661c": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Style",
+            "label": "Tops",
             "style": "image",
-            "target_collection": "womens-matching-sets",
+            "target_collection": "womens-tops",
+            "swatch_offset_Y": 50,
+            "swatch_offset_X": 50,
+            "hide_sold_out": true
+          }
+        },
+        "884161c0-28fb-4991-91be-2ff28c96672f": {
+          "type": "produdct-as-variants",
+          "settings": {
+            "label": "Pants",
+            "style": "image",
+            "target_collection": "womens-bottoms",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
@@ -129,6 +140,7 @@
         "price",
         "9f717bd2-b9a3-4209-85ca-e158f7e034e4",
         "496b4226-e4d0-4584-a5ae-f630efc1661c",
+        "884161c0-28fb-4991-91be-2ff28c96672f",
         "variant_picker",
         "quantity_selector",
         "14d206d1-bc58-4ca6-baa4-d38ba878182e",
