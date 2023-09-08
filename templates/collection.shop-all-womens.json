@@ -20,6 +20,7 @@
         },
         "d71d8e5a-4fa6-4763-979d-bfb830d2f818": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "linkurl": "shopify:\/\/collections\/womens-matching-sets",
             "linktext": "Matching Sets"
