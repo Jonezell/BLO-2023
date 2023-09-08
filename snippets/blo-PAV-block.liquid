@@ -13,19 +13,17 @@
   <div class="PAV_container {{PAV_style}}">
     {% paginate collections[PAV_target_collection].products by 100 %}
       {% for product in collections[PAV_target_collection].products %}
-        {% if PAV_product_type == product.type %}
-          <a
-            class="PAV_option {% if product.handle == PAV_product_handle %}selected{% endif %} {% if product.available == false %}SoldOut{% endif %} {% if product.handle != PAV_product_handle and product.available == false and PAV_hide_sold_out == true%}hidden{% endif %}"
-            href="{{ product.url }}"
-          >
-            <div
-              class="PAV_image"
-              style="background-image:url({% if PAV_style == "swatch" %}{{ product.featured_image | image_url: width: 260 }}{% else %}{{ product.featured_image | image_url: width: 100 }}{% endif %});"
-              loading="lazy"
-            ></div>
-            <label> {{ product.title }}</label>
-          </a>
-        {% endif %}
+        <a
+          class="PAV_option {% if product.handle == PAV_product_handle %}selected{% endif %} {% if product.available == false %}SoldOut{% endif %} {% if product.handle != PAV_product_handle and product.available == false and PAV_hide_sold_out == true%}hidden{% endif %}"
+          href="{{ product.url }}"
+        >
+          <div
+            class="PAV_image"
+            style="background-image:url({% if PAV_style == "swatch" %}{{ product.featured_image | image_url: width: 260 }}{% else %}{{ product.featured_image | image_url: width: 100 }}{% endif %});"
+            loading="lazy"
+          ></div>
+          <label> {{ product.title }}</label>
+        </a>
       {% endfor %}
     {% endpaginate %}
   </div>
