@@ -23,7 +23,7 @@
           "settings": {
             "label": "Style",
             "style": "image",
-            "target_collection": "womens",
+            "target_collection": "womens-matching-sets",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
@@ -194,7 +194,8 @@
           "type": "button",
           "settings": {
             "button_label": "Learn More",
-            "button_link": "shopify:\/\/blogs\/blog\/why-we-fell-in-love-with-bamboo"
+            "button_link": "shopify:\/\/blogs\/blog\/why-we-fell-in-love-with-bamboo",
+            "button_style_secondary": false
           }
         }
       },
