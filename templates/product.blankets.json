@@ -37,7 +37,7 @@
             "target_collection": "youth-blanket",
             "swatch_offset_Y": 30,
             "swatch_offset_X": 30,
-            "hide_sold_out": true
+            "hide_sold_out": false
           }
         },
         "variant_picker": {
