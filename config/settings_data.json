@@ -158,12 +158,6 @@
         "settings": {
         }
       },
-      "10570433277407501837": {
-        "type": "shopify:\/\/apps\/simprosys-google-shopping-feed\/blocks\/gsf-gcr\/1f0b859e-9fa6-4007-97e8-4513aff5ff3b",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "12120936241911852800": {
         "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/reviews_tab\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": true,
