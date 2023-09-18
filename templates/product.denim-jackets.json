@@ -147,9 +147,9 @@
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail_slider",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "hover",
         "mobile_thumbnails": "show",
         "hide_variants": true,
         "enable_video_looping": false,
@@ -222,7 +222,6 @@
     },
     "image-with-text": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "image-with-text-0": {
           "type": "heading",
@@ -243,6 +242,7 @@
         "image-with-text-0",
         "image-with-text-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Denim-Jacket-Fabric.png",
         "height": "adapt",
@@ -260,7 +260,6 @@
     },
     "2e3f8bab-d089-4276-a9a2-b8aeafa61186": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "c24b761f-4cad-4259-acc8-1fc77622323d": {
           "type": "heading",
@@ -281,6 +280,7 @@
         "c24b761f-4cad-4259-acc8-1fc77622323d",
         "0725344b-05c7-4b0f-80be-2eb2e00c5822"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Denim-Jacket-Button.png",
         "height": "adapt",
@@ -298,7 +298,6 @@
     },
     "0c093a2c-b80f-4c8d-a626-0657232f51e8": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "e10746e5-fb63-42f0-bb06-ba389893927b": {
           "type": "heading",
@@ -319,6 +318,7 @@
         "e10746e5-fb63-42f0-bb06-ba389893927b",
         "6eb4048b-616c-41bc-8d6f-aa423c5136f7"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Denim-Jacket-Pocket.png",
         "height": "adapt",
