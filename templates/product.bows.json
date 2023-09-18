@@ -137,9 +137,9 @@
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail_slider",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "hover",
         "mobile_thumbnails": "show",
         "hide_variants": true,
         "enable_video_looping": false,
@@ -212,7 +212,8 @@
         "full_width": false,
         "color_scheme": "",
         "padding_top": 100,
-        "padding_bottom": 100
+        "padding_bottom": 100,
+        "show_texture": true
       }
     },
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85": {
