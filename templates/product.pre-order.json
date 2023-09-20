@@ -14,7 +14,7 @@
           }
         },
         "c32c6529-50ec-4a23-84a8-d808ee1d0b2a": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -34,11 +34,6 @@
           "settings": {
             "inventory_threshold": 15,
             "show_inventory_quantity": false
-          }
-        },
-        "09df0f8f-2c7c-4ea8-b026-3fc460117a53": {
-          "type": "shopify:\/\/apps\/kaktus-preorder-now-presale\/blocks\/kaktus-bundle\/65705a60-a3b0-43ae-9dc8-15db78d76b3b",
-          "settings": {
           }
         },
         "buy_buttons": {
@@ -95,7 +90,6 @@
         "variant_picker",
         "quantity_selector",
         "14d206d1-bc58-4ca6-baa4-d38ba878182e",
-        "09df0f8f-2c7c-4ea8-b026-3fc460117a53",
         "buy_buttons",
         "d32cf3ff-3cf1-42b1-95be-fd31a14eefc2",
         "d828ce5d-f44b-4833-9b8d-0a405b12654d",
@@ -108,9 +102,9 @@
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail_slider",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "hover",
         "mobile_thumbnails": "show",
         "hide_variants": true,
         "enable_video_looping": false,
@@ -122,7 +116,7 @@
       "type": "apps",
       "blocks": {
         "b57b9dfc-be08-472f-9b60-621e325bb54d": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
