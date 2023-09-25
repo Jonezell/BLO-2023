@@ -37,7 +37,9 @@
       ],
       "settings": {
         "image_main": "shopify:\/\/shop_images\/Image-Main.jpg",
-        "image_secondary": "shopify:\/\/shop_images\/Image-Secondary.jpg"
+        "image_secondary": "shopify:\/\/shop_images\/Image-Secondary.jpg",
+        "color_text": "#ffffff",
+        "color_background": "#778C9A"
       }
     },
     "102eb650-32a6-4159-af05-c7fc53d2990e": {
