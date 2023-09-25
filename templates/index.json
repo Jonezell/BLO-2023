@@ -41,7 +41,9 @@
         "color_text": "#ffffff",
         "color_background": "#778C9A",
         "background_image_desktop": "shopify:\/\/shop_images\/banner-background-desktop.svg",
-        "background_image_mobile": "shopify:\/\/shop_images\/banner-background-mobile.svg"
+        "background_image_desktop_pin": "bottom left",
+        "background_image_mobile": "shopify:\/\/shop_images\/banner-background-mobile.svg",
+        "background_image_mobile_pin": "bottom left"
       }
     },
     "102eb650-32a6-4159-af05-c7fc53d2990e": {
