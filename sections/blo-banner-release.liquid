@@ -2,7 +2,9 @@
 
 <div class="page-width"> 
   <div class="blo-banner-container">
-    <div class="blo-banner-image-wrapper blo-edge-texture-wrapper">
+
+
+    <div class="blo-banner-image-wrapper">
 
       {% comment %} FIX IMAGE WIDTH {% endcomment %}
       {{
@@ -19,9 +21,10 @@
           loading: 'lazy',
           class: 'blo-banner-image-mobile'
       }}
-      {% render 'blo-edge-texture', pinDirection: 'bottom' %}
+      
     </div>
     
+
     <div class="blo-banner-card {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
@@ -62,9 +65,14 @@
         {%- endfor -%}
     </div>
 
+
+
+
+
   <div>
 </div>
 
+{% render 'blo-edge-texture', pinDirection: 'bottom' %}
 
 
 
@@ -193,69 +201,6 @@
 
 
 
-
-.blo-banner-spinner {
-    color: var(--tan-Camel);
-    height: 50px;
-    overflow: hidden;
-    display: inline-block;
-    height: 44px;
-    overflow: hidden;
-    margin-bottom: -15px;
-}
-.blo-banner-spinner-container {
-    margin-top: 0;
-    flex-direction: column;
-    overflow: hidden;
-    align-items: flex-start;
-    animation-name: spinner-mobile;
-    animation-duration: 5s;
-    animation-iteration-count:infinite;
-}
-@media screen and (min-width: 750px) {
-    .blo-banner-spinner-container {
-        animation-name: spinner-desktop;
-    }
-    .blo-banner-spinner {
-        height: 52px;
-    }
-}
-
-/* The animation code */
-@keyframes spinner-desktop {
-    0%   {
-        margin-top: 0px;
-    }
-    25%  {
-        margin-top: -52px;
-    }
-    50%  {
-        margin-top: -104px;
-    }
-    75%  {
-        margin-top: -156px;
-    }
-    100%  {
-        margin-top: -208px;
-    }
- }
-@keyframes spinner-mobile {
-    0%   {
-        margin-top: 0px;
-    }
-    25%  {
-        margin-top: -44px;
-    }
-    50%  {
-        margin-top: -88px;
-    }
-    75%  {
-        margin-top: -132px;
-    }
-    100%  {
-        margin-top: -176px;
-    }
-  }
   
 {%- endstyle -%}
 
@@ -264,7 +209,7 @@
 {
   "name": "BLO Banner (Release)",
   "tag": "section",
-  "class": "section blo-banner blo-banner-release",
+  "class": "section blo-banner blo-banner-release blo-edge-texture-wrapper",
   "disabled_on": {
     "groups": ["header", "footer"]
   },
@@ -278,6 +223,18 @@
       "type": "image_picker",
       "id": "image_secondary",
       "label": "Secondary Image"
+    },
+    {
+      "type": "color",
+      "id": "color_text",
+      "label": "Text Color",
+      "default": "#191919"
+    },
+    {
+      "type": "color_background",
+      "id": "color_background",
+      "label": "Background Color",
+      "default": "#EFE8DE"
     }
   ],
   "blocks": [
