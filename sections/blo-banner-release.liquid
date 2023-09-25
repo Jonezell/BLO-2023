@@ -148,13 +148,6 @@
 
 
   @media screen and (max-width: 989px) {
-
-    {% if section.settings.background_image_mobile %}
-      .blo-banner-release {
-        background-image: url( {{section.settings.image_secondary | image_url: width: 1000 }} );
-      }
-    {% endif %}
-
     .blo-banner-container {
       padding-top: 30px;
       padding-bottom: 130px;
@@ -206,6 +199,29 @@
 
 
   }
+
+
+  {% if section.settings.background_image_desktop %}
+    @media screen and (min-width: 990px) {
+      .blo-banner-release {
+        background-image: url(  {{ section.settings.background_image_desktop | image_url: width: 1000 }} );
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: {{ section.settings.background_image_mobile_pin }};
+      }
+    }
+  {% endif %}
+
+  {% if section.settings.background_image_mobile %}
+    @media screen and (max-width: 989px) {
+      .blo-banner-release {
+        background-image: url(  {{ section.settings.background_image_mobile | image_url: width: 1000 }} );
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: {{ section.settings.background_image_mobile_pin }};
+      }
+    }
+  {% endif %}
 {%- endstyle -%}
 
 {% schema %}
@@ -245,9 +261,89 @@
       "label": "Desktop Background Image (Optional)"
     },
     {
+      "type": "select",
+      "id": "background_image_desktop_pin",
+      "label": "Desktop Pin Direction",
+      "options": [
+        {
+          "value": "top left",
+          "label": "Top Left"
+        },
+        {
+          "value": "top center",
+          "label": "Top Center"
+        },
+        {
+          "value": "top right",
+          "label": "Top Right"
+        },
+        {
+          "value": "center left",
+          "label": "Center Left"
+        },
+        {
+          "value": "center center",
+          "label": "Center Center"
+        },
+        {
+          "value": "bottom left",
+          "label": "Bottom Left"
+        }
+        {
+          "value": "bottom center",
+          "label": "Bottom Center"
+        }
+        {
+          "value": "bottom right",
+          "label": "Bottom Right"
+        }
+      ],
+      "default": "center center"
+    },
+    {
       "type": "image_picker",
       "id": "background_image_mobile",
       "label": "Mobile Background Image (Optional)"
+    },
+    {
+      "type": "select",
+      "id": "background_image_mobile_pin",
+      "label": "Mobile Pin Direction",
+      "options": [
+        {
+          "value": "top left",
+          "label": "Top Left"
+        },
+        {
+          "value": "top center",
+          "label": "Top Center"
+        },
+        {
+          "value": "top right",
+          "label": "Top Right"
+        },
+        {
+          "value": "center left",
+          "label": "Center Left"
+        },
+        {
+          "value": "center center",
+          "label": "Center Center"
+        },
+        {
+          "value": "bottom left",
+          "label": "Bottom Left"
+        }
+        {
+          "value": "bottom center",
+          "label": "Bottom Center"
+        }
+        {
+          "value": "bottom right",
+          "label": "Bottom Right"
+        }
+      ],
+      "default": "center center"
     }
   ],
   "blocks": [
