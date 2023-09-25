@@ -4,14 +4,14 @@
       {% comment %} FIX IMAGE WIDTH {% endcomment %}
       {{
         section.settings.image_main
-        | image_url: width: 2900
+        | image_url: width: 1800
         | image_tag: loading: 'lazy', class: 'blo-banner-image-main'
       }}
 
       {% if section.settings.image_secondary %}
         {{
           section.settings.image_secondary
-          | image_url: width: 1000
+          | image_url: width: 600
           | image_tag: loading: 'lazy', class: 'blo-banner-image-secondary'
         }}
       {% endif %}
@@ -54,6 +54,7 @@
                 class="button button--primary"
               >
                 {{- block.settings.button_label | escape -}}
+                {% render 'icon-arrow' %}
               </a>
             </div>
         {%- endcase -%}
@@ -68,6 +69,9 @@
   .blo-banner-release {
     overflow: hidden;
     background-color: {{section.settings.color_background}}
+  }
+  .button svg {
+    margin-left:10px;
   }
 
 
@@ -286,6 +290,10 @@
           "label": "Center Center"
         },
         {
+          "value": "center right",
+          "label": "Center Right"
+        },
+        {
           "value": "bottom left",
           "label": "Bottom Left"
         },
@@ -329,6 +337,10 @@
         {
           "value": "center center",
           "label": "Center Center"
+        },
+        {
+          "value": "center right",
+          "label": "Center Right"
         },
         {
           "value": "bottom left",
