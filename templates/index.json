@@ -115,6 +115,7 @@
         "10bbc462-2e5b-4f38-b81a-b6b95efa501d",
         "4658ae19-32a4-4ec9-a32e-cbb21ab225ab"
       ],
+      "disabled": true,
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/Banner-Desktop_f4f0b646-a1d6-4862-bf54-4fe431e7098c.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Banner-Mobile_0f4e037f-2282-43a4-958a-a802f5fc3fcd.jpg"
