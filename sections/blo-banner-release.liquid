@@ -12,7 +12,7 @@
         {{
           section.settings.image_secondary
           | image_url: width: 600
-          | image_tag: loading: 'lazy', class: 'blo-banner-image-secondary'
+          | image_tag: loading: 'lazy', class: 'blo-banner-image-secondary parallax'
         }}
       {% endif %}
     </div>
@@ -62,6 +62,23 @@
     </div>
   </div>
 </div>
+
+<script>
+  (function () {
+    const parallaxElements = document.querySelectorAll('[class*="parallax"]');
+
+    window.addEventListener('scroll', function () {
+      for (const element of parallaxElements) {
+        const parallaxSpeed = element.getAttribute('parallax-speed') || 0.03;
+        const scrollY = window.scrollY;
+        const elementTop = element.getBoundingClientRect().top;
+        const elementTranslation = (scrollY - elementTop) * parallaxSpeed;
+
+        element.style.transform = `translate3d(0, ${elementTranslation}px, 0)`;
+      }
+    });
+  })();
+</script>
 
 {% render 'blo-edge-texture', pinDirection: 'bottom' %}
 
