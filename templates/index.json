@@ -1,5 +1,45 @@
 {
   "sections": {
+    "70acda95-22e0-4ba5-9737-d2770599dc2a": {
+      "type": "blo-banner-release",
+      "blocks": {
+        "f2561834-5bb9-4a7e-9854-4d941131fd62": {
+          "type": "badge",
+          "settings": {
+            "badge": "New Release!"
+          }
+        },
+        "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ahoy mateys!"
+          }
+        },
+        "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "The X marks the spot. You have arrived to the treasure, our new Pirate Ships collection! Now available in our core styles, and our new Youth Blanket and Shorts Set. Use code ‘Pirate’ for 20% off until midnight tonight!"
+          }
+        },
+        "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Shop New Release",
+            "button_link": "shopify:\/\/collections\/new"
+          }
+        }
+      },
+      "block_order": [
+        "f2561834-5bb9-4a7e-9854-4d941131fd62",
+        "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-heading-1",
+        "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-text-1",
+        "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-buttons-1"
+      ],
+      "settings": {
+        "image_main": "shopify:\/\/shop_images\/Image-Main.jpg",
+        "image_secondary": "shopify:\/\/shop_images\/Image-Secondary.jpg"
+      }
+    },
     "102eb650-32a6-4159-af05-c7fc53d2990e": {
       "type": "image-with-text",
       "blocks": {
@@ -611,6 +651,7 @@
     }
   },
   "order": [
+    "70acda95-22e0-4ba5-9737-d2770599dc2a",
     "102eb650-32a6-4159-af05-c7fc53d2990e",
     "ef424140-16f7-4341-9117-1d25d594aa70",
     "824201d6-ab39-4535-b10b-033005d18033",
