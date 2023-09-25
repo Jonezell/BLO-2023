@@ -1,209 +1,212 @@
-
-
-<div class="page-width"> 
+<div class="page-width">
   <div class="blo-banner-container">
-
-
-    <div class="blo-banner-image-wrapper">
-
+    <div class="blo-banner-release-image-wrapper {% if section.settings.image_secondary %}with-secondary{% endif %}">
       {% comment %} FIX IMAGE WIDTH {% endcomment %}
       {{
         section.settings.image_main
         | image_url: width: 2900
-        | image_tag:
-          loading: 'lazy',
-          class: 'blo-banner-image-desktop'
+        | image_tag: loading: 'lazy', class: 'blo-banner-image-main'
       }}
-      {{
-        section.settings.image_secondary
-        | image_url: width: 1000
-        | image_tag:
-          loading: 'lazy',
-          class: 'blo-banner-image-mobile'
-      }}
-      
-    </div>
-    
 
-    <div class="blo-banner-card {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-        {%- for block in section.blocks -%}
-          {%- case block.type -%}
-            {%- when 'badge' -%}
-              <div
-                class="inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
-              >
-                <label class="badge">{{ block.settings.badge }}</label>
-              </div>
-            {%- when 'heading' -%}
-              <h1
-                class="blo-banner-title inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
-                {{ block.shopify_attributes }}
-              >
-                {{ block.settings.heading }}
-              </h1>
-            {%- when 'text' -%}
-              <div class="blo-banner-text rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}" {{ block.shopify_attributes }}>
-                <p>{{ block.settings.text }}</p>
-              </div>
-            {%- when 'buttons' -%}
-              <div
-                class="blo-banner-buttons {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
-                {{ block.shopify_attributes }}
-              >
-                  <a
-                    {% if block.settings.button_link == blank %}
-                      role="link" aria-disabled="true"
-                    {% else %}
-                      href="{{ block.settings.button_link }}"
-                    {% endif %}
-                    class="button button--primary"
-                  >
-                    {{- block.settings.button_label | escape -}}
-                  </a>              
-              </div>
-          {%- endcase -%}
-        {%- endfor -%}
+      {% if section.settings.image_secondary %}
+        {{
+          section.settings.image_secondary
+          | image_url: width: 1000
+          | image_tag: loading: 'lazy', class: 'blo-banner-image-secondary'
+        }}
+      {% endif %}
     </div>
 
-
-
-
-
-  <div>
+    <div class="blo-banner-text-container {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when 'badge' -%}
+            <div
+              class="inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            >
+              <label class="badge">{{ block.settings.badge }}</label>
+            </div>
+          {%- when 'heading' -%}
+            <h1
+              class="blo-banner-title inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+              {{ block.shopify_attributes }}
+            >
+              {{ block.settings.heading }}
+            </h1>
+          {%- when 'text' -%}
+            <div
+              class="blo-banner-text rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+              {{ block.shopify_attributes }}
+            >
+              <p>{{ block.settings.text }}</p>
+            </div>
+          {%- when 'buttons' -%}
+            <div
+              class="blo-banner-buttons {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+              {{ block.shopify_attributes }}
+            >
+              <a
+                {% if block.settings.button_link == blank %}
+                  role="link" aria-disabled="true"
+                {% else %}
+                  href="{{ block.settings.button_link }}"
+                {% endif %}
+                class="button button--primary"
+              >
+                {{- block.settings.button_label | escape -}}
+              </a>
+            </div>
+        {%- endcase -%}
+      {%- endfor -%}
+    </div>
+  </div>
 </div>
 
 {% render 'blo-edge-texture', pinDirection: 'bottom' %}
 
-
-
-
-
 {%- style -%}
+  .blo-banner-release {
+    overflow: hidden;
+    background-color: {{section.settings.color_background}}
+  }
 
-.blo-banner-container {
-    padding-bottom: 50px;
-}
-.blo-banner-image-wrapper {
-  display: block;
-  width: 100%;
-  height: auto;
-  position: relative;
-}
-.blo-banner-image-desktop, 
-.blo-banner-image-mobile {
-    display: block;
-    width: 100%;
+
+
+  .blo-banner-release .blo-banner-container {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-content: center;
+  }
+  .blo-banner-release-image-wrapper {
+   flex: 1;
+   position: relative;
+  }
+  .blo-banner-image-main {
+    border-radius: var(--blo-corner-radius);
     height: auto;
-}
-.blo-banner-image-desktop {
-    display: none;
-}
-.blo-banner-image-mobile {
-    display: block;
-}
-
-.blo-banner-card {
-    display: flex;
-    padding: 30px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    border-radius: 16px;
-    background: var(--greyscale-white, #FFF);
-    box-shadow: 0px 14px 24px 0px rgba(0, 0, 0, 0.07);
-    z-index: 1;
-}
-.blo-banner-stars-container {
-    margin-bottom: 25px;
-    display: flex;
-    padding: 6px 12px;
-    align-items: center;
-    gap: 7px;
-    border-radius: 40px;
-    background: var(--tan-light, #F8F4EE);
-    align-items: center;
-}
-.blo-banner-stars {
-    display: flex;
-    align-items: flex-start;
-    gap: 2px;
-    margin-bottom: 2px;
-}
-.blo-banner-stars-container p {
-    margin: 0;
-    margin-top: 2px;
-}
-.blo-banner-title {
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-.blo-banner-text {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-.blo-banner-buttons {
-    display: block;
-    margin-top: 25px;
-    width: 100%;
-}
+    width: inherit;
+  }
 
 
-@media screen and (max-width: 989px) { 
-    .blo-banner-image-mobile {
-        position: relative;
-        z-index: 0;
-    }
+  /* WITH SECONDARY IMAGE */
+  .blo-banner-release-image-wrapper.with-secondary .blo-banner-image-main {
+    margin-right: calc(35% - 50px);
+    margin-bottom: 50px;
+    width: calc(65% + 50px);
+  }
+  .blo-banner-release-image-wrapper.with-secondary .blo-banner-image-secondary {
+    border-radius: var(--blo-corner-radius);
+    height: auto;
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 35%;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 6px 20px 3px rgba(0, 0, 0, 0.13);
+  }
+
+  .blo-banner-release .blo-banner-text-container .badge {
+    background-color: rgba(0,0,0,.06);
+    color: {{section.settings.color_text}};
+    margin-bottom: 15px;
+    border: none;
+  }
+  .blo-banner-text-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      flex: 1;
+      max-width: 550px;
+  }
+  .blo-banner-title {
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: {{section.settings.color_text}};
+  }
+  .blo-banner-text {
+      margin-top: 0;
+      margin-bottom: 0;
+  }
+  .blo-banner-text p{
+      color: {{section.settings.color_text}};
+  }
+  .blo-banner-buttons {
+      display: block;
+      margin-top: 25px;
+      width: 100%;
+  }
+  .blo-banner-buttons .button{
+    color: {{section.settings.color_background}};
+    background-color: {{section.settings.color_text}};
+  }
+  .blo-banner-buttons .button:after,
+  .blo-banner-buttons .button:not([disabled]):hover::after {
+    box-shadow: none;
+  }
+
+
+  @media screen and (max-width: 989px) {
+
+    {% if section.settings.background_image_mobile %}
+      .blo-banner-release {
+        background-image: url( {{section.settings.image_secondary | image_url: width: 1000 }} );
+      }
+    {% endif %}
+
     .blo-banner-container {
-        
-    }
-    .blo-banner-card {
-        margin: -50px 30px 0 30px;
-        position: relative;
-        z-index: 1;
+      padding-top: 30px;
+      padding-bottom: 130px;
     }
     .blo-banner .page-width {
         padding-left: 0;
         padding-right: 0;
     }
+    .blo-banner-text-container {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
     .blo-banner-buttons .button {
         width: 100%;
     }
-}
-
-
-@media screen and (min-width: 990px) { 
-  .blo-banner-container {
-      position: relative;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      padding-right: 50px;
+    .blo-banner-release .blo-banner-container {
+      flex-direction: column;
+      gap: 40px;
+      align-items: center;
+    }
+    .blo-banner-release-image-wrapper {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .blo-banner-release-image-wrapper.with-secondary  {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .blo-banner-release-image-wrapper.with-secondary .blo-banner-image-main {
+      border-top-left-radius:0;
+      border-bottom-left-radius:0;
+    }
+    .blo-banner-release-image-wrapper.with-secondary .blo-banner-image-secondary {
+      border-top-right-radius:0;
+      border-bottom-right-radius:0;
+    }
+    .blo-banner-release-image-wrapper {
+      width: 100%;
+    }
   }
-  .blo-banner-card {
-      position: absolute;
-      bottom: 0px;
-      right: 0px;
-      width: 550px;
-      min-height: calc(100% - 100px);
-      padding: 50px;
-  }
-  .blo-banner-image-mobile {
-      display: none;
-  }
-  .blo-banner-image-desktop {
-      display: block;
-      border-radius: var(--blo-corner-radius);
-  }
-  .blo-banner .blo-banner-image-wrapper svg.blo-edge-texture {
-    opacity: 0;
-  }
-
-}
+  @media screen and (min-width: 990px) {
+    .blo-banner-container {
+      padding-top: 130px;
+      padding-bottom: 130px;
+    }
 
 
 
-  
+
+
+  }
 {%- endstyle -%}
-
 
 {% schema %}
 {
@@ -235,6 +238,16 @@
       "id": "color_background",
       "label": "Background Color",
       "default": "#EFE8DE"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image_desktop",
+      "label": "Desktop Background Image (Optional)"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image_mobile",
+      "label": "Mobile Background Image (Optional)"
     }
   ],
   "blocks": [
