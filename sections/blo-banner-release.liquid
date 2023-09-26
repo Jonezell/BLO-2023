@@ -5,14 +5,14 @@
       {{
         section.settings.image_main
         | image_url: width: 1800
-        | image_tag: loading: 'lazy', class: 'blo-banner-image-main'
+        | image_tag: loading: 'lazy', class: 'blo-banner-image-main scroll-trigger animate--fade-in'
       }}
 
       {% if section.settings.image_secondary %}
         {{
           section.settings.image_secondary
           | image_url: width: 600
-          | image_tag: loading: 'lazy', class: 'blo-banner-image-secondary parallax'
+          | image_tag: loading: 'lazy', class: 'blo-banner-image-secondary scroll-trigger animate--fade-in parallax'
         }}
       {% endif %}
     </div>
@@ -63,13 +63,15 @@
   </div>
 </div>
 
-<script>
+{% render 'blo-edge-texture', pinDirection: 'bottom' %}
+
+{% javascript %}
   (function () {
     const parallaxElements = document.querySelectorAll('[class*="parallax"]');
 
     window.addEventListener('scroll', function () {
       for (const element of parallaxElements) {
-        const parallaxSpeed = element.getAttribute('parallax-speed') || 0.03;
+        const parallaxSpeed = element.getAttribute('parallax-speed') || -0.02;
         const scrollY = window.scrollY;
         const elementTop = element.getBoundingClientRect().top;
         const elementTranslation = (scrollY - elementTop) * parallaxSpeed;
@@ -78,9 +80,7 @@
       }
     });
   })();
-</script>
-
-{% render 'blo-edge-texture', pinDirection: 'bottom' %}
+{% endjavascript %}
 
 {%- style -%}
   .blo-banner-release {
@@ -128,7 +128,7 @@
   }
 
   .blo-banner-release .blo-banner-text-container .badge {
-    background-color: rgba(0,0,0,.06);
+    background-color: rgba(0,0,0,.1);
     color: {{section.settings.color_text}};
     margin-bottom: 15px;
     border: none;
