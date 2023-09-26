@@ -35,6 +35,7 @@
         "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-text-1",
         "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "image_main": "shopify:\/\/shop_images\/Image-Main_b54fa709-f853-440f-bd08-ae95ab87253b.jpg",
         "image_secondary": "shopify:\/\/shop_images\/Image-Secondary_d9c3277b-2eeb-42ea-8464-c9158c8f8714.jpg",
@@ -44,53 +45,6 @@
         "background_image_desktop_pin": "bottom left",
         "background_image_mobile": "shopify:\/\/shop_images\/banner-background-mobile_89726390-3ea8-418a-a7e1-4624e7f8d4fc.svg",
         "background_image_mobile_pin": "bottom left"
-      }
-    },
-    "102eb650-32a6-4159-af05-c7fc53d2990e": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--16166779355305__102eb650-32a6-4159-af05-c7fc53d2990e-1689599181b1c17ce2-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Our Christmas in July sale is here!",
-            "heading_size": "h2"
-          }
-        },
-        "template--16166779355305__102eb650-32a6-4159-af05-c7fc53d2990e-1689599181b1c17ce2-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Take 30% off sitewide with code ‘ChristmasInJuly’! Sale ends Monday the 24th at 11:59 PM PST. <\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16166779355305__102eb650-32a6-4159-af05-c7fc53d2990e-1689599181b1c17ce2-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Now",
-            "button_link": "https:\/\/bravelittleones.com\/discount\/ChristmasinJuly?redirect=\/collections\/shop-all",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16166779355305__102eb650-32a6-4159-af05-c7fc53d2990e-1689599181b1c17ce2-0",
-        "template--16166779355305__102eb650-32a6-4159-af05-c7fc53d2990e-1689599181b1c17ce2-1",
-        "template--16166779355305__102eb650-32a6-4159-af05-c7fc53d2990e-1689599181b1c17ce2-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/christmas-in-july.gif",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "scheme-0aa9ae75-d6fb-4d4d-929d-498bf1d5c6be",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 32,
-        "padding_bottom": 0
       }
     },
     "ef424140-16f7-4341-9117-1d25d594aa70": {
@@ -121,7 +75,6 @@
         "10bbc462-2e5b-4f38-b81a-b6b95efa501d",
         "4658ae19-32a4-4ec9-a32e-cbb21ab225ab"
       ],
-      "disabled": true,
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/Banner-Desktop_f4f0b646-a1d6-4862-bf54-4fe431e7098c.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Banner-Mobile_0f4e037f-2282-43a4-958a-a802f5fc3fcd.jpg"
@@ -659,7 +612,6 @@
   },
   "order": [
     "70acda95-22e0-4ba5-9737-d2770599dc2a",
-    "102eb650-32a6-4159-af05-c7fc53d2990e",
     "ef424140-16f7-4341-9117-1d25d594aa70",
     "824201d6-ab39-4535-b10b-033005d18033",
     "ee363dd5-1c44-4b82-b551-3972740be32c",
