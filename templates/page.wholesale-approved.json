@@ -2,9 +2,53 @@
   "sections": {
     "e1dbd8af-265e-4df5-b679-d2b81ea6903f": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "91ce0d41-bcf7-4d78-a463-032f77f6d876": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16213555249321__91ce0d41-bcf7-4d78-a463-032f77f6d876-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to Wholesale!",
+            "heading_size": "h1"
+          }
+        },
+        "template--16213555249321__91ce0d41-bcf7-4d78-a463-032f77f6d876-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Congratulations on being approved for wholesale! Please fill out the form below to create your company profile. You'll receive an email once your account is active! <\/p>"
+          }
+        },
+        "template--16213555249321__91ce0d41-bcf7-4d78-a463-032f77f6d876-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16213555249321__91ce0d41-bcf7-4d78-a463-032f77f6d876-heading-1",
+        "template--16213555249321__91ce0d41-bcf7-4d78-a463-032f77f6d876-text-1",
+        "template--16213555249321__91ce0d41-bcf7-4d78-a463-032f77f6d876-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 0
       }
     },
     "forms": {
@@ -22,7 +66,7 @@
             "text_alignment": "center",
             "form_alignment": "center",
             "padding_top": 0,
-            "padding_bottom": 0,
+            "padding_bottom": 64,
             "padding_right": 0,
             "padding_left": 0
           }
@@ -38,6 +82,7 @@
   },
   "order": [
     "e1dbd8af-265e-4df5-b679-d2b81ea6903f",
+    "91ce0d41-bcf7-4d78-a463-032f77f6d876",
     "forms"
   ]
 }
