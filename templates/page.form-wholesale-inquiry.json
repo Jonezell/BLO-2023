@@ -3,8 +3,64 @@
     "e1dbd8af-265e-4df5-b679-d2b81ea6903f": {
       "type": "main-page",
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "140486f5-bbbd-4564-954a-5ee7c8b9d4ea": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16213548138665__140486f5-bbbd-4564-954a-5ee7c8b9d4ea-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><strong>Already An Approved Retailer?<\/strong><\/h6><p>Simply log in with your wholesale email to shop. All items are automatically discounted to show wholesale pricing. <\/p>"
+          }
+        },
+        "template--16213548138665__140486f5-bbbd-4564-954a-5ee7c8b9d4ea-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Login",
+            "button_link": "http:\/\/account.bravelittleones.com\/",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16213548138665__140486f5-bbbd-4564-954a-5ee7c8b9d4ea-text-1",
+        "template--16213548138665__140486f5-bbbd-4564-954a-5ee7c8b9d4ea-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "8b6e7c92-d477-4ff1-a2c1-fb1f8d5512c5": {
+      "type": "rich-text",
+      "blocks": {
+        "d8a0cbda-8c8a-4cfb-b400-dffb8568fb25": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><strong>Want To Apply To Be A Retailer? <\/strong><\/h6><p>Are you interested in carrying Brave Little Ones in your shop? Please fill out the application below to apply to become a retailer. If accepted, you will receive an email. Let's do this!<\/p><p><em>Please note: We are currently NOT selling to online retailers. Please only apply if you have a physical shop.<\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d8a0cbda-8c8a-4cfb-b400-dffb8568fb25"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "403c9dd5-e055-46d7-844b-82b68074a043": {
@@ -12,13 +68,15 @@
       "settings": {
         "custom_liquid": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"NXFcsHxzsDw-4amDhwXpMg\"><\/div>",
         "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     }
   },
   "order": [
     "e1dbd8af-265e-4df5-b679-d2b81ea6903f",
+    "140486f5-bbbd-4564-954a-5ee7c8b9d4ea",
+    "8b6e7c92-d477-4ff1-a2c1-fb1f8d5512c5",
     "403c9dd5-e055-46d7-844b-82b68074a043"
   ]
 }
