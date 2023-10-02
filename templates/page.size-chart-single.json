@@ -65,7 +65,7 @@
           "type": "link",
           "settings": {
             "linkurl": "shopify:\/\/pages\/size-chart-pullovers",
-            "linktext": "Pullovers"
+            "linktext": "Pullovers & Jackets"
           }
         },
         "0db66442-e88e-4a79-8863-90ed860914f3": {
@@ -82,18 +82,11 @@
             "linktext": "Women's"
           }
         },
-        "8751b13a-2726-47fd-9d0b-d569aca32589": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart-denim-jacket",
-            "linktext": "Denim Jacket"
-          }
-        },
         "8273db02-551d-447f-8450-ebd5de3d73c0": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart-denim-jeans",
-            "linktext": "Denim Jeans"
+            "linkurl": "shopify:\/\/pages\/copy-of-size-chart-joggers",
+            "linktext": "Joggers"
           }
         },
         "3066519c-c420-4a98-998c-91bdff7cb1f6": {
@@ -120,7 +113,6 @@
         "3ea562d7-75de-4617-bddc-0eb73863a4b5",
         "0db66442-e88e-4a79-8863-90ed860914f3",
         "c0d37a81-2097-4705-aad4-d16156da235a",
-        "8751b13a-2726-47fd-9d0b-d569aca32589",
         "8273db02-551d-447f-8450-ebd5de3d73c0",
         "3066519c-c420-4a98-998c-91bdff7cb1f6",
         "da857c37-8080-4c13-9a5d-4fae1dfd9541"
