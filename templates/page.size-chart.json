@@ -196,6 +196,16 @@
         "padding_bottom": 0
       }
     },
+    "9c37fd43-ee0f-403c-9428-e3bb19423441": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-zip-up-jacket",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "8ca026ea-12d0-4109-bee3-3a6916272260": {
       "type": "page",
       "disabled": true,
@@ -331,6 +341,7 @@
     "771a57e9-bfd8-4e2d-be7c-86bb4c7c1593",
     "9486a264-bd0b-4a71-a340-df728a608f53",
     "5767a37f-7246-45d5-90f4-cbb29737447f",
+    "9c37fd43-ee0f-403c-9428-e3bb19423441",
     "8ca026ea-12d0-4109-bee3-3a6916272260",
     "5ec1dda7-5feb-4d18-86ba-b05741ef686a",
     "a15f9bd2-d25d-4ec9-8a26-498726436bd1",
