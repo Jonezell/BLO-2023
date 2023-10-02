@@ -149,6 +149,7 @@
       "block_order": [
         "template--16193075478697__83c7f0d5-ab57-4cd7-8330-c9a193b522aa-text-1"
       ],
+      "disabled": true,
       "custom_css": [
         ".rich-text__text {border-radius: 16px; background: rgba(0, 0, 0, 0.03); text-align: left !important; padding: 30px; max-width: 450px; margin: auto;}",
         "ol {list-style-position: outside;}"
