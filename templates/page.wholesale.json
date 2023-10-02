@@ -81,6 +81,7 @@
       "blocks": {
         "fee7fa07-0282-4a58-9808-550c67af6ad1": {
           "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "disabled": true,
           "settings": {
             "form_id": "26887",
             "text_color": "#202020",
@@ -95,10 +96,41 @@
             "padding_right": 0,
             "padding_left": 0
           }
+        },
+        "f2694ca0-bddf-4d2f-92dc-cc5adabf3ecd": {
+          "type": "shopify:\/\/apps\/hulk-form-builder\/blocks\/form-block\/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "settings": {
+            "form_uuid": "NXFcsHxzsDw-4amDhwXpMg",
+            "form_settings": false,
+            "font_color": "#000000",
+            "size": 14,
+            "input_background_color": "#FFF",
+            "input_background_color_focus": "#F4DADA",
+            "input_border_radius": 1,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2D2727",
+            "input_font_color": "#3D3131",
+            "input_size": 14,
+            "border_color": "#121212",
+            "border_radius": 2,
+            "border": 1,
+            "fill_color": "#EBE9E9",
+            "padding": 35,
+            "form_width": 600,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#F3F3F3",
+            "sub_btn_bg_color": "#3F3333",
+            "sub_btn_font_size": 14,
+            "sub_btn_bdr_color": "#FFFFFF",
+            "sub_btn_bdr_rad": 3,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Times New Roman"
+          }
         }
       },
       "block_order": [
-        "fee7fa07-0282-4a58-9808-550c67af6ad1"
+        "fee7fa07-0282-4a58-9808-550c67af6ad1",
+        "f2694ca0-bddf-4d2f-92dc-cc5adabf3ecd"
       ],
       "settings": {
         "include_margins": true
