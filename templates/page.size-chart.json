@@ -73,7 +73,14 @@
           "type": "link",
           "settings": {
             "linkurl": "shopify:\/\/pages\/size-chart-pullovers",
-            "linktext": "Pullovers"
+            "linktext": "Pullovers & Jackets"
+          }
+        },
+        "8273db02-551d-447f-8450-ebd5de3d73c0": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart-denim-jeans",
+            "linktext": "Joggers"
           }
         },
         "0db66442-e88e-4a79-8863-90ed860914f3": {
@@ -88,20 +95,6 @@
           "settings": {
             "linkurl": "shopify:\/\/pages\/size-chart-womens",
             "linktext": "Women's"
-          }
-        },
-        "8751b13a-2726-47fd-9d0b-d569aca32589": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart-denim-jacket",
-            "linktext": "Denim Jacket"
-          }
-        },
-        "8273db02-551d-447f-8450-ebd5de3d73c0": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart-denim-jeans",
-            "linktext": "Denim Jeans"
           }
         },
         "3066519c-c420-4a98-998c-91bdff7cb1f6": {
@@ -126,10 +119,9 @@
         "218cbd96-4e3d-4508-ac20-6bde851e6168",
         "e7f7c58f-c2ea-4c1a-af2d-6e02d5b06c32",
         "3ea562d7-75de-4617-bddc-0eb73863a4b5",
+        "8273db02-551d-447f-8450-ebd5de3d73c0",
         "0db66442-e88e-4a79-8863-90ed860914f3",
         "c0d37a81-2097-4705-aad4-d16156da235a",
-        "8751b13a-2726-47fd-9d0b-d569aca32589",
-        "8273db02-551d-447f-8450-ebd5de3d73c0",
         "3066519c-c420-4a98-998c-91bdff7cb1f6",
         "da857c37-8080-4c13-9a5d-4fae1dfd9541"
       ],
@@ -238,6 +230,16 @@
         "padding_bottom": 0
       }
     },
+    "ce737103-36cb-4cee-8b64-8e546617e9aa": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-womens-pullovers",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "47b0d8f5-299b-42b0-b874-ca253e892726": {
       "type": "page",
       "settings": {
@@ -303,7 +305,7 @@
     "9213c041-fb28-4c2a-b003-7ca859c08fb0": {
       "type": "page",
       "settings": {
-        "page": "size-chart-denim-jeans",
+        "page": "copy-of-size-chart-joggers",
         "heading_size": "h2",
         "color_scheme": "",
         "padding_top": 0,
@@ -345,6 +347,7 @@
     "8ca026ea-12d0-4109-bee3-3a6916272260",
     "5ec1dda7-5feb-4d18-86ba-b05741ef686a",
     "a15f9bd2-d25d-4ec9-8a26-498726436bd1",
+    "ce737103-36cb-4cee-8b64-8e546617e9aa",
     "47b0d8f5-299b-42b0-b874-ca253e892726",
     "91eefe05-a9b2-452a-9e4b-36aa5372d5ba",
     "9e9d8462-79f6-49ae-af03-58e169404325",
