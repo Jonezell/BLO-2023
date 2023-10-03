@@ -59,6 +59,13 @@
             "linkurl": "shopify:\/\/collections\/briefs-underwear",
             "linktext": "Briefs & Underwear"
           }
+        },
+        "dee1a879-cf41-41d0-aee7-1f687922f483": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/joggers",
+            "linktext": "Joggers"
+          }
         }
       },
       "block_order": [
@@ -68,7 +75,8 @@
         "935d152d-e76b-41a6-95f9-1b60cf498497",
         "56714d5f-b58e-4848-9c86-5637c77d3aa5",
         "15eb5570-bf60-4c67-9565-a2bb47e4b5b9",
-        "5cc99d2a-511d-42e6-8df4-8d54268c2568"
+        "5cc99d2a-511d-42e6-8df4-8d54268c2568",
+        "dee1a879-cf41-41d0-aee7-1f687922f483"
       ],
       "settings": {
       }
