@@ -35,6 +35,7 @@
         "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-text-1",
         "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "image_main": "shopify:\/\/shop_images\/image-main_7a2178e1-d699-4cf0-a467-eab98a34cb6b.jpg",
         "image_secondary": "shopify:\/\/shop_images\/image-secondary_b925c196-bddc-4c59-9b3d-c2276be46161.jpg",
@@ -72,7 +73,6 @@
         "10bbc462-2e5b-4f38-b81a-b6b95efa501d",
         "4658ae19-32a4-4ec9-a32e-cbb21ab225ab"
       ],
-      "disabled": true,
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/Banner-Desktop_f4f0b646-a1d6-4862-bf54-4fe431e7098c.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Banner-Mobile_0f4e037f-2282-43a4-958a-a802f5fc3fcd.jpg"
