@@ -12,20 +12,20 @@
         "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Ahoy mateys!"
+            "heading": "Jog into fall with us."
           }
         },
         "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-text-1": {
           "type": "text",
           "settings": {
-            "text": "The X marks the spot. You have arrived to the treasure, our new Pirate Ships collection! Now available in our core styles, and our new Youth Blanket and Shorts Set. Use code ‘Pirate’ for 20% off until midnight tonight!"
+            "text": "New buttery soft Joggers, Kids Pullovers and Women's Pullovers just released. And they're 20% off with code 'Joggers' until midnight tonight."
           }
         },
         "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-buttons-1": {
           "type": "buttons",
           "settings": {
             "button_label": "Shop New Release",
-            "button_link": "shopify:\/\/collections\/new"
+            "button_link": "https:\/\/bravelittleones.com\/discount\/Joggers?redirect=%2Fcollections%2Fpullovers-joggers-beanies-release"
           }
         }
       },
@@ -35,12 +35,11 @@
         "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-text-1",
         "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-buttons-1"
       ],
-      "disabled": true,
       "settings": {
-        "image_main": "shopify:\/\/shop_images\/Image-Main_b54fa709-f853-440f-bd08-ae95ab87253b.jpg",
-        "image_secondary": "shopify:\/\/shop_images\/Image-Secondary_d9c3277b-2eeb-42ea-8464-c9158c8f8714.jpg",
-        "color_text": "#ffffff",
-        "color_background": "#778C9A",
+        "image_main": "shopify:\/\/shop_images\/image-main_7a2178e1-d699-4cf0-a467-eab98a34cb6b.jpg",
+        "image_secondary": "shopify:\/\/shop_images\/ezgif.com-optimize_1.gif",
+        "color_text": "#161616",
+        "color_background": "#EFE8DE",
         "background_image_desktop": "shopify:\/\/shop_images\/banner-background-desktop_3d55eeae-8bb0-4b96-8413-1a5e23f43339.svg",
         "background_image_desktop_pin": "bottom left",
         "background_image_mobile": "shopify:\/\/shop_images\/banner-background-mobile_89726390-3ea8-418a-a7e1-4624e7f8d4fc.svg",
@@ -75,6 +74,7 @@
         "10bbc462-2e5b-4f38-b81a-b6b95efa501d",
         "4658ae19-32a4-4ec9-a32e-cbb21ab225ab"
       ],
+      "disabled": true,
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/Banner-Desktop_f4f0b646-a1d6-4862-bf54-4fe431e7098c.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Banner-Mobile_0f4e037f-2282-43a4-958a-a802f5fc3fcd.jpg"
