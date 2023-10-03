@@ -65,7 +65,7 @@
 
 {% render 'blo-edge-texture', pinDirection: 'bottom' %}
 
-{% javascript %}
+<script>
   (function () {
     const parallaxElements = document.querySelectorAll('[class*="parallax"]');
 
@@ -80,7 +80,7 @@
       }
     });
   })();
-{% endjavascript %}
+</script>
 
 {%- style -%}
   .blo-banner-release {
