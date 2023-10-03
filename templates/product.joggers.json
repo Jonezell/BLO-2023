@@ -23,7 +23,7 @@
           "settings": {
             "label": "Style",
             "style": "image",
-            "target_collection": "pullovers",
+            "target_collection": "joggers",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
