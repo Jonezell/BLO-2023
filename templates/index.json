@@ -37,12 +37,10 @@
       ],
       "settings": {
         "image_main": "shopify:\/\/shop_images\/image-main_7a2178e1-d699-4cf0-a467-eab98a34cb6b.jpg",
-        "image_secondary": "shopify:\/\/shop_images\/ezgif.com-optimize_1.gif",
+        "image_secondary": "shopify:\/\/shop_images\/image-secondary_b925c196-bddc-4c59-9b3d-c2276be46161.jpg",
         "color_text": "#161616",
         "color_background": "#EFE8DE",
-        "background_image_desktop": "shopify:\/\/shop_images\/banner-background-desktop_3d55eeae-8bb0-4b96-8413-1a5e23f43339.svg",
         "background_image_desktop_pin": "bottom left",
-        "background_image_mobile": "shopify:\/\/shop_images\/banner-background-mobile_89726390-3ea8-418a-a7e1-4624e7f8d4fc.svg",
         "background_image_mobile_pin": "bottom left"
       }
     },
