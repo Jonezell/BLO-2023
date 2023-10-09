@@ -27,6 +27,7 @@
         },
         "8b8a8e1e-7198-453c-96d0-26e653a9eae4": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "linkurl": "shopify:\/\/collections\/summer-zip-rompers",
             "linktext": "Summer Zip Rompers"
