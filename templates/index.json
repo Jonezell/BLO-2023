@@ -40,9 +40,9 @@
         "image_secondary": "shopify:\/\/shop_images\/image-secondary_b925c196-bddc-4c59-9b3d-c2276be46161.jpg",
         "color_text": "#ffffff",
         "color_background": "#345C45",
-        "background_image_desktop": "shopify:\/\/shop_images\/banner-background-desktop_3x_efa8c8bf-27cb-40a7-b434-2807c0e9d4f8.jpg",
+        "background_image_desktop": "shopify:\/\/shop_images\/banner-background-desktop_3x_1.jpg",
         "background_image_desktop_pin": "bottom right",
-        "background_image_mobile": "shopify:\/\/shop_images\/banner-background-mobile_3x_73d3c306-20c1-4f15-b93b-99b4d2a9e749.jpg",
+        "background_image_mobile": "shopify:\/\/shop_images\/banner-background-mobile_3x_1.jpg",
         "background_image_mobile_pin": "bottom right"
       }
     },
