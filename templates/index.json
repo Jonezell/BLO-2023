@@ -38,9 +38,11 @@
       "settings": {
         "image_main": "shopify:\/\/shop_images\/image-main_7a2178e1-d699-4cf0-a467-eab98a34cb6b.jpg",
         "image_secondary": "shopify:\/\/shop_images\/image-secondary_b925c196-bddc-4c59-9b3d-c2276be46161.jpg",
-        "color_text": "#161616",
-        "color_background": "#EFE8DE",
+        "color_text": "#ffffff",
+        "color_background": "#345C45",
+        "background_image_desktop": "shopify:\/\/shop_images\/banner-background-desktop_3x_00afb5e1-10f0-49af-be56-22b2f67732d8.jpg",
         "background_image_desktop_pin": "bottom left",
+        "background_image_mobile": "shopify:\/\/shop_images\/banner-background-mobile_3x_d45f4a98-2375-4f0f-bbd8-0384c11b7e85.jpg",
         "background_image_mobile_pin": "bottom left"
       }
     },
