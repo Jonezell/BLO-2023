@@ -214,18 +214,13 @@
       padding-top: 130px;
       padding-bottom: 130px;
     }
-
-
-
-
-
   }
 
 
   {% if section.settings.background_image_desktop %}
     @media screen and (min-width: 990px) {
       .blo-banner-release {
-        background-image: url(  {{ section.settings.background_image_desktop | image_url: width: 1000 }} );
+        background-image: url(  {{ section.settings.background_image_desktop | image_url: width: 3200 }} );
         background-size: cover;
         background-repeat: no-repeat;
         background-position: {{ section.settings.background_image_desktop_pin }};
@@ -236,7 +231,7 @@
   {% if section.settings.background_image_mobile %}
     @media screen and (max-width: 989px) {
       .blo-banner-release {
-        background-image: url(  {{ section.settings.background_image_mobile | image_url: width: 1000 }} );
+        background-image: url(  {{ section.settings.background_image_mobile | image_url: width: 900 }} );
         background-size: cover;
         background-repeat: no-repeat;
         background-position: {{ section.settings.background_image_mobile_pin }};
