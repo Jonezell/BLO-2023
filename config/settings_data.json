@@ -170,6 +170,18 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "914574027208035924": {
+        "type": "shopify:\/\/apps\/camouflage-hide-sold-variants\/blocks\/hide-oos-variants\/12f79890-9cb9-4b70-ac12-64dd825d687e",
+        "disabled": false,
+        "settings": {
+          "theme_name": "",
+          "selector_type": "",
+          "hide_oos_variants": false,
+          "strikethrough_oos_variants": false,
+          "other_file_name": "",
+          "reverse_options": false
+        }
       }
     },
     "color_schemes": {
