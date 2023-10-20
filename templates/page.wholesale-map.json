@@ -16,6 +16,9 @@
     },
     "ee0db542-6c3c-4fed-8f52-ed92facdac10": {
       "type": "custom-liquid",
+      "custom_css": [
+        "#map {border-radius: 16px;}"
+      ],
       "settings": {
         "custom_liquid": "<div class=\"layout_container map-new-theme cs_map_container\" data-url=\"https:\/\/msl.cirkleinc.com\/default\/loader.gif\"><\/div><script src=\"https:\/\/msl.cirkleinc.com\/js\/frontend.js?v={{ \"now\" | date: \"%s\" }}\"><\/script>",
         "color_scheme": "",
