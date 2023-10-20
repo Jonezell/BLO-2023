@@ -182,6 +182,12 @@
           "other_file_name": "",
           "reverse_options": false
         }
+      },
+      "11646226146262861653": {
+        "type": "shopify:\/\/apps\/msl-multi-store-locators\/blocks\/install-snippets\/f3e7679d-2a7b-4c2c-8e91-6ba7b432967a",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
