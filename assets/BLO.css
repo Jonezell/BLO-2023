@@ -1194,9 +1194,9 @@ quick-order-list .quick-order-list__table th {
       padding-left: 0;
       margin-bottom: 20px;
   }
-  .map-new-theme .map-new-theme-row {
+  .map-new-theme.cs_map_container .map-new-theme-row {
     margin-left:0;
-    margin-right:0
+    margin-right:0;
   }
 }
 
