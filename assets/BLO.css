@@ -1190,7 +1190,7 @@ quick-order-list .quick-order-list__table th {
   border-left: none;
 }
 @media screen and (max-width: 767px) {
-  .map-new-theme .map-col {
+  .map-new-theme.cs_map_container .map-col {
       padding-left: 0;
       margin-bottom: 20px;
   }
