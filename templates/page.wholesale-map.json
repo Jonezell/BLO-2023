@@ -18,13 +18,13 @@
       "custom_css": [
         "#map {border-radius: 16px;}",
         ".mnt-location-list {border: none; border-radius: 16px;}",
-        ".newsearch-input {height: 48px; max-height:48px; padding: 10px 21px; border-radius: 16px; border: none;}"
+        ".newsearch-input {height: 48px; max-height: 48px; padding: 10px 21px; border-radius: 16px; border: none;}"
       ],
       "settings": {
         "custom_liquid": "<div class=\"layout_container map-new-theme cs_map_container\" data-url=\"https:\/\/msl.cirkleinc.com\/default\/loader.gif\"><\/div><script src=\"https:\/\/msl.cirkleinc.com\/js\/frontend.js?v={{ \"now\" | date: \"%s\" }}\"><\/script>",
         "color_scheme": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 100
       }
     }
   },
