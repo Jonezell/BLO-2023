@@ -1166,4 +1166,8 @@ quick-order-list .quick-order-list__table th {
 .map-new-theme.cs_map_container .mnt-locations {
   padding: 0;
 }
+.map-new-theme.cs_map_container .mnt-col-left .mnt-location-list {
+  padding: 30px 30px 0 30px;
+  margin-bottom: 0;
+}
 
