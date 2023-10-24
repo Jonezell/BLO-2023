@@ -1161,6 +1161,7 @@ quick-order-list .quick-order-list__table th {
 .map-new-theme.cs_map_container .append.map-new-theme-locations {
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
+  max-height: 620px;
 }
 .map-new-theme.cs_map_container .mnt-locations {
   padding: 0;
