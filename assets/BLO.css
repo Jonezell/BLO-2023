@@ -1134,7 +1134,6 @@ quick-order-list .quick-order-list__table th {
 }
 .map-new-theme.cs_map_container .mnt-location-list {
   border: none;
-  border-radius: 16px;
 }
 .map-new-theme.cs_map_container .newsearch-input {
   height: 48px;
@@ -1179,5 +1178,8 @@ quick-order-list .quick-order-list__table th {
 }
 .map-new-theme.cs_map_container .mnt-location-list .polaris-detail {
   margin-bottom: 0px;
+}
+.map-new-theme .mnt-locations li.mnt-location-list.active {
+  border-left-color: #ddd;
 }
 
