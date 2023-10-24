@@ -1179,7 +1179,7 @@ quick-order-list .quick-order-list__table th {
 .map-new-theme.cs_map_container .mnt-location-list .polaris-detail {
   margin-bottom: 0px;
 }
-.map-new-theme .mnt-locations li.mnt-location-list.active {
+.map-new-theme.cs_map_container .mnt-locations li.mnt-location-list.active {
   border-left: 1px solid #ddd;
 }
 
