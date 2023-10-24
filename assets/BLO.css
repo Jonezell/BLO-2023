@@ -1182,7 +1182,10 @@ quick-order-list .quick-order-list__table th {
 }
 .map-new-theme.cs_map_container .mnt-locations li.mnt-location-list.active {
   border-left: none;
-  border-right: 2px solid #191919;
+  border-right: 2px solid #fff;
   border-radius: 0;
+}
+.map-new-theme.cs_map_container .mnt-locations li.mnt-location-list.active {
+  border-right: 2px solid #191919;
 }
 
