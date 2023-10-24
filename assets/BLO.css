@@ -1180,6 +1180,6 @@ quick-order-list .quick-order-list__table th {
   margin-bottom: 0px;
 }
 .map-new-theme .mnt-locations li.mnt-location-list.active {
-  border-left-color: #ddd;
+  border-left: 1px solid #ddd;
 }
 
