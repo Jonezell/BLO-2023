@@ -281,11 +281,11 @@
           "settings": {
             "collection_group_title": "Prints",
             "collection_list": [
-              "pirates",
-              "seaside-small-ribbed",
-              "dogs",
-              "cream-floral",
-              "moon-phases-small-ribbed"
+              "scattered-floral-small-ribbed",
+              "christmas-trees-small-ribbed",
+              "winter-wonderland",
+              "astronauts",
+              "cream-floral"
             ]
           }
         },
@@ -294,11 +294,11 @@
           "settings": {
             "collection_group_title": "Small Ribbed",
             "collection_list": [
+              "berry-red-small-ribbed",
+              "seaside-small-ribbed",
               "camel-small-ribbed",
               "camel-stripe",
-              "blue-small-stripe",
-              "lilac-small-ribbed",
-              "coastal-blue-small-ribbed"
+              "blue-small-stripe"
             ]
           }
         },
