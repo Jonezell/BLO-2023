@@ -1130,7 +1130,7 @@ quick-order-list .quick-order-list__table th {
 /* ----- WHOLESALE MAP ------ */
 .map-new-theme.cs_map_container {
   margin: auto;
-  max-width: 1450px;
+  max-width: 1500px;
 }
 .map-new-theme.cs_map_container #map {
   border-radius: 16px;
