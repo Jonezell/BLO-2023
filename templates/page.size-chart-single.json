@@ -75,6 +75,13 @@
             "linktext": "Zip-Ups"
           }
         },
+        "e65e0672-3b49-4dc9-a6e6-d5b5e28ec5d4": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart-puffer-jackets",
+            "linktext": "Puffer Jackets"
+          }
+        },
         "8273db02-551d-447f-8450-ebd5de3d73c0": {
           "type": "link",
           "settings": {
@@ -126,6 +133,7 @@
         "e7f7c58f-c2ea-4c1a-af2d-6e02d5b06c32",
         "3ea562d7-75de-4617-bddc-0eb73863a4b5",
         "c2585bb3-93a6-4651-933a-57f5f8bc8fa9",
+        "e65e0672-3b49-4dc9-a6e6-d5b5e28ec5d4",
         "8273db02-551d-447f-8450-ebd5de3d73c0",
         "0db66442-e88e-4a79-8863-90ed860914f3",
         "3066519c-c420-4a98-998c-91bdff7cb1f6",
