@@ -182,7 +182,7 @@
           "settings": {
             "pin_direction": "top_right",
             "block_title": "Functional Hood",
-            "block_text": "Keep your little ones warm and dry with our high-quality functional hood.",
+            "block_text": "Keep your little ones head and neck warm  with the built in hood.",
             "horizontal_position": 28,
             "vertical_position": 16
           }
@@ -192,7 +192,7 @@
           "settings": {
             "pin_direction": "top_left",
             "block_title": "Water & Wind Resistant",
-            "block_text": "Stay Cozy and Dry in Cold Weather with Our Water and Wind Resistant Exterior.",
+            "block_text": "Your kiddos will stay cozy and dry even in windy, rainy weather thanks to the water and wind resistant exterior.",
             "horizontal_position": 14,
             "vertical_position": 40
           }
@@ -202,7 +202,7 @@
           "settings": {
             "pin_direction": "top_right",
             "block_title": "2.7 Tog",
-            "block_text": "Our jacket has a 2.7 Tog thermal rating, ensuring optimal warmth for your little ones.",
+            "block_text": "Our Puffer Jacket has a 2.7 Tog thermal rating to ensure optimal warmth through all the cooler seasons.",
             "horizontal_position": 20,
             "vertical_position": 58
           }
@@ -212,7 +212,7 @@
           "settings": {
             "pin_direction": "top_left",
             "block_title": "Functional Pockets",
-            "block_text": "Our jacket is designed with functional front pockets to provide warmth and convenience for your little ones' hands.",
+            "block_text": "Our jacket is designed with perfectly-sized front pockets to provide warmth and convenience for little hands.",
             "horizontal_position": 22,
             "vertical_position": 76
           }
