@@ -73,12 +73,41 @@
         "padding_top": 0,
         "padding_bottom": 100
       }
+    },
+    "6224feee-e26c-491a-8929-2ec8c39d5fc5": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Berry Red Small Ribbed",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "berry-red-small-ribbed",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
     "f79c2716-da98-4e7f-920f-34904eed478b",
     "main",
     "1692815720b7b1de5f",
-    "d54ebb00-bab5-4860-8721-612e4e6ec43d"
+    "d54ebb00-bab5-4860-8721-612e4e6ec43d",
+    "6224feee-e26c-491a-8929-2ec8c39d5fc5"
   ]
 }
