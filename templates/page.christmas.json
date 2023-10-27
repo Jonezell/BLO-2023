@@ -74,43 +74,15 @@
         "padding_bottom": 100
       }
     },
-    "6224feee-e26c-491a-8929-2ec8c39d5fc5": {
+    "e143930d-9165-4e09-a107-29971512fffc": {
       "type": "featured-collection",
       "settings": {
-        "title": "Berry Red Small Ribbed",
+        "title": "Cookies & Milk",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "berry-red-small-ribbed",
-        "products_to_show": 25,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": true,
-        "enable_quick_add": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 100
-      }
-    },
-    "a4dc72c8-b739-4ba1-bda3-e5b9b25a0bdd": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Scattered Floral Small Ribbed",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "scattered-floral-small-ribbed",
+        "collection": "cookies-and-milk",
         "products_to_show": 25,
         "columns_desktop": 4,
         "full_width": false,
@@ -213,6 +185,62 @@
         "padding_top": 0,
         "padding_bottom": 100
       }
+    },
+    "a4dc72c8-b739-4ba1-bda3-e5b9b25a0bdd": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Scattered Floral Small Ribbed",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "scattered-floral-small-ribbed",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "6224feee-e26c-491a-8929-2ec8c39d5fc5": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Berry Red Small Ribbed",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "berry-red-small-ribbed",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
@@ -220,10 +248,11 @@
     "main",
     "1692815720b7b1de5f",
     "d54ebb00-bab5-4860-8721-612e4e6ec43d",
-    "6224feee-e26c-491a-8929-2ec8c39d5fc5",
-    "a4dc72c8-b739-4ba1-bda3-e5b9b25a0bdd",
+    "e143930d-9165-4e09-a107-29971512fffc",
     "14772b19-f3cf-46a4-b240-daefb461e3f6",
     "d1386e57-9a22-4ddd-af48-87d40a7bf576",
-    "f2347f84-5a30-4b2a-97d5-c08f63ce1a75"
+    "f2347f84-5a30-4b2a-97d5-c08f63ce1a75",
+    "a4dc72c8-b739-4ba1-bda3-e5b9b25a0bdd",
+    "6224feee-e26c-491a-8929-2ec8c39d5fc5"
   ]
 }
