@@ -1,5 +1,13 @@
 {
   "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "f79c2716-da98-4e7f-920f-34904eed478b": {
       "type": "blo-banner-release",
       "blocks": {
@@ -31,30 +39,15 @@
         "background_image_mobile_pin": "bottom right"
       }
     },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
-    "1692815720b7b1de5f": {
-      "type": "apps",
-      "disabled": true,
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "d54ebb00-bab5-4860-8721-612e4e6ec43d": {
+    "e143930d-9165-4e09-a107-29971512fffc": {
       "type": "featured-collection",
       "settings": {
-        "title": "Winter Wonderland",
+        "title": "Cookies & Milk",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "winter-wonderland",
+        "collection": "cookies-and-milk",
         "products_to_show": 25,
         "columns_desktop": 4,
         "full_width": false,
@@ -74,15 +67,15 @@
         "padding_bottom": 100
       }
     },
-    "e143930d-9165-4e09-a107-29971512fffc": {
+    "d54ebb00-bab5-4860-8721-612e4e6ec43d": {
       "type": "featured-collection",
       "settings": {
-        "title": "Cookies & Milk",
+        "title": "Winter Wonderland",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "cookies-and-milk",
+        "collection": "winter-wonderland",
         "products_to_show": 25,
         "columns_desktop": 4,
         "full_width": false,
@@ -241,18 +234,25 @@
         "padding_top": 0,
         "padding_bottom": 100
       }
+    },
+    "1692815720b7b1de5f": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "f79c2716-da98-4e7f-920f-34904eed478b",
     "main",
-    "1692815720b7b1de5f",
-    "d54ebb00-bab5-4860-8721-612e4e6ec43d",
+    "f79c2716-da98-4e7f-920f-34904eed478b",
     "e143930d-9165-4e09-a107-29971512fffc",
+    "d54ebb00-bab5-4860-8721-612e4e6ec43d",
     "14772b19-f3cf-46a4-b240-daefb461e3f6",
     "d1386e57-9a22-4ddd-af48-87d40a7bf576",
     "f2347f84-5a30-4b2a-97d5-c08f63ce1a75",
     "a4dc72c8-b739-4ba1-bda3-e5b9b25a0bdd",
-    "6224feee-e26c-491a-8929-2ec8c39d5fc5"
+    "6224feee-e26c-491a-8929-2ec8c39d5fc5",
+    "1692815720b7b1de5f"
   ]
 }
