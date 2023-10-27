@@ -26,9 +26,9 @@
         "color_text": "#ffffff",
         "color_background": "#EFE8DE",
         "background_image_desktop": "shopify:\/\/shop_images\/banner-background-desktop_bb6b85a4-92a5-4ebf-84b4-87b898f43fd2.svg",
-        "background_image_desktop_pin": "center center",
+        "background_image_desktop_pin": "bottom right",
         "background_image_mobile": "shopify:\/\/shop_images\/banner-background-mobile_657e9fd0-634b-4379-b149-7303b3fdd4ba.svg",
-        "background_image_mobile_pin": "center center"
+        "background_image_mobile_pin": "bottom right"
       }
     },
     "main": {
