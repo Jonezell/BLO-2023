@@ -24,10 +24,10 @@
         "image_main": "shopify:\/\/shop_images\/image-main_2_09bd10de-43cf-4848-983c-b6009d11afa5.jpg",
         "image_secondary": "shopify:\/\/shop_images\/image-secondary_2_20eb98d5-c693-408d-ad27-2578109f007f.jpg",
         "color_text": "#ffffff",
-        "color_background": "#EFE8DE",
+        "color_background": "#386A4D",
         "background_image_desktop": "shopify:\/\/shop_images\/banner-background-desktop.jpg",
         "background_image_desktop_pin": "bottom right",
-        "background_image_mobile": "shopify:\/\/shop_images\/banner-background-mobile_657e9fd0-634b-4379-b149-7303b3fdd4ba.svg",
+        "background_image_mobile": "shopify:\/\/shop_images\/banner-background-mobile.jpg",
         "background_image_mobile_pin": "bottom right"
       }
     },
