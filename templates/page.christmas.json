@@ -64,7 +64,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 0,
-        "padding_bottom": 100
+        "padding_bottom": 0
       }
     },
     "d54ebb00-bab5-4860-8721-612e4e6ec43d": {
@@ -92,7 +92,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 0,
-        "padding_bottom": 100
+        "padding_bottom": 0
       }
     },
     "14772b19-f3cf-46a4-b240-daefb461e3f6": {
@@ -120,7 +120,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 0,
-        "padding_bottom": 100
+        "padding_bottom": 0
       }
     },
     "d1386e57-9a22-4ddd-af48-87d40a7bf576": {
@@ -148,7 +148,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 0,
-        "padding_bottom": 100
+        "padding_bottom": 0
       }
     },
     "f2347f84-5a30-4b2a-97d5-c08f63ce1a75": {
@@ -176,7 +176,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 0,
-        "padding_bottom": 100
+        "padding_bottom": 0
       }
     },
     "a4dc72c8-b739-4ba1-bda3-e5b9b25a0bdd": {
@@ -204,7 +204,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 0,
-        "padding_bottom": 100
+        "padding_bottom": 0
       }
     },
     "6224feee-e26c-491a-8929-2ec8c39d5fc5": {
