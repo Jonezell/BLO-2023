@@ -25,6 +25,13 @@
             "linktext": "Zip Rompers"
           }
         },
+        "9e3384c2-2994-4cab-8795-139c8c11c8ac": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/summer-zip-rompers",
+            "linktext": "Summer Zip Rompers"
+          }
+        },
         "06cbbc59-d1ca-4ea9-9e13-e589d26a9257": {
           "type": "link",
           "settings": {
@@ -72,6 +79,7 @@
       "block_order": [
         "c7403c74-bc41-4a26-823f-d207c3c66ce5",
         "6bfd07ee-031a-4a56-9f00-117c1b95dedd",
+        "9e3384c2-2994-4cab-8795-139c8c11c8ac",
         "06cbbc59-d1ca-4ea9-9e13-e589d26a9257",
         "ce317e5e-870e-41bf-a460-b0fd9a4657bd",
         "bed93f4f-df10-456b-ac64-e625a9bd569e",
