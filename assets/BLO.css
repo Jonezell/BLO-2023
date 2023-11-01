@@ -232,7 +232,9 @@ p, .p, footer .footer-block__details-content a, .facets-vertical .facet-checkbox
     border: none;
     box-shadow: none;
 }
-
+.shopify-section .collection .product-card-wrapper .quick-add__submit svg {
+  margin-left:0;
+}
 
 
 
