@@ -41,7 +41,6 @@
     },
     "e143930d-9165-4e09-a107-29971512fffc": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Deer Tree Farm",
         "heading_size": "h2",
@@ -70,7 +69,6 @@
     },
     "a7343653-88c0-4579-aae5-2da000c71bd4": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Red Stripe Small Ribbed",
         "heading_size": "h2",
