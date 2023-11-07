@@ -766,8 +766,8 @@ facet-remove .active-facets__button--light .active-facets__button-inner:active {
 }
 
 .blo-custom-sort {
-    border-top: 2px solid var(--greyscale-Black);
-    border-bottom: 2px solid var(--greyscale-Black);
+    border-top: 2px solid var(--tan-Dark);
+    border-bottom: 2px solid var(--tan-Dark);
     padding-top: 14px;
     padding-bottom: 14px;
     width: 26rem;
