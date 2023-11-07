@@ -695,7 +695,7 @@ facet-remove .active-facets__button--light .active-facets__button-inner:active {
     opacity: 1;
 }
 .facets__form-vertical .facets__disclosure-vertical{
-    border-top: 2px solid var(--greyscale-Black, #161616);
+    border-top: 2px solid var(--tan-Dark);
 }
 .active-facets-vertical-filter h2 {
     font-size: 22px;
