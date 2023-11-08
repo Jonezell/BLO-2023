@@ -55,6 +55,7 @@
         },
         "56714d5f-b58e-4848-9c86-5637c77d3aa5": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "linkurl": "shopify:\/\/collections\/swim-trunks",
             "linktext": "Swim Trunks"
