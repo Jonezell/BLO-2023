@@ -132,6 +132,9 @@
 .mega-menu__link {
   color: var(--greyscale-Black, #161616);
 }
+.mega-menu__content .mega-menu__list li {
+  padding-right: 0;
+}
 .mega-menu .BLO-megamenu-link {
   border-radius: var(--blo-corner-radius);
   background-color: var(--tan-Medium);
