@@ -140,6 +140,7 @@
   flex-direction: column;
   padding-top:0;
   padding-bottom: 10px;
+  overflow: hidden;
 }
 .BLO-megamenu-image {
   width: 150px;
