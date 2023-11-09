@@ -136,21 +136,22 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 10px !important;
   overflow: hidden;
   width: 150px;
   text-align: center;
-  font-size: 14px;
-  line-height: 130%;
   height: 100%;
 }
 .mega-menu .BLO-megamenu-image {
   width: 100%;
   height: auto;
   display: inline-block;
-  margin-bottom: 10px;
 }
-
+.mega-menu .BLO-megamenu-link h6 { 
+  padding: 10px 5px;
+  font-size: 14px;
+  line-height: 130%;
+  margin: 0;
+}
 
 
 
