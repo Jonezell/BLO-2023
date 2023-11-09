@@ -86,26 +86,26 @@
         "402865f8-3ebd-46a7-b5ef-971309eda3a8": {
           "type": "collection_group",
           "settings": {
-            "collection_group_title": "Baby",
+            "collection_group_title": "PJs",
             "collection_list": [
               "zip-rompers",
               "summer-zip-rompers",
+              "two-piece-sets",
               "knotted-gowns",
-              "stretchy-swaddle-sets",
-              "shop-all-baby"
+              "shop-all-pjs"
             ]
           }
         },
         "444d7551-af1d-4be4-bb9f-28000a878f9b": {
           "type": "collection_group",
           "settings": {
-            "collection_group_title": "Toddler",
+            "collection_group_title": "Daywear",
             "collection_list": [
-              "two-piece-sets",
-              "shirts",
+              "shirts-tanks",
               "pullovers-jackets",
+              "joggers",
               "briefs-underwear",
-              "shop-all-toddler"
+              "daywear"
             ]
           }
         },
@@ -114,8 +114,8 @@
           "settings": {
             "collection_group_title": "Accessories",
             "collection_list": [
-              "blankets",
               "bows",
+              "top-knot-beanies",
               "trucker-hats",
               "backpacks",
               "accessories"
@@ -127,10 +127,10 @@
           "settings": {
             "collection_group_title": "And More",
             "collection_list": [
+              "blankets",
+              "crib-sheets",
+              "twin-sheets",
               "womens",
-              "pullovers-jackets",
-              "daywear",
-              "shop-all-pjs",
               "shop-all"
             ]
           }
