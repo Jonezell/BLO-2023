@@ -136,7 +136,6 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 5px;
   padding-bottom: 10px !important;
   overflow: hidden;
   width: 150px;
