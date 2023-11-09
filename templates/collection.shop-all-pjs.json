@@ -63,6 +63,7 @@
         },
         "0b1bf622-1748-4727-926b-686d2e62abb4": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "linkurl": "shopify:\/\/collections\/stretchy-swaddle-sets",
             "linktext": "Swaddle Sets"
@@ -70,6 +71,7 @@
         },
         "6990c498-8d70-4b53-a053-736a03b83fc0": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "linkurl": "shopify:\/\/collections\/muslin-swaddles",
             "linktext": "Muslin Swaddles"
