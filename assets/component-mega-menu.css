@@ -117,13 +117,15 @@
   border-bottom: 2px solid var(--tan-Medium);
 }
 .mega-menu__content .mega-menu__list {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  gap: 15px;
 }
 .mega-menu__content .mega-menu__list li{
   width: auto;
   text-align: left;
+  padding-right: 0;
 }
 
 .mega-menu__content .mega-menu__list .mega-menu__link {
@@ -131,13 +133,6 @@
 }
 .mega-menu__link {
   color: var(--greyscale-Black, #161616);
-}
-.mega-menu__content .mega-menu__list li {
-  padding-right: 0;
-}
-.mega-menu__content .mega-menu__list {
-  justify-content: center;
-  gap: 15px;
 }
 .mega-menu .BLO-megamenu-link {
   border-radius: var(--blo-corner-radius);
