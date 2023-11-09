@@ -146,7 +146,7 @@
   cursor: pointer;
 }
 .mega-menu .BLO-megamenu-link:hover .BLO-megamenu-image {
-  transform: scale(2);
+  transform: scale(1.1);
   transition: 200ms ease-in-out;
 }
 .mega-menu .BLO-megamenu-image {
