@@ -44,17 +44,7 @@
                           aria-current="page"
                         {% endif %}
                       >
-                      <img
-                        srcset="
-                          
-                          {{ childlink.featured_image | image_url }} 500w
-                        "
-                        src="{{ childlink.featured_image | image_url: width: 500 }}"
-                        alt=""
-                        loading="lazy"
-                        class="motion-reduce"
-                      >
-
+                        <img class="mega-menu__link-image" src="{{ childlink.object.image | img_url: '500x' }}">
                         {{ childlink | json }}
 
                         
