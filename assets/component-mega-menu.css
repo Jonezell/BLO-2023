@@ -135,6 +135,10 @@
 .mega-menu__content .mega-menu__list li {
   padding-right: 0;
 }
+.mega-menu__content .mega-menu__list {
+  justify-content: center;
+  gap: 15px;
+}
 .mega-menu .BLO-megamenu-link {
   border-radius: var(--blo-corner-radius);
   background-color: var(--tan-Medium);
@@ -154,9 +158,7 @@
   display: inline-block;
   margin-bottom: 10px;
 }
-.mega-menu__content .mega-menu__list {
-  justify-content: center;
-}
+
 
 
 
