@@ -23,7 +23,7 @@
           "settings": {
             "label": "Style",
             "style": "swatch",
-            "target_collection": "toddler-beanies",
+            "target_collection": "knit-beanies",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
