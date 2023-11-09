@@ -152,7 +152,7 @@
   width: 100%;
   height: auto;
   display: block;
-  transition: transform 200ms ease-in-out;
+  transition: transform 300ms ease-in-out;
 }
 .mega-menu .BLO-megamenu-link h6 { 
   padding: 10px 5px;
