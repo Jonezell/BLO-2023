@@ -45,8 +45,7 @@
                         {% endif %}
                       >
                         <img class="BLO-megamenu-image" src="{{ childlink.object.image | img_url: '500x' }}">
-                        
-                        {{ childlink.title | escape }}
+                        <h6>{{ childlink.title | escape }}</h6>
                       </a>
                       {%- if childlink.links != blank -%}
                         <ul class="list-unstyled" role="list">
