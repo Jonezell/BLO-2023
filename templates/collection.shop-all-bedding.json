@@ -15,14 +15,21 @@
           "type": "link",
           "settings": {
             "linkurl": "shopify:\/\/collections\/bedding",
-            "linktext": "All Bedding"
+            "linktext": "All"
+          }
+        },
+        "fce538c4-633e-4a07-978a-2696a2150e05": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/toddler-blankets",
+            "linktext": "Toddler Blankets"
           }
         },
         "6bfd07ee-031a-4a56-9f00-117c1b95dedd": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/blankets",
-            "linktext": "Blankets"
+            "linkurl": "shopify:\/\/collections\/youth-blanket",
+            "linktext": "Youth Blankets"
           }
         },
         "bed93f4f-df10-456b-ac64-e625a9bd569e": {
@@ -42,6 +49,7 @@
       },
       "block_order": [
         "c7403c74-bc41-4a26-823f-d207c3c66ce5",
+        "fce538c4-633e-4a07-978a-2696a2150e05",
         "6bfd07ee-031a-4a56-9f00-117c1b95dedd",
         "bed93f4f-df10-456b-ac64-e625a9bd569e",
         "935d152d-e76b-41a6-95f9-1b60cf498497"
