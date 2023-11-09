@@ -132,3 +132,10 @@
 .mega-menu__link {
   color: var(--greyscale-Black, #161616);
 }
+.BLO-megamenu-image {
+  width: 150px;
+  height: auto;
+}
+
+
+
