@@ -44,6 +44,18 @@
                           aria-current="page"
                         {% endif %}
                       >
+                      <img
+                        srcset="
+                          
+                          {{ childlink.featured_image | image_url }} 500w
+                        "
+                        src="{{ childlink.featured_image | image_url: width: 500 }}"
+                        alt=""
+                        loading="lazy"
+                        class="motion-reduce"
+                      >
+
+                        
                         {{ childlink.title | escape }}
                       </a>
                       {%- if childlink.links != blank -%}
