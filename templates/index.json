@@ -122,6 +122,19 @@
             ]
           }
         },
+        "2dfba28d-4e1d-421c-856a-b030a83d42d6": {
+          "type": "collection_group",
+          "settings": {
+            "collection_group_title": "Women's",
+            "collection_list": [
+              "womens-matching-sets",
+              "womens-tops",
+              "womens-bottoms",
+              "womens-pullovers",
+              "womens"
+            ]
+          }
+        },
         "396b8e8c-e792-4554-ab56-e5154ab97f39": {
           "type": "collection_group",
           "settings": {
@@ -130,7 +143,7 @@
               "blankets",
               "crib-sheets",
               "twin-sheets",
-              "womens",
+              "stretchy-swaddle-sets",
               "shop-all"
             ]
           }
@@ -140,6 +153,7 @@
         "402865f8-3ebd-46a7-b5ef-971309eda3a8",
         "444d7551-af1d-4be4-bb9f-28000a878f9b",
         "fad30f75-5b3e-45ea-a2de-aa010120bf71",
+        "2dfba28d-4e1d-421c-856a-b030a83d42d6",
         "396b8e8c-e792-4554-ab56-e5154ab97f39"
       ],
       "settings": {
