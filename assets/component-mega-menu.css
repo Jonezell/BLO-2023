@@ -139,7 +139,7 @@
   align-items: center;
   flex-direction: column;
   padding-top: 0 !important;
-  padding-bottom: 10px;
+  padding-bottom: 10px !important;
   overflow: hidden;
   width: 150px;
   text-align: center;
