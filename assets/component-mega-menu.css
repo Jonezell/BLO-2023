@@ -133,6 +133,7 @@
   color: var(--greyscale-Black, #161616);
 }
 .BLO-megamenu-link {
+  border-radius: var(--blo-corner-radius);
   background-color: var(--tan-Medium);
   display: flex;
   align-items: center;
