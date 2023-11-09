@@ -148,6 +148,9 @@
   display: inline-block;
   margin-bottom: 10px;
 }
+.mega-menu__content .mega-menu__list {
+  justify-content: center;
+}
 
 
 
