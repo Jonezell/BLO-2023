@@ -132,17 +132,17 @@
 .mega-menu__link {
   color: var(--greyscale-Black, #161616);
 }
-.BLO-megamenu-link {
+.mega-menu .BLO-megamenu-link {
   border-radius: var(--blo-corner-radius);
   background-color: var(--tan-Medium);
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top:0;
+  padding-top: 0;
   padding-bottom: 10px;
   overflow: hidden;
 }
-.BLO-megamenu-image {
+.mega-menu .BLO-megamenu-image {
   width: 150px;
   height: auto;
   display: inline-block;
