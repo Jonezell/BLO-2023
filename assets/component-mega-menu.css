@@ -134,6 +134,9 @@
 }
 .BLO-megamenu-link {
   background-color: var(--tan-Medium);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .BLO-megamenu-image {
   width: 150px;
