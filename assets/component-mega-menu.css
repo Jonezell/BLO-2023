@@ -138,6 +138,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-top:0;
 }
 .BLO-megamenu-image {
   width: 150px;
