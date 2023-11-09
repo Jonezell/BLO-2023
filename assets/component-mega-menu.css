@@ -133,7 +133,7 @@
   color: var(--greyscale-Black, #161616);
 }
 .BLO-megamenu-link {
-  
+  background-color: var(--tan-Medium);
 }
 .BLO-megamenu-image {
   width: 150px;
