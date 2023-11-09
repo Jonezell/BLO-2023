@@ -142,6 +142,13 @@
   height: 100%;
   padding:0;
 }
+.mega-menu .BLO-megamenu-link:hover {
+  cursor: pointer;
+}
+.mega-menu .BLO-megamenu-link:hover .BLO-megamenu-image {
+  transform: scale(2);
+  transition: 200ms ease-in-out;
+}
 .mega-menu .BLO-megamenu-image {
   width: 100%;
   height: auto;
