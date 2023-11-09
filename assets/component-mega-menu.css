@@ -137,7 +137,7 @@
   align-items: center;
   flex-direction: column;
   overflow: hidden;
-  width: 150px;
+  width: 180px;
   text-align: center;
   height: 100%;
 }
@@ -148,7 +148,7 @@
 }
 .mega-menu .BLO-megamenu-link h6 { 
   padding: 10px 5px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 130%;
   margin: 0;
 }
