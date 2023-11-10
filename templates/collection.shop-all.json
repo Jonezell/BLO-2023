@@ -39,6 +39,20 @@
             "linktext": "Womens"
           }
         },
+        "f854f5b8-2985-4703-af8c-57c1b1c497c9": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/swaddles",
+            "linktext": "Swaddles"
+          }
+        },
+        "423d9231-c49f-4bf9-85b1-b1f8ec4314ea": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/bedding",
+            "linktext": "Blankets & Sheets"
+          }
+        },
         "107ac8d3-142c-472c-a4aa-f026b296cd46": {
           "type": "link",
           "settings": {
@@ -52,6 +66,8 @@
         "8ec20306-3298-44fb-ad08-6f9cb6de3791",
         "9a2e0d4a-49fc-42a7-b0f9-05e71a33323a",
         "ce642108-7d0a-4637-af81-5f2ec0709f31",
+        "f854f5b8-2985-4703-af8c-57c1b1c497c9",
+        "423d9231-c49f-4bf9-85b1-b1f8ec4314ea",
         "107ac8d3-142c-472c-a4aa-f026b296cd46"
       ],
       "settings": {
