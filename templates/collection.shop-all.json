@@ -21,15 +21,15 @@
         "8ec20306-3298-44fb-ad08-6f9cb6de3791": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/shop-all-baby",
-            "linktext": "Baby"
+            "linkurl": "shopify:\/\/collections\/shop-all-pjs",
+            "linktext": "PJs"
           }
         },
         "9a2e0d4a-49fc-42a7-b0f9-05e71a33323a": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/shop-all-toddler",
-            "linktext": "Toddler"
+            "linkurl": "shopify:\/\/collections\/daywear",
+            "linktext": "Daywear"
           }
         },
         "ce642108-7d0a-4637-af81-5f2ec0709f31": {
