@@ -39,14 +39,6 @@
             "linktext": "Hats"
           }
         },
-        "4689d9e5-00de-4c38-8596-b30732514289": {
-          "type": "link",
-          "disabled": true,
-          "settings": {
-            "linkurl": "shopify:\/\/collections\/briefs-underwear",
-            "linktext": "Briefs & Underwear"
-          }
-        },
         "c43f78eb-3926-408f-a1bc-ca7acc49ab5f": {
           "type": "link",
           "disabled": true,
@@ -61,6 +53,13 @@
             "linkurl": "shopify:\/\/collections\/backpacks",
             "linktext": "Backpacks"
           }
+        },
+        "4689d9e5-00de-4c38-8596-b30732514289": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/collections\/briefs-underwear",
+            "linktext": "Briefs & Underwear"
+          }
         }
       },
       "block_order": [
@@ -68,9 +67,9 @@
         "be2815ab-cd9a-4001-afe1-a1308e0f3a3b",
         "b762a33b-8d2e-47c5-b327-f216aabfedc5",
         "382256df-3454-48ca-afdd-6f72766dc23a",
-        "4689d9e5-00de-4c38-8596-b30732514289",
         "c43f78eb-3926-408f-a1bc-ca7acc49ab5f",
-        "8b4e4b6a-0186-4fd8-916a-b7971658ac9d"
+        "8b4e4b6a-0186-4fd8-916a-b7971658ac9d",
+        "4689d9e5-00de-4c38-8596-b30732514289"
       ],
       "settings": {
       }
