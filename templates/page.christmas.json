@@ -209,6 +209,7 @@
     },
     "5a00cf20-9bd5-4894-97dc-f4fe86ed7190": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Cookies & Milk",
         "heading_size": "h2",
