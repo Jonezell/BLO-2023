@@ -404,6 +404,34 @@
         "padding_bottom": 100
       }
     },
+    "868fc3e8-ae31-4ce4-b9c7-854577782d82": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Puffer Jackets",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "puffer-jackets-release",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
     "1692815720b7b1de5f": {
       "type": "apps",
       "disabled": true,
@@ -428,6 +456,7 @@
     "f2347f84-5a30-4b2a-97d5-c08f63ce1a75",
     "a4dc72c8-b739-4ba1-bda3-e5b9b25a0bdd",
     "6224feee-e26c-491a-8929-2ec8c39d5fc5",
+    "868fc3e8-ae31-4ce4-b9c7-854577782d82",
     "1692815720b7b1de5f"
   ]
 }
