@@ -546,6 +546,9 @@ header.header.page-width {
 .jdgm-widget.jdgm-review-widget .jdgm-rev__verification-badge-img {
     transform: translateY(4px); 
 }
+.jdgm-widget.jdgm-review-widget .jdgm-rev__pics {
+  white-space: wrap;
+}
 @media screen and (min-width: 750px) {
     .jdgm-widget.jdgm-review-widget .jdgm-rev-widg {
         padding: 160px 5rem;
@@ -562,6 +565,7 @@ header.header.page-width {
         margin-top: -40px;
       }
 }
+
 
 
 
