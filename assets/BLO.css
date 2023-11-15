@@ -547,7 +547,7 @@ header.header.page-width {
     transform: translateY(4px); 
 }
 .jdgm-widget.jdgm-review-widget .jdgm-rev__pics {
-  white-space: wrap;
+  white-space: pre-wrap;
 }
 @media screen and (min-width: 750px) {
     .jdgm-widget.jdgm-review-widget .jdgm-rev-widg {
