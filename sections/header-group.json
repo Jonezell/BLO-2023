@@ -5,6 +5,22 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "b39ed7e1-a259-42aa-86a5-38a7dfd0b6b8": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Save 30% off with code CyberMonday",
+            "link": "https:\/\/bravelittleones.com\/discount\/CyberMonday?redirect=%2Fcollections%2Fbfcm"
+          }
+        },
+        "8b412976-7cd7-4c2b-9dd1-fd7c1f814dae": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Save 30% off with code BlackFriday",
+            "link": "https:\/\/bravelittleones.com\/discount\/BlackFriday?redirect=%2Fcollections%2Fbfcm"
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
@@ -14,6 +30,8 @@
         }
       },
       "block_order": [
+        "b39ed7e1-a259-42aa-86a5-38a7dfd0b6b8",
+        "8b412976-7cd7-4c2b-9dd1-fd7c1f814dae",
         "announcement-bar-0"
       ],
       "settings": {

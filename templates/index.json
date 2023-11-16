@@ -6,26 +6,26 @@
         "f2561834-5bb9-4a7e-9854-4d941131fd62": {
           "type": "badge",
           "settings": {
-            "badge": "New Release!"
+            "badge": "Cyber Monday"
           }
         },
         "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Christmas Is Here!"
+            "heading": "Save 30% Off Sitewide"
           }
         },
         "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-text-1": {
           "type": "text",
           "settings": {
-            "text": "Get ready for the holidays with the sweetest winter collection yet, featuring our NEW Scattered Floral & Berry Red Small Ribbed. Plus, Christmas Trees, Winter Wonderland and Cookies & Milk are back!Save 20% today only with code ‘Christmas’."
+            "text": "Cyber Monday is your last chance to shop our 30% off sale. Everything on our site is on sale for one more day! Use code ‘CyberMonday’ and don’t miss out on our best sale of the year! Sale ends on 11\/27 at midnight."
           }
         },
         "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-buttons-1": {
           "type": "buttons",
           "settings": {
-            "button_label": "Shop New Release",
-            "button_link": "https:\/\/bravelittleones.com\/discount\/Joggers?redirect=%2Fcollections%2Fpullovers-joggers-beanies-release"
+            "button_label": "Shop Now",
+            "button_link": "https:\/\/bravelittleones.com\/discount\/CyberMonday?redirect=%2Fcollections%2Fbfcm"
           }
         }
       },
@@ -37,13 +37,59 @@
       ],
       "disabled": true,
       "settings": {
-        "image_main": "shopify:\/\/shop_images\/image-main_2_09bd10de-43cf-4848-983c-b6009d11afa5.jpg",
+        "image_main": "shopify:\/\/shop_images\/output-onlinegiftools.gif",
+        "color_text": "#8d3407",
+        "color_background": "#FCFCFB",
+        "background_image_desktop": "shopify:\/\/shop_images\/banner-background-desktop_5c7f089c-b417-415b-93c8-dbe8f5cdf84e.svg",
+        "background_image_desktop_pin": "center center",
+        "background_image_mobile": "shopify:\/\/shop_images\/banner-background-mobile_0fc541f3-1d8a-43fb-a19e-6bd3f71d3724.svg",
+        "background_image_mobile_pin": "center center"
+      }
+    },
+    "2a12e19f-5656-485a-9c14-e3cd6c07b6ea": {
+      "type": "blo-banner-release",
+      "blocks": {
+        "0f9b164f-4dfa-481d-9bf3-9bcf54cabd96": {
+          "type": "badge",
+          "settings": {
+            "badge": "Black Friday"
+          }
+        },
+        "36f6ab80-71a4-4d08-83a6-29461c308c34": {
+          "type": "heading",
+          "settings": {
+            "heading": "Save 30% Off Sitewide"
+          }
+        },
+        "bd677f68-9103-4578-a424-aa7d680552cc": {
+          "type": "text",
+          "settings": {
+            "text": "Shop pjs, daywear, sheets, and blankets at 30% all week long. Use code ‘BlackFriday’ now through November 27th at midnight."
+          }
+        },
+        "53ac0bd3-c68d-4404-9bd2-bbe0245ca409": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "https:\/\/bravelittleones.com\/discount\/BlackFriday?redirect=%2Fcollections%2Fbfcm"
+          }
+        }
+      },
+      "block_order": [
+        "0f9b164f-4dfa-481d-9bf3-9bcf54cabd96",
+        "36f6ab80-71a4-4d08-83a6-29461c308c34",
+        "bd677f68-9103-4578-a424-aa7d680552cc",
+        "53ac0bd3-c68d-4404-9bd2-bbe0245ca409"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_main": "shopify:\/\/shop_images\/image-main-3.jpg",
         "image_secondary": "shopify:\/\/shop_images\/image-secondary_2_20eb98d5-c693-408d-ad27-2578109f007f.jpg",
-        "color_text": "#ffffff",
-        "color_background": "#345C45",
-        "background_image_desktop": "shopify:\/\/shop_images\/banner-background-desktop_3x_1.jpg",
+        "color_text": "#efe8de",
+        "color_background": "#3A5443",
+        "background_image_desktop": "shopify:\/\/shop_images\/banner-background-desktop_dadce17e-7e40-4e1a-a462-b725640d5789.svg",
         "background_image_desktop_pin": "bottom right",
-        "background_image_mobile": "shopify:\/\/shop_images\/banner-background-mobile_3x_1.jpg",
+        "background_image_mobile": "shopify:\/\/shop_images\/banner-background-mobile_491982cb-8c73-4a3e-8658-2dd191719133.svg",
         "background_image_mobile_pin": "bottom right"
       }
     },
@@ -568,6 +614,7 @@
   },
   "order": [
     "70acda95-22e0-4ba5-9737-d2770599dc2a",
+    "2a12e19f-5656-485a-9c14-e3cd6c07b6ea",
     "ef424140-16f7-4341-9117-1d25d594aa70",
     "824201d6-ab39-4535-b10b-033005d18033",
     "4b1165c6-b8a9-4249-a026-ac24d705f1f2",
