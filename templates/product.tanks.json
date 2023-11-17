@@ -173,6 +173,42 @@
         "include_margins": false
       }
     },
+    "16624562-8be9-4cda-a97b-528ec62af6fd": {
+      "type": "blo-product-callouts",
+      "blocks": {
+        "e349069c-0934-4790-84f3-995476a801f3": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Tagless Label",
+            "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
+            "horizontal_position": 40,
+            "vertical_position": 12
+          }
+        },
+        "2e0c9cb4-c12e-4bdb-9ae1-cbfe3b2ac97f": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Comfy-Cool Tanks",
+            "block_text": "Made from a unique blend of polyester and bamboo, our ultra soft tanks will keep your infants and toddlers stylish and comfortable.",
+            "horizontal_position": 18,
+            "vertical_position": 86
+          }
+        }
+      },
+      "block_order": [
+        "e349069c-0934-4790-84f3-995476a801f3",
+        "2e0c9cb4-c12e-4bdb-9ae1-cbfe3b2ac97f"
+      ],
+      "settings": {
+        "title": "We’ve thought of it so you don’t have to.",
+        "text": "Discover the ultimate daytime comfort with our perfectly crafted Shirts.",
+        "image": "shopify:\/\/shop_images\/Tank-low.jpg",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -195,6 +231,7 @@
         "image-with-text-0",
         "image-with-text-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Tanks2.png",
         "height": "adapt",
@@ -203,6 +240,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
@@ -232,6 +270,7 @@
         "42022d5e-b0c8-4ab0-bcea-721e0028742e",
         "afbc3ebb-6fcb-4a5a-89cc-03d4330f9c6a"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Tanks.png",
         "height": "adapt",
@@ -240,6 +279,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
@@ -316,6 +356,7 @@
   "order": [
     "main",
     "1689095601e7facfa4",
+    "16624562-8be9-4cda-a97b-528ec62af6fd",
     "image-with-text",
     "ba0606e7-68e2-49bc-852a-6b88c019cb2c",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
