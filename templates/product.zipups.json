@@ -174,6 +174,15 @@
         "include_margins": false
       }
     },
+    "ddbf2169-3dc4-434b-ba8c-f7ef0d42d1b3": {
+      "type": "blo-product-callouts",
+      "settings": {
+        "title": "We’ve thought of it so you don’t have to.",
+        "text": "Discover the ultimate daytime comfort with our perfectly crafted Zip-Ups.",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -205,6 +214,7 @@
         "image-with-text-1",
         "9f2771a8-be03-4adb-9246-d9b48c496054"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-7_fc00063c-73f9-49d6-b957-618e74110a92.jpg",
         "height": "adapt",
@@ -213,6 +223,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-2",
         "image_behavior": "zoom-in",
         "mobile_content_alignment": "left",
@@ -289,6 +300,7 @@
   "order": [
     "main",
     "1689095601e7facfa4",
+    "ddbf2169-3dc4-434b-ba8c-f7ef0d42d1b3",
     "image-with-text",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
     "related-products"
