@@ -81,6 +81,7 @@
         "bd677f68-9103-4578-a424-aa7d680552cc",
         "53ac0bd3-c68d-4404-9bd2-bbe0245ca409"
       ],
+      "disabled": true,
       "settings": {
         "image_main": "shopify:\/\/shop_images\/image-main-3.jpg",
         "image_secondary": "shopify:\/\/shop_images\/image-secondary_2_20eb98d5-c693-408d-ad27-2578109f007f.jpg",
@@ -120,7 +121,6 @@
         "10bbc462-2e5b-4f38-b81a-b6b95efa501d",
         "4658ae19-32a4-4ec9-a32e-cbb21ab225ab"
       ],
-      "disabled": true,
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/Banner-Desktop-4_0bf1f188-574a-4c36-8b5f-1e9a942d1d9c.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Banner-Mobile-3_388e3bd8-cb20-4a4e-a6f2-c1b92acec23c.jpg"
