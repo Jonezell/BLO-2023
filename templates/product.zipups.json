@@ -176,9 +176,36 @@
     },
     "ddbf2169-3dc4-434b-ba8c-f7ef0d42d1b3": {
       "type": "blo-product-callouts",
+      "blocks": {
+        "314b3861-c7be-4589-837c-e5daec2a4dec": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Tagless Label",
+            "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
+            "horizontal_position": 40,
+            "vertical_position": 40
+          }
+        },
+        "e87ebb69-53be-4151-b959-e78baf9ddb9c": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Buttery Soft Bamboo",
+            "block_text": "Gentle enough for your little ones and durable enough for your older kids, our luxurious and buttery-soft bamboo french terry will keep your little ones comfortable and stylish day and night.",
+            "horizontal_position": 28,
+            "vertical_position": 86
+          }
+        }
+      },
+      "block_order": [
+        "314b3861-c7be-4589-837c-e5daec2a4dec",
+        "e87ebb69-53be-4151-b959-e78baf9ddb9c"
+      ],
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
         "text": "Discover the ultimate daytime comfort with our perfectly crafted Zip-Ups.",
+        "image": "shopify:\/\/shop_images\/zipup_1.jpg",
         "padding_top": 100,
         "padding_bottom": 100
       }
