@@ -292,6 +292,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-2",
         "image_behavior": "zoom-in",
         "mobile_content_alignment": "left",
@@ -321,6 +322,7 @@
         "ca5c8dd0-cb84-4d41-8fcc-587232cff33a",
         "82d9df0f-0f29-45f3-a3fd-fcea8312fead"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Tagless-Romper.png",
         "height": "adapt",
@@ -329,9 +331,35 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "22c9fedd-ddf7-42b7-b186-c5c87081357c": {
+      "type": "blo-product-callouts",
+      "blocks": {
+        "762ff8f8-465a-4839-a828-0cc8408b9886": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Tagless Label",
+            "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
+            "horizontal_position": 44,
+            "vertical_position": 18
+          }
+        }
+      },
+      "block_order": [
+        "762ff8f8-465a-4839-a828-0cc8408b9886"
+      ],
+      "settings": {
+        "title": "We’ve thought of it so you don’t have to.",
+        "text": "",
+        "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-Summer-Zip-Romper.jpg",
         "padding_top": 100,
         "padding_bottom": 100
       }
@@ -477,6 +505,7 @@
     "3b6768a0-bdb8-4814-b54d-678b983f9a86",
     "image-with-text",
     "22b26f26-f2c6-460e-a041-d6f448fe00c5",
+    "22c9fedd-ddf7-42b7-b186-c5c87081357c",
     "170e24fe-d0bb-473a-b5fb-2003723c4a99",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
     "related-products"
