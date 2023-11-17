@@ -35,6 +35,7 @@
         "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-text-1",
         "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "image_main": "shopify:\/\/shop_images\/ezgif.com-crop.gif",
         "color_text": "#8d3407",
@@ -80,7 +81,6 @@
         "bd677f68-9103-4578-a424-aa7d680552cc",
         "53ac0bd3-c68d-4404-9bd2-bbe0245ca409"
       ],
-      "disabled": true,
       "settings": {
         "image_main": "shopify:\/\/shop_images\/image-main-3.jpg",
         "image_secondary": "shopify:\/\/shop_images\/image-secondary_2_20eb98d5-c693-408d-ad27-2578109f007f.jpg",
