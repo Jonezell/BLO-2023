@@ -173,6 +173,42 @@
         "include_margins": false
       }
     },
+    "0dff285d-b5c7-442f-8966-c3bbfc73c4a9": {
+      "type": "blo-product-callouts",
+      "blocks": {
+        "7d114bce-4895-4af4-a19f-649b1bb05149": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Stretchy Waistband",
+            "block_text": "Discover the perfect balance of comfort and style with our elastic waistband, designed to provide maximum comfort for your little ones.",
+            "horizontal_position": 40,
+            "vertical_position": 6
+          }
+        },
+        "f1e751ed-dfdd-4ba8-83e4-1a6b97c75d5b": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Buttery Soft Bamboo",
+            "block_text": "Our boxer briefs are made from the same buttery soft bamboo viscose as our PJs. Our luxurious material keeps your little one comfortable and stylish, day and night.",
+            "horizontal_position": 26,
+            "vertical_position": 82
+          }
+        }
+      },
+      "block_order": [
+        "7d114bce-4895-4af4-a19f-649b1bb05149",
+        "f1e751ed-dfdd-4ba8-83e4-1a6b97c75d5b"
+      ],
+      "settings": {
+        "title": "We’ve thought of it so you don’t have to.",
+        "text": "Discover the ultimate daytime comfort with our perfectly crafted Briefs.",
+        "image": "shopify:\/\/shop_images\/Briefs_13ce8240-7dd4-4e7c-8159-7177e3c720a6.jpg",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -212,6 +248,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-2",
         "image_behavior": "zoom-in",
         "mobile_content_alignment": "left",
@@ -288,6 +325,7 @@
   "order": [
     "main",
     "1689095601e7facfa4",
+    "0dff285d-b5c7-442f-8966-c3bbfc73c4a9",
     "image-with-text",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
     "related-products"
