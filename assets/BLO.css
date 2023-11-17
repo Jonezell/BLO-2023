@@ -323,7 +323,7 @@ header.header.page-width {
 .BLO-cart-button svg.icon {
     height: 16px;
     width: 16px;
-    margin-top: -3px;
+    margin-top: -2px;
 }
 .BLO-cart-button svg.icon path {
     stroke: var(--tan-Medium) !important;
@@ -337,6 +337,9 @@ header.header.page-width {
     width: auto;
     margin-left: 8px; 
 }
+.BLO-cart-button .cart-count-bubble span{
+    color: var(--tan-Medium);
+}
 .BLO-cart-button:after {
     content:"0";
     white-space: nowrap;
@@ -347,7 +350,12 @@ header.header.page-width {
     margin-left: 0;
 }
 @media screen and (min-width: 750px) {
- 
+    .BLO-cart-button .cart-count-bubble {
+        padding-top: 2px;
+    }
+    .BLO-cart-button:after {
+        padding-top: 2px;
+    }
 }
 @media screen and (max-width: 749px) {
     .BLO-cart-button {
