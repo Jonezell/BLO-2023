@@ -173,6 +173,42 @@
         "include_margins": false
       }
     },
+    "187f5546-0606-4b9d-acfe-56649d28bd60": {
+      "type": "blo-product-callouts",
+      "blocks": {
+        "e4419be5-271e-4808-8dc6-c072bc760386": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Stretchy Waistband",
+            "block_text": "Discover the perfect balance of comfort and style with our elastic waistband, designed to provide maximum comfort for your little ones.",
+            "horizontal_position": 36,
+            "vertical_position": 8
+          }
+        },
+        "b5164a14-d63e-48a6-bba8-52cbe6d330ad": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Buttery Soft Bamboo",
+            "block_text": "Our underwear is made from the same buttery soft bamboo viscose as our PJs. Our luxurious material keeps your little one comfortable and stylish, day and night.",
+            "horizontal_position": 34,
+            "vertical_position": 84
+          }
+        }
+      },
+      "block_order": [
+        "e4419be5-271e-4808-8dc6-c072bc760386",
+        "b5164a14-d63e-48a6-bba8-52cbe6d330ad"
+      ],
+      "settings": {
+        "title": "We’ve thought of it so you don’t have to.",
+        "text": "Discover the ultimate daytime comfort with our perfectly crafted Underwear.",
+        "image": "shopify:\/\/shop_images\/Underwear.jpg",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -204,6 +240,7 @@
         "image-with-text-1",
         "d166fad5-2368-491f-8b53-31c3f20eff8d"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-7_fc00063c-73f9-49d6-b957-618e74110a92.jpg",
         "height": "adapt",
@@ -212,6 +249,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-2",
         "image_behavior": "zoom-in",
         "mobile_content_alignment": "left",
@@ -288,6 +326,7 @@
   "order": [
     "main",
     "1689095601e7facfa4",
+    "187f5546-0606-4b9d-acfe-56649d28bd60",
     "image-with-text",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
     "related-products"
