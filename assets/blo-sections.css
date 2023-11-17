@@ -205,6 +205,9 @@
   .blo-toggle-swap-row {
     flex-direction: column;
   }
+  .blo-toggle-swap-row .card h3.card__heading {
+    line-height: 130%;
+  }
   .blo-toggle-swap .card--media {
     background: var(--tan-Medium);
   }
