@@ -349,17 +349,28 @@
             "block_title": "Tagless Label",
             "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
             "horizontal_position": 44,
-            "vertical_position": 18
+            "vertical_position": 10
+          }
+        },
+        "3fd3f74d-b7f0-4328-8383-0dfc7054c8d0": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Zipper",
+            "block_text": "We know how tricky diaper changes can be, so we wanted to help. All of our summer rompers have a zipper to make those middle of the night or on-the-go diaper changes quick and easy!",
+            "horizontal_position": 50,
+            "vertical_position": 50
           }
         }
       },
       "block_order": [
-        "762ff8f8-465a-4839-a828-0cc8408b9886"
+        "762ff8f8-465a-4839-a828-0cc8408b9886",
+        "3fd3f74d-b7f0-4328-8383-0dfc7054c8d0"
       ],
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
         "text": "",
-        "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-Summer-Zip-Romper.jpg",
+        "image": "shopify:\/\/shop_images\/SummerZip_1.jpg",
         "padding_top": 100,
         "padding_bottom": 100
       }
