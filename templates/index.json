@@ -35,9 +35,8 @@
         "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-text-1",
         "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-buttons-1"
       ],
-      "disabled": true,
       "settings": {
-        "image_main": "shopify:\/\/shop_images\/output-onlinegiftools.gif",
+        "image_main": "shopify:\/\/shop_images\/output-onlinegiftools_e6966e23-d377-4cef-ad7d-ad5e82be5c34.gif",
         "color_text": "#8d3407",
         "color_background": "#FCFCFB",
         "background_image_desktop": "shopify:\/\/shop_images\/banner-background-desktop_5c7f089c-b417-415b-93c8-dbe8f5cdf84e.svg",
@@ -121,6 +120,7 @@
         "10bbc462-2e5b-4f38-b81a-b6b95efa501d",
         "4658ae19-32a4-4ec9-a32e-cbb21ab225ab"
       ],
+      "disabled": true,
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/Banner-Desktop-4_0bf1f188-574a-4c36-8b5f-1e9a942d1d9c.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Banner-Mobile-3_388e3bd8-cb20-4a4e-a6f2-c1b92acec23c.jpg"
