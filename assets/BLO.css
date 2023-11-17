@@ -335,17 +335,19 @@ header.header.page-width {
     left: auto;
     bottom: auto;
     width: auto;
-    margin-left: 10px;
+    margin-left: 8px; 
+}
+.BLO-cart-button:after {
+    content:"0";
+    white-space: nowrap;
+    margin-left: 8px;
+}
+.BLO-cart-button:has(.cart-count-bubble):after {
+    content:"";
+    margin-left: 0;
 }
 @media screen and (min-width: 750px) {
-    .BLO-cart-button .cart-count-bubble:before {
-        content:"Cart (";
-        white-space: nowrap;
-    }
-    .BLO-cart-button .cart-count-bubble:after {
-        content:")";
-        white-space: nowrap;
-    }
+ 
 }
 @media screen and (max-width: 749px) {
     .BLO-cart-button {
