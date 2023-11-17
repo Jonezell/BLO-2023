@@ -690,6 +690,27 @@ header.header.page-width {
     align-items: center;
     padding-right: 20px;
 }
+.product .complementary-slide--card .price__container{
+    margin-bottom: 0;
+}
+.product .complementary-slide--card .price__container{
+    margin-bottom: 0;
+}
+.product .complementary-slide ul{
+    gap: 15px;
+}
+.product .complementary-slide h3{
+    line-height: 140%;
+}
+.product .complementary-slide .product-card-wrapper .card__media img {
+    border-radius: 8px;
+}
+.product .complementary-slide .product-card-wrapper .card{
+    background-color: var(--tan-Medium);
+}
+.product .complementary-slide .product-card-wrapper .card__content .quick-add .button {
+    background-color: var(--tan-Dark);
+}
 .product__accordion .accordion__content table{
     margin-top: 2px;
     margin-bottom: 2px;
