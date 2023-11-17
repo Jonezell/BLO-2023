@@ -275,6 +275,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-2",
         "image_behavior": "zoom-in",
         "mobile_content_alignment": "left",
@@ -304,6 +305,7 @@
         "88ad7e18-3b1e-42cc-9fea-b5099e02ecf9",
         "c09d0457-4256-4666-99d4-c84a5117ccf0"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Tagless-set_bda56049-589b-4832-8d31-a50d84a39a4a.png",
         "height": "adapt",
@@ -312,9 +314,35 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "f318ad23-9922-408a-aab2-10e45ce05c24": {
+      "type": "blo-product-callouts",
+      "blocks": {
+        "5e94a57d-c4c8-4d47-8f25-e04305700e41": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Tagless Label",
+            "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
+            "horizontal_position": 50,
+            "vertical_position": 8
+          }
+        }
+      },
+      "block_order": [
+        "5e94a57d-c4c8-4d47-8f25-e04305700e41"
+      ],
+      "settings": {
+        "title": "We’ve thought of it so you don’t have to.",
+        "text": "",
+        "image": "shopify:\/\/shop_images\/ShortSet.jpg",
         "padding_top": 100,
         "padding_bottom": 100
       }
@@ -460,6 +488,7 @@
     "47995913-1780-4b7f-8067-318167ffdf38",
     "image-with-text",
     "f5cd64ce-c085-4350-a595-a835e3d1f5f0",
+    "f318ad23-9922-408a-aab2-10e45ce05c24",
     "53c92126-5deb-43f7-8689-7e1fdaf3b5f2",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
     "related-products"
