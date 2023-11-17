@@ -163,6 +163,31 @@
         "include_margins": false
       }
     },
+    "636fd19b-5076-4249-936e-785e25521979": {
+      "type": "blo-product-callouts",
+      "blocks": {
+        "5375ee26-380e-4fa1-b36b-00927fd78ed9": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Breathable Fabric",
+            "block_text": "Our Muslin Swaddles are made with a unique bamboo\/cotton blend which provide a soft but sturdy solution to swaddling. These breathable multi-purpose wraps are perfect for tummy time, covering up while nursing, using as a blanket, and so much more!",
+            "horizontal_position": 34,
+            "vertical_position": 70
+          }
+        }
+      },
+      "block_order": [
+        "5375ee26-380e-4fa1-b36b-00927fd78ed9"
+      ],
+      "settings": {
+        "title": "We’ve thought of it so you don’t have to.",
+        "text": "Discover the ultimate comfort with our perfectly crafted Muslin Swaddles.",
+        "image": "shopify:\/\/shop_images\/Muslin_1.jpg",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -185,6 +210,7 @@
         "image-with-text-0",
         "image-with-text-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Muslin.png",
         "height": "adapt",
@@ -193,6 +219,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
@@ -269,6 +296,7 @@
   "order": [
     "main",
     "1689095601e7facfa4",
+    "636fd19b-5076-4249-936e-785e25521979",
     "image-with-text",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
     "related-products"
