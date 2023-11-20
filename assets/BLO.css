@@ -79,7 +79,7 @@ H1, .h1,  div.h1.hero__title, h1>p, H2, .h2, H2>p, H3, .h3, h3>p {
   -webkit-font-smoothing: antialiased;
 }
 
-H4, .h4, h4>p, H5, .h5, h5>p, H6, .h6, button, .button, a.button, .grid-product__title, .announcement__text, form label, .cart__header-labels, .badge, .product-card-wrapper .card__information , footer .footer-block__heading, .toggle, .collection-list-wrapper .card__information h3, .jdgm-write-rev-link, .jdgm-paginate__load-more, .product .price__container, variant-radios .product-form__input label, .facets__summary, .product-count__text.text-body, .mobile-facets__open, .mega-menu__link.mega-menu__link--level-2, .header__menu-item.list-menu__item, .menu-drawer .menu-drawer__menu-item, .mobile-facets .mobile-facets__summary, .blo-toggle-collections .card__heading, cart-drawer .totals__total, cart-drawer .totals__total-value, quick-order-list .quick-order-list-total__info h3  {
+H4, .h4, h4>p, H5, .h5, h5>p, H6, .h6, button, .button, a.button, .grid-product__title, .announcement__text, .cart__header-labels, .badge, .product-card-wrapper .card__information , footer .footer-block__heading, .toggle, .collection-list-wrapper .card__information h3, .jdgm-write-rev-link, .jdgm-paginate__load-more, .product .price__container, variant-radios .product-form__input label, .facets__summary, .product-count__text.text-body, .mobile-facets__open, .mega-menu__link.mega-menu__link--level-2, .header__menu-item.list-menu__item, .menu-drawer .menu-drawer__menu-item, .mobile-facets .mobile-facets__summary, .blo-toggle-collections .card__heading, cart-drawer .totals__total, cart-drawer .totals__total-value, quick-order-list .quick-order-list-total__info h3  {
 
   font-family: 'GothamRounded-Medium' !important;
   font-style: normal !important;
@@ -319,6 +319,7 @@ header.header.page-width {
     font-weight: bold;
     font-size: 16px;
     height: 42px;
+    transition: height 0.3s cubic-bezier(0.52, 0, 0.61, 0.99), padding 0.3s cubic-bezier(0.52, 0, 0.61, 0.99);
 }
 .BLO-cart-button svg.icon {
     height: 16px;
@@ -368,6 +369,84 @@ header.header.page-width {
     .BLO-cart-button {
         font-size: 14px;
     }
+}
+
+/* CUSTOM SCROLLED STATE CODE */
+@media screen and (min-width: 750px) {
+    .shopify-section-header-sticky.scrolled-past-header .BLO-cart-button {
+        padding: 4px 13px;
+        height: 35px;
+    }
+    .header__menu-item { 
+        transition: padding-top 0.3s cubic-bezier(0.52, 0, 0.61, 0.99), padding-bottom 0.3s cubic-bezier(0.52, 0, 0.61, 0.99);
+    }
+    .shopify-section-header-sticky.scrolled-past-header .header__inline-menu .header__menu-item {
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+    .shopify-section-header-sticky.scrolled-past-header .header__heading-logo-wrapper {
+        width: 82%;
+    }
+}
+@media screen and (max-width: 749px) { 
+    .shopify-section-header-sticky.scrolled-past-header .header__heading-logo-wrapper {
+        width: 100%;
+    }
+}
+
+
+
+/* CUSTOM INPUT STYLES */
+
+
+.field input.field__input,
+.field .text-area,
+.field textarea {
+    background: rgba(0,0,0,.04);
+    height: 5rem;
+}
+.field label.field__label {
+    top: 1.3rem;
+}
+.field input.field__input:focus,
+.field .text-area:focus,
+.field textarea:focus {
+    background: rgba(0,0,0,.07);
+    box-shadow: none;
+}
+.field input.field__input:focus ~ .field__label,
+.field .text-area:focus ~ .field__label,
+.field textarea:focus ~ .field__label {
+    font-family: 'GothamRounded-Medium' !important;
+    color: var(--greyscale-Black);
+}
+.field .field__button {
+    height: 5rem;
+}
+.recipient-fields__field .field textarea:not(:focus) ~ label.form__label.field__label {
+    font-family: 'GothamRounded-Book' !important;
+}
+.recipient-fields__field label.form__label.field__label {
+    text-transform: none;
+}
+
+
+  
+quantity-input.quantity,
+quantity-input.quantity.cart-quantity {
+    background: var(--tan-medium, #EFE8DE);
+    box-shadow: none;
+    border-radius: 20px;
+    height: 40px;
+    min-height: 40px;
+}
+quantity-input.quantity button.quantity__button,
+.quantity .quantity__button:not(:focus-visible):not(.focused) {
+    background-color: var(--tan-medium, #EFE8DE);
+    color: var(--greyscale-Black);
+    margin: 4px;
+    width: 32px;
+    border-radius: 20px;
 }
 
 
@@ -808,6 +887,7 @@ header.header.page-width {
 }
 .facets-vertical .facet-checkbox .icon-checkmark {
     top: 9px;
+    z-index: 2;
 }
 .facets-vertical .facet-checkbox > svg, 
 .mobile-facets__label > svg {
@@ -1038,6 +1118,14 @@ fieldset.blo-filter-Color {
     opacity: .5;
     cursor: not-allowed;
 }
+nav.pagination .pagination__item-arrow {
+    background-color: var(--tan-Medium);
+    border-radius: 30px;
+}
+nav.pagination .pagination__list li {
+    margin-right: 0;
+}
+
 
 
 
