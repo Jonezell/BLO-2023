@@ -29,6 +29,17 @@
                         id="HeaderDrawer-{{ link.handle }}"
                         class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}"
                       >
+                        {% if link.object.image %}
+                          <img
+                            class="BLO-menudrawer-image"
+                            src="{{ link.object.image | img_url: '200x' }}"
+                          >
+                        {% else %}
+                          <img
+                            class="BLO-menudrawer-image"
+                            src="https://cdn.shopify.com/s/files/1/0964/6074/files/Bank.jpg?v=1700683902&width=200"
+                          >
+                        {% endif %}
                         {{ link.title | escape }}
                         {% render 'icon-arrow' %}
                         {% render 'icon-caret' %}
@@ -55,6 +66,18 @@
                                       aria-current="page"
                                     {% endif %}
                                   >
+                                    {% if childlink.object.image %}
+                                      <img
+                                        class="BLO-menudrawer-image"
+                                        src="{{ childlink.object.image | img_url: '200x' }}"
+                                      >
+                                    {% else %}
+                                      <img
+                                        class="BLO-menudrawer-image"
+                                        src="https://cdn.shopify.com/s/files/1/0964/6074/files/Bank.jpg?v=1700683902&width=200"
+                                      >
+                                    {% endif %}
+
                                     {{ childlink.title | escape }}
                                   </a>
                                 {%- else -%}
@@ -63,6 +86,17 @@
                                       id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}"
                                       class="menu-drawer__menu-item link link--text list-menu__item focus-inset"
                                     >
+                                      {% if childlink.object.image %}
+                                        <img
+                                          class="BLO-menudrawer-image"
+                                          src="{{ childlink.object.image | img_url: '200x' }}"
+                                        >
+                                      {% else %}
+                                        <img
+                                          class="BLO-menudrawer-image"
+                                          src="https://cdn.shopify.com/s/files/1/0964/6074/files/Bank.jpg?v=1700683902&width=200"
+                                        >
+                                      {% endif %}
                                       {{ childlink.title | escape }}
                                       {% render 'icon-arrow' %}
                                       {% render 'icon-caret' %}
@@ -116,6 +150,17 @@
                         aria-current="page"
                       {% endif %}
                     >
+                      {% if link.object.image %}
+                        <img
+                          class="BLO-menudrawer-image"
+                          src="{{ link.object.image | img_url: '200x' }}"
+                        >
+                      {% else %}
+                        <img
+                          class="BLO-menudrawer-image"
+                          src="https://cdn.shopify.com/s/files/1/0964/6074/files/Bank.jpg?v=1700683902&width=200"
+                        >
+                      {% endif %}
                       {{ link.title | escape }}
                     </a>
                   {%- endif -%}
