@@ -22,11 +22,19 @@
           "settings": {
             "text": "'Tis the season of comfort and joy. Our festive and adorable seasonal prints are here, but they won't last long."
           }
+        },
+        "710b8d23-d26c-440b-9337-ae563d207df7": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Shop All",
+            "button_link": "shopify:\/\/collections\/christmas"
+          }
         }
       },
       "block_order": [
         "template--16299193925801__f79c2716-da98-4e7f-920f-34904eed478b-heading-1",
-        "template--16299193925801__f79c2716-da98-4e7f-920f-34904eed478b-text-1"
+        "template--16299193925801__f79c2716-da98-4e7f-920f-34904eed478b-text-1",
+        "710b8d23-d26c-440b-9337-ae563d207df7"
       ],
       "settings": {
         "image_main": "shopify:\/\/shop_images\/image-main_2_09bd10de-43cf-4848-983c-b6009d11afa5.jpg",
