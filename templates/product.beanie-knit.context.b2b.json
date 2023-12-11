@@ -1,0 +1,46 @@
+{
+  "parent": "product.beanie-knit.json",
+  "context": {
+    "b2b": true
+  },
+  "sections": {
+    "main": {
+      "settings": {
+      },
+      "blocks": {
+        "e1726f1b-00e6-4fcf-98d1-067c525fe00f": {
+          "type": "inventory",
+          "disabled": false,
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "696a4332-a3f8-4333-a9dd-51ed29fd166f",
+        "496b4226-e4d0-4584-a5ae-f630efc1661c",
+        "variant_picker",
+        "quantity_selector",
+        "14d206d1-bc58-4ca6-baa4-d38ba878182e",
+        "d32cf3ff-3cf1-42b1-95be-fd31a14eefc2",
+        "e1726f1b-00e6-4fcf-98d1-067c525fe00f",
+        "a24fc19b-a6c0-4425-a959-aaa64df8cca8",
+        "4620763d-b34b-4ded-a857-504751a5f38d",
+        "description",
+        "collapsible-row-3",
+        "share"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "1689095601e7facfa4",
+    "image-with-text",
+    "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
+    "related-products"
+  ]
+}
