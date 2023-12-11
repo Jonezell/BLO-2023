@@ -1,0 +1,8 @@
+{
+  "parent": "product.womens-pullover.json",
+  "context": {
+    "b2b": true
+  },
+  "sections": {
+  }
+}
