@@ -1,0 +1,8 @@
+{
+  "parent": "product.puffer-jackets.json",
+  "context": {
+    "b2b": true
+  },
+  "sections": {
+  }
+}
