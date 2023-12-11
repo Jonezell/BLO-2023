@@ -4,6 +4,41 @@
     "b2b": true
   },
   "sections": {
+    "main": {
+      "settings": {
+      },
+      "blocks": {
+        "83d08390-c09b-4f02-a224-74d0baba1faa": {
+          "type": "inventory",
+          "disabled": false,
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "88be7005-e01b-4bca-ace7-dd1b72230a1a",
+        "496b4226-e4d0-4584-a5ae-f630efc1661c",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "d32cf3ff-3cf1-42b1-95be-fd31a14eefc2",
+        "83d08390-c09b-4f02-a224-74d0baba1faa",
+        "3f89a879-ac61-441e-bc3d-ad448d08c840",
+        "4620763d-b34b-4ded-a857-504751a5f38d",
+        "description",
+        "collapsible-row-0",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "collapsible-row-3",
+        "85d7636a-745b-4ef8-a7d8-e26226d2518f",
+        "share"
+      ]
+    }
   },
   "order": [
     "main",
