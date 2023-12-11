@@ -11,7 +11,7 @@
         "show_image": false,
         "show_sku": false,
         "color_scheme": "background-2",
-        "header-0aba22626679d8dc2e65a8360998de2b": null,
+        "header-427a4e49e8c2b6e12d227ce757321514": null,
         "padding_top": 100,
         "padding_bottom": 100
       },
@@ -27,7 +27,33 @@
         "padding_bottom": 100
       },
       "blocks": {
-      }
+        "ac9f43d5-37e5-4acd-a9d6-1dbb26a3bf0f": {
+          "type": "inventory",
+          "disabled": false,
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "496b4226-e4d0-4584-a5ae-f630efc1661c",
+        "variant_picker",
+        "quantity_selector",
+        "ac9f43d5-37e5-4acd-a9d6-1dbb26a3bf0f",
+        "buy_buttons",
+        "d32cf3ff-3cf1-42b1-95be-fd31a14eefc2",
+        "4ba9bc82-5be8-4edc-bc05-851c53c31aad",
+        "4620763d-b34b-4ded-a857-504751a5f38d",
+        "description",
+        "collapsible-row-2",
+        "collapsible-row-3",
+        "85d7636a-745b-4ef8-a7d8-e26226d2518f",
+        "share"
+      ]
     }
   },
   "order": [
