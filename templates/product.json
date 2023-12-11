@@ -29,6 +29,13 @@
           "settings": {
           }
         },
+        "14d206d1-bc58-4ca6-baa4-d38ba878182e": {
+          "type": "custom-low-stock",
+          "settings": {
+            "inventory_threshold": 15,
+            "show_inventory_quantity": false
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -47,14 +54,6 @@
             "margin_bottom": 10,
             "classes": "button button--full-width",
             "style": "text-decoration:none"
-          }
-        },
-        "b8eaecdf-e5f5-4a68-8d1f-066393752b63": {
-          "type": "inventory",
-          "settings": {
-            "text_style": "body",
-            "inventory_threshold": 10,
-            "show_inventory_quantity": true
           }
         },
         "d828ce5d-f44b-4833-9b8d-0a405b12654d": {
@@ -89,9 +88,9 @@
         "c32c6529-50ec-4a23-84a8-d808ee1d0b2a",
         "variant_picker",
         "quantity_selector",
+        "14d206d1-bc58-4ca6-baa4-d38ba878182e",
         "buy_buttons",
         "d32cf3ff-3cf1-42b1-95be-fd31a14eefc2",
-        "b8eaecdf-e5f5-4a68-8d1f-066393752b63",
         "d828ce5d-f44b-4833-9b8d-0a405b12654d",
         "4620763d-b34b-4ded-a857-504751a5f38d",
         "description",
