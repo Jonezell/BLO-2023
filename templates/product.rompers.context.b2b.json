@@ -11,7 +11,7 @@
         "show_image": false,
         "show_sku": false,
         "color_scheme": "background-2",
-        "header-a696495a303869190641a78b65f80e0e": null,
+        "header-a2061d91f270ea123121bca397916e96": null,
         "padding_top": 100,
         "padding_bottom": 100
       },
@@ -45,6 +45,7 @@
         "cf66de50-91a7-4958-bf15-20a6493c920a",
         "variant_picker",
         "quantity_selector",
+        "6569aea6-d593-4361-b0e8-10abcbc5fbaa",
         "buy_buttons",
         "d32cf3ff-3cf1-42b1-95be-fd31a14eefc2",
         "e452cf94-2f47-45aa-a817-0a655108193e",
@@ -53,8 +54,7 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "85d7636a-745b-4ef8-a7d8-e26226d2518f",
-        "share",
-        "6569aea6-d593-4361-b0e8-10abcbc5fbaa"
+        "share"
       ]
     }
   },
