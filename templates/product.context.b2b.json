@@ -12,8 +12,31 @@
         "quantity_selector": {
           "settings": {
           }
+        },
+        "e38ca7ee-723c-43db-a6f4-8904d1bfb832": {
+          "type": "inventory",
+          "disabled": false,
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
+          }
         }
-      }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "c32c6529-50ec-4a23-84a8-d808ee1d0b2a",
+        "variant_picker",
+        "quantity_selector",
+        "e38ca7ee-723c-43db-a6f4-8904d1bfb832",
+        "buy_buttons",
+        "d32cf3ff-3cf1-42b1-95be-fd31a14eefc2",
+        "d828ce5d-f44b-4833-9b8d-0a405b12654d",
+        "4620763d-b34b-4ded-a857-504751a5f38d",
+        "description",
+        "share"
+      ]
     }
   },
   "order": [
