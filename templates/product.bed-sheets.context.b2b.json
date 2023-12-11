@@ -1,0 +1,8 @@
+{
+  "parent": "product.bed-sheets.json",
+  "context": {
+    "b2b": true
+  },
+  "sections": {
+  }
+}
