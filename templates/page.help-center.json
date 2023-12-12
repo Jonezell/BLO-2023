@@ -2,20 +2,27 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+
+      ],
       "settings": {
         "padding_top": 100,
         "padding_bottom": 100
       }
     },
-    "1692815720b7b1de5f": {
-      "type": "apps",
+    "fd4b2851-32ab-4c0c-bcfa-082ff523adaa": {
+      "type": "custom-liquid",
       "settings": {
-        "include_margins": true
+        "custom_liquid": "<div data-gorgias-help-center-uid=\"7qrjrmjn\"><\/div>",
+        "color_scheme": "",
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     }
   },
   "order": [
     "main",
-    "1692815720b7b1de5f"
+    "fd4b2851-32ab-4c0c-bcfa-082ff523adaa"
   ]
 }
