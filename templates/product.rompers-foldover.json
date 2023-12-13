@@ -46,12 +46,6 @@
             "picker_type": "button"
           }
         },
-        "f199e39c-9419-4a19-975f-7d40db915fdd": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<a class=\"h6\" href=\"https:\/\/help.bravelittleones.com\/en-US\/flows\/01HHFT9FX00DJM7AQJRYS3XJ7P\" target=\"_blank\" style=\"margin-bottom: 40px;\">\n\nNeed sizing help? \n\n\n<\/a>"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -148,7 +142,6 @@
         "496b4226-e4d0-4584-a5ae-f630efc1661c",
         "290414b6-f5dc-4c97-9cc5-dc3390dc951d",
         "variant_picker",
-        "f199e39c-9419-4a19-975f-7d40db915fdd",
         "quantity_selector",
         "14d206d1-bc58-4ca6-baa4-d38ba878182e",
         "buy_buttons",
