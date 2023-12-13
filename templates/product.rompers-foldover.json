@@ -49,7 +49,7 @@
         "f199e39c-9419-4a19-975f-7d40db915fdd": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a class=\"form__label\" href=\"https:\/\/help.bravelittleones.com\/en-US\/flows\/01HHFT9FX00DJM7AQJRYS3XJ7P\" target=\"_blank\" style=\"margin-bottom: 30px;\">\n\nNot sure what size? \n\n\n<\/a>"
+            "custom_liquid": "<a class=\"h6\" href=\"https:\/\/help.bravelittleones.com\/en-US\/flows\/01HHFT9FX00DJM7AQJRYS3XJ7P\" target=\"_blank\" style=\"margin-bottom: 40px;\">\n\nNeed sizing help? \n\n\n<\/a>"
           }
         },
         "quantity_selector": {
