@@ -1514,3 +1514,10 @@ quick-order-list .quick-order-list__table th {
   }
 }
 
+
+
+/* ------- GORGIAS CHAT BUTTON ZINDEX FIX -------- */
+
+iframe#chat-button {
+  z-index: 1 !important;
+}
