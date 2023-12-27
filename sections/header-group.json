@@ -19,19 +19,11 @@
             "text": "FREE SHIPPING ON U.S. ORDERS OVER $40!",
             "link": ""
           }
-        },
-        "8b412976-7cd7-4c2b-9dd1-fd7c1f814dae": {
-          "type": "announcement",
-          "settings": {
-            "text": "Order by Dec. 7th for guaranteed Christmas delivery",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "b39ed7e1-a259-42aa-86a5-38a7dfd0b6b8",
-        "announcement-bar-0",
-        "8b412976-7cd7-4c2b-9dd1-fd7c1f814dae"
+        "announcement-bar-0"
       ],
       "settings": {
         "color_scheme": "background-2",
