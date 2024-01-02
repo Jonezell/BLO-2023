@@ -283,9 +283,9 @@
           "settings": {
             "collection_group_title": "Prints",
             "collection_list": [
-              "coastal-blue-small-ribbed",
-              "lilac-small-ribbed",
-              "camel-stripe",
+              "waves",
+              "blue-triangles",
+              "pink-daisies-1",
               "cream-floral",
               "camel-floral"
             ]
@@ -296,11 +296,11 @@
           "settings": {
             "collection_group_title": "Small Ribbed",
             "collection_list": [
-              "berry-red-small-ribbed",
-              "seaside-small-ribbed",
-              "camel-small-ribbed",
+              "lilac-small-ribbed",
+              "coastal-blue-small-ribbed",
+              "blue-small-stripe",
               "camel-stripe",
-              "blue-small-stripe"
+              "camel-small-ribbed"
             ]
           }
         },
@@ -309,11 +309,11 @@
           "settings": {
             "collection_group_title": "Big Ribbed",
             "collection_list": [
-              "jet-black",
               "stormy-blue",
               "tan-big-ribbed",
+              "deep-taupe",
               "dark-olive",
-              "deep-taupe"
+              "jet-black"
             ]
           }
         }
