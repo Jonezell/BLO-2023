@@ -200,6 +200,12 @@
           "button_vertical_position": "lowest",
           "greeting_message": "👋 Hello! Please message us if you have questions, or give an idea of what you’re looking for. We’re happy to make recommendations."
         }
+      },
+      "17428600031447253342": {
+        "type": "shopify:\/\/apps\/attentive\/blocks\/attn-tag\/8df62c72-8fe4-407e-a5b3-72132be30a0d",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
