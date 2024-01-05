@@ -3,7 +3,7 @@
 {%- if customer.b2b? -%}
   <div class="b2b-min-note hidden" id="b2b-min-note-{{ location }}">
     <p class="b2b-cart-note">
-      Our wholesale order minimum is $600. Please add more products to your cart to meet the minimum requirement.
+      Our wholesale order minimum is $400. Please add more products to your cart to meet the minimum requirement.
     </p>
   </div>
 
@@ -21,7 +21,7 @@
           const subtotalValue = text.replace(/[^0-9]/g, '');
 
 
-          if (subtotalValue < 60000) {
+          if (subtotalValue < 40000) {
             document.querySelector('#CartDrawer-Checkout').classList.add('hidden');
             document.querySelector('#b2b-min-note-drawer').classList.remove('hidden');
           } else {
@@ -66,7 +66,7 @@
           const text = htmlElement.textContent;
           const subtotalValue = text.replace(/[^0-9]/g, '');
 
-          if (subtotalValue < 60000) {
+          if (subtotalValue < 40000) {
             document.querySelector('#checkout').classList.add('hidden');
             document.querySelector('#b2b-min-note-page').classList.remove('hidden');
           } else {
