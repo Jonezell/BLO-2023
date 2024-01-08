@@ -41,6 +41,7 @@
         },
         "dee1a879-cf41-41d0-aee7-1f687922f483": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "linkurl": "shopify:\/\/collections\/joggers",
             "linktext": "Joggers"
