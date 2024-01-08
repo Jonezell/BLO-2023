@@ -23,8 +23,8 @@
       "settings": {
         "custom_liquid": "<div data-gorgias-contact-form-uid=\"00nrrg5f\"><\/div>\n<script defer src=\"https:\/\/contact.gorgias.help\/api\/contact-forms\/loader.js?v=2\" data-gorgias-loader-contact-form><\/script>",
         "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     }
   },
