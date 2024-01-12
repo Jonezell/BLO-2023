@@ -135,9 +135,9 @@
             "collection_group_title": "PJs",
             "collection_list": [
               "zip-rompers",
-              "two-piece-sets",
               "summer-zip-rompers",
-              "knotted-gowns",
+              "two-piece-sets",
+              "shorts-two-piece-set",
               "shop-all-pjs"
             ]
           }
@@ -148,9 +148,9 @@
             "collection_group_title": "Daywear",
             "collection_list": [
               "shirts-tanks",
-              "pullovers-zip-ups",
               "jackets",
-              "briefs-underwear",
+              "briefs",
+              "underwear",
               "daywear"
             ]
           }
@@ -162,8 +162,8 @@
             "collection_list": [
               "bows",
               "top-knot-beanies",
+              "knit-beanies",
               "trucker-hats",
-              "backpacks",
               "accessories"
             ]
           }
