@@ -49,6 +49,7 @@
         },
         "8b4e4b6a-0186-4fd8-916a-b7971658ac9d": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "linkurl": "shopify:\/\/collections\/backpacks",
             "linktext": "Backpacks"
