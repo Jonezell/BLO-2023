@@ -21,8 +21,8 @@
         "6bfd07ee-031a-4a56-9f00-117c1b95dedd": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/shirts-tanks",
-            "linktext": "Shirts & Tanks"
+            "linkurl": "shopify:\/\/collections\/shirts",
+            "linktext": "Shirts"
           }
         },
         "935d152d-e76b-41a6-95f9-1b60cf498497": {
@@ -36,8 +36,8 @@
         "56714d5f-b58e-4848-9c86-5637c77d3aa5": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/jackets",
-            "linktext": "Jackets"
+            "linkurl": "shopify:\/\/collections\/tanks",
+            "linktext": "Tanks"
           }
         },
         "dee1a879-cf41-41d0-aee7-1f687922f483": {
