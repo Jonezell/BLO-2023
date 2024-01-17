@@ -56,6 +56,7 @@
         },
         "935d152d-e76b-41a6-95f9-1b60cf498497": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "linkurl": "shopify:\/\/collections\/knotted-gowns",
             "linktext": "Knotted Gowns"
