@@ -25,43 +25,25 @@
             "linktext": "Shirts"
           }
         },
-        "935d152d-e76b-41a6-95f9-1b60cf498497": {
-          "type": "link",
-          "disabled": true,
-          "settings": {
-            "linkurl": "shopify:\/\/collections\/pullovers-zip-ups",
-            "linktext": "Pullovers & Zip-Ups"
-          }
-        },
         "56714d5f-b58e-4848-9c86-5637c77d3aa5": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/tanks",
-            "linktext": "Tanks"
-          }
-        },
-        "dee1a879-cf41-41d0-aee7-1f687922f483": {
-          "type": "link",
-          "disabled": true,
-          "settings": {
-            "linkurl": "shopify:\/\/collections\/joggers",
-            "linktext": "Joggers"
+            "linkurl": "shopify:\/\/collections\/briefs",
+            "linktext": "Briefs"
           }
         },
         "5cc99d2a-511d-42e6-8df4-8d54268c2568": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/briefs-underwear",
-            "linktext": "Briefs & Underwear"
+            "linkurl": "shopify:\/\/collections\/underwear",
+            "linktext": "Underwear"
           }
         }
       },
       "block_order": [
         "c7403c74-bc41-4a26-823f-d207c3c66ce5",
         "6bfd07ee-031a-4a56-9f00-117c1b95dedd",
-        "935d152d-e76b-41a6-95f9-1b60cf498497",
         "56714d5f-b58e-4848-9c86-5637c77d3aa5",
-        "dee1a879-cf41-41d0-aee7-1f687922f483",
         "5cc99d2a-511d-42e6-8df4-8d54268c2568"
       ],
       "settings": {
