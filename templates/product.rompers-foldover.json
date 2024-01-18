@@ -21,20 +21,9 @@
         "496b4226-e4d0-4584-a5ae-f630efc1661c": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Color",
+            "label": "Style",
             "style": "swatch",
             "target_collection": "zip-rompers",
-            "swatch_offset_Y": 45,
-            "swatch_offset_X": 50,
-            "hide_sold_out": true
-          }
-        },
-        "290414b6-f5dc-4c97-9cc5-dc3390dc951d": {
-          "type": "produdct-as-variants",
-          "settings": {
-            "label": "WITHOUT FOLD-OVER FEET",
-            "style": "swatch",
-            "target_collection": "zip-rompers-without-fold-over-feet",
             "swatch_offset_Y": 45,
             "swatch_offset_X": 50,
             "hide_sold_out": true
@@ -140,7 +129,6 @@
         "price",
         "664cf731-790c-40f0-8fbd-6dbf412e903b",
         "496b4226-e4d0-4584-a5ae-f630efc1661c",
-        "290414b6-f5dc-4c97-9cc5-dc3390dc951d",
         "variant_picker",
         "quantity_selector",
         "14d206d1-bc58-4ca6-baa4-d38ba878182e",
