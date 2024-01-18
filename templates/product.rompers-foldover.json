@@ -21,9 +21,9 @@
         "496b4226-e4d0-4584-a5ae-f630efc1661c": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "WITH FOLD-OVER FEET",
+            "label": "Color",
             "style": "swatch",
-            "target_collection": "zip-rompers-with-fold-over-feet",
+            "target_collection": "zip-rompers",
             "swatch_offset_Y": 45,
             "swatch_offset_X": 50,
             "hide_sold_out": true
