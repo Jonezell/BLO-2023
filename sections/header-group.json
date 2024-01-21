@@ -5,6 +5,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_YVijzQ": {
+          "type": "announcement",
+          "settings": {
+            "text": "We’re Moving! Please expect delayed shipping on older products.",
+            "link": ""
+          }
+        },
         "b39ed7e1-a259-42aa-86a5-38a7dfd0b6b8": {
           "type": "announcement",
           "disabled": true,
@@ -22,6 +29,7 @@
         }
       },
       "block_order": [
+        "announcement_YVijzQ",
         "b39ed7e1-a259-42aa-86a5-38a7dfd0b6b8",
         "announcement-bar-0"
       ],
