@@ -34,7 +34,7 @@
         "announcement-bar-0"
       ],
       "settings": {
-        "color_scheme": "background-2",
+        "color_scheme": "accent-1",
         "show_line_separator": false,
         "show_social": false,
         "auto_rotate": true,
