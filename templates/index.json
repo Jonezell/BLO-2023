@@ -38,11 +38,9 @@
       ],
       "settings": {
         "image_main": "shopify:\/\/shop_images\/Group.svg",
-        "color_text": "#8d3407",
-        "color_background": "#FCFCFB",
-        "background_image_desktop": "shopify:\/\/shop_images\/banner-background-desktop_ae563c27-1892-4ac3-b468-c1b731f7cfde.svg",
+        "color_text": "#161616",
+        "color_background": "#EFE8DE",
         "background_image_desktop_pin": "center center",
-        "background_image_mobile": "shopify:\/\/shop_images\/banner-background-mobile_a2670d9e-c903-41f4-b6f8-b322e25a295f.svg",
         "background_image_mobile_pin": "center center"
       }
     },
