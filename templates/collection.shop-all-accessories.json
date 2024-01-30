@@ -27,6 +27,7 @@
         },
         "b762a33b-8d2e-47c5-b327-f216aabfedc5": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "linkurl": "shopify:\/\/collections\/top-knot-beanies",
             "linktext": "Top Knot Beanies"
@@ -41,6 +42,7 @@
         },
         "382256df-3454-48ca-afdd-6f72766dc23a": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "linkurl": "shopify:\/\/collections\/trucker-hats",
             "linktext": "Hats"
