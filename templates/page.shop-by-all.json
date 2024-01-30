@@ -33,6 +33,7 @@
         },
         "c711d5bc-0dfc-48a1-bf42-4032cf488fd3": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "linkurl": "shopify:\/\/pages\/shop-by-big-ribbed",
             "linktext": "Big Ribbed"
