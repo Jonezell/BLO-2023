@@ -36,6 +36,7 @@
         "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-text-1",
         "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "image_main": "shopify:\/\/shop_images\/Frame.svg",
         "color_text": "#161616",
@@ -119,7 +120,6 @@
         "10bbc462-2e5b-4f38-b81a-b6b95efa501d",
         "4658ae19-32a4-4ec9-a32e-cbb21ab225ab"
       ],
-      "disabled": true,
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/Banner-Desktop-2-8.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Banner-Mobile-2-4.jpg"

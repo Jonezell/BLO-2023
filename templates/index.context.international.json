@@ -4,5 +4,29 @@
     "market": "international"
   },
   "sections": {
+    "70acda95-22e0-4ba5-9737-d2770599dc2a": {
+      "disabled": false,
+      "settings": {
+      },
+      "blocks": {
+        "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-text-1": {
+          "settings": {
+            "text": "We’re moving warehouses, International shipping will be turned on soon."
+          }
+        },
+        "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-buttons-1": {
+          "disabled": true,
+          "settings": {
+          }
+        }
+      }
+    },
+    "ef424140-16f7-4341-9117-1d25d594aa70": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    }
   }
 }
