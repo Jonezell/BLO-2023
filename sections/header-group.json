@@ -12,6 +12,13 @@
             "link": ""
           }
         },
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "FREE SHIPPING ON U.S. ORDERS OVER $40!",
+            "link": ""
+          }
+        },
         "b39ed7e1-a259-42aa-86a5-38a7dfd0b6b8": {
           "type": "announcement",
           "disabled": true,
@@ -19,20 +26,12 @@
             "text": "Save 30% off with code CyberMonday",
             "link": "https:\/\/bravelittleones.com\/discount\/CyberMonday?redirect=%2Fcollections%2Fbfcm"
           }
-        },
-        "announcement-bar-0": {
-          "type": "announcement",
-          "disabled": true,
-          "settings": {
-            "text": "FREE SHIPPING ON U.S. ORDERS OVER $40!",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "announcement_YVijzQ",
-        "b39ed7e1-a259-42aa-86a5-38a7dfd0b6b8",
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "b39ed7e1-a259-42aa-86a5-38a7dfd0b6b8"
       ],
       "settings": {
         "color_scheme": "accent-1",
