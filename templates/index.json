@@ -305,6 +305,7 @@
         },
         "0fb59179-4d56-4792-ba4c-6617211a7283": {
           "type": "collection_group",
+          "disabled": true,
           "settings": {
             "collection_group_title": "Big Ribbed",
             "collection_list": [
