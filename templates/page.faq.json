@@ -62,7 +62,7 @@
           "settings": {
             "heading": "Do you ship internationally?",
             "icon": "none",
-            "content": "<p>Yes! International shipping is currently available to over 200 countries. <\/p>",
+            "content": "<p>Yes! International shipping is currently available to Canada & Australia.<\/p>",
             "page": ""
           }
         },
@@ -80,7 +80,7 @@
           "settings": {
             "heading": "Who handles your international shipping?",
             "icon": "none",
-            "content": "<p>We ship all our international orders with Passport, our trusted third-party international shipping carrier. Passport has a number of shipping partners around the world that handle your local delivery and ensure your package arrives safely and quickly. <br\/><br\/>They will be your main go-to for all questions once your order leaves our warehouse. Check out Passport's detailed FAQs<strong> <\/strong><a href=\"https:\/\/help.passportshipping.com\/hc\/en-us\/categories\/17781278936851-I-am-receiving-a-package\" target=\"_blank\" title=\"https:\/\/help.passportshipping.com\/hc\/en-us\/categories\/17781278936851-I-am-receiving-a-package\"><span style=\"text-decoration:underline\">here<\/span><\/a>.<\/p><p>Please message them at <a href=\"mailto:help@passportshipping.com\"><span style=\"text-decoration:underline\">help@passportshipping.com<\/span><\/a> for any questions regarding your order.<\/p><p><\/p>",
+            "content": "<p>We ship all our international orders with FedEx International. Your order will contain a FedEx tracking number so you can track your package as it travels across the globe!<\/p>",
             "page": ""
           }
         },
