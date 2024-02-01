@@ -125,7 +125,7 @@
         "texture_top": false,
         "texture_bottom": false,
         "mainHeading": "International Shipping",
-        "mainText": "<p>We offer shipping to over 200 countries across the globe!<\/p>",
+        "mainText": "<p>We offer shipping to select countries across the globe!<\/p>",
         "layout": "image_first",
         "padding_top": 0,
         "padding_bottom": 100
