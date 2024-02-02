@@ -13,38 +13,29 @@
         "02ee7bed-61b6-4dd0-9a26-748cf32cd32b": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/pages\/shop-by-all",
-            "linktext": "All"
+            "text": "All",
+            "linkurl": "shopify:\/\/pages\/shop-by-all"
           }
         },
         "c6d8ecc8-334f-4e74-aaa7-b6148f028011": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/pages\/shop-by-print",
-            "linktext": "Prints"
+            "text": "Prints",
+            "linkurl": "shopify:\/\/pages\/shop-by-print"
           }
         },
         "f2edafda-af8b-4885-8f42-073e4bf349d6": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/pages\/shop-by-small-ribbed",
-            "linktext": "Small Ribbed"
-          }
-        },
-        "c711d5bc-0dfc-48a1-bf42-4032cf488fd3": {
-          "type": "link",
-          "disabled": true,
-          "settings": {
-            "linkurl": "shopify:\/\/pages\/shop-by-big-ribbed",
-            "linktext": "Big Ribbed"
+            "text": "Small Ribbed",
+            "linkurl": "shopify:\/\/pages\/shop-by-small-ribbed"
           }
         }
       },
       "block_order": [
         "02ee7bed-61b6-4dd0-9a26-748cf32cd32b",
         "c6d8ecc8-334f-4e74-aaa7-b6148f028011",
-        "f2edafda-af8b-4885-8f42-073e4bf349d6",
-        "c711d5bc-0dfc-48a1-bf42-4032cf488fd3"
+        "f2edafda-af8b-4885-8f42-073e4bf349d6"
       ],
       "settings": {
       }
