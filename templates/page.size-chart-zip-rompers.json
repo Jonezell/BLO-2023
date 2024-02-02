@@ -37,106 +37,107 @@
         "42ef8985-811c-48aa-baae-273d60955bd6": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart",
-            "linktext": "All"
+            "text": "All",
+            "linkurl": "shopify:\/\/pages\/size-chart"
           }
         },
         "c4383b77-a783-4b37-a52f-4aa088153e6d": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/pages\/size-charts-zip-rompers",
-            "linktext": "Zip Rompers"
+            "text": "Zip Rompers",
+            "linkurl": "shopify:\/\/pages\/size-charts-zip-rompers"
           }
         },
         "95d62b90-eec6-47dd-b391-7c9c7ed5c5fc": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart-two-piece-sets",
-            "linktext": "Two-Piece Sets"
+            "text": "Two-Piece Sets",
+            "linkurl": "shopify:\/\/pages\/size-chart-two-piece-sets"
           }
         },
         "218cbd96-4e3d-4508-ac20-6bde851e6168": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart-knotted-gowns",
-            "linktext": "Knotted Gowns"
+            "text": "Knotted Gowns",
+            "linkurl": "shopify:\/\/pages\/size-chart-knotted-gowns"
           }
         },
         "e7f7c58f-c2ea-4c1a-af2d-6e02d5b06c32": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart-shirts-tanks",
-            "linktext": "Shirts & Tanks"
+            "text": "Shirts & Tanks",
+            "linkurl": "shopify:\/\/pages\/size-chart-shirts-tanks"
           }
         },
         "link_qa7thX": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart-dresses",
-            "linktext": "Pocket Dresses"
+            "text": "Pocket Dresses",
+            "linkurl": "shopify:\/\/pages\/size-chart-dresses"
           }
         },
         "3ea562d7-75de-4617-bddc-0eb73863a4b5": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart-pullovers",
-            "linktext": "Pullovers"
+            "text": "Pullovers",
+            "linkurl": "shopify:\/\/pages\/size-chart-pullovers"
           }
         },
         "2a2f978a-0a7d-41dc-bc6e-f5c8e874c048": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart-zip-up-jacket",
-            "linktext": "Zip-Ups"
+            "text": "Zip-Ups",
+            "linkurl": "shopify:\/\/pages\/size-chart-zip-up-jacket"
           }
         },
         "229f2116-d265-4957-a41e-f97fed105061": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart-puffer-jackets",
-            "linktext": "Puffer Jackets"
+            "text": "Puffer Jackets",
+            "linkurl": "shopify:\/\/pages\/size-chart-puffer-jackets"
           }
         },
         "8273db02-551d-447f-8450-ebd5de3d73c0": {
           "type": "link",
+          "disabled": true,
           "settings": {
-            "linkurl": "shopify:\/\/pages\/copy-of-size-chart-joggers",
-            "linktext": "Joggers"
+            "text": "Joggers",
+            "linkurl": "shopify:\/\/pages\/copy-of-size-chart-joggers"
           }
         },
         "0db66442-e88e-4a79-8863-90ed860914f3": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart-trunks",
-            "linktext": "Swim Trunks"
+            "text": "Swim Trunks",
+            "linkurl": "shopify:\/\/pages\/size-chart-trunks"
           }
         },
         "3066519c-c420-4a98-998c-91bdff7cb1f6": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart-briefs",
-            "linktext": "Briefs"
+            "text": "Briefs",
+            "linkurl": "shopify:\/\/pages\/size-chart-briefs"
           }
         },
         "da857c37-8080-4c13-9a5d-4fae1dfd9541": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart-girl-underwear",
-            "linktext": "Underwear"
+            "text": "Underwear",
+            "linkurl": "shopify:\/\/pages\/size-chart-girl-underwear"
           }
         },
         "c0d37a81-2097-4705-aad4-d16156da235a": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart-womens",
-            "linktext": "Women's PJs"
+            "text": "Women's PJs",
+            "linkurl": "shopify:\/\/pages\/size-chart-womens"
           }
         },
         "440a64f2-200c-4326-a1ed-1342b028e6dd": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart-womens-pullovers",
-            "linktext": "Women's Pullovers"
+            "text": "Women's Pullovers",
+            "linkurl": "shopify:\/\/pages\/size-chart-womens-pullovers"
           }
         }
       },
