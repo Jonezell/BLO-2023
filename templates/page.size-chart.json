@@ -55,6 +55,13 @@
             "linkurl": "shopify:\/\/pages\/size-chart-two-piece-sets"
           }
         },
+        "link_jLA6a8": {
+          "type": "link",
+          "settings": {
+            "text": "Knotted Gowns",
+            "linkurl": "shopify:\/\/pages\/size-chart-knotted-gowns"
+          }
+        },
         "e7f7c58f-c2ea-4c1a-af2d-6e02d5b06c32": {
           "type": "link",
           "settings": {
@@ -138,6 +145,7 @@
         "42ef8985-811c-48aa-baae-273d60955bd6",
         "c4383b77-a783-4b37-a52f-4aa088153e6d",
         "95d62b90-eec6-47dd-b391-7c9c7ed5c5fc",
+        "link_jLA6a8",
         "e7f7c58f-c2ea-4c1a-af2d-6e02d5b06c32",
         "link_B3k6kg",
         "3ea562d7-75de-4617-bddc-0eb73863a4b5",
