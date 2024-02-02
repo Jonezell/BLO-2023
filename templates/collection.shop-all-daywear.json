@@ -14,36 +14,36 @@
         "c7403c74-bc41-4a26-823f-d207c3c66ce5": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/daywear",
-            "linktext": "All"
+            "text": "All",
+            "linkurl": "shopify:\/\/collections\/daywear"
           }
         },
         "6bfd07ee-031a-4a56-9f00-117c1b95dedd": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/shirts",
-            "linktext": "Shirts"
+            "text": "Shirts",
+            "linkurl": "shopify:\/\/collections\/shirts"
           }
         },
         "link_mcHqCh": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/pullovers-jackets",
-            "linktext": "Pullovers & Jackets"
+            "text": "Pullovers & Jackets",
+            "linkurl": "shopify:\/\/collections\/pullovers-jackets"
           }
         },
         "56714d5f-b58e-4848-9c86-5637c77d3aa5": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/briefs",
-            "linktext": "Briefs"
+            "text": "Briefs",
+            "linkurl": "shopify:\/\/collections\/briefs"
           }
         },
         "5cc99d2a-511d-42e6-8df4-8d54268c2568": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/underwear",
-            "linktext": "Underwear"
+            "text": "Underwear",
+            "linkurl": "shopify:\/\/collections\/underwear"
           }
         }
       },
