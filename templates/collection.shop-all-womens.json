@@ -14,36 +14,36 @@
         "605aea17-d9e9-4ae7-b9ac-176066dba0fe": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/womens",
-            "linktext": "All"
+            "text": "All",
+            "linkurl": "shopify:\/\/collections\/womens"
           }
         },
         "d71d8e5a-4fa6-4763-979d-bfb830d2f818": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/womens-matching-sets",
-            "linktext": "Matching Sets"
+            "text": "Matching Sets",
+            "linkurl": "shopify:\/\/collections\/womens-matching-sets"
           }
         },
         "29d2dc09-b6e7-47e0-aabe-8f2c0f0bf09b": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/womens-tops",
-            "linktext": "Tops"
+            "text": "Tops",
+            "linkurl": "shopify:\/\/collections\/womens-tops"
           }
         },
         "d6cd6fbb-87f9-4fb2-8b31-48711f1a7914": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/womens-bottoms",
-            "linktext": "Bottoms"
+            "text": "Bottoms",
+            "linkurl": "shopify:\/\/collections\/womens-bottoms"
           }
         },
         "d389db69-81b9-487a-ae9e-f975d569cb18": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/womens-pullovers",
-            "linktext": "Pullovers"
+            "text": "Pullovers",
+            "linkurl": "shopify:\/\/collections\/womens-pullovers"
           }
         }
       },
