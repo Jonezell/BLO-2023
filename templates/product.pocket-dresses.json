@@ -205,23 +205,12 @@
             "horizontal_position": 10,
             "vertical_position": 60
           }
-        },
-        "1db4ce0f-5414-49f9-9114-afd8f69265ff": {
-          "type": "Callout",
-          "settings": {
-            "pin_direction": "top_right",
-            "block_title": "Fold-Over Feet",
-            "block_text": "Our newly released rompers now include fold-over feet to help keep your little ones cozy.",
-            "horizontal_position": 16,
-            "vertical_position": 92
-          }
         }
       },
       "block_order": [
         "d5457409-4e49-41aa-af2b-4cc958b40ec3",
         "38d9d336-f376-40b5-88db-d6d23b55d945",
-        "e29631c0-07e1-4581-a5b4-70573b94816e",
-        "1db4ce0f-5414-49f9-9114-afd8f69265ff"
+        "e29631c0-07e1-4581-a5b4-70573b94816e"
       ],
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
