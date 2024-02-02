@@ -14,68 +14,44 @@
         "c7403c74-bc41-4a26-823f-d207c3c66ce5": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/shop-all-pjs",
-            "linktext": "All"
+            "text": "All",
+            "linkurl": "shopify:\/\/collections\/shop-all-pjs"
           }
         },
         "6bfd07ee-031a-4a56-9f00-117c1b95dedd": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/zip-rompers",
-            "linktext": "Zip Rompers"
+            "text": "Zip Rompers",
+            "linkurl": "shopify:\/\/collections\/zip-rompers"
           }
         },
         "9e3384c2-2994-4cab-8795-139c8c11c8ac": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/summer-zip-rompers",
-            "linktext": "Summer Zip Rompers"
+            "text": "Summer Zip Rompers",
+            "linkurl": "shopify:\/\/collections\/summer-zip-rompers"
           }
         },
         "06cbbc59-d1ca-4ea9-9e13-e589d26a9257": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/two-piece-sets",
-            "linktext": "Two-Piece Sets"
+            "text": "Two-Piece Sets",
+            "linkurl": "shopify:\/\/collections\/two-piece-sets"
           }
         },
         "ce317e5e-870e-41bf-a460-b0fd9a4657bd": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/shorts-two-piece-set",
-            "linktext": "Shorts Two-Piece Sets"
-          }
-        },
-        "bed93f4f-df10-456b-ac64-e625a9bd569e": {
-          "type": "link",
-          "disabled": true,
-          "settings": {
-            "linkurl": "shopify:\/\/collections\/summer-zip-rompers",
-            "linktext": "Summer Zip Rompers"
+            "text": "Shorts Two-Piece Sets",
+            "linkurl": "shopify:\/\/collections\/shorts-two-piece-set"
           }
         },
         "935d152d-e76b-41a6-95f9-1b60cf498497": {
           "type": "link",
           "disabled": true,
           "settings": {
-            "linkurl": "shopify:\/\/collections\/knotted-gowns",
-            "linktext": "Knotted Gowns"
-          }
-        },
-        "0b1bf622-1748-4727-926b-686d2e62abb4": {
-          "type": "link",
-          "disabled": true,
-          "settings": {
-            "linkurl": "shopify:\/\/collections\/stretchy-swaddle-sets",
-            "linktext": "Swaddle Sets"
-          }
-        },
-        "6990c498-8d70-4b53-a053-736a03b83fc0": {
-          "type": "link",
-          "disabled": true,
-          "settings": {
-            "linkurl": "shopify:\/\/collections\/muslin-swaddles",
-            "linktext": "Muslin Swaddles"
+            "text": "Knotted Gowns",
+            "linkurl": "shopify:\/\/collections\/knotted-gowns"
           }
         }
       },
@@ -85,10 +61,7 @@
         "9e3384c2-2994-4cab-8795-139c8c11c8ac",
         "06cbbc59-d1ca-4ea9-9e13-e589d26a9257",
         "ce317e5e-870e-41bf-a460-b0fd9a4657bd",
-        "bed93f4f-df10-456b-ac64-e625a9bd569e",
-        "935d152d-e76b-41a6-95f9-1b60cf498497",
-        "0b1bf622-1748-4727-926b-686d2e62abb4",
-        "6990c498-8d70-4b53-a053-736a03b83fc0"
+        "935d152d-e76b-41a6-95f9-1b60cf498497"
       ],
       "settings": {
       }
