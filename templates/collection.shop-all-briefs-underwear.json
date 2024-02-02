@@ -14,22 +14,22 @@
         "772b654d-7a4d-4a72-a07e-2172cb218df0": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/briefs-underwear",
-            "linktext": "All"
+            "text": "All",
+            "linkurl": "shopify:\/\/collections\/briefs-underwear"
           }
         },
         "be2815ab-cd9a-4001-afe1-a1308e0f3a3b": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/briefs",
-            "linktext": "Briefs"
+            "text": "Briefs",
+            "linkurl": "shopify:\/\/collections\/briefs"
           }
         },
         "b762a33b-8d2e-47c5-b327-f216aabfedc5": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/underwear",
-            "linktext": "Underwear"
+            "text": "Underwear",
+            "linkurl": "shopify:\/\/collections\/underwear"
           }
         }
       },
