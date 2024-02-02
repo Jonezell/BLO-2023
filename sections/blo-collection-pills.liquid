@@ -65,7 +65,7 @@
         class="blo-collection-pill toggle {% if collection.url == block.settings.linkurl or page.url == block.settings.linkurl %}selected{% endif%}"
         href="{{block.settings.linkurl}}"
       >
-        {{ block.settings.linktext }}
+        {{ block.settings.text }}
       </a>
     {%- endfor -%}
   </div>
@@ -81,9 +81,9 @@
       "name": "Link",
       "settings": [
         {
-          "id": "linktext",
+          "id": "text",
           "type": "text",
-          "label": "Heading"
+          "label": "Text"
         },
         {
           "id": "linkurl",
