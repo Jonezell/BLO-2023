@@ -14,22 +14,22 @@
         "a3b86f13-7809-48a4-809e-49bb6441fa03": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/swaddles",
-            "linktext": "All"
+            "text": "All",
+            "linkurl": "shopify:\/\/collections\/swaddles"
           }
         },
         "8ec6a80f-16bc-4763-821e-60116889d491": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/stretchy-swaddle-sets",
-            "linktext": "Stretchy Swaddle Sets"
+            "text": "Stretchy Swaddle Sets",
+            "linkurl": "shopify:\/\/collections\/stretchy-swaddle-sets"
           }
         },
         "241f7d4d-aa40-4319-b744-1a78048b175c": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/muslin-swaddles",
-            "linktext": "Muslin Swaddles"
+            "text": "Muslin Swaddles",
+            "linkurl": "shopify:\/\/collections\/muslin-swaddles"
           }
         }
       },
