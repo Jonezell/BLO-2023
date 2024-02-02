@@ -68,7 +68,7 @@
         {% if block.settings.text != blank %}
           {{ block.settings.text }}
         {% else %}
-          {{block.settings.linkurl | json}}
+          {{block.settings.linkurl.url | json}}
         {% endif %}
 
         
