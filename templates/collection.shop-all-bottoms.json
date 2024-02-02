@@ -14,36 +14,28 @@
         "c7403c74-bc41-4a26-823f-d207c3c66ce5": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/bottoms",
-            "linktext": "All"
+            "text": "All",
+            "linkurl": "shopify:\/\/collections\/bottoms"
           }
         },
         "56714d5f-b58e-4848-9c86-5637c77d3aa5": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/swim-trunks",
-            "linktext": "Swim Trunks"
-          }
-        },
-        "15eb5570-bf60-4c67-9565-a2bb47e4b5b9": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/collections\/pants",
-            "linktext": "Denim"
+            "text": "Swim Trunks",
+            "linkurl": "shopify:\/\/collections\/swim-trunks"
           }
         },
         "5cc99d2a-511d-42e6-8df4-8d54268c2568": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/briefs-underwear",
-            "linktext": "Briefs & Underwear"
+            "text": "Briefs & Underwear",
+            "linkurl": "shopify:\/\/collections\/briefs-underwear"
           }
         }
       },
       "block_order": [
         "c7403c74-bc41-4a26-823f-d207c3c66ce5",
         "56714d5f-b58e-4848-9c86-5637c77d3aa5",
-        "15eb5570-bf60-4c67-9565-a2bb47e4b5b9",
         "5cc99d2a-511d-42e6-8df4-8d54268c2568"
       ],
       "settings": {
