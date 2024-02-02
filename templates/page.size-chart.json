@@ -211,6 +211,16 @@
         "padding_bottom": 0
       }
     },
+    "page_7dcBx9": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-knotted-gowns",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "5767a37f-7246-45d5-90f4-cbb29737447f": {
       "type": "page",
       "settings": {
@@ -375,6 +385,7 @@
     "22049756-e6c8-4a88-8e63-8e497043cdc2",
     "771a57e9-bfd8-4e2d-be7c-86bb4c7c1593",
     "9486a264-bd0b-4a71-a340-df728a608f53",
+    "page_7dcBx9",
     "5767a37f-7246-45d5-90f4-cbb29737447f",
     "9c37fd43-ee0f-403c-9428-e3bb19423441",
     "8ca026ea-12d0-4109-bee3-3a6916272260",
