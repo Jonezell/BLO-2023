@@ -69,6 +69,13 @@
             "linktext": "Shirts & Tanks"
           }
         },
+        "link_B3k6kg": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart-dresses",
+            "linktext": "Pocket Dresses"
+          }
+        },
         "3ea562d7-75de-4617-bddc-0eb73863a4b5": {
           "type": "link",
           "settings": {
@@ -139,6 +146,7 @@
         "95d62b90-eec6-47dd-b391-7c9c7ed5c5fc",
         "218cbd96-4e3d-4508-ac20-6bde851e6168",
         "e7f7c58f-c2ea-4c1a-af2d-6e02d5b06c32",
+        "link_B3k6kg",
         "3ea562d7-75de-4617-bddc-0eb73863a4b5",
         "1f70caec-a7be-476c-b18c-7cbacd19af4f",
         "e58d9e6d-06ba-4a7d-b4b1-97afbe3e8923",

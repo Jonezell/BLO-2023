@@ -69,6 +69,13 @@
             "linktext": "Shirts & Tanks"
           }
         },
+        "link_qa7thX": {
+          "type": "link",
+          "settings": {
+            "linkurl": "shopify:\/\/pages\/size-chart-dresses",
+            "linktext": "Pocket Dresses"
+          }
+        },
         "3ea562d7-75de-4617-bddc-0eb73863a4b5": {
           "type": "link",
           "settings": {
@@ -131,13 +138,6 @@
             "linkurl": "shopify:\/\/pages\/size-chart-womens-pullovers",
             "linktext": "Women's Pullovers"
           }
-        },
-        "link_qa7thX": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/pages\/size-chart-dresses",
-            "linktext": "Pocket Dresses"
-          }
         }
       },
       "block_order": [
@@ -146,6 +146,7 @@
         "95d62b90-eec6-47dd-b391-7c9c7ed5c5fc",
         "218cbd96-4e3d-4508-ac20-6bde851e6168",
         "e7f7c58f-c2ea-4c1a-af2d-6e02d5b06c32",
+        "link_qa7thX",
         "3ea562d7-75de-4617-bddc-0eb73863a4b5",
         "2a2f978a-0a7d-41dc-bc6e-f5c8e874c048",
         "229f2116-d265-4957-a41e-f97fed105061",
@@ -154,8 +155,7 @@
         "3066519c-c420-4a98-998c-91bdff7cb1f6",
         "da857c37-8080-4c13-9a5d-4fae1dfd9541",
         "c0d37a81-2097-4705-aad4-d16156da235a",
-        "440a64f2-200c-4326-a1ed-1342b028e6dd",
-        "link_qa7thX"
+        "440a64f2-200c-4326-a1ed-1342b028e6dd"
       ],
       "settings": {
       }
