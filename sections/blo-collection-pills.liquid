@@ -65,7 +65,14 @@
         class="blo-collection-pill toggle {% if collection.url == block.settings.linkurl or page.url == block.settings.linkurl %}selected{% endif%}"
         href="{{block.settings.linkurl}}"
       >
-        {{ block.settings.text }}
+        {% if block.settings.text %}
+          {{ block.settings.text }}
+        {% else %}
+          YES?
+        {% endif %}
+
+        
+        
       </a>
     {%- endfor -%}
   </div>
