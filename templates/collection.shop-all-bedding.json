@@ -14,36 +14,36 @@
         "c7403c74-bc41-4a26-823f-d207c3c66ce5": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/bedding",
-            "linktext": "All"
+            "text": "All",
+            "linkurl": "shopify:\/\/collections\/bedding"
           }
         },
         "fce538c4-633e-4a07-978a-2696a2150e05": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/toddler-blankets",
-            "linktext": "Toddler Blankets"
+            "text": "Toddler Blankets",
+            "linkurl": "shopify:\/\/collections\/toddler-blankets"
           }
         },
         "6bfd07ee-031a-4a56-9f00-117c1b95dedd": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/youth-blanket",
-            "linktext": "Youth Blankets"
+            "text": "Youth Blankets",
+            "linkurl": "shopify:\/\/collections\/youth-blanket"
           }
         },
         "935d152d-e76b-41a6-95f9-1b60cf498497": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/crib-sheets",
-            "linktext": "Crib Sheets"
+            "text": "Crib Sheets",
+            "linkurl": "shopify:\/\/collections\/crib-sheets"
           }
         },
         "bed93f4f-df10-456b-ac64-e625a9bd569e": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/twin-sheets",
-            "linktext": "Twin Sheets"
+            "text": "Twin Sheets",
+            "linkurl": "shopify:\/\/collections\/twin-sheets"
           }
         }
       },
