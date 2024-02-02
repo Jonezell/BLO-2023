@@ -14,100 +14,78 @@
         "3922c1d0-59a5-4e40-9892-60be247b5912": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/shop-all-baby",
-            "linktext": "All"
+            "text": "All Baby",
+            "linkurl": "shopify:\/\/collections\/shop-all-baby"
           }
         },
         "23d3e84a-774f-48b6-ae8f-562e457ed6d9": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/zip-rompers",
-            "linktext": "Zip Romper"
+            "text": "Zip Rompers",
+            "linkurl": "shopify:\/\/collections\/zip-rompers"
           }
         },
         "8b8a8e1e-7198-453c-96d0-26e653a9eae4": {
           "type": "link",
-          "disabled": true,
           "settings": {
-            "linkurl": "shopify:\/\/collections\/summer-zip-rompers",
-            "linktext": "Summer Zip Rompers"
+            "text": "Summer Zip Rompers",
+            "linkurl": "shopify:\/\/collections\/summer-zip-rompers"
           }
         },
         "38b70655-75b5-47c5-8402-0095d2fa5a05": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/knotted-gowns",
-            "linktext": "Knotted Gowns"
+            "text": "Knotted Gowns",
+            "linkurl": "shopify:\/\/collections\/knotted-gowns"
           }
         },
         "c7c164aa-733c-4fd8-9551-b22f9c990cae": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/muslin-swaddles",
-            "linktext": "Muslin Swaddles"
+            "text": "Muslin Swaddles",
+            "linkurl": "shopify:\/\/collections\/muslin-swaddles"
           }
         },
         "7de62096-67ef-4463-8b35-5794f89819c4": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/stretchy-swaddle-sets",
-            "linktext": "Swaddle Sets"
+            "text": "Stretchy Swaddle Sets",
+            "linkurl": "shopify:\/\/collections\/stretchy-swaddle-sets"
           }
         },
         "9a6cda47-abdf-43b6-bbd0-4934b74ea29e": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/shirts",
-            "linktext": "Shirts"
+            "text": "Shirts",
+            "linkurl": "shopify:\/\/collections\/shirts"
           }
         },
         "a6e02faa-9c87-407d-9eea-2c4dbf24f50a": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/tanks",
-            "linktext": "Tanks"
+            "text": "Tanks",
+            "linkurl": "shopify:\/\/collections\/tanks"
           }
         },
         "08b3314a-1469-465e-906b-eabfb9ddb82e": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/pullovers",
-            "linktext": "Pullovers"
-          }
-        },
-        "07f8856b-a0f3-42e0-952d-a9cc78d40a67": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/collections\/denim",
-            "linktext": "Denim"
+            "text": "Pullovers",
+            "linkurl": "shopify:\/\/collections\/pullovers"
           }
         },
         "ea92a351-84ad-4cdf-b974-a24167992bcd": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/swim-trunks",
-            "linktext": "Swim Trunks"
-          }
-        },
-        "e64c4950-073d-4892-9fef-94c9cb947063": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/collections\/top-knot-beanies",
-            "linktext": "Beanies"
-          }
-        },
-        "1e0c4c23-b3af-4506-8578-6f38b60673d5": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/collections\/trucker-hats",
-            "linktext": "Hats"
+            "text": "Swim Trunks",
+            "linkurl": "shopify:\/\/collections\/swim-trunks"
           }
         },
         "a13772bf-5499-41cd-99bc-4c8f6a60fb80": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/bows",
-            "linktext": "Bows"
+            "text": "Bows",
+            "linkurl": "shopify:\/\/collections\/bows"
           }
         }
       },
@@ -121,10 +99,7 @@
         "9a6cda47-abdf-43b6-bbd0-4934b74ea29e",
         "a6e02faa-9c87-407d-9eea-2c4dbf24f50a",
         "08b3314a-1469-465e-906b-eabfb9ddb82e",
-        "07f8856b-a0f3-42e0-952d-a9cc78d40a67",
         "ea92a351-84ad-4cdf-b974-a24167992bcd",
-        "e64c4950-073d-4892-9fef-94c9cb947063",
-        "1e0c4c23-b3af-4506-8578-6f38b60673d5",
         "a13772bf-5499-41cd-99bc-4c8f6a60fb80"
       ],
       "settings": {
