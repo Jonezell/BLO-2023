@@ -14,50 +14,50 @@
         "7a33aa6d-4a07-4a78-91ad-c625daa84f7a": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/shop-all",
-            "linktext": "All"
+            "text": "All",
+            "linkurl": "shopify:\/\/collections\/shop-all"
           }
         },
         "8ec20306-3298-44fb-ad08-6f9cb6de3791": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/shop-all-pjs",
-            "linktext": "PJs"
+            "text": "PJs",
+            "linkurl": "shopify:\/\/collections\/shop-all-pjs"
           }
         },
         "9a2e0d4a-49fc-42a7-b0f9-05e71a33323a": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/daywear",
-            "linktext": "Daywear"
+            "text": "Daywear",
+            "linkurl": "shopify:\/\/collections\/daywear"
           }
         },
         "f854f5b8-2985-4703-af8c-57c1b1c497c9": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/swaddles",
-            "linktext": "Swaddles"
+            "text": "Swaddles",
+            "linkurl": "shopify:\/\/collections\/swaddles"
           }
         },
         "423d9231-c49f-4bf9-85b1-b1f8ec4314ea": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/bedding",
-            "linktext": "Blankets & Sheets"
+            "text": "Blankets & Sheets",
+            "linkurl": "shopify:\/\/collections\/bedding"
           }
         },
         "107ac8d3-142c-472c-a4aa-f026b296cd46": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/accessories",
-            "linktext": "Accessories"
+            "text": "Accessories",
+            "linkurl": "shopify:\/\/collections\/accessories"
           }
         },
         "ce642108-7d0a-4637-af81-5f2ec0709f31": {
           "type": "link",
           "settings": {
-            "linkurl": "shopify:\/\/collections\/womens",
-            "linktext": "Womens"
+            "text": "Women's",
+            "linkurl": "shopify:\/\/collections\/womens"
           }
         }
       },
