@@ -44,119 +44,30 @@
         "c4383b77-a783-4b37-a52f-4aa088153e6d": {
           "type": "link",
           "settings": {
-            "text": "Zip Rompers",
-            "linkurl": "shopify:\/\/pages\/size-charts-zip-rompers"
-          }
-        },
-        "95d62b90-eec6-47dd-b391-7c9c7ed5c5fc": {
-          "type": "link",
-          "settings": {
-            "text": "Two-Piece Sets",
-            "linkurl": "shopify:\/\/pages\/size-chart-two-piece-sets"
-          }
-        },
-        "link_jLA6a8": {
-          "type": "link",
-          "settings": {
-            "text": "Knotted Gowns",
-            "linkurl": "shopify:\/\/pages\/size-chart-knotted-gowns"
-          }
-        },
-        "e7f7c58f-c2ea-4c1a-af2d-6e02d5b06c32": {
-          "type": "link",
-          "settings": {
-            "text": "Shirts & Tanks",
-            "linkurl": "shopify:\/\/pages\/size-chart-shirts-tanks"
-          }
-        },
-        "link_B3k6kg": {
-          "type": "link",
-          "settings": {
-            "text": "Pocket Dresses",
-            "linkurl": "shopify:\/\/pages\/size-chart-dresses"
-          }
-        },
-        "3ea562d7-75de-4617-bddc-0eb73863a4b5": {
-          "type": "link",
-          "settings": {
-            "text": "Pullovers",
-            "linkurl": "shopify:\/\/pages\/size-chart-pullovers"
-          }
-        },
-        "1f70caec-a7be-476c-b18c-7cbacd19af4f": {
-          "type": "link",
-          "settings": {
-            "text": "Zip-Ups",
-            "linkurl": "shopify:\/\/pages\/size-chart-zip-up-jacket"
-          }
-        },
-        "e58d9e6d-06ba-4a7d-b4b1-97afbe3e8923": {
-          "type": "link",
-          "settings": {
-            "text": "Puffer Jackets",
-            "linkurl": "shopify:\/\/pages\/size-chart-puffer-jackets"
-          }
-        },
-        "8273db02-551d-447f-8450-ebd5de3d73c0": {
-          "type": "link",
-          "disabled": true,
-          "settings": {
-            "text": "Joggers",
-            "linkurl": "shopify:\/\/pages\/copy-of-size-chart-joggers"
-          }
-        },
-        "0db66442-e88e-4a79-8863-90ed860914f3": {
-          "type": "link",
-          "settings": {
-            "text": "Swim Trunks",
-            "linkurl": "shopify:\/\/pages\/size-chart-trunks"
-          }
-        },
-        "3066519c-c420-4a98-998c-91bdff7cb1f6": {
-          "type": "link",
-          "settings": {
-            "text": "Briefs",
-            "linkurl": "shopify:\/\/pages\/size-chart-briefs"
+            "text": "PJs",
+            "linkurl": "shopify:\/\/pages\/size-charts-all-pjs"
           }
         },
         "da857c37-8080-4c13-9a5d-4fae1dfd9541": {
           "type": "link",
           "settings": {
-            "text": "Underwear",
-            "linkurl": "shopify:\/\/pages\/size-chart-girl-underwear"
+            "text": "Daywear",
+            "linkurl": "shopify:\/\/pages\/size-charts-all-daywear"
           }
         },
         "c0d37a81-2097-4705-aad4-d16156da235a": {
           "type": "link",
           "settings": {
             "text": "Women's",
-            "linkurl": "shopify:\/\/pages\/size-chart-womens"
-          }
-        },
-        "4a1b611c-70b4-4a3c-b957-31eb3ec5d531": {
-          "type": "link",
-          "settings": {
-            "text": "Women's Pullovers",
-            "linkurl": "shopify:\/\/pages\/size-chart-womens-pullovers"
+            "linkurl": "shopify:\/\/pages\/size-charts-all-womens"
           }
         }
       },
       "block_order": [
         "42ef8985-811c-48aa-baae-273d60955bd6",
         "c4383b77-a783-4b37-a52f-4aa088153e6d",
-        "95d62b90-eec6-47dd-b391-7c9c7ed5c5fc",
-        "link_jLA6a8",
-        "e7f7c58f-c2ea-4c1a-af2d-6e02d5b06c32",
-        "link_B3k6kg",
-        "3ea562d7-75de-4617-bddc-0eb73863a4b5",
-        "1f70caec-a7be-476c-b18c-7cbacd19af4f",
-        "e58d9e6d-06ba-4a7d-b4b1-97afbe3e8923",
-        "8273db02-551d-447f-8450-ebd5de3d73c0",
-        "0db66442-e88e-4a79-8863-90ed860914f3",
-        "3066519c-c420-4a98-998c-91bdff7cb1f6",
         "da857c37-8080-4c13-9a5d-4fae1dfd9541",
-        "c0d37a81-2097-4705-aad4-d16156da235a",
-        "4a1b611c-70b4-4a3c-b957-31eb3ec5d531"
+        "c0d37a81-2097-4705-aad4-d16156da235a"
       ],
       "settings": {
       }
