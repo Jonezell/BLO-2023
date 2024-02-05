@@ -82,6 +82,16 @@
         "padding_bottom": 0
       }
     },
+    "d5be1906-fd1f-4b19-92ec-bb80e7df5f45": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-dresses",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "5767a37f-7246-45d5-90f4-cbb29737447f": {
       "type": "page",
       "settings": {
@@ -102,54 +112,10 @@
         "padding_bottom": 0
       }
     },
-    "8ca026ea-12d0-4109-bee3-3a6916272260": {
-      "type": "page",
-      "disabled": true,
-      "settings": {
-        "page": "size-chart-jacquard-weave",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "5ec1dda7-5feb-4d18-86ba-b05741ef686a": {
-      "type": "page",
-      "disabled": true,
-      "settings": {
-        "page": "size-chart-knitwear",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "47b0d8f5-299b-42b0-b874-ca253e892726": {
       "type": "page",
       "settings": {
         "page": "size-chart-trunks",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "d5be1906-fd1f-4b19-92ec-bb80e7df5f45": {
-      "type": "page",
-      "disabled": true,
-      "settings": {
-        "page": "size-chart-dresses",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "97b9c367-ddf2-418f-be98-87449d528e37": {
-      "type": "page",
-      "disabled": true,
-      "settings": {
-        "page": "size-chart-harem-rompers",
         "heading_size": "h2",
         "color_scheme": "",
         "padding_top": 0,
@@ -192,13 +158,10 @@
     "5b15a417-7aac-408c-92b7-e324a551989e",
     "bf4b2c56-f3fb-4d6e-9767-46d41b11233a",
     "9486a264-bd0b-4a71-a340-df728a608f53",
+    "d5be1906-fd1f-4b19-92ec-bb80e7df5f45",
     "5767a37f-7246-45d5-90f4-cbb29737447f",
     "9c37fd43-ee0f-403c-9428-e3bb19423441",
-    "8ca026ea-12d0-4109-bee3-3a6916272260",
-    "5ec1dda7-5feb-4d18-86ba-b05741ef686a",
     "47b0d8f5-299b-42b0-b874-ca253e892726",
-    "d5be1906-fd1f-4b19-92ec-bb80e7df5f45",
-    "97b9c367-ddf2-418f-be98-87449d528e37",
     "9213c041-fb28-4c2a-b003-7ca859c08fb0",
     "2258ce1e-de62-4326-a775-31c5908b2f14",
     "75b55457-bf23-4c7a-a18c-4be6cc675b46"
