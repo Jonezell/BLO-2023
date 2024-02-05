@@ -142,6 +142,16 @@
         "padding_bottom": 0
       }
     },
+    "page_4XzcQJ": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-dresses",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "5767a37f-7246-45d5-90f4-cbb29737447f": {
       "type": "page",
       "settings": {
@@ -244,6 +254,7 @@
     "9e9d8462-79f6-49ae-af03-58e169404325",
     "771a57e9-bfd8-4e2d-be7c-86bb4c7c1593",
     "9486a264-bd0b-4a71-a340-df728a608f53",
+    "page_4XzcQJ",
     "5767a37f-7246-45d5-90f4-cbb29737447f",
     "9c37fd43-ee0f-403c-9428-e3bb19423441",
     "47b0d8f5-299b-42b0-b874-ca253e892726",
