@@ -282,11 +282,11 @@
           "settings": {
             "collection_group_title": "Prints",
             "collection_list": [
-              "waves",
-              "blue-triangles",
+              "race-cars-small-ribbed",
+              "bugs",
               "pink-daisies-1",
-              "cream-floral",
-              "camel-floral"
+              "camel-floral",
+              "blue-triangles"
             ]
           }
         },
@@ -295,11 +295,11 @@
           "settings": {
             "collection_group_title": "Small Ribbed",
             "collection_list": [
+              "creamsicle-small-ribbed",
+              "honey-stripe-small-ribbed",
+              "mauve-small-ribbed",
               "lilac-small-ribbed",
-              "coastal-blue-small-ribbed",
-              "blue-small-stripe",
-              "camel-stripe",
-              "camel-small-ribbed"
+              "coastal-blue-small-ribbed"
             ]
           }
         },
