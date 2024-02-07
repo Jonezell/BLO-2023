@@ -186,7 +186,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Using the same signature bamboo blend as our children's clothing, our women's loungewear is buttery soft, stretchy, breathable and luxurious. These silky pajamas are about as sweet as a sleeping baby.<\/p>",
+            "text": "<p>Using the same signature bamboo fabric as our children's clothing, our women's loungewear is buttery soft, stretchy, breathable and luxurious. These silky pajamas are about as sweet as a sleeping baby.<\/p>",
             "text_style": "body"
           }
         },
@@ -212,6 +212,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-2",
         "image_behavior": "zoom-in",
         "mobile_content_alignment": "left",
