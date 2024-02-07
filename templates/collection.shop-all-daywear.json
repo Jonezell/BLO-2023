@@ -25,6 +25,13 @@
             "linkurl": "shopify:\/\/collections\/shirts"
           }
         },
+        "link_cgHq8y": {
+          "type": "link",
+          "settings": {
+            "text": "Pocket Dresses",
+            "linkurl": "shopify:\/\/collections\/pocket-dresses"
+          }
+        },
         "link_mcHqCh": {
           "type": "link",
           "settings": {
@@ -50,6 +57,7 @@
       "block_order": [
         "c7403c74-bc41-4a26-823f-d207c3c66ce5",
         "6bfd07ee-031a-4a56-9f00-117c1b95dedd",
+        "link_cgHq8y",
         "link_mcHqCh",
         "56714d5f-b58e-4848-9c86-5637c77d3aa5",
         "5cc99d2a-511d-42e6-8df4-8d54268c2568"
