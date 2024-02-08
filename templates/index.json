@@ -1,50 +1,5 @@
 {
   "sections": {
-    "70acda95-22e0-4ba5-9737-d2770599dc2a": {
-      "type": "blo-banner-release",
-      "blocks": {
-        "f2561834-5bb9-4a7e-9854-4d941131fd62": {
-          "type": "badge",
-          "disabled": true,
-          "settings": {
-            "badge": "Cyber Monday"
-          }
-        },
-        "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "We're Moving!"
-          }
-        },
-        "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "We’re moving warehouses so you’ll notice we’ve marked some preexisting inventory as a 'pre-order'. You can order as usual and expect your orders to ship around February 19th. New releases are ready to ship and will be shipped within 3 business days."
-          }
-        },
-        "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "button_label": "Shop Ready To Ship",
-            "button_link": "https:\/\/bravelittleones.com\/collections\/ready-to-ship?filter.v.availability=1"
-          }
-        }
-      },
-      "block_order": [
-        "f2561834-5bb9-4a7e-9854-4d941131fd62",
-        "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-heading-1",
-        "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-text-1",
-        "template--16166779355305__70acda95-22e0-4ba5-9737-d2770599dc2a-buttons-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_main": "shopify:\/\/shop_images\/Frame.svg",
-        "color_text": "#161616",
-        "color_background": "#EFE8DE",
-        "background_image_desktop_pin": "center center",
-        "background_image_mobile_pin": "center center"
-      }
-    },
     "2a12e19f-5656-485a-9c14-e3cd6c07b6ea": {
       "type": "blo-banner-release",
       "blocks": {
@@ -86,9 +41,7 @@
         "image_secondary": "shopify:\/\/shop_images\/image-secondary_2_20eb98d5-c693-408d-ad27-2578109f007f.jpg",
         "color_text": "#efe8de",
         "color_background": "#3A5443",
-        "background_image_desktop": "shopify:\/\/shop_images\/banner-background-desktop_dadce17e-7e40-4e1a-a462-b725640d5789.svg",
         "background_image_desktop_pin": "bottom right",
-        "background_image_mobile": "shopify:\/\/shop_images\/banner-background-mobile_491982cb-8c73-4a3e-8658-2dd191719133.svg",
         "background_image_mobile_pin": "bottom right"
       }
     },
@@ -612,7 +565,6 @@
     }
   },
   "order": [
-    "70acda95-22e0-4ba5-9737-d2770599dc2a",
     "2a12e19f-5656-485a-9c14-e3cd6c07b6ea",
     "ef424140-16f7-4341-9117-1d25d594aa70",
     "824201d6-ab39-4535-b10b-033005d18033",
