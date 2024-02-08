@@ -234,11 +234,11 @@
           "settings": {
             "collection_group_title": "Prints",
             "collection_list": [
+              "wildflowers",
               "bunnies-small-ribbed",
               "race-cars-small-ribbed",
               "bugs",
-              "pink-daisies-1",
-              "camel-floral"
+              "pink-daisies-1"
             ]
           }
         },
@@ -248,8 +248,8 @@
             "collection_group_title": "Small Ribbed",
             "collection_list": [
               "creamsicle-small-ribbed",
-              "honey-stripe-small-ribbed",
               "mauve-small-ribbed",
+              "honey-stripe-small-ribbed",
               "lilac-small-ribbed",
               "coastal-blue-small-ribbed"
             ]
