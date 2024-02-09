@@ -400,6 +400,12 @@ header.header.page-width {
       padding-left: 10px;
       padding-right: 10px;
     }
+    .announcement-bar .slider-button--next {
+      margin-right: -10px;
+    }
+    .announcement-bar .slider-button--prev {
+      margin-left: -1.5rem;
+    }
 }
 
 
