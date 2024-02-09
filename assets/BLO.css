@@ -394,6 +394,14 @@ header.header.page-width {
     }
 }
 
+/* -- Adjusted annoucement bar spacing --  */
+@media screen and (max-width: 749px) { 
+    .announcement-bar-section .utility-bar__grid.page-width {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+}
+
 
 
 /* ---------------------------------------- CUSTOM MENU DRAWER STYLES ---------------------------------------- */
