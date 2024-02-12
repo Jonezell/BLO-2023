@@ -10,7 +10,7 @@
 
 <div class="product-options PAV">
   <label class="form__label">{{ PAV_label }}</label>
-  <div class="PAV_container {{PAV_style}}">
+  <div class="PAV_container PAV_style_{{PAV_style}}">
     {% paginate collections[PAV_target_collection].products by 100 %}
       {% for product in collections[PAV_target_collection].products %}
         <a
@@ -108,32 +108,32 @@
   }
 
   /* Image Styles */
-  .PAV_container.image .PAV_option {
+  .PAV_container.PAV_style_image .PAV_option {
     border-radius: 10px;
     width: 50px;
     height: 50px;
   }
-  .PAV_container.image .PAV_image {
+  .PAV_container.PAV_style_image .PAV_image {
     border-radius: 5px;
     background-size: 100%;
   }
-  .PAV_container.image .PAV_option label {
+  .PAV_container.PAV_style_image .PAV_option label {
     bottom: 55px;
   }
 
   /* Swatch Styles */
-  .PAV_container.swatch .PAV_option {
+  .PAV_container.PAV_style_swatch .PAV_option {
     border-radius: 20px;
     width: 35px;
     height: 35px;
   }
-  .PAV_container.swatch .PAV_image {
+  .PAV_container.PAV_style_swatch .PAV_image {
     border-radius: 20px;
     background-size: 130px;
     background-position-y: {{PAV_swatch_offset_Y}}%;
     background-position-x: {{PAV_swatch_offset_X}}%;
   }
-  .PAV_container.swatch .PAV_option label {
+  .PAV_container.PAV_style_swatch .PAV_option label {
     bottom: 40px;
   }
 {% endstyle %}
