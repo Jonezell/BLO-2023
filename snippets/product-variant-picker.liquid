@@ -50,7 +50,12 @@
           %}
         </fieldset>
       {%- elsif picker_type == 'button' -%}
-        <fieldset class="js product-form__input product-form__input--pill {%- if option.name == 'Style' and option.values.size <= 1 -%}hidden{%- endif -%}">
+        <fieldset
+          class="js product-form__input product-form__input--pill"
+          {%- if option.name == 'Style' and option.values.size <= 1 -%}
+            hidden
+          {%- endif -%}
+        >
           <legend class="form__label">{{ option.name }}</legend>
           {% render 'product-variant-options',
             product: product,
@@ -60,7 +65,12 @@
           %}
         </fieldset>
       {%- else -%}
-        <div class="product-form__input product-form__input--dropdown {%- if option.name == 'Style' and option.values.size <= 1 -%}hidden{%- endif -%}">
+        <div
+          class="product-form__input product-form__input--dropdown"
+          {%- if option.name == 'Style' and option.values.size <= 1 -%}
+            hidden
+          {%- endif -%}
+        >
           <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
             {{ option.name }}
           </label>
