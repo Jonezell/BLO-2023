@@ -1192,6 +1192,9 @@ fieldset.blo-filter-Color {
 .blo-filter-Color .blo-filter-Color-Red .blo-filter-Color-label:before {
     background: #AB2A2A;
 }
+.blo-filter-Color .blo-filter-Color-Orange .blo-filter-Color-label:before {
+    background: #E66A34;
+}
 .blo-filter-Color .facet-checkbox--disabled .blo-filter-Color-label {
     opacity: .5;
     cursor: not-allowed;
