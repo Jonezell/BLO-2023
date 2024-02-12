@@ -16,6 +16,8 @@
           "type": "announcement",
           "settings": {
             "text": "FREE SHIPPING ON U.S. ORDERS OVER $40!",
+            "text_alignment": "center",
+            "color_scheme": "scheme-1",
             "link": ""
           }
         },
@@ -46,6 +48,7 @@
     "header": {
       "type": "header",
       "settings": {
+        "color_scheme": "scheme-1",
         "logo_position": "top-center",
         "menu": "main-menu",
         "menu_type_desktop": "mega",
