@@ -71,12 +71,13 @@
           "settings": {
             "heading": "How much is shipping? Do I have to pay duties and taxes?",
             "icon": "none",
-            "content": "<p>Shipping cost varies depending on  the final destinations and weight of order. <br\/><br\/>To create a better delivery experience for you, we ship all international orders Delivered Duty Paid (DDP). By shipping DDP, duties and taxes are collected directly at checkout so that your package is not stopped and held by customs.<br\/><br\/>Please note that duties and taxes assessed by customs vary by country and product.<\/p>",
+            "content": "<p>International shipping is $35 USD.<\/p><p>Our international orders ship with Delivery Duty Unpaid (DDU). Customers may need to pay for duties or taxes when the item arrives at their country’s customs department.<br\/><br\/><em>Please note that duties and taxes assessed by customs vary by country and product.<\/em><\/p>",
             "page": ""
           }
         },
         "template--16169361965225__8820224c-172b-4fc4-a5f2-b7e85d680d3d-1689773697ae2fd14c-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Who handles your international shipping?",
             "icon": "none",
