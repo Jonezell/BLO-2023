@@ -10,6 +10,14 @@
         "color_scheme": "accent-1"
       },
       "blocks": {
+        "announcement_PezgC": {
+          "type": "announcement",
+          "disabled": false,
+          "settings": {
+            "text": "We’re moving! 'Pre-Order' products will ship around Feb 26th.",
+            "link": ""
+          }
+        },
         "8ec5e40e-dc0d-4d87-bde8-5febe256c134": {
           "type": "announcement",
           "disabled": false,
@@ -23,14 +31,6 @@
           "disabled": false,
           "settings": {
             "text": "Wholesale Minimum is $400",
-            "link": ""
-          }
-        },
-        "announcement_PezgC": {
-          "type": "announcement",
-          "disabled": false,
-          "settings": {
-            "text": "We’re moving! 'Pre-Order' products will ship around Feb 19th.",
             "link": ""
           }
         }
