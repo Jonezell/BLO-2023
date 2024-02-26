@@ -5,13 +5,6 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_YVijzQ": {
-          "type": "announcement",
-          "settings": {
-            "text": "We’re moving! 'Pre-Order' products will ship around Feb 26th.",
-            "link": ""
-          }
-        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
@@ -23,13 +16,12 @@
           "type": "announcement",
           "disabled": true,
           "settings": {
-            "text": "Save 30% off with code CyberMonday",
+            "text": "Save 20% off with code CyberMonday",
             "link": "https:\/\/bravelittleones.com\/discount\/CyberMonday?redirect=%2Fcollections%2Fbfcm"
           }
         }
       },
       "block_order": [
-        "announcement_YVijzQ",
         "announcement-bar-0",
         "b39ed7e1-a259-42aa-86a5-38a7dfd0b6b8"
       ],
