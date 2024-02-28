@@ -101,7 +101,6 @@
             "collection_list": [
               "shirts",
               "pocket-dresses",
-              "pullovers-jackets",
               "briefs-underwear",
               "daywear"
             ]
@@ -139,10 +138,9 @@
             "collection_group_title": "And More",
             "collection_list": [
               "blankets",
-              "crib-sheets",
-              "twin-sheets",
-              "stretchy-swaddle-sets",
-              "shop-all"
+              "shop-all",
+              "bedding",
+              "swaddles"
             ]
           }
         }
