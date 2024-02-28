@@ -101,7 +101,8 @@
             "collection_list": [
               "shirts",
               "pocket-dresses",
-              "briefs-underwear",
+              "briefs",
+              "underwear",
               "daywear"
             ]
           }
@@ -137,10 +138,10 @@
           "settings": {
             "collection_group_title": "And More",
             "collection_list": [
-              "blankets",
-              "shop-all",
               "bedding",
-              "swaddles"
+              "blankets",
+              "swaddles",
+              "shop-all"
             ]
           }
         }
