@@ -246,7 +246,7 @@
         "17e74dfb-47af-4762-95ee-cda10780d9e2": {
           "type": "collection_group",
           "settings": {
-            "collection_group_title": "Small Ribbed",
+            "collection_group_title": "Solids & Stripes",
             "collection_list": [
               "dusty-sage",
               "creamsicle-small-ribbed",
@@ -284,7 +284,7 @@
         "color_scheme": "",
         "show_view_all": true,
         "view_all_link": "shopify:\/\/pages\/shop-by-all",
-        "view_all_label": "Shop By Prints & Ribbed",
+        "view_all_label": "Find Your Favorite",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 100,
