@@ -18,6 +18,13 @@
             "linkurl": "shopify:\/\/collections\/accessories"
           }
         },
+        "link_WKbX9d": {
+          "type": "link",
+          "settings": {
+            "text": "Trucker Hats",
+            "linkurl": "shopify:\/\/collections\/trucker-hats"
+          }
+        },
         "be2815ab-cd9a-4001-afe1-a1308e0f3a3b": {
           "type": "link",
           "settings": {
@@ -35,6 +42,7 @@
       },
       "block_order": [
         "772b654d-7a4d-4a72-a07e-2172cb218df0",
+        "link_WKbX9d",
         "be2815ab-cd9a-4001-afe1-a1308e0f3a3b",
         "link_Mw4cBf"
       ],
@@ -46,6 +54,7 @@
       "settings": {
         "products_per_page": 24,
         "columns_desktop": 3,
+        "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
