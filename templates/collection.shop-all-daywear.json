@@ -34,24 +34,16 @@
         },
         "link_mcHqCh": {
           "type": "link",
-          "disabled": true,
           "settings": {
-            "text": "Pullovers & Jackets",
-            "linkurl": "shopify:\/\/collections\/pullovers-jackets"
+            "text": "Jackets",
+            "linkurl": "shopify:\/\/collections\/jackets"
           }
         },
         "56714d5f-b58e-4848-9c86-5637c77d3aa5": {
           "type": "link",
           "settings": {
-            "text": "Briefs",
-            "linkurl": "shopify:\/\/collections\/briefs"
-          }
-        },
-        "5cc99d2a-511d-42e6-8df4-8d54268c2568": {
-          "type": "link",
-          "settings": {
-            "text": "Underwear",
-            "linkurl": "shopify:\/\/collections\/underwear"
+            "text": "Briefs & Underwear",
+            "linkurl": "shopify:\/\/collections\/briefs-underwear"
           }
         }
       },
@@ -60,8 +52,7 @@
         "6bfd07ee-031a-4a56-9f00-117c1b95dedd",
         "link_cgHq8y",
         "link_mcHqCh",
-        "56714d5f-b58e-4848-9c86-5637c77d3aa5",
-        "5cc99d2a-511d-42e6-8df4-8d54268c2568"
+        "56714d5f-b58e-4848-9c86-5637c77d3aa5"
       ],
       "settings": {
       }
