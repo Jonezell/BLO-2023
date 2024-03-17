@@ -39,6 +39,20 @@
             "linkurl": "shopify:\/\/collections\/pullovers-jackets"
           }
         },
+        "link_hbapwQ": {
+          "type": "link",
+          "settings": {
+            "text": "Swim Trunks",
+            "linkurl": "shopify:\/\/collections\/swim-trunks"
+          }
+        },
+        "link_Rg6aUz": {
+          "type": "link",
+          "settings": {
+            "text": "Denim",
+            "linkurl": "shopify:\/\/collections\/denim"
+          }
+        },
         "56714d5f-b58e-4848-9c86-5637c77d3aa5": {
           "type": "link",
           "settings": {
@@ -52,6 +66,8 @@
         "6bfd07ee-031a-4a56-9f00-117c1b95dedd",
         "link_cgHq8y",
         "link_mcHqCh",
+        "link_hbapwQ",
+        "link_Rg6aUz",
         "56714d5f-b58e-4848-9c86-5637c77d3aa5"
       ],
       "settings": {
