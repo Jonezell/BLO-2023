@@ -270,7 +270,7 @@
         "mainHeading": "Have A Question? We Have The Answer.",
         "mainText": "",
         "layout": "image_first",
-        "padding_top": 200,
+        "padding_top": 0,
         "padding_bottom": 200
       }
     },
