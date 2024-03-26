@@ -115,6 +115,7 @@
     },
     "5767a37f-7246-45d5-90f4-cbb29737447f": {
       "type": "page",
+      "disabled": true,
       "settings": {
         "page": "size-chart-pullovers",
         "heading_size": "h2",
@@ -125,6 +126,7 @@
     },
     "9c37fd43-ee0f-403c-9428-e3bb19423441": {
       "type": "page",
+      "disabled": true,
       "settings": {
         "page": "size-chart-zip-up-jacket",
         "heading_size": "h2",
@@ -135,6 +137,7 @@
     },
     "9213c041-fb28-4c2a-b003-7ca859c08fb0": {
       "type": "page",
+      "disabled": true,
       "settings": {
         "page": "copy-of-size-chart-joggers",
         "heading_size": "h2",
