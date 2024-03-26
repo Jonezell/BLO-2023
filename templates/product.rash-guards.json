@@ -87,10 +87,13 @@
           "settings": {
           }
         },
-        "share": {
-          "type": "share",
+        "collapsible_tab_4wNfpi": {
+          "type": "collapsible_tab",
           "settings": {
-            "share_label": "Share"
+            "heading": "Sizing",
+            "icon": "ruler",
+            "content": "",
+            "page": "size-chart-rash-guards"
           }
         }
       },
@@ -107,7 +110,7 @@
         "d828ce5d-f44b-4833-9b8d-0a405b12654d",
         "4620763d-b34b-4ded-a857-504751a5f38d",
         "description",
-        "share"
+        "collapsible_tab_4wNfpi"
       ],
       "settings": {
         "enable_sticky_info": true,
