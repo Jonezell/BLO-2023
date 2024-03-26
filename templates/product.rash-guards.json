@@ -18,10 +18,22 @@
           "settings": {
           }
         },
+        "produdct_as_variants_ximQG4": {
+          "type": "produdct-as-variants",
+          "settings": {
+            "label": "Style",
+            "style": "image",
+            "target_collection": "rash-guards",
+            "swatch_offset_Y": 50,
+            "swatch_offset_X": 50,
+            "hide_sold_out": true
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "button",
+            "swatch_shape": "circle"
           }
         },
         "quantity_selector": {
@@ -86,6 +98,7 @@
         "title",
         "price",
         "c32c6529-50ec-4a23-84a8-d808ee1d0b2a",
+        "produdct_as_variants_ximQG4",
         "variant_picker",
         "quantity_selector",
         "14d206d1-bc58-4ca6-baa4-d38ba878182e",
@@ -98,6 +111,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
+        "color_scheme": "",
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
