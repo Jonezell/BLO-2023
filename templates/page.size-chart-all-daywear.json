@@ -104,6 +104,7 @@
     },
     "page_fJ7TR8": {
       "type": "page",
+      "disabled": true,
       "settings": {
         "page": "size-chart-rash-guards",
         "heading_size": "h2",
