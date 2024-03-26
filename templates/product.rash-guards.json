@@ -158,6 +158,75 @@
         "include_margins": false
       }
     },
+    "blo_product_callouts_fWTe4i": {
+      "type": "blo-product-callouts",
+      "blocks": {
+        "callout_kifHhY": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Tagless Label",
+            "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
+            "horizontal_position": 56,
+            "vertical_position": 8
+          }
+        },
+        "callout_H748XQ": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "UPF 50+ With UV Protection",
+            "block_text": "Our Rash Guards provide the ultimate sun protection; UPF 50 blocks about 99% of the sun’s UVA and UVB harmful rays.",
+            "horizontal_position": 10,
+            "vertical_position": 14
+          }
+        },
+        "callout_3KUEPp": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_left",
+            "block_title": "Long Sleeves",
+            "block_text": "Full coverage from the sun that lasts all day.",
+            "horizontal_position": 6,
+            "vertical_position": 30
+          }
+        },
+        "callout_G9Vhh8": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Soft & Stretchy",
+            "block_text": "Dress your littles easily while keeping them super comfy.",
+            "horizontal_position": 34,
+            "vertical_position": 64
+          }
+        },
+        "callout_QamYfe": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Quick Drying",
+            "block_text": "Beach or pool? No problem, that's what they're made for.",
+            "horizontal_position": 14,
+            "vertical_position": 92
+          }
+        }
+      },
+      "block_order": [
+        "callout_kifHhY",
+        "callout_H748XQ",
+        "callout_3KUEPp",
+        "callout_G9Vhh8",
+        "callout_QamYfe"
+      ],
+      "settings": {
+        "title": "Fun in the sun without the worry.",
+        "text": "Our Rash Guards keep your little ones covered from the sun and are comfy for those long summer days.",
+        "image": "shopify:\/\/shop_images\/RashGuard.jpg",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85": {
       "type": "blo-faq",
       "blocks": {
@@ -228,6 +297,7 @@
   "order": [
     "main",
     "1689095601e7facfa4",
+    "blo_product_callouts_fWTe4i",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
     "related-products"
   ]
