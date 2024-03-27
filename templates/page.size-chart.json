@@ -186,7 +186,6 @@
     },
     "page_BiLwDK": {
       "type": "page",
-      "disabled": true,
       "settings": {
         "page": "size-chart-rash-guards",
         "heading_size": "h2",
