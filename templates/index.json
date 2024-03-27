@@ -235,11 +235,11 @@
           "settings": {
             "collection_group_title": "Prints",
             "collection_list": [
+              "sandcastles",
               "sharks-small-ribbed",
               "mermaids-small-ribbed",
               "planets-small-ribbed",
-              "lavender-rainbows",
-              "take-flight"
+              "lavender-rainbows"
             ]
           }
         },
@@ -248,11 +248,11 @@
           "settings": {
             "collection_group_title": "Solids & Stripes",
             "collection_list": [
+              "nautical-blue-stripe-small-ribbed",
               "ocean-blue-small-ribbed",
               "dusty-sage",
               "creamsicle-small-ribbed",
-              "mauve-small-ribbed",
-              "honey-stripe-small-ribbed"
+              "mauve-small-ribbed"
             ]
           }
         },
