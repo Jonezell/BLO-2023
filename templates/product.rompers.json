@@ -21,20 +21,9 @@
         "496b4226-e4d0-4584-a5ae-f630efc1661c": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "WITH FOLD-OVER FEET",
+            "label": "Style",
             "style": "swatch",
-            "target_collection": "zip-rompers-with-fold-over-feet",
-            "swatch_offset_Y": 45,
-            "swatch_offset_X": 50,
-            "hide_sold_out": true
-          }
-        },
-        "cf66de50-91a7-4958-bf15-20a6493c920a": {
-          "type": "produdct-as-variants",
-          "settings": {
-            "label": "WITHOUT FOLD-OVER FEET",
-            "style": "swatch",
-            "target_collection": "zip-rompers-without-fold-over-feet",
+            "target_collection": "zip-rompers",
             "swatch_offset_Y": 45,
             "swatch_offset_X": 50,
             "hide_sold_out": true
@@ -43,7 +32,8 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "button",
+            "swatch_shape": "circle"
           }
         },
         "quantity_selector": {
@@ -140,7 +130,6 @@
         "price",
         "660fa8c6-1057-4b14-a221-08730bdb4c84",
         "496b4226-e4d0-4584-a5ae-f630efc1661c",
-        "cf66de50-91a7-4958-bf15-20a6493c920a",
         "variant_picker",
         "quantity_selector",
         "14d206d1-bc58-4ca6-baa4-d38ba878182e",
@@ -156,6 +145,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
+        "color_scheme": "",
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
@@ -340,6 +330,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-2",
         "image_behavior": "zoom-in",
         "mobile_content_alignment": "left",
@@ -378,6 +369,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
@@ -416,6 +408,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
@@ -454,6 +447,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
