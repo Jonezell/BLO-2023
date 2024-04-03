@@ -32,7 +32,8 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "button",
+            "swatch_shape": "circle"
           }
         },
         "quantity_selector": {
@@ -134,6 +135,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
+        "color_scheme": "",
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
@@ -193,6 +195,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-2",
         "image_behavior": "zoom-in",
         "mobile_content_alignment": "left",
@@ -222,14 +225,15 @@
         "29b66d0c-e175-4216-88da-a864f3ea4e27",
         "465e3f42-e016-4600-a7c5-9ff93eb015c9"
       ],
+      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/swim-olliezayn_trunksandtees_IMG_7533.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-2",
         "image_behavior": "zoom-in",
         "mobile_content_alignment": "left",
