@@ -329,28 +329,28 @@
     "8ba55bfb-8b33-43c5-83fa-6e8c766846dc": {
       "type": "blo-faq",
       "blocks": {
-        "a2593a97-a4d2-4e76-a980-5cebf124fcaa": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How does Sezzle work?",
-            "icon": "none",
-            "content": "<p>We offer the option to buy now and pay later with Sezzle. When you choose Sezzle at checkout, you can split your purchase into 4 equal, 0% interest installment payments--with no additional fees.<\/p><p>To learn more about Sezzle, click <a href=\"https:\/\/sezzle.com\/\" target=\"_blank\" title=\"https:\/\/sezzle.com\/\">here.<\/a><\/p>",
-            "page": ""
-          }
-        },
         "9b178011-923e-4d19-8d6e-94b20b06b212": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "How does ShopPay Installments work?",
             "icon": "none",
-            "content": "<p>Shop Pay gives you the option to pay in full at checkout, or to pay for your order over time. Depending on your purchase amount, there are two ways that you can pay for your order in installments:<\/p><p>1. For orders between $50 to $999.99 USD, you can split your purchase into four bi-weekly, interest-free installment payments. <\/p><p>2. For orders between $150 to 17,500 USD, you can split your purchase into monthly installment payments. <\/p><p>To learn more about ShopPay Installments, <a href=\"https:\/\/help.shop.app\/hc\/en-us\/articles\/360057800071-Shop-Pay-Installments-overview\">Click Here<\/a><\/p><p><br\/><em>Rates from 0%-36% APR. Payment options through Shop Pay Installments, are subject to an eligibility check and are provided by these lending partners: <\/em><a href=\"http:\/\/affirm.com\/lenders\" target=\"_blank\"><em>affirm.com\/lenders<\/em><\/a><em>. Options depend on your purchase amount, and a down payment may be required. State notices to consumers <\/em><a href=\"https:\/\/www.affirm.com\/licenses\" target=\"_blank\"><em>https:\/\/www.affirm.com\/licenses<\/em><\/a><em>.<\/em><\/p>",
+            "content": "<p>Shop Pay gives you the option to pay in full at checkout, or to pay for your order over time. Depending on your purchase amount, there are two ways that you can pay for your order in installments:<\/p><ol><li>For orders between $50 to $999.99 USD, you can split your purchase into four bi-weekly, interest-free installment payments. <\/li><li>For orders between $150 to 17,500 USD, you can split your purchase into monthly installment payments. <\/li><\/ol><p>To learn more about ShopPay Installments, <a href=\"https:\/\/help.shop.app\/hc\/en-us\/articles\/360057800071-Shop-Pay-Installments-overview\" target=\"_blank\"><span style=\"text-decoration:underline\">Click Here<\/span><\/a><\/p><p><br\/><em>Rates from 0%-36% APR. Payment options through Shop Pay Installments, are subject to an eligibility check and are provided by these lending partners: <\/em><a href=\"http:\/\/affirm.com\/lenders\" target=\"_blank\"><span style=\"text-decoration:underline\"><em>affirm.com\/lenders.<\/em><\/span><\/a><em> Options depend on your purchase amount, and a down payment may be required. State notices to consumers <\/em><a href=\"https:\/\/www.affirm.com\/licenses\" target=\"_blank\"><span style=\"text-decoration:underline\"><em>affirm.com\/licenses.<\/em><\/span><\/a><\/p>",
+            "page": ""
+          }
+        },
+        "a2593a97-a4d2-4e76-a980-5cebf124fcaa": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How does Sezzle work?",
+            "icon": "none",
+            "content": "<p>We offer the option to buy now and pay later with Sezzle. When you choose Sezzle at checkout, you can split your purchase into 4 equal, 0% interest installment payments--with no additional fees.<\/p><p>To learn more about Sezzle, click <a href=\"https:\/\/sezzle.com\/\" target=\"_blank\"><span style=\"text-decoration:underline\">here.<\/span><\/a><\/p>",
             "page": ""
           }
         }
       },
       "block_order": [
-        "a2593a97-a4d2-4e76-a980-5cebf124fcaa",
-        "9b178011-923e-4d19-8d6e-94b20b06b212"
+        "9b178011-923e-4d19-8d6e-94b20b06b212",
+        "a2593a97-a4d2-4e76-a980-5cebf124fcaa"
       ],
       "settings": {
         "background_color": "",
