@@ -62,7 +62,7 @@
           "settings": {
             "heading": "Do you ship internationally?",
             "icon": "none",
-            "content": "<p>Yes! International shipping is currently available to Canada & Australia.<\/p>",
+            "content": "<p>Yes! International shipping is currently available to Canada, Australia & United Kingdom<\/p>",
             "page": ""
           }
         },
