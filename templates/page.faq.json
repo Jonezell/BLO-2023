@@ -77,11 +77,10 @@
         },
         "template--16169361965225__8820224c-172b-4fc4-a5f2-b7e85d680d3d-1689773697ae2fd14c-1": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Who handles your international shipping?",
             "icon": "none",
-            "content": "<p>We ship all our international orders with FedEx International. Your order will contain a FedEx tracking number so you can track your package as it travels across the globe!<\/p>",
+            "content": "<p>We ship all our international orders with UPS Mail Innovations DDU. Your order will contain a tracking number so you can track your package as it travels across the globe!<\/p>",
             "page": ""
           }
         },
