@@ -33,7 +33,7 @@
           "settings": {
             "heading": "How can I track my order?",
             "icon": "none",
-            "content": "<p>You can easily track your order from your Brave Little Ones <a href=\"https:\/\/account.bravelittleones.com\" title=\"https:\/\/account.bravelittleones.com\">account page<\/a>.<\/p>",
+            "content": "<p>You can easily track your order from the link in your order confirmation email or by logging into Brave Little Ones <a href=\"https:\/\/account.bravelittleones.com\/\" target=\"_blank\"><span style=\"text-decoration:underline\">account<\/span><\/a><a href=\"https:\/\/account.bravelittleones.com\/\"><span style=\"text-decoration:underline\">.<\/span><\/a><\/p>",
             "page": ""
           }
         }
