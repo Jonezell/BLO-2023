@@ -71,7 +71,7 @@
           "settings": {
             "heading": "How much is shipping? Do I have to pay duties and taxes?",
             "icon": "none",
-            "content": "<p>International shipping is $35 USD.<\/p><p>Our international orders ship with Delivery Duty Unpaid (DDU). Customers may need to pay for duties or taxes when the item arrives at their country’s customs department.<br\/><br\/><em>Please note that duties and taxes assessed by customs vary by country and product.<\/em><\/p>",
+            "content": "<p>International shipping is $35 USD.<br\/><br\/>Our international orders ship with Delivery Duty Unpaid (DDU). Customers may need to pay for duties or taxes when the item arrives at their country’s customs department.<br\/><br\/><em>Please note that duties and taxes assessed by customs vary by country and product.<\/em><\/p>",
             "page": ""
           }
         },
