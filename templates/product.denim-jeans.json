@@ -33,7 +33,8 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "button",
+            "swatch_shape": "circle"
           }
         },
         "quantity_selector": {
@@ -101,7 +102,7 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "washing",
-            "content": "<p><strong>Step One:  <\/strong>Wash in cold water on the normal or quick cycle. We do not recommend washing on delicate since it makes products sit in water for too long.<br\/><br\/><strong>Step Two:  <\/strong>Dry on the normal heat setting.<\/p>",
+            "content": "<p><strong>Step One: \u2028<\/strong>Wash in cold water on the normal or quick cycle. We do not recommend washing on delicate since it makes products sit in water for too long.<br\/><br\/><strong>Step Two: \u2028<\/strong>Dry on the normal heat setting.<\/p>",
             "page": ""
           }
         },
@@ -145,6 +146,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
+        "color_scheme": "",
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
@@ -204,6 +206,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
@@ -241,6 +244,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
@@ -278,6 +282,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
@@ -315,6 +320,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
@@ -348,7 +354,7 @@
           "settings": {
             "heading": "Package Protection",
             "icon": "box",
-            "content": "<p>Our Brave Little Ones $0.98 Package Protection guarantees delivery on all orders placed within the United States.<\/p><p><strong>Our Guarantee<\/strong><\/p><p>Brave Little Ones Package Protection offers you peace of mind and package protection for all of your orders. If you add insurance, your package is fully protected in the event that it is lost, damaged, or stolen. <a href=\"https:\/\/bravelittleones.com\/pages\/faqs\" target=\"_blank\" title=\"https:\/\/bravelittleones.com\/pages\/faqs\">Read more here.<\/a><\/p>",
+            "content": "<p>Our Brave Little Ones Package Protection guarantees delivery on all orders placed within the United States.<\/p><p><strong>Our Guarantee<\/strong><\/p><p>Brave Little Ones Package Protection offers you peace of mind and package protection for all of your orders. If you add insurance, your package is fully protected in the event that it is lost, damaged, or stolen. <a href=\"https:\/\/bravelittleones.com\/pages\/faqs\" target=\"_blank\" title=\"https:\/\/bravelittleones.com\/pages\/faqs\">Read more here.<\/a><\/p>",
             "page": ""
           }
         }
