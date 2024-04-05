@@ -245,15 +245,6 @@
     "19377e30-16eb-4742-b517-36c612483e17": {
       "type": "blo-faq",
       "blocks": {
-        "2aaf9e64-204a-42f5-8b7e-a9041fcd273a": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Slight variation in fit or color?",
-            "icon": "none",
-            "content": "<p>Brave Little Ones pjs are very stretchy, and sewn by human hands. A small sewing variance from item to item is normal. While we aim to keep our sizing as consistent as possible, there will always be slight variation.<br\/><br\/>Similarly, we do our absolute best to ensure our colors remain consistent. However, we custom dye and print our fabric, so there may be slight variations between batches. Print and pattern placement may also vary between pieces.<\/p>",
-            "page": ""
-          }
-        },
         "5f65693e-f62d-4378-9d18-40a2260b8900": {
           "type": "collapsible_tab",
           "settings": {
@@ -263,19 +254,28 @@
             "page": ""
           }
         },
+        "2aaf9e64-204a-42f5-8b7e-a9041fcd273a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Slight variation in fit or color?",
+            "icon": "none",
+            "content": "<p>Brave Little Ones pjs are very stretchy, and sewn by human hands. A small sewing variance from item to item is normal. While we aim to keep our sizing as consistent as possible, there will always be slight variation.<br\/><br\/>Similarly, we do our absolute best to ensure our colors remain consistent. However, we custom dye and print our fabric, so there may be slight variations between batches. Print and pattern placement may also vary between pieces.<\/p>",
+            "page": ""
+          }
+        },
         "1c6e4069-44ea-4053-babf-647cc27cf5fd": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "How can I limit pilling?",
             "icon": "none",
-            "content": "<p>Bamboo is a natural fiber, and it's delicate. When bamboo is rubbed against rough surfaces, especially while wet, it may cause pilling. It should be washed separately from items that may be damaging, like jeans, towels or velcro. <\/p><p>For the longest wear, you can wash them inside out and line dry when possible.<\/p>",
+            "content": "<p>Bamboo is a natural fiber, and it's delicate. When bamboo is rubbed against rough surfaces, especially while wet, it may cause pilling. It should be washed separately from items that may be damaging, like jeans, towels or velcro. <\/p><p>For the longest wear, you can wash them inside out and line dry when possible.<\/p>",
             "page": ""
           }
         }
       },
       "block_order": [
-        "2aaf9e64-204a-42f5-8b7e-a9041fcd273a",
         "5f65693e-f62d-4378-9d18-40a2260b8900",
+        "2aaf9e64-204a-42f5-8b7e-a9041fcd273a",
         "1c6e4069-44ea-4053-babf-647cc27cf5fd"
       ],
       "settings": {
@@ -297,13 +297,23 @@
           "settings": {
             "heading": "How do I apply?",
             "icon": "none",
-            "content": "<p>Are you interested in carrying Brave Little Ones in your shop? Brave Little Ones is the perfect addition to your shop. The best part is every Brave Little Ones purchase helps feed children in Rwanda, Africa. <\/p><p>Please fill out the application <a href=\"https:\/\/brave-little-ones.myshopify.com\/pages\/wholesale\" title=\"Wholesale\">here<\/a>. If accepted, you will receive an email with our wholesale pricing and login information. We're excited to hear from you!<\/p><p><em>Please note: We are currently NOT selling to online retailers. Please only apply if you have a brick and mortar shop.<\/em><\/p>",
+            "content": "<p>Are you interested in carrying Brave Little Ones in your shop? Brave Little Ones is the perfect addition to your shop. The best part is every Brave Little Ones purchase helps feed children in Rwanda, Africa. <\/p><p>Please fill out <a href=\"https:\/\/brave-little-ones.myshopify.com\/pages\/wholesale\" target=\"_blank\"><span style=\"text-decoration:underline\">the application here.<\/span><\/a><span style=\"text-decoration:underline\"> <\/span><\/p><p>If accepted, you will receive an email with our wholesale pricing and login information. We're excited to hear from you!<\/p><p><em>Please note: We are currently NOT selling to online retailers. Please only apply if you have a brick and mortar shop.<\/em><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_dzjKnG": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I place a wholesale order?",
+            "icon": "none",
+            "content": "<p>Simply log in with your wholesale email to shop. All items are automatically discounted to show wholesale pricing. You can<a href=\"http:\/\/account.bravelittleones.com\/\" target=\"_blank\"> <span style=\"text-decoration:underline\">log in here<\/span><\/a>to start shopping.<\/p>",
             "page": ""
           }
         }
       },
       "block_order": [
-        "e8df1594-69fa-4d5b-a0bf-745c6b650d08"
+        "e8df1594-69fa-4d5b-a0bf-745c6b650d08",
+        "collapsible_tab_dzjKnG"
       ],
       "settings": {
         "background_color": "",
