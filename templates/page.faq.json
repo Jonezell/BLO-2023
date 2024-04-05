@@ -69,7 +69,7 @@
         "template--16169361965225__8820224c-172b-4fc4-a5f2-b7e85d680d3d-1689773697ae2fd14c-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "How much is shipping? Do I have to pay duties and taxes?",
+            "heading": "How much is international shipping? Do I have to pay duties and taxes?",
             "icon": "none",
             "content": "<p>International shipping is $35 USD.<br\/><br\/>Our international orders ship with Delivery Duty Unpaid (DDU). Customers may need to pay for duties or taxes when the item arrives at their country’s customs department.<br\/><br\/><em>Please note that duties and taxes assessed by customs vary by country and product.<\/em><\/p>",
             "page": ""
@@ -87,7 +87,7 @@
         "a930a09e-2b7c-4ca0-9660-7baf487efdf9": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "When will I receive my order?",
+            "heading": "When will I receive my international order?",
             "icon": "none",
             "content": "<p>We want you to receive your order as fast as possible!<\/p><p>International orders are typically delivered within 6-15 business days once the order has been fulfilled. Once your order has been fulfilled, the estimated delivery date will be shown on your order status page. <\/p><p>You can track the progress of your order by clicking the tracking number found on your order confirmation page or your order history page found in your <a href=\"https:\/\/account.bravelittleones.com\/\" target=\"_blank\"><span style=\"text-decoration:underline\">Brave Little Ones Account.<\/span><\/a><\/p>",
             "page": ""
