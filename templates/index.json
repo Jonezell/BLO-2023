@@ -235,11 +235,11 @@
           "settings": {
             "collection_group_title": "Prints",
             "collection_list": [
+              "construction",
               "sandcastles",
               "sharks-small-ribbed",
               "mermaids-small-ribbed",
-              "planets-small-ribbed",
-              "lavender-rainbows"
+              "planets-small-ribbed"
             ]
           }
         },
