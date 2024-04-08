@@ -174,8 +174,8 @@
             "pin_direction": "top_right",
             "block_title": "Soft & Stretchy",
             "block_text": "These trunks offer ultimate softness, stretchiness, and comfort without an irritating mesh swim liner.",
-            "horizontal_position": 50,
-            "vertical_position": 50
+            "horizontal_position": 2,
+            "vertical_position": 82
           }
         },
         "callout_rC9xRb": {
@@ -184,17 +184,17 @@
             "pin_direction": "top_right",
             "block_title": "Functional Drawstring",
             "block_text": "Our trunks feature a functional, easy to use knotted drawstring to make getting dressed easy for you and your little ones!",
-            "horizontal_position": 50,
-            "vertical_position": 50
+            "horizontal_position": 18,
+            "vertical_position": 18
           }
         },
         "callout_9W9T4k": {
           "type": "Callout",
           "settings": {
-            "pin_direction": "top_right",
+            "pin_direction": "top_left",
             "block_title": "Tagless Label",
             "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
-            "horizontal_position": 50,
+            "horizontal_position": 8,
             "vertical_position": 50
           }
         }
@@ -207,6 +207,7 @@
       "settings": {
         "title": "Make a Splash with Brave Little Ones Ultra-Comfy Swim Trunks",
         "text": "",
+        "image": "shopify:\/\/shop_images\/SwimTrunks.jpg",
         "padding_top": 100,
         "padding_bottom": 100
       }
