@@ -184,8 +184,8 @@
             "pin_direction": "top_right",
             "block_title": "Stretchy Waistband",
             "block_text": "Discover the perfect balance of comfort and style with our elastic waistband, designed to provide maximum comfort for your little ones.",
-            "horizontal_position": 40,
-            "vertical_position": 6
+            "horizontal_position": 26,
+            "vertical_position": 8
           }
         },
         "f1e751ed-dfdd-4ba8-83e4-1a6b97c75d5b": {
@@ -206,7 +206,7 @@
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
         "text": "Discover the ultimate daytime comfort with our perfectly crafted Briefs.",
-        "image": "shopify:\/\/shop_images\/Briefs_13ce8240-7dd4-4e7c-8159-7177e3c720a6.jpg",
+        "image": "shopify:\/\/shop_images\/Briefs_c1dda83d-2775-4bab-a511-7f1c18bf345e.jpg",
         "padding_top": 100,
         "padding_bottom": 100
       }
