@@ -165,6 +165,52 @@
         "include_margins": false
       }
     },
+    "blo_product_callouts_ePD3ww": {
+      "type": "blo-product-callouts",
+      "blocks": {
+        "callout_9UNKHR": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Soft & Stretchy",
+            "block_text": "These trunks offer ultimate softness, stretchiness, and comfort without an irritating mesh swim liner.",
+            "horizontal_position": 50,
+            "vertical_position": 50
+          }
+        },
+        "callout_rC9xRb": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Functional Drawstring",
+            "block_text": "Our trunks feature a functional, easy to use knotted drawstring to make getting dressed easy for you and your little ones!",
+            "horizontal_position": 50,
+            "vertical_position": 50
+          }
+        },
+        "callout_9W9T4k": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Tagless Label",
+            "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
+            "horizontal_position": 50,
+            "vertical_position": 50
+          }
+        }
+      },
+      "block_order": [
+        "callout_9UNKHR",
+        "callout_rC9xRb",
+        "callout_9W9T4k"
+      ],
+      "settings": {
+        "title": "Make a Splash with Brave Little Ones Ultra-Comfy Swim Trunks",
+        "text": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -310,6 +356,7 @@
   "order": [
     "main",
     "1689095601e7facfa4",
+    "blo_product_callouts_ePD3ww",
     "image-with-text",
     "5a4ec292-5c44-4ebd-b00c-acbbbea15655",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
