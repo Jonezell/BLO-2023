@@ -951,7 +951,10 @@ quantity-input.quantity button.quantity__button,
         z-index: 2;
     }
 }
-
+/* FIX DISCRIPTON LIST TO BE SAME COLOR AS PARAGRAPH */
+.product .product__description ul {
+  color: rgba(var(--color-foreground));
+}
 
 
 
