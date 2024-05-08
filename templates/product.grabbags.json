@@ -120,20 +120,58 @@
         "padding_bottom": 12
       }
     },
-    "1689095601e7facfa4": {
-      "type": "apps",
+    "multicolumn_Pc3zmQ": {
+      "type": "multicolumn",
       "blocks": {
-        "b57b9dfc-be08-472f-9b60-621e325bb54d": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "column_PFUeTw": {
+          "type": "column",
           "settings": {
+            "title": "1",
+            "text": "<p>You select which grab bag you’d like to buy. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_q6A9TM": {
+          "type": "column",
+          "settings": {
+            "title": "2",
+            "text": "<p>You select the size and gender. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_abD3LB": {
+          "type": "column",
+          "settings": {
+            "title": "3",
+            "text": "<p>We will select the surprise colors and prints.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "b57b9dfc-be08-472f-9b60-621e325bb54d"
+        "column_PFUeTw",
+        "column_q6A9TM",
+        "column_abD3LB"
       ],
+      "disabled": true,
       "settings": {
-        "include_margins": false
+        "title": "How Do Do Grab Bags Work?",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85": {
@@ -205,7 +243,7 @@
   },
   "order": [
     "main",
-    "1689095601e7facfa4",
+    "multicolumn_Pc3zmQ",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
     "related-products"
   ]
