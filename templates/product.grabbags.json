@@ -81,6 +81,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "custom_liquid_WWC6GT": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!-- CUSTOM CSS TO HIDE SOLD OUT VARIANTS -->\n\n<style>\n.product-form__input--pill input[type=radio]:disabled+label, .product-form__input--pill input[type=radio].disabled+label {\n background: red !important;\n}\n\n<\/style>"
+          }
         }
       },
       "block_order": [
@@ -95,7 +101,8 @@
         "d828ce5d-f44b-4833-9b8d-0a405b12654d",
         "4620763d-b34b-4ded-a857-504751a5f38d",
         "description",
-        "share"
+        "share",
+        "custom_liquid_WWC6GT"
       ],
       "settings": {
         "enable_sticky_info": true,
