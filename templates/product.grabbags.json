@@ -85,7 +85,7 @@
         "custom_liquid_WWC6GT": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<!-- CUSTOM CSS TO HIDE SOLD OUT VARIANTS -->\n\n<style>\n.product-form__input--pill input[type=radio]:disabled+label, .product-form__input--pill input[type=radio].disabled+label {\n display: none !important;\n}\n\n<\/style>"
+            "custom_liquid": "<!-- CUSTOM CSS TO HIDE SOLD OUT VARIANTS -->\n\n<style>\n.product-form__input--pill input[type=radio]:disabled+label, \n.product-form__input--pill input[type=radio].disabled+label {\n display: none !important;\n}\n\n<\/style>"
           }
         }
       },
