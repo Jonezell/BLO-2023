@@ -24,7 +24,7 @@
             "label": "Crib",
             "style": "swatch",
             "target_collection": "crib-sheets",
-            "swatch_offset_Y": 60,
+            "swatch_offset_Y": 65,
             "swatch_offset_X": 60,
             "hide_sold_out": true
           }
@@ -35,8 +35,8 @@
             "label": "Twin",
             "style": "swatch",
             "target_collection": "twin-sheets",
-            "swatch_offset_Y": 65,
-            "swatch_offset_X": 70,
+            "swatch_offset_Y": 70,
+            "swatch_offset_X": 85,
             "hide_sold_out": true
           }
         },
