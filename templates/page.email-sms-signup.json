@@ -6,16 +6,9 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
-    },
-    "1692815720b7b1de5f": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
-    "main",
-    "1692815720b7b1de5f"
+    "main"
   ]
 }
