@@ -163,44 +163,6 @@
         "include_margins": false
       }
     },
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "image-with-text-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Plush and Cozy Blankets",
-            "heading_size": "h2"
-          }
-        },
-        "image-with-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>These extra plush, super luxurious, soft and cozy blankets are made with a fluffy polyester on one side and our buttery soft Bamboo Viscose material on the other. Perfectly sized, these blankets complement our pajamas as they're made from some of our most popular prints!<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "image-with-text-0",
-        "image-with-text-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Blankets-161_0499283c-d220-435f-8683-abacf7fe7104.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "background-2",
-        "image_behavior": "zoom-in",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85": {
       "type": "blo-faq",
       "blocks": {
@@ -238,14 +200,86 @@
         "template--16166779289769__d0291347-d783-4f94-a5aa-f5ef56fe5d85-16891060528ec65540-2"
       ],
       "settings": {
-        "background_color": "#efe8de",
-        "texture_top": true,
-        "texture_bottom": true,
+        "background_color": "#f8f4ee",
+        "texture_top": false,
+        "texture_bottom": false,
         "mainHeading": "Have A Question? We Have The Answer.",
         "mainText": "",
         "layout": "image_first",
-        "padding_top": 200,
-        "padding_bottom": 200
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "blo_fabric_bYFCbj": {
+      "type": "blo-fabric",
+      "blocks": {
+        "heading_B7tjhC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plush and Cozy Blankets"
+          }
+        },
+        "text_RbdBxB": {
+          "type": "text",
+          "settings": {
+            "text": "These extra plush, super luxurious, soft and cozy blankets are made with a fluffy polyester on one side and our buttery soft Bamboo Viscose material on the other."
+          }
+        },
+        "text_F3m7Nm": {
+          "type": "text",
+          "settings": {
+            "text": "Perfectly sized, these blankets complement our pajamas as they're made from some of our most popular prints!"
+          }
+        }
+      },
+      "block_order": [
+        "heading_B7tjhC",
+        "text_RbdBxB",
+        "text_F3m7Nm"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/EG_L9997_ddb78e5b-0ca1-4033-a90d-935e6afc1339.jpg",
+        "texture_top": true,
+        "texture_bottom": true
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "blocks": {
+        "image-with-text-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plush and Cozy Blankets",
+            "heading_size": "h2"
+          }
+        },
+        "image-with-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>These extra plush, super luxurious, soft and cozy blankets are made with a fluffy polyester on one side and our buttery soft Bamboo Viscose material on the other. Perfectly sized, these blankets complement our pajamas as they're made from some of our most popular prints!<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "image-with-text-0",
+        "image-with-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Blankets-161_0499283c-d220-435f-8683-abacf7fe7104.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "background-2",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "related-products": {
@@ -270,8 +304,9 @@
   "order": [
     "main",
     "1689095601e7facfa4",
-    "image-with-text",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
+    "blo_fabric_bYFCbj",
+    "image-with-text",
     "related-products"
   ]
 }
