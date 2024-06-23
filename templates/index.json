@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "2a12e19f-5656-485a-9c14-e3cd6c07b6ea": {
@@ -6,7 +15,7 @@
         "0f9b164f-4dfa-481d-9bf3-9bcf54cabd96": {
           "type": "badge",
           "settings": {
-            "badge": "Black Friday"
+            "badge": "Sale"
           }
         },
         "36f6ab80-71a4-4d08-83a6-29461c308c34": {
@@ -39,8 +48,8 @@
       "settings": {
         "image_main": "shopify:\/\/shop_images\/image-main-3.jpg",
         "image_secondary": "shopify:\/\/shop_images\/image-secondary_2_20eb98d5-c693-408d-ad27-2578109f007f.jpg",
-        "color_text": "#efe8de",
-        "color_background": "#3A5443",
+        "color_text": "#161616",
+        "color_background": "#EFE8DE",
         "background_image_desktop_pin": "bottom right",
         "background_image_mobile_pin": "bottom right"
       }
