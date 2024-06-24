@@ -208,155 +208,49 @@
         "include_margins": false
       }
     },
-    "image-with-text": {
-      "type": "image-with-text",
+    "blo_product_callouts_Ndnncc": {
+      "type": "blo-product-callouts",
       "blocks": {
-        "image-with-text-0": {
-          "type": "heading",
+        "callout_zUgNNk": {
+          "type": "Callout",
           "settings": {
-            "heading": "Deeper Main Pouch",
-            "heading_size": "h2"
+            "pin_direction": "top_right",
+            "block_title": "Ultimate Insulation",
+            "block_text": "Fully insulated + a mesh pouch for ice packs.",
+            "horizontal_position": 50,
+            "vertical_position": 50
           }
         },
-        "image-with-text-1": {
-          "type": "text",
+        "callout_G6Uydx": {
+          "type": "Callout",
           "settings": {
-            "text": "<p>Introducing more space in the main compartment to accommodate the needs of any age. This improved space will easily fit books, folders and 2\" binders!<\/p>",
-            "text_style": "body"
+            "pin_direction": "top_right",
+            "block_title": "Durable Materials",
+            "block_text": "Leather zipper tabs, moisture-wicking polyester, and a carrying handle to stand the test of time.",
+            "horizontal_position": 50,
+            "vertical_position": 50
+          }
+        },
+        "callout_ahi8eA": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Made for kids & adults",
+            "block_text": "Fun prints and neutral prints to choose from. Plus, it's big enough for mom to use, too.",
+            "horizontal_position": 50,
+            "vertical_position": 50
           }
         }
       },
       "block_order": [
-        "image-with-text-0",
-        "image-with-text-1"
+        "callout_zUgNNk",
+        "callout_G6Uydx",
+        "callout_ahi8eA"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/backpack-main_bd5e2361-9cfd-4525-99da-ba33b47a56c9.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "b58c1632-a253-4067-8f0e-8e3028c83250": {
-      "type": "image-with-text",
-      "blocks": {
-        "bbafc911-db6e-46fc-b527-749fce62b709": {
-          "type": "heading",
-          "settings": {
-            "heading": "Adjustable Chest Straps",
-            "heading_size": "h2"
-          }
-        },
-        "7275a562-5751-4a43-8ef8-65ea6574b761": {
-          "type": "text",
-          "settings": {
-            "text": "<p>A customizable fit for all-day comfort. Say goodbye to sore shoulders and straps sliding off of your little ones. Say hello to a backpack that stays on correctly and grows with your child.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "bbafc911-db6e-46fc-b527-749fce62b709",
-        "7275a562-5751-4a43-8ef8-65ea6574b761"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/backpack-strap_fef05e84-792a-47a1-8b58-b73fcad61213.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "f4fd5ada-d53d-4cfb-9946-2c842b407d4e": {
-      "type": "image-with-text",
-      "blocks": {
-        "c246bd9d-3364-4e36-9b7d-eb5f60a7216e": {
-          "type": "heading",
-          "settings": {
-            "heading": "Two Water Bottle Side Pockets",
-            "heading_size": "h2"
-          }
-        },
-        "1b29666b-3ae2-4b90-81e8-1349c9c2d71a": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We increased the size of the two water bottle side pockets. Now water bottles, big and small, will effortlessly fit. The perfectly sized elastic will keep small ones snug and still stretch for larger ones.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "c246bd9d-3364-4e36-9b7d-eb5f60a7216e",
-        "1b29666b-3ae2-4b90-81e8-1349c9c2d71a"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/backpack-waterbottle_d77bf8b0-04df-41e9-adcd-d493607cbf1f.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "46740828-92db-4676-a76d-705438a15b73": {
-      "type": "image-with-text",
-      "blocks": {
-        "97f16ef1-3380-41fb-9b70-a352a41e164a": {
-          "type": "heading",
-          "settings": {
-            "heading": "Name Tag & Inner Folder Pocket",
-            "heading_size": "h2"
-          }
-        },
-        "bae30152-ab2f-421c-ad6e-9353e94c7e73": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Labeling items is key to make sure your kids don’t lose their belongings. Our interior name tag makes it easy to personalize your backpack. And, our inner pocket is perfect for easy organization of folders and notebooks.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "97f16ef1-3380-41fb-9b70-a352a41e164a",
-        "bae30152-ab2f-421c-ad6e-9353e94c7e73"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/backpack-tag_bf679826-43fe-4c3d-918d-9681ad5f3e49.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
+        "title": "A lunchbox so good you and you kids will want one.",
+        "text": "",
+        "padding_top": 100,
         "padding_bottom": 100
       }
     },
@@ -429,10 +323,7 @@
   "order": [
     "main",
     "1689095601e7facfa4",
-    "image-with-text",
-    "b58c1632-a253-4067-8f0e-8e3028c83250",
-    "f4fd5ada-d53d-4cfb-9946-2c842b407d4e",
-    "46740828-92db-4676-a76d-705438a15b73",
+    "blo_product_callouts_Ndnncc",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
     "related-products"
   ]
