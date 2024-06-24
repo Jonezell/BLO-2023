@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -56,7 +65,7 @@
           }
         },
         "d32cf3ff-3cf1-42b1-95be-fd31a14eefc2": {
-          "type": "shopify:\/\/apps\/back-in-stock-customer-alerts\/blocks\/app-block\/bfa6a8c4-24e2-411a-9396-e35031b33f34",
+          "type": "shopify:\/\/apps\/back-in-stock-restock-alerts\/blocks\/app-block\/bfa6a8c4-24e2-411a-9396-e35031b33f34",
           "settings": {
             "caption": "Email when available",
             "font_size": 16,
@@ -197,6 +206,64 @@
       ],
       "settings": {
         "include_margins": false
+      }
+    },
+    "blo_product_callouts_4LjaEw": {
+      "type": "blo-product-callouts",
+      "blocks": {
+        "callout_LchAdC": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Full Size",
+            "block_text": "Fits full size folders and binders. 15.5\" Tall, 3.5\" Deep, 10.5\" Wide",
+            "horizontal_position": 4,
+            "vertical_position": 36
+          }
+        },
+        "callout_wW4V97": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Durable Materials",
+            "block_text": "New leather zipper tabs, leather logo patch, and moisture-wicking polyester to stand the test of time.",
+            "horizontal_position": 8,
+            "vertical_position": 88
+          }
+        },
+        "callout_yrEix7": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_left",
+            "block_title": "Ultimate Organization",
+            "block_text": "Keep track of all your things with the internal pocket that can fit folders and books. Plus a front pocket and two water bottle holders for extra storage.",
+            "horizontal_position": 14,
+            "vertical_position": 56
+          }
+        },
+        "callout_KV8PMh": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_left",
+            "block_title": "Interior Name Tag",
+            "block_text": "Personalize your backpack while still keeping your kiddos privacy.",
+            "horizontal_position": 14,
+            "vertical_position": 6
+          }
+        }
+      },
+      "block_order": [
+        "callout_LchAdC",
+        "callout_wW4V97",
+        "callout_yrEix7",
+        "callout_KV8PMh"
+      ],
+      "settings": {
+        "title": "Introducing a backpack so good, you might never need another one.",
+        "text": "",
+        "image": "shopify:\/\/shop_images\/Backpack.jpg",
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "image-with-text": {
@@ -420,6 +487,7 @@
   "order": [
     "main",
     "1689095601e7facfa4",
+    "blo_product_callouts_4LjaEw",
     "image-with-text",
     "b58c1632-a253-4067-8f0e-8e3028c83250",
     "f4fd5ada-d53d-4cfb-9946-2c842b407d4e",
