@@ -32,7 +32,7 @@
           "settings": {
             "label": "Options",
             "style": "image",
-            "target_collection": "backpacks",
+            "target_collection": "lunch-boxes",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
@@ -298,7 +298,7 @@
         "mainHeading": "Have A Question? We Have The Answer.",
         "mainText": "",
         "layout": "image_first",
-        "padding_top": 0,
+        "padding_top": 200,
         "padding_bottom": 200
       }
     },
