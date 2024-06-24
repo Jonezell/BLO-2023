@@ -217,8 +217,18 @@
             "pin_direction": "top_right",
             "block_title": "Ultimate Insulation",
             "block_text": "Fully insulated + a mesh pouch for ice packs.",
-            "horizontal_position": 50,
-            "vertical_position": 50
+            "horizontal_position": 6,
+            "vertical_position": 24
+          }
+        },
+        "callout_ahi8eA": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_left",
+            "block_title": "Made for kids & adults",
+            "block_text": "Fun prints and neutral prints to choose from. Plus, it's big enough for mom to use, too.",
+            "horizontal_position": 8,
+            "vertical_position": 58
           }
         },
         "callout_G6Uydx": {
@@ -227,29 +237,20 @@
             "pin_direction": "top_right",
             "block_title": "Durable Materials",
             "block_text": "Leather zipper tabs, moisture-wicking polyester, and a carrying handle to stand the test of time.",
-            "horizontal_position": 50,
-            "vertical_position": 50
-          }
-        },
-        "callout_ahi8eA": {
-          "type": "Callout",
-          "settings": {
-            "pin_direction": "top_right",
-            "block_title": "Made for kids & adults",
-            "block_text": "Fun prints and neutral prints to choose from. Plus, it's big enough for mom to use, too.",
-            "horizontal_position": 50,
-            "vertical_position": 50
+            "horizontal_position": 10,
+            "vertical_position": 86
           }
         }
       },
       "block_order": [
         "callout_zUgNNk",
-        "callout_G6Uydx",
-        "callout_ahi8eA"
+        "callout_ahi8eA",
+        "callout_G6Uydx"
       ],
       "settings": {
         "title": "A lunchbox so good you and you kids will want one.",
         "text": "",
+        "image": "shopify:\/\/shop_images\/Lunchbox.jpg",
         "padding_top": 100,
         "padding_bottom": 100
       }
