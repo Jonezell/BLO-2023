@@ -218,32 +218,43 @@
             "block_title": "Ultimate Insulation",
             "block_text": "Fully insulated + a mesh pouch for ice packs.",
             "horizontal_position": 6,
-            "vertical_position": 24
+            "vertical_position": 10
+          }
+        },
+        "callout_pA3LDc": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_left",
+            "block_title": "Unlimited Organization Possibilities",
+            "block_text": "Equipped with two fully insulated main compartments plus an exterior velcro pouch and an interior mesh pocket for ice packs.",
+            "horizontal_position": 2,
+            "vertical_position": 38
           }
         },
         "callout_ahi8eA": {
           "type": "Callout",
           "settings": {
-            "pin_direction": "top_left",
+            "pin_direction": "top_right",
             "block_title": "Made for kids & adults",
             "block_text": "Fun prints and neutral prints to choose from. Plus, it's big enough for mom to use, too.",
-            "horizontal_position": 8,
-            "vertical_position": 58
+            "horizontal_position": 6,
+            "vertical_position": 66
           }
         },
         "callout_G6Uydx": {
           "type": "Callout",
           "settings": {
-            "pin_direction": "top_right",
+            "pin_direction": "top_left",
             "block_title": "Durable Materials",
             "block_text": "Leather zipper tabs, moisture-wicking polyester, and a carrying handle to stand the test of time.",
-            "horizontal_position": 10,
-            "vertical_position": 86
+            "horizontal_position": 6,
+            "vertical_position": 92
           }
         }
       },
       "block_order": [
         "callout_zUgNNk",
+        "callout_pA3LDc",
         "callout_ahi8eA",
         "callout_G6Uydx"
       ],
