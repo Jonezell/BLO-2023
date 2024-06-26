@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "banner": {
@@ -38,13 +47,21 @@
             "text": "Beanies",
             "linkurl": "shopify:\/\/collections\/knit-beanies"
           }
+        },
+        "link_UzUYfw": {
+          "type": "link",
+          "settings": {
+            "text": "Backpacks & Lunchboxes",
+            "linkurl": "shopify:\/\/collections\/backpacks-lunch-boxes"
+          }
         }
       },
       "block_order": [
         "772b654d-7a4d-4a72-a07e-2172cb218df0",
         "link_WKbX9d",
         "be2815ab-cd9a-4001-afe1-a1308e0f3a3b",
-        "link_Mw4cBf"
+        "link_Mw4cBf",
+        "link_UzUYfw"
       ],
       "settings": {
       }
