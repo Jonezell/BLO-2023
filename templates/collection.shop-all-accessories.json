@@ -34,18 +34,18 @@
             "linkurl": "shopify:\/\/collections\/trucker-hats"
           }
         },
-        "be2815ab-cd9a-4001-afe1-a1308e0f3a3b": {
-          "type": "link",
-          "settings": {
-            "text": "Bows",
-            "linkurl": "shopify:\/\/collections\/bows"
-          }
-        },
         "link_Mw4cBf": {
           "type": "link",
           "settings": {
             "text": "Beanies",
             "linkurl": "shopify:\/\/collections\/knit-beanies"
+          }
+        },
+        "be2815ab-cd9a-4001-afe1-a1308e0f3a3b": {
+          "type": "link",
+          "settings": {
+            "text": "Bows",
+            "linkurl": "shopify:\/\/collections\/bows"
           }
         },
         "link_UzUYfw": {
@@ -59,8 +59,8 @@
       "block_order": [
         "772b654d-7a4d-4a72-a07e-2172cb218df0",
         "link_WKbX9d",
-        "be2815ab-cd9a-4001-afe1-a1308e0f3a3b",
         "link_Mw4cBf",
+        "be2815ab-cd9a-4001-afe1-a1308e0f3a3b",
         "link_UzUYfw"
       ],
       "settings": {
