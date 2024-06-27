@@ -124,8 +124,8 @@
               "bows",
               "knit-beanies",
               "trucker-hats",
-              "briefs",
-              "underwear"
+              "backpacks",
+              "accessories"
             ]
           }
         },
@@ -147,7 +147,7 @@
           "settings": {
             "collection_group_title": "And More",
             "collection_list": [
-              "bed-sheets",
+              "crib-and-twin-sheets",
               "blankets",
               "swaddles",
               "womens",
