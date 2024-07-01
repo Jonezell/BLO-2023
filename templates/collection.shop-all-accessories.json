@@ -29,6 +29,7 @@
         },
         "link_WKbX9d": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "text": "Trucker Hats",
             "linkurl": "shopify:\/\/collections\/trucker-hats"
