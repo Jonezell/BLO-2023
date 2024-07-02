@@ -123,7 +123,6 @@
             "collection_list": [
               "bows",
               "knit-beanies",
-              "trucker-hats",
               "backpacks",
               "accessories"
             ]
@@ -131,7 +130,6 @@
         },
         "2dfba28d-4e1d-421c-856a-b030a83d42d6": {
           "type": "collection_group",
-          "disabled": true,
           "settings": {
             "collection_group_title": "Women's",
             "collection_list": [
