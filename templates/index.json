@@ -242,11 +242,11 @@
           "settings": {
             "collection_group_title": "Prints",
             "collection_list": [
+              "big-daisies-small-ribbed",
               "police",
               "firetrucks",
               "construction",
-              "checkered-lines",
-              "planets-small-ribbed"
+              "checkered-lines"
             ]
           }
         },
@@ -255,11 +255,11 @@
           "settings": {
             "collection_group_title": "Solids & Stripes",
             "collection_list": [
+              "ballet-pink-small-ribbed",
               "tan-small-ribbed",
               "heather-gray-small-ribbed",
               "camel-small-ribbed",
-              "cream-small-ribbed",
-              "nautical-blue-stripe-small-ribbed"
+              "cream-small-ribbed"
             ]
           }
         }
