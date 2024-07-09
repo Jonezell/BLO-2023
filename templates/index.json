@@ -123,6 +123,7 @@
             "collection_list": [
               "bows",
               "knit-beanies",
+              "swaddles",
               "backpacks",
               "accessories"
             ]
@@ -130,6 +131,7 @@
         },
         "2dfba28d-4e1d-421c-856a-b030a83d42d6": {
           "type": "collection_group",
+          "disabled": true,
           "settings": {
             "collection_group_title": "Women's",
             "collection_list": [
@@ -145,9 +147,9 @@
           "settings": {
             "collection_group_title": "And More",
             "collection_list": [
-              "crib-and-twin-sheets",
+              "crib-sheets",
+              "twin-sheets",
               "blankets",
-              "swaddles",
               "womens",
               "shop-all"
             ]
