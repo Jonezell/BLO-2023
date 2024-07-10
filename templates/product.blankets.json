@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -67,7 +76,7 @@
           }
         },
         "d32cf3ff-3cf1-42b1-95be-fd31a14eefc2": {
-          "type": "shopify:\/\/apps\/back-in-stock-customer-alerts\/blocks\/app-block\/bfa6a8c4-24e2-411a-9396-e35031b33f34",
+          "type": "shopify:\/\/apps\/back-in-stock-restock-alerts\/blocks\/app-block\/bfa6a8c4-24e2-411a-9396-e35031b33f34",
           "settings": {
             "caption": "Email when available",
             "font_size": 16,
@@ -107,6 +116,19 @@
             "page": ""
           }
         },
+        "complementary_X3AidH": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": true,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -129,6 +151,7 @@
         "4620763d-b34b-4ded-a857-504751a5f38d",
         "description",
         "collapsible-row-3",
+        "complementary_X3AidH",
         "share"
       ],
       "settings": {
