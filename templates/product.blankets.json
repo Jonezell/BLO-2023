@@ -49,6 +49,17 @@
             "hide_sold_out": true
           }
         },
+        "produdct_as_variants_WHw9HP": {
+          "type": "produdct-as-variants",
+          "settings": {
+            "label": "Adult",
+            "style": "image",
+            "target_collection": "adult-blankets",
+            "swatch_offset_Y": 30,
+            "swatch_offset_X": 30,
+            "hide_sold_out": true
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -142,6 +153,7 @@
         "6daaaed2-530b-4354-9214-bc8f062acb4d",
         "496b4226-e4d0-4584-a5ae-f630efc1661c",
         "5e5ad74c-5ea7-48bf-9546-61c10823ebb7",
+        "produdct_as_variants_WHw9HP",
         "variant_picker",
         "quantity_selector",
         "14d206d1-bc58-4ca6-baa4-d38ba878182e",
