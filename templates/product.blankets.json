@@ -53,7 +53,7 @@
           "type": "produdct-as-variants",
           "settings": {
             "label": "Adult",
-            "style": "image",
+            "style": "swatch",
             "target_collection": "adult-blankets",
             "swatch_offset_Y": 30,
             "swatch_offset_X": 30,
