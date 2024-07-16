@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "banner": {
@@ -32,6 +41,13 @@
             "linkurl": "shopify:\/\/collections\/youth-blanket"
           }
         },
+        "link_tngCAh": {
+          "type": "link",
+          "settings": {
+            "text": "Adult Blankets",
+            "linkurl": "shopify:\/\/collections\/adult-blankets"
+          }
+        },
         "935d152d-e76b-41a6-95f9-1b60cf498497": {
           "type": "link",
           "settings": {
@@ -51,6 +67,7 @@
         "c7403c74-bc41-4a26-823f-d207c3c66ce5",
         "fce538c4-633e-4a07-978a-2696a2150e05",
         "6bfd07ee-031a-4a56-9f00-117c1b95dedd",
+        "link_tngCAh",
         "935d152d-e76b-41a6-95f9-1b60cf498497",
         "bed93f4f-df10-456b-ac64-e625a9bd569e"
       ],
@@ -62,6 +79,7 @@
       "settings": {
         "products_per_page": 24,
         "columns_desktop": 3,
+        "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
