@@ -1,26 +1,33 @@
 <!doctype html>
-<html class="no-js" lang="{{ request.locale.iso_code }}">
+<html class="js" lang="{{ request.locale.iso_code }}">
   <head>
-
     <!-- Global site tag (gtag.js) - Google Ads: 437249158 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-437249158"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-437249158"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-  gtag('config', 'AW-437249158', {'allow_enhanced_conversions': true});
-</script>
+      gtag('config', 'AW-437249158', { allow_enhanced_conversions: true });
+    </script>
 
     <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TD23NZ52');</script>
-<!-- End Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-TD23NZ52');
+    </script>
+    <!-- End Google Tag Manager -->
 
-    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -57,6 +64,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'details-modal.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'search-form.js' | asset_url }}" defer="defer"></script>
+
     {%- if settings.animations_reveal_on_scroll -%}
       <script src="{{ 'animations.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
@@ -280,11 +291,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {{ 'base.css' | asset_url | stylesheet_tag }}
     {{ 'BLO.css' | asset_url | stylesheet_tag }}
 
+    <link rel="stylesheet" href="{{ 'component-cart-items.css' | asset_url }}" media="print" onload="this.media='all'">
+
+    {%- if settings.cart_type == 'drawer' -%}
+      {{ 'component-cart-drawer.css' | asset_url | stylesheet_tag }}
+      {{ 'component-cart.css' | asset_url | stylesheet_tag }}
+      {{ 'component-totals.css' | asset_url | stylesheet_tag }}
+      {{ 'component-price.css' | asset_url | stylesheet_tag }}
+      {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
+    {%- endif -%}
+
     {%- unless settings.type_body_font.system? -%}
+      {% comment %}theme-check-disable AssetPreload{% endcomment %}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
+      {% comment %}theme-check-enable AssetPreload{% endcomment %}
     {%- endunless -%}
     {%- unless settings.type_header_font.system? -%}
+      {% comment %}theme-check-disable AssetPreload{% endcomment %}
       <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
+      {% comment %}theme-check-enable AssetPreload{% endcomment %}
     {%- endunless -%}
 
     {%- if localization.available_countries.size > 1 or localization.available_languages.size > 1 -%}
@@ -302,7 +327,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {%- endif -%}
 
     <script>
-      document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
       if (Shopify.designMode) {
         document.documentElement.classList.add('shopify-design-mode');
       }
@@ -312,12 +336,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
-
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TD23NZ52"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-    
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-TD23NZ52"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
@@ -368,6 +397,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         itemRemoved: `{{ 'sections.quick_order_list.items_removed.one' | t: quantity: '[quantity]' }}`,
         viewCart: `{{- 'sections.quick_order_list.view_cart' | t -}}`,
         each: `{{- 'sections.quick_order_list.each' | t: money: '[money]' }}`,
+        min_error: `{{- 'sections.quick_order_list.min_error' | t: min: '[min]' }}`,
+        max_error: `{{- 'sections.quick_order_list.max_error' | t: max: '[max]' }}`,
+        step_error: `{{- 'sections.quick_order_list.step_error' | t: step: '[step]' }}`,
       };
 
       window.accessibilityStrings = {
@@ -384,33 +416,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    {%- if settings.cart_type == 'drawer' -%}
+      <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
+    {%- endif -%}
   </body>
 </html>
 
 <script src="https://widget.sezzle.com/v1/javascript/price-widget?uuid=1878f60e-46d2-4cae-b7c6-ec7021802280"></script>
-
-<script src='https://widget.sezzle.com/v1/javascript/price-widget?uuid=1878f60e-46d2-4cae-b7c6-ec7021802280'></script>
-
-<script src='https://widget.sezzle.com/v1/javascript/price-widget?uuid=1878f60e-46d2-4cae-b7c6-ec7021802280'></script>
-
-<script src='https://widget.sezzle.com/v1/javascript/price-widget?uuid=1878f60e-46d2-4cae-b7c6-ec7021802280'></script>
-
-<script src='https://widget.sezzle.com/v1/javascript/price-widget?uuid=1878f60e-46d2-4cae-b7c6-ec7021802280'></script>
-
-<script src='https://widget.sezzle.com/v1/javascript/price-widget?uuid=1878f60e-46d2-4cae-b7c6-ec7021802280'></script>
-
-<script src='https://widget.sezzle.com/v1/javascript/price-widget?uuid=1878f60e-46d2-4cae-b7c6-ec7021802280'></script>
-
-<script src='https://widget.sezzle.com/v1/javascript/price-widget?uuid=1878f60e-46d2-4cae-b7c6-ec7021802280'></script>
-
-<script src='https://widget.sezzle.com/v1/javascript/price-widget?uuid=1878f60e-46d2-4cae-b7c6-ec7021802280'></script>
-
-<script src='https://widget.sezzle.com/v1/javascript/price-widget?uuid=1878f60e-46d2-4cae-b7c6-ec7021802280'></script>
-
-<script src='https://widget.sezzle.com/v1/javascript/price-widget?uuid=1878f60e-46d2-4cae-b7c6-ec7021802280'></script>
-
-<script src='https://widget.sezzle.com/v1/javascript/price-widget?uuid=1878f60e-46d2-4cae-b7c6-ec7021802280'></script>
-
-<script src='https://widget.sezzle.com/v1/javascript/price-widget?uuid=1878f60e-46d2-4cae-b7c6-ec7021802280'></script>
-
-<script src='https://widget.sezzle.com/v1/javascript/price-widget?uuid=1878f60e-46d2-4cae-b7c6-ec7021802280'></script>
