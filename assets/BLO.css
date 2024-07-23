@@ -1080,6 +1080,9 @@ facet-remove .active-facets__button--light .active-facets__button-inner:active {
 .blo-custom-sort .facet-filters.sorting {
     padding-left: 0;
 }
+.template-search .blo-custom-sort .facet-filters__label {
+    margin-right: 34px;
+}
 .mobile-facets__heading, 
 .mobile-facets__count {
     text-align: left;
