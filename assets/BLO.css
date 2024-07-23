@@ -1104,7 +1104,7 @@ facet-remove .active-facets__button--light .active-facets__button-inner:active {
     color: var(--greyscale-White);
 }
 /* Custom Filter Colors */
-/* fieldset.blo-filter-Color {
+fieldset.blo-filter-Color {
     margin-left: 0;
     margin-right: 0;
     padding-right: 0;
@@ -1202,6 +1202,11 @@ facet-remove .active-facets__button--light .active-facets__button-inner:active {
     opacity: .5;
     cursor: not-allowed;
 }
+
+
+
+
+
 nav.pagination .pagination__item-arrow {
     background-color: var(--tan-Medium);
     border-radius: 30px;
@@ -1211,7 +1216,7 @@ nav.pagination .pagination__list li {
 }
 .facet-filters__label label{
     color: var(--greyscale-Black);
-} */
+} 
 
 
 

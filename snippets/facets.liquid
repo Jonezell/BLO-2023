@@ -215,7 +215,7 @@
                               </span>
                             {%- endcapture -%}
 
-                            <li class="list-menu__item facets__item{% if forloop.index > show_more_number and filter_type == 'vertical' %} show-more-item hidden{% endif %} ">
+                            <li class="list-menu__item facets__item{% if forloop.index > show_more_number and filter_type == 'vertical' %} show-more-item hidden{% endif %} {% if filter.label == 'Color' %} blo-filter-Color-{{ value.label | escape }}{% endif %}">
                               {%- if presentation == 'swatch' -%}
                                 <div class="{{ label_class }}">
                                   <div class="swatch-input-wrapper">
@@ -287,6 +287,12 @@
                                   {%- endif -%}
 
                                   {{ text_value }}
+
+                                  {% comment %} BLO CUSTOM CODE {% endcomment %}
+                                  {% if filter.label == 'Color' %}
+                                    <div class="blo-filter-Color-label">{{ value.label | escape }}</div>
+                                  {% endif %}
+                                  {% comment %} BLO CUSTOM CODE {% endcomment %}
                                 </label>
                               {%- endif -%}
                             </li>
@@ -640,7 +646,7 @@
                                 </span>
                               {%- endcapture -%}
 
-                              <li class="mobile-facets__item list-menu__item">
+                              <li class="mobile-facets__item list-menu__item {% if filter.label == 'Color' %} blo-filter-Color-{{ value.label | escape }}{% endif %}">
                                 {% if presentation == 'swatch' %}
                                   <div class="{{ label_class }}">
                                     <div class="swatch-input-wrapper">
@@ -711,6 +717,12 @@
                                     {%- endif %}
 
                                     {{ text_value }}
+
+                                    {% comment %} BLO CUSTOM CODE {% endcomment %}
+                                    {% if filter.label == 'Color' %}
+                                      <div class="blo-filter-Color-label">{{ value.label | escape }}</div>
+                                    {% endif %}
+                                    {% comment %} BLO CUSTOM CODE {% endcomment %}
                                   </label>
                                 {% endif %}
                               </li>
