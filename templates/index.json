@@ -245,10 +245,10 @@
             "collection_group_title": "Prints",
             "collection_list": [
               "trash-trucks-small-ribbed",
-              "big-daisies-small-ribbed",
               "police",
               "firetrucks",
-              "construction"
+              "construction",
+              "palm-trees-small-ribbed"
             ]
           }
         },
@@ -401,7 +401,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": true,
+        "quick_add": "none",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 100,
@@ -460,7 +460,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": true,
+        "quick_add": "none",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 100,
@@ -551,7 +551,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "enable_quick_add": true,
+        "quick_add": "none",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 100,
