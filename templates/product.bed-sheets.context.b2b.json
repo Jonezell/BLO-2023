@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "parent": "product.bed-sheets.json",
   "context": {
@@ -33,7 +42,6 @@
         "4cf74992-594d-4f7b-a5cb-d077df7656fd",
         "4620763d-b34b-4ded-a857-504751a5f38d",
         "description",
-        "collapsible-row-2",
         "collapsible-row-3",
         "85d7636a-745b-4ef8-a7d8-e26226d2518f",
         "share"
