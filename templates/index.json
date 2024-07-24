@@ -244,11 +244,11 @@
           "settings": {
             "collection_group_title": "Prints",
             "collection_list": [
+              "mauve-blooms-small-ribbed",
               "trash-trucks-small-ribbed",
               "police",
               "firetrucks",
-              "construction",
-              "palm-trees-small-ribbed"
+              "construction"
             ]
           }
         },
