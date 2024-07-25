@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "banner": {
@@ -55,7 +64,6 @@
         "d6cd6fbb-87f9-4fb2-8b31-48711f1a7914",
         "d389db69-81b9-487a-ae9e-f975d569cb18"
       ],
-      "disabled": true,
       "settings": {
       }
     },
@@ -70,7 +78,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "enable_quick_add": true,
+        "quick_add": "standard",
         "enable_filtering": true,
         "filter_type": "vertical",
         "enable_sorting": true,
