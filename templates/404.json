@@ -11,6 +11,10 @@
   "sections": {
     "main": {
       "type": "main-404",
+      "custom_css": [
+        ".template-404 {padding-top: 100px; padding-bottom: 40px;}",
+        ".template-404 h1 {margin-top: 0px; margin-bottom: 20px;}"
+      ],
       "settings": {
       }
     },
