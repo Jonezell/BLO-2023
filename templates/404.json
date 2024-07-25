@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -11,13 +20,19 @@
         "template--16166779257001__300c4a31-4ae8-43e7-a455-4c465a1a4f6b-1689367785e9bf7f38-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "shop-all-baby"
+            "collection": "shop-all-pjs"
           }
         },
         "template--16166779257001__300c4a31-4ae8-43e7-a455-4c465a1a4f6b-1689367785e9bf7f38-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "shop-all-toddler"
+            "collection": "daywear"
+          }
+        },
+        "2a2f1cd3-97a2-4b53-a9f4-469173790065": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessories"
           }
         },
         "template--16166779257001__300c4a31-4ae8-43e7-a455-4c465a1a4f6b-1689367785e9bf7f38-2": {
@@ -25,19 +40,13 @@
           "settings": {
             "collection": "womens"
           }
-        },
-        "2a2f1cd3-97a2-4b53-a9f4-469173790065": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "shop-all"
-          }
         }
       },
       "block_order": [
         "template--16166779257001__300c4a31-4ae8-43e7-a455-4c465a1a4f6b-1689367785e9bf7f38-0",
         "template--16166779257001__300c4a31-4ae8-43e7-a455-4c465a1a4f6b-1689367785e9bf7f38-1",
-        "template--16166779257001__300c4a31-4ae8-43e7-a455-4c465a1a4f6b-1689367785e9bf7f38-2",
-        "2a2f1cd3-97a2-4b53-a9f4-469173790065"
+        "2a2f1cd3-97a2-4b53-a9f4-469173790065",
+        "template--16166779257001__300c4a31-4ae8-43e7-a455-4c465a1a4f6b-1689367785e9bf7f38-2"
       ],
       "settings": {
         "title": "Maybe you're looking for one of these?",
