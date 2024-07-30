@@ -49,6 +49,10 @@
           {%- if option.name == 'Style' and option.values.size <= 1 -%}
             hidden
           {%- endif -%}
+          {%- if option.name == 'Color' and option.values.size <= 1 -%}
+            hidden
+          {%- endif -%}
+
         >
           <legend class="form__label">{{ option.name }}</legend>
           {% render 'product-variant-options',
@@ -62,6 +66,9 @@
         <div
           class="product-form__input product-form__input--dropdown"
           {%- if option.name == 'Style' and option.values.size <= 1 -%}
+            hidden
+          {%- endif -%}
+          {%- if option.name == 'Color' and option.values.size <= 1 -%}
             hidden
           {%- endif -%}
         >
