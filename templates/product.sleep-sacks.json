@@ -315,26 +315,11 @@
         "e248c0ed-f0b3-45d0-9ced-efdedb0eb726",
         "template--16169024061609__70604352-6031-4eba-84e8-f54531272110-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-7.jpg",
         "texture_top": true,
         "texture_bottom": true
-      }
-    },
-    "25c005c2-3687-4fe5-b4cf-c3a12de8acaa": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video": "shopify:\/\/files\/videos\/Brave 2 piece.mp4",
-        "video_url": "",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "show_texture": true
       }
     },
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85": {
@@ -408,7 +393,6 @@
     "1689095601e7facfa4",
     "a2f22c68-0d3e-46f1-b2d5-7f3d72a720f3",
     "70604352-6031-4eba-84e8-f54531272110",
-    "25c005c2-3687-4fe5-b4cf-c3a12de8acaa",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
     "related-products"
   ]
