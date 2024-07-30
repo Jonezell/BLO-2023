@@ -252,76 +252,6 @@
         "padding_bottom": 100
       }
     },
-    "70604352-6031-4eba-84e8-f54531272110": {
-      "type": "blo-fabric",
-      "blocks": {
-        "b478921d-3222-4330-8cde-917ae36912d3": {
-          "type": "badge",
-          "settings": {
-            "badge": "Our Fabric"
-          }
-        },
-        "template--16169024061609__70604352-6031-4eba-84e8-f54531272110-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Say Hello To Pjs Your Littles Will Want To Live In."
-          }
-        },
-        "template--16169024061609__70604352-6031-4eba-84e8-f54531272110-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "Made from buttery soft bamboo viscose. Our luxurious material keeps your little one cozy, day and night."
-          }
-        },
-        "4bf51c68-8a64-4ffe-8325-83fee1249320": {
-          "type": "text",
-          "settings": {
-            "text": "Our pjs offer the gentlest touch to your little ones skin, limiting irritation for sensitive skin."
-          }
-        },
-        "26cf3d5a-546b-41fa-a596-d0889f047421": {
-          "type": "text",
-          "settings": {
-            "text": "Temperature regulating keeping your little one cool in summer and warm in winter."
-          }
-        },
-        "a1e371bc-7f44-4605-94ff-051cb52557cc": {
-          "type": "text",
-          "settings": {
-            "text": "Our snug-fitting cozy pajamas are CPSC compliant and never treated with flame-retardants or chemicals."
-          }
-        },
-        "e248c0ed-f0b3-45d0-9ced-efdedb0eb726": {
-          "type": "text",
-          "settings": {
-            "text": "Our bamboo viscose fabric is Oeko-Tex® Standard 100 certified and has been rigorously tested against hundreds of toxic chemicals."
-          }
-        },
-        "template--16169024061609__70604352-6031-4eba-84e8-f54531272110-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "shopify:\/\/blogs\/blog\/why-we-fell-in-love-with-bamboo"
-          }
-        }
-      },
-      "block_order": [
-        "b478921d-3222-4330-8cde-917ae36912d3",
-        "template--16169024061609__70604352-6031-4eba-84e8-f54531272110-heading-1",
-        "template--16169024061609__70604352-6031-4eba-84e8-f54531272110-text-1",
-        "4bf51c68-8a64-4ffe-8325-83fee1249320",
-        "26cf3d5a-546b-41fa-a596-d0889f047421",
-        "a1e371bc-7f44-4605-94ff-051cb52557cc",
-        "e248c0ed-f0b3-45d0-9ced-efdedb0eb726",
-        "template--16169024061609__70604352-6031-4eba-84e8-f54531272110-buttons-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-7.jpg",
-        "texture_top": true,
-        "texture_bottom": true
-      }
-    },
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85": {
       "type": "blo-faq",
       "blocks": {
@@ -392,7 +322,6 @@
     "main",
     "1689095601e7facfa4",
     "a2f22c68-0d3e-46f1-b2d5-7f3d72a720f3",
-    "70604352-6031-4eba-84e8-f54531272110",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
     "related-products"
   ]
