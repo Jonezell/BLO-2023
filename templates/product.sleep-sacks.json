@@ -201,8 +201,8 @@
           "type": "Callout",
           "settings": {
             "pin_direction": "top_left",
-            "block_title": "Tagless Labels",
-            "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
+            "block_title": "Two Way Double Zipper",
+            "block_text": "Double j-shaped zipper for easy dressing and diaper changes. ",
             "horizontal_position": 42,
             "vertical_position": 4
           }
@@ -211,8 +211,8 @@
           "type": "Callout",
           "settings": {
             "pin_direction": "top_right",
-            "block_title": "Super Stretchy",
-            "block_text": "Our pjs fit longer and keep your kids super comfortable thanks to their incredible stretch.",
+            "block_title": "Peace of Mind",
+            "block_text": "Wearable blankets for babies from newborn to 36 months so they stay cozy and safer while they sleep. ",
             "horizontal_position": 32,
             "vertical_position": 34
           }
@@ -221,17 +221,28 @@
           "type": "Callout",
           "settings": {
             "pin_direction": "top_left",
-            "block_title": "Match With Siblings",
-            "block_text": "Your older toddlers and kids will love matching their brothers and sisters every night.",
+            "block_title": "Seasonally Appropriate",
+            "block_text": "3 different TOG choices so you can choose based on climate and preferences of your home & nursery.",
             "horizontal_position": 26,
             "vertical_position": 88
+          }
+        },
+        "callout_dhJ6hk": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Grows with baby",
+            "block_text": "Extra length to accommodate your little one’s growth",
+            "horizontal_position": 30,
+            "vertical_position": 50
           }
         }
       },
       "block_order": [
         "043b36ef-2301-4540-89b8-417aaf49f4ee",
         "d8818063-ebe6-49e1-86ce-9394138385fa",
-        "027771a7-7932-4b21-ab26-d0661e2a1742"
+        "027771a7-7932-4b21-ab26-d0661e2a1742",
+        "callout_dhJ6hk"
       ],
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
