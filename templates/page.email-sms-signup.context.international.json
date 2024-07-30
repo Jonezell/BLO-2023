@@ -13,5 +13,50 @@
     "market": "international"
   },
   "sections": {
-  }
+    "main": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "17223544283ca49a9d": {
+      "type": "apps",
+      "disabled": false,
+      "settings": {
+        "include_margins": true
+      },
+      "blocks": {
+        "forms_inline_W3eEY": {
+          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "disabled": false,
+          "settings": {
+            "paragraph-fe8c2ec2efa70b06d2aa5931e23bf0b1": null,
+            "form_id": "57189",
+            "header-3f77ce0ce30971689cbe14ef9fdf3c31": null,
+            "text_color": "#161616",
+            "button_background_color": "#161616",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "header-400dad04488be7357bcb8ba01b5eafdf": null,
+            "text_alignment": "center",
+            "header-6b11e91c3902abf140d195f2336c904a": null,
+            "form_alignment": "center",
+            "padding_top": 64,
+            "padding_bottom": 64,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_W3eEY"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "17223544283ca49a9d"
+  ]
 }
