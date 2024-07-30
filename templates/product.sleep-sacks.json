@@ -32,7 +32,7 @@
           "settings": {
             "label": "Style",
             "style": "swatch",
-            "target_collection": "two-piece-sets",
+            "target_collection": "sleep-sacks",
             "swatch_offset_Y": 25,
             "swatch_offset_X": 40,
             "hide_sold_out": true
