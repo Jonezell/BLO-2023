@@ -244,11 +244,11 @@
           "settings": {
             "collection_group_title": "Prints",
             "collection_list": [
+              "unicorns-small-ribbed",
               "cats-small-ribbed",
               "mauve-blooms-small-ribbed",
               "trash-trucks-small-ribbed",
-              "police",
-              "firetrucks"
+              "police"
             ]
           }
         },
