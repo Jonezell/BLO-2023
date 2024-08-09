@@ -123,7 +123,7 @@
                 {% when 'boolean', 'list' %}
                   <details
                     id="Details-{{ filter.param_name | escape }}-{{ section.id }}"
-                    class="{% if filter_type == 'horizontal' %}disclosure-has-popup facets__disclosure{% else %} facets__disclosure-vertical{% endif %} js-filter blo-filter-{{ filter.label }}"
+                    class="{% if filter_type == 'horizontal' %}disclosure-has-popup facets__disclosure{% else %} facets__disclosure-vertical{% endif %} js-filter"
                     data-index="{{ forloop.index }}"
                     {% if filter_type == 'vertical' and forloop.index == 1 %}
                       open
@@ -173,7 +173,7 @@
                           </facet-remove>
                         </div>
                       {%- endif -%}
-                      <fieldset class="facets-wrap parent-wrap {% if filter_type == 'vertical' %} facets-wrap-vertical{% endif %} {% if filter.label == 'Color' %} blo-filter-{{ filter.label | escape }}{% endif %}">
+                      <fieldset class="facets-wrap parent-wrap {% if filter_type == 'vertical' %} facets-wrap-vertical{% endif %}">
                         <legend class="visually-hidden">{{ filter.label | escape }}</legend>
                         {%- liquid
                           assign sorted_values = filter.values
@@ -215,7 +215,7 @@
                               </span>
                             {%- endcapture -%}
 
-                            <li class="list-menu__item facets__item{% if forloop.index > show_more_number and filter_type == 'vertical' %} show-more-item hidden{% endif %} {% if filter.label == 'Color' %} blo-filter-Color-{{ value.label | escape }}{% endif %}">
+                            <li class="list-menu__item facets__item{% if forloop.index > show_more_number and filter_type == 'vertical' %} show-more-item hidden{% endif %}">
                               {%- if presentation == 'swatch' -%}
                                 <div class="{{ label_class }}">
                                   <div class="swatch-input-wrapper">
@@ -287,12 +287,6 @@
                                   {%- endif -%}
 
                                   {{ text_value }}
-
-                                  {% comment %} BLO CUSTOM CODE {% endcomment %}
-                                  {% if filter.label == 'Color' %}
-                                    <div class="blo-filter-Color-label">{{ value.label | escape }}</div>
-                                  {% endif %}
-                                  {% comment %} BLO CUSTOM CODE {% endcomment %}
                                 </label>
                               {%- endif -%}
                             </li>
@@ -582,7 +576,7 @@
                     {% when 'boolean', 'list' %}
                       <details
                         id="Details-Mobile-{{ filter.param_name | escape }}-{{ section.id }}"
-                        class="mobile-facets__details js-filter {% if filter.label == 'Color' %} blo-filter-{{ filter.label | escape }}{% endif %}"
+                        class="mobile-facets__details js-filter"
                         data-index="mobile-{{ forloop.index }}"
                       >
                         <summary class="mobile-facets__summary focus-inset">
@@ -646,7 +640,7 @@
                                 </span>
                               {%- endcapture -%}
 
-                              <li class="mobile-facets__item list-menu__item {% if filter.label == 'Color' %} blo-filter-Color-{{ value.label | escape }}{% endif %}">
+                              <li class="mobile-facets__item list-menu__item">
                                 {% if presentation == 'swatch' %}
                                   <div class="{{ label_class }}">
                                     <div class="swatch-input-wrapper">
@@ -717,12 +711,6 @@
                                     {%- endif %}
 
                                     {{ text_value }}
-
-                                    {% comment %} BLO CUSTOM CODE {% endcomment %}
-                                    {% if filter.label == 'Color' %}
-                                      <div class="blo-filter-Color-label">{{ value.label | escape }}</div>
-                                    {% endif %}
-                                    {% comment %} BLO CUSTOM CODE {% endcomment %}
                                   </label>
                                 {% endif %}
                               </li>
