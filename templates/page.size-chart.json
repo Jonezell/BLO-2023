@@ -269,6 +269,16 @@
         "heading_size": "h2",
         "color_scheme": "",
         "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_eJrtNQ": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-sleep-sacks",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
         "padding_bottom": 100
       }
     }
@@ -294,6 +304,7 @@
     "75b55457-bf23-4c7a-a18c-4be6cc675b46",
     "a15f9bd2-d25d-4ec9-8a26-498726436bd1",
     "ce737103-36cb-4cee-8b64-8e546617e9aa",
-    "page_fKAiFg"
+    "page_fKAiFg",
+    "page_eJrtNQ"
   ]
 }
