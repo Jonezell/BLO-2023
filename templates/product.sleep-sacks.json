@@ -213,7 +213,7 @@
           "settings": {
             "pin_direction": "top_left",
             "block_title": "Peace of Mind",
-            "block_text": "Wearable blankets for babies from newborn to 36 months so they stay cozy and safer while they sleep. ",
+            "block_text": "Wearable blankets for babies from 14-42 lbs so they stay cozy and safer while they sleep. ",
             "horizontal_position": 26,
             "vertical_position": 40
           }
@@ -223,7 +223,7 @@
           "settings": {
             "pin_direction": "top_right",
             "block_title": "Grows with baby",
-            "block_text": "Extra length to accommodate your little one’s growth",
+            "block_text": "Extra length to accommodate your little one’s growth. <em>For safety, do not size up. Collar should never be able to cover baby’s airways.<\/em>",
             "horizontal_position": 20,
             "vertical_position": 64
           }
