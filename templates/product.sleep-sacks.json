@@ -99,7 +99,7 @@
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Sizing",
+            "heading": "Sizing & TOG Guide",
             "icon": "ruler",
             "content": "",
             "page": "size-chart-sleep-sacks"
@@ -107,6 +107,7 @@
         },
         "collapsible_tab_XzUGAa": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "TOG Guide",
             "icon": "snowflake",
