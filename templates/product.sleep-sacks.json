@@ -201,21 +201,31 @@
         "043b36ef-2301-4540-89b8-417aaf49f4ee": {
           "type": "Callout",
           "settings": {
-            "pin_direction": "top_left",
+            "pin_direction": "top_right",
             "block_title": "Two Way Double Zipper",
             "block_text": "Double j-shaped zipper for easy dressing and diaper changes. ",
-            "horizontal_position": 42,
-            "vertical_position": 4
+            "horizontal_position": 16,
+            "vertical_position": 16
           }
         },
         "d8818063-ebe6-49e1-86ce-9394138385fa": {
           "type": "Callout",
           "settings": {
-            "pin_direction": "top_right",
+            "pin_direction": "top_left",
             "block_title": "Peace of Mind",
             "block_text": "Wearable blankets for babies from newborn to 36 months so they stay cozy and safer while they sleep. ",
             "horizontal_position": 32,
-            "vertical_position": 34
+            "vertical_position": 40
+          }
+        },
+        "callout_dhJ6hk": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Grows with baby",
+            "block_text": "Extra length to accommodate your little one’s growth",
+            "horizontal_position": 20,
+            "vertical_position": 64
           }
         },
         "027771a7-7932-4b21-ab26-d0661e2a1742": {
@@ -227,28 +237,18 @@
             "horizontal_position": 26,
             "vertical_position": 88
           }
-        },
-        "callout_dhJ6hk": {
-          "type": "Callout",
-          "settings": {
-            "pin_direction": "top_right",
-            "block_title": "Grows with baby",
-            "block_text": "Extra length to accommodate your little one’s growth",
-            "horizontal_position": 30,
-            "vertical_position": 50
-          }
         }
       },
       "block_order": [
         "043b36ef-2301-4540-89b8-417aaf49f4ee",
         "d8818063-ebe6-49e1-86ce-9394138385fa",
-        "027771a7-7932-4b21-ab26-d0661e2a1742",
-        "callout_dhJ6hk"
+        "callout_dhJ6hk",
+        "027771a7-7932-4b21-ab26-d0661e2a1742"
       ],
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
         "text": "Discover the ultimate bedtime comfort with our perfectly crafted Sleep Sacks.",
-        "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-2-Piece-Set-2.jpg",
+        "image": "shopify:\/\/shop_images\/SleepSack.jpg",
         "padding_top": 100,
         "padding_bottom": 100
       }
