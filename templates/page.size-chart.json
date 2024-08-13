@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -61,13 +70,21 @@
             "text": "Women's",
             "linkurl": "shopify:\/\/pages\/size-charts-all-womens"
           }
+        },
+        "link_xb6Ezq": {
+          "type": "link",
+          "settings": {
+            "text": "Sleep Sacks",
+            "linkurl": "shopify:\/\/pages\/size-chart-sleep-sacks"
+          }
         }
       },
       "block_order": [
         "42ef8985-811c-48aa-baae-273d60955bd6",
         "c4383b77-a783-4b37-a52f-4aa088153e6d",
         "da857c37-8080-4c13-9a5d-4fae1dfd9541",
-        "c0d37a81-2097-4705-aad4-d16156da235a"
+        "c0d37a81-2097-4705-aad4-d16156da235a",
+        "link_xb6Ezq"
       ],
       "settings": {
       }
