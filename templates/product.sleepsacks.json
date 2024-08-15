@@ -96,6 +96,19 @@
           "settings": {
           }
         },
+        "complementary_T8hTyp": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": true,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -116,6 +129,7 @@
         "d828ce5d-f44b-4833-9b8d-0a405b12654d",
         "4620763d-b34b-4ded-a857-504751a5f38d",
         "description",
+        "complementary_T8hTyp",
         "share"
       ],
       "settings": {
