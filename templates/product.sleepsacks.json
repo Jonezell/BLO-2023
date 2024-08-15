@@ -175,6 +175,64 @@
         "include_margins": false
       }
     },
+    "blo_product_callouts_cKk9Y6": {
+      "type": "blo-product-callouts",
+      "blocks": {
+        "callout_d34hnK": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Two Way Double Zipper",
+            "block_text": "Double j-shaped zipper for easy dressing and diaper changes. ",
+            "horizontal_position": 26,
+            "vertical_position": 14
+          }
+        },
+        "callout_AYWkHp": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_left",
+            "block_title": "Peace of Mind",
+            "block_text": "Wearable blankets for babies from 14-42 lbs so they stay cozy and safer while they sleep. ",
+            "horizontal_position": 20,
+            "vertical_position": 38
+          }
+        },
+        "callout_CmUXMT": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Seasonally Appropriate",
+            "block_text": "3 different TOG choices so you can choose based on climate and preferences of your home & nursery.",
+            "horizontal_position": 16,
+            "vertical_position": 62
+          }
+        },
+        "callout_Mtx8EL": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_left",
+            "block_title": "Grows with baby",
+            "block_text": "Extra length to accommodate your little one’s growth. <em>For safety, do not size up. Collar should never be able to cover baby’s airways.<\/em>",
+            "horizontal_position": 16,
+            "vertical_position": 86
+          }
+        }
+      },
+      "block_order": [
+        "callout_d34hnK",
+        "callout_AYWkHp",
+        "callout_CmUXMT",
+        "callout_Mtx8EL"
+      ],
+      "settings": {
+        "title": "We’ve thought of it so you don’t have to.",
+        "text": "Lorem ipsum dolor sit amet consectetur",
+        "image": "shopify:\/\/shop_images\/SleepSack_e030fa6b-8c5f-493d-8bee-1b232870a1b8.jpg",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85": {
       "type": "blo-faq",
       "blocks": {
@@ -245,6 +303,7 @@
   "order": [
     "main",
     "1689095601e7facfa4",
+    "blo_product_callouts_cKk9Y6",
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85",
     "related-products"
   ]
