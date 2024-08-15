@@ -96,6 +96,15 @@
           "settings": {
           }
         },
+        "collapsible_tab_QdH347": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Size & TOG Guide",
+            "icon": "ruler",
+            "content": "",
+            "page": "size-chart-sleep-sacks"
+          }
+        },
         "complementary_T8hTyp": {
           "type": "complementary",
           "settings": {
@@ -129,6 +138,7 @@
         "d828ce5d-f44b-4833-9b8d-0a405b12654d",
         "4620763d-b34b-4ded-a857-504751a5f38d",
         "description",
+        "collapsible_tab_QdH347",
         "complementary_T8hTyp",
         "share"
       ],
