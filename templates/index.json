@@ -122,10 +122,22 @@
             "collection_group_title": "Accessories",
             "collection_list": [
               "bows",
-              "knit-beanies",
               "swaddles",
               "backpacks",
               "accessories"
+            ]
+          }
+        },
+        "396b8e8c-e792-4554-ab56-e5154ab97f39": {
+          "type": "collection_group",
+          "settings": {
+            "collection_group_title": "And More",
+            "collection_list": [
+              "sleep-sacks",
+              "crib-and-twin-sheets",
+              "blankets",
+              "womens",
+              "shop-all"
             ]
           }
         },
@@ -141,27 +153,14 @@
               "womens"
             ]
           }
-        },
-        "396b8e8c-e792-4554-ab56-e5154ab97f39": {
-          "type": "collection_group",
-          "settings": {
-            "collection_group_title": "And More",
-            "collection_list": [
-              "crib-sheets",
-              "twin-sheets",
-              "blankets",
-              "womens",
-              "shop-all"
-            ]
-          }
         }
       },
       "block_order": [
         "402865f8-3ebd-46a7-b5ef-971309eda3a8",
         "444d7551-af1d-4be4-bb9f-28000a878f9b",
         "fad30f75-5b3e-45ea-a2de-aa010120bf71",
-        "2dfba28d-4e1d-421c-856a-b030a83d42d6",
-        "396b8e8c-e792-4554-ab56-e5154ab97f39"
+        "396b8e8c-e792-4554-ab56-e5154ab97f39",
+        "2dfba28d-4e1d-421c-856a-b030a83d42d6"
       ],
       "settings": {
         "title": "We’ve Got What You’re Looking For.",
