@@ -98,7 +98,6 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Sizing & TOG Guide",
             "icon": "ruler",
