@@ -50,8 +50,8 @@
         "image_secondary": "shopify:\/\/shop_images\/image-secondary_2_20eb98d5-c693-408d-ad27-2578109f007f.jpg",
         "color_text": "#161616",
         "color_background": "#EFE8DE",
-        "background_image_desktop_pin": "bottom right",
-        "background_image_mobile_pin": "bottom right"
+        "background_image_desktop_pin": "bottom center",
+        "background_image_mobile_pin": "bottom center"
       }
     },
     "ef424140-16f7-4341-9117-1d25d594aa70": {
@@ -284,63 +284,6 @@
         "padding_bottom": 100
       }
     },
-    "f8984855-9525-4334-88ac-f4e6f241f447": {
-      "type": "blo-find-your-favorite",
-      "blocks": {
-        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "camel-floral"
-          }
-        },
-        "f1a9d6de-1d02-4f66-bac5-19636ffa6e75": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cream-floral"
-          }
-        },
-        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "blue-bees"
-          }
-        },
-        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "blue-triangles"
-          }
-        },
-        "19bcaa4e-45bd-4a73-910b-a4328600a1ac": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "dinosaurs"
-          }
-        }
-      },
-      "block_order": [
-        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-2",
-        "f1a9d6de-1d02-4f66-bac5-19636ffa6e75",
-        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-0",
-        "template--16166779355305__f8984855-9525-4334-88ac-f4e6f241f447-1689266628161f7213-1",
-        "19bcaa4e-45bd-4a73-910b-a4328600a1ac"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Find Your New Favorite",
-        "heading_size": "h2",
-        "image_ratio": "square",
-        "columns_desktop": 5,
-        "color_scheme": "",
-        "show_view_all": true,
-        "view_all_link": "shopify:\/\/pages\/shop-by-all",
-        "view_all_label": "Shop By Prints & Ribbed",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
     "39a14b17-5c76-41f4-b440-d63a3f398506": {
       "type": "blo-featured-reviews",
       "blocks": {
@@ -564,7 +507,6 @@
     "824201d6-ab39-4535-b10b-033005d18033",
     "4b1165c6-b8a9-4249-a026-ac24d705f1f2",
     "a55edcc6-a898-42f6-b41b-14879be538ca",
-    "f8984855-9525-4334-88ac-f4e6f241f447",
     "39a14b17-5c76-41f4-b440-d63a3f398506",
     "featured_collection",
     "7f2ba396-b421-44a7-8ac9-529611c0153f",
