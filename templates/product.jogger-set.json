@@ -105,6 +105,15 @@
             "page": "size-chart-pullovers"
           }
         },
+        "collapsible_tab_4pXj3M": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Jogger Sizing",
+            "icon": "pants",
+            "content": "",
+            "page": "copy-of-size-chart-joggers"
+          }
+        },
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -149,6 +158,7 @@
         "4620763d-b34b-4ded-a857-504751a5f38d",
         "description",
         "collapsible-row-2",
+        "collapsible_tab_4pXj3M",
         "collapsible-row-3",
         "85d7636a-745b-4ef8-a7d8-e26226d2518f",
         "share"
