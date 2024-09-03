@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -207,7 +216,7 @@
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
         "text": "Discover the ultimate daytime comfort with our perfectly crafted Pullovers.",
-        "image": "shopify:\/\/shop_images\/Pullover.jpg",
+        "image": "shopify:\/\/shop_images\/Pullover_14a7f88f-38af-4fac-a023-f380982a0d49.jpg",
         "padding_top": 100,
         "padding_bottom": 100
       }
