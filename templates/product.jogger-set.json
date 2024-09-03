@@ -99,8 +99,8 @@
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Sizing",
-            "icon": "ruler",
+            "heading": "Pullover Sizing",
+            "icon": "shirt",
             "content": "",
             "page": "size-chart-pullovers"
           }
