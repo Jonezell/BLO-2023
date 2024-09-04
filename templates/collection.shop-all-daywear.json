@@ -48,6 +48,13 @@
             "linkurl": "shopify:\/\/collections\/rash-guards"
           }
         },
+        "link_wP7Vqg": {
+          "type": "link",
+          "settings": {
+            "text": "Pullovers & Joggers",
+            "linkurl": "shopify:\/\/collections\/pullovers-joggers"
+          }
+        },
         "56714d5f-b58e-4848-9c86-5637c77d3aa5": {
           "type": "link",
           "settings": {
@@ -61,6 +68,7 @@
         "6bfd07ee-031a-4a56-9f00-117c1b95dedd",
         "link_cgHq8y",
         "link_hbapwQ",
+        "link_wP7Vqg",
         "56714d5f-b58e-4848-9c86-5637c77d3aa5"
       ],
       "settings": {
