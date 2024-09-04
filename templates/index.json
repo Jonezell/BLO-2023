@@ -244,11 +244,11 @@
           "settings": {
             "collection_group_title": "Prints",
             "collection_list": [
+              "woodland-animals",
               "pumpkins",
               "ballerinas",
               "unicorns-small-ribbed",
-              "cats-small-ribbed",
-              "mauve-blooms-small-ribbed"
+              "cats-small-ribbed"
             ]
           }
         },
@@ -257,11 +257,11 @@
           "settings": {
             "collection_group_title": "Solids & Stripes",
             "collection_list": [
+              "pinecone-big-stripe-ribbed",
+              "pine-green-small-ribbed",
               "pinecone-small-ribbed",
               "rust-small-ribbed",
-              "jet-black-small-ribbed",
-              "pink-small-stripe-ribbed",
-              "pine-green-big-stripe"
+              "jet-black-small-ribbed"
             ]
           }
         }
