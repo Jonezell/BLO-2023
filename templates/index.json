@@ -109,10 +109,10 @@
             "collection_group_title": "Daywear",
             "collection_list": [
               "shirts",
-              "rash-guards",
               "pocket-dresses",
-              "briefs-underwear",
-              "daywear"
+              "rash-guards",
+              "pullovers-joggers",
+              "briefs-underwear"
             ]
           }
         },
@@ -122,6 +122,7 @@
             "collection_group_title": "Accessories",
             "collection_list": [
               "bows",
+              "knit-beanies",
               "swaddles",
               "backpacks",
               "accessories"
