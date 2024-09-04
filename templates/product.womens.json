@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -32,7 +41,7 @@
         "884161c0-28fb-4991-91be-2ff28c96672f": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Pants",
+            "label": "Bottoms",
             "style": "image",
             "target_collection": "womens-bottoms",
             "swatch_offset_Y": 50,
