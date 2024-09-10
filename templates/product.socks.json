@@ -96,6 +96,15 @@
           "settings": {
           }
         },
+        "collapsible_tab_YVmV9E": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Sizing",
+            "icon": "ruler",
+            "content": "",
+            "page": "size-chart-socks"
+          }
+        },
         "complementary_J9nNKE": {
           "type": "complementary",
           "settings": {
@@ -129,6 +138,7 @@
         "d828ce5d-f44b-4833-9b8d-0a405b12654d",
         "4620763d-b34b-4ded-a857-504751a5f38d",
         "description",
+        "collapsible_tab_YVmV9E",
         "complementary_J9nNKE",
         "share"
       ],
