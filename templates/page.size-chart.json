@@ -277,6 +277,16 @@
         "heading_size": "h2",
         "color_scheme": "",
         "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_gJj8c4": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-socks",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
         "padding_bottom": 100
       }
     }
@@ -303,6 +313,7 @@
     "a15f9bd2-d25d-4ec9-8a26-498726436bd1",
     "ce737103-36cb-4cee-8b64-8e546617e9aa",
     "page_fKAiFg",
-    "page_eJrtNQ"
+    "page_eJrtNQ",
+    "page_gJj8c4"
   ]
 }
