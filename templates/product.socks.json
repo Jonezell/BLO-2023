@@ -171,7 +171,7 @@
           "type": "Callout",
           "settings": {
             "pin_direction": "top_left",
-            "block_title": "High Cut Ankle Height",
+            "block_title": "Crew Height",
             "block_text": "Trendy, comfy, and cute with any outfit, they’re the perfect height.",
             "horizontal_position": 12,
             "vertical_position": 18
@@ -208,7 +208,7 @@
         "text": "Discover the ultimate comfort with our perfectly crafted Socks.",
         "image": "shopify:\/\/shop_images\/Socks.jpg",
         "padding_top": 100,
-        "padding_bottom": 100
+        "padding_bottom": 0
       }
     },
     "d0291347-d783-4f94-a5aa-f5ef56fe5d85": {
@@ -248,9 +248,9 @@
         "template--16166779289769__d0291347-d783-4f94-a5aa-f5ef56fe5d85-16891060528ec65540-2"
       ],
       "settings": {
-        "background_color": "#f8f4ee",
+        "background_color": "#efe8de",
         "texture_top": true,
-        "texture_bottom": false,
+        "texture_bottom": true,
         "mainHeading": "Have A Question? We Have The Answer.",
         "mainText": "",
         "layout": "image_first",
