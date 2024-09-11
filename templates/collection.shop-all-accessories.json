@@ -43,7 +43,6 @@
         },
         "link_yDQxBB": {
           "type": "link",
-          "disabled": true,
           "settings": {
             "text": "Socks",
             "linkurl": "shopify:\/\/collections\/socks"
