@@ -27,6 +27,17 @@
           "settings": {
           }
         },
+        "produdct_as_variants_WxdQRh": {
+          "type": "produdct-as-variants",
+          "settings": {
+            "label": "Options",
+            "style": "image",
+            "target_collection": "sleep-sack-sets",
+            "swatch_offset_Y": 50,
+            "swatch_offset_X": 50,
+            "hide_sold_out": true
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -96,6 +107,7 @@
         "title",
         "price",
         "c32c6529-50ec-4a23-84a8-d808ee1d0b2a",
+        "produdct_as_variants_WxdQRh",
         "variant_picker",
         "quantity_selector",
         "14d206d1-bc58-4ca6-baa4-d38ba878182e",
