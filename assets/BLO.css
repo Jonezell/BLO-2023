@@ -712,6 +712,7 @@ quantity-input.quantity button.quantity__button,
     color: #31424B;
     text-decoration: none;
     padding: 12px 20px;
+    background: transparent;
   }
   
   .jdgm-widget.jdgm-review-widget .jdgm-rev-widg__title,
