@@ -101,6 +101,7 @@
     },
     "047b842c-5eab-44c7-abb3-504b7e0c96ec": {
       "type": "page",
+      "disabled": true,
       "settings": {
         "page": "size-chart-rompers",
         "heading_size": "h2",
