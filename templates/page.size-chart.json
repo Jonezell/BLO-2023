@@ -101,6 +101,7 @@
     },
     "047b842c-5eab-44c7-abb3-504b7e0c96ec": {
       "type": "page",
+      "disabled": true,
       "settings": {
         "page": "size-chart-rompers",
         "heading_size": "h2",
@@ -119,20 +120,20 @@
         "padding_bottom": 0
       }
     },
-    "91eefe05-a9b2-452a-9e4b-36aa5372d5ba": {
+    "9e9d8462-79f6-49ae-af03-58e169404325": {
       "type": "page",
       "settings": {
-        "page": "size-chart-summer-zip-rompers",
+        "page": "size-chart-shorts-two-piece-set",
         "heading_size": "h2",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
       }
     },
-    "9e9d8462-79f6-49ae-af03-58e169404325": {
+    "91eefe05-a9b2-452a-9e4b-36aa5372d5ba": {
       "type": "page",
       "settings": {
-        "page": "size-chart-shorts-two-piece-set",
+        "page": "size-chart-summer-zip-rompers",
         "heading_size": "h2",
         "color_scheme": "",
         "padding_top": 0,
@@ -298,8 +299,8 @@
     "5907c2d3-d681-48bb-af49-d110a145f891",
     "047b842c-5eab-44c7-abb3-504b7e0c96ec",
     "22049756-e6c8-4a88-8e63-8e497043cdc2",
-    "91eefe05-a9b2-452a-9e4b-36aa5372d5ba",
     "9e9d8462-79f6-49ae-af03-58e169404325",
+    "91eefe05-a9b2-452a-9e4b-36aa5372d5ba",
     "771a57e9-bfd8-4e2d-be7c-86bb4c7c1593",
     "9486a264-bd0b-4a71-a340-df728a608f53",
     "page_4XzcQJ",
