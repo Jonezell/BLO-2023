@@ -35,7 +35,7 @@
         "buttons_cnTWkw": {
           "type": "buttons",
           "settings": {
-            "button_label": "Shop All",
+            "button_label": "Shop New Releases",
             "button_link": "shopify:\/\/collections\/new"
           }
         }
