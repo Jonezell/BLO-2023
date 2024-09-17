@@ -11,20 +11,82 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 100,
         "padding_bottom": 100
       }
     },
-    "1692815720b7b1de5f": {
-      "type": "apps",
+    "blo_banner_release_W4yKiP": {
+      "type": "blo-banner-release",
+      "blocks": {
+        "heading_39tTAf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shop Our Fall Release"
+          }
+        },
+        "text_xbedTh": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "buttons_cnTWkw": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_39tTAf",
+        "text_xbedTh",
+        "buttons_cnTWkw"
+      ],
       "settings": {
-        "include_margins": true
+        "image_main": "shopify:\/\/shop_images\/image-main_e553b5fd-771a-47d9-8e61-12d9a6bb34f8.jpg",
+        "image_secondary": "shopify:\/\/shop_images\/image-secondary_fbbdb21c-9096-4bed-8893-7738c71b7737.jpg",
+        "color_text": "#191919",
+        "color_background": "#EFE8DE",
+        "background_image_desktop_pin": "center center",
+        "background_image_mobile_pin": "center center"
+      }
+    },
+    "featured_collection_q9VXJ6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Pumpkins",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "pumpkins",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     }
   },
   "order": [
     "main",
-    "1692815720b7b1de5f"
+    "blo_banner_release_W4yKiP",
+    "featured_collection_q9VXJ6"
   ]
 }
