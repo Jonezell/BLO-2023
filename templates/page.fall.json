@@ -34,10 +34,9 @@
         },
         "buttons_cnTWkw": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Shop All",
+            "button_link": "shopify:\/\/collections\/new"
           }
         }
       },
