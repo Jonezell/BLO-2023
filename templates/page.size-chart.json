@@ -99,17 +99,6 @@
         "padding_bottom": 0
       }
     },
-    "047b842c-5eab-44c7-abb3-504b7e0c96ec": {
-      "type": "page",
-      "disabled": true,
-      "settings": {
-        "page": "size-chart-rompers",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "22049756-e6c8-4a88-8e63-8e497043cdc2": {
       "type": "page",
       "settings": {
@@ -190,6 +179,16 @@
         "padding_bottom": 0
       }
     },
+    "page_RDfkbn": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-puffer-jackets",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "47b0d8f5-299b-42b0-b874-ca253e892726": {
       "type": "page",
       "settings": {
@@ -204,17 +203,6 @@
       "type": "page",
       "settings": {
         "page": "size-chart-rash-guards",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "9213c041-fb28-4c2a-b003-7ca859c08fb0": {
-      "type": "page",
-      "disabled": true,
-      "settings": {
-        "page": "copy-of-size-chart-joggers",
         "heading_size": "h2",
         "color_scheme": "",
         "padding_top": 0,
@@ -245,16 +233,6 @@
       "type": "page",
       "settings": {
         "page": "size-chart-womens",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "ce737103-36cb-4cee-8b64-8e546617e9aa": {
-      "type": "page",
-      "settings": {
-        "page": "size-chart-womens-pullovers",
         "heading_size": "h2",
         "color_scheme": "",
         "padding_top": 0,
@@ -297,7 +275,6 @@
     "5b15a417-7aac-408c-92b7-e324a551989e",
     "bf4b2c56-f3fb-4d6e-9767-46d41b11233a",
     "5907c2d3-d681-48bb-af49-d110a145f891",
-    "047b842c-5eab-44c7-abb3-504b7e0c96ec",
     "22049756-e6c8-4a88-8e63-8e497043cdc2",
     "9e9d8462-79f6-49ae-af03-58e169404325",
     "91eefe05-a9b2-452a-9e4b-36aa5372d5ba",
@@ -306,13 +283,12 @@
     "page_4XzcQJ",
     "5767a37f-7246-45d5-90f4-cbb29737447f",
     "9c37fd43-ee0f-403c-9428-e3bb19423441",
+    "page_RDfkbn",
     "47b0d8f5-299b-42b0-b874-ca253e892726",
     "page_BiLwDK",
-    "9213c041-fb28-4c2a-b003-7ca859c08fb0",
     "2258ce1e-de62-4326-a775-31c5908b2f14",
     "75b55457-bf23-4c7a-a18c-4be6cc675b46",
     "a15f9bd2-d25d-4ec9-8a26-498726436bd1",
-    "ce737103-36cb-4cee-8b64-8e546617e9aa",
     "page_fKAiFg",
     "page_eJrtNQ",
     "page_gJj8c4"
