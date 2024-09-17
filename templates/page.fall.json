@@ -364,11 +364,21 @@
         "paragraph_76GrpB",
         "email_form_NXMfwR"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "full_width": true,
         "padding_top": 0,
         "padding_bottom": 100
+      }
+    },
+    "custom_liquid_gdmEzr": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe src=\"https:\/\/bravelittleones.attn.tv\/p\/RzK\/landing-page2\" style=\"min-height: 800px; border: none;\" width=\"100%\" height=\"100%\"><\/iframe>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
@@ -385,6 +395,7 @@
     "featured_collection_h4NgWT",
     "featured_collection_MDBL3n",
     "featured_collection_P4Wyai",
-    "newsletter_X8Bw37"
+    "newsletter_X8Bw37",
+    "custom_liquid_gdmEzr"
   ]
 }
