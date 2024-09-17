@@ -49,8 +49,8 @@
       "settings": {
         "image_main": "shopify:\/\/shop_images\/image-main_e553b5fd-771a-47d9-8e61-12d9a6bb34f8.jpg",
         "image_secondary": "shopify:\/\/shop_images\/image-secondary_fbbdb21c-9096-4bed-8893-7738c71b7737.jpg",
-        "color_text": "#191919",
-        "color_background": "#EFE8DE",
+        "color_text": "#6f5b4b",
+        "color_background": "#E4E0DC",
         "background_image_desktop_pin": "center center",
         "background_image_mobile_pin": "center center"
       }
