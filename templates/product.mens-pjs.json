@@ -32,7 +32,7 @@
           "settings": {
             "label": "Tops",
             "style": "image",
-            "target_collection": "womens-tops",
+            "target_collection": "mens-tops",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
@@ -43,7 +43,7 @@
           "settings": {
             "label": "Bottoms",
             "style": "image",
-            "target_collection": "womens-bottoms",
+            "target_collection": "mens-pants",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
