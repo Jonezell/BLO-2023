@@ -228,6 +228,7 @@
         "image-with-text-1",
         "8f596c9d-6cea-4e54-9793-4f94c53f6f75"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-7_fc00063c-73f9-49d6-b957-618e74110a92.jpg",
         "height": "adapt",
