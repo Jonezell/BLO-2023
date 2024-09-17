@@ -32,7 +32,7 @@
           "settings": {
             "label": "Style",
             "style": "image",
-            "target_collection": "pullovers",
+            "target_collection": "hoodies",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
@@ -98,6 +98,7 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Sizing",
             "icon": "ruler",
