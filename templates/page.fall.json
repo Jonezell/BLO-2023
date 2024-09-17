@@ -279,6 +279,34 @@
         "padding_bottom": 0
       }
     },
+    "featured_collection_MDBL3n": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Pullovers & Joggers",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "pullovers-joggers",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
     "featured_collection_P4Wyai": {
       "type": "featured-collection",
       "disabled": true,
@@ -354,6 +382,7 @@
     "featured_collection_38yLJA",
     "featured_collection_D89QR4",
     "featured_collection_h4NgWT",
+    "featured_collection_MDBL3n",
     "featured_collection_P4Wyai",
     "newsletter_X8Bw37"
   ]
