@@ -222,6 +222,125 @@
         "padding_top": 100,
         "padding_bottom": 0
       }
+    },
+    "featured_collection_D89QR4": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Horses Small Ribbed",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "horses-small-ribbed",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_h4NgWT": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Tan Wide Stripe Small Ribbed",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "tan-wide-stripe-small-ribbed",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_P4Wyai": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Autumn Floral",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "autumn-floral-small-ribbed",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "newsletter_X8Bw37": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_NNzjxe": {
+          "type": "heading",
+          "settings": {
+            "heading": "New Releases Dropping Weekly!",
+            "heading_size": "h3"
+          }
+        },
+        "paragraph_76GrpB": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know when our next collections drops!<\/p>"
+          }
+        },
+        "email_form_NXMfwR": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_NNzjxe",
+        "paragraph_76GrpB",
+        "email_form_NXMfwR"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
@@ -232,6 +351,10 @@
     "featured_collection_dtwb8F",
     "featured_collection_Q9XLBJ",
     "featured_collection_NQL6bq",
-    "featured_collection_38yLJA"
+    "featured_collection_38yLJA",
+    "featured_collection_D89QR4",
+    "featured_collection_h4NgWT",
+    "featured_collection_P4Wyai",
+    "newsletter_X8Bw37"
   ]
 }
