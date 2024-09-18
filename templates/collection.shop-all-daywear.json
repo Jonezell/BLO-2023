@@ -41,18 +41,25 @@
             "linkurl": "shopify:\/\/collections\/pocket-dresses"
           }
         },
-        "link_hbapwQ": {
-          "type": "link",
-          "settings": {
-            "text": "Rash Guards",
-            "linkurl": "shopify:\/\/collections\/rash-guards"
-          }
-        },
         "link_wP7Vqg": {
           "type": "link",
           "settings": {
             "text": "Pullovers & Joggers",
             "linkurl": "shopify:\/\/collections\/pullovers-joggers"
+          }
+        },
+        "link_UEUheR": {
+          "type": "link",
+          "settings": {
+            "text": "Puffer Jackets",
+            "linkurl": "shopify:\/\/collections\/puffer-jackets-release"
+          }
+        },
+        "link_hbapwQ": {
+          "type": "link",
+          "settings": {
+            "text": "Rash Guards",
+            "linkurl": "shopify:\/\/collections\/rash-guards"
           }
         },
         "56714d5f-b58e-4848-9c86-5637c77d3aa5": {
@@ -67,8 +74,9 @@
         "c7403c74-bc41-4a26-823f-d207c3c66ce5",
         "6bfd07ee-031a-4a56-9f00-117c1b95dedd",
         "link_cgHq8y",
-        "link_hbapwQ",
         "link_wP7Vqg",
+        "link_UEUheR",
+        "link_hbapwQ",
         "56714d5f-b58e-4848-9c86-5637c77d3aa5"
       ],
       "settings": {
