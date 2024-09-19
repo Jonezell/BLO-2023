@@ -280,15 +280,15 @@
         "padding_bottom": 0
       }
     },
-    "featured_collection_MDBL3n": {
+    "featured_collection_P4Wyai": {
       "type": "featured-collection",
       "settings": {
-        "title": "Pullovers & Joggers",
+        "title": "Autumn Floral",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "pullovers-joggers",
+        "collection": "autumn-floral-small-ribbed",
         "products_to_show": 25,
         "columns_desktop": 4,
         "full_width": false,
@@ -308,15 +308,15 @@
         "padding_bottom": 0
       }
     },
-    "featured_collection_P4Wyai": {
+    "featured_collection_MDBL3n": {
       "type": "featured-collection",
       "settings": {
-        "title": "Autumn Floral",
+        "title": "Pullovers & Joggers",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "autumn-floral-small-ribbed",
+        "collection": "pullovers-joggers",
         "products_to_show": 25,
         "columns_desktop": 4,
         "full_width": false,
@@ -392,8 +392,8 @@
     "featured_collection_38yLJA",
     "featured_collection_D89QR4",
     "featured_collection_h4NgWT",
-    "featured_collection_MDBL3n",
     "featured_collection_P4Wyai",
+    "featured_collection_MDBL3n",
     "newsletter_X8Bw37",
     "custom_liquid_gdmEzr"
   ]
