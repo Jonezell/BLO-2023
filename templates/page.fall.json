@@ -310,7 +310,6 @@
     },
     "featured_collection_P4Wyai": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Autumn Floral",
         "heading_size": "h2",
