@@ -58,6 +58,7 @@
     },
     "e143930d-9165-4e09-a107-29971512fffc": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Evergreen Gingham",
         "heading_size": "h2",
@@ -86,6 +87,7 @@
     },
     "bcf130ab-fa85-4408-b8e3-09af40943899": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Christmas Lights",
         "heading_size": "h2",
@@ -114,6 +116,7 @@
     },
     "eea3670b-cf43-40be-963d-29a58a017884": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Deer Tree Farm",
         "heading_size": "h2",
@@ -142,6 +145,7 @@
     },
     "a7343653-88c0-4579-aae5-2da000c71bd4": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Red Stripe Small Ribbed",
         "heading_size": "h2",
@@ -170,6 +174,7 @@
     },
     "862d5971-26a2-4161-a07a-4a02e173bbf4": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Forest Green Small Ribbed",
         "heading_size": "h2",
@@ -196,36 +201,9 @@
         "padding_bottom": 0
       }
     },
-    "5a00cf20-9bd5-4894-97dc-f4fe86ed7190": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Cookies & Milk",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "cookies-and-milk",
-        "products_to_show": 25,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": true,
-        "quick_add": "none",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "d54ebb00-bab5-4860-8721-612e4e6ec43d": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Winter Wonderland",
         "heading_size": "h2",
@@ -254,6 +232,7 @@
     },
     "14772b19-f3cf-46a4-b240-daefb461e3f6": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Christmas Trees Small Ribbed",
         "heading_size": "h2",
@@ -282,6 +261,7 @@
     },
     "d1386e57-9a22-4ddd-af48-87d40a7bf576": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Snowy Village",
         "heading_size": "h2",
@@ -310,6 +290,7 @@
     },
     "f2347f84-5a30-4b2a-97d5-c08f63ce1a75": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Olive Small Ribbed",
         "heading_size": "h2",
@@ -338,6 +319,7 @@
     },
     "a4dc72c8-b739-4ba1-bda3-e5b9b25a0bdd": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Scattered Floral Small Ribbed",
         "heading_size": "h2",
@@ -366,8 +348,9 @@
     },
     "6224feee-e26c-491a-8929-2ec8c39d5fc5": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
-        "title": "Berry Red Small Ribbed",
+        "title": "Santa",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -390,6 +373,34 @@
         "swipe_on_mobile": true,
         "padding_top": 0,
         "padding_bottom": 100
+      }
+    },
+    "5a00cf20-9bd5-4894-97dc-f4fe86ed7190": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Cookies & Milk",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "cookies-and-milk",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "featured_collection_n8krFx": {
@@ -423,7 +434,7 @@
     "custom_liquid_pienb8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "<iframe src=\"https:\/\/bravelittleones.attn.tv\/p\/RzK\/landing-page2\" style=\"min-height: 800px; border: none;\" width=\"100%\" height=\"100%\"><\/iframe>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -438,13 +449,13 @@
     "eea3670b-cf43-40be-963d-29a58a017884",
     "a7343653-88c0-4579-aae5-2da000c71bd4",
     "862d5971-26a2-4161-a07a-4a02e173bbf4",
-    "5a00cf20-9bd5-4894-97dc-f4fe86ed7190",
     "d54ebb00-bab5-4860-8721-612e4e6ec43d",
     "14772b19-f3cf-46a4-b240-daefb461e3f6",
     "d1386e57-9a22-4ddd-af48-87d40a7bf576",
     "f2347f84-5a30-4b2a-97d5-c08f63ce1a75",
     "a4dc72c8-b739-4ba1-bda3-e5b9b25a0bdd",
     "6224feee-e26c-491a-8929-2ec8c39d5fc5",
+    "5a00cf20-9bd5-4894-97dc-f4fe86ed7190",
     "featured_collection_n8krFx",
     "custom_liquid_pienb8"
   ]
