@@ -336,41 +336,6 @@
         "padding_bottom": 0
       }
     },
-    "newsletter_X8Bw37": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_NNzjxe": {
-          "type": "heading",
-          "settings": {
-            "heading": "New Releases Dropping Weekly!",
-            "heading_size": "h3"
-          }
-        },
-        "paragraph_76GrpB": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know when our next collections drops!<\/p>"
-          }
-        },
-        "email_form_NXMfwR": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "heading_NNzjxe",
-        "paragraph_76GrpB",
-        "email_form_NXMfwR"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 100
-      }
-    },
     "custom_liquid_gdmEzr": {
       "type": "custom-liquid",
       "settings": {
@@ -394,7 +359,6 @@
     "featured_collection_h4NgWT",
     "featured_collection_P4Wyai",
     "featured_collection_MDBL3n",
-    "newsletter_X8Bw37",
     "custom_liquid_gdmEzr"
   ]
 }

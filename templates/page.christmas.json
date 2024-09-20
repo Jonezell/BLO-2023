@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -68,7 +77,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "enable_quick_add": true,
+        "quick_add": "none",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 0,
@@ -96,35 +105,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "enable_quick_add": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "0247ad38-87b4-4e82-8f4f-71b1ca9f4cb9": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Green Floral",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "green-floral",
-        "products_to_show": 25,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": true,
-        "enable_quick_add": true,
+        "quick_add": "none",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 0,
@@ -152,7 +133,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "enable_quick_add": true,
+        "quick_add": "none",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 0,
@@ -180,7 +161,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "enable_quick_add": true,
+        "quick_add": "none",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 0,
@@ -208,7 +189,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "enable_quick_add": true,
+        "quick_add": "none",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 0,
@@ -236,7 +217,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "enable_quick_add": true,
+        "quick_add": "none",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 0,
@@ -264,7 +245,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "enable_quick_add": true,
+        "quick_add": "none",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 0,
@@ -292,7 +273,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "enable_quick_add": true,
+        "quick_add": "none",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 0,
@@ -320,7 +301,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "enable_quick_add": true,
+        "quick_add": "none",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 0,
@@ -348,7 +329,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "enable_quick_add": true,
+        "quick_add": "none",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 0,
@@ -376,7 +357,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "enable_quick_add": true,
+        "quick_add": "none",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 0,
@@ -404,18 +385,48 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "enable_quick_add": true,
+        "quick_add": "none",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 0,
         "padding_bottom": 100
       }
     },
-    "1692815720b7b1de5f": {
-      "type": "apps",
-      "disabled": true,
+    "featured_collection_n8krFx": {
+      "type": "featured-collection",
       "settings": {
-        "include_margins": true
+        "title": "Outerwear",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "fall-winter-daywear",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "custom_liquid_pienb8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -424,7 +435,6 @@
     "f79c2716-da98-4e7f-920f-34904eed478b",
     "e143930d-9165-4e09-a107-29971512fffc",
     "bcf130ab-fa85-4408-b8e3-09af40943899",
-    "0247ad38-87b4-4e82-8f4f-71b1ca9f4cb9",
     "eea3670b-cf43-40be-963d-29a58a017884",
     "a7343653-88c0-4579-aae5-2da000c71bd4",
     "862d5971-26a2-4161-a07a-4a02e173bbf4",
@@ -435,6 +445,7 @@
     "f2347f84-5a30-4b2a-97d5-c08f63ce1a75",
     "a4dc72c8-b739-4ba1-bda3-e5b9b25a0bdd",
     "6224feee-e26c-491a-8929-2ec8c39d5fc5",
-    "1692815720b7b1de5f"
+    "featured_collection_n8krFx",
+    "custom_liquid_pienb8"
   ]
 }
