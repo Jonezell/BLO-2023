@@ -213,6 +213,7 @@
         "dc0b1086-6dfc-499d-8317-6a381cb4385b",
         "66afe28a-59a0-44ce-aa34-66244cd15b6e"
       ],
+      "disabled": true,
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
         "text": "Discover the ultimate daytime comfort with our perfectly crafted Pullovers.",
@@ -306,14 +307,14 @@
         "template--16166779289769__d0291347-d783-4f94-a5aa-f5ef56fe5d85-16891060528ec65540-2"
       ],
       "settings": {
-        "background_color": "#efe8de",
+        "background_color": "#f8f4ee",
         "texture_top": true,
         "texture_bottom": true,
         "mainHeading": "Have A Question? We Have The Answer.",
         "mainText": "",
         "layout": "image_first",
         "padding_top": 200,
-        "padding_bottom": 200
+        "padding_bottom": 100
       }
     },
     "related-products": {
