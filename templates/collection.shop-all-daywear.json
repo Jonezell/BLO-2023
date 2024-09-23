@@ -50,7 +50,6 @@
         },
         "link_QwaQt6": {
           "type": "link",
-          "disabled": true,
           "settings": {
             "text": "Hoodies",
             "linkurl": "shopify://collections/hoodies"
