@@ -47,35 +47,35 @@
           "type": "link",
           "settings": {
             "text": "All",
-            "linkurl": "shopify:\/\/pages\/size-chart"
+            "linkurl": "shopify://pages/size-chart"
           }
         },
         "c4383b77-a783-4b37-a52f-4aa088153e6d": {
           "type": "link",
           "settings": {
             "text": "PJs",
-            "linkurl": "shopify:\/\/pages\/size-charts-all-pjs"
+            "linkurl": "shopify://pages/size-charts-all-pjs"
           }
         },
         "4a1b611c-70b4-4a3c-b957-31eb3ec5d531": {
           "type": "link",
           "settings": {
             "text": "Daywear",
-            "linkurl": "shopify:\/\/pages\/size-charts-all-daywear"
+            "linkurl": "shopify://pages/size-charts-all-daywear"
           }
         },
         "c0d37a81-2097-4705-aad4-d16156da235a": {
           "type": "link",
           "settings": {
             "text": "Women's",
-            "linkurl": "shopify:\/\/pages\/size-charts-all-womens"
+            "linkurl": "shopify://pages/size-charts-all-womens"
           }
         },
         "link_C7qD7A": {
           "type": "link",
           "settings": {
             "text": "Sleep Sacks",
-            "linkurl": "shopify:\/\/pages\/size-chart-sleep-sacks"
+            "linkurl": "shopify://pages/size-chart-sleep-sacks"
           }
         }
       },
@@ -139,6 +139,16 @@
         "padding_bottom": 0
       }
     },
+    "page_FwXzUf": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-fleece-hoodies",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "9213c041-fb28-4c2a-b003-7ca859c08fb0": {
       "type": "page",
       "settings": {
@@ -189,6 +199,7 @@
     "47b0d8f5-299b-42b0-b874-ca253e892726",
     "page_fJ7TR8",
     "5767a37f-7246-45d5-90f4-cbb29737447f",
+    "page_FwXzUf",
     "9213c041-fb28-4c2a-b003-7ca859c08fb0",
     "9c37fd43-ee0f-403c-9428-e3bb19423441",
     "2258ce1e-de62-4326-a775-31c5908b2f14",
