@@ -1462,8 +1462,11 @@ iframe#chat-button {
   font-size: 14px;
 }
 .shopify-pc__banner__dialog .shopify-pc__banner__btn-accept, 
-.shopify-pc__banner__dialog .shopify-pc__banner__btn-decline{
+.shopify-pc__banner__dialog .shopify-pc__banner__btn-decline {
   border-radius: 30px;
+}
+.shopify-pc__banner__dialog .shopify-pc__banner__btn-decline {
+  margin-right: 0;
 }
 
 
