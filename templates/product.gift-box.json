@@ -43,7 +43,7 @@
         "custom_liquid_VaYLNB": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<label for=\"message\" class=\"form__label\" style=\"margin-top: 40px;\">Handwritten Note (Optional):</label>\n<div class=\"field\">\n  <textarea id=\"message\" class=\"text-area field__input\" placeholder=\"Message\" name=\"properties[Message]\"form=\"product-form-{{ section.id }}\"></textarea>\n</div>"
+            "custom_liquid": "<label for=\"message\" class=\"form__label\" style=\"margin-top: 40px;\">Handwritten Note (Optional):</label>\n\n<div class=\"field\">\n\n  <textarea id=\"message\" class=\"text-area field__input\" placeholder=\"Message\" name=\"properties[Message]\"form=\"product-form-{{ section.id }}\" maxlength=\"160\"></textarea>\n\n</div>"
           }
         },
         "14d206d1-bc58-4ca6-baa4-d38ba878182e": {
