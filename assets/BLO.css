@@ -1514,7 +1514,7 @@ iframe#chat-button {
   .shopify-pc__prefs__header-actions button {
     margin-bottom: 10px;
   }
-  .shopify-pc__banner__btns .shopify-pc__banner__btns-granular .shopify-pc__banner__btn-accept{
+  .shopify-pc__banner__btns.shopify-pc__banner__btns-granular .shopify-pc__banner__btn-accept{
     margin-right: 0;
     
   }
