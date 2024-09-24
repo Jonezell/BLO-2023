@@ -1487,6 +1487,7 @@ iframe#chat-button {
 .shopify-pc__prefs .shopify-pc__prefs__header-actions button {
   border-radius: 30px;
   padding: 10px 20px;
+  margin: 0 10px 0 0;
 }
 .shopify-pc__prefs .shopify-pc__prefs__intro-main h3 {
   font-size: 16px;
