@@ -1481,6 +1481,9 @@ iframe#chat-button {
   text-align: left;
   color: #555 !important;
 }
+.shopify-pc__prefs__dialog header {
+  padding: 32px;
+}
 .shopify-pc__prefs .shopify-pc__prefs__dialog {
   border-radius: 14px;
 }
