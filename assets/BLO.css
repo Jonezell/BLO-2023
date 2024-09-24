@@ -1469,12 +1469,15 @@ iframe#chat-button {
 }
 .shopify-pc__banner__dialog .shopify-pc__banner__btn-accept {
   margin-right: 20px;
+  flex-basis: 30%;
 }
 .shopify-pc__banner__dialog .shopify-pc__banner__btn-decline {
   margin-right: 0;
+  flex-basis: 30%;
 }
 .shopify-pc__banner__dialog .shopify-pc__banner__btn-manage-prefs {
   padding: 6px 0px;
+  flex-basis: 40%;
 }
 .shopify-pc__prefs .shopify-pc__prefs__dialog {
   border-radius: 14px;
