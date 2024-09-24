@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -20,7 +29,7 @@
         "sections--16166778667177__1833dc52-2ea1-4f7b-be67-0b9a45b169f7-16889322044cd0554d-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Subscribe to get 10% off your first order!<\/p>"
+            "text": "<p>Subscribe to get 10% off your first order!</p>"
           }
         },
         "sections--16166778667177__1833dc52-2ea1-4f7b-be67-0b9a45b169f7-16889322044cd0554d-2": {
@@ -62,7 +71,7 @@
           "type": "text",
           "settings": {
             "heading": "About Us",
-            "subtext": "<p>{{ shop.brand.short_description }}<\/p>"
+            "subtext": "<p>{{ shop.brand.short_description }}</p>"
           }
         }
       },
@@ -83,7 +92,7 @@
         "enable_country_selector": false,
         "enable_language_selector": false,
         "payment_enable": false,
-        "show_policy": false,
+        "show_policy": true,
         "margin_top": 0,
         "padding_top": 36,
         "padding_bottom": 20
