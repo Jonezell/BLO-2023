@@ -1527,3 +1527,11 @@ iframe#chat-button {
     margin-top: 10px;
   }
 }
+
+
+
+/* ------- CUSTOM STYLES FOR POLICY -------- */
+
+.footer__content-bottom .policies li:before {
+  padding: 0 .5rem;
+}
