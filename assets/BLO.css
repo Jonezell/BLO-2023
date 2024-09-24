@@ -1516,6 +1516,8 @@ iframe#chat-button {
   }
   .shopify-pc__banner__btns.shopify-pc__banner__btns-granular .shopify-pc__banner__btn-accept{
     margin-right: 0;
-    
+  }
+  .shopify-pc__banner__btns .shopify-pc__banner__btn-manage-prefs {
+    text-align: center;
   }
 }
