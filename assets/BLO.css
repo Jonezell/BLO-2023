@@ -1482,7 +1482,10 @@ iframe#chat-button {
 .shopify-pc__prefs .shopify-pc__prefs__header-actions button {
   border-radius: 20px;
 }
-.shopify-pc__prefs__intro-main h3 {
+.shopify-pc__prefs .shopify-pc__prefs__intro-main h3 {
   margin-bottom: 10px;
+}
+.shopify-pc__prefs .shopify-pc__prefs__option label {
+  font-size: 14px;
 }
 
