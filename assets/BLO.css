@@ -1498,14 +1498,17 @@ iframe#chat-button {
 }
 .shopify-pc__prefs .shopify-pc__prefs__intro-main p {
   font-size: 14px;
+  line-height: 130%;
 }
 .shopify-pc__prefs .shopify-pc__prefs__option label {
   font-size: 14px;
   margin-bottom: 0;
+  line-height: 130%;
 }
 .shopify-pc__prefs .shopify-pc__prefs__option p {
   font-size: 14px;
   margin-bottom: 0;
+  line-height: 130%;
 }
 .shopify-pc__prefs .shopify-pc__prefs__intro-main {
   padding: 30px 32px 0 32px;
