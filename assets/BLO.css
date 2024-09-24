@@ -1448,3 +1448,18 @@ quick-order-list .quick-order-list__table th {
 iframe#chat-button {
   z-index: 1 !important;
 }
+
+
+/* ------- CUSTOM STYLES FOR COOKIES POPUP -------- */
+.shopify-pc__banner__dialog {
+  
+}
+.shopify-pc__banner__dialog h2 {
+  font-size: 16px;
+}
+.shopify-pc__banner__dialog p {
+  font-size: 14px;
+}
+
+
+
