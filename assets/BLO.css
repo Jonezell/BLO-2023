@@ -1452,7 +1452,7 @@ iframe#chat-button {
 
 /* ------- CUSTOM STYLES FOR COOKIES POPUP -------- */
 .shopify-pc__banner__dialog {
-  
+  padding: 30px;
 }
 .shopify-pc__banner__dialog h2 {
   font-size: 14px;
