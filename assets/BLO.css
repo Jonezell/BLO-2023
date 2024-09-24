@@ -1535,3 +1535,6 @@ iframe#chat-button {
 .footer__content-bottom .policies li:before {
   padding: 0 .5rem;
 }
+.footer__content-bottom .policies li a {
+  padding: 0;
+}
