@@ -1487,5 +1487,6 @@ iframe#chat-button {
 }
 .shopify-pc__prefs .shopify-pc__prefs__option label {
   font-size: 14px;
+  margin-bottom: 0;
 }
 
