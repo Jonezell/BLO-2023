@@ -1490,4 +1490,7 @@ iframe#chat-button {
   font-size: 14px;
   margin-bottom: 0;
 }
+.shopify-pc__prefs__intro-main {
+  padding: 30px 32px 0 32px;
+}
 
