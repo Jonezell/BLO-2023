@@ -36,7 +36,14 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
+          }
+        },
+        "custom_liquid_VaYLNB": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<label for=\"message\" class=\"form__label\">Message:</label>\n<div class=\"field\">\n  <textarea id=\"message\" class=\"text-area field__input\" placeholder=\"Message\" name=\"properties[Message]\"form=\"product-form-{{ section.id }}\"></textarea>\n</div>"
           }
         },
         "14d206d1-bc58-4ca6-baa4-d38ba878182e": {
@@ -66,14 +73,6 @@
             "style": "text-decoration:none"
           }
         },
-        "d828ce5d-f44b-4833-9b8d-0a405b12654d": {
-          "type": "blo-restock-note",
-          "settings": {
-            "header": "Restocking",
-            "text": "",
-            "hide-payment-plan": true
-          }
-        },
         "4620763d-b34b-4ded-a857-504751a5f38d": {
           "type": "blo-payment-plans",
           "settings": {
@@ -98,10 +97,10 @@
         "c32c6529-50ec-4a23-84a8-d808ee1d0b2a",
         "variant_picker",
         "quantity_selector",
+        "custom_liquid_VaYLNB",
         "14d206d1-bc58-4ca6-baa4-d38ba878182e",
         "buy_buttons",
         "d32cf3ff-3cf1-42b1-95be-fd31a14eefc2",
-        "d828ce5d-f44b-4833-9b8d-0a405b12654d",
         "4620763d-b34b-4ded-a857-504751a5f38d",
         "description",
         "share"
