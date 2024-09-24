@@ -1490,7 +1490,10 @@ iframe#chat-button {
 }
 .shopify-pc__prefs .shopify-pc__prefs__intro-main h3 {
   font-size: 16px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+}
+.shopify-pc__prefs .shopify-pc__prefs__intro-main p {
+  font-size: 14px;
 }
 .shopify-pc__prefs .shopify-pc__prefs__option label {
   font-size: 14px;
