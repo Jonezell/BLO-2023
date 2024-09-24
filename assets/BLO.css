@@ -1523,4 +1523,7 @@ iframe#chat-button {
   .shopify-pc__banner__btns .shopify-pc__banner__btn-manage-prefs {
     text-align: center;
   }
+  .shopify-pc__banner__wrapper .shopify-pc__banner__btns.shopify-pc__banner__btns-granular button{
+    margin-top: 10px;
+  }
 }
