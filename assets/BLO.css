@@ -1476,10 +1476,10 @@ iframe#chat-button {
 .shopify-pc__banner__dialog .shopify-pc__banner__btn-manage-prefs {
   padding: 6px 0px;
 }
-.shopify-pc__prefs__dialog {
+.shopify-pc__prefs .shopify-pc__prefs__dialog {
   border-radius: 14px;
 }
-.shopify-pc__prefs__header-actions button {
+.shopify-pc__prefs .shopify-pc__prefs__header-actions button {
   border-radius: 20px;
 }
 
