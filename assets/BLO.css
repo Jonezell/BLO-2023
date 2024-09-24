@@ -1473,5 +1473,8 @@ iframe#chat-button {
 .shopify-pc__banner__dialog .shopify-pc__banner__btn-decline {
   margin-right: 0;
 }
+.shopify-pc__banner__dialog .shopify-pc__banner__btn-manage-prefs {
+  padding: 6px 0px;
+}
 
 
