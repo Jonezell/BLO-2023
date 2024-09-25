@@ -36,7 +36,7 @@
           "type": "buttons",
           "settings": {
             "button_label": "Shop New Releases",
-            "button_link": "shopify:\/\/collections\/new"
+            "button_link": "shopify://collections/new"
           }
         }
       },
@@ -46,13 +46,13 @@
         "buttons_cnTWkw"
       ],
       "settings": {
-        "image_main": "shopify:\/\/shop_images\/image-main-16_cbb5ce3f-5c1f-4cd0-a5f2-d4fb8c3c5ec6.jpg",
-        "image_secondary": "shopify:\/\/shop_images\/image-secondary-19.jpg",
+        "image_main": "shopify://shop_images/image-main-16_cbb5ce3f-5c1f-4cd0-a5f2-d4fb8c3c5ec6.jpg",
+        "image_secondary": "shopify://shop_images/image-secondary-19.jpg",
         "color_text": "#6f5b4b",
         "color_background": "#E4E0DC",
-        "background_image_desktop": "shopify:\/\/shop_images\/banner-background-desktop_6a7f452a-9f7c-4dbc-839a-b7898fb2a245.svg",
+        "background_image_desktop": "shopify://shop_images/banner-background-desktop_6a7f452a-9f7c-4dbc-839a-b7898fb2a245.svg",
         "background_image_desktop_pin": "bottom center",
-        "background_image_mobile": "shopify:\/\/shop_images\/banner-background-mobile_91c65c7f-eb14-412c-8a0a-799c86ec9417.svg",
+        "background_image_mobile": "shopify://shop_images/banner-background-mobile_91c65c7f-eb14-412c-8a0a-799c86ec9417.svg",
         "background_image_mobile_pin": "bottom center"
       }
     },
@@ -336,10 +336,94 @@
         "padding_bottom": 0
       }
     },
+    "featured_collection_preUNi": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Puffer Jackets",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "puffer-jackets-release",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_TdW4xG": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Hoodies",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "hoodies",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_aWfYYR": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Beanies",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "knit-beanies",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
     "custom_liquid_gdmEzr": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<iframe src=\"https:\/\/bravelittleones.attn.tv\/p\/RzK\/landing-page2\" style=\"min-height: 800px; border: none;\" width=\"100%\" height=\"100%\"><\/iframe>",
+        "custom_liquid": "<iframe src=\"https://bravelittleones.attn.tv/p/RzK/landing-page2\" style=\"min-height: 800px; border: none;\" width=\"100%\" height=\"100%\"></iframe>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -359,6 +443,9 @@
     "featured_collection_h4NgWT",
     "featured_collection_P4Wyai",
     "featured_collection_MDBL3n",
+    "featured_collection_preUNi",
+    "featured_collection_TdW4xG",
+    "featured_collection_aWfYYR",
     "custom_liquid_gdmEzr"
   ]
 }
