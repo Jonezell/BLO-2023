@@ -48,19 +48,18 @@
             "linkurl": "shopify://collections/pullovers-joggers"
           }
         },
-        "link_QwaQt6": {
-          "type": "link",
-          "disabled": true,
-          "settings": {
-            "text": "Hoodies",
-            "linkurl": "shopify://collections/hoodies"
-          }
-        },
         "link_UEUheR": {
           "type": "link",
           "settings": {
             "text": "Puffer Jackets",
             "linkurl": "shopify://collections/puffer-jackets-release"
+          }
+        },
+        "link_QwaQt6": {
+          "type": "link",
+          "settings": {
+            "text": "Hoodies",
+            "linkurl": "shopify://collections/hoodies"
           }
         },
         "56714d5f-b58e-4848-9c86-5637c77d3aa5": {
@@ -76,8 +75,8 @@
         "6bfd07ee-031a-4a56-9f00-117c1b95dedd",
         "link_cgHq8y",
         "link_wP7Vqg",
-        "link_QwaQt6",
         "link_UEUheR",
+        "link_QwaQt6",
         "56714d5f-b58e-4848-9c86-5637c77d3aa5"
       ],
       "settings": {
