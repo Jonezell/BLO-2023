@@ -9,9 +9,9 @@
 */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Logo-Full.png",
+    "logo": "shopify://shop_images/Logo-Full.png",
     "logo_width": 180,
-    "favicon": "shopify:\/\/shop_images\/Logo-Square-white.png",
+    "favicon": "shopify://shop_images/Logo-Square-white.png",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
@@ -106,15 +106,15 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "background-1",
     "sold_out_badge_color_scheme": "inverse",
-    "brand_description": "<p>Brave Little Ones is dedicated to providing high-quality, buttery soft children’s apparel made for playtime and snuggle time. Every purchase helps provide meals to children in Rwanda, Africa.<\/p>",
-    "brand_image": "shopify:\/\/shop_images\/Logo-Full.png",
-    "social_facebook_link": "https:\/\/www.facebook.com\/bravelittleonesapparel\/",
-    "social_instagram_link": "https:\/\/www.instagram.com\/brave.littleones",
+    "brand_description": "<p>Brave Little Ones is dedicated to providing high-quality, buttery soft children’s apparel made for playtime and snuggle time. Every purchase helps provide meals to children in Rwanda, Africa.</p>",
+    "brand_image": "shopify://shop_images/Logo-Full.png",
+    "social_facebook_link": "https://www.facebook.com/bravelittleonesapparel/",
+    "social_instagram_link": "https://www.instagram.com/brave.littleones",
     "social_youtube_link": "",
-    "social_tiktok_link": "https:\/\/www.tiktok.com\/@bravelittleones",
+    "social_tiktok_link": "https://www.tiktok.com/@bravelittleones",
     "social_twitter_link": "",
     "social_snapchat_link": "",
-    "social_pinterest_link": "https:\/\/www.pinterest.com\/Bravelittleones\/",
+    "social_pinterest_link": "https://www.pinterest.com/Bravelittleones/",
     "social_tumblr_link": "",
     "social_vimeo_link": "",
     "predictive_search_enabled": true,
@@ -123,7 +123,7 @@
     "currency_code_enabled": false,
     "cart_type": "drawer",
     "show_vendor": false,
-    "show_cart_note": false,
+    "show_cart_note": true,
     "cart_drawer_collection": "shop-all",
     "sections": {
       "main-password-header": {
@@ -144,38 +144,38 @@
     ],
     "blocks": {
       "15079184273603081885": {
-        "type": "shopify:\/\/apps\/essential-shippingbar\/blocks\/app_embed\/4125375e-37c8-4137-949d-c4e1a3aac572",
+        "type": "shopify://apps/essential-shippingbar/blocks/app_embed/4125375e-37c8-4137-949d-c4e1a3aac572",
         "disabled": false,
         "settings": {
         }
       },
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-product-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {
         }
       },
       "319724205969189013": {
-        "type": "shopify:\/\/apps\/hulk-form-builder\/blocks\/app-embed\/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+        "type": "shopify://apps/hulk-form-builder/blocks/app-embed/b6b8dd14-356b-4725-a4ed-77232212b3c3",
         "disabled": false,
         "settings": {
         }
       },
       "12120936241911852800": {
-        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/reviews_tab\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-product-reviews/blocks/reviews_tab/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": true,
         "settings": {
           "position": "right"
         }
       },
       "5674012996228588682": {
-        "type": "shopify:\/\/apps\/cartbot\/blocks\/cartbot-script-append\/f7a44e3b-3901-4412-9d5a-3db0980a9db0",
+        "type": "shopify://apps/cartbot/blocks/cartbot-script-append/f7a44e3b-3901-4412-9d5a-3db0980a9db0",
         "disabled": false,
         "settings": {
         }
       },
       "914574027208035924": {
-        "type": "shopify:\/\/apps\/camouflage-hide-sold-variants\/blocks\/hide-oos-variants\/12f79890-9cb9-4b70-ac12-64dd825d687e",
+        "type": "shopify://apps/camouflage-hide-sold-variants/blocks/hide-oos-variants/12f79890-9cb9-4b70-ac12-64dd825d687e",
         "disabled": false,
         "settings": {
           "theme_name": "",
@@ -187,13 +187,13 @@
         }
       },
       "11646226146262861653": {
-        "type": "shopify:\/\/apps\/msl-multi-store-locators\/blocks\/install-snippets\/f3e7679d-2a7b-4c2c-8e91-6ba7b432967a",
+        "type": "shopify://apps/msl-multi-store-locators/blocks/install-snippets/f3e7679d-2a7b-4c2c-8e91-6ba7b432967a",
         "disabled": false,
         "settings": {
         }
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": true,
         "settings": {
           "button_color": "#161616",
@@ -205,19 +205,19 @@
         }
       },
       "17428600031447253342": {
-        "type": "shopify:\/\/apps\/attentive\/blocks\/attn-tag\/8df62c72-8fe4-407e-a5b3-72132be30a0d",
+        "type": "shopify://apps/attentive/blocks/attn-tag/8df62c72-8fe4-407e-a5b3-72132be30a0d",
         "disabled": false,
         "settings": {
         }
       },
       "5366966397018820931": {
-        "type": "shopify:\/\/apps\/instant-a-b-testing\/blocks\/tracking\/63aa07b1-7397-484f-b6dd-f47e11b50223",
+        "type": "shopify://apps/instant-a-b-testing/blocks/tracking/63aa07b1-7397-484f-b6dd-f47e11b50223",
         "disabled": false,
         "settings": {
         }
       },
       "13768625480086291342": {
-        "type": "shopify:\/\/apps\/forms\/blocks\/forms\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
         "disabled": false,
         "settings": {
         }
