@@ -1,0 +1,389 @@
+/* THIS IS CUSTOM BLO CSS OVERRIDES FOR THIS THEME */
+
+
+/* -------------------- CUSTOM VARIABLES -------------------- */
+
+:root {
+
+    /* OLD COLORS */
+    --greyscale-White: #FFFFFF;
+    --greyscale-UltraLight: #F5F5F5;
+    --greyscale-Light: #EBEBEB;
+    --greyscale-MediumLight: #D7D7D7;
+    --greyscale-Medium: #BEBEBE;
+    --greyscale-MediumDark: #909090;
+    --greyscale-Dark: #595959;
+    --greyscale-Black: #161616;
+
+    --tan-Light: #F8F4EE;
+    --tan-Medium: #EFE8DE;
+    --tan-Dark: #E7DDD0;
+    --tan-ExtraDark: #B8AC98;
+
+    --tan-Camel: #A67C3E;
+
+    --blue-Green: #B5BDB8;
+    --blue-Light: #DEE3EB;
+    --blue-Dark: #677992;
+
+
+    /* NEW COLORS */
+
+    /* Neutrals */
+    --blo-cream: #FCFCF9;
+    --blo-ivory: #F5F4E6;
+    --blo-beige: #E7DCCD;
+    --blo-bamboo: #E1DBBE;
+    --blo-sea: #D5D7C6;
+    --blo-ivory: #F5F4E6;
+
+    /* Colors */
+    --blo-peach: #EDB396;
+    --blo-blush: #EDCCC3;
+    --blo-terra: #C27D4C;
+    --blo-sun: #F1D38B;
+    --blo-lime: #C3B863;
+    --blo-pine: #335348;
+    --blo-sky: #DEE3EB;
+    --blo-indigo: #98B5CC;
+    --blo-espresso: #31291E;
+    
+
+    --blo-corner-radius: 12px;
+}
+
+
+
+
+
+/* -------------------- CUSTOM FONT OVERRIDE -------------------- */
+
+
+@font-face {
+    font-family: 'SofiaProRegular';
+    src: url('https://cdn.shopify.com/s/files/1/0964/6074/files/SofiaProRegular.woff2?v=1727556083') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0964/6074/files/SofiaProRegular.woff?v=1727556083') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Value Serif Pro';
+    src: url('https://cdn.shopify.com/s/files/1/0964/6074/files/ValueSerifPro-Regular.woff2?v=1727556083') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0964/6074/files/ValueSerifPro-Regular.woff?v=1727556083') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+H1, .h1,  div.h1.hero__title, h1>p, H2, .h2, H2>p, H3, .h3, h3>p {
+
+  font-family: 'Value Serif Pro' !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+H4, .h4, h4>p, H5, .h5, h5>p, H6, .h6, button, .button, a.button, .grid-product__title, .announcement__text, .cart__header-labels, .badge, .product-card-wrapper .card__information , footer .footer-block__heading, .toggle, .collection-list-wrapper .card__information h3, .jdgm-write-rev-link, .jdgm-paginate__load-more, .product .price__container, .product-form__input label, .facets__summary, .product-count__text.text-body, .mobile-facets__open, .mega-menu__link.mega-menu__link--level-2, .header__menu-item.list-menu__item, .menu-drawer .menu-drawer__menu-item, .mobile-facets .mobile-facets__summary, .blo-toggle-collections .card__heading, cart-drawer .totals__total, cart-drawer .totals__total-value, quick-order-list .quick-order-list-total__info h3, .facet-filters__label, .shopify-pc__banner__dialog h2, .shopify-pc__prefs__intro-main h3  {
+
+  font-family: 'SofiaProRegular' !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+body, p, form, input, textarea, select, .slide-nav__link, .slide-nav__sublist-link, .product-card-wrapper .card__information .price, footer .footer-block__details-content, .facets-vertical .facet-checkbox, .mega-menu__link, .mobile-facets .mobile-facets__label {
+
+  font-family: 'SofiaProRegular' !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(var(--color-foreground));
+}
+
+
+
+
+/* H1 STYLES */
+H1, .h1 {
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0; 
+    
+}
+@media screen and (min-width: 750px) { 
+    H1, .h1 {
+        font-size: 34px;
+    }
+}
+
+
+
+/* H2 STYLES */
+H2, .h2 {
+    font-size: 34px;
+    line-height: 120%;
+    letter-spacing: 0;
+}
+@media screen and (min-width: 750px) { 
+    H2, .h2 {
+        font-size: 28px;  
+    }
+}
+
+
+
+/* H3 STYLES */
+H3, .h3 {
+    font-size: 28px;
+    line-height: 120%;
+    letter-spacing: 0;   
+}
+@media screen and (min-width: 750px) { 
+    H3, .h3 {
+        font-size: 22px;
+    }
+}
+
+
+
+/* H4 STYLES */
+H4, .h4 {
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0;   
+}
+@media screen and (min-width: 750px) { 
+    H3, .h3 {
+        font-size: 18px;
+    }
+}
+
+
+
+/* H4-H6 AND BODY STYLES */
+H5, .h5, H6, .h6, footer .footer-block__heading, .toggle, .collection-list-wrapper .card__information h3, .product .price__container, .facets-vertical .facets__summary, .product-count__text.text-body, .facet-filters__field .facet-filters__label, .facet-filters__field .facet-filters__sort, .mobile-facets__open, .button, .button-label, .shopify-challenge__button, .customer button,
+p, .p, footer .footer-block__details-content a, .facets-vertical .facet-checkbox, .facet-filters__field .facet-filters__sort, .mega-menu__link, .mega-menu__link--level-2, .mega-menu__content .mega-menu__link, .header__menu-item.list-menu__item, .menu-drawer .menu-drawer__menu-item, .mobile-facets .mobile-facets__summary, .mobile-facets .mobile-facets__label,  .blo-toggle-collections .card__heading, cart-drawer .totals__total, cart-drawer .totals__total-value  {
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0px;
+}
+
+
+/* EYEBROW STYLES */
+
+.eyebrow, th, p.announcement-bar__message.h5, .badge, .product .form__label, cart-drawer .free_shipping_card_title_clk1hm7264194051ouy4kiwfuy5.h2{
+  font-family: 'SofiaProRegular' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 12px;
+  line-height: 130%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(var(--color-foreground));
+}
+.card__information .card__heading.h5{
+  font-size: 1.6rem;
+  margin-bottom:0;
+}
+.card__information .card-information .price {
+  font-size: 1.6rem;
+  margin-bottom:0;
+}
+.card__content .card__information {
+    padding: 1.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* -------------------- CUSTOM ADJUSTMENTS -------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----- WHOLESALE MAP ------ */
+.map-new-theme.cs_map_container {
+  margin: auto;
+  max-width: 1500px;
+}
+.map-new-theme.cs_map_container #map {
+  border-radius: 16px;
+}
+.map-new-theme.cs_map_container .mnt-location-list {
+  border: none;
+}
+.map-new-theme.cs_map_container .newsearch-input {
+  height: 48px;
+  max-height: 48px;
+  padding: 10px 21px;
+  border-radius: 16px;
+  border: none;
+} 
+/* */
+.map-new-theme.cs_map_container .map-new-theme-row {
+  border-radius: 16px;
+}
+.map-new-theme.cs_map_container .mnt-col-left {
+  padding: 0;
+  background: #fff;
+  border-radius: 16px;
+}
+.map-new-theme.cs_map_container .search-form-new {
+  padding: 30px 30px 0 30px;
+}
+.map-new-theme.cs_map_container .newsearch-input {
+  background-color: #f5f5f5 !important;
+  margin-bottom: 0;
+}
+.map-new-theme.cs_map_container .append.map-new-theme-locations {
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  max-height: 620px;
+}
+.map-new-theme.cs_map_container .mnt-locations {
+  padding: 0;
+  padding-top: 30px;
+}
+.map-new-theme.cs_map_container .mnt-col-left .mnt-location-list {
+  padding: 0 30px;
+  margin-bottom: 30px;
+}
+.map-new-theme.cs_map_container .mnt-col-right {
+  padding-left: 20px;
+  padding-right: 0;
+}
+.map-new-theme.cs_map_container .mnt-location-list h4 {
+  margin-bottom: 10px;
+}
+.map-new-theme.cs_map_container .mnt-location-list .polaris-detail {
+  margin-bottom: 0px;
+}
+.map-new-theme.cs_map_container .mnt-locations li.mnt-location-list {
+  border-right: 2px solid #fff;
+  border-radius: 0;
+}
+.map-new-theme.cs_map_container .mnt-locations li.mnt-location-list.active {
+  border-right: 2px solid #191919;
+  border-left: none;
+}
+@media screen and (max-width: 767px) {
+  .map-new-theme.cs_map_container .map-col {
+      padding-left: 0;
+      margin-bottom: 20px;
+  }
+  .map-new-theme.cs_map_container .map-new-theme-row {
+    margin-left:0;
+    margin-right:0;
+  }
+}
+
+
+
+/* ------- GORGIAS CHAT BUTTON ZINDEX FIX -------- */
+
+iframe#chat-button {
+  z-index: 1 !important;
+}
+
+
+/* ------- CUSTOM STYLES FOR COOKIES POPUP -------- */
+.shopify-pc__banner__dialog {
+  padding: 30px;
+}
+.shopify-pc__banner__dialog .shopify-pc__banner__body h2 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.shopify-pc__banner__dialog p {
+  font-size: 14px;
+}
+.shopify-pc__banner__dialog .shopify-pc__banner__btn-accept, 
+.shopify-pc__banner__dialog .shopify-pc__banner__btn-decline,
+.shopify-pc__banner__dialog .shopify-pc__banner__btn-manage-prefs {
+  border-radius: 30px;
+  padding: 8px 10px;
+}
+.shopify-pc__banner__dialog .shopify-pc__banner__btn-accept {
+  margin-right: 20px;
+  flex-basis: 25%;
+}
+.shopify-pc__banner__dialog .shopify-pc__banner__btn-decline {
+  margin-right: 0;
+  flex-basis: 25%;
+}
+.shopify-pc__banner__dialog .shopify-pc__banner__btn-manage-prefs {
+  padding: 6px 0px;
+  flex-basis: 50%;
+  text-align: left;
+  color: #555 !important;
+}
+.shopify-pc__prefs .shopify-pc__prefs__dialog header {
+  padding: 32px;
+}
+.shopify-pc__prefs .shopify-pc__prefs__dialog {
+  border-radius: 14px;
+}
+.shopify-pc__prefs .shopify-pc__prefs__header-actions button {
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin: 0 10px 0 0;
+}
+.shopify-pc__prefs .shopify-pc__prefs__intro-main h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.shopify-pc__prefs .shopify-pc__prefs__intro-main p {
+  font-size: 14px;
+  line-height: 130%;
+}
+.shopify-pc__prefs .shopify-pc__prefs__option label {
+  font-size: 14px;
+  margin-bottom: 0;
+  line-height: 130%;
+}
+.shopify-pc__prefs .shopify-pc__prefs__option p {
+  font-size: 14px;
+  margin-bottom: 0;
+  line-height: 130%;
+}
+.shopify-pc__prefs .shopify-pc__prefs__intro-main {
+  padding: 30px 32px 0 32px;
+}
+@media only screen and (max-width: 750px) {
+  .shopify-pc__prefs__dialog .shopify-pc__prefs__header-actions button {
+    margin-bottom: 10px;
+  }
+  .shopify-pc__banner__btns.shopify-pc__banner__btns-granular .shopify-pc__banner__btn-accept{
+    margin-right: 0;
+  }
+  .shopify-pc__banner__btns .shopify-pc__banner__btn-manage-prefs {
+    text-align: center;
+  }
+  .shopify-pc__banner__wrapper .shopify-pc__banner__btns.shopify-pc__banner__btns-granular button{
+    margin-top: 10px;
+  }
+}
+
