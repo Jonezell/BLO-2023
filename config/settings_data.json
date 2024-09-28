@@ -15,7 +15,7 @@
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
     "body_scale": 100,
-    "page_width": 1200,
+    "page_width": 1400,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
@@ -40,17 +40,17 @@
     "inputs_shadow_horizontal_offset": 0,
     "inputs_shadow_vertical_offset": 4,
     "inputs_shadow_blur": 5,
-    "card_style": "standard",
+    "card_style": "card",
     "card_image_padding": 0,
     "card_text_alignment": "left",
-    "card_color_scheme": "scheme-2",
-    "card_border_thickness": 0,
+    "card_color_scheme": "scheme-46632dcd-ec79-45dd-b3ae-70c533f63255",
+    "card_border_thickness": 1,
     "card_border_opacity": 10,
-    "card_corner_radius": 0,
+    "card_corner_radius": 16,
     "card_shadow_opacity": 0,
-    "card_shadow_horizontal_offset": 0,
-    "card_shadow_vertical_offset": 4,
-    "card_shadow_blur": 5,
+    "card_shadow_horizontal_offset": -40,
+    "card_shadow_vertical_offset": -40,
+    "card_shadow_blur": 0,
     "collection_card_style": "standard",
     "collection_card_image_padding": 0,
     "collection_card_text_alignment": "left",
@@ -260,6 +260,17 @@
           "button_label": "#334fb4",
           "secondary_button_label": "#ffffff",
           "shadow": "#121212"
+        }
+      },
+      "scheme-46632dcd-ec79-45dd-b3ae-70c533f63255": {
+        "settings": {
+          "background": "#FFFFFF",
+          "background_gradient": "",
+          "text": "#31291e",
+          "button": "#31291e",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#31291e",
+          "shadow": "#31291e"
         }
       }
     }
