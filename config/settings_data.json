@@ -9,7 +9,8 @@
 */
 {
   "current": {
-    "logo_width": 90,
+    "logo": "shopify://shop_images/Full.svg",
+    "logo_width": 200,
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
@@ -18,9 +19,9 @@
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
-    "buttons_border_thickness": 1,
+    "buttons_border_thickness": 2,
     "buttons_border_opacity": 100,
-    "buttons_radius": 0,
+    "buttons_radius": 40,
     "buttons_shadow_opacity": 0,
     "buttons_shadow_horizontal_offset": 0,
     "buttons_shadow_vertical_offset": 4,
@@ -134,59 +135,130 @@
         }
       }
     },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "17428600031447253342": {
+        "type": "shopify://apps/attentive/blocks/attn-tag/8df62c72-8fe4-407e-a5b3-72132be30a0d",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "10864971697205422121": {
+        "type": "shopify://apps/gorgias-live-chat-helpdesk/blocks/gorgias/a66db725-7b96-4e3f-916e-6c8e6f87aaaa",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "914574027208035924": {
+        "type": "shopify://apps/camouflage-hide-sold-variants/blocks/hide-oos-variants/12f79890-9cb9-4b70-ac12-64dd825d687e",
+        "disabled": false,
+        "settings": {
+          "theme_name": "",
+          "selector_type": "",
+          "hide_oos_variants": false,
+          "strikethrough_oos_variants": false,
+          "other_file_name": "",
+          "reverse_options": false
+        }
+      },
+      "11646226146262861653": {
+        "type": "shopify://apps/msl-store-locators/blocks/install-snippets/f3e7679d-2a7b-4c2c-8e91-6ba7b432967a",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "5674012996228588682": {
+        "type": "shopify://apps/cartbot/blocks/cartbot-script-append/f7a44e3b-3901-4412-9d5a-3db0980a9db0",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "13768625480086291342": {
+        "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "15079184273603081885": {
+        "type": "shopify://apps/essential-shipping-bar/blocks/app_embed/4125375e-37c8-4137-949d-c4e1a3aac572",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "319724205969189013": {
+        "type": "shopify://apps/hulk-form-builder/blocks/app-embed/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "12526071353035850722": {
+        "type": "shopify://apps/back-in-stock-customer-alerts/blocks/app-embed/bfa6a8c4-24e2-411a-9396-e35031b33f34",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#FFFFFF",
+          "background": "#fcfcf9",
           "background_gradient": "",
-          "text": "#121212",
-          "button": "#121212",
-          "button_label": "#FFFFFF",
-          "secondary_button_label": "#121212",
-          "shadow": "#121212"
+          "text": "#31291e",
+          "button": "#31291e",
+          "button_label": "#fcfcf9",
+          "secondary_button_label": "#31291e",
+          "shadow": "#31291e"
         }
       },
       "scheme-2": {
         "settings": {
-          "background": "#F3F3F3",
+          "background": "#f5f4e6",
           "background_gradient": "",
-          "text": "#121212",
-          "button": "#121212",
-          "button_label": "#F3F3F3",
-          "secondary_button_label": "#121212",
-          "shadow": "#121212"
+          "text": "#31291e",
+          "button": "#31291e",
+          "button_label": "#f5f4e6",
+          "secondary_button_label": "#31291e",
+          "shadow": "#31291e"
         }
       },
       "scheme-3": {
         "settings": {
-          "background": "#242833",
+          "background": "#335348",
           "background_gradient": "",
-          "text": "#FFFFFF",
-          "button": "#FFFFFF",
-          "button_label": "#000000",
-          "secondary_button_label": "#FFFFFF",
+          "text": "#f5f4e6",
+          "button": "#f5f4e6",
+          "button_label": "#f5f4e6",
+          "secondary_button_label": "#f5f4e6",
           "shadow": "#121212"
         }
       },
       "scheme-4": {
         "settings": {
-          "background": "#121212",
+          "background": "#c27d4c",
           "background_gradient": "",
-          "text": "#FFFFFF",
-          "button": "#FFFFFF",
+          "text": "#f5f4e6",
+          "button": "#f5f4e6",
           "button_label": "#121212",
-          "secondary_button_label": "#FFFFFF",
+          "secondary_button_label": "#f5f4e6",
           "shadow": "#121212"
         }
       },
       "scheme-5": {
         "settings": {
-          "background": "#334FB4",
+          "background": "#334fb4",
           "background_gradient": "",
-          "text": "#FFFFFF",
-          "button": "#FFFFFF",
-          "button_label": "#334FB4",
-          "secondary_button_label": "#FFFFFF",
+          "text": "#ffffff",
+          "button": "#ffffff",
+          "button_label": "#334fb4",
+          "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }
       }
