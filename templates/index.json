@@ -36,9 +36,44 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
+    },
+    "blo_banner_9z7Ute": {
+      "type": "blo-banner",
+      "blocks": {
+        "heading_m4rzUy": {
+          "type": "heading",
+          "settings": {
+            "heading": "Buttery Soft Bamboo Apparel For Daytime & Nightime"
+          }
+        },
+        "text_kTQFjh": {
+          "type": "text",
+          "settings": {
+            "text": "Our cozy pjs and daywear are kid and mom approved for every occasion. Morning, noon, or night, we've got you covered."
+          }
+        },
+        "buttons_ccThbN": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_m4rzUy",
+        "text_kTQFjh",
+        "buttons_ccThbN"
+      ],
+      "settings": {
+        "media-type": "image",
+        "image": "shopify://shop_images/image-secondary_2fb2daa7-9538-4cec-8a57-912f6e6acb32.jpg",
+        "video": "shopify://files/videos/bravevideofw24-163.mp4"
+      }
     }
   },
   "order": [
-    "featured_collection"
+    "featured_collection",
+    "blo_banner_9z7Ute"
   ]
 }
