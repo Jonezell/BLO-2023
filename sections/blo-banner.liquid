@@ -39,26 +39,6 @@
                 {{ block.shopify_attributes }}
               >
                 {{ block.settings.heading }}
-
-                <div class="blo-banner-spinner">
-                  <div class="blo-banner-spinner-container">
-                    <div class="blo-banner-spinner-text">
-                      Bedtime
-                    </div>
-                    <div class="blo-banner-spinner-text">
-                      Daytime
-                    </div>
-                    <div class="blo-banner-spinner-text">
-                      Naptime
-                    </div>
-                    <div class="blo-banner-spinner-text">
-                      Playtime
-                    </div>
-                    <div class="blo-banner-spinner-text">
-                      Bedtime
-                    </div>
-                  </div>
-                </div>
               </h1>
             {%- when 'text' -%}
               <div class="blo-banner-text rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}" {{ block.shopify_attributes }}>
@@ -345,6 +325,19 @@
         }
       ]
     },
+    {
+        "type": "Stars",
+        "name": "Star Content",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "inline_richtext",
+            "id": "text",
+            "default": "Over 3800 five-star Reviews!",
+            "label": "t:sections.image-banner.blocks.text.settings.stars.label"
+          }
+        ]
+      },
     {
       "type": "buttons",
       "name": "t:sections.image-banner.blocks.buttons.name",
