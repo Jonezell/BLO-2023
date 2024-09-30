@@ -1,0 +1,209 @@
+<div class="blo-bamboo-comparison-container">
+  <div class="blo-bamboo-comparison-media">
+    {% if section.settings['media-type'] == 'image' %}
+      {{ section.settings.image | image_url: width: 3200 | image_tag: loading: 'lazy' }}
+    {% else %}
+      {{
+        section.settings.video
+        | video_tag: image_size: '1100x', autoplay: true, loop: true, controls: false, muted: true
+      }}
+    {% endif %}
+  </div>
+  <div class="blo-bamboo-comparison-text {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when 'heading' -%}
+          <h1
+            class="blo-banner-title inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            {{ block.shopify_attributes }}
+          >
+            {{ block.settings.heading }}
+          </h1>
+        {%- when 'text' -%}
+          <div
+            class="blo-banner-text rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            {{ block.shopify_attributes }}
+          >
+            <p>{{ block.settings.text }}</p>
+          </div>
+        {%- when 'table-row' -%}
+          <div
+            class="blo-banner-text rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            {{ block.shopify_attributes }}
+          >
+            <p>{{ block.settings['text-pro'] }}</p>
+            <p>{{ block.settings['text-con'] }}</p>
+          </div>
+        {%- when 'buttons' -%}
+          <div
+            class="blo-banner-buttons {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            {{ block.shopify_attributes }}
+          >
+            <a
+              {% if block.settings.button_link == blank %}
+                role="link" aria-disabled="true"
+              {% else %}
+                href="{{ block.settings.button_link }}"
+              {% endif %}
+              class="button button--primary"
+            >
+              {{- block.settings.button_label | escape -}}
+            </a>
+          </div>
+      {%- endcase -%}
+    {%- endfor -%}
+  </div>
+</div>
+
+{% style %}
+  .blo-toggle-collections .collection-card-wrapper .card__content {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .blo-toggle-collections .collection-card-wrapper .card__information {
+    padding-top: 0;
+  }
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  .blo-toggle-collections h2 {
+    color: var(--blo-pine);
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "BLO: Bamboo Comparison",
+  "tag": "section",
+  "class": "section blo-bamboo-comparison",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "select",
+      "id": "media-type",
+      "label": "Media Type",
+      "options": [
+        {
+          "value": "image",
+          "label": "Image"
+        },
+        {
+          "value": "video",
+          "label": "Video"
+        }
+      ],
+      "default": "image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "video",
+      "id": "video",
+      "label": "Video"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 100
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.image-banner.blocks.heading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "heading",
+          "default": "Image banner",
+          "label": "Heading"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.image-banner.blocks.text.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "text",
+          "default": "Give customers details about the banner image(s) or content on the template.",
+          "label": "Text"
+        }
+      ]
+    },
+    {
+      "type": "table-row",
+      "name": "Table Row",
+      "limit": 10,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "text-pros",
+          "default": "Buttery Soft",
+          "label": "Us"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "text-cons",
+          "default": "Hard",
+          "label": "Them"
+        }
+      ]
+    },
+    {
+      "type": "buttons",
+      "name": "t:sections.image-banner.blocks.buttons.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label",
+          "default": "Button label",
+          "label": "Button Label"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Url"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "BLO: Toggle Collections"
+    }
+  ]
+}
+{% endschema %}
