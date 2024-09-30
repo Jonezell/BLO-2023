@@ -95,34 +95,6 @@
       "settings": {
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
     "blo_toggle_collections_bV6gT7": {
       "type": "blo-toggle-collections",
       "blocks": {
@@ -190,12 +162,108 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "blo_bamboo_comparison_eVAdR6": {
+      "type": "blo-bamboo-comparison",
+      "blocks": {
+        "heading_gWEEqL": {
+          "type": "heading",
+          "settings": {
+            "heading": "We’re Bamboo Obsessed."
+          }
+        },
+        "text_U78aeU": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "table_row_dgVRmi": {
+          "type": "table-row",
+          "settings": {
+            "text-pros": "Buttery Soft",
+            "text-cons": "Hard"
+          }
+        },
+        "table_row_NKFUwq": {
+          "type": "table-row",
+          "settings": {
+            "text-pros": "Buttery Soft",
+            "text-cons": "Hard"
+          }
+        },
+        "table_row_TXPgT6": {
+          "type": "table-row",
+          "settings": {
+            "text-pros": "Buttery Soft",
+            "text-cons": "Hard"
+          }
+        },
+        "table_row_yHddPU": {
+          "type": "table-row",
+          "settings": {
+            "text-pros": "Buttery Soft",
+            "text-cons": "Hard"
+          }
+        },
+        "buttons_33KPBm": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify://blogs/blog/why-bamboo-pajamas-are-perfect-for-a-good-night-s-sleep-1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gWEEqL",
+        "text_U78aeU",
+        "table_row_dgVRmi",
+        "table_row_NKFUwq",
+        "table_row_TXPgT6",
+        "table_row_yHddPU",
+        "buttons_33KPBm"
+      ],
+      "settings": {
+        "media-type": "video",
+        "video": "shopify://files/videos/bravevideofw24-105.mp4",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "blo_banner_9z7Ute",
     "blo_scrolling_benefits_afMweU",
-    "featured_collection",
-    "blo_toggle_collections_bV6gT7"
+    "blo_toggle_collections_bV6gT7",
+    "blo_bamboo_comparison_eVAdR6",
+    "featured_collection"
   ]
 }
