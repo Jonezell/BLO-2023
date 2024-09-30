@@ -1,4 +1,4 @@
-<div class="blo-bamboo-comparison-container">
+<div class="blo-bamboo-comparison-container page-width blo-section-{{ section.id }}-padding">
   <div class="blo-bamboo-comparison-media">
     {% if section.settings['media-type'] == 'image' %}
       {{ section.settings.image | image_url: width: 3200 | image_tag: loading: 'lazy' }}
@@ -13,12 +13,12 @@
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when 'heading' -%}
-          <h1
+          <h2
             class="blo-banner-title inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
             {{ block.shopify_attributes }}
           >
             {{ block.settings.heading }}
-          </h1>
+          </h2>
         {%- when 'text' -%}
           <div
             class="blo-banner-text rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
@@ -28,15 +28,26 @@
           </div>
         {%- when 'table-row' -%}
           <div
-            class="blo-banner-text rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            class="blo-bamboo-comparison-row rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %} {% if block.settings.is-header == true %} blo-bamboo-comparison-row-header {% endif %}"
             {{ block.shopify_attributes }}
           >
-            <p>{{ block.settings['text-pro'] }}</p>
-            <p>{{ block.settings['text-con'] }}</p>
+            <div class="blo-bamboo-comparison-row-content">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 10L8.5 13.5L14 6" stroke="#335348" stroke-width="1.9"/>
+              </svg>
+              <p>{{ block.settings['text-pros'] }}</p>
+            </div>
+            <div class="blo-bamboo-comparison-row-content">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="6.67175" y1="6.32825" x2="13.7428" y2="13.3993" stroke="#C27D4C" stroke-width="1.9"/>
+                <line x1="13.6718" y1="6.67175" x2="6.60068" y2="13.7428" stroke="#C27D4C" stroke-width="1.9"/>
+              </svg>
+              <p>{{ block.settings['text-cons'] }}</p>
+            </div>
           </div>
         {%- when 'buttons' -%}
           <div
-            class="blo-banner-buttons {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
             {{ block.shopify_attributes }}
           >
             <a
@@ -45,7 +56,7 @@
               {% else %}
                 href="{{ block.settings.button_link }}"
               {% endif %}
-              class="button button--primary"
+              class="button button--secondary"
             >
               {{- block.settings.button_label | escape -}}
             </a>
@@ -56,23 +67,94 @@
 </div>
 
 {% style %}
-  .blo-toggle-collections .collection-card-wrapper .card__content {
-    padding-top: 0;
-    padding-bottom: 0;
+    .blo-bamboo-comparison-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 150px;
+    }
+    .blo-bamboo-comparison-media {
+        width: 50%;
+    }
+    .blo-bamboo-comparison-media img,
+    .blo-bamboo-comparison-media video {
+        border-radius: var(--blo-corner-radius);
+        width: 100%;
+        height: auto;
+    }
+    .blo-bamboo-comparison-text {
+        width: 50%;
+    }
+    .blo-bamboo-comparison-text h2 {
+        margin-bottom: 10px;
+    }
+    .blo-bamboo-comparison-text p {
+
+    }
+    .blo-bamboo-comparison-text .button {
+        margin-top: 20px;
+    }
+    .blo-bamboo-comparison-text h2,
+    .blo-bamboo-comparison-text p {
+        color: var(--blo-pine, #000)
+    }
+    .blo-bamboo-comparison-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+    .blo-banner-text + .blo-bamboo-comparison-row {
+        margin-top: 20px;
+    }
+    .blo-bamboo-comparison-row-content {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+        padding: 12px 0;
+        color: var(--blo-pine);
+    }
+    .blo-bamboo-comparison-row-content svg path {
+        stroke: var(--blo-pine);
+    }
+    .blo-bamboo-comparison-row-content + .blo-bamboo-comparison-row-content p{
+        color: var(--blo-terra);
+    }
+    .blo-bamboo-comparison-row-content + .blo-bamboo-comparison-row-content svg path {
+        fill: var(--blo-terra);
+    }
+    .blo-bamboo-comparison-row + .blo-bamboo-comparison-row {
+        border-top: 1.9px solid var(--blo-ivory);
+    }
+    .blo-bamboo-comparison-row-content p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+
+    @media screen and (max-width: 989px) {
+      .blo-bamboo-comparison-container {
+          flex-direction: column;
+          gap: 40px;
+      }
+      .blo-bamboo-comparison-media {
+          width: 100%;
+      }
+      .blo-bamboo-comparison-text {
+          width: 100%;
+      }
   }
-  .blo-toggle-collections .collection-card-wrapper .card__information {
-    padding-top: 0;
-  }
-  .section-{{ section.id }}-padding {
+
+
+
+  .blo-section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
-  .blo-toggle-collections h2 {
-    color: var(--blo-pine);
-  }
-
   @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
+    .blo-section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
@@ -178,6 +260,12 @@
           "id": "text-cons",
           "default": "Hard",
           "label": "Them"
+        },
+        {
+          "type": "checkbox",
+          "id": "is-header",
+          "label": "Is a header?",
+          "default": false
         }
       ]
     },
