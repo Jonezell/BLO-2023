@@ -18,8 +18,8 @@
   .blo-toggle-swap input:nth-of-type(3):checked ~ .toggle-wrapper .toggle:nth-of-type(3),
   .blo-toggle-swap input:nth-of-type(4):checked ~ .toggle-wrapper .toggle:nth-of-type(4),
   .blo-toggle-swap input:nth-of-type(5):checked ~ .toggle-wrapper .toggle:nth-of-type(5) {
-    background: var(--greyscale-black, #161616);
-    color: var(--tan-light, #efe8de);
+    background: var(--blo-pine, #161616);
+    color: var(--blo-ivory, #efe8de);
   }
   .blo-toggle-swap-row {
     display: none;
@@ -57,6 +57,8 @@
   }
   .blo-toggle-swap .card--media {
     background: var(--tan-Medium);
+    border-radius: var(--blo-corner-radius);
+    overflow: hidden;
   }
   .blo-toggle-swap .toggle-wrapper {
     width: 100%;

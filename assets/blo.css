@@ -111,14 +111,14 @@ body, p, form, input, textarea, select, .slide-nav__link, .slide-nav__sublist-li
 
 /* H1 STYLES */
 H1, .h1 {
-    font-size: 40px;
+    font-size: 34px !important;
     line-height: 120%;
     letter-spacing: 0; 
     
 }
 @media screen and (min-width: 750px) { 
     H1, .h1 {
-        font-size: 34px;
+        font-size: 40px !important;
     }
 }
 
@@ -126,13 +126,13 @@ H1, .h1 {
 
 /* H2 STYLES */
 H2, .h2 {
-    font-size: 34px;
+    font-size: 28px !important;
     line-height: 120%;
     letter-spacing: 0;
 }
 @media screen and (min-width: 750px) { 
     H2, .h2 {
-        font-size: 28px;  
+        font-size: 34px !important;  
     }
 }
 
@@ -140,13 +140,13 @@ H2, .h2 {
 
 /* H3 STYLES */
 H3, .h3 {
-    font-size: 28px;
+    font-size: 22px !important;
     line-height: 120%;
     letter-spacing: 0;   
 }
 @media screen and (min-width: 750px) { 
     H3, .h3 {
-        font-size: 22px;
+        font-size: 28px !important;
     }
 }
 
@@ -154,13 +154,13 @@ H3, .h3 {
 
 /* H4 STYLES */
 H4, .h4 {
-    font-size: 22px;
+    font-size: 22px !important;
     line-height: 120%;
     letter-spacing: 0;   
 }
 @media screen and (min-width: 750px) { 
     H3, .h3 {
-        font-size: 18px;
+        font-size: 18px !important;
     }
 }
 
@@ -387,3 +387,39 @@ iframe#chat-button {
   }
 }
 
+
+
+
+/* -------------------- BLO TOGGLES --------------------*/
+
+
+.toggle-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+}
+.toggle {
+  display: flex;
+  padding: 7px 17px 5px 17px;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+  border-radius: 50px;
+  background: var(--blo-ivory, #fff);
+  color:  var(--blo-pine, #161616);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.toggle:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+.toggle:active {
+  opacity: 1;
+}
+.toggle.selected {
+  background: var(--blo-pine, #161616);
+  color: var(--blo-ivory, #fff);
+}
