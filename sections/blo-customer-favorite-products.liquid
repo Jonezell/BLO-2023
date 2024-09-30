@@ -1,5 +1,3 @@
-{{ 'blo-sections.css' | asset_url | stylesheet_tag }}
-
 <div class="page-width section-{{ section.id }}-padding">
   <h2
     class="blo-toggle-swap-title inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
@@ -19,15 +17,9 @@
     >
   {%- endfor -%}
 
-  <div class="toggle-wrapper {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-    {%- for block in section.blocks -%}
-      <label class="toggle" for="{{ block.id }}">{{ block.settings.collection_group_title }}</label>
-    {%- endfor -%}
-  </div>
 
-  <div class="blo-toggle-swap-container">
     {%- for block in section.blocks -%}
-      <slider-component class="blo-toggle-swap-row slider-mobile-gutter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      <slider-component class="slider-mobile-gutter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <ul
           class="collection-list contains-card contains-card--collection{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--5-col-desktop grid--2-col-tablet-down slider slider--tablet grid--peek collection-list--{{ section.blocks.size }}-items"
           id="Slider-{{ section.id }}"
@@ -39,7 +31,7 @@
               assign columns = 3
             endif
           -%}
-          {%- for collection in block.settings.collection_list -%}
+          {%- for block in section.blocks -%}
             <li
               id="Slide-{{ section.id }}-{{ forloop.index }}"
               class="collection-list__item grid__item slider__slide {% if collection.featured_image == nil %} collection-list__item--no-media{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -51,12 +43,7 @@
             >
               {%- assign placeholder_image_index = forloop.index0 | modulo: 4 | plus: 1 -%}
               {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index -%}
-              {% render 'card-collection',
-                card_collection: collection,
-                media_aspect_ratio: section.settings.image_ratio,
-                columns: columns,
-                placeholder_image: placeholder_image
-              %}
+              Image goes here
             </li>
           {%- endfor -%}
         </ul>
@@ -67,7 +54,7 @@
             name="previous"
             aria-label="{{ 'general.slider.previous_slide' | t }}"
           >
-            <>-
+            <-
           </button>
           <div class="slider-counter caption">
             <span class="slider-counter--current">1</span>
@@ -86,7 +73,6 @@
         </div>
       </slider-component>
     {%- endfor -%}
-  </div>
 </div>
 
 {% style %}
@@ -115,9 +101,9 @@
 
 {% schema %}
 {
-  "name": "BLO: Toggle Collections",
+  "name": "BLO: Customer Favs",
   "tag": "section",
-  "class": "section blo-toggle-collections blo-toggle-swap",
+  "class": "section blo-customer-favs",
   "disabled_on": {
     "groups": ["header", "footer"]
   },
@@ -126,11 +112,7 @@
       "type": "text",
       "id": "title",
       "label": "Section Title",
-      "default": "We’ve Got What You’re Looking For."
-    },
-    {
-      "type": "header",
-      "content": "t:sections.all.padding.section_padding_heading"
+      "default": "Shop Our Customer Favorites!"
     },
     {
       "type": "range",
@@ -155,27 +137,21 @@
   ],
   "blocks": [
     {
-      "type": "collection_group",
-      "name": "Collection Group",
+      "type": "product_list",
+      "name": "Product",
       "limit": 5,
       "settings": [
         {
-          "type": "text",
-          "id": "collection_group_title",
-          "label": "Collection Group Title"
-        },
-        {
-          "type": "collection_list",
-          "id": "collection_list",
-          "label": "Collections",
-          "limit": 5
+            "type": "product",
+            "id": "product",
+            "label": "Product"
         }
       ]
     }
   ],
   "presets": [
     {
-      "name": "BLO: Toggle Collections"
+      "name": "BLO: Customer Favs"
     }
   ]
 }

@@ -47,7 +47,7 @@
           </div>
         {%- when 'buttons' -%}
           <div
-            class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            class="blo-bamboo-comparison-buttons {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
             {{ block.shopify_attributes }}
           >
             <a
@@ -105,7 +105,7 @@
         gap: 10px;
     }
     .blo-banner-text + .blo-bamboo-comparison-row {
-        margin-top: 20px;
+        margin-top: 40px;
     }
     .blo-bamboo-comparison-row-content {
         width: 50%;
@@ -131,6 +131,16 @@
     .blo-bamboo-comparison-row-content p {
         margin-top: 0;
         margin-bottom: 0;
+    }
+    .blo-bamboo-comparison-row-header p{
+        font-weight: bold !important;
+        font-style: italic !important;
+    }
+    .blo-bamboo-comparison-row-header .blo-bamboo-comparison-row-content svg {
+        display: none;
+    }
+    .blo-bamboo-comparison-row + .blo-bamboo-comparison-buttons {
+        margin-top: 20px;
     }
 
 
