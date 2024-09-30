@@ -12,6 +12,12 @@
     "blo_banner_9z7Ute": {
       "type": "blo-banner",
       "blocks": {
+        "stars_9JrV8n": {
+          "type": "Stars",
+          "settings": {
+            "text": "Over 3800 five-star Reviews!"
+          }
+        },
         "heading_m4rzUy": {
           "type": "heading",
           "settings": {
@@ -33,6 +39,7 @@
         }
       },
       "block_order": [
+        "stars_9JrV8n",
         "heading_m4rzUy",
         "text_kTQFjh",
         "buttons_ccThbN"
