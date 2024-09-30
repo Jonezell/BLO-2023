@@ -178,32 +178,44 @@
             "text": "Give customers details about the banner image(s) or content on the template."
           }
         },
+        "table_row_qrHg3C": {
+          "type": "table-row",
+          "settings": {
+            "text-pros": "Ours",
+            "text-cons": "Theirs",
+            "is-header": true
+          }
+        },
         "table_row_dgVRmi": {
           "type": "table-row",
           "settings": {
             "text-pros": "Buttery Soft",
-            "text-cons": "Hard"
+            "text-cons": "Hard",
+            "is-header": false
           }
         },
         "table_row_NKFUwq": {
           "type": "table-row",
           "settings": {
             "text-pros": "Buttery Soft",
-            "text-cons": "Hard"
+            "text-cons": "Hard",
+            "is-header": false
           }
         },
         "table_row_TXPgT6": {
           "type": "table-row",
           "settings": {
             "text-pros": "Buttery Soft",
-            "text-cons": "Hard"
+            "text-cons": "Hard",
+            "is-header": false
           }
         },
         "table_row_yHddPU": {
           "type": "table-row",
           "settings": {
             "text-pros": "Buttery Soft",
-            "text-cons": "Hard"
+            "text-cons": "Hard",
+            "is-header": false
           }
         },
         "buttons_33KPBm": {
@@ -217,6 +229,7 @@
       "block_order": [
         "heading_gWEEqL",
         "text_U78aeU",
+        "table_row_qrHg3C",
         "table_row_dgVRmi",
         "table_row_NKFUwq",
         "table_row_TXPgT6",
