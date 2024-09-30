@@ -47,7 +47,11 @@
       "settings": {
         "media-type": "video",
         "image": "shopify://shop_images/bannerImage.jpg",
-        "video": "shopify://files/videos/bravevideofw24-163.mp4"
+        "show_side-gradient": true,
+        "video": "shopify://files/videos/bravevideofw24-163.mp4",
+        "background-color": "#335348",
+        "top-shape-color": "#000000",
+        "bottom-shape-color": "#000000"
       }
     },
     "featured_collection": {
