@@ -49,9 +49,9 @@
         "image": "shopify://shop_images/bannerImage.jpg",
         "show_side-gradient": true,
         "video": "shopify://files/videos/bravevideofw24-163.mp4",
-        "background-color": "#335348",
-        "top-shape-color": "#000000",
-        "bottom-shape-color": "#000000"
+        "background-color": "#e1e2e3",
+        "top-shape-color": "#98b5cc",
+        "bottom-shape-color": "#edb396"
       }
     },
     "featured_collection": {
