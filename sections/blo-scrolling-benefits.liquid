@@ -1,34 +1,80 @@
 <div class="blo-scrolling-benefits-container">
-
-    {{  
-        block.settings.image
-        | image_url: width: 40
-        | image_tag:
-            loading: 'lazy'
-    }}
-
    {%- for block in section.blocks -%}
     <div class="blo-scrolling-benefits-block">
+        {% if block.settings.image %}
+            {{  
+            block.settings.image
+            | image_url: width: 40
+            | image_tag:
+                loading: 'lazy',
+                class: 'blo-banner-image'
+            }}
+        {% endif %}
         {{ block.settings.text }}
     </div>
    {%- endfor -%}
 
-  
-
-
+   {%- for block in section.blocks -%}
+    <div class="blo-scrolling-benefits-block">
+        {% if block.settings.image %}
+            {{  
+            block.settings.image
+            | image_url: width: 40
+            | image_tag:
+                loading: 'lazy',
+                class: 'blo-banner-image'
+            }}
+        {% endif %}
+        {{ block.settings.text }}
+    </div>
+   {%- endfor -%}
 <div>
 
 
 
 
 
-
 {%- style -%}
+.blo-scrolling-benefits {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background: var(--blo-pine, #000);
+    overflow: hidden;
+}
+.blo-scrolling-benefits-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+.blo-scrolling-benefits-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: var(--blo-ivory, #fff);
+    text-wrap: nowrap;
+}
+.blo-scrolling-benefits-block img {
+    max-width: 22px;
+    max-height: 22px;
+    height: auto;
+    width: auto;
+}
 
 
+.blo-scrolling-benefits-container {
+  animation-name: example;
+  animation-duration: 10s;
+}
 
+@keyframes example {
+  from {margin-left: 0}
+  to {margin-left: -100%}
+}
 
-  
 {%- endstyle -%}
 
 
@@ -44,12 +90,6 @@
     "groups": ["header", "footer"]
   },
   "settings": [
-    {
-        "type": "color_scheme",
-        "id": "color_scheme",
-        "default": "scheme_1",
-        "label": "Color Scheme"
-      }
   ],
   "blocks": [
     {
@@ -66,7 +106,7 @@
             "type": "image_picker",
             "id": "image",
             "label": "Image"
-          }
+        }
       ]
     }
   ],
