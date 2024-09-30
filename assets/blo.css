@@ -110,57 +110,57 @@ body, p, form, input, textarea, select, .slide-nav__link, .slide-nav__sublist-li
 
 
 /* H1 STYLES */
-H1, .h1 {
-    font-size: 34px !important;
+body H1, body .h1 {
+    font-size: 34px;
     line-height: 120%;
     letter-spacing: 0; 
     
 }
 @media screen and (min-width: 750px) { 
-    H1, .h1 {
-        font-size: 40px !important;
+    body H1, body .h1 {
+        font-size: 40px;
     }
 }
 
 
 
 /* H2 STYLES */
-H2, .h2 {
-    font-size: 28px !important;
+body H2, body .h2 {
+    font-size: 28px;
     line-height: 120%;
     letter-spacing: 0;
 }
 @media screen and (min-width: 750px) { 
     H2, .h2 {
-        font-size: 34px !important;  
+        font-size: 34px;  
     }
 }
 
 
 
 /* H3 STYLES */
-H3, .h3 {
-    font-size: 22px !important;
+body H3, body .h3 {
+    font-size: 22px;
     line-height: 120%;
     letter-spacing: 0;   
 }
 @media screen and (min-width: 750px) { 
     H3, .h3 {
-        font-size: 28px !important;
+        font-size: 28px;
     }
 }
 
 
 
 /* H4 STYLES */
-H4, .h4 {
-    font-size: 22px !important;
+body H4, body .h4 {
+    font-size: 22px;
     line-height: 120%;
     letter-spacing: 0;   
 }
 @media screen and (min-width: 750px) { 
-    H3, .h3 {
-        font-size: 18px !important;
+    body H3, body .h3 {
+        font-size: 18px;
     }
 }
 
