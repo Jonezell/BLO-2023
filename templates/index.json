@@ -61,7 +61,7 @@
           "type": "benefit",
           "settings": {
             "text": "Add a benefit!",
-            "image": "shopify://shop_images/Full.svg"
+            "image": "shopify://shop_images/Isolation_Mode.svg"
           }
         }
       },
