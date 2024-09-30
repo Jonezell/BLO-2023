@@ -1,30 +1,26 @@
 <div class="blo-banner-container">
-
-    {% if section.settings.media-type == 'image' %} (type)
-image
-    {% else %}
-    video
-    {% endif %}
-    {{ section.settings.media-type }}
-
     <div class="blo-banner-image-wrapper">
-        {{
+
+    {% if section.settings.media-type == 'image' %}
+        {{  
         section.settings.image
         | image_url: width: 3200
         | image_tag:
             loading: 'lazy',
             class: 'blo-banner-image'
         }}
-
+    {% else %}
         {{
             section.settings.video
             | video_tag:
-              image_size: '1100x',
-              autoplay: true,
-              loop: true,
-              controls: true,
-              muted: false
-          }}
+            image_size: '1100x',
+            autoplay: true,
+            loop: true,
+            controls: false,
+            muted: true
+        }}
+    {% endif %}
+
     </div>
     <div class="blo-banner-card-wrapper">
         <div class="blo-banner-card {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
@@ -117,7 +113,8 @@ image
   height: auto;
   position: relative;
 }
-.blo-banner-image {
+.blo-banner-image, 
+.blo-banner-image-wrapper video {
     display: block;
     width: 100%;
     height: auto;
@@ -183,6 +180,17 @@ image
     margin-top: 10px;
     width: 100%;
 }
+{% if section.settings.show_side-gradient == true %}
+    .blo-banner-image-wrapper:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 40px;
+        background: linear-gradient(90deg, rgba(225, 226, 227, 0) 0%, {{ section.settings.show_side-gradient }} 100%);
+    }
+{% endif %}
 
 
 @media screen and (max-width: 989px) { 
@@ -268,9 +276,33 @@ image
       "label": "Image"
     },
     {
+        "type": "checkbox",
+        "id": "show_side-gradient",
+        "label": "Show Side Gradient",
+        "default": false
+    },
+    {
       "type": "video",
       "id": "video",
       "label": "Video"
+    },
+    {
+        "type": "color",
+        "id": "background-color",
+        "label": "Background Color",
+        "default": "#000000"
+    },
+    {
+        "type": "color",
+        "id": "top-shape-color",
+        "label": "Top Shape Color",
+        "default": "#000000"
+    },
+    {
+        "type": "color",
+        "id": "bottom-shape-color",
+        "label": "Bottom Shape Color",
+        "default": "#000000"
     }
   ],
   "blocks": [
