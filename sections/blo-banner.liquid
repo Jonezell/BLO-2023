@@ -86,15 +86,6 @@
             <path d="M280.943 402.387C297.012 361.467 321.197 326.906 358.578 304.898C412.47 273.157 470.116 248.108 533.284 243.629C576.078 240.587 620.693 233.067 661.498 254.356C687.063 267.683 712.574 281.95 735.544 299.147C752.551 311.921 764.422 331.219 780.325 345.707C807.381 370.425 830.406 399.843 837.916 434.238C842.499 455.085 846.696 476.042 850.726 497H1105C1096.44 447.62 1084.24 399.235 1066.79 352.232C1051.94 312.197 1030.24 274.429 1008.76 237.325C992.137 208.57 974.302 179.208 951.221 155.872C921.625 126.012 887.556 99.8564 852.714 76.0234C825.934 57.7201 796.503 39.5826 765.637 31.7857C680.658 10.3305 595.459 -6.03754 505.566 2.14643C424.673 9.50094 348.087 26.9195 274.87 60.2083C225.285 82.7143 185.75 117.883 148.147 158.084C80.6166 230.247 37.8787 314.188 15.0742 408.414C8.06164 437.445 3.9204 467.195 0 496.945H256.869C262.17 464.872 268.906 433.132 280.999 402.331" fill="{{ section.settings.bottom-shape-color }}"/>
         </svg>
 
-        
-            
-            
-
-
-
-
-
-
     </div>
 <div>
 
@@ -141,13 +132,13 @@
 
 .blo-banner-card {
     display: flex;
-    padding: 30px;
+    padding: 25px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 10px;
     border-radius: 16px;
-    background: var(--greyscale-white, #FFF);
+    background: var(--blo-cream, #FFF);
     box-shadow: 0px 14px 24px 0px rgba(0, 0, 0, 0.07);
     z-index: 1;
 }
@@ -163,22 +154,34 @@
     gap: 2px;
     margin-bottom: 2px;
 }
+.blo-banner-stars svg path{
+    fill: var(--blo-pine, #000);
+}
 .blo-banner-stars-container p {
     margin: 0;
     margin-top: 2px;
+    color: var(--blo-pine, #000);
 }
 .blo-banner-title {
     margin-top: 0;
     margin-bottom: 0px;
+    color: var(--blo-pine, #000);
 }
 .blo-banner-text {
     margin-top: 0;
     margin-bottom: 0;
 }
+.blo-banner-text p{
+    color: var(--blo-pine, #000);
+}
 .blo-banner-buttons {
     display: block;
     margin-top: 10px;
     width: 100%;
+}
+.blo-banner-buttons .button{
+    color: var(--blo-cream, #fff);
+    background: var(--blo-pine, #000);
 }
 {% if section.settings.show_side-gradient == true %}
     .blo-banner-image-wrapper:after {
@@ -187,7 +190,7 @@
         top: 0;
         right: 0;
         bottom: 0;
-        width: 40px;
+        width: 80px;
         background: linear-gradient(90deg, rgba(225, 226, 227, 0) 0%, {{ section.settings.background-color }} 100%);
     }
 {% endif %}
@@ -198,8 +201,9 @@
         position: relative;
         z-index: 0;
     }
-    .blo-banner-container {
-        
+    .blo-banner-card-wrapper {
+        padding: 25px;
+        margin-top: -180px; 
     }
     .blo-banner-card {
         position: relative;
