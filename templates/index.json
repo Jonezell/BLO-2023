@@ -243,6 +243,53 @@
         "padding_bottom": 100
       }
     },
+    "blo_customer_favorite_products_efbjN3": {
+      "type": "blo-customer-favorite-products",
+      "blocks": {
+        "product_list_ewFzzq": {
+          "type": "product_list",
+          "settings": {
+            "product": "cookies-and-milk-two-piece-set"
+          }
+        },
+        "product_list_hmnNeB": {
+          "type": "product_list",
+          "settings": {
+            "product": "construction-two-piece-set"
+          }
+        },
+        "product_list_rBaXtP": {
+          "type": "product_list",
+          "settings": {
+            "product": "moon-phases-ribbed-two-piece-set"
+          }
+        },
+        "product_list_8EDnm7": {
+          "type": "product_list",
+          "settings": {
+            "product": "waves-zip-romper"
+          }
+        },
+        "product_list_rVp3GL": {
+          "type": "product_list",
+          "settings": {
+            "product": "ballet-pink-small-ribbed-two-piece-set"
+          }
+        }
+      },
+      "block_order": [
+        "product_list_ewFzzq",
+        "product_list_hmnNeB",
+        "product_list_rBaXtP",
+        "product_list_8EDnm7",
+        "product_list_rVp3GL"
+      ],
+      "settings": {
+        "title": "Shop Our Customer Favorites!",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -277,6 +324,7 @@
     "blo_scrolling_benefits_afMweU",
     "blo_toggle_collections_bV6gT7",
     "blo_bamboo_comparison_eVAdR6",
+    "blo_customer_favorite_products_efbjN3",
     "featured_collection"
   ]
 }
