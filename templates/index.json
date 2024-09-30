@@ -45,7 +45,7 @@
         "buttons_ccThbN"
       ],
       "settings": {
-        "media-type": "image",
+        "media-type": "video",
         "image": "shopify://shop_images/bannerImage.jpg",
         "video": "shopify://files/videos/bravevideofw24-163.mp4"
       }
