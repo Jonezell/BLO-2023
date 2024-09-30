@@ -60,13 +60,37 @@
         "benefit_fKp636": {
           "type": "benefit",
           "settings": {
-            "text": "Add a benefit!",
+            "text": "Buttery Soft & Ultra Stretchy PJs",
+            "image": "shopify://shop_images/Isolation_Mode.svg"
+          }
+        },
+        "benefit_qBNKcE": {
+          "type": "benefit",
+          "settings": {
+            "text": "Oeko-Tex Standard 100 certified bamboo fabric",
+            "image": "shopify://shop_images/Isolation_Mode.svg"
+          }
+        },
+        "benefit_EYPnyq": {
+          "type": "benefit",
+          "settings": {
+            "text": "Never treated with flame retardants or harsh chemicals",
+            "image": "shopify://shop_images/Isolation_Mode.svg"
+          }
+        },
+        "benefit_KEB7kW": {
+          "type": "benefit",
+          "settings": {
+            "text": "Perfect for sensitive skin",
             "image": "shopify://shop_images/Isolation_Mode.svg"
           }
         }
       },
       "block_order": [
-        "benefit_fKp636"
+        "benefit_fKp636",
+        "benefit_qBNKcE",
+        "benefit_EYPnyq",
+        "benefit_KEB7kW"
       ],
       "settings": {
         "color_scheme": "scheme-3"
