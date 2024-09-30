@@ -1,0 +1,84 @@
+<div class="blo-scrolling-benefits-container">
+
+    {{  
+        block.settings.image
+        | image_url: width: 40
+        | image_tag:
+            loading: 'lazy'
+    }}
+
+   {%- for block in section.blocks -%}
+    <div class="blo-scrolling-benefits-block">
+        {{ block.settings.text }}
+    </div>
+   {%- endfor -%}
+
+  
+
+
+<div>
+
+
+
+
+
+
+{%- style -%}
+
+
+
+
+  
+{%- endstyle -%}
+
+
+
+
+
+{% schema %}
+{
+  "name": "BLO Scrolling Benefits",
+  "tag": "section",
+  "class": "section blo-scrolling-benefits",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "default": "scheme_1",
+        "label": "Color Scheme"
+      }
+  ],
+  "blocks": [
+    {
+      "type": "benefit",
+      "name": "Benefit",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "text",
+          "default": "Add a benefit!",
+          "label": "Text"
+        },
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "BLO Scrolling Benefits",
+      "blocks": [
+        {
+          "type": "benefit"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
