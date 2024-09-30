@@ -54,6 +54,24 @@
         "bottom-shape-color": "#edb396"
       }
     },
+    "blo_scrolling_benefits_afMweU": {
+      "type": "blo-scrolling-benefits",
+      "blocks": {
+        "benefit_fKp636": {
+          "type": "benefit",
+          "settings": {
+            "text": "Add a benefit!",
+            "image": "shopify://shop_images/Full.svg"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_fKp636"
+      ],
+      "settings": {
+        "color_scheme": ""
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -85,6 +103,7 @@
   },
   "order": [
     "blo_banner_9z7Ute",
+    "blo_scrolling_benefits_afMweU",
     "featured_collection"
   ]
 }
