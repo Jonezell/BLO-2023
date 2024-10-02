@@ -358,8 +358,44 @@
     },
     "blo_image_and_text_YhxCER": {
       "type": "blo-image-and-text",
+      "blocks": {
+        "badge_ztwxXm": {
+          "type": "badge",
+          "settings": {
+            "text": "New!"
+          }
+        },
+        "heading_GJnJ3K": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner"
+          }
+        },
+        "text_LxLjFa": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "buttons_8fkLxj": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "badge_ztwxXm",
+        "heading_GJnJ3K",
+        "text_LxLjFa",
+        "buttons_8fkLxj"
+      ],
       "settings": {
+        "layout-direction": "layout-left",
         "media-type": "image",
+        "video": "shopify://files/videos/bravevideofw24-163.mp4",
+        "show_decoration": false,
         "padding_top": 100,
         "padding_bottom": 100
       }
