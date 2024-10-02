@@ -291,7 +291,7 @@
       ],
       "settings": {
         "title": "Shop Our Customer Favorites!",
-        "button_label": "Shop Now",
+        "button_label": "Shop Customer Favorites",
         "button_link": "shopify://collections/best-sellers",
         "padding_top": 100,
         "padding_bottom": 100
