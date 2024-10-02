@@ -249,31 +249,36 @@
         "product_list_ewFzzq": {
           "type": "product_list",
           "settings": {
-            "product": "cookies-and-milk-two-piece-set"
+            "product": "cookies-and-milk-two-piece-set",
+            "image": "shopify://shop_images/BU5A1930.jpg"
           }
         },
         "product_list_hmnNeB": {
           "type": "product_list",
           "settings": {
-            "product": "construction-two-piece-set"
+            "product": "construction-two-piece-set",
+            "image": "shopify://shop_images/98A8A6593-Edit.jpg"
           }
         },
         "product_list_rBaXtP": {
           "type": "product_list",
           "settings": {
-            "product": "moon-phases-ribbed-two-piece-set"
+            "product": "moon-phases-ribbed-two-piece-set",
+            "image": "shopify://shop_images/bravelittleonesnov-930.jpg"
           }
         },
         "product_list_8EDnm7": {
           "type": "product_list",
           "settings": {
-            "product": "waves-zip-romper"
+            "product": "waves-zip-romper",
+            "image": "shopify://shop_images/waves-zip_d9c87dab-0583-47bf-aa9b-5b79caf2e08c.jpg"
           }
         },
         "product_list_rVp3GL": {
           "type": "product_list",
           "settings": {
-            "product": "ballet-pink-small-ribbed-two-piece-set"
+            "product": "ballet-pink-small-ribbed-two-piece-set",
+            "image": "shopify://shop_images/Photo_Jun_06_2024_10_43_20_AM.jpg"
           }
         }
       },
