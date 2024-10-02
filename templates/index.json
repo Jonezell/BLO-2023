@@ -368,20 +368,20 @@
         "heading_GJnJ3K": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner"
+            "heading": "Looking for something NEW? We got that too."
           }
         },
         "text_LxLjFa": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
+            "text": "Looking for something NEW?!We got that too."
           }
         },
         "buttons_8fkLxj": {
           "type": "buttons",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Shop New Releases",
+            "button_link": "shopify://collections/new"
           }
         }
       },
