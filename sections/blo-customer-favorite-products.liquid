@@ -1,33 +1,33 @@
 <div class="page-width section-{{ section.id }}-padding">
-  <h2
+    <h2
     class="inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
     {{ block.shopify_attributes }}
-  >
+    >
     {{ section.settings.title }}
-  </h2>
+    </h2>
 
 
-      <slider-component class="slider-mobile-gutter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+    <slider-component class="slider-mobile-gutter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <ul
-          class="contains-card contains-card--collection{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--5-col-desktop grid--1-col-tablet-down slider slider--tablet grid--peek collection-list--{{ section.blocks.size }}-items"
-          id="Slider-{{ section.id }}"
-          role="list"
+            class="contains-card contains-card--collection{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--5-col-desktop grid--1-col-tablet-down slider slider--tablet grid--peek collection-list--{{ section.blocks.size }}-items"
+            id="Slider-{{ section.id }}"
+            role="list"
         >
-          {%- liquid
+            {%- liquid
             assign columns = section.blocks.size
             if columns > 3
-              assign columns = 3
+                assign columns = 3
             endif
-          -%}
-          {%- for block in section.blocks -%}
+            -%}
+            {%- for block in section.blocks -%}
             <li
-              id="Slide-{{ section.id }}-{{ forloop.index }}"
-              class="blo-customer-favs-card  grid__item slider__slide {% if collection.featured_image == nil %} collection-list__item--no-media{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-              {{ block.shopify_attributes }}
-              {% if settings.animations_reveal_on_scroll %}
+                id="Slide-{{ section.id }}-{{ forloop.index }}"
+                class="blo-customer-favs-card  grid__item slider__slide {% if collection.featured_image == nil %} collection-list__item--no-media{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                {{ block.shopify_attributes }}
+                {% if settings.animations_reveal_on_scroll %}
                 data-cascade
                 style="--animation-order: {{ forloop.index }};"
-              {% endif %}
+                {% endif %}
             >
                 <a href="{{block.settings.product.url}}">
                     {% if block.settings.image %}
@@ -57,39 +57,61 @@
                     </div>
                 </a>
             </li>
-          {%- endfor -%}
+            {%- endfor -%}
         </ul>
-        <div class="slider-buttons no-js-hidden">
-          <button
+        <div class="slider-buttons no-js-hidden hidden">
+            <button
             type="button"
             class="slider-button slider-button--prev"
             name="previous"
             aria-label="{{ 'general.slider.previous_slide' | t }}"
-          >
+            >
             <-
-          </button>
-          <div class="slider-counter caption">
+            </button>
+            <div class="slider-counter caption">
             <span class="slider-counter--current">1</span>
             <span aria-hidden="true"> / </span>
             <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
             <span class="slider-counter--total">{{ section.blocks.size }}</span>
-          </div>
-          <button
+            </div>
+            <button
             type="button"
             class="slider-button slider-button--next"
             name="next"
             aria-label="{{ 'general.slider.next_slide' | t }}"
-          >
-          ->
-          </button>
+            >
+            ->
+            </button>
         </div>
-      </slider-component>
+    </slider-component>
+      
+    <div
+    class="blo-customer-favs-buttons {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"    >
+        <a
+            {% if section.settings.button_link == blank %}
+            role="link" aria-disabled="true"
+            {% else %}
+            href="{{ section.settings.button_link }}"
+            {% endif %}
+            class="button button--primary"
+        >
+            {{- section.settings.button_label | escape -}}
+        </a>              
+    </div>
+      
 </div>
 
 {% style %}
+    .blo-customer-favs .page-width {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
     .blo-customer-favs h2 {
         color: var(--blo-pine);
         text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
     }
     .blo-customer-favs-card img {
         width: 100%;
@@ -110,6 +132,9 @@
     .blo-customer-favs-card a {
         text-decoration: none;
     }
+    .blo-customer-favs-buttons {
+        text-align: center;
+    }
 
 
 
@@ -127,7 +152,7 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-  @media screen and (max-width: 749px) {
+  @media screen and (max-width: 989px) {
     .blo-customer-favs .page-width {
       padding-left: 0;
       padding-right: 0;
@@ -154,6 +179,17 @@
       "id": "title",
       "label": "Section Title",
       "default": "Shop Our Customer Favorites!"
+    },
+    {
+        "type": "text",
+        "id": "button_label",
+        "default": "Button label",
+        "label": "Button Label"
+    },
+    {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Url"
     },
     {
       "type": "range",
