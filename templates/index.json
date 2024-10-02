@@ -243,6 +243,37 @@
         "padding_bottom": 100
       }
     },
+    "blo_reviews_p8yHqt": {
+      "type": "blo-reviews",
+      "blocks": {
+        "review_list_RPmwkm": {
+          "type": "review_list",
+          "settings": {
+            "product": "moon-phases-ribbed-two-piece-set",
+            "review_text": "“Love this material. My kids are hot sleepers but these keep them perfectly covered and comfortable year-round.”",
+            "review_name": "- Cassie K."
+          }
+        },
+        "review_list_aeTNJH": {
+          "type": "review_list",
+          "settings": {
+            "product": "construction-two-piece-set",
+            "review_text": "“Long lasting and so soft. Obsessed is an understatement.”",
+            "review_name": "- Maggie R."
+          }
+        }
+      },
+      "block_order": [
+        "review_list_RPmwkm",
+        "review_list_aeTNJH"
+      ],
+      "settings": {
+        "title": "But, Don’t Just Take Our Word For It.",
+        "subtitle": "We have over 3,800 raving five star reviews. Our customers love our buttery soft clothes!",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "blo_customer_favorite_products_efbjN3": {
       "type": "blo-customer-favorite-products",
       "blocks": {
@@ -323,15 +354,6 @@
         "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 36
-      }
-    },
-    "blo_reviews_p8yHqt": {
-      "type": "blo-reviews",
-      "settings": {
-        "title": "But, Don’t Just Take Our Word For It.",
-        "subtitle": "We have over 3,800 raving five star reviews. Our customers love our buttery soft clothes!",
-        "padding_top": 100,
-        "padding_bottom": 100
       }
     }
   },
