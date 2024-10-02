@@ -393,7 +393,7 @@
       ],
       "settings": {
         "layout-direction": "layout-left",
-        "media-type": "image",
+        "media-type": "video",
         "video": "shopify://files/videos/bravevideofw24-163.mp4",
         "image-secondary": "shopify://shop_images/aisfor_adrian.aazie.aria_horses_9.jpg",
         "show_decoration": true,
