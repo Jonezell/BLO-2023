@@ -499,63 +499,64 @@ body .mega-menu .BLO-megamenu-link h6 {
 
 /* ---------------------------------------- BLO - CUSTOM MENU DRAWER (MOBILE NAV) ---------------------------------------- */
 
-.menu-drawer {
+body .menu-drawer {
   border-top: 1px solid var(--tan-Medium);
 }
-.menu-drawer .BLO-menudrawer-image {
+body .menu-drawer .BLO-menudrawer-image {
   width: 50px;
   height: auto;
   border-radius: 8px;
   margin-right: 15px;
 }
-.menu-drawer .menu-drawer__menu-item {
-  padding: 0.6rem 2rem;
+body .menu-drawer .menu-drawer__menu-item {
+  padding: 0.6rem 25px;
 }
-.menu-drawer .menu-drawer__menu-item .icon.icon-arrow {
+body .menu-drawer .menu-drawer__menu-item .icon.icon-arrow {
   display: none;
 }
-.menu-drawer .menu-drawer__menu-item .icon.icon-caret {
+body .menu-drawer .menu-drawer__menu-item .icon.icon-caret {
   display: block;
   transform: rotate(-90deg);
   stroke: var(--tan-ExtraDark);
+  right: 0;
 }
-.menu-drawer .menu-drawer__navigation {
+body .menu-drawer .menu-drawer__navigation {
   padding: 1rem 0;
 }
-.menu-drawer .menu-drawer__close-button {
+body .menu-drawer .menu-drawer__close-button {
   padding-bottom: 20px;
   margin-top: 10px;
   padding-left: 2rem;
   padding-right: 2rem;
 }
-.menu-drawer .menu-drawer__utility-links {
+body .menu-drawer .menu-drawer__utility-links {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-content: center;
   padding: 1.5rem 3rem;
 }
-.menu-drawer .list-social{
+body .menu-drawer .list-social{
   display: none;
 }
-.menu-drawer .menu-drawer__account,
-.menu-drawer .disclosure__button {
+body .menu-drawer .menu-drawer__account,
+body .menu-drawer .disclosure__button {
   line-height: 150%;
 }  
-.menu-drawer .menu-drawer__menu-item--active, 
-.menu-drawer .menu-drawer__menu-item:focus, 
-.menu-drawer .menu-drawer__close-button:focus, 
-.menu-drawer .menu-drawer__menu-item:hover, 
-.menu-drawer .menu-drawer__close-button:hover{
+body .menu-drawer .menu-drawer__menu-item--active, 
+body .menu-drawer .menu-drawer__menu-item:focus, 
+body .menu-drawer .menu-drawer__close-button:focus, 
+body .menu-drawer .menu-drawer__menu-item:hover, 
+body .menu-drawer .menu-drawer__close-button:hover{
   background-color: transparent;
 } 
-.menu-drawer .menu-drawer__menu-item:active, 
-.menu-drawer .menu-drawer__close-button:active {
+body .menu-drawer .menu-drawer__menu-item:active, 
+body .menu-drawer .menu-drawer__close-button:active {
   transform: scale(1.04);
   background-color: transparent;
   -webkit-tap-highlight-color: transparent;
 }
-.menu-drawer .menu-drawer__menu-item, 
-.menu-drawer .menu-drawer__close-button {
+body .menu-drawer .menu-drawer__menu-item, 
+body .menu-drawer .menu-drawer__close-button {
   transition: transform 200ms ease 0s
 }

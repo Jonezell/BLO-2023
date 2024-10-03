@@ -104,7 +104,9 @@
 
 
 {%- style -%}
-
+.blo-banner {
+  overflow: hidden;
+}
 .blo-banner-container {
     background: {{ section.settings.background-color }};
 }
@@ -192,6 +194,9 @@
     color: var(--blo-cream, #fff);
     background: var(--blo-terra, #000);
     border-color: var(--blo-terra, #000);
+}
+.blo-banner-buttons {
+  --color-button: 194, 125, 76;
 }
 
 {% if section.settings.show_side-gradient == true %}
