@@ -2,42 +2,136 @@
 {{ 'blo-sections.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-    }
-
-    @media screen and (min-width: 750px) {
       .section-{{ section.id }}-padding {
-        padding-top: {{ section.settings.padding_top }}px;
-        padding-bottom: {{ section.settings.padding_bottom }}px;
+        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+      }
+
+      @media screen and (min-width: 750px) {
+        .section-{{ section.id }}-padding {
+          padding-top: {{ section.settings.padding_top }}px;
+          padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+      }
+
+      #shopify-section-{{section.id}} {
+        background-color: {{ section.settings.background_color }};
+      }
+
+
+      /* ---------- CUSTOM - FAQ Section ---------- */
+    .blo-faq-section .blo-faq-section_wrapper {
+      align-items: start;
+    }
+    .blo-faq-section .image-with-text__heading {
+      margin-bottom:0;
+    }
+    .blo-faq-section .blo-faq-section_image {
+      margin-bottom: 20px;
+    }
+    @media only screen and (max-width: 749px) {
+      .blo-faq-section .blo-faq-section_image {
+        text-align: center;
+      }
+    }
+    /* ---------- CUSTOM - IMAGE AND TEXT SECTION ---------- */
+
+  .blo-faq-section_wrapper {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    .blo-faq-section_image {
+      width: 100%;
+      margin-bottom: 60px;
+    }
+    .blo-faq-section_image img {
+      width: 100%;
+      max-width: 400px;
+      margin: auto;
+      display: block;
+      filter: var(--shadow-4-percent)
+    }
+    .blo-faq-section_content {
+      align-items: center;
+      text-align: center;
+      width: 100%;
+    }
+    .blo-faq-section_content .image-with-text__heading {
+      margin-bottom: 10px;
+      margin-top:0;
+    }
+    .eyebrow-wrapper + .image-with-text__heading {
+      margin-top: 20px;
+    }
+    .blo-faq-section_content .button {
+      margin-top: 30px;
+    }
+    .blo-faq-section_content .eyebrow-wrapper {
+      display: inline-block;
+      position: relative;
+    }
+    .blo-faq-section_content .eyebrow {
+      padding: 11px 17px 9px;
+      margin: 0;
+      z-index: 1;
+      position: relative;
+    }
+    .blo-faq-section_content .eyebrow-wrapper svg {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      filter: var(--shadow-4-percent);
+      z-index: 0;
+    }
+    .blo-image-and-text .accordion__content{
+      padding-left: 0;
+    }
+    .blo-image-and-text .accordion__content p {
+        text-align: left;
+    }
+    @media only screen and (min-width: 750px) {
+      .blo-faq-section_wrapper{
+        flex-direction: row;
+      }
+      .blo-faq-section_image {
+        margin-bottom: 0;
+        margin-right: 10%;
+        width: 50%;
+      }
+      .blo-faq-section_content {
+        align-items: left;
+        text-align: left;
+        width: 50%;
+      }
+      .blo-faq-section_text_first {
+        flex-direction: row-reverse;
+      }
+      .blo-faq-section_text_first .blo-faq-section_image {
+        margin-right: 0;
+        margin-left: 10%;
+      }
+    }
+    @media only screen and (max-width: 749px) {
+      .blo-faq-section_content .button {
+        width: 100%;
       }
     }
 
-    #shopify-section-{{section.id}} {
-      background-color: {{ section.settings.background_color }};
+    .blo-image-and-text .product__accordion {
+      border-top: 2px solid rgba(0,0,0,0.04);
+      border-bottom: 2px solid rgba(0,0,0,0.04);
     }
-
-
-    /* ---------- CUSTOM - FAQ Section ---------- */
-  .custom-faq-section .custom-image-and-text-section_wrapper {
-    align-items: start;
-  }
-  .custom-faq-section .image-with-text__heading {
-    margin-bottom:0;
-  }
-  .custom-faq-section .custom-image-and-text-section_image {
-    margin-bottom: 20px;
-  }
-  @media only screen and (max-width: 749px) {
-    .custom-faq-section .custom-image-and-text-section_image {
-      text-align: center;
+    .blo-image-and-text .product__accordion + .product__accordion {
+      border-top: none;
     }
-  }
 {%- endstyle -%}
 
-<div class="page-width custom-image-and-text-section_wrapper custom-image-and-text-section_{{ section.settings.layout }} section-{{ section.id }}-padding">
-  <div class="custom-image-and-text-section_image">
+<div class="page-width blo-faq-section_wrapper blo-faq-section_{{ section.settings.layout }} section-{{ section.id }}-padding">
+  <div class="blo-faq-section_image">
     <h2 class="image-with-text__heading">
       {{ section.settings.mainHeading | escape }}
     </h2>
@@ -46,7 +140,7 @@
     {%- if section.settings.mainText != blank -%}
     {%- endif -%}
   </div>
-  <div id="ImageWithText--{{ section.id }}" class="custom-image-and-text-section_content">
+  <div id="ImageWithText--{{ section.id }}" class="blo-faq-section_content">
     {%- for block in section.blocks -%}
       {% case block.type %}
         {%- when 'eyebrow' -%}
@@ -81,7 +175,7 @@
                     {{ block.settings.heading | default: block.settings.page.title }}
                   </h2>
                 </div>
-                {% render 'icon-caret' %}
+                {{- 'icon-caret.svg' | inline_asset_content -}}
               </summary>
               <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
                 {{ block.settings.content }}
@@ -118,7 +212,7 @@
 {% schema %}
 {
   "name": "BLO: FAQ",
-  "class": "section custom-faq-section custom-image-and-text blo-edge-texture-wrapper",
+  "class": "section blo-faq-section blo-image-and-text blo-edge-texture-wrapper",
   "settings": [
     {
       "type": "color",
