@@ -376,6 +376,42 @@
         "padding_bottom": 100
       }
     },
+    "blo_africa_hUickm": {
+      "type": "blo-africa",
+      "blocks": {
+        "heading_PegeeN": {
+          "type": "heading",
+          "settings": {
+            "heading": "You’ve Helped Us Donate Over 44,260 Meals… And Counting!"
+          }
+        },
+        "text_DmDJXU": {
+          "type": "text",
+          "settings": {
+            "text": "What’s better than cozy snuggles? Knowing that every purchase helps fight childhood hunger. You’ve helped us donate over 550 meals a month to children in Rwanda, Africa."
+          }
+        },
+        "buttons_Lex9M6": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Shop For A Cause",
+            "button_link": "shopify://pages/help-us-give-back"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PegeeN",
+        "text_DmDJXU",
+        "buttons_Lex9M6"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/africa.svg",
+        "show_decoration": false,
+        "text_color": "#335348",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "blo_image_and_text_xkiUVn": {
       "type": "blo-image-and-text",
       "blocks": {
@@ -413,42 +449,6 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
-    },
-    "blo_africa_hUickm": {
-      "type": "blo-africa",
-      "blocks": {
-        "heading_PegeeN": {
-          "type": "heading",
-          "settings": {
-            "heading": "You’ve Helped Us Donate Over 44,260 Meals… And Counting!"
-          }
-        },
-        "text_DmDJXU": {
-          "type": "text",
-          "settings": {
-            "text": "What’s better than cozy snuggles? Knowing that every purchase helps fight childhood hunger. You’ve helped us donate over 550 meals a month to children in Rwanda, Africa."
-          }
-        },
-        "buttons_Lex9M6": {
-          "type": "buttons",
-          "settings": {
-            "button_label": "Shop For A Cause",
-            "button_link": "shopify://pages/help-us-give-back"
-          }
-        }
-      },
-      "block_order": [
-        "heading_PegeeN",
-        "text_DmDJXU",
-        "buttons_Lex9M6"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/africa.svg",
-        "show_decoration": false,
-        "text_color": "#335348",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
     }
   },
   "order": [
@@ -459,7 +459,7 @@
     "blo_reviews_p8yHqt",
     "blo_customer_favorite_products_efbjN3",
     "blo_image_and_text_YhxCER",
-    "blo_image_and_text_xkiUVn",
-    "blo_africa_hUickm"
+    "blo_africa_hUickm",
+    "blo_image_and_text_xkiUVn"
   ]
 }
