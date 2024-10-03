@@ -18,7 +18,7 @@
           "type": "heading",
           "settings": {
             "heading": "Subscribe to our emails",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "paragraph_EWr36C": {
@@ -39,9 +39,9 @@
         "email_form_HdMTJq"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 52,
         "padding_bottom": 52
       }
     },
