@@ -1,0 +1,367 @@
+{{ 'blo-sections.css' | asset_url | stylesheet_tag }}
+
+<div class="page-width section-{{ section.id }}-padding">
+  <div class="blo-product-callouts-header">
+    <h2>{{ section.settings.title }}</h2>
+    <div
+      class="rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+    >
+      <p>{{ section.settings.text }}</p>
+    </div>
+  </div>
+
+  <div class="blo-product-callouts-image-wrapper">
+    {{
+      section.settings.image
+      | image_url: width: 3840
+      | image_tag:
+        loading: 'lazy',
+        width: section.settings.image.width,
+        height: image_height,
+        class: image_class,
+        sizes: sizes,
+        widths: widths
+    }}
+    {%- for block in section.blocks -%}
+      <input type="checkbox" name="callout" id="blo-callout-{{block.id}}">
+      <label
+        for="blo-callout-{{block.id}}"
+        class="blo-product-callout-wrapper {{block.settings.pin_direction}} {{block.settings.arrow_direction}}"
+        style="
+            {%- if block.settings.pin_direction == 'top_right' -%}
+                top:{{block.settings.vertical_position}}%;
+                right:{{block.settings.horizontal_position}}%;
+            {%- elsif block.settings.pin_direction == 'top_left' -%}
+                top:{{block.settings.vertical_position}}%;
+                left:{{block.settings.horizontal_position}}%;
+            {%- elsif block.settings.pin_direction == 'bottom_right' -%}
+                bottom:{{block.settings.vertical_position}}%;
+                right:{{block.settings.horizontal_position}}%;
+            {%- elsif block.settings.pin_direction == 'bottom_left' -%}
+                bottom:{{block.settings.vertical_position}}%;
+                left:{{block.settings.horizontal_position}}%;
+          {%- endif -%}
+        "
+      >
+        <div class="blo-product-callout-innerwrapper">
+          <h6
+            class="inline-richtext {{block.settings.pin_direction}} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+          >
+            <span class="blo-product-callout-innerwrapper-header">
+              {{ block.settings.block_title }}
+            </span>
+            <div class="blo-product-callout-icon">
+              {%- render 'icon-plus' -%}
+              {%- render 'icon-minus' -%}
+            </div>
+          </h6>
+          <div
+            class="rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+          >
+            <p>{{ block.settings.block_text }}</p>
+          </div>
+        </div>
+      </label>
+    {%- endfor -%}
+  </div>
+</div>
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+  .blo-product-callouts .page-width {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+  }
+  .blo-product-callouts-header {
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+  }
+  .blo-product-callouts-header h2 {
+    margin: 0 0 10px 0;
+  }
+  .blo-product-callouts-header p {
+    margin: 0;
+  }
+  .blo-product-callouts-image-wrapper {
+    position: relative;
+    max-width: 1000px;
+  }
+  .blo-product-callouts-image-wrapper img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100vh;
+  }
+  .blo-product-callout-wrapper {
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    max-width: 340px;
+    transform: translateY(-24px);
+    transition: all 200ms ease-out;
+  }
+  input:checked + .blo-product-callout-wrapper {
+    z-index: 2;
+  }
+  .blo-product-callout-innerwrapper {
+    border-radius: 24px;
+    padding: 10px 20px;
+    transition: all 200ms ease-out;
+    box-shadow: 0px 14px 24px 0px rgba(0, 0, 0, 0.07), inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background: rgba(259,255,255,0.65);
+  }
+  input:checked + .blo-product-callout-wrapper .blo-product-callout-innerwrapper {
+    border-radius: var(--blo-corner-radius);
+    padding: 30px;
+    margin: -20px -10px;
+    background: rgba(259,255,255,0.8);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+  }
+  .blo-product-callout-wrapper h6 {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    color: var(--greyscale-Black);
+    white-space: nowrap;
+  }
+  h6.top_left,
+  h6.bottom_left {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+  h6.top_right,
+  h6.bottom_right {
+    justify-content: space-between;
+  }
+  .blo-product-callout-wrapper p {
+    margin: 0;
+  }
+  .blo-product-callout-wrapper .rte {
+    display: none;
+    margin-top: 10px;
+  }
+  input:checked + .blo-product-callout-wrapper .blo-product-callout-innerwrapper .rte {
+    display: block;
+  }
+  .blo-product-callouts-image-wrapper input[type='checkbox'] {
+    display: none;
+  }
+  .blo-product-callout-icon {
+    display: inline-flex;
+    background: rgba(0,0,0,.07);
+    border-radius: 20px;
+    height: 22px;
+    width: 22px;
+    align-items: center;
+    justify-content: center;
+  }
+  .blo-product-callout-icon svg {
+    height: 10px;
+    width: 10px;
+    margin: 0px;
+  }
+  .blo-product-callout-icon svg:last-child {
+    display: none;
+  }
+
+  input:checked
+    + .blo-product-callout-wrapper
+    .blo-product-callout-innerwrapper
+    .blo-product-callout-icon
+    svg:last-child {
+    display: block;
+  }
+
+  input:checked
+    + .blo-product-callout-wrapper
+    .blo-product-callout-innerwrapper
+    .blo-product-callout-icon
+    svg:first-child {
+    display: none;
+  }
+  .blo-product-callout-wrapper.top_right,
+  .blo-product-callout-wrapper.top_left {
+    flex-direction: column-reverse;
+  }
+  .blo-product-callout-wrapper.bottom_right,
+  .blo-product-callout-wrapper.bottom_left {
+  }
+  .blo-product-callout-wrapper.bottom_right,
+  .blo-product-callout-wrapper.top_right {
+    align-items: flex-end;
+  }
+  .blo-product-callout-wrapper.bottom_left,
+  .blo-product-callout-wrapper.top_left {
+    align-items: flex-start;
+  }
+  @media screen and (max-width: 749px) {
+    .blo-product-callout-innerwrapper-header {
+      font-size: 14px;
+    }
+    input:checked
+      + .blo-product-callout-wrapper
+      .blo-product-callout-innerwrapper
+      .blo-product-callout-innerwrapper-header {
+      display: block;
+    }
+    .blo-product-callout-innerwrapper {
+      padding: 5px 15px 5px 10px;
+    }
+    .blo-product-callout-wrapper.bottom_right .blo-product-callout-innerwrapper ,
+    .blo-product-callout-wrapper.top_right .blo-product-callout-innerwrapper  {
+      padding: 5px 10px 5px 15px;
+    }
+    input:checked + .blo-product-callout-wrapper {
+      left: 10px !important;
+      right: 10px !important;
+      max-width: none;
+    }
+    input:checked + .blo-product-callout-wrapper .blo-product-callout-innerwrapper-header {
+      font-size: 16px;
+    }
+    .blo-product-callouts .page-width {
+      gap: 50px;
+    }
+  }
+{%- endstyle -%}
+
+{% schema %}
+{
+  "name": "BLO: Product Callouts",
+  "tag": "section",
+  "class": "section blo-product-callouts blo-edge-texture-wrapper",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "We’ve thought of it so you don’t have to."
+    },
+    {
+      "type": "inline_richtext",
+      "id": "text",
+      "default": "Lorem ipsum dolor sit amet consectetur",
+      "label": "Text"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Product Image"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 100
+    }
+  ],
+  "blocks": [
+    {
+      "type": "Callout",
+      "name": "Callout",
+      "settings": [
+        {
+          "type": "select",
+          "id": "pin_direction",
+          "label": "Pin Direction",
+          "options": [
+            {
+              "value": "top_right",
+              "label": "Top Right"
+            },
+            {
+              "value": "top_left",
+              "label": "Top Left"
+            },
+            {
+              "value": "bottom_right",
+              "label": "Bottom Right"
+            },
+            {
+              "value": "bottom_left",
+              "label": "Bottom Left"
+            }
+          ],
+          "default": "top_right"
+        },
+        {
+          "type": "text",
+          "id": "block_title",
+          "label": "Feature Name",
+          "default": "Feature Name"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "block_text",
+          "default": "Feature Text",
+          "label": "Feature Text"
+        },
+        {
+          "type": "range",
+          "id": "horizontal_position",
+          "min": -10,
+          "max": 110,
+          "step": 2,
+          "unit": "%",
+          "label": "Horizontal Position",
+          "default": 50
+        },
+        {
+          "type": "range",
+          "id": "vertical_position",
+          "min": -10,
+          "max": 110,
+          "step": 2,
+          "unit": "%",
+          "label": "Vertical Position",
+          "default": 50
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "BLO: Product Callouts"
+    }
+  ]
+}
+{% endschema %}
