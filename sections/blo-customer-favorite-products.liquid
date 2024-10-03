@@ -160,7 +160,19 @@
     .blo-customer-favs h2 {
         padding: 0 25px;
     }
+    .blo-customer-favs .slider.slider--tablet {
+        scroll-padding-left: 25px;
+    }
   }
+  @media screen and (max-width: 749px) {
+    .blo-customer-favs .grid--peek.slider .grid__item:first-of-type {
+        margin-left: 25px;
+    }
+    .blo-customer-favs .slider--tablet.grid--peek.grid--1-col-tablet-down .grid__item, .slider--mobile.grid--peek.grid--1-col-tablet-down .grid__item {
+        width: calc(100% - var(--grid-mobile-horizontal-spacing) - 50px);
+    }
+}
+
 
 
 {% endstyle %}
