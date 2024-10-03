@@ -85,6 +85,12 @@
             "hide-payment-plan": true
           }
         },
+        "blo_payment_plans_BXirh9": {
+          "type": "blo-payment-plans",
+          "settings": {
+            "text": "Split your purchase into multiple small interest-free payments with"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -127,6 +133,7 @@
         "buy_buttons",
         "back_in_stock_customer_alerts_app_block_UBNLgM",
         "blo_restock_note_mE6Xzy",
+        "blo_payment_plans_BXirh9",
         "description",
         "collapsible-row-0",
         "collapsible-row-3",
