@@ -51,8 +51,8 @@
               {{ block.settings.block_title }}
             </span>
             <div class="blo-product-callout-icon">
-              {%- render 'icon-plus' -%}
-              {%- render 'icon-minus' -%}
+              {{- 'icon-plus.svg' | inline_asset_content -}}
+              {{- 'icon-minus.svg' | inline_asset_content -}}
             </div>
           </h6>
           <div
@@ -91,9 +91,11 @@
   }
   .blo-product-callouts-header h2 {
     margin: 0 0 10px 0;
+    color: var(--blo-pine);
   }
   .blo-product-callouts-header p {
     margin: 0;
+    color: var(--blo-pine);
   }
   .blo-product-callouts-image-wrapper {
     position: relative;
@@ -143,7 +145,7 @@
     flex-direction: row;
     gap: 10px;
     align-items: center;
-    color: var(--greyscale-Black);
+    color: var(--blo-pine);
     white-space: nowrap;
   }
   h6.top_left,
@@ -157,6 +159,7 @@
   }
   .blo-product-callout-wrapper p {
     margin: 0;
+    color: var(--blo-pine);
   }
   .blo-product-callout-wrapper .rte {
     display: none;
