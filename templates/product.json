@@ -64,6 +64,19 @@
             "show_gift_card_recipient": true
           }
         },
+        "back_in_stock_customer_alerts_app_block_UBNLgM": {
+          "type": "shopify://apps/back-in-stock-customer-alerts/blocks/app-block/bfa6a8c4-24e2-411a-9396-e35031b33f34",
+          "settings": {
+            "caption": "Email when available",
+            "font_size": 16,
+            "color": "#ffffff",
+            "background_color": "#000000",
+            "margin_top": 10,
+            "margin_bottom": 10,
+            "classes": "button button--full-width",
+            "style": "text-decoration:none"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -104,6 +117,7 @@
         "quantity_selector",
         "custom_low_stock_JTRiRj",
         "buy_buttons",
+        "back_in_stock_customer_alerts_app_block_UBNLgM",
         "description",
         "collapsible-row-0",
         "collapsible-row-3",
