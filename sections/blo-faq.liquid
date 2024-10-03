@@ -200,34 +200,17 @@
       {%- endcase -%}
     {%- endfor -%}
   </div>
-
-  {%- if section.settings.texture_top == true -%}
-    {% render 'blo-edge-texture', pinDirection: 'top' %}
-  {%- endif -%}
-  {%- if section.settings.texture_bottom == true -%}
-    {% render 'blo-edge-texture', pinDirection: 'bottom' %}
-  {%- endif -%}
 </div>
 
 {% schema %}
 {
   "name": "BLO: FAQ",
-  "class": "section blo-faq-section blo-image-and-text blo-edge-texture-wrapper",
+  "class": "section blo-faq-section blo-image-and-text",
   "settings": [
     {
       "type": "color",
       "id": "background_color",
       "label": "Background Color"
-    },
-    {
-      "type": "checkbox",
-      "id": "texture_top",
-      "label": "Enable Top Texture"
-    },
-    {
-      "type": "checkbox",
-      "id": "texture_bottom",
-      "label": "Enable Bottom Texture"
     },
     {
       "type": "text",
