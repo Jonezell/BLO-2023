@@ -108,6 +108,7 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Care Instructions",
             "icon": "washing",
@@ -200,6 +201,7 @@
         "callout_7fV3cD",
         "callout_BxjKGh"
       ],
+      "disabled": true,
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
         "text": "Lorem ipsum dolor sit amet consectetur",
@@ -309,6 +311,7 @@
         "text_DPLYYX",
         "buttons_rDdkEK"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Rust_Fabric_986d7f51-ce81-4388-8098-4392998abf81.jpg"
       }
