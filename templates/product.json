@@ -98,11 +98,12 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
+            "heading": "Sizing",
+            "icon": "ruler",
             "content": "",
-            "page": ""
+            "page": "size-chart-two-piece-set"
           }
         },
         "collapsible-row-3": {
