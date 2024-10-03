@@ -12,13 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -69,24 +62,6 @@
             "page": ""
           }
         },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
@@ -98,13 +73,13 @@
         },
         "share": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "caption",
         "price",
@@ -113,8 +88,6 @@
         "buy_buttons",
         "description",
         "collapsible-row-0",
-        "collapsible-row-1",
-        "collapsible-row-2",
         "collapsible-row-3",
         "share"
       ],
@@ -132,6 +105,22 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
+      }
+    },
+    "172791928687cb93f7": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_w8Ua44": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_w8Ua44"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "image-with-text": {
@@ -235,6 +224,7 @@
   },
   "order": [
     "main",
+    "172791928687cb93f7",
     "image-with-text",
     "multicolumn",
     "related-products"
