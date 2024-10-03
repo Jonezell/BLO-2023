@@ -77,6 +77,14 @@
             "style": "text-decoration:none"
           }
         },
+        "blo_restock_note_mE6Xzy": {
+          "type": "blo-restock-note",
+          "settings": {
+            "header": "Restocking",
+            "text": "",
+            "hide-payment-plan": true
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -118,6 +126,7 @@
         "custom_low_stock_JTRiRj",
         "buy_buttons",
         "back_in_stock_customer_alerts_app_block_UBNLgM",
+        "blo_restock_note_mE6Xzy",
         "description",
         "collapsible-row-0",
         "collapsible-row-3",
