@@ -250,6 +250,7 @@
           "type": "review_list",
           "settings": {
             "product": "moon-phases-ribbed-two-piece-set",
+            "image": "shopify://shop_images/moon-phases-_-jet-balck.jpg",
             "review_text": "“Love this material. My kids are hot sleepers but these keep them perfectly covered and comfortable year-round.”",
             "review_name": "- Cassie K."
           }
@@ -258,6 +259,7 @@
           "type": "review_list",
           "settings": {
             "product": "construction-two-piece-set",
+            "image": "shopify://shop_images/Construction3Web.jpg",
             "review_text": "“Long lasting and so soft. Obsessed is an understatement.”",
             "review_name": "- Maggie R."
           }
