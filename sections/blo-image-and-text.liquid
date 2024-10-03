@@ -129,6 +129,9 @@
 </div>
 
 {% style %}
+  .blo-image-and-text {
+    overflow: hidden;
+  }
     .blo-image-and-text-container {
         display: flex;
         flex-direction: row;
@@ -225,7 +228,8 @@
 
 
     @media screen and (max-width: 989px) {
-      .blo-image-and-text-container {
+      .blo-image-and-text-container,
+      .blo-image-and-text-container.blo-image-on-right {
           flex-direction: column;
           gap: 40px;
       }

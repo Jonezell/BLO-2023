@@ -1,82 +1,86 @@
-<div class="blo-africa-container page-width blo-section-{{ section.id }}-padding">
+<div class="blo-africa-container blo-section-{{ section.id }}-padding">
   <div class="blo-africa-media">
     {% if section.settings.image %}
       {{ section.settings.image | image_url: width: 3200 | image_tag: loading: 'lazy' }}
     {% endif %}
   </div>
-  <div class="blo-africa-text {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-    {%- for block in section.blocks -%}
-      {%- case block.type -%}
-        {%- when 'badge' -%}
-          <div>
-            <div
-              class="blo-badge inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+  <div class="blo-africa-text-container">
+    <div class="blo-africa-text {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when 'badge' -%}
+            <div>
+              <div
+                class="blo-badge inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+                {{ block.shopify_attributes }}
+              >
+                {{ block.settings.text }}
+              </div>
+            </div>
+          {%- when 'heading' -%}
+            <h2
+              class="blo-banner-title inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
               {{ block.shopify_attributes }}
             >
-              {{ block.settings.text }}
-            </div>
-          </div>
-        {%- when 'heading' -%}
-          <h2
-            class="blo-banner-title inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
-            {{ block.shopify_attributes }}
-          >
-            {{ block.settings.heading }}
-          </h2>
-        {%- when 'text' -%}
-          <div
-            class="blo-banner-text rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
-            {{ block.shopify_attributes }}
-          >
-            <p>{{ block.settings.text }}</p>
-          </div>
-        {%- when 'table-row' -%}
-          <div
-            class="blo-africa-row rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %} {% if block.settings.is-header == true %} blo-africa-row-header {% endif %}"
-            {{ block.shopify_attributes }}
-          >
-            <div class="blo-africa-row-content">
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M5 10L8.5 13.5L14 6" stroke="#335348" stroke-width="1.9"/>
-              </svg>
-              <p>{{ block.settings['text-pros'] }}</p>
-            </div>
-            <div class="blo-africa-row-content">
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <line x1="6.67175" y1="6.32825" x2="13.7428" y2="13.3993" stroke="#C27D4C" stroke-width="1.9"/>
-                <line x1="13.6718" y1="6.67175" x2="6.60068" y2="13.7428" stroke="#C27D4C" stroke-width="1.9"/>
-              </svg>
-              <p>{{ block.settings['text-cons'] }}</p>
-            </div>
-          </div>
-        {%- when 'buttons' -%}
-          <div
-            class="blo-africa-buttons {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
-            {{ block.shopify_attributes }}
-          >
-            <a
-              {% if block.settings.button_link == blank %}
-                role="link" aria-disabled="true"
-              {% else %}
-                href="{{ block.settings.button_link }}"
-              {% endif %}
-              class="button button--secondary"
+              {{ block.settings.heading }}
+            </h2>
+          {%- when 'text' -%}
+            <div
+              class="blo-banner-text rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+              {{ block.shopify_attributes }}
             >
-              {{- block.settings.button_label | escape -}}
-            </a>
-          </div>
-      {%- endcase -%}
-    {%- endfor -%}
+              <p>{{ block.settings.text }}</p>
+            </div>
+          {%- when 'table-row' -%}
+            <div
+              class="blo-africa-row rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %} {% if block.settings.is-header == true %} blo-africa-row-header {% endif %}"
+              {{ block.shopify_attributes }}
+            >
+              <div class="blo-africa-row-content">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 10L8.5 13.5L14 6" stroke="#335348" stroke-width="1.9"/>
+                </svg>
+                <p>{{ block.settings['text-pros'] }}</p>
+              </div>
+              <div class="blo-africa-row-content">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <line x1="6.67175" y1="6.32825" x2="13.7428" y2="13.3993" stroke="#C27D4C" stroke-width="1.9"/>
+                  <line x1="13.6718" y1="6.67175" x2="6.60068" y2="13.7428" stroke="#C27D4C" stroke-width="1.9"/>
+                </svg>
+                <p>{{ block.settings['text-cons'] }}</p>
+              </div>
+            </div>
+          {%- when 'buttons' -%}
+            <div
+              class="blo-africa-buttons {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+              {{ block.shopify_attributes }}
+            >
+              <a
+                {% if block.settings.button_link == blank %}
+                  role="link" aria-disabled="true"
+                {% else %}
+                  href="{{ block.settings.button_link }}"
+                {% endif %}
+                class="button button--secondary"
+              >
+                {{- block.settings.button_label | escape -}}
+              </a>
+            </div>
+        {%- endcase -%}
+      {%- endfor -%}
+    </div>
   </div>
 </div>
 
 {% style %}
+  .blo-africa {
+    background: var(--blo-indigo,#98B5CC)
+  }
     .blo-africa-container {
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 150px;
-        background: var(--blo-indigo,#98B5CC)
+        overflow: hidden;
     }
     .blo-africa-container.blo-image-on-right {
         flex-direction: row-reverse;
@@ -118,11 +122,16 @@
       bottom: -112px;
       left: -140px;
     }
+    .blo-africa-text-container {
+      display: flex;
+      width: 50%;
+      justify-content: center;
+    }
     .blo-africa-text {
       display: flex;
       flex-direction: column;
       gap:10px;
-      width: 50%;
+      max-width: 600px;
     }
     .blo-africa-text .button {
         margin-top: 20px;
@@ -165,32 +174,30 @@
       font-size: 14px;
       line-height: 130%;
     }
+    @media screen and (min-width: 990px) {
+      .blo-africa-container {
+          max-height: 1000px;
+      }
+      .blo-africa-text {
+
+        padding: 50px;
+      }
+    }
 
 
     @media screen and (max-width: 989px) {
       .blo-africa-container {
           flex-direction: column;
-          gap: 40px;
       }
       .blo-africa-media {
           width: 100%;
       }
-      .blo-africa-text {
+      .blo-africa-text-container {
           width: 100%;
       }
-  }
-
-
-
-  .blo-section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-  @media screen and (min-width: 750px) {
-    .blo-section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
+      .blo-africa-text {
+        padding: 100px 25px;
+      }
   }
 {% endstyle %}
 
