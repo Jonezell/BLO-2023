@@ -404,8 +404,8 @@
       ],
       "settings": {
         "layout-direction": "layout-right",
-        "media-type": "video",
-        "video": "shopify://files/videos/bravevideofw24-163.mp4",
+        "media-type": "image",
+        "image": "shopify://shop_images/About-us.png",
         "show_decoration": false,
         "text_color": "#335348",
         "padding_top": 100,
