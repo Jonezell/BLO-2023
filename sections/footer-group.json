@@ -1,29 +1,72 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "newsletter_cAfByX": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_7hgnGf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph_EWr36C": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Subscribe to get 10% off your first order!</p>"
+          }
+        },
+        "email_form_HdMTJq": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_7hgnGf",
+        "paragraph_EWr36C",
+        "email_form_HdMTJq"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 52
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "About",
+            "menu": "footer-about"
           }
         },
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
-            "menu": "footer"
+            "heading": "Help",
+            "menu": "footer-help"
           }
         },
         "footer-2": {
           "type": "text",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "About Us",
+            "subtext": "<p>Brave Little Ones is dedicated to providing high-quality, buttery soft children’s apparel made for playtime and snuggle time.</p>"
           }
         }
       },
@@ -33,21 +76,23 @@
         "footer-2"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
-        "newsletter_enable": true,
+        "color_scheme": "scheme-2",
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
-        "payment_enable": true,
-        "show_policy": false,
-        "margin_top": 48,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "payment_enable": false,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 52,
+        "padding_bottom": 16
       }
     }
   },
   "order": [
+    "newsletter_cAfByX",
     "footer"
   ]
 }
