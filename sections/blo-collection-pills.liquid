@@ -1,0 +1,104 @@
+{%- style -%}
+  .section.blo-collection-pills {
+    margin-top: 5px;
+  }
+  .blo-collection-pills-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  .blo-collection-pills-container {
+    display: inline-flex;
+    overflow-x: scroll;
+    padding: 0 30px;
+    justify-content: flex-start;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .blo-collection-pills-container::-webkit-scrollbar {
+    display: none;
+  }
+  @media screen and (min-width: 750px) {
+    .blo-collection-pills-container {
+      padding: 0 50px;
+    }
+    .blo-collection-pills-wrapper {
+      padding-bottom: 50px;
+    }
+    .blo-collection-pills-wrapper {
+      max-width: var(--page-width);
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+    }
+    .blo-collection-pills-wrapper:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 30px;
+      z-index: 1;
+      background: linear-gradient(90deg, #f8f4ee 0%, #f8f4ee00 100%);
+    }
+    .blo-collection-pills-wrapper:after {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 30px;
+      z-index: 1;
+      background: linear-gradient(90deg, #f8f4ee00 0%, #f8f4ee 100%);
+    }
+  }
+{%- endstyle -%}
+
+<div class="blo-collection-pills-wrapper">
+  <div class="blo-collection-pills-container toggle-wrapper {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+    {%- for block in section.blocks -%}
+      <a
+        class="blo-collection-pill toggle {% if collection.url == block.settings.linkurl or page.url == block.settings.linkurl %}selected{% endif%}"
+        href="{{block.settings.linkurl}}"
+      >
+        {% if block.settings.text != blank %}
+          {{ block.settings.text }}
+        {% else %}
+          {{ block.settings.linkurl | handle }}
+        {% endif %}
+      </a>
+    {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "BLO: Page Pills",
+  "class": "section blo-collection-pills",
+  "blocks": [
+    {
+      "type": "link",
+      "name": "Link",
+      "settings": [
+        {
+          "id": "text",
+          "type": "text",
+          "label": "Text"
+        },
+        {
+          "id": "linkurl",
+          "type": "url",
+          "label": "URL link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "BLO: Page Pills"
+    }
+  ]
+}
+{% endschema %}
