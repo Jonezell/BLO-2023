@@ -159,7 +159,7 @@
       ],
       "settings": {
         "title": "We have what you’re looking for.",
-        "padding_top": 100,
+        "padding_top": 152,
         "padding_bottom": 100
       }
     },
@@ -240,7 +240,7 @@
         "media-type": "video",
         "video": "shopify://files/videos/bravevideofw24-105.mp4",
         "padding_top": 100,
-        "padding_bottom": 100
+        "padding_bottom": 200
       }
     },
     "blo_reviews_p8yHqt": {
@@ -272,8 +272,8 @@
       "settings": {
         "title": "But, Don’t Just Take Our Word For It.",
         "subtitle": "We have over 3,800 raving five star reviews. Our customers love our buttery soft clothes!",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 200,
+        "padding_bottom": 200
       }
     },
     "blo_customer_favorite_products_efbjN3": {
@@ -326,7 +326,7 @@
         "title": "Shop Our Customer Favorites!",
         "button_label": "Shop Customer Favorites",
         "button_link": "shopify://collections/best-sellers",
-        "padding_top": 100,
+        "padding_top": 200,
         "padding_bottom": 100
       }
     },
@@ -373,7 +373,7 @@
         "show_decoration": true,
         "text_color": "#335348",
         "padding_top": 100,
-        "padding_bottom": 100
+        "padding_bottom": 200
       }
     },
     "blo_africa_hUickm": {
@@ -407,9 +407,7 @@
       "settings": {
         "image": "shopify://shop_images/africa.svg",
         "show_decoration": false,
-        "text_color": "#335348",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "text_color": "#335348"
       }
     },
     "blo_image_and_text_xkiUVn": {
@@ -446,8 +444,8 @@
         "image": "shopify://shop_images/About-us.png",
         "show_decoration": false,
         "text_color": "#335348",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 200,
+        "padding_bottom": 200
       }
     }
   },
