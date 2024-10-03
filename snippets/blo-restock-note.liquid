@@ -1,0 +1,58 @@
+{% comment %} This checks the quantity of each variant. if any vantian's inventory is less than 0 it stops the for loop and assigns has_out_of_stock_variant as true  {% endcomment %}
+{% assign has_out_of_stock_variant = false %}
+{% for variant in product.variants %}
+  {% if variant.inventory_quantity <= 0 %}
+    {% assign has_out_of_stock_variant = true %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% comment %} This renders the out of stock note {% endcomment %}
+{% if product.metafields.custom.restock_date and has_out_of_stock_variant == true %}
+  <div class="blo-restock-note">
+    <div class="blo-restock-note-header">
+      {% render 'icon-calendar' %}
+      <h6>
+        {{ block.settings.header }}
+        {{ product.metafields.custom.restock_date }}
+      </h6>
+    </div>
+    {% unless block.settings.text == blank %}
+      <p>{{ block.settings.text }}</p>
+    {% endunless %}
+  </div>
+
+  {% comment %} This hides the payment note when there are none {% endcomment %}
+  {% if block.settings['hide-payment-plan'] == true %}
+    <style>
+      .blo-custom-payments {
+        display: none;
+      }
+    </style>
+  {% endif %}
+{% endif %}
+
+{%- style -%}
+  .blo-restock-note {
+    background: var(--tan-Medium);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin-top: 30px;
+    text-decoration: none !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .blo-restock-note-header {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    gap: 10px;
+  }
+  .blo-restock-note-header h6 {
+    margin: 0;
+    color: var(--greyscale-Black);
+  }
+  .blo-restock-note p {
+    margin: 6px 0 0 0;
+  }
+{%- endstyle -%}

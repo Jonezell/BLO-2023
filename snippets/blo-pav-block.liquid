@@ -1,0 +1,139 @@
+{% comment %}
+  SNIPPET REVIEVES THIS DATA:
+  - PAV_target_collection = collection handle
+  - PAV_product_handle = current product handle
+  - PAV_product_type = current product type
+  - PAV_label = text for section title like "Style"
+  - PAV_style = can be "swatch" or "image"
+  - PAV_hide_sold_out = True or False
+{% endcomment %}
+
+<div class="product-options PAV">
+  <label class="form__label">{{ PAV_label }}</label>
+  <div class="PAV_container PAV_style_{{PAV_style}}">
+    {% paginate collections[PAV_target_collection].products by 100 %}
+      {% for product in collections[PAV_target_collection].products %}
+        <a
+          class="PAV_option {% if product.handle == PAV_product_handle %}selected{% endif %} {% if product.available == false %}SoldOut{% endif %} {% if product.handle != PAV_product_handle and product.available == false and PAV_hide_sold_out == true%}hidden{% endif %}"
+          href="{{ product.url }}"
+        >
+          <div
+            class="PAV_image"
+            style="background-image:url({% if PAV_style == "swatch" %}{{ product.featured_image | image_url: width: 260 }}{% else %}{{ product.featured_image | image_url: width: 100 }}{% endif %});"
+            loading="lazy"
+          ></div>
+          <label> {{ product.title }}</label>
+        </a>
+      {% endfor %}
+    {% endpaginate %}
+  </div>
+</div>
+
+{% style %}
+  .PAV {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .PAV_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2px;
+    margin-left: -2px;
+    margin-right: -2px;
+  }
+  .PAV_option {
+    padding: 2px;
+    background: transparent;
+    border: 2px solid transparent;
+    position: relative;
+  }
+  .PAV_option:hover {
+    border: 2px solid rgba(0, 0, 0, .1);
+  }
+  .PAV_option.selected {
+    border: 2px solid rgba(0, 0, 0, 1);
+  }
+  .PAV_option label {
+    position: absolute;
+    background: #191919;
+    color: #fff;
+    font-family: 'GothamRounded-Bold' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+    width: auto;
+    white-space: nowrap;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    pointer-events: none;
+  }
+  .PAV_option label:before {
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    border-top: 7px solid #191919;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    left: calc(50% - 8px);
+    width: 6px;
+    height: 6px;
+  }
+
+  @media screen and (min-width: 750px) {
+   .PAV_option:hover label {
+      display:block;
+    }
+  }
+
+  .PAV_option.SoldOut .PAV_image{
+    opacity: .4;
+  }
+
+  .PAV_option .PAV_image {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0,0,0,0.1);
+  }
+
+  /* Image Styles */
+  .PAV_container.PAV_style_image .PAV_option {
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+  }
+  .PAV_container.PAV_style_image .PAV_image {
+    border-radius: 5px;
+    background-size: 100%;
+  }
+  .PAV_container.PAV_style_image .PAV_option label {
+    bottom: 55px;
+  }
+
+  /* Swatch Styles */
+  .PAV_container.PAV_style_swatch .PAV_option {
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+  }
+  .PAV_container.PAV_style_swatch .PAV_image {
+    border-radius: 20px;
+    background-size: 130px;
+    background-position-y: {{PAV_swatch_offset_Y}}%;
+    background-position-x: {{PAV_swatch_offset_X}}%;
+  }
+  .PAV_container.PAV_style_swatch .PAV_option label {
+    bottom: 40px;
+  }
+{% endstyle %}
