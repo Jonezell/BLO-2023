@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "custom_liquid_a7ynkz": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% comment %} CUSTOM CODE {% endcomment %}\n          <div class=\"blo-product-badge-container\">\n            {%- if product.template_suffix == 'rompers-foldover' -%}\n              <p class=\"blo-product-badge eyebrow badge\">Fold-Over Feet</p>\n            {%- endif -%}\n            {%- if product.metafields.custom.label != blank -%}\n              <p class=\"blo-product-badge eyebrow badge\">\n                {{ product.metafields.custom.label }}\n              </p>\n            {%- endif -%}\n          </div>\n          {% comment %} END CUSTOM CODE {% endcomment %}"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -78,6 +84,7 @@
         }
       },
       "block_order": [
+        "custom_liquid_a7ynkz",
         "title",
         "price",
         "judge_me_reviews_preview_badge_pg4eqY",
