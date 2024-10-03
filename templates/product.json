@@ -27,6 +27,17 @@
           "settings": {
           }
         },
+        "produdct_as_variants_CXULYg": {
+          "type": "produdct-as-variants",
+          "settings": {
+            "label": "Options",
+            "style": "image",
+            "target_collection": "",
+            "swatch_offset_Y": 50,
+            "swatch_offset_X": 50,
+            "hide_sold_out": true
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -37,6 +48,13 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
+          }
+        },
+        "custom_low_stock_JTRiRj": {
+          "type": "custom-low-stock",
+          "settings": {
+            "inventory_threshold": 20,
+            "show_inventory_quantity": false
           }
         },
         "buy_buttons": {
@@ -81,8 +99,10 @@
         "title",
         "price",
         "judge_me_reviews_preview_badge_pg4eqY",
+        "produdct_as_variants_CXULYg",
         "variant_picker",
         "quantity_selector",
+        "custom_low_stock_JTRiRj",
         "buy_buttons",
         "description",
         "collapsible-row-0",
