@@ -19,6 +19,7 @@
         },
         "caption": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
@@ -27,6 +28,17 @@
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "judge_me_reviews_preview_badge_4jMMRx": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "custom_liquid_fNJfeT": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "BLO: Products As Variants"
           }
         },
         "variant_picker": {
@@ -83,6 +95,8 @@
         "title",
         "caption",
         "price",
+        "judge_me_reviews_preview_badge_4jMMRx",
+        "custom_liquid_fNJfeT",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -220,6 +234,15 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "custom_liquid_PWyCPW": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "BLO: FAQ",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -227,6 +250,7 @@
     "172791928687cb93f7",
     "image-with-text",
     "multicolumn",
-    "related-products"
+    "related-products",
+    "custom_liquid_PWyCPW"
   ]
 }
