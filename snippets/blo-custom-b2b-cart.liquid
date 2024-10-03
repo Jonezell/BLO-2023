@@ -1,0 +1,104 @@
+{% comment %} NOTE THIS ONLY SHOWS FOR B2B CUSTOMERS {% endcomment %}
+
+{%- if customer.b2b? -%}
+  <div class="b2b-min-note hidden" id="b2b-min-note-{{ location }}">
+    <p class="b2b-cart-note">
+      Our wholesale order minimum is $400. Please add more products to your cart to meet the minimum requirement.
+    </p>
+  </div>
+
+  {%- if location == 'drawer' -%}
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        // Function to check cart price & add classes to show or hide buttons & wholesale note
+
+
+        {% comment %} CONDITION CHECKER {% endcomment %}
+        function checkConditions() {
+
+          const htmlElement = document.querySelector('.cart-drawer__footer .totals__total-value');
+          const text = htmlElement.textContent;
+          const subtotalValue = text.replace(/[^0-9]/g, '');
+
+
+          if (subtotalValue < 40000) {
+            document.querySelector('#CartDrawer-Checkout').classList.add('hidden');
+            document.querySelector('#b2b-min-note-drawer').classList.remove('hidden');
+          } else {
+            document.querySelector('#CartDrawer-Checkout').classList.remove('hidden');
+            document.querySelector('#b2b-min-note-drawer').classList.add('hidden');
+          }
+        }
+
+        // Run the initial check
+        checkConditions();
+
+
+        {% comment %} CLICK TRIGGER {% endcomment %}
+          var myElementToCheckIfClicksAreInsideOf = document.querySelector('#CartDrawer');
+          // Listen for click events on body
+          document.body.addEventListener('click', function (event) {
+              if (myElementToCheckIfClicksAreInsideOf.contains(event.target)) {
+                setTimeout(function () {
+                  checkConditions();
+                }, 1500);
+              }
+          });
+
+        {% comment %} DRAWER TRIGGER {% endcomment %}
+        var drawerItemsElement = document.querySelector('.drawer');
+        var observer = new MutationObserver(function () {
+          checkConditions();
+        });
+        observer.observe(drawerItemsElement, { attributes: true, attributeFilter: ['class'] });
+
+
+      });
+    </script>
+
+  {%- else -%}
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        // Function to check cart price & add classes to show or hide buttons & wholesale note
+
+        function checkConditions() {
+          const htmlElement = document.querySelector('.cart__footer-wrapper .totals__total-value');
+          const text = htmlElement.textContent;
+          const subtotalValue = text.replace(/[^0-9]/g, '');
+
+          if (subtotalValue < 40000) {
+            document.querySelector('#checkout').classList.add('hidden');
+            document.querySelector('#b2b-min-note-page').classList.remove('hidden');
+          } else {
+            document.querySelector('#checkout').classList.remove('hidden');
+            document.querySelector('#b2b-min-note-page').classList.add('hidden');
+          }
+        }
+
+        // Run the initial check
+        checkConditions();
+
+        // Event listener for class changes on .cart__items element
+        var cartItemsElement = document.querySelector('.cart__items');
+        var observer = new MutationObserver(function () {
+          checkConditions();
+        });
+        observer.observe(cartItemsElement, { attributes: true, attributeFilter: ['class'] });
+      });
+    </script>
+  {%- endif -%}
+
+  <style>
+    .b2b-cart-note {
+      background-color: #fae8e8;
+      color: rgb(213, 69, 69);
+      padding: 20px 10px;
+      border-radius: 10px;
+      text-align: center;
+      font-size: 14px;
+    }
+    .free_shipping_card_wrapper_clk1hm7264194051ouy4kiwfuy5 {
+      display: none !important;
+    }
+  </style>
+{%- endif -%}
