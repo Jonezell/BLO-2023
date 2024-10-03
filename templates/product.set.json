@@ -33,8 +33,8 @@
             "label": "Options",
             "style": "swatch",
             "target_collection": "two-piece-sets",
-            "swatch_offset_Y": 50,
-            "swatch_offset_X": 50,
+            "swatch_offset_Y": 35,
+            "swatch_offset_X": 40,
             "hide_sold_out": true
           }
         },
