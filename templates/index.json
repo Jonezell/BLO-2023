@@ -374,32 +374,42 @@
         "padding_bottom": 100
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "blo_image_and_text_xkiUVn": {
+      "type": "blo-image-and-text",
+      "blocks": {
+        "heading_de4ebx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Who We Are"
+          }
+        },
+        "text_agMYgt": {
+          "type": "text",
+          "settings": {
+            "text": "Hi, I’m Tiffaney Ezell, Founder and Owner of Brave Little Ones. We are proud to be a woman owned & women-run business. Our brand story is one of resilience, purpose, and empowerment."
+          }
+        },
+        "buttons_BDTGXy": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify://pages/about-us"
+          }
+        }
+      },
+      "block_order": [
+        "heading_de4ebx",
+        "text_agMYgt",
+        "buttons_BDTGXy"
+      ],
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
+        "layout-direction": "layout-right",
+        "media-type": "image",
+        "image": "shopify://shop_images/About-us.png",
+        "show_decoration": false,
+        "text_color": "#335348",
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     }
   },
@@ -411,6 +421,6 @@
     "blo_reviews_p8yHqt",
     "blo_customer_favorite_products_efbjN3",
     "blo_image_and_text_YhxCER",
-    "featured_collection"
+    "blo_image_and_text_xkiUVn"
   ]
 }
