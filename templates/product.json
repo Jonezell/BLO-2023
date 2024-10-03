@@ -140,11 +140,59 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "blo_faq_7gVA7y": {
+      "type": "blo-faq",
+      "blocks": {
+        "collapsible_tab_D3dTnA": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_CYJxHw": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_pmXUGa": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_D3dTnA",
+        "collapsible_tab_CYJxHw",
+        "collapsible_tab_pmXUGa"
+      ],
+      "settings": {
+        "background_color": "#c27d4c",
+        "texture_top": false,
+        "texture_bottom": false,
+        "mainHeading": "Have Questions?",
+        "mainText": "",
+        "layout": "image_first",
+        "padding_top": 200,
+        "padding_bottom": 200
+      }
     }
   },
   "order": [
     "main",
     "172791928687cb93f7",
-    "related-products"
+    "related-products",
+    "blo_faq_7gVA7y"
   ]
 }
