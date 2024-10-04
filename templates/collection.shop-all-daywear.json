@@ -30,36 +30,43 @@
         "link_Ar3png": {
           "type": "link",
           "settings": {
-            "text": "Zip Rompers",
-            "linkurl": "shopify://collections/zip-rompers"
+            "text": "Shirts",
+            "linkurl": "shopify://collections/shirts"
           }
         },
         "link_X6btXJ": {
           "type": "link",
           "settings": {
-            "text": "Two-Piece Sets",
-            "linkurl": "shopify://collections/two-piece-sets"
+            "text": "Pocket Dresses",
+            "linkurl": "shopify://collections/pocket-dresses"
           }
         },
         "link_PL8BaE": {
           "type": "link",
           "settings": {
-            "text": "Shorts Two-Piece Sets",
-            "linkurl": "shopify://collections/shorts-two-piece-set"
+            "text": "Pullovers & Joggers",
+            "linkurl": "shopify://collections/pullovers-joggers"
           }
         },
         "link_iYnxaU": {
           "type": "link",
           "settings": {
-            "text": "Summer Zip Rompers",
-            "linkurl": "shopify://collections/summer-zip-rompers"
+            "text": "Puffer Jackets",
+            "linkurl": "shopify://collections/puffer-jackets-release"
           }
         },
         "link_Vpf4Rh": {
           "type": "link",
           "settings": {
-            "text": "Knotted Gowns",
-            "linkurl": "shopify://collections/knotted-gowns"
+            "text": "Hoodies",
+            "linkurl": "shopify://collections/hoodies"
+          }
+        },
+        "link_CQ9n4K": {
+          "type": "link",
+          "settings": {
+            "text": "Briefs & Underwear",
+            "linkurl": "shopify://collections/briefs-underwear"
           }
         }
       },
@@ -69,7 +76,8 @@
         "link_X6btXJ",
         "link_PL8BaE",
         "link_iYnxaU",
-        "link_Vpf4Rh"
+        "link_Vpf4Rh",
+        "link_CQ9n4K"
       ],
       "settings": {
       }
