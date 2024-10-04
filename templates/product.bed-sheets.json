@@ -185,12 +185,6 @@
             "text": "Temperature regulating keeping your little one cool in summer and warm in winter."
           }
         },
-        "text_BtnKJ3": {
-          "type": "text",
-          "settings": {
-            "text": "Our snug-fitting cozy pajamas are CPSC compliant and never treated with flame-retardants or chemicals."
-          }
-        },
         "text_DPLYYX": {
           "type": "text",
           "settings": {
@@ -210,65 +204,11 @@
         "text_8Utc6r",
         "text_4C4EtG",
         "text_kEFwFx",
-        "text_BtnKJ3",
         "text_DPLYYX",
         "buttons_rDdkEK"
       ],
       "settings": {
         "image": "shopify://shop_images/daisyEG_L6815_5f0076e6-05bf-4daf-9e6a-28738d2d1659.jpg"
-      }
-    },
-    "172791928687cb93f7": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_w8Ua44": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_w8Ua44"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "blo_product_callouts_qHXD4R": {
-      "type": "blo-product-callouts",
-      "blocks": {
-        "callout_7fV3cD": {
-          "type": "Callout",
-          "settings": {
-            "pin_direction": "top_right",
-            "block_title": "Benefit 2",
-            "block_text": "Feature Text",
-            "horizontal_position": 50,
-            "vertical_position": 28
-          }
-        },
-        "callout_BxjKGh": {
-          "type": "Callout",
-          "settings": {
-            "pin_direction": "top_right",
-            "block_title": "Benefit",
-            "block_text": "Super cool feature!",
-            "horizontal_position": 18,
-            "vertical_position": 80
-          }
-        }
-      },
-      "block_order": [
-        "callout_7fV3cD",
-        "callout_BxjKGh"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "We’ve thought of it so you don’t have to.",
-        "text": "Lorem ipsum dolor sit amet consectetur",
-        "image": "shopify://shop_images/SummerZip.jpg",
-        "padding_top": 100,
-        "padding_bottom": 100
       }
     },
     "blo_faq_7gVA7y": {
@@ -316,6 +256,22 @@
         "padding_bottom": 200
       }
     },
+    "172791928687cb93f7": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_w8Ua44": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_w8Ua44"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -338,9 +294,8 @@
   "order": [
     "main",
     "blo_fabric_3BAiXt",
-    "172791928687cb93f7",
-    "blo_product_callouts_qHXD4R",
     "blo_faq_7gVA7y",
+    "172791928687cb93f7",
     "related-products"
   ]
 }
