@@ -34,13 +34,6 @@
             "linkurl": "shopify://collections/zip-rompers"
           }
         },
-        "link_iYnxaU": {
-          "type": "link",
-          "settings": {
-            "text": "Summer Zip Rompers",
-            "linkurl": "shopify://collections/summer-zip-rompers"
-          }
-        },
         "link_X6btXJ": {
           "type": "link",
           "settings": {
@@ -54,14 +47,29 @@
             "text": "Shorts Two-Piece Sets",
             "linkurl": "shopify://collections/shorts-two-piece-set"
           }
+        },
+        "link_iYnxaU": {
+          "type": "link",
+          "settings": {
+            "text": "Summer Zip Rompers",
+            "linkurl": "shopify://collections/summer-zip-rompers"
+          }
+        },
+        "link_Vpf4Rh": {
+          "type": "link",
+          "settings": {
+            "text": "Knotted Gowns",
+            "linkurl": "shopify://collections/knotted-gowns"
+          }
         }
       },
       "block_order": [
         "link_mf33wC",
         "link_Ar3png",
-        "link_iYnxaU",
         "link_X6btXJ",
-        "link_PL8BaE"
+        "link_PL8BaE",
+        "link_iYnxaU",
+        "link_Vpf4Rh"
       ],
       "settings": {
       }
