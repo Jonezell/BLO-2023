@@ -27,17 +27,6 @@
           "settings": {
           }
         },
-        "produdct_as_variants_CXULYg": {
-          "type": "produdct-as-variants",
-          "settings": {
-            "label": "Options",
-            "style": "image",
-            "target_collection": "",
-            "swatch_offset_Y": 50,
-            "swatch_offset_X": 50,
-            "hide_sold_out": true
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -96,29 +85,21 @@
           "settings": {
           }
         },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "disabled": true,
+        "complementary_fHUAGq": {
+          "type": "complementary",
           "settings": {
-            "heading": "Sizing",
-            "icon": "ruler",
-            "content": "",
-            "page": "size-chart-two-piece-set"
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "washing",
-            "content": "<p><strong>How do I care for bamboo?</strong></p><p><em><strong>Step One: </strong></em><br/>Turn the garment inside out before washing and drying.<br/></p><p><em><strong>Step Two: </strong></em><br/>Wash in cold water on the normal or quick cycle. We do not recommend washing on delicate since it makes products sit in water for too long.<br/></p><p><em><strong>Step Three: </strong></em><strong><br/></strong>Dry on the normal heat setting.</p>",
-            "page": ""
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
           }
         },
         "share": {
           "type": "share",
-          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
@@ -128,7 +109,6 @@
         "title",
         "price",
         "judge_me_reviews_preview_badge_pg4eqY",
-        "produdct_as_variants_CXULYg",
         "variant_picker",
         "quantity_selector",
         "custom_low_stock_JTRiRj",
@@ -137,8 +117,7 @@
         "blo_restock_note_mE6Xzy",
         "blo_payment_plans_BXirh9",
         "description",
-        "collapsible-row-0",
-        "collapsible-row-3",
+        "complementary_fHUAGq",
         "share"
       ],
       "settings": {
@@ -171,6 +150,62 @@
       ],
       "settings": {
         "include_margins": true
+      }
+    },
+    "multicolumn_9BaJhe": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_UTBcGP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/A87D08E7-7A14-4486-993E-E19ABE8DE81B_0332461c-031f-4b23-a3df-f31085cfaa94.gif",
+            "title": "Buttery Soft",
+            "text": "<p>Made from buttery soft Bamboo Viscose. Our luxurious material keeps your little one comfortable and stylish, day and night.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3BHY6D": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3F02344C-B535-4601-93D1-C447626AEA92_de0bff00-0bd5-41ad-bdd5-4aa713c3ee22.gif",
+            "title": "Breathable",
+            "text": "<p>Bamboo mimics breathability through hollow micro-fibers naturally allowing more airflow.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bHmczp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1E901AB4-4050-4D01-8276-91106985717A_d61d8769-52b0-4288-8861-69ad3d9d06b0.gif",
+            "title": "Gentle on Skin",
+            "text": "<p>Bamboo offers the gentlest touch to a baby’s skin. Smooth fibers lay flat against the skin, limiting irritation for sensitive skin.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_UTBcGP",
+        "column_3BHY6D",
+        "column_bHmczp"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "blo_product_callouts_qHXD4R": {
@@ -338,6 +373,7 @@
   "order": [
     "main",
     "172791928687cb93f7",
+    "multicolumn_9BaJhe",
     "blo_product_callouts_qHXD4R",
     "blo_faq_7gVA7y",
     "blo_fabric_3BAiXt",
