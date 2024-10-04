@@ -191,10 +191,10 @@
           "type": "Callout",
           "settings": {
             "pin_direction": "top_right",
-            "block_title": "Benefit 2",
-            "block_text": "Feature Text",
-            "horizontal_position": 50,
-            "vertical_position": 28
+            "block_title": "Stretchy Waistband",
+            "block_text": "Discover the perfect balance of comfort and style with our elastic waistband, designed to provide maximum comfort for your little ones.",
+            "horizontal_position": 26,
+            "vertical_position": 8
           }
         },
         "callout_BxjKGh": {
