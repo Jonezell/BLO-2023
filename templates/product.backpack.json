@@ -171,10 +171,10 @@
           "type": "Callout",
           "settings": {
             "pin_direction": "top_right",
-            "block_title": "Benefit 2",
-            "block_text": "Feature Text",
-            "horizontal_position": 50,
-            "vertical_position": 28
+            "block_title": "Full Size",
+            "block_text": "Fits full size folders and binders. 15.5\" Tall, 3.5\" Deep, 10.5\" Wide",
+            "horizontal_position": 8,
+            "vertical_position": 36
           }
         },
         "callout_BxjKGh": {
