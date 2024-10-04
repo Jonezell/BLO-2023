@@ -201,10 +201,10 @@
           "type": "Callout",
           "settings": {
             "pin_direction": "top_right",
-            "block_title": "Benefit",
-            "block_text": "Super cool feature!",
-            "horizontal_position": 18,
-            "vertical_position": 80
+            "block_title": "Buttery Soft Bamboo",
+            "block_text": "Our boxer briefs are made from the same buttery soft bamboo viscose as our PJs. Our luxurious material keeps your little one comfortable and stylish, day and night.",
+            "horizontal_position": 26,
+            "vertical_position": 82
           }
         }
       },
@@ -212,7 +212,6 @@
         "callout_7fV3cD",
         "callout_BxjKGh"
       ],
-      "disabled": true,
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
         "text": "Discover the ultimate daytime comfort with our perfectly crafted Briefs.",
