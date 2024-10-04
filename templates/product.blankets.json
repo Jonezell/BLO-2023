@@ -264,24 +264,6 @@
             "text": "Perfectly sized, these blankets complement our pajamas as they're made from some of our most popular prints!"
           }
         },
-        "text_kEFwFx": {
-          "type": "text",
-          "settings": {
-            "text": "Temperature regulating keeping your little one cool in summer and warm in winter."
-          }
-        },
-        "text_BtnKJ3": {
-          "type": "text",
-          "settings": {
-            "text": "Our snug-fitting cozy pajamas are CPSC compliant and never treated with flame-retardants or chemicals."
-          }
-        },
-        "text_DPLYYX": {
-          "type": "text",
-          "settings": {
-            "text": "Our bamboo viscose fabric is Oeko-Tex® Standard 100 certified and has been rigorously tested against hundreds of toxic chemicals."
-          }
-        },
         "buttons_rDdkEK": {
           "type": "buttons",
           "settings": {
@@ -294,9 +276,6 @@
         "heading_Jzz8Nx",
         "text_8Utc6r",
         "text_4C4EtG",
-        "text_kEFwFx",
-        "text_BtnKJ3",
-        "text_DPLYYX",
         "buttons_rDdkEK"
       ],
       "settings": {
