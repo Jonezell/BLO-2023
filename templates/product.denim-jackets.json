@@ -200,11 +200,11 @@
         "callout_BxjKGh": {
           "type": "Callout",
           "settings": {
-            "pin_direction": "top_right",
-            "block_title": "Benefit",
-            "block_text": "Super cool feature!",
-            "horizontal_position": 18,
-            "vertical_position": 80
+            "pin_direction": "top_left",
+            "block_title": "Custom Buttons",
+            "block_text": "Our denim jackets feature customized Brave Little Ones buttons, adding an extra bit of unique detail!",
+            "horizontal_position": 52,
+            "vertical_position": 50
           }
         }
       },
