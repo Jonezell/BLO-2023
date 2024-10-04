@@ -51,7 +51,8 @@
         "video": "shopify://files/videos/bravevideofw24-163.mp4",
         "background-color": "#eaeaea",
         "top-shape-color": "#98b5cc",
-        "bottom-shape-color": "#edb396"
+        "bottom-shape-color": "#edb396",
+        "show-under-header": true
       }
     },
     "blo_scrolling_benefits_afMweU": {
