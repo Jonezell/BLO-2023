@@ -98,7 +98,6 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Sizing",
             "icon": "ruler",
@@ -108,7 +107,6 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Care Instructions",
             "icon": "washing",
@@ -116,9 +114,21 @@
             "page": ""
           }
         },
+        "complementary_DW7azx": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
+        },
         "share": {
           "type": "share",
-          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
@@ -139,6 +149,7 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-3",
+        "complementary_DW7azx",
         "share"
       ],
       "settings": {
@@ -180,10 +191,10 @@
           "type": "Callout",
           "settings": {
             "pin_direction": "top_right",
-            "block_title": "Benefit 2",
-            "block_text": "Feature Text",
-            "horizontal_position": 50,
-            "vertical_position": 28
+            "block_title": "Soft Denim",
+            "block_text": "Our denim jackets are made from a high quality, soft denim that will keep your little ones both comfortable and warm. Whether you're purchasing oversized to layer with one of our pullovers, or buying true to size, you won't be disappointed in these long-lasting and functional jackets.",
+            "horizontal_position": 24,
+            "vertical_position": 22
           }
         },
         "callout_BxjKGh": {
