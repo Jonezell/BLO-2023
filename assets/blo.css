@@ -569,8 +569,10 @@ body .menu-drawer .menu-drawer__close-button {
   padding-bottom: 10px;
   transition: padding .3s cubic-bezier(.52,0,.61,.99);
 }
-
 .section-header.shopify-section-header-sticky.scrolled-past-header .header__inline-menu {
   margin-top: 0;
   transition: margin-top .3s cubic-bezier(.52,0,.61,.99);
+}
+.section-header.shopify-section-header-sticky.scrolled-past-header .header__heading-logo-wrapper {
+  width: 85%;
 }

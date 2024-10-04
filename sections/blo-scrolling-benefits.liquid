@@ -48,9 +48,14 @@
     flex-direction: row;
     align-items: center;
     gap: 30px;
+
+    text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%; 
+    -moz-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%;
 }
 .blo-scrolling-benefits-block {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     align-items: center;
     gap: 10px;
@@ -65,14 +70,32 @@
 }
 
 
+
+/* ANIMATION */
+@media (prefers-reduced-motion: reduce) {
+  .blo-scrolling-benefits-container {
+    animation-play-state: paused !important;
+  }
+}
+.blo-scrolling-benefits:hover .blo-scrolling-benefits-container {
+  animation-play-state: paused;
+}
 .blo-scrolling-benefits-container {
-  animation-name: example;
-  animation-duration: 20s;
+  animation: scroll 80s linear infinite;
 }
 
-@keyframes example {
-  from {margin-left: 0}
-  to {margin-left: -100%}
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-50%));
+  }
+}
+@media screen and (max-width: 890px) { 
+  .blo-scrolling-benefits-container {
+    animation-duration: 50s;
+  }
 }
 
 {%- endstyle -%}
