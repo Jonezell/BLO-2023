@@ -290,45 +290,45 @@
         "product_list_ewFzzq": {
           "type": "product_list",
           "settings": {
-            "product": "cookies-and-milk-two-piece-set",
-            "image": "shopify://shop_images/BU5A1930.jpg"
-          }
-        },
-        "product_list_hmnNeB": {
-          "type": "product_list",
-          "settings": {
-            "product": "construction-two-piece-set",
-            "image": "shopify://shop_images/98A8A6593-Edit.jpg"
-          }
-        },
-        "product_list_rBaXtP": {
-          "type": "product_list",
-          "settings": {
-            "product": "moon-phases-ribbed-two-piece-set",
-            "image": "shopify://shop_images/bravelittleonesnov-930.jpg"
+            "product": "camel-floral-zip-romper",
+            "image": "shopify://shop_images/camel-IMG_8720_c7f74733-336d-45c6-b6c4-c2c54239469e.jpg"
           }
         },
         "product_list_8EDnm7": {
           "type": "product_list",
           "settings": {
+            "product": "cookies-and-milk-two-piece-set",
+            "image": "shopify://shop_images/BU5A1953.jpg"
+          }
+        },
+        "product_list_hmnNeB": {
+          "type": "product_list",
+          "settings": {
             "product": "waves-zip-romper",
-            "image": "shopify://shop_images/waves-zip_d9c87dab-0583-47bf-aa9b-5b79caf2e08c.jpg"
+            "image": "shopify://shop_images/Waves-zip-2.jpg"
           }
         },
         "product_list_rVp3GL": {
           "type": "product_list",
           "settings": {
-            "product": "ballet-pink-small-ribbed-two-piece-set",
-            "image": "shopify://shop_images/Photo_Jun_06_2024_10_43_20_AM.jpg"
+            "product": "wildflowers-two-piece-set",
+            "image": "shopify://shop_images/bravelittleonesss24-879.jpg"
+          }
+        },
+        "product_list_rBaXtP": {
+          "type": "product_list",
+          "settings": {
+            "product": "cream-small-ribbed-zip-romper",
+            "image": "shopify://shop_images/Cream-Ribbed-Zip.jpg"
           }
         }
       },
       "block_order": [
         "product_list_ewFzzq",
-        "product_list_hmnNeB",
-        "product_list_rBaXtP",
         "product_list_8EDnm7",
-        "product_list_rVp3GL"
+        "product_list_hmnNeB",
+        "product_list_rVp3GL",
+        "product_list_rBaXtP"
       ],
       "settings": {
         "title": "Shop Our Customer Favorites!",
