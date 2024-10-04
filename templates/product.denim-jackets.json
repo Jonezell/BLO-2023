@@ -206,11 +206,22 @@
             "horizontal_position": 52,
             "vertical_position": 50
           }
+        },
+        "callout_fPjNgT": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_left",
+            "block_title": "Feature Functional Pockets",
+            "block_text": "Our denim jackets include two button flap front pockets and two side pockets making them a fashionable addition to any outfit.",
+            "horizontal_position": 26,
+            "vertical_position": 76
+          }
         }
       },
       "block_order": [
         "callout_7fV3cD",
-        "callout_BxjKGh"
+        "callout_BxjKGh",
+        "callout_fPjNgT"
       ],
       "disabled": true,
       "settings": {
