@@ -206,6 +206,7 @@
         "button_beDAbP"
       ],
       "settings": {
+        "image": "shopify://shop_images/Top-knot-beanie.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
