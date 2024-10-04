@@ -96,19 +96,8 @@
           "settings": {
           }
         },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Sizing",
-            "icon": "ruler",
-            "content": "",
-            "page": "size-chart-two-piece-set"
-          }
-        },
         "collapsible-row-3": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Care Instructions",
             "icon": "washing",
@@ -118,7 +107,6 @@
         },
         "share": {
           "type": "share",
-          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
@@ -137,7 +125,6 @@
         "blo_restock_note_mE6Xzy",
         "blo_payment_plans_BXirh9",
         "description",
-        "collapsible-row-0",
         "collapsible-row-3",
         "share"
       ],
@@ -171,6 +158,52 @@
       ],
       "settings": {
         "include_margins": true
+      }
+    },
+    "image_with_text_F44c8r": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_TVCDNa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Cozy, Warm Knit Beanies",
+            "heading_size": "h2"
+          }
+        },
+        "text_CrkfEy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_qzf3rg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_TVCDNa",
+        "text_CrkfEy",
+        "button_qzf3rg"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "blo_product_callouts_qHXD4R": {
@@ -338,6 +371,7 @@
   "order": [
     "main",
     "172791928687cb93f7",
+    "image_with_text_F44c8r",
     "blo_product_callouts_qHXD4R",
     "blo_faq_7gVA7y",
     "blo_fabric_3BAiXt",
