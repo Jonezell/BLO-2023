@@ -200,11 +200,11 @@
         "callout_hpqPm8": {
           "type": "Callout",
           "settings": {
-            "pin_direction": "top_right",
-            "block_title": "Feature Name",
-            "block_text": "Feature Text",
-            "horizontal_position": 50,
-            "vertical_position": 50
+            "pin_direction": "top_left",
+            "block_title": "Interior Name Tag",
+            "block_text": "Personalize your backpack while still keeping your kiddos privacy.",
+            "horizontal_position": 14,
+            "vertical_position": 6
           }
         }
       },
