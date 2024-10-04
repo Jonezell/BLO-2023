@@ -32,7 +32,29 @@
           "settings": {
             "label": "Options",
             "style": "image",
-            "target_collection": "",
+            "target_collection": "toddler-blankets",
+            "swatch_offset_Y": 50,
+            "swatch_offset_X": 50,
+            "hide_sold_out": true
+          }
+        },
+        "produdct_as_variants_axcHkd": {
+          "type": "produdct-as-variants",
+          "settings": {
+            "label": "Options",
+            "style": "image",
+            "target_collection": "youth-blanket",
+            "swatch_offset_Y": 50,
+            "swatch_offset_X": 50,
+            "hide_sold_out": true
+          }
+        },
+        "produdct_as_variants_8CkkC7": {
+          "type": "produdct-as-variants",
+          "settings": {
+            "label": "Options",
+            "style": "image",
+            "target_collection": "adult-blankets",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
@@ -129,6 +151,8 @@
         "price",
         "judge_me_reviews_preview_badge_pg4eqY",
         "produdct_as_variants_CXULYg",
+        "produdct_as_variants_axcHkd",
+        "produdct_as_variants_8CkkC7",
         "variant_picker",
         "quantity_selector",
         "custom_low_stock_JTRiRj",
