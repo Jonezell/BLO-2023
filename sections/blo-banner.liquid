@@ -208,12 +208,8 @@
       width: 100%;
   }
   .blo-banner-shape-top {
-    left: -80px;
-    top: -181px;
-    z-index: 1;
-    width: 450px;
-    height: 470px;
-    transform: rotate(125deg);
+    display: none;
+
   }
   .blo-banner-shape-bottom {
     right: 0;
@@ -276,6 +272,26 @@
         background: linear-gradient(90deg, rgba(225, 226, 227, 0) 0%, {{ section.settings.background-color }} 100%);
     }
   {% endif %}
+
+
+{% if section.settings.show-under-header == true %}
+  @media screen and (max-width: 989px) {
+    .section-header.shopify-section-header-sticky .header-wrapper{
+      background-color: transparent;
+    }
+    .blo-banner {
+      margin-top: -69px;
+    }
+  }
+  @media screen and (min-width: 990px) { 
+    
+  }
+
+{% endif %}
+
+
+
+  
 }
 
 
@@ -342,6 +358,12 @@
         "id": "bottom-shape-color",
         "label": "Bottom Shape Color",
         "default": "#EDB396"
+    },
+    {
+      "type": "checkbox",
+      "id": "show-under-header",
+      "label": "Show Banner Under Header?",
+      "default": false
     }
   ],
   "blocks": [
