@@ -61,13 +61,6 @@
             "text": "Backpacks",
             "linkurl": "shopify://collections/backpacks"
           }
-        },
-        "link_XzFhNP": {
-          "type": "link",
-          "settings": {
-            "text": "Accessories",
-            "linkurl": "shopify://collections/accessories"
-          }
         }
       },
       "block_order": [
@@ -76,8 +69,7 @@
         "link_iYnxaU",
         "link_X6btXJ",
         "link_PL8BaE",
-        "link_FxV6x8",
-        "link_XzFhNP"
+        "link_FxV6x8"
       ],
       "settings": {
       }
