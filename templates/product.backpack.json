@@ -190,11 +190,11 @@
         "callout_qHxr9N": {
           "type": "Callout",
           "settings": {
-            "pin_direction": "top_right",
-            "block_title": "Feature Name",
-            "block_text": "Feature Text",
-            "horizontal_position": 50,
-            "vertical_position": 50
+            "pin_direction": "top_left",
+            "block_title": "Ultimate Organization",
+            "block_text": "Keep track of all your things with the internal pocket that can fit folders and books. Plus a front pocket and two water bottle holders for extra storage.",
+            "horizontal_position": 14,
+            "vertical_position": 56
           }
         },
         "callout_hpqPm8": {
