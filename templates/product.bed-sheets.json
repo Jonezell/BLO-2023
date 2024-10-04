@@ -38,6 +38,17 @@
             "hide_sold_out": true
           }
         },
+        "produdct_as_variants_ErLkaK": {
+          "type": "produdct-as-variants",
+          "settings": {
+            "label": "Options",
+            "style": "image",
+            "target_collection": "twin-sheets",
+            "swatch_offset_Y": 50,
+            "swatch_offset_X": 50,
+            "hide_sold_out": true
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -130,6 +141,7 @@
         "price",
         "judge_me_reviews_preview_badge_pg4eqY",
         "produdct_as_variants_CXULYg",
+        "produdct_as_variants_ErLkaK",
         "variant_picker",
         "quantity_selector",
         "custom_low_stock_JTRiRj",
