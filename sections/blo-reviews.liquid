@@ -56,7 +56,8 @@
             {% endif %}
           </div>
           <div class="blo-customer-reviews-product-name">
-            {{ block.settings.product.title }}
+            <p>{{ block.settings.product.title }}</p>
+            {{- 'icon-arrow.svg' | inline_asset_content -}}
           </div>
         </a>
         <div class="blo-customer-reviews-review">
@@ -178,6 +179,27 @@
       z-index:1;
       position: relative;
       margin-top: 10px;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+  }
+  .blo-customer-reviews-product-name svg {
+    fill: var(--blo-ivory);
+  }
+  .blo-customer-reviews-product-name p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--blo-ivory);
+  }
+  .blo-customer-reviews-product:hover .blo-customer-reviews-product-name,
+  .blo-customer-reviews-product:active .blo-customer-reviews-product-name {
+    gap: 15px;
+    transition: gap 250ms ease-in-out;
+  }
+  .blo-customer-reviews-product:hover .blo-customer-reviews-product-image img,
+  .blo-customer-reviews-product:active .blo-customer-reviews-product-image img{
+    transform: scale(1.01);
+    transition: transform 250ms ease-in-out;
   }
   .blo-customer-reviews-review {
       width: 530px;

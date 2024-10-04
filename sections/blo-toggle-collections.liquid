@@ -71,7 +71,16 @@
     padding-bottom: 0;
   }
   .blo-toggle-collections .collection-card-wrapper .card__information {
-    padding-top: 0;
+    padding-top: 20px;
+  }
+  .blo-toggle-collections .card--media {
+    background: transparent; /* change this for card's background color */
+    border-radius: var(--blo-corner-radius);
+    overflow: hidden;
+  }
+  .blo-toggle-collections .collection-list__item .card__inner {
+    border-radius: var(--blo-corner-radius);
+    overflow: hidden;
   }
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;

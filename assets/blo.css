@@ -445,9 +445,7 @@ iframe#chat-button {
   }
 }
 
-body .mega-menu__content {
-  border-bottom: 2px solid var(--tan-Medium);
-}
+
 body .mega-menu__content .mega-menu__list {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -460,11 +458,11 @@ body .mega-menu__content .mega-menu__list li{
   padding-right: 0;
 }
 body .mega-menu__link {
-  color: var(--greyscale-Black, #161616);
+  color: var(--blo-espresso);
 }
 body .mega-menu .BLO-megamenu-link {
   border-radius: var(--blo-corner-radius);
-  background-color: var(--tan-Medium);
+  background-color: transparent; /* add color for card container background */
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -485,13 +483,18 @@ body .mega-menu .BLO-megamenu-image {
   height: auto;
   display: block;
   transition: transform 300ms ease-in-out;
+  border-radius: var(--blo-corner-radius);
 }
 body .mega-menu .BLO-megamenu-link h6 { 
-  padding: 10px 5px;
+  padding: 15px 5px 0 5px;
   font-size: 16px;
   line-height: 130%;
   margin: 0;
-  color: var(--greyscale-Black);
+  color: var(--blo-espresso);
+  display: block;
+}
+body .header__menu-item {
+  color: var(--blo-espresso);
 }
 
 
@@ -575,4 +578,93 @@ body .menu-drawer .menu-drawer__close-button {
 }
 .section-header.shopify-section-header-sticky.scrolled-past-header .header__heading-logo-wrapper {
   width: 85%;
+}
+
+
+
+
+/* ---------------------------------------- BLO - CUSTOM COLLECTION STYLES ---------------------------------------- */
+.collection-hero .collection-hero__title {
+  text-align: center;
+  margin-top: 50px;
+  color: var(--blo-pine);
+  font-size: 28px;
+}
+.product-count-vertical,
+.product-count {
+  display: none;
+}
+.facet-filters label,
+.facet-filters select {
+  color: var(--blo-pine);
+}
+.facets-container .facets__disclosure-vertical {
+  background: #fff;
+  border: 1px solid var(--blo-ivory);
+  border-top-color: var(--blo-ivory);
+  border-radius: var(--blo-corner-radius);
+  padding: 0 20px;
+}
+.facets-container .facets__disclosure-vertical + .facets__disclosure-vertical {
+  margin-top: 10px;
+}
+.facets-container .facets__heading {
+  font-size: 22px;
+  color: var(--blo-pine);
+  align-items: center;
+}
+.facets-container .active-facets__button-inner.button {
+  background: var(--blo-ivory);
+  box-shadow: none;
+  color: var(--blo-pine);
+}
+.facets-container facet-remove {
+  margin-bottom: 0;
+}
+.facets-container a.active-facets__button {
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 750px) { 
+  .collection-hero .collection-hero__title {
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 0;
+  }
+  .facets-wrapper {
+    background: #fff;
+    border: 1px solid var(--blo-ivory);
+    border-radius: var(--blo-corner-radius);
+    padding: 0 15px;
+    position: relative;
+  }
+  .facets-container a.active-facets__button {
+      margin-bottom: 0px;
+      padding: 5px;
+  }
+  .facets-container .active-facets {
+    margin-bottom: 0;
+    padding: 5px;
+  }
+  .facets-container .active-facets__button-inner.button {
+    padding: 3px 11px;
+  }
+  .active-facets__button-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+
+
+/* ---------------------------------------- BLO - CUSTOM PRODUCT GRID & TILES ---------------------------------------- */
+
+.product-grid .grid__item .card{
+  border-color: var(--blo-ivory);
+}
+.product-grid .grid__item .card__content{
+  padding: 0;
+}
+.product-grid .grid__item .price{
+  margin-top:0;
 }
