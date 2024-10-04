@@ -184,12 +184,23 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_6xTBff": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ED465C9D-781C-4AB0-8918-DF18C011DCE1_70fa9c9d-89b1-4358-9bcc-fe9494e39a66.gif",
+            "title": "Temperature Regulating",
+            "text": "<p>Keeps your little one a few degrees cooler in summer and a few degrees warmer in winter.</p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_UTBcGP",
         "column_3BHY6D",
-        "column_bHmczp"
+        "column_bHmczp",
+        "column_6xTBff"
       ],
       "settings": {
         "title": "Multicolumn",
