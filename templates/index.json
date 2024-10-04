@@ -60,7 +60,7 @@
         "benefit_fKp636": {
           "type": "benefit",
           "settings": {
-            "text": "Buttery Soft & Ultra Stretchy PJs",
+            "text": "Buttery Soft & Ultra Stretchy Fabric",
             "image": "shopify://shop_images/Isolation_Mode.svg"
           }
         },
@@ -74,14 +74,21 @@
         "benefit_EYPnyq": {
           "type": "benefit",
           "settings": {
-            "text": "Never treated with flame retardants or harsh chemicals",
+            "text": "Never treated with flame retardants",
             "image": "shopify://shop_images/Isolation_Mode.svg"
           }
         },
         "benefit_KEB7kW": {
           "type": "benefit",
           "settings": {
-            "text": "Perfect for sensitive skin",
+            "text": "Our pjs offer the gentlest touch to your little ones skin, limiting irritation for sensitive skin.",
+            "image": "shopify://shop_images/Isolation_Mode.svg"
+          }
+        },
+        "benefit_tJccDb": {
+          "type": "benefit",
+          "settings": {
+            "text": "Temperature regulating keeping your little one cool in summer and warm in winter.",
             "image": "shopify://shop_images/Isolation_Mode.svg"
           }
         }
@@ -90,7 +97,8 @@
         "benefit_fKp636",
         "benefit_qBNKcE",
         "benefit_EYPnyq",
-        "benefit_KEB7kW"
+        "benefit_KEB7kW",
+        "benefit_tJccDb"
       ],
       "settings": {
       }
