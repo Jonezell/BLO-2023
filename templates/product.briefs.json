@@ -220,6 +220,53 @@
         "padding_bottom": 100
       }
     },
+    "image_with_text_xfbW36": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_E9JK6r": {
+          "type": "heading",
+          "settings": {
+            "heading": "Buttery Soft, Ultra Stretchy Bamboo Fabric",
+            "heading_size": "h2"
+          }
+        },
+        "text_Xe9VNW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Gentle enough for your newborn and durable enough for your older kids, our luxurious and buttery-soft bamboo will keep your little ones comfortable and stylish day and night.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_mczb7h": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_E9JK6r",
+        "text_Xe9VNW",
+        "button_mczb7h"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Camel-Small-Ribbed-7_980c7420-df31-4508-b3f0-70d4d3e8eae3.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "blo_faq_7gVA7y": {
       "type": "blo-faq",
       "blocks": {
@@ -282,61 +329,14 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
-    },
-    "image_with_text_xfbW36": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_E9JK6r": {
-          "type": "heading",
-          "settings": {
-            "heading": "Buttery Soft, Ultra Stretchy Bamboo Fabric",
-            "heading_size": "h2"
-          }
-        },
-        "text_Xe9VNW": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Gentle enough for your newborn and durable enough for your older kids, our luxurious and buttery-soft bamboo will keep your little ones comfortable and stylish day and night.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_mczb7h": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_E9JK6r",
-        "text_Xe9VNW",
-        "button_mczb7h"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Camel-Small-Ribbed-7_980c7420-df31-4508-b3f0-70d4d3e8eae3.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
     "172791928687cb93f7",
     "blo_product_callouts_qHXD4R",
+    "image_with_text_xfbW36",
     "blo_faq_7gVA7y",
-    "related-products",
-    "image_with_text_xfbW36"
+    "related-products"
   ]
 }
