@@ -98,7 +98,6 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Sizing",
             "icon": "ruler",
@@ -108,7 +107,6 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Care Instructions",
             "icon": "washing",
@@ -116,9 +114,21 @@
             "page": ""
           }
         },
+        "complementary_hk7Xgj": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
+        },
         "share": {
           "type": "share",
-          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
@@ -139,6 +149,7 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-3",
+        "complementary_hk7Xgj",
         "share"
       ],
       "settings": {
@@ -204,8 +215,8 @@
       "disabled": true,
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
-        "text": "Lorem ipsum dolor sit amet consectetur",
-        "image": "shopify://shop_images/SummerZip.jpg",
+        "text": "Discover the ultimate daytime comfort with our perfectly crafted Briefs.",
+        "image": "shopify://shop_images/Briefs_0e1b9118-8c91-4600-a82a-4deda9839290.jpg",
         "padding_top": 100,
         "padding_bottom": 100
       }
