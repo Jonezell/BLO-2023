@@ -96,6 +96,34 @@
           "settings": {
           }
         },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "washing",
+            "content": "<p><strong>How do I care for bamboo?</strong></p><p><em><strong>Step One: </strong></em><br/>Turn the garment inside out before washing and drying.<br/></p><p><em><strong>Step Two: </strong></em><br/>Wash in cold water on the normal or quick cycle. We do not recommend washing on delicate since it makes products sit in water for too long.<br/></p><p><em><strong>Step Three: </strong></em><strong><br/></strong>Dry on the normal heat setting.</p>",
+            "page": ""
+          }
+        },
+        "complementary_zAYm6j": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -104,23 +132,6 @@
             "icon": "ruler",
             "content": "",
             "page": "size-chart-two-piece-set"
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "washing",
-            "content": "<p><strong>How do I care for bamboo?</strong></p><p><em><strong>Step One: </strong></em><br/>Turn the garment inside out before washing and drying.<br/></p><p><em><strong>Step Two: </strong></em><br/>Wash in cold water on the normal or quick cycle. We do not recommend washing on delicate since it makes products sit in water for too long.<br/></p><p><em><strong>Step Three: </strong></em><strong><br/></strong>Dry on the normal heat setting.</p>",
-            "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
           }
         }
       },
@@ -137,9 +148,10 @@
         "blo_restock_note_mE6Xzy",
         "blo_payment_plans_BXirh9",
         "description",
-        "collapsible-row-0",
         "collapsible-row-3",
-        "share"
+        "complementary_zAYm6j",
+        "share",
+        "collapsible-row-0"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -171,43 +183,6 @@
       ],
       "settings": {
         "include_margins": true
-      }
-    },
-    "blo_product_callouts_qHXD4R": {
-      "type": "blo-product-callouts",
-      "blocks": {
-        "callout_7fV3cD": {
-          "type": "Callout",
-          "settings": {
-            "pin_direction": "top_right",
-            "block_title": "Benefit 2",
-            "block_text": "Feature Text",
-            "horizontal_position": 50,
-            "vertical_position": 28
-          }
-        },
-        "callout_BxjKGh": {
-          "type": "Callout",
-          "settings": {
-            "pin_direction": "top_right",
-            "block_title": "Benefit",
-            "block_text": "Super cool feature!",
-            "horizontal_position": 18,
-            "vertical_position": 80
-          }
-        }
-      },
-      "block_order": [
-        "callout_7fV3cD",
-        "callout_BxjKGh"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "We’ve thought of it so you don’t have to.",
-        "text": "Lorem ipsum dolor sit amet consectetur",
-        "image": "shopify://shop_images/SummerZip.jpg",
-        "padding_top": 100,
-        "padding_bottom": 100
       }
     },
     "blo_faq_7gVA7y": {
@@ -255,67 +230,6 @@
         "padding_bottom": 200
       }
     },
-    "blo_fabric_3BAiXt": {
-      "type": "blo-fabric",
-      "blocks": {
-        "heading_Jzz8Nx": {
-          "type": "heading",
-          "settings": {
-            "heading": "Say Hello To Pjs Your Littles Will Want To Live In."
-          }
-        },
-        "text_8Utc6r": {
-          "type": "text",
-          "settings": {
-            "text": "Made from buttery soft bamboo viscose. Our luxurious material keeps your little one cozy, day and night."
-          }
-        },
-        "text_4C4EtG": {
-          "type": "text",
-          "settings": {
-            "text": "Our pjs offer the gentlest touch to your little ones skin, limiting irritation for sensitive skin."
-          }
-        },
-        "text_kEFwFx": {
-          "type": "text",
-          "settings": {
-            "text": "Temperature regulating keeping your little one cool in summer and warm in winter."
-          }
-        },
-        "text_BtnKJ3": {
-          "type": "text",
-          "settings": {
-            "text": "Our snug-fitting cozy pajamas are CPSC compliant and never treated with flame-retardants or chemicals."
-          }
-        },
-        "text_DPLYYX": {
-          "type": "text",
-          "settings": {
-            "text": "Our bamboo viscose fabric is Oeko-Tex® Standard 100 certified and has been rigorously tested against hundreds of toxic chemicals."
-          }
-        },
-        "buttons_rDdkEK": {
-          "type": "buttons",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "shopify://blogs/blog/why-we-fell-in-love-with-bamboo"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Jzz8Nx",
-        "text_8Utc6r",
-        "text_4C4EtG",
-        "text_kEFwFx",
-        "text_BtnKJ3",
-        "text_DPLYYX",
-        "buttons_rDdkEK"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/Rust_Fabric_986d7f51-ce81-4388-8098-4392998abf81.jpg"
-      }
-    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -333,14 +247,59 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "image_with_text_n4khB7": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_dH4DVb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_i9Cj8X": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_TYTdBz": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dH4DVb",
+        "text_i9Cj8X",
+        "button_TYTdBz"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "172791928687cb93f7",
-    "blo_product_callouts_qHXD4R",
+    "image_with_text_n4khB7",
     "blo_faq_7gVA7y",
-    "blo_fabric_3BAiXt",
     "related-products"
   ]
 }
