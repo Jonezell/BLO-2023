@@ -62,28 +62,28 @@
           "type": "benefit",
           "settings": {
             "text": "Buttery Soft & Ultra Stretchy Fabric",
-            "image": "shopify://shop_images/Isolation_Mode.svg"
+            "image": "shopify://shop_images/icon-bamboo.svg"
           }
         },
         "benefit_qBNKcE": {
           "type": "benefit",
           "settings": {
             "text": "Oeko-Tex Standard 100 certified bamboo fabric",
-            "image": "shopify://shop_images/Isolation_Mode.svg"
+            "image": "shopify://shop_images/icon-certified.svg"
           }
         },
         "benefit_EYPnyq": {
           "type": "benefit",
           "settings": {
             "text": "Never treated with flame retardants",
-            "image": "shopify://shop_images/Isolation_Mode.svg"
+            "image": "shopify://shop_images/icon-no-flame.svg"
           }
         },
         "benefit_KEB7kW": {
           "type": "benefit",
           "settings": {
             "text": "Our pjs offer the gentlest touch to your little ones skin, limiting irritation for sensitive skin.",
-            "image": "shopify://shop_images/Isolation_Mode.svg"
+            "image": "shopify://shop_images/icon-gentile.svg"
           }
         },
         "benefit_tJccDb": {
