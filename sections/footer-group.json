@@ -11,6 +11,15 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "custom_liquid_PyzcdJ": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "BLO: Footer Decoration",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "newsletter_cAfByX": {
       "type": "newsletter",
       "blocks": {
@@ -92,6 +101,7 @@
     }
   },
   "order": [
+    "custom_liquid_PyzcdJ",
     "newsletter_cAfByX",
     "footer"
   ]

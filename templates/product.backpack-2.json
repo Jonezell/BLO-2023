@@ -96,6 +96,25 @@
           "settings": {
           }
         },
+        "complementary_tqPDRd": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -115,13 +134,6 @@
             "content": "<p><strong>How do I care for bamboo?</strong></p><p><em><strong>Step One: </strong></em><br/>Turn the garment inside out before washing and drying.<br/></p><p><em><strong>Step Two: </strong></em><br/>Wash in cold water on the normal or quick cycle. We do not recommend washing on delicate since it makes products sit in water for too long.<br/></p><p><em><strong>Step Three: </strong></em><strong><br/></strong>Dry on the normal heat setting.</p>",
             "page": ""
           }
-        },
-        "share": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
@@ -137,9 +149,10 @@
         "blo_restock_note_mE6Xzy",
         "blo_payment_plans_BXirh9",
         "description",
+        "complementary_tqPDRd",
+        "share",
         "collapsible-row-0",
-        "collapsible-row-3",
-        "share"
+        "collapsible-row-3"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -195,11 +208,33 @@
             "horizontal_position": 18,
             "vertical_position": 80
           }
+        },
+        "callout_qHxr9N": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Feature Name",
+            "block_text": "Feature Text",
+            "horizontal_position": 50,
+            "vertical_position": 50
+          }
+        },
+        "callout_hpqPm8": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Feature Name",
+            "block_text": "Feature Text",
+            "horizontal_position": 50,
+            "vertical_position": 50
+          }
         }
       },
       "block_order": [
         "callout_7fV3cD",
-        "callout_BxjKGh"
+        "callout_BxjKGh",
+        "callout_qHxr9N",
+        "callout_hpqPm8"
       ],
       "disabled": true,
       "settings": {
@@ -260,36 +295,42 @@
       "blocks": {
         "heading_Jzz8Nx": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Say Hello To Pjs Your Littles Will Want To Live In."
           }
         },
         "text_8Utc6r": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Made from buttery soft bamboo viscose. Our luxurious material keeps your little one cozy, day and night."
           }
         },
         "text_4C4EtG": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Our pjs offer the gentlest touch to your little ones skin, limiting irritation for sensitive skin."
           }
         },
         "text_kEFwFx": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Temperature regulating keeping your little one cool in summer and warm in winter."
           }
         },
         "text_BtnKJ3": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Our snug-fitting cozy pajamas are CPSC compliant and never treated with flame-retardants or chemicals."
           }
         },
         "text_DPLYYX": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Our bamboo viscose fabric is Oeko-Tex® Standard 100 certified and has been rigorously tested against hundreds of toxic chemicals."
           }
