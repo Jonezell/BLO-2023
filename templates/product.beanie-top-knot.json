@@ -32,7 +32,7 @@
           "settings": {
             "label": "Options",
             "style": "image",
-            "target_collection": "",
+            "target_collection": "top-knot-beanies",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
