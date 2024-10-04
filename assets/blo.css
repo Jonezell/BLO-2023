@@ -560,3 +560,17 @@ body .menu-drawer .menu-drawer__menu-item,
 body .menu-drawer .menu-drawer__close-button {
   transition: transform 200ms ease 0s
 }
+
+
+
+/* -------------------- BLO - CUSTOM NAV & STICKY HEADER STYLES -------------------- */
+.section-header.shopify-section-header-sticky.scrolled-past-header .header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: padding .3s cubic-bezier(.52,0,.61,.99);
+}
+
+.section-header.shopify-section-header-sticky.scrolled-past-header .header__inline-menu {
+  margin-top: 0;
+  transition: margin-top .3s cubic-bezier(.52,0,.61,.99);
+}
