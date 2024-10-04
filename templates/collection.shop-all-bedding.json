@@ -24,49 +24,42 @@
           "type": "link",
           "settings": {
             "text": "All",
-            "linkurl": "shopify://collections/shop-all"
+            "linkurl": "shopify://collections/bedding"
           }
         },
         "link_Ar3png": {
           "type": "link",
           "settings": {
-            "text": "PJs",
-            "linkurl": "shopify://collections/shop-all-pjs"
+            "text": "Toddler Blankets",
+            "linkurl": "shopify://collections/toddler-blankets"
           }
         },
         "link_iYnxaU": {
           "type": "link",
           "settings": {
-            "text": "Daywear",
-            "linkurl": "shopify://collections/daywear"
+            "text": "Youth Blankets",
+            "linkurl": "shopify://collections/youth-blanket"
           }
         },
         "link_X6btXJ": {
           "type": "link",
           "settings": {
-            "text": "Blankets & Sheets",
-            "linkurl": "shopify://collections/bedding"
+            "text": "Adult Blankets",
+            "linkurl": "shopify://collections/adult-blankets"
           }
         },
         "link_PL8BaE": {
           "type": "link",
           "settings": {
-            "text": "Sleep Sacks",
-            "linkurl": "shopify://collections/sleep-sacks"
+            "text": "Crib Sheets",
+            "linkurl": "shopify://collections/crib-sheets"
           }
         },
         "link_FxV6x8": {
           "type": "link",
           "settings": {
-            "text": "Women's",
-            "linkurl": "shopify://collections/womens"
-          }
-        },
-        "link_XzFhNP": {
-          "type": "link",
-          "settings": {
-            "text": "Accessories",
-            "linkurl": "shopify://collections/accessories"
+            "text": "Twin Sheets",
+            "linkurl": "shopify://collections/twin-sheets"
           }
         }
       },
@@ -76,8 +69,7 @@
         "link_iYnxaU",
         "link_X6btXJ",
         "link_PL8BaE",
-        "link_FxV6x8",
-        "link_XzFhNP"
+        "link_FxV6x8"
       ],
       "settings": {
       }
