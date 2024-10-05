@@ -805,6 +805,9 @@ quantity-input.quantity button.quantity__button,
 .jdgm-widget.jdgm-review-widget .jdgm-row-actions {
   display: none;
 }
+.jdgm-paginate {
+  border-color: transparent;
+}
 @media screen and (min-width: 750px) {
     .jdgm-widget.jdgm-review-widget .jdgm-rev-widg {
         padding: 160px 5rem;
