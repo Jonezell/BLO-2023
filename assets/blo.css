@@ -229,7 +229,7 @@ p, .p, footer .footer-block__details-content a, .facets-vertical .facet-checkbox
 
 /* EYEBROW STYLES */
 
-.eyebrow, th, p.announcement-bar__message.h5, .badge, .product .form__label, cart-drawer .free_shipping_card_title_clk1hm7264194051ouy4kiwfuy5.h2{
+.eyebrow, th, p.announcement-bar__message.h5, .badge, cart-drawer .free_shipping_card_title_clk1hm7264194051ouy4kiwfuy5.h2{
   font-family: 'sofia-pro' !important;
   font-style: normal !important;
   font-weight: 700 !important;
@@ -554,11 +554,11 @@ body .mega-menu .BLO-megamenu-link h6 {
   font-size: 16px;
   line-height: 130%;
   margin: 0;
-  color: var(--blo-espresso);
+  color: rgb(var(--color-foreground));
   display: block;
 }
 body .header__menu-item {
-  color: var(--blo-espresso);
+  color: rgb(var(--color-foreground));
 }
 
 
@@ -711,7 +711,6 @@ body .menu-drawer .menu-drawer__close-button {
   .collection-hero .collection-hero__title {
     font-size: 22px;
     margin-top: 25px;
-    margin-bottom: 0;
   }
   .facets-wrapper {
     background: #fff;
@@ -742,6 +741,9 @@ body .menu-drawer .menu-drawer__close-button {
   }
   .facets-container .mobile-facets__open {
     color: var(--blo-pine);
+  }
+  .facets-container .mobile-facets__open-label {
+    padding: 0;
   }
   facet-filters-form .mobile-facets__heading {
     font-size: 22px;
@@ -791,8 +793,11 @@ body .menu-drawer .menu-drawer__close-button {
   facet-filters-form .mobile-facets__close {
     top: 12px;
   }
+  .section.blo-collection-pills {
+    margin-bottom: 0;
+  }
+  
 }
-
 
 
 /* ---------------------------------------- BLO - CUSTOM PRODUCT GRID & TILES ---------------------------------------- */
@@ -809,6 +814,79 @@ body .menu-drawer .menu-drawer__close-button {
   font-size: 14px;
   letter-spacing: 0;
 }
+
+
+/* ---------------------------------------- BLO - CUSTOM PRODUCT PAGE STYLES ---------------------------------------- */
+
+.product .shopify-block.shopify-app-block .jdgm-preview-badge .jdgm-star.jdgm-star {
+  color: rgb(var(--color-foreground));
+  font-size: 12px;
+}
+.product .product__info-wrapper .product__tax {
+  display: none;
+}
+.product .product__title {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.product .product__title h1{
+  font-size: 34px;
+}
+.product .product__title + div[role=status]{
+  margin-top: 10px;
+}
+.product .blo-product-badge-container .blo-product-badge {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--blo-terra);
+  border-color: var(--blo-terra);
+}
+.product .product__info-container .price__container{
+  font-family: 'GT Alpina Typewriter' !important;
+}
+.product .product__info-container .price__container .price__sale .price-item.price-item--regular {
+  margin-right: 5px;
+}
+.product .product__info-container .price .badge, 
+.product .product__info-container .price__container {
+  margin-bottom: 0;
+}
+.price.price--on-sale.price--show-badge .price__container {
+  margin-top: 2px;
+}
+.product__info-wrapper .form__label {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(var(--color-foreground));
+}
+.product .product-form__input.product-form__input--pill label{
+  padding: 8px 13px 10px;
+}
+.product .accordion {
+  border-top: 2px solid var(--blo-dark-cream);
+  border-bottom: 2px solid var(--blo-dark-cream);
+}
+.product .product__info-wrapper .accordion__title {
+  font-size: 16px;
+}
+
+
+@media screen and (max-width: 750px) { 
+
+  .product .product__title h1{
+    font-size: 28px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
