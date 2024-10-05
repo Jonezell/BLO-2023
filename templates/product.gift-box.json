@@ -86,6 +86,7 @@
         },
         "blo_restock_note_mE6Xzy": {
           "type": "blo-restock-note",
+          "disabled": true,
           "settings": {
             "header": "Restocking",
             "text": "",
@@ -125,7 +126,6 @@
         },
         "share": {
           "type": "share",
-          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
@@ -326,6 +326,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
