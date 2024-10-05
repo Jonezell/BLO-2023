@@ -47,35 +47,35 @@
           "type": "link",
           "settings": {
             "text": "All",
-            "linkurl": "shopify:\/\/pages\/size-chart"
+            "linkurl": "shopify://pages/size-chart"
           }
         },
         "c4383b77-a783-4b37-a52f-4aa088153e6d": {
           "type": "link",
           "settings": {
             "text": "PJs",
-            "linkurl": "shopify:\/\/pages\/size-charts-all-pjs"
+            "linkurl": "shopify://pages/size-charts-all-pjs"
           }
         },
         "95d62b90-eec6-47dd-b391-7c9c7ed5c5fc": {
           "type": "link",
           "settings": {
             "text": "Daywear",
-            "linkurl": "shopify:\/\/pages\/size-charts-all-daywear"
+            "linkurl": "shopify://pages/size-charts-all-daywear"
           }
         },
         "4a1b611c-70b4-4a3c-b957-31eb3ec5d531": {
           "type": "link",
           "settings": {
-            "text": "Women's",
-            "linkurl": "shopify:\/\/pages\/size-charts-all-womens"
+            "text": "Men's & Women's",
+            "linkurl": "shopify://pages/size-charts-all-womens"
           }
         },
         "link_riHDci": {
           "type": "link",
           "settings": {
             "text": "Sleep Sacks",
-            "linkurl": "shopify:\/\/pages\/size-chart-sleep-sacks"
+            "linkurl": "shopify://pages/size-chart-sleep-sacks"
           }
         }
       },
