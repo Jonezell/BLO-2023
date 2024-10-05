@@ -109,10 +109,20 @@
         "padding_bottom": 0
       }
     },
+    "page_8TCRhx": {
+      "type": "page",
+      "settings": {
+        "page": "working-on-size-chart-mens-shirts",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "ce737103-36cb-4cee-8b64-8e546617e9aa": {
       "type": "page",
       "settings": {
-        "page": "size-chart-womens-pullovers",
+        "page": "size-chart-mens-pants",
         "heading_size": "h2",
         "color_scheme": "",
         "padding_top": 0,
@@ -126,6 +136,7 @@
     "bf4b2c56-f3fb-4d6e-9767-46d41b11233a",
     "a15f9bd2-d25d-4ec9-8a26-498726436bd1",
     "8ca026ea-12d0-4109-bee3-3a6916272260",
+    "page_8TCRhx",
     "ce737103-36cb-4cee-8b64-8e546617e9aa"
   ]
 }
