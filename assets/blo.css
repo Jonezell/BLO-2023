@@ -880,9 +880,137 @@ body .menu-drawer .menu-drawer__close-button {
 }
 
 
+/* --------------------------- JUDGE ME STYLES --------------------------- */
+
+.jdgm-widget.jdgm-review-widget {
+  background: var(--blo-beige);
+
+  --jdgm-primary-color: var(--blo-pine);
+  --jdgm-secondary-color: rgba(22, 22, 22, 0.05);
+  --jdgm-star-color: var(--blo-pine);
+  --jdgm-write-review-text-color: var(--blo-beige);
+  --jdgm-write-review-bg-color:var(--blo-pine);
+  --jdgm-paginate-color: var(--blo-pine);
+  --jdgm-border-radius: var(--blo-corner-radius);
+  --jdgm-reviewer-name-color: var(--blo-pine);
+  --color-foreground: var(--blo-pine);
+}
+.jdgm-widget.jdgm-review-widget .jdgm-rev-widg {
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.jdgm-widget.jdgm-review-widget .jdgm-row-actions {
+  display: none;
+}
+
+.jdgm-widget.jdgm-review-widget .jdgm-rev-widg__header .jdgm-row-stars {
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.jdgm-widget.jdgm-review-widget .jdgm-rev-widg__summary-text  {
+  text-align: center;
+  font-style: italic;
+  color: var(--jdgm-primary-color);
+  font-size: 14px;
+}
+.jdgm-widget.jdgm-review-widget .jdgm-rev-widg__summary-inner .jdgm-link{
+  display: none;
+}
+.jdgm-widget.jdgm-review-widget  .jdgm-rev-widg__summary-average  .jdgm-link{
+  display: inline-block;
+  text-decoration: none;
+}
+.jdgm-widget.jdgm-review-widget  .jdgm-rev-widg__title {
+  color: var(--jdgm-primary-color);
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+.jdgm-widget.jdgm-review-widget  .jdgm-write-rev-link,
+.jdgm-widget.jdgm-review-widget  .jdgm-btn {
+  border-radius: 32px !important;
+  padding: 12px 30px 16px;
+  color: var(--jdgm-write-review-text-color);
+}
+.jdgm-widget.jdgm-review-widget .jdgm-btn.jdgm-btn--border {
+  color: var(--jdgm-primary-color);
+  background: transparent;
+}
+.jdgm-widget.jdgm-review-widget  .jdgm-widget-actions-wrapper {
+  border: none !important;
+}
+.jdgm-widget.jdgm-review-widget .jdgm-rev-widg__reviews {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.jdgm-form__fieldset p {
+  font-size: 14px;
+}
+.jdgm-widget.jdgm-review-widget .jdgm-rev {
+  background: var(--blo-cream);
+  width: calc(50% - 20px);
+  border-radius: var(--blo-corner-radius);
+  padding: 50px;
+}
+.jdgm-widget.jdgm-review-widget .jdgm-rev__timestamp {
+  font-family: 'GT Alpina Typewriter' !important;
+}
+.jdgm-widget.jdgm-review-widget .jdgm-rev__buyer-badge {
+  background-color: var(--blo-sky);
+    padding: 3px 8px 5px;
+    border-radius: 4px;
+    color: var(--blo-pine);
+}
+.jdgm-rev__title,
+.jdgm-rev__body,
+.jdgm-form__title,
+.jdgm-form__inline-label {
+  color: var(--jdgm-primary-color);
+}
+.jdgm-widget.jdgm-review-widget  .jdgm-form input[type="text"], 
+.jdgm-widget.jdgm-review-widget  .jdgm-form input[type="email"], 
+.jdgm-widget.jdgm-review-widget  .jdgm-form input[type="url"], 
+.jdgm-widget.jdgm-review-widget  .jdgm-form textarea {
+  padding: 10px 16px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+.jdgm-picture-fieldset__box.jdgm-picture-fieldset__box--input {
+  background-color: var(--blo-cream);
+}
+
+.jdgm-widget.jdgm-review-widget .jdgm-paginate {
+  padding-top: 50px;
+  border: none;
+}
+.jdgm-widget.jdgm-review-widget .jdgm-rev__pic-img {
+  border-radius: var(--blo-corner-radius);
+}
+.jdgm-widget.jdgm-review-widget .jdgm-form-wrapper {
+  border-top: 2px solid var(--blo-pine);
+  padding: 50px 25px;
+}
+.jdgm-widget.jdgm-review-widget  .jdgm-form__fieldset {
+  text-align: left;
+}
 
 
-
+@media screen and (max-width: 750px) { 
+  .jdgm-widget.jdgm-review-widget .jdgm-rev-widg {
+    padding: 80px 25px;
+  }
+  .jdgm-widget.jdgm-review-widget .jdgm-rev-widg__reviews {
+    flex-direction: row;
+  }
+  .jdgm-widget.jdgm-review-widget .jdgm-rev {
+    width: 100%;
+    padding: 25px;
+  }
+}
 
 
 
