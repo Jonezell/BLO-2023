@@ -799,9 +799,12 @@ quantity-input.quantity button.quantity__button,
 .jdgm-widget.jdgm-review-widget .jdgm-rev__pics {
   white-space: pre-wrap;
 }
-  .jdgm-rev-widg__summary-inner .jdgm-link {
+  .jdgm-widget.jdgm-review-widget .jdgm-rev-widg__summary-inner .jdgm-link {
     display: none;
   }
+.jdgm-widget.jdgm-review-widget .jdgm-row-actions {
+  display: none;
+}
 @media screen and (min-width: 750px) {
     .jdgm-widget.jdgm-review-widget .jdgm-rev-widg {
         padding: 160px 5rem;
