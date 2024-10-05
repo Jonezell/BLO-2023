@@ -811,7 +811,7 @@ quantity-input.quantity button.quantity__button,
         flex-direction: row;
         gap: 60px;
      }
-    .jdgm-widget.jdgm-review-widget .jdgm-row-stars {
+    .jdgm-widget.jdgm-review-widget .jdgm-rev-widg__header .jdgm-row-stars {
         flex-direction: column;
         align-items: center;
     }
