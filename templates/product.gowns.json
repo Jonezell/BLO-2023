@@ -321,7 +321,6 @@
         "text_DPLYYX",
         "buttons_rDdkEK"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Rust_Fabric_986d7f51-ce81-4388-8098-4392998abf81.jpg"
       }
@@ -343,6 +342,21 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "video_8aPKyF": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/Brave Knotted - Revised (1).mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -351,6 +365,7 @@
     "blo_product_callouts_qHXD4R",
     "blo_faq_7gVA7y",
     "blo_fabric_3BAiXt",
-    "related-products"
+    "related-products",
+    "video_8aPKyF"
   ]
 }
