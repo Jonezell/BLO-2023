@@ -203,6 +203,14 @@
             "is-header": false
           }
         },
+        "table_row_yHddPU": {
+          "type": "table-row",
+          "settings": {
+            "text-pros": "Super stretchy",
+            "text-cons": "Stiff and uncomfortable",
+            "is-header": false
+          }
+        },
         "table_row_NKFUwq": {
           "type": "table-row",
           "settings": {
@@ -216,14 +224,6 @@
           "settings": {
             "text-pros": "Breathable & temperature regulating ",
             "text-cons": "Traps heat causing sweating",
-            "is-header": false
-          }
-        },
-        "table_row_yHddPU": {
-          "type": "table-row",
-          "settings": {
-            "text-pros": "Super stretchy",
-            "text-cons": "Stiff and uncomfortable",
             "is-header": false
           }
         },
@@ -280,9 +280,9 @@
         "text_U78aeU",
         "table_row_qrHg3C",
         "table_row_dgVRmi",
+        "table_row_yHddPU",
         "table_row_NKFUwq",
         "table_row_TXPgT6",
-        "table_row_yHddPU",
         "table_row_YGErWK",
         "table_row_KhMTGk",
         "table_row_NMyHMB",
