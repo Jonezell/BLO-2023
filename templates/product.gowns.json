@@ -30,11 +30,11 @@
         "produdct_as_variants_CXULYg": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Options",
-            "style": "image",
-            "target_collection": "",
-            "swatch_offset_Y": 50,
-            "swatch_offset_X": 50,
+            "label": "Style",
+            "style": "swatch",
+            "target_collection": "knotted-gowns",
+            "swatch_offset_Y": 30,
+            "swatch_offset_X": 45,
             "hide_sold_out": true
           }
         },
