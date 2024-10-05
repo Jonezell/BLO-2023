@@ -459,7 +459,7 @@
         "buttons_Lex9M6"
       ],
       "settings": {
-        "image": "shopify://shop_images/africa.svg",
+        "image": "shopify://shop_images/africa_3002d647-0a58-4419-abbc-e7cf0193a423.svg",
         "show_decoration": false,
         "text_color": "#335348"
       }
@@ -495,7 +495,7 @@
       "settings": {
         "layout-direction": "layout-right",
         "media-type": "image",
-        "image": "shopify://shop_images/About-us.png",
+        "image": "shopify://shop_images/About-us_2.png",
         "show_decoration": false,
         "text_color": "#335348",
         "padding_top": 200,
