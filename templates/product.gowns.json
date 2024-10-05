@@ -190,11 +190,11 @@
         "callout_7fV3cD": {
           "type": "Callout",
           "settings": {
-            "pin_direction": "top_right",
-            "block_title": "Benefit 2",
-            "block_text": "Feature Text",
-            "horizontal_position": 50,
-            "vertical_position": 28
+            "pin_direction": "top_left",
+            "block_title": "Tagless Labels",
+            "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
+            "horizontal_position": 44,
+            "vertical_position": 4
           }
         },
         "callout_BxjKGh": {
