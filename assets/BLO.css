@@ -806,7 +806,7 @@ quantity-input.quantity button.quantity__button,
   display: none;
 }
 .jdgm-paginate {
-  border-color: transparent;
+  border-top-color: transparent;
 }
 @media screen and (min-width: 750px) {
     .jdgm-widget.jdgm-review-widget .jdgm-rev-widg {
