@@ -70,7 +70,7 @@
             "caption": "Email when available",
             "font_size": 16,
             "color": "#ffffff",
-            "background_color": "#000000",
+            "background_color": "#285448",
             "margin_top": 10,
             "margin_bottom": 10,
             "classes": "button button--full-width",
@@ -144,7 +144,7 @@
         "hide_variants": true,
         "enable_video_looping": true,
         "padding_top": 36,
-        "padding_bottom": 12
+        "padding_bottom": 100
       }
     },
     "172791928687cb93f7": {
