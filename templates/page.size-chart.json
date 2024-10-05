@@ -259,6 +259,26 @@
         "padding_bottom": 0
       }
     },
+    "page_DMLT9g": {
+      "type": "page",
+      "settings": {
+        "page": "working-on-size-chart-mens-shirts",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_zEEYa8": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-mens-pants",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "page_eJrtNQ": {
       "type": "page",
       "settings": {
@@ -301,6 +321,8 @@
     "75b55457-bf23-4c7a-a18c-4be6cc675b46",
     "a15f9bd2-d25d-4ec9-8a26-498726436bd1",
     "page_fKAiFg",
+    "page_DMLT9g",
+    "page_zEEYa8",
     "page_eJrtNQ",
     "page_gJj8c4"
   ]
