@@ -169,6 +169,9 @@
       "block_order": [
         "judge_me_reviews_review_widget_w8Ua44"
       ],
+      "custom_css": [
+        "section {background-color: var(--blo-terra);}"
+      ],
       "settings": {
         "include_margins": true
       }
