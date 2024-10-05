@@ -31,22 +31,22 @@
 
     /* Neutrals */
     --blo-cream: #FCFCF9;
-    --blo-ivory: #F5F4E6;
-    --blo-beige: #E7DCCD;
-    --blo-bamboo: #E1DBBE;
-    --blo-sea: #D5D7C6;
-    --blo-ivory: #F5F4E6;
+    --blo-dark-cream: #F6F6F0;
+    --blo-ivory: #F5F4E5;
+    --blo-beige: #E9DBCB;
+    --blo-bamboo: #E2DBBB;
+    --blo-sea: #D5D7C4;
 
     /* Colors */
-    --blo-peach: #EDB396;
-    --blo-blush: #EDCCC3;
-    --blo-terra: #C27D4C;
-    --blo-sun: #F1D38B;
-    --blo-lime: #C3B863;
-    --blo-pine: #335348;
-    --blo-sky: #DEE3EB;
-    --blo-indigo: #98B5CC;
-    --blo-espresso: #31291E;
+    --blo-peach: #F8B091;
+    --blo-blush: #F3CBC1;
+    --blo-terra: #CE7941;
+    --blo-sun: #F7D280;
+    --blo-lime: #C5B754;
+    --blo-pine: #285448;
+    --blo-sky: #CADEE3;
+    --blo-indigo: #91B6CF;
+    --blo-espresso: #2C2C29;
     
 
     --blo-corner-radius: 12px;
@@ -62,23 +62,90 @@
 /* -------------------- CUSTOM FONT OVERRIDE -------------------- */
 
 
+@import url("https://p.typekit.net/p.css?s=1&k=msk7vfz&ht=tk&f=24547.24548.24549.24552&a=132002064&app=typekit&e=css");
+
 @font-face {
+font-family:"sofia-pro";
+src:url("https://use.typekit.net/af/b718ff/00000000000000007735f98d/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/b718ff/00000000000000007735f98d/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/b718ff/00000000000000007735f98d/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"sofia-pro";
+src:url("https://use.typekit.net/af/c09857/00000000000000007735f98c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/c09857/00000000000000007735f98c/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/c09857/00000000000000007735f98c/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"sofia-pro";
+src:url("https://use.typekit.net/af/262452/00000000000000007735f99a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/262452/00000000000000007735f99a/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/262452/00000000000000007735f99a/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"sofia-pro";
+src:url("https://use.typekit.net/af/36f509/00000000000000007735f994/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/36f509/00000000000000007735f994/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/36f509/00000000000000007735f994/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+.tk-sofia-pro { font-family: "sofia-pro",sans-serif; }
+
+@font-face {
+  font-family: 'AUTHENTIC Sans';
+  src: url('https://cdn.shopify.com/s/files/1/0964/6074/files/AUTHENTICSans-150.woff2?v=1728140306') format('woff2'),
+      url('https://cdn.shopify.com/s/files/1/0964/6074/files/AUTHENTICSans-150.woff?v=1728140306') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'GT Alpina Typewriter';
+  src: url('https://cdn.shopify.com/s/files/1/0964/6074/files/GTAlpinaTypewriter-Regular.woff2?v=1728140306') format('woff2'),
+      url('https://cdn.shopify.com/s/files/1/0964/6074/files/GTAlpinaTypewriter-Regular.woff?v=1728140306') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Value Serif Pro';
+  src: url('https://cdn.shopify.com/s/files/1/0964/6074/files/ValueSerifPro-RegularItalic.woff2?v=1728140306') format('woff2'),
+      url('https://cdn.shopify.com/s/files/1/0964/6074/files/ValueSerifPro-RegularItalic.woff?v=1728140306') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Value Serif Pro';
+  src: url('https://cdn.shopify.com/s/files/1/0964/6074/files/ValueSerifPro-Regular.woff2?v=1728140280') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0964/6074/files/ValueSerifPro-Regular.woff?v=1728140263') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+/* @font-face {
     font-family: 'SofiaProRegular';
     src: url('https://cdn.shopify.com/s/files/1/0964/6074/files/SofiaProRegular.woff2?v=1727556083') format('woff2'),
         url('https://cdn.shopify.com/s/files/1/0964/6074/files/SofiaProRegular.woff?v=1727556083') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: 'Value Serif Pro';
     src: url('https://cdn.shopify.com/s/files/1/0964/6074/files/ValueSerifPro-Regular.woff2?v=1727556083') format('woff2'),
         url('https://cdn.shopify.com/s/files/1/0964/6074/files/ValueSerifPro-Regular.woff?v=1727556083') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-}
+} */
 
 
 
@@ -94,19 +161,26 @@ H1, .h1,  div.h1.hero__title, h1>p, H2, .h2, H2>p, H3, .h3, h3>p {
 
 H4, .h4, h4>p, H5, .h5, h5>p, H6, .h6, button, .button, a.button, .grid-product__title, .announcement__text, .cart__header-labels, .badge, .product-card-wrapper .card__information , footer .footer-block__heading, .toggle, .collection-list-wrapper .card__information h3, .jdgm-write-rev-link, .jdgm-paginate__load-more, .product .price__container, .product-form__input label, .facets__summary, .product-count__text.text-body, .mobile-facets__open, .mega-menu__link.mega-menu__link--level-2, .header__menu-item.list-menu__item, .menu-drawer .menu-drawer__menu-item, .mobile-facets .mobile-facets__summary, .blo-toggle-collections .card__heading, cart-drawer .totals__total, cart-drawer .totals__total-value, quick-order-list .quick-order-list-total__info h3, .facet-filters__label, .shopify-pc__banner__dialog h2, .shopify-pc__prefs__intro-main h3  {
 
-  font-family: 'SofiaProRegular' !important;
+  font-family: 'sofia-pro' !important;
   font-style: normal !important;
   font-weight: normal !important;
+  font-weight: 700 !important;
+  font-display: auto;
+  font-stretch: normal;
   -webkit-font-smoothing: antialiased;
 }
 
 body, p, form, input, textarea, select, .slide-nav__link, .slide-nav__sublist-link, .product-card-wrapper .card__information .price, footer .footer-block__details-content, .facets-vertical .facet-checkbox, .mega-menu__link, .mobile-facets .mobile-facets__label {
 
-  font-family: 'SofiaProRegular' !important;
+  font-family: 'sofia-pro' !important;
   font-style: normal !important;
-  font-weight: normal !important;
+  font-weight: 400 !important;
+  font-display: auto;
+  font-stretch: normal;
   -webkit-font-smoothing: antialiased;
   color: rgba(var(--color-foreground));
+
+  
 }
 
 
@@ -169,7 +243,7 @@ body H4, body .h4 {
 
 
 
-/* H4-H6 AND BODY STYLES */
+/* H5-H6 AND BODY STYLES */
 H5, .h5, H6, .h6, footer .footer-block__heading, .toggle, .collection-list-wrapper .card__information h3, .product .price__container, .facets-vertical .facets__summary, .product-count__text.text-body, .facet-filters__field .facet-filters__label, .facet-filters__field .facet-filters__sort, .mobile-facets__open, .button, .button-label, .shopify-challenge__button, .customer button,
 p, .p, footer .footer-block__details-content a, .facets-vertical .facet-checkbox, .facet-filters__field .facet-filters__sort, .mega-menu__link, .mega-menu__link--level-2, .mega-menu__content .mega-menu__link, .header__menu-item.list-menu__item, .menu-drawer .menu-drawer__menu-item, .mobile-facets .mobile-facets__summary, .mobile-facets .mobile-facets__label,  .blo-toggle-collections .card__heading, cart-drawer .totals__total, cart-drawer .totals__total-value  {
     font-size: 16px;
@@ -181,7 +255,7 @@ p, .p, footer .footer-block__details-content a, .facets-vertical .facet-checkbox
 /* EYEBROW STYLES */
 
 .eyebrow, th, p.announcement-bar__message.h5, .badge, .product .form__label, cart-drawer .free_shipping_card_title_clk1hm7264194051ouy4kiwfuy5.h2{
-  font-family: 'SofiaProRegular' !important;
+  font-family: 'sofia-pro' !important;
   font-style: normal !important;
   font-weight: 700 !important;
   font-size: 12px;
