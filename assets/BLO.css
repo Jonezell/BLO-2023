@@ -808,6 +808,9 @@ quantity-input.quantity button.quantity__button,
 .jdgm-widget.jdgm-review-widget .jdgm-paginate {
   border-top-color: transparent;
 }
+.jdgm-widget.jdgm-review-widget .jdgm-btn.jdgm-btn--border.jdgm-cancel-rev {
+  background-color: transparent;
+}
 @media screen and (min-width: 750px) {
     .jdgm-widget.jdgm-review-widget .jdgm-rev-widg {
         padding: 160px 5rem;
