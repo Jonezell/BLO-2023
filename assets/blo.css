@@ -871,10 +871,14 @@ body .menu-drawer .menu-drawer__close-button {
 }
 
 
-@media screen and (max-width: 750px) { 
+@media screen and (max-width: 749px) { 
 
   .product .product__title h1{
     font-size: 28px;
+  }
+  .product .product__media-wrapper slider-component:not(.thumbnail-slider--no-slide) {
+    margin-left: -25px;
+    margin-right: -25px;
   }
 
 }
@@ -978,6 +982,7 @@ body .menu-drawer .menu-drawer__close-button {
   padding: 10px 16px;
   border: 1px solid #fff;
   border-radius: 8px;
+  font-size: 16px;
 }
 .jdgm-picture-fieldset__box.jdgm-picture-fieldset__box--input {
   background-color: var(--blo-cream);
@@ -992,7 +997,7 @@ body .menu-drawer .menu-drawer__close-button {
 }
 .jdgm-widget.jdgm-review-widget .jdgm-form-wrapper {
   border-top: 2px solid var(--blo-pine);
-  padding: 50px 25px;
+  padding: 50px 0px;
 }
 .jdgm-widget.jdgm-review-widget  .jdgm-form__fieldset {
   text-align: left;
@@ -1009,6 +1014,14 @@ body .menu-drawer .menu-drawer__close-button {
   .jdgm-widget.jdgm-review-widget .jdgm-rev {
     width: 100%;
     padding: 25px;
+  }
+  .jdgm-widget.jdgm-review-widget .jdgm-form-wrapper .jdgm-form {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .jdgm-widget.jdgm-review-widget .jdgm-write-rev-link, 
+  .jdgm-widget.jdgm-review-widget .jdgm-ask-question-btn {
+    max-width: 100%;
   }
 }
 
