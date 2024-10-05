@@ -11,13 +11,9 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "custom_liquid_PyzcdJ": {
-      "type": "custom-liquid",
+    "blo_footer_JACjzq": {
+      "type": "blo-footer",
       "settings": {
-        "custom_liquid": "BLO: Footer Decoration",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "newsletter_cAfByX": {
@@ -101,7 +97,7 @@
     }
   },
   "order": [
-    "custom_liquid_PyzcdJ",
+    "blo_footer_JACjzq",
     "newsletter_cAfByX",
     "footer"
   ]
