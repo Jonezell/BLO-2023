@@ -29,6 +29,7 @@
         },
         "produdct_as_variants_CXULYg": {
           "type": "produdct-as-variants",
+          "disabled": true,
           "settings": {
             "label": "Options",
             "style": "image",
@@ -48,6 +49,12 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
+          }
+        },
+        "custom_liquid_nHEdgU": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<cart-note class=\"field\" style=\"display: block;\">\n\n<label for=\"Cart-note\" class=\"form__label\" style=\"margin-top: 40px;\">Handwritten Note (Optional):</label>\n\n<textarea class=\"text-area field__input\" name=\"note\" form=\"cart\" id=\"Cart-note\" placeholder=\"Add A Note\" maxlength=\"120\" style=\"display: block;\">{{ cart.note }}</textarea>\n</cart-note>\n\n<p style=\"display:block; font-size: 12px; margin-bottom: 40px;\">120 Character Maximum </p>"
           }
         },
         "custom_low_stock_JTRiRj": {
@@ -131,6 +138,7 @@
         "produdct_as_variants_CXULYg",
         "variant_picker",
         "quantity_selector",
+        "custom_liquid_nHEdgU",
         "custom_low_stock_JTRiRj",
         "buy_buttons",
         "back_in_stock_customer_alerts_app_block_UBNLgM",
