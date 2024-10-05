@@ -200,11 +200,11 @@
         "callout_BxjKGh": {
           "type": "Callout",
           "settings": {
-            "pin_direction": "top_right",
-            "block_title": "Benefit",
-            "block_text": "Super cool feature!",
-            "horizontal_position": 18,
-            "vertical_position": 80
+            "pin_direction": "top_left",
+            "block_title": "Fold-Over Mittens",
+            "block_text": "Our stretchy fold-over mittens not only keep your infant's hands warm, but keep them from scratching their delicate skin too.",
+            "horizontal_position": 6,
+            "vertical_position": 32
           }
         }
       },
