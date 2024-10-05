@@ -799,6 +799,9 @@ quantity-input.quantity button.quantity__button,
 .jdgm-widget.jdgm-review-widget .jdgm-rev__pics {
   white-space: pre-wrap;
 }
+  .jdgm-rev-widg__summary-inner .jdgm-link {
+    display: none;
+  }
 @media screen and (min-width: 750px) {
     .jdgm-widget.jdgm-review-widget .jdgm-rev-widg {
         padding: 160px 5rem;
@@ -818,6 +821,7 @@ quantity-input.quantity button.quantity__button,
   .jdgm-rev-widg__summary-stars, .jdgm-rev-widg__summary-text {
     text-align: center;
   }
+
 }
 
 
