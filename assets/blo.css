@@ -99,7 +99,6 @@ font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
   font-display: swap;
 }
 
-
 @font-face {
   font-family: 'GT Alpina Typewriter';
   src: url('https://cdn.shopify.com/s/files/1/0964/6074/files/GTAlpinaTypewriter-Regular.woff2?v=1728140306') format('woff2'),
@@ -126,30 +125,6 @@ font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
   font-style: normal;
   font-display: swap;
 }
-
-
-
-/* @font-face {
-    font-family: 'SofiaProRegular';
-    src: url('https://cdn.shopify.com/s/files/1/0964/6074/files/SofiaProRegular.woff2?v=1727556083') format('woff2'),
-        url('https://cdn.shopify.com/s/files/1/0964/6074/files/SofiaProRegular.woff?v=1727556083') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-} */
-
-/* @font-face {
-    font-family: 'Value Serif Pro';
-    src: url('https://cdn.shopify.com/s/files/1/0964/6074/files/ValueSerifPro-Regular.woff2?v=1727556083') format('woff2'),
-        url('https://cdn.shopify.com/s/files/1/0964/6074/files/ValueSerifPro-Regular.woff?v=1727556083') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-} */
-
-
-
-
 
 H1, .h1,  div.h1.hero__title, h1>p, H2, .h2, H2>p, H3, .h3, h3>p {
 
@@ -830,6 +805,9 @@ body .menu-drawer .menu-drawer__close-button {
 }
 .product-grid .grid__item .price{
   margin-top:0;
+  font-family: 'GT Alpina Typewriter' !important;
+  font-size: 14px;
+  letter-spacing: 0;
 }
 
 
@@ -849,4 +827,37 @@ body .menu-drawer .menu-drawer__close-button {
 .footer .footer__copyright {
   margin-top: 0;
   padding-bottom: 15px;
+}
+@media screen and (max-width: 749px) {
+  .footer .footer__content-top,
+  .newsletter .newsletter__wrapper {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .newsletter .newsletter__wrapper {
+    padding-top: 50px;
+    padding-bottom: 11px;
+  }
+  .footer .footer-block__details-content .list-menu__item--link {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+  }
+  .footer .footer-block__details-content p {
+    font-size: 14px;
+  }
+  .footer-block.grid__item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .footer .footer__copyright {
+    margin-top: 10px;
+  }
+  .footer .footer__copyright .policies a {
+    padding: 0;
+  }
+  .footer .policies li:before {
+    padding: 0 4px;
+    opacity: 0.4;
+  }
 }

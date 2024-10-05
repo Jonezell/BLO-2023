@@ -1,5 +1,5 @@
 <div class="blo-bamboo-comparison-container page-width blo-section-{{ section.id }}-padding">
-  <div class="blo-bamboo-comparison-media">
+  <div class="blo-bamboo-comparison-media {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     {% if section.settings['media-type'] == 'image' %}
       {{ section.settings.image | image_url: width: 3200 | image_tag: loading: 'lazy' }}
     {% else %}

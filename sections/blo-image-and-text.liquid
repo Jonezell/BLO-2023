@@ -1,6 +1,6 @@
 <div class="blo-image-and-text-container page-width blo-section-{{ section.id }}-padding {% if section.settings['layout-direction'] == 'layout-right' %}blo-image-on-right{% endif %}">
   <div class="blo-image-and-text-media {% if section.settings['image-secondary'] %}has-secondary{%- endif -%}">
-    <div class="blo-image-and-text-media-primary">
+    <div class="blo-image-and-text-media-primary {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       {% if section.settings['media-type'] == 'image' %}
         {{ section.settings.image | image_url: width: 3200 | image_tag: loading: 'lazy' }}
       {% else %}
@@ -12,7 +12,7 @@
 
       {% if section.settings.show_decoration == true %}
         <svg
-          class="blo-image-and-text-decoration-top"
+          class="blo-image-and-text-decoration-top {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
           width="343"
           height="319"
           viewBox="0 0 343 319"
@@ -34,7 +34,7 @@
         </svg>
 
         <svg
-          class="blo-image-and-text-decoration-bottom"
+          class="blo-image-and-text-decoration-bottom {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
           width="343"
           height="319"
           viewBox="0 0 343 319"
@@ -56,7 +56,7 @@
         </svg>
       {% endif %}
     </div>
-    <div class="blo-image-and-text-media-secondary">
+    <div class="blo-image-and-text-media-secondary {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       {% if section.settings['image-secondary'] %}
         {{ section.settings['image-secondary'] | image_url: width: 600 | image_tag: loading: 'lazy' }}
       {% endif %}
