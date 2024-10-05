@@ -823,11 +823,30 @@ body .menu-drawer .menu-drawer__close-button {
 /* ---------------------------------------- BLO - CUSTOM PRODUCT GRID & TILES ---------------------------------------- */
 
 .product-grid .grid__item .card{
-  border-color: var(--blo-ivory);
+  border-color: var(--blo-dark-cream);
 }
 .product-grid .grid__item .card__content{
   padding: 0;
 }
 .product-grid .grid__item .price{
   margin-top:0;
+}
+
+
+
+/* ---------------------------------------- BLO - CUSTOM FOOTER STYLE ---------------------------------------- */
+
+.newsletter.center .newsletter__subheading{
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+.footer .footer-block__heading{
+  margin-bottom: 5px;
+}
+.footer .footer-block__details-content p {
+  color: rgba(var(--color-foreground), .75);
+}
+.footer .footer__copyright {
+  margin-top: 0;
+  padding-bottom: 15px;
 }
