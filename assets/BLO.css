@@ -815,6 +815,9 @@ quantity-input.quantity button.quantity__button,
         flex-direction: column;
         align-items: center;
     }
+  .jdgm-rev-widg__summary-stars, .jdgm-rev-widg__summary-text {
+    text-align: center;
+  }
 }
 
 
