@@ -23,6 +23,7 @@
         },
         "announcement_zPQ3jf": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Save 20% off new release with code 'Sale'",
             "link": "shopify://collections/new"
