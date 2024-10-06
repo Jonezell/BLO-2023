@@ -30,7 +30,7 @@
         "produdct_as_variants_CXULYg": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Options",
+            "label": "Style",
             "style": "image",
             "target_collection": "denim",
             "swatch_offset_Y": 50,
