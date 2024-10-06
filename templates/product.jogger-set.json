@@ -96,6 +96,15 @@
           "settings": {
           }
         },
+        "collapsible_tab_FLRgq9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Pullover Sizing",
+            "icon": "shirt",
+            "content": "",
+            "page": "size-chart-pullovers"
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -135,13 +144,13 @@
             "share_label": "Share"
           }
         },
-        "collapsible_tab_FLRgq9": {
+        "collapsible_tab_TNAQpb": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Pullover Sizing",
-            "icon": "shirt",
+            "heading": "Jogger Sizing",
+            "icon": "pants",
             "content": "",
-            "page": "size-chart-pullovers"
+            "page": "copy-of-size-chart-joggers"
           }
         }
       },
@@ -158,11 +167,12 @@
         "blo_restock_note_mE6Xzy",
         "blo_payment_plans_BXirh9",
         "description",
+        "collapsible_tab_FLRgq9",
         "collapsible-row-0",
         "collapsible-row-3",
         "complementary_6PpaPE",
         "share",
-        "collapsible_tab_FLRgq9"
+        "collapsible_tab_TNAQpb"
       ],
       "settings": {
         "enable_sticky_info": true,
