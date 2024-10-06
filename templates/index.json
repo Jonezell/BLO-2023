@@ -82,14 +82,14 @@
         "benefit_KEB7kW": {
           "type": "benefit",
           "settings": {
-            "text": "Our pjs offer the gentlest touch to your little ones skin, limiting irritation for sensitive skin.",
+            "text": "Our pjs offer the gentlest touch to your little ones skin",
             "image": "shopify://shop_images/icon-gentile.svg"
           }
         },
         "benefit_tJccDb": {
           "type": "benefit",
           "settings": {
-            "text": "Temperature regulating keeping your little one cool in summer and warm in winter.",
+            "text": "Temperature regulating",
             "image": "shopify://shop_images/icon-tempature_cc7fa631-a422-4a0a-bf15-f7804ad548b3.svg"
           }
         }
