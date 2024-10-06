@@ -195,10 +195,10 @@
           "type": "Callout",
           "settings": {
             "pin_direction": "top_right",
-            "block_title": "Benefit 2",
-            "block_text": "Feature Text",
-            "horizontal_position": 50,
-            "vertical_position": 28
+            "block_title": "Functional Drawstring",
+            "block_text": "Our Joggers feature a functional, easy to use knotted drawstring to make getting dressed easy for you and your little ones!",
+            "horizontal_position": 34,
+            "vertical_position": 14
           }
         },
         "callout_BxjKGh": {
