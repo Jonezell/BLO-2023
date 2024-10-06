@@ -29,6 +29,7 @@
         },
         "produdct_as_variants_CXULYg": {
           "type": "produdct-as-variants",
+          "disabled": true,
           "settings": {
             "label": "Style",
             "style": "image",
@@ -98,7 +99,6 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Sizing",
             "icon": "ruler",
@@ -108,7 +108,6 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Care Instructions",
             "icon": "washing",
@@ -116,9 +115,21 @@
             "page": ""
           }
         },
+        "complementary_ntbU3U": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
+        },
         "share": {
           "type": "share",
-          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
@@ -139,6 +150,7 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-3",
+        "complementary_ntbU3U",
         "share"
       ],
       "settings": {
@@ -209,6 +221,53 @@
         "title": "We’ve thought of it so you don’t have to.",
         "text": "Lorem ipsum dolor sit amet consectetur",
         "image": "shopify://shop_images/SummerZip.jpg",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "image_with_text_WEtJfX": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_DXCeWm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_G8dUGG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_LprT3h": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_DXCeWm",
+        "text_G8dUGG",
+        "button_LprT3h"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Jacquard-fabric_d68b2918-ffc6-4d3d-b836-b0cda2b6747d.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 100,
         "padding_bottom": 100
       }
@@ -342,6 +401,7 @@
     "main",
     "172791928687cb93f7",
     "blo_product_callouts_qHXD4R",
+    "image_with_text_WEtJfX",
     "blo_faq_7gVA7y",
     "blo_fabric_3BAiXt",
     "related-products"
