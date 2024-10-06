@@ -280,6 +280,21 @@
         "image": "shopify://shop_images/Rust_Fabric_986d7f51-ce81-4388-8098-4392998abf81.jpg"
       }
     },
+    "video_8aPKyF": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/Brave Knotted - Revised (1).mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "blo_faq_7gVA7y": {
       "type": "blo-faq",
       "blocks": {
@@ -341,21 +356,6 @@
         "columns_mobile": "1",
         "padding_top": 100,
         "padding_bottom": 100
-      }
-    },
-    "video_8aPKyF": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video": "shopify://files/videos/Brave Knotted - Revised (1).mp4",
-        "video_url": "",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     }
   },

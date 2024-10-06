@@ -27,17 +27,6 @@
           "settings": {
           }
         },
-        "produdct_as_variants_CXULYg": {
-          "type": "produdct-as-variants",
-          "settings": {
-            "label": "Options",
-            "style": "image",
-            "target_collection": "",
-            "swatch_offset_Y": 50,
-            "swatch_offset_X": 50,
-            "hide_sold_out": true
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -118,9 +107,14 @@
         },
         "share": {
           "type": "share",
-          "disabled": true,
           "settings": {
             "share_label": "Share"
+          }
+        },
+        "custom_liquid_GA8hwM": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!-- CUSTOM CSS TO HIDE SOLD OUT VARIANTS -->\n\n<style>\n.product-form__input--pill input[type=radio]:disabled+label, \n.product-form__input--pill input[type=radio].disabled+label {\n display: none !important;\n}\n\n.product-form__input .form__label {\npadding-top: 20px;\n}\n</style>"
           }
         }
       },
@@ -128,7 +122,6 @@
         "title",
         "price",
         "judge_me_reviews_preview_badge_pg4eqY",
-        "produdct_as_variants_CXULYg",
         "variant_picker",
         "quantity_selector",
         "custom_low_stock_JTRiRj",
@@ -139,7 +132,8 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-3",
-        "share"
+        "share",
+        "custom_liquid_GA8hwM"
       ],
       "settings": {
         "enable_sticky_info": true,
