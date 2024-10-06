@@ -221,12 +221,23 @@
             "horizontal_position": 4,
             "vertical_position": 66
           }
+        },
+        "callout_ck7YxU": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_left",
+            "block_title": "Durable Materials",
+            "block_text": "Leather zipper tabs, moisture-wicking polyester, and a carrying handle to stand the test of time.",
+            "horizontal_position": 6,
+            "vertical_position": 92
+          }
         }
       },
       "block_order": [
         "callout_7fV3cD",
         "callout_BxjKGh",
-        "callout_Gig3tq"
+        "callout_Gig3tq",
+        "callout_ck7YxU"
       ],
       "settings": {
         "title": "A lunchbox so good you and you kids will want one.",
