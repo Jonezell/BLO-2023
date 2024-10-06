@@ -302,6 +302,15 @@
     "blo_reviews_p8yHqt": {
       "type": "blo-reviews",
       "blocks": {
+        "review_list_aeTNJH": {
+          "type": "review_list",
+          "settings": {
+            "product": "camel-floral-zip-romper",
+            "image": "shopify://shop_images/camel-IMG_8720_c7f74733-336d-45c6-b6c4-c2c54239469e.jpg",
+            "review_text": "“These are the softest & stretchiest jammies! The design is absolutely beautiful and the quality is fabulous!”",
+            "review_name": "- Kaylin W."
+          }
+        },
         "review_list_RPmwkm": {
           "type": "review_list",
           "settings": {
@@ -310,20 +319,11 @@
             "review_text": "“The best jammies ever! So soft and comfortable!”",
             "review_name": "- Colette H."
           }
-        },
-        "review_list_aeTNJH": {
-          "type": "review_list",
-          "settings": {
-            "product": "camel-floral-zip-romper",
-            "image": "shopify://shop_images/camel-IMG_8720_c7f74733-336d-45c6-b6c4-c2c54239469e.jpg",
-            "review_text": "“These are the softest & stretchiest jammies! The design is absolutely beautiful and the quality is fabulous! My”",
-            "review_name": "- Kaylin W."
-          }
         }
       },
       "block_order": [
-        "review_list_RPmwkm",
-        "review_list_aeTNJH"
+        "review_list_aeTNJH",
+        "review_list_RPmwkm"
       ],
       "settings": {
         "title": "Don’t Just Take Our Word For it.",
@@ -335,13 +335,6 @@
     "blo_customer_favorite_products_efbjN3": {
       "type": "blo-customer-favorite-products",
       "blocks": {
-        "product_list_ewFzzq": {
-          "type": "product_list",
-          "settings": {
-            "product": "camel-floral-zip-romper",
-            "image": "shopify://shop_images/camel-IMG_8720_c7f74733-336d-45c6-b6c4-c2c54239469e.jpg"
-          }
-        },
         "product_list_8EDnm7": {
           "type": "product_list",
           "settings": {
@@ -369,14 +362,21 @@
             "product": "cream-small-ribbed-zip-romper",
             "image": "shopify://shop_images/Cream-Ribbed-Zip.jpg"
           }
+        },
+        "product_list_ewFzzq": {
+          "type": "product_list",
+          "settings": {
+            "product": "camel-floral-zip-romper",
+            "image": "shopify://shop_images/camel-IMG_8720_c7f74733-336d-45c6-b6c4-c2c54239469e.jpg"
+          }
         }
       },
       "block_order": [
-        "product_list_ewFzzq",
         "product_list_8EDnm7",
         "product_list_hmnNeB",
         "product_list_rVp3GL",
-        "product_list_rBaXtP"
+        "product_list_rBaXtP",
+        "product_list_ewFzzq"
       ],
       "settings": {
         "title": "Shop Our Customer Favorites!",
