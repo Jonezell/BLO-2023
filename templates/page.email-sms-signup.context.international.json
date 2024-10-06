@@ -13,5 +13,50 @@
     "market": "international"
   },
   "sections": {
-  }
+    "main": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "17282499976f15bfce": {
+      "type": "apps",
+      "disabled": false,
+      "settings": {
+        "include_margins": true
+      },
+      "blocks": {
+        "forms_inline_xzAf9": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "disabled": false,
+          "settings": {
+            "paragraph-3cd96af001cf83f39486e2d0befa6b8f": null,
+            "form_id": "57189",
+            "header-60a9d44220c9cd1c12908d6dd1ac995a": null,
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "header-ece1511944bab31e141e2bd06fda2b98": null,
+            "text_alignment": "center",
+            "header-f6be38764d33f64e16496f286101336e": null,
+            "form_alignment": "center",
+            "padding_top": 64,
+            "padding_bottom": 64,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_xzAf9"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "17282499976f15bfce"
+  ]
 }
