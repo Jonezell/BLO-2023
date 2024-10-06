@@ -32,7 +32,7 @@
           "settings": {
             "label": "Style",
             "style": "image",
-            "target_collection": "",
+            "target_collection": "zip-up-jackets",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
@@ -98,7 +98,6 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Sizing",
             "icon": "ruler",
@@ -116,9 +115,21 @@
             "page": ""
           }
         },
+        "complementary_XLVbdj": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
+        },
         "share": {
           "type": "share",
-          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
@@ -139,6 +150,7 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-3",
+        "complementary_XLVbdj",
         "share"
       ],
       "settings": {
@@ -179,36 +191,35 @@
     "blo_product_callouts_qHXD4R": {
       "type": "blo-product-callouts",
       "blocks": {
-        "callout_7fV3cD": {
+        "callout_xVVGtB": {
           "type": "Callout",
           "settings": {
             "pin_direction": "top_right",
-            "block_title": "Benefit 2",
-            "block_text": "Feature Text",
-            "horizontal_position": 50,
-            "vertical_position": 28
+            "block_title": "Tagless Label",
+            "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
+            "horizontal_position": 40,
+            "vertical_position": 40
           }
         },
         "callout_BxjKGh": {
           "type": "Callout",
           "settings": {
             "pin_direction": "top_right",
-            "block_title": "Benefit",
-            "block_text": "Super cool feature!",
-            "horizontal_position": 18,
-            "vertical_position": 80
+            "block_title": "Buttery Soft Bamboo",
+            "block_text": "Gentle enough for your little ones and durable enough for your older kids, our luxurious and buttery-soft bamboo french terry will keep your little ones comfortable and stylish day and night.",
+            "horizontal_position": 28,
+            "vertical_position": 86
           }
         }
       },
       "block_order": [
-        "callout_7fV3cD",
+        "callout_xVVGtB",
         "callout_BxjKGh"
       ],
-      "disabled": true,
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
-        "text": "Lorem ipsum dolor sit amet consectetur",
-        "image": "shopify://shop_images/SummerZip.jpg",
+        "text": "Discover the ultimate daytime comfort with our perfectly crafted Zip-Ups.",
+        "image": "shopify://shop_images/zipup_1.jpg",
         "padding_top": 100,
         "padding_bottom": 100
       }
@@ -258,67 +269,6 @@
         "padding_bottom": 200
       }
     },
-    "blo_fabric_3BAiXt": {
-      "type": "blo-fabric",
-      "blocks": {
-        "heading_Jzz8Nx": {
-          "type": "heading",
-          "settings": {
-            "heading": "Say Hello To Pjs Your Littles Will Want To Live In."
-          }
-        },
-        "text_8Utc6r": {
-          "type": "text",
-          "settings": {
-            "text": "Made from buttery soft bamboo viscose. Our luxurious material keeps your little one cozy, day and night."
-          }
-        },
-        "text_4C4EtG": {
-          "type": "text",
-          "settings": {
-            "text": "Our pjs offer the gentlest touch to your little ones skin, limiting irritation for sensitive skin."
-          }
-        },
-        "text_kEFwFx": {
-          "type": "text",
-          "settings": {
-            "text": "Temperature regulating keeping your little one cool in summer and warm in winter."
-          }
-        },
-        "text_BtnKJ3": {
-          "type": "text",
-          "settings": {
-            "text": "Our snug-fitting cozy pajamas are CPSC compliant and never treated with flame-retardants or chemicals."
-          }
-        },
-        "text_DPLYYX": {
-          "type": "text",
-          "settings": {
-            "text": "Our bamboo viscose fabric is Oeko-Tex® Standard 100 certified and has been rigorously tested against hundreds of toxic chemicals."
-          }
-        },
-        "buttons_rDdkEK": {
-          "type": "buttons",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "shopify://blogs/blog/why-we-fell-in-love-with-bamboo"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Jzz8Nx",
-        "text_8Utc6r",
-        "text_4C4EtG",
-        "text_kEFwFx",
-        "text_BtnKJ3",
-        "text_DPLYYX",
-        "buttons_rDdkEK"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/Rust_Fabric_986d7f51-ce81-4388-8098-4392998abf81.jpg"
-      }
-    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -343,7 +293,6 @@
     "172791928687cb93f7",
     "blo_product_callouts_qHXD4R",
     "blo_faq_7gVA7y",
-    "blo_fabric_3BAiXt",
     "related-products"
   ]
 }
