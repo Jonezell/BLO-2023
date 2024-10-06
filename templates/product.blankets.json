@@ -52,7 +52,7 @@
         "produdct_as_variants_8CkkC7": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Options",
+            "label": "Style",
             "style": "image",
             "target_collection": "adult-blankets",
             "swatch_offset_Y": 50,
