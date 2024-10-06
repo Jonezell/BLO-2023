@@ -196,10 +196,10 @@
           "type": "Callout",
           "settings": {
             "pin_direction": "top_right",
-            "block_title": "Benefit 2",
-            "block_text": "Feature Text",
-            "horizontal_position": 50,
-            "vertical_position": 28
+            "block_title": "Ultimate Insulation",
+            "block_text": "Fully insulated + a mesh pouch for ice packs.",
+            "horizontal_position": 6,
+            "vertical_position": 10
           }
         },
         "callout_BxjKGh": {
@@ -217,7 +217,6 @@
         "callout_7fV3cD",
         "callout_BxjKGh"
       ],
-      "disabled": true,
       "settings": {
         "title": "A lunchbox so good you and you kids will want one.",
         "text": "",
