@@ -198,7 +198,7 @@
         "table_row_dgVRmi": {
           "type": "table-row",
           "settings": {
-            "text-pros": "Buttery soft texture",
+            "text-pros": "Buttery Soft",
             "text-cons": "Rough",
             "is-header": false
           }
@@ -207,31 +207,15 @@
           "type": "table-row",
           "settings": {
             "text-pros": "Super stretchy",
-            "text-cons": "Stiff and uncomfortable",
-            "is-header": false
-          }
-        },
-        "table_row_NKFUwq": {
-          "type": "table-row",
-          "settings": {
-            "text-pros": "Naturally hypoallergenic",
-            "text-cons": "Can cause skin irritation",
+            "text-cons": "Stiff",
             "is-header": false
           }
         },
         "table_row_TXPgT6": {
           "type": "table-row",
           "settings": {
-            "text-pros": "Breathable & temperature regulating ",
-            "text-cons": "Traps heat causing sweating",
-            "is-header": false
-          }
-        },
-        "table_row_YGErWK": {
-          "type": "table-row",
-          "settings": {
-            "text-pros": "Eco-friendly, renewable materials",
-            "text-cons": "Resources are harder to grow",
+            "text-pros": "Breathable",
+            "text-cons": "Stuffy",
             "is-header": false
           }
         },
@@ -240,6 +224,14 @@
           "settings": {
             "text-pros": "Fits much longer",
             "text-cons": "Limited wearability ",
+            "is-header": false
+          }
+        },
+        "table_row_YGErWK": {
+          "type": "table-row",
+          "settings": {
+            "text-pros": "Eco-friendly",
+            "text-cons": "Non-renewable",
             "is-header": false
           }
         },
@@ -259,8 +251,18 @@
             "is-header": false
           }
         },
+        "table_row_NKFUwq": {
+          "type": "table-row",
+          "disabled": true,
+          "settings": {
+            "text-pros": "Naturally hypoallergenic",
+            "text-cons": "Can cause skin irritation",
+            "is-header": false
+          }
+        },
         "table_row_wQfK4b": {
           "type": "table-row",
+          "disabled": true,
           "settings": {
             "text-pros": "Antibacterial properties",
             "text-cons": "Harbors more bacteria ",
@@ -281,12 +283,12 @@
         "table_row_qrHg3C",
         "table_row_dgVRmi",
         "table_row_yHddPU",
-        "table_row_NKFUwq",
         "table_row_TXPgT6",
-        "table_row_YGErWK",
         "table_row_KhMTGk",
+        "table_row_YGErWK",
         "table_row_NMyHMB",
         "table_row_prNbxp",
+        "table_row_NKFUwq",
         "table_row_wQfK4b",
         "buttons_33KPBm"
       ],
