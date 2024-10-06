@@ -30,7 +30,18 @@
         "produdct_as_variants_CXULYg": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Options",
+            "label": "Tops",
+            "style": "image",
+            "target_collection": "",
+            "swatch_offset_Y": 50,
+            "swatch_offset_X": 50,
+            "hide_sold_out": true
+          }
+        },
+        "produdct_as_variants_gGPLHq": {
+          "type": "produdct-as-variants",
+          "settings": {
+            "label": "Bottoms",
             "style": "image",
             "target_collection": "",
             "swatch_offset_Y": 50,
@@ -98,7 +109,6 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Sizing",
             "icon": "ruler",
@@ -108,7 +118,6 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Care Instructions",
             "icon": "washing",
@@ -116,9 +125,21 @@
             "page": ""
           }
         },
+        "complementary_nxRNcF": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
+        },
         "share": {
           "type": "share",
-          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
@@ -129,6 +150,7 @@
         "price",
         "judge_me_reviews_preview_badge_pg4eqY",
         "produdct_as_variants_CXULYg",
+        "produdct_as_variants_gGPLHq",
         "variant_picker",
         "quantity_selector",
         "custom_low_stock_JTRiRj",
@@ -139,6 +161,7 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-3",
+        "complementary_nxRNcF",
         "share"
       ],
       "settings": {
@@ -176,41 +199,51 @@
         "include_margins": true
       }
     },
-    "blo_product_callouts_qHXD4R": {
-      "type": "blo-product-callouts",
+    "image_with_text_6q83jQ": {
+      "type": "image-with-text",
       "blocks": {
-        "callout_7fV3cD": {
-          "type": "Callout",
+        "heading_7wEBPb": {
+          "type": "heading",
           "settings": {
-            "pin_direction": "top_right",
-            "block_title": "Benefit 2",
-            "block_text": "Feature Text",
-            "horizontal_position": 50,
-            "vertical_position": 28
+            "heading": "Men's Buttery Soft, Ultra Stretchy Bamboo Fabric",
+            "heading_size": "h1"
           }
         },
-        "callout_BxjKGh": {
-          "type": "Callout",
+        "text_W9P4EA": {
+          "type": "text",
           "settings": {
-            "pin_direction": "top_right",
-            "block_title": "Benefit",
-            "block_text": "Super cool feature!",
-            "horizontal_position": 18,
-            "vertical_position": 80
+            "text": "<p>Using the same signature bamboo fabric as our children's clothing, our men's loungewear is buttery soft, stretchy, breathable and luxurious. These silky pajamas are about as sweet as a sleeping baby.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_zJVdNz": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify://blogs/blog/why-we-fell-in-love-with-bamboo",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "callout_7fV3cD",
-        "callout_BxjKGh"
+        "heading_7wEBPb",
+        "text_W9P4EA",
+        "button_zJVdNz"
       ],
-      "disabled": true,
       "settings": {
-        "title": "We’ve thought of it so you don’t have to.",
-        "text": "Lorem ipsum dolor sit amet consectetur",
-        "image": "shopify://shop_images/SummerZip.jpg",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "image": "shopify://shop_images/Camel-Small-Ribbed-7_b1e91c78-5b1a-47d1-b4db-7ad4820c5c60.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "blo_faq_7gVA7y": {
@@ -258,67 +291,6 @@
         "padding_bottom": 200
       }
     },
-    "blo_fabric_3BAiXt": {
-      "type": "blo-fabric",
-      "blocks": {
-        "heading_Jzz8Nx": {
-          "type": "heading",
-          "settings": {
-            "heading": "Say Hello To Pjs Your Littles Will Want To Live In."
-          }
-        },
-        "text_8Utc6r": {
-          "type": "text",
-          "settings": {
-            "text": "Made from buttery soft bamboo viscose. Our luxurious material keeps your little one cozy, day and night."
-          }
-        },
-        "text_4C4EtG": {
-          "type": "text",
-          "settings": {
-            "text": "Our pjs offer the gentlest touch to your little ones skin, limiting irritation for sensitive skin."
-          }
-        },
-        "text_kEFwFx": {
-          "type": "text",
-          "settings": {
-            "text": "Temperature regulating keeping your little one cool in summer and warm in winter."
-          }
-        },
-        "text_BtnKJ3": {
-          "type": "text",
-          "settings": {
-            "text": "Our snug-fitting cozy pajamas are CPSC compliant and never treated with flame-retardants or chemicals."
-          }
-        },
-        "text_DPLYYX": {
-          "type": "text",
-          "settings": {
-            "text": "Our bamboo viscose fabric is Oeko-Tex® Standard 100 certified and has been rigorously tested against hundreds of toxic chemicals."
-          }
-        },
-        "buttons_rDdkEK": {
-          "type": "buttons",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "shopify://blogs/blog/why-we-fell-in-love-with-bamboo"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Jzz8Nx",
-        "text_8Utc6r",
-        "text_4C4EtG",
-        "text_kEFwFx",
-        "text_BtnKJ3",
-        "text_DPLYYX",
-        "buttons_rDdkEK"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/Rust_Fabric_986d7f51-ce81-4388-8098-4392998abf81.jpg"
-      }
-    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -341,9 +313,8 @@
   "order": [
     "main",
     "172791928687cb93f7",
-    "blo_product_callouts_qHXD4R",
+    "image_with_text_6q83jQ",
     "blo_faq_7gVA7y",
-    "blo_fabric_3BAiXt",
     "related-products"
   ]
 }
