@@ -163,6 +163,7 @@
       "block_order": [
         "judge_me_reviews_review_widget_w8Ua44"
       ],
+      "disabled": true,
       "custom_css": [
         "section {background-color: var(--blo-terra);}"
       ],
@@ -315,6 +316,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
