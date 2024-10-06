@@ -105,6 +105,15 @@
             "page": "size-chart-pullovers"
           }
         },
+        "collapsible_tab_TNAQpb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Jogger Sizing",
+            "icon": "pants",
+            "content": "",
+            "page": "copy-of-size-chart-joggers"
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -143,15 +152,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "collapsible_tab_TNAQpb": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Jogger Sizing",
-            "icon": "pants",
-            "content": "",
-            "page": "copy-of-size-chart-joggers"
-          }
         }
       },
       "block_order": [
@@ -168,11 +168,11 @@
         "blo_payment_plans_BXirh9",
         "description",
         "collapsible_tab_FLRgq9",
+        "collapsible_tab_TNAQpb",
         "collapsible-row-0",
         "collapsible-row-3",
         "complementary_6PpaPE",
-        "share",
-        "collapsible_tab_TNAQpb"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
