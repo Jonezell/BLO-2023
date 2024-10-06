@@ -11,6 +11,9 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "custom_css": [
+        "h1 {display: none;}"
+      ],
       "settings": {
         "padding_top": 100,
         "padding_bottom": 0

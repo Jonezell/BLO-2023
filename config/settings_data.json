@@ -19,6 +19,7 @@
     "spacing_sections": 0,
     "spacing_grid_horizontal": 12,
     "spacing_grid_vertical": 8,
+    "animations_reveal_on_scroll": false,
     "buttons_border_thickness": 2,
     "buttons_border_opacity": 100,
     "buttons_radius": 40,
