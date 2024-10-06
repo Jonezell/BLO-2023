@@ -140,6 +140,13 @@
                 {{- 'products.product.on_sale' | t -}}
               </span>
             {%- endif -%}
+            {%- if card_product.metafields.custom.label != blank -%}
+              <span
+                class="badge badge--bottom-left blo-custom-product-badge color-{{ settings.sale_badge_color_scheme }}"
+              >
+                {{ card_product.metafields.custom.label }}
+              </span>
+            {%- endif -%}
           </div>
         </div>
       </div>
@@ -308,7 +315,13 @@
                   aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ card_product.id }}"
                   data-product-url="{{ card_product.url }}"
                 >
-                  {{ 'products.product.choose_options' | t }}
+                  {% comment %} CUSTOM QUICK ADD ICON BUTTON {% endcomment %}
+
+                  {% comment %} {{ 'products.product.choose_options' | t }} {% endcomment %}
+                  {{- 'icon-quick-add.svg' | inline_asset_content -}}
+
+                  {% comment %} END CUSTOM QUICK ADD ICON BUTTON {% endcomment %}
+
                   {%- if horizontal_quick_add -%}
                     <span class="icon-wrap">
                       {{- 'icon-arrow.svg' | inline_asset_content -}}
@@ -369,9 +382,14 @@
                   >
                     <span>
                       {%- if card_product.selected_or_first_available_variant.available -%}
-                        {{ 'products.product.add_to_cart' | t }}
+                        {% comment %} {{ 'products.product.add_to_cart' | t }} {% endcomment %}
+                        {% comment %} CUSTOM QUICK ADD ICON BUTTON {% endcomment %}
+
+                        {{- 'icon-quick-add.svg' | inline_asset_content -}}
+
+                        {% comment %} END CUSTOM QUICK ADD ICON BUTTON {% endcomment %}
                       {%- else -%}
-                        {{ 'products.product.sold_out' | t }}
+                        {% comment %} {{ 'products.product.sold_out' | t }} {% endcomment %}
                       {%- endif -%}
                     </span>
                     <span class="sold-out-message hidden">

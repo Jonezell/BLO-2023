@@ -810,9 +810,44 @@ body .menu-drawer .menu-drawer__close-button {
 }
 .product-grid .grid__item .price{
   margin-top:0;
-  font-family: 'GT Alpina Typewriter' !important;
   font-size: 14px;
   letter-spacing: 0;
+}
+.product-card-wrapper .card__content .quick-add {
+  width: 36px;
+  height: 36px;
+  align-self: center;
+  margin: 0 20px 0 0;
+}
+.product-card-wrapper .card__content {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+.product-card-wrapper .card__content .card__information {
+  width: 100%;
+}
+.product-card-wrapper .card__content .quick-add .button {
+  background-color: var(--blo-dark-cream);
+  min-height: 0;
+  width: 36px;
+  height: 36px;
+  padding: 5px 3px 3px;
+}
+.product-card-wrapper .card__content .quick-add .button:after,
+.product-card-wrapper .card__content .quick-add .button:before {
+  border: none;
+  box-shadow: none;
+}
+.shopify-section .collection .product-card-wrapper .quick-add__submit svg {
+margin-left:0;
+}
+.quick-add-modal__content.global-settings-popup {
+  border-radius: var(--blo-corner-radius);
+}
+.quick-add-modal__content.global-settings-popup .product slider-component:not(.thumbnail-slider--no-slide) {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 
@@ -835,14 +870,16 @@ body .menu-drawer .menu-drawer__close-button {
 .product .product__title + div[role=status]{
   margin-top: 10px;
 }
+.product .blo-product-badge-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
 .product .blo-product-badge-container .blo-product-badge {
   margin-top: 0;
   margin-bottom: 0;
   color: var(--blo-terra);
   border-color: var(--blo-terra);
-}
-.product .product__info-container .price__container{
-  font-family: 'GT Alpina Typewriter' !important;
 }
 .product .product__info-container .price__container .price__sale .price-item.price-item--regular {
   margin-right: 5px;
@@ -861,6 +898,8 @@ body .menu-drawer .menu-drawer__close-button {
 }
 .product .product-form__input.product-form__input--pill label{
   padding: 8px 13px 10px;
+  border-width: 2px;
+  border-color: rgba(var(--color-foreground));
 }
 .product .accordion {
   border-top: 2px solid var(--blo-dark-cream);
@@ -1079,4 +1118,64 @@ body .menu-drawer .menu-drawer__close-button {
     padding: 0 4px;
     opacity: 0.4;
   }
+}
+
+
+
+
+
+/* ---------------------------------------- BLO - CART DRAWER ---------------------------------------- */
+
+cart-drawer.drawer div.placement_side_cart.cart_page { 
+  background-color: transparent;
+}
+cart-drawer.drawer .drawer__heading {
+  margin-bottom: 0;
+  padding:0;
+}
+cart-drawer.drawer .drawer__contents .h4 {
+  font-size: 16px;
+}
+cart-drawer.drawer .drawer__contents {
+  margin-top: 0;
+}
+cart-drawer.drawer .drawer__contents .product-option {
+  font-size: 14px;
+  margin-top: 0;
+}
+cart-drawer.drawer .drawer__contents .price {
+  font-size: 14px;
+}
+cart-drawer.drawer .cart-item__media {
+  width: 80px
+}
+cart-drawer.drawer  .drawer__contents .cart-item__details,
+cart-drawer.drawer  .drawer__contents .cart-item__quantity  {
+  padding-left: 0;
+}
+cart-drawer.drawer .cart-item__image {
+  border-radius: var(--blo-corner-radius);
+}
+cart-drawer.drawer .tax-note  {
+  display: none;
+}
+cart-drawer.drawer .drawer__footer .totals {
+  margin-top: 7px;
+  margin-bottom: 0;
+  justify-content: center;
+  gap: 0;
+}
+cart-drawer.drawer .drawer__footer {
+  padding-top: 0;
+  border-top: 0;
+  display: flex;
+  flex-direction: column-reverse;
+}
+cart-drawer.drawer .drawer__footer .totals__total-value {
+  margin-left: 4px;
+  font-style: italic;
+}
+cart-drawer.drawer .drawer__footer .totals__total:after {
+  content: ":";
+  font-style: italic;
 }
