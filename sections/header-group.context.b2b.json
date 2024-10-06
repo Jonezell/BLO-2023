@@ -1,0 +1,60 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "parent": "header-group.json",
+  "context": {
+    "b2b": true
+  },
+  "sections": {
+    "announcement_bar_tU8Cm": {
+      "type": "announcement-bar",
+      "disabled": false,
+      "settings": {
+        "color_scheme": "scheme-3",
+        "show_line_separator": true,
+        "header-89561045e1ff13dfa2e2e70e0f4f0d9b": null,
+        "show_social": false,
+        "header-31482c279c265746e5c88a9125ea7e70": null,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "header-e4931bd9f1aa30883891eec45a1c5b48": null,
+        "enable_country_selector": false,
+        "header-302e6eee2a3cf297b1aa070d90093179": null,
+        "enable_language_selector": false
+      },
+      "blocks": {
+        "announcement_me7b7": {
+          "type": "announcement",
+          "disabled": false,
+          "settings": {
+            "text": "WELCOME TO WHOLESALE!",
+            "link": ""
+          }
+        },
+        "announcement_49z7b": {
+          "type": "announcement",
+          "disabled": false,
+          "settings": {
+            "text": "WHOLESALE MINIMUM IS $400",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_me7b7",
+        "announcement_49z7b"
+      ]
+    }
+  },
+  "order": [
+    "announcement_bar_tU8Cm",
+    "header"
+  ]
+}
