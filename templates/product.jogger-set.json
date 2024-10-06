@@ -116,11 +116,32 @@
             "page": ""
           }
         },
+        "complementary_6PpaPE": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
+        },
         "share": {
           "type": "share",
-          "disabled": true,
           "settings": {
             "share_label": "Share"
+          }
+        },
+        "collapsible_tab_FLRgq9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Pullover Sizing",
+            "icon": "shirt",
+            "content": "",
+            "page": "size-chart-pullovers"
           }
         }
       },
@@ -139,7 +160,9 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-3",
-        "share"
+        "complementary_6PpaPE",
+        "share",
+        "collapsible_tab_FLRgq9"
       ],
       "settings": {
         "enable_sticky_info": true,
