@@ -211,11 +211,22 @@
             "horizontal_position": 2,
             "vertical_position": 38
           }
+        },
+        "callout_Gig3tq": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Made for kids & adults",
+            "block_text": "Fun prints and neutral prints to choose from. Plus, it's big enough for mom to use, too.",
+            "horizontal_position": 4,
+            "vertical_position": 66
+          }
         }
       },
       "block_order": [
         "callout_7fV3cD",
-        "callout_BxjKGh"
+        "callout_BxjKGh",
+        "callout_Gig3tq"
       ],
       "settings": {
         "title": "A lunchbox so good you and you kids will want one.",
