@@ -115,6 +115,19 @@
             "page": ""
           }
         },
+        "complementary_qQy6C8": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -137,6 +150,7 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-3",
+        "complementary_qQy6C8",
         "share"
       ],
       "settings": {
@@ -202,11 +216,10 @@
         "callout_7fV3cD",
         "callout_BxjKGh"
       ],
-      "disabled": true,
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
-        "text": "Lorem ipsum dolor sit amet consectetur",
-        "image": "shopify://shop_images/SummerZip.jpg",
+        "text": "Discover the ultimate daytime comfort with our perfectly crafted Joggers.",
+        "image": "shopify://shop_images/Jogger_2ff0faf8-1059-47c6-9f96-005d6e6c8bd8.jpg",
         "padding_top": 100,
         "padding_bottom": 100
       }
