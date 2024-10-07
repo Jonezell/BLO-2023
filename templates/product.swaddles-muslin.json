@@ -31,7 +31,7 @@
           "type": "produdct-as-variants",
           "settings": {
             "label": "Style",
-            "style": "image",
+            "style": "swatch",
             "target_collection": "muslin-swaddles",
             "swatch_offset_Y": 70,
             "swatch_offset_X": 60,
