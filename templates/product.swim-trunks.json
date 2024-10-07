@@ -88,7 +88,7 @@
         "blo_payment_plans_BXirh9": {
           "type": "blo-payment-plans",
           "settings": {
-            "text": "Split your purchase into multiple small interest-free payments with"
+            "text": "Or, split your purchase into multiple small interest-free payments with"
           }
         },
         "description": {
@@ -166,7 +166,7 @@
         "hide_variants": true,
         "enable_video_looping": true,
         "padding_top": 36,
-        "padding_bottom": 12
+        "padding_bottom": 100
       }
     },
     "172791928687cb93f7": {
@@ -182,7 +182,7 @@
         "judge_me_reviews_review_widget_w8Ua44"
       ],
       "custom_css": [
-        "section {background-color: var(--blo-terra);}"
+
       ],
       "settings": {
         "include_margins": false
