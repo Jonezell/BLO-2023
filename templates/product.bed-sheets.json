@@ -64,7 +64,7 @@
         "custom_low_stock_JTRiRj": {
           "type": "custom-low-stock",
           "settings": {
-            "inventory_threshold": 20,
+            "inventory_threshold": 15,
             "show_inventory_quantity": false
           }
         },
@@ -99,7 +99,7 @@
         "blo_payment_plans_BXirh9": {
           "type": "blo-payment-plans",
           "settings": {
-            "text": "Split your purchase into multiple small interest-free payments with"
+            "text": "Or, split your purchase into multiple small interest-free payments with"
           }
         },
         "description": {
