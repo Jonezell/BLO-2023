@@ -54,7 +54,14 @@
           "type": "link",
           "settings": {
             "text": "PJs",
-            "linkurl": "https://bravelittleones.com/pages/size-charts-all-pjs"
+            "linkurl": "shopify://pages/size-charts-all-pjs"
+          }
+        },
+        "link_fNVGUL": {
+          "type": "link",
+          "settings": {
+            "text": "",
+            "linkurl": ""
           }
         },
         "link_H3ihU7": {
@@ -82,6 +89,7 @@
       "block_order": [
         "link_KRr4Fj",
         "link_W3iFQ4",
+        "link_fNVGUL",
         "link_H3ihU7",
         "link_jQ9xUj",
         "link_4fAxHy"
