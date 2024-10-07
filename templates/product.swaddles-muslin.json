@@ -205,6 +205,7 @@
       "block_order": [
         "callout_7fV3cD"
       ],
+      "disabled": true,
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
         "text": "Discover the ultimate comfort with our perfectly crafted Muslin Swaddles.",
@@ -250,12 +251,12 @@
         "collapsible_tab_pmXUGa"
       ],
       "settings": {
-        "background_color": "#c27d4c",
+        "background_color": "#fcfcf9",
         "mainHeading": "Have A Question? We Have The Answer.",
         "mainText": "",
         "layout": "image_first",
         "padding_top": 200,
-        "padding_bottom": 200
+        "padding_bottom": 100
       }
     },
     "related-products": {
