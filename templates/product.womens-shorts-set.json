@@ -117,7 +117,7 @@
         "complementary_4CtB8D": {
           "type": "complementary",
           "settings": {
-            "block_heading": "Pairs well with",
+            "block_heading": "Or buy them separate:",
             "make_collapsible_row": true,
             "icon": "price_tag",
             "product_list_limit": 10,
@@ -181,7 +181,7 @@
         "judge_me_reviews_review_widget_w8Ua44"
       ],
       "custom_css": [
-        "section {background-color: var(--blo-terra);}"
+
       ],
       "settings": {
         "include_margins": false
