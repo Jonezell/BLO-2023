@@ -68,7 +68,7 @@
           "type": "link",
           "settings": {
             "text": "Women's",
-            "linkurl": "https://bravelittleones.com/pages/size-charts-all-womens"
+            "linkurl": "shopify://pages/size-charts-all-womens"
           }
         },
         "link_pfyUCQ": {
