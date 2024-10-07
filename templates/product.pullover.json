@@ -127,12 +127,6 @@
             "image_ratio": "square",
             "enable_quick_add": true
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
@@ -150,8 +144,7 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-3",
-        "complementary_E96Bqt",
-        "share"
+        "complementary_E96Bqt"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -182,7 +175,7 @@
         "judge_me_reviews_review_widget_w8Ua44"
       ],
       "custom_css": [
-        "section {background-color: var(--blo-terra);}"
+
       ],
       "settings": {
         "include_margins": false
