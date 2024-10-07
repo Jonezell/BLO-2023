@@ -185,7 +185,7 @@
         "section {background-color: var(--blo-terra);}"
       ],
       "settings": {
-        "include_margins": true
+        "include_margins": false
       }
     },
     "blo_product_callouts_qHXD4R": {
