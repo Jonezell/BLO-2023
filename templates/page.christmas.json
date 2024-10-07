@@ -11,13 +11,24 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "custom_liquid_9zAyFp": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "BLO Banner (Release)",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_liquid_9zAyFp"
   ]
 }
