@@ -108,12 +108,6 @@
             "image_ratio": "square",
             "enable_quick_add": true
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
@@ -129,8 +123,7 @@
         "blo_restock_note_mE6Xzy",
         "blo_payment_plans_BXirh9",
         "description",
-        "complementary_tqPDRd",
-        "share"
+        "complementary_tqPDRd"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -161,7 +154,7 @@
         "judge_me_reviews_review_widget_w8Ua44"
       ],
       "settings": {
-        "include_margins": true
+        "include_margins": false
       }
     },
     "blo_product_callouts_qHXD4R": {
