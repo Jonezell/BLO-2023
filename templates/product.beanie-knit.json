@@ -175,6 +175,9 @@
         "heading_TVCDNa",
         "text_CrkfEy"
       ],
+      "custom_css": [
+        ".image-with-text__media {border-color: transparent;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/Knit-beanie_2dfdb9d2-5c19-47d8-a799-60441c7f1fea.png",
         "height": "adapt",
