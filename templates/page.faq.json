@@ -40,9 +40,9 @@
         "collapsible_tab_E8Mfkq": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
+            "heading": "What if my package is missing?",
+            "icon": "none",
+            "content": "<p>If you added <strong>Brave Little Ones Package Protection</strong> at checkout then do not worry! Our package protection offers peace of mind for all of your orders. If you added the insurance, your package is fully protected in the event that it is lost, damaged, or stolen. Exclusions apply.</p><p>See <a href=\"https://bravelittleones.com/pages/package-protection\" title=\"Brave Little Ones Package Insurance\">Brave Little Ones Package Protection Guarantee</a> for more.</p>",
             "page": ""
           }
         }
