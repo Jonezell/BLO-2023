@@ -270,43 +270,6 @@
         "image": "shopify://shop_images/Camel-Small-Ribbed-7_980c7420-df31-4508-b3f0-70d4d3e8eae3.jpg"
       }
     },
-    "blo_product_callouts_qHXD4R": {
-      "type": "blo-product-callouts",
-      "blocks": {
-        "callout_7fV3cD": {
-          "type": "Callout",
-          "settings": {
-            "pin_direction": "top_right",
-            "block_title": "Benefit 2",
-            "block_text": "Feature Text",
-            "horizontal_position": 50,
-            "vertical_position": 28
-          }
-        },
-        "callout_BxjKGh": {
-          "type": "Callout",
-          "settings": {
-            "pin_direction": "top_right",
-            "block_title": "Benefit",
-            "block_text": "Super cool feature!",
-            "horizontal_position": 18,
-            "vertical_position": 80
-          }
-        }
-      },
-      "block_order": [
-        "callout_7fV3cD",
-        "callout_BxjKGh"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "We’ve thought of it so you don’t have to.",
-        "text": "Lorem ipsum dolor sit amet consectetur",
-        "image": "shopify://shop_images/SummerZip.jpg",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
     "blo_faq_7gVA7y": {
       "type": "blo-faq",
       "blocks": {
@@ -376,7 +339,6 @@
     "172791928687cb93f7",
     "video_a6Wkpd",
     "blo_fabric_3BAiXt",
-    "blo_product_callouts_qHXD4R",
     "blo_faq_7gVA7y",
     "related-products"
   ]
