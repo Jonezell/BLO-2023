@@ -83,7 +83,18 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "page_gYhi3W": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-sleep-sacks",
+        "heading_size": "h2",
+        "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 100
       }
@@ -92,6 +103,7 @@
   "order": [
     "rich_text_6nPpzf",
     "blo_collection_pills_byeYKh",
-    "main"
+    "main",
+    "page_gYhi3W"
   ]
 }
