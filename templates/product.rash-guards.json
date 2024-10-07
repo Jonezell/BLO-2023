@@ -30,9 +30,9 @@
         "produdct_as_variants_CXULYg": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Options",
+            "label": "Style",
             "style": "image",
-            "target_collection": "",
+            "target_collection": "rash-guards",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
@@ -53,7 +53,7 @@
         "custom_low_stock_JTRiRj": {
           "type": "custom-low-stock",
           "settings": {
-            "inventory_threshold": 20,
+            "inventory_threshold": 15,
             "show_inventory_quantity": false
           }
         },
@@ -98,12 +98,11 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Sizing",
             "icon": "ruler",
             "content": "",
-            "page": "size-chart-two-piece-set"
+            "page": "size-chart-rash-guards"
           }
         },
         "collapsible-row-3": {
@@ -114,6 +113,19 @@
             "icon": "washing",
             "content": "<p><strong>How do I care for bamboo?</strong></p><p><em><strong>Step One: </strong></em><br/>Turn the garment inside out before washing and drying.<br/></p><p><em><strong>Step Two: </strong></em><br/>Wash in cold water on the normal or quick cycle. We do not recommend washing on delicate since it makes products sit in water for too long.<br/></p><p><em><strong>Step Three: </strong></em><strong><br/></strong>Dry on the normal heat setting.</p>",
             "page": ""
+          }
+        },
+        "complementary_x4W88A": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": true,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
           }
         },
         "share": {
@@ -139,6 +151,7 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-3",
+        "complementary_x4W88A",
         "share"
       ],
       "settings": {
@@ -154,7 +167,7 @@
         "hide_variants": true,
         "enable_video_looping": true,
         "padding_top": 36,
-        "padding_bottom": 100
+        "padding_bottom": 12
       }
     },
     "172791928687cb93f7": {
@@ -173,7 +186,7 @@
         "section {background-color: var(--blo-terra);}"
       ],
       "settings": {
-        "include_margins": true
+        "include_margins": false
       }
     },
     "blo_product_callouts_qHXD4R": {
@@ -183,32 +196,64 @@
           "type": "Callout",
           "settings": {
             "pin_direction": "top_right",
-            "block_title": "Benefit 2",
-            "block_text": "Feature Text",
-            "horizontal_position": 50,
-            "vertical_position": 28
+            "block_title": "Tagless Label",
+            "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
+            "horizontal_position": 56,
+            "vertical_position": 8
           }
         },
         "callout_BxjKGh": {
           "type": "Callout",
           "settings": {
             "pin_direction": "top_right",
-            "block_title": "Benefit",
-            "block_text": "Super cool feature!",
-            "horizontal_position": 18,
-            "vertical_position": 80
+            "block_title": "UPF 50+ With UV Protection",
+            "block_text": "Our Rash Guards provide the ultimate sun protection; UPF 50 blocks about 99% of the sun’s UVA and UVB harmful rays.",
+            "horizontal_position": 6,
+            "vertical_position": 28
+          }
+        },
+        "callout_VbdxCC": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_left",
+            "block_title": "Long Sleeves",
+            "block_text": "Full coverage from the sun that lasts all day.",
+            "horizontal_position": 4,
+            "vertical_position": 52
+          }
+        },
+        "callout_Mx8gzt": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Soft & Stretchy",
+            "block_text": "Dress your littles easily while keeping them super comfy.",
+            "horizontal_position": 8,
+            "vertical_position": 72
+          }
+        },
+        "callout_6tXUdm": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Quick Drying",
+            "block_text": "Beach or pool? No problem, that's what they're made for.",
+            "horizontal_position": 14,
+            "vertical_position": 92
           }
         }
       },
       "block_order": [
         "callout_7fV3cD",
-        "callout_BxjKGh"
+        "callout_BxjKGh",
+        "callout_VbdxCC",
+        "callout_Mx8gzt",
+        "callout_6tXUdm"
       ],
-      "disabled": true,
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
-        "text": "Lorem ipsum dolor sit amet consectetur",
-        "image": "shopify://shop_images/SummerZip.jpg",
+        "text": "Our Rash Guards keep your little ones covered from the sun and are comfy for those long summer days.",
+        "image": "shopify://shop_images/RashGuard.jpg",
         "padding_top": 100,
         "padding_bottom": 100
       }
@@ -254,73 +299,13 @@
         "mainHeading": "Have A Question? We Have The Answer.",
         "mainText": "",
         "layout": "image_first",
-        "padding_top": 200,
+        "padding_top": 0,
         "padding_bottom": 200
-      }
-    },
-    "blo_fabric_3BAiXt": {
-      "type": "blo-fabric",
-      "blocks": {
-        "heading_Jzz8Nx": {
-          "type": "heading",
-          "settings": {
-            "heading": "Say Hello To Pjs Your Littles Will Want To Live In."
-          }
-        },
-        "text_8Utc6r": {
-          "type": "text",
-          "settings": {
-            "text": "Made from buttery soft bamboo viscose. Our luxurious material keeps your little one cozy, day and night."
-          }
-        },
-        "text_4C4EtG": {
-          "type": "text",
-          "settings": {
-            "text": "Our pjs offer the gentlest touch to your little ones skin, limiting irritation for sensitive skin."
-          }
-        },
-        "text_kEFwFx": {
-          "type": "text",
-          "settings": {
-            "text": "Temperature regulating keeping your little one cool in summer and warm in winter."
-          }
-        },
-        "text_BtnKJ3": {
-          "type": "text",
-          "settings": {
-            "text": "Our snug-fitting cozy pajamas are CPSC compliant and never treated with flame-retardants or chemicals."
-          }
-        },
-        "text_DPLYYX": {
-          "type": "text",
-          "settings": {
-            "text": "Our bamboo viscose fabric is Oeko-Tex® Standard 100 certified and has been rigorously tested against hundreds of toxic chemicals."
-          }
-        },
-        "buttons_rDdkEK": {
-          "type": "buttons",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "shopify://blogs/blog/why-we-fell-in-love-with-bamboo"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Jzz8Nx",
-        "text_8Utc6r",
-        "text_4C4EtG",
-        "text_kEFwFx",
-        "text_BtnKJ3",
-        "text_DPLYYX",
-        "buttons_rDdkEK"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/Rust_Fabric_986d7f51-ce81-4388-8098-4392998abf81.jpg"
       }
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -343,7 +328,6 @@
     "172791928687cb93f7",
     "blo_product_callouts_qHXD4R",
     "blo_faq_7gVA7y",
-    "blo_fabric_3BAiXt",
     "related-products"
   ]
 }
