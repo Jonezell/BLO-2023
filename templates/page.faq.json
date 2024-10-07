@@ -285,6 +285,41 @@
         "padding_top": 0,
         "padding_bottom": 100
       }
+    },
+    "blo_faq_KGkPbM": {
+      "type": "blo-faq",
+      "blocks": {
+        "collapsible_tab_P8xRCE": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I apply?",
+            "icon": "none",
+            "content": "<p>Are you interested in carrying Brave Little Ones in your shop? Brave Little Ones is the perfect addition to your shop. The best part is every Brave Little Ones purchase helps feed children in Rwanda, Africa. </p><p>Please fill out <a href=\"https://brave-little-ones.myshopify.com/pages/wholesale\" target=\"_blank\"><span style=\"text-decoration:underline\">the application here.</span></a><span style=\"text-decoration:underline\"> </span></p><p>If accepted, you will receive an email with our wholesale pricing and login information. We're excited to hear from you!</p><p><em>Please note: We are currently NOT selling to online retailers. Please only apply if you have a brick and mortar shop.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_AepVg4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I place a wholesale order?",
+            "icon": "none",
+            "content": "<p>Simply log in with your wholesale email to shop. All items are automatically discounted to show wholesale pricing. You can<a href=\"http://account.bravelittleones.com/\" target=\"_blank\"> <span style=\"text-decoration:underline\">log in here </span></a>to start shopping.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_P8xRCE",
+        "collapsible_tab_AepVg4"
+      ],
+      "settings": {
+        "background_color": "",
+        "mainHeading": "Wholesale",
+        "mainText": "",
+        "layout": "image_first",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
@@ -294,6 +329,7 @@
     "blo_faq_4DJh4E",
     "blo_faq_rT7ygy",
     "blo_faq_AqV3hw",
-    "blo_faq_fCEqEY"
+    "blo_faq_fCEqEY",
+    "blo_faq_KGkPbM"
   ]
 }
