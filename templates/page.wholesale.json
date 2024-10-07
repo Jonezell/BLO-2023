@@ -13,7 +13,7 @@
       "type": "main-page",
       "settings": {
         "padding_top": 100,
-        "padding_bottom": 0
+        "padding_bottom": 40
       }
     },
     "rich_text_BeHx7i": {
@@ -22,7 +22,7 @@
         "text_ABGyLd": {
           "type": "text",
           "settings": {
-            "text": "<h6><strong>Already An Approved Retailer?</strong></h6><p>Simply log in with your wholesale email to shop. All items are automatically discounted to show wholesale pricing. </p>"
+            "text": "<h4><strong>Already An Approved Retailer?</strong></h4><p>Simply log in with your wholesale email to shop. All items are automatically discounted to show wholesale pricing. </p>"
           }
         },
         "button_AtfchK": {
@@ -56,7 +56,7 @@
         "text_VrXnCh": {
           "type": "text",
           "settings": {
-            "text": "<h6><strong>Want To Be A Retailer? </strong></h6><h6></h6><p>Are you interested in carrying Brave Little Ones in your shop? Please fill out the application below to apply to become a retailer. If accepted, you will receive an email with our wholesale pricing and login information. Let's do this!</p><p></p><p><em>Please note: We are currently NOT selling to online retailers. Please only apply if you have a physical shop.</em></p>"
+            "text": "<h4><strong>Want To Be A Retailer? </strong></h4><h6></h6><p>Are you interested in carrying Brave Little Ones in your shop? Please fill out the application below to apply to become a retailer. If accepted, you will receive an email with our wholesale pricing and login information. Let's do this!</p><p></p><p><em>Please note: We are currently NOT selling to online retailers. Please only apply if you have a physical shop.</em></p>"
           }
         }
       },
