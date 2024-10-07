@@ -240,6 +240,51 @@
         "padding_top": 0,
         "padding_bottom": 100
       }
+    },
+    "blo_faq_fCEqEY": {
+      "type": "blo-faq",
+      "blocks": {
+        "collapsible_tab_ingzBf": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_H39qpM": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_ekDQ8H": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_ingzBf",
+        "collapsible_tab_H39qpM",
+        "collapsible_tab_ekDQ8H"
+      ],
+      "settings": {
+        "background_color": "",
+        "mainHeading": "Care Instructions",
+        "mainText": "",
+        "layout": "image_first",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
@@ -248,6 +293,7 @@
     "blo_faq_NMVikd",
     "blo_faq_4DJh4E",
     "blo_faq_rT7ygy",
-    "blo_faq_AqV3hw"
+    "blo_faq_AqV3hw",
+    "blo_faq_fCEqEY"
   ]
 }
