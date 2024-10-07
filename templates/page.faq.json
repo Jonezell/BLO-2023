@@ -170,12 +170,58 @@
         "padding_top": 0,
         "padding_bottom": 100
       }
+    },
+    "blo_faq_rT7ygy": {
+      "type": "blo-faq",
+      "blocks": {
+        "collapsible_tab_Vf7cxn": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_GD7T4V": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_kwtBtg": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_Vf7cxn",
+        "collapsible_tab_GD7T4V",
+        "collapsible_tab_kwtBtg"
+      ],
+      "settings": {
+        "background_color": "",
+        "mainHeading": "Package Protection",
+        "mainText": "<p>Our Brave Little Ones Package Protection guarantees delivery on all orders placed within the United States.</p>",
+        "layout": "image_first",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
     "main",
     "blo_faq_E8UNYw",
     "blo_faq_NMVikd",
-    "blo_faq_4DJh4E"
+    "blo_faq_4DJh4E",
+    "blo_faq_rT7ygy"
   ]
 }
