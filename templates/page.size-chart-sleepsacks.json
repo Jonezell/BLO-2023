@@ -9,15 +9,89 @@
 */
 {
   "sections": {
+    "rich_text_6nPpzf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zGjM38": {
+          "type": "heading",
+          "settings": {
+            "heading": "Size Charts",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zGjM38"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "blo_collection_pills_byeYKh": {
+      "type": "blo-collection-pills",
+      "blocks": {
+        "link_RKVCbA": {
+          "type": "link",
+          "settings": {
+            "text": "All",
+            "linkurl": "shopify://pages/size-chart"
+          }
+        },
+        "link_Q96NWA": {
+          "type": "link",
+          "settings": {
+            "text": "PJs",
+            "linkurl": "shopify://pages/size-charts-all-pjs"
+          }
+        },
+        "link_WXhamx": {
+          "type": "link",
+          "settings": {
+            "text": "Daywear",
+            "linkurl": "shopify://pages/size-charts-all-daywear"
+          }
+        },
+        "link_L7dCjA": {
+          "type": "link",
+          "settings": {
+            "text": "Men's & Women's",
+            "linkurl": "https://bravelittleones.com/pages/size-charts-all-womens"
+          }
+        },
+        "link_cAcCjd": {
+          "type": "link",
+          "settings": {
+            "text": "Sleep Sacks",
+            "linkurl": "shopify://pages/size-chart-sleep-sacks"
+          }
+        }
+      },
+      "block_order": [
+        "link_RKVCbA",
+        "link_Q96NWA",
+        "link_WXhamx",
+        "link_L7dCjA",
+        "link_cAcCjd"
+      ],
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
-        "padding_top": 100,
+        "padding_top": 0,
         "padding_bottom": 100
       }
     }
   },
   "order": [
+    "rich_text_6nPpzf",
+    "blo_collection_pills_byeYKh",
     "main"
   ]
 }
