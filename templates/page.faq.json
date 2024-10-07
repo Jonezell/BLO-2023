@@ -355,6 +355,48 @@
         "padding_top": 0,
         "padding_bottom": 100
       }
+    },
+    "rich_text_HNaeKU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_m8afBy": {
+          "type": "heading",
+          "settings": {
+            "heading": "Other Questions?",
+            "heading_size": "h1"
+          }
+        },
+        "text_QUQeBp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For more questions, please reach out to our support team at <a href=\"https://bravelittleones.com/pages/contact-us\" title=\"Contact Us\">Support@bravelittleones.com</a>. All inquires will be reponded to within 2 business days (Monday - Friday)</p>"
+          }
+        },
+        "button_PLy7ED": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "https://bravelittleones.com/pages/contact-us",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_m8afBy",
+        "text_QUQeBp",
+        "button_PLy7ED"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -366,6 +408,7 @@
     "blo_faq_AqV3hw",
     "blo_faq_fCEqEY",
     "blo_faq_KGkPbM",
-    "blo_faq_Xq7fjz"
+    "blo_faq_Xq7fjz",
+    "rich_text_HNaeKU"
   ]
 }
