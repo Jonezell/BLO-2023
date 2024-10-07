@@ -15,9 +15,121 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "rich_text_BeHx7i": {
+      "type": "rich-text",
+      "blocks": {
+        "text_ABGyLd": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><strong>Already An Approved Retailer?</strong></h6><p>Simply log in with your wholesale email to shop. All items are automatically discounted to show wholesale pricing. </p>"
+          }
+        },
+        "button_AtfchK": {
+          "type": "button",
+          "settings": {
+            "button_label": "Log in",
+            "button_link": "http://account.bravelittleones.com/",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_ABGyLd",
+        "button_AtfchK"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_BaacN9": {
+      "type": "rich-text",
+      "blocks": {
+        "text_VrXnCh": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><strong>Want To Be A Retailer? </strong></h6><h6></h6><p>Are you interested in carrying Brave Little Ones in your shop? Please fill out the application below to apply to become a retailer. If accepted, you will receive an email with our wholesale pricing and login information. Let's do this!</p><p></p><p><em>Please note: We are currently NOT selling to online retailers. Please only apply if you have a physical shop.</em></p>"
+          }
+        },
+        "button_KgCUix": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_VrXnCh",
+        "button_KgCUix"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1728295288e947bae5": {
+      "type": "apps",
+      "blocks": {
+        "hulk_form_builder_form_block_HbMMgH": {
+          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "settings": {
+            "form_uuid": "NXFcsHxzsDw-4amDhwXpMg",
+            "form_settings": false,
+            "font_color": "#000000",
+            "size": 14,
+            "input_background_color": "#FFF",
+            "input_background_color_focus": "#F4DADA",
+            "input_border_radius": 1,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2D2727",
+            "input_font_color": "#3D3131",
+            "input_size": 14,
+            "border_color": "#121212",
+            "border_radius": 2,
+            "border": 1,
+            "fill_color": "#EBE9E9",
+            "padding": 35,
+            "form_width": 600,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#F3F3F3",
+            "sub_btn_bg_color": "#3F3333",
+            "sub_btn_font_size": 14,
+            "sub_btn_bdr_color": "#FFFFFF",
+            "sub_btn_bdr_rad": 3,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Times New Roman"
+          }
+        }
+      },
+      "block_order": [
+        "hulk_form_builder_form_block_HbMMgH"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_BeHx7i",
+    "rich_text_BaacN9",
+    "1728295288e947bae5"
   ]
 }
