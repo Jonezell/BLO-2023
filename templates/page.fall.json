@@ -52,11 +52,40 @@
         "padding_top": 100,
         "padding_bottom": 0
       }
+    },
+    "featured_collection_PDNwqE": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Pinecone Small Ribbed",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "pinecone-small-ribbed",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "custom_liquid_WEhfXE",
-    "featured_collection_mji3By"
+    "featured_collection_mji3By",
+    "featured_collection_PDNwqE"
   ]
 }
