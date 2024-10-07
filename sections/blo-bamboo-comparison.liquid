@@ -28,21 +28,16 @@
           </div>
         {%- when 'table-row' -%}
           <div
-            class="blo-bamboo-comparison-row rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %} {% if block.settings.is-header == true %} blo-bamboo-comparison-row-header {% endif %}"
+            class="blo-bamboo-benefit-row rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
             {{ block.shopify_attributes }}
           >
-            <div class="blo-bamboo-comparison-row-content">
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M5 10L8.5 13.5L14 6" stroke="#335348" stroke-width="1.9"/>
-              </svg>
-              <p>{{ block.settings['text-pros'] }}</p>
-            </div>
-            <div class="blo-bamboo-comparison-row-content">
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <line x1="6.67175" y1="6.32825" x2="13.7428" y2="13.3993" stroke="#C27D4C" stroke-width="1.9"/>
-                <line x1="13.6718" y1="6.67175" x2="6.60068" y2="13.7428" stroke="#C27D4C" stroke-width="1.9"/>
-              </svg>
-              <p>{{ block.settings['text-cons'] }}</p>
+            <div class="blo-bamboo-benefit-row-content">
+              {% if block.settings['show-checkmark'] == true %}
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 10L8.5 13.5L14 6" stroke="#335348" stroke-width="1.9"/>
+                </svg>
+              {% endif %}
+              <p>{{ block.settings.text }}</p>
             </div>
           </div>
         {%- when 'buttons' -%}
@@ -100,16 +95,16 @@
     .blo-bamboo-comparison-text p {
         color: var(--blo-pine, #000)
     }
-    .blo-bamboo-comparison-row {
+    .blo-bamboo-benefit-row {
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 10px;
     }
-    .blo-banner-text + .blo-bamboo-comparison-row {
+    .blo-banner-text + .blo-bamboo-benefit-row {
         margin-top: 40px;
     }
-    .blo-bamboo-comparison-row-content {
+    .blo-bamboo-benefit-row-content {
         width: 50%;
         display: flex;
         flex-direction: row;
@@ -118,31 +113,31 @@
         padding: 12px 0;
         color: var(--blo-pine);
     }
-    .blo-bamboo-comparison-row-content svg path {
+    .blo-bamboo-benefit-row-content svg path {
         stroke: var(--blo-pine);
     }
-    .blo-bamboo-comparison-row-content + .blo-bamboo-comparison-row-content p{
+    .blo-bamboo-benefit-row-content + .blo-bamboo-benefit-row-content p{
         color: var(--blo-terra);
     }
-    .blo-bamboo-comparison-row-content + .blo-bamboo-comparison-row-content svg path {
+    .blo-bamboo-benefit-row-content + .blo-bamboo-benefit-row-content svg path {
         fill: var(--blo-terra);
     }
-    .blo-bamboo-comparison-row + .blo-bamboo-comparison-row {
+    .blo-bamboo-benefit-row + .blo-bamboo-benefit-row {
         border-top: 1.9px solid var(--blo-dark-cream);
     }
-    .blo-bamboo-comparison-row-content p {
+    .blo-bamboo-benefit-row-content p {
         margin-top: 0;
         margin-bottom: 0;
         width: 100%;
     }
-    .blo-bamboo-comparison-row-header p{
+    .blo-bamboo-benefit-row-header p{
         font-weight: bold !important;
         font-style: italic !important;
     }
-    .blo-bamboo-comparison-row-header .blo-bamboo-comparison-row-content svg {
+    .blo-bamboo-benefit-row-header .blo-bamboo-benefit-row-content svg {
         display: none;
     }
-    .blo-bamboo-comparison-row + .blo-bamboo-comparison-buttons {
+    .blo-bamboo-benefit-row + .blo-bamboo-comparison-buttons {
         margin-top: 20px;
     }
 
@@ -264,21 +259,15 @@
       "settings": [
         {
           "type": "inline_richtext",
-          "id": "text-pros",
+          "id": "text",
           "default": "Buttery Soft",
-          "label": "Us"
-        },
-        {
-          "type": "inline_richtext",
-          "id": "text-cons",
-          "default": "Hard",
-          "label": "Them"
+          "label": "Table Row Content"
         },
         {
           "type": "checkbox",
-          "id": "is-header",
-          "label": "Is a header?",
-          "default": false
+          "id": "show-checkmark",
+          "label": "Show Checkmark",
+          "default": true
         }
       ]
     },
