@@ -118,6 +118,7 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Care Instructions",
             "icon": "washing",
@@ -137,12 +138,6 @@
             "image_ratio": "square",
             "enable_quick_add": true
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
@@ -161,8 +156,7 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-3",
-        "complementary_FtfK7m",
-        "share"
+        "complementary_FtfK7m"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -236,12 +230,12 @@
         "collapsible_tab_pmXUGa"
       ],
       "settings": {
-        "background_color": "#c27d4c",
+        "background_color": "#fdfdfd",
         "mainHeading": "Have A Question? We Have The Answer.",
         "mainText": "",
         "layout": "image_first",
         "padding_top": 200,
-        "padding_bottom": 200
+        "padding_bottom": 100
       }
     },
     "related-products": {
