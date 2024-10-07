@@ -30,14 +30,14 @@
           "type": "link",
           "settings": {
             "text": "Prints",
-            "linkurl": "https://bravelittleones.com/pages/shop-by-print"
+            "linkurl": "shopify://pages/shop-by-print"
           }
         },
         "link_JfjQfQ": {
           "type": "link",
           "settings": {
             "text": "Solids & Stripes",
-            "linkurl": "https://bravelittleones.com/pages/shop-by-small-ribbed"
+            "linkurl": "shopify://pages/shop-by-small-ribbed"
           }
         }
       },
