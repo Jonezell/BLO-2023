@@ -187,43 +187,6 @@
         "include_margins": false
       }
     },
-    "blo_product_callouts_qHXD4R": {
-      "type": "blo-product-callouts",
-      "blocks": {
-        "callout_7fV3cD": {
-          "type": "Callout",
-          "settings": {
-            "pin_direction": "top_right",
-            "block_title": "Benefit 2",
-            "block_text": "Feature Text",
-            "horizontal_position": 50,
-            "vertical_position": 28
-          }
-        },
-        "callout_BxjKGh": {
-          "type": "Callout",
-          "settings": {
-            "pin_direction": "top_right",
-            "block_title": "Benefit",
-            "block_text": "Super cool feature!",
-            "horizontal_position": 18,
-            "vertical_position": 80
-          }
-        }
-      },
-      "block_order": [
-        "callout_7fV3cD",
-        "callout_BxjKGh"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "We’ve thought of it so you don’t have to.",
-        "text": "Lorem ipsum dolor sit amet consectetur",
-        "image": "shopify://shop_images/SummerZip.jpg",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
     "blo_faq_7gVA7y": {
       "type": "blo-faq",
       "blocks": {
@@ -261,12 +224,12 @@
         "collapsible_tab_pmXUGa"
       ],
       "settings": {
-        "background_color": "#c27d4c",
+        "background_color": "#fcfcf9",
         "mainHeading": "Have A Question? We Have The Answer.",
         "mainText": "",
         "layout": "image_first",
         "padding_top": 200,
-        "padding_bottom": 200
+        "padding_bottom": 100
       }
     },
     "blo_fabric_3BAiXt": {
@@ -352,7 +315,6 @@
   "order": [
     "main",
     "172791928687cb93f7",
-    "blo_product_callouts_qHXD4R",
     "blo_faq_7gVA7y",
     "blo_fabric_3BAiXt",
     "related-products"
