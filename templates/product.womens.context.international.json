@@ -8,23 +8,10 @@
 * ------------------------------------------------------------
 */
 {
-  "parent": "header-group.json",
+  "parent": "product.womens.json",
   "context": {
     "market": "international"
   },
   "sections": {
-    "announcement-bar": {
-      "settings": {
-      },
-      "blocks": {
-      },
-      "block_order": [
-        "announcement_zPQ3jf"
-      ]
-    }
-  },
-  "order": [
-    "announcement-bar",
-    "header"
-  ]
+  }
 }
