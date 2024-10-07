@@ -88,11 +88,242 @@
       ],
       "settings": {
       }
+    },
+    "page_G7AN88": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-zip-rompers-fold-over",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_9bmt7A": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-two-piece-set",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_G9deL4": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-shorts-two-piece-set",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_NQ6nTg": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-summer-zip-rompers",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_kKyzyi": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-knotted-gowns",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_aVq7pX": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-shirts-tanks",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_hFxQcV": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-dresses",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_Wf8Amx": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-pullovers",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_twqega": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-fleece-hoodies",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_QEQTit": {
+      "type": "page",
+      "settings": {
+        "page": "copy-of-size-chart-joggers",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_WgmCpP": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-puffer-jackets",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_rf9p78": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-trunks",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_gdwhw3": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-rash-guards",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_tJJt8g": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-briefs",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_cJmEQK": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-girl-underwear",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_AdhXmq": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-womens",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_MHx4Yf": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-womens-shorts-set",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_a8fmqp": {
+      "type": "page",
+      "settings": {
+        "page": "working-on-size-chart-mens-shirts",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_kYpCBx": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-mens-pants",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_9EgkBH": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-sleep-sacks",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_MrfhTD": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-socks",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "rich_text_Dyen8x",
-    "blo_collection_pills_jXCMTT"
+    "blo_collection_pills_jXCMTT",
+    "page_G7AN88",
+    "page_9bmt7A",
+    "page_G9deL4",
+    "page_NQ6nTg",
+    "page_kKyzyi",
+    "page_aVq7pX",
+    "page_hFxQcV",
+    "page_Wf8Amx",
+    "page_twqega",
+    "page_QEQTit",
+    "page_WgmCpP",
+    "page_rf9p78",
+    "page_gdwhw3",
+    "page_tJJt8g",
+    "page_cJmEQK",
+    "page_AdhXmq",
+    "page_MHx4Yf",
+    "page_a8fmqp",
+    "page_kYpCBx",
+    "page_9EgkBH",
+    "page_MrfhTD"
   ]
 }
