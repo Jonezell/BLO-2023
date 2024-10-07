@@ -31,7 +31,7 @@
           "type": "produdct-as-variants",
           "settings": {
             "label": "Style",
-            "style": "image",
+            "style": "swatch",
             "target_collection": "crib-sheets",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
@@ -42,10 +42,10 @@
           "type": "produdct-as-variants",
           "settings": {
             "label": "Style",
-            "style": "image",
+            "style": "swatch",
             "target_collection": "twin-sheets",
-            "swatch_offset_Y": 50,
-            "swatch_offset_X": 50,
+            "swatch_offset_Y": 75,
+            "swatch_offset_X": 80,
             "hide_sold_out": true
           }
         },
