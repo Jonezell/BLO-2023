@@ -67,9 +67,9 @@
         "collapsible_tab_D4JD7H": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
+            "heading": "Do you ship internationally?",
+            "icon": "none",
+            "content": "<p>Yes! International shipping is currently available to Canada, Australia & United Kingdom</p>",
             "page": ""
           }
         },
@@ -90,12 +90,42 @@
             "content": "",
             "page": ""
           }
+        },
+        "collapsible_tab_dJHJVU": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_WWCa3K": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_ffQpaV": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "collapsible_tab_D4JD7H",
         "collapsible_tab_HyURQH",
-        "collapsible_tab_qkWrAt"
+        "collapsible_tab_qkWrAt",
+        "collapsible_tab_dJHJVU",
+        "collapsible_tab_WWCa3K",
+        "collapsible_tab_ffQpaV"
       ],
       "settings": {
         "background_color": "",
