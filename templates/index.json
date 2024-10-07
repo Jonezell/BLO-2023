@@ -69,7 +69,7 @@
           "type": "benefit",
           "settings": {
             "text": "Fits 3x longer",
-            "image": "shopify://shop_images/icon-certified.svg"
+            "image": "shopify://shop_images/icon-stretch.png"
           }
         },
         "benefit_EYPnyq": {
@@ -82,7 +82,8 @@
         "benefit_aKAMc4": {
           "type": "benefit",
           "settings": {
-            "text": "Every purchase gives back"
+            "text": "Every purchase gives back",
+            "image": "shopify://shop_images/icon-thumb.svg"
           }
         },
         "benefit_KEB7kW": {
