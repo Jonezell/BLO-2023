@@ -222,7 +222,7 @@
         "image": "shopify://shop_images/Camel-Small-Ribbed-7_b1e91c78-5b1a-47d1-b4db-7ad4820c5c60.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -271,12 +271,12 @@
         "collapsible_tab_pmXUGa"
       ],
       "settings": {
-        "background_color": "#c27d4c",
+        "background_color": "#fcfcf9",
         "mainHeading": "Have A Question? We Have The Answer.",
         "mainText": "",
         "layout": "image_first",
-        "padding_top": 200,
-        "padding_bottom": 200
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "related-products": {
