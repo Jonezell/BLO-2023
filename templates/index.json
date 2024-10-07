@@ -61,14 +61,14 @@
         "benefit_fKp636": {
           "type": "benefit",
           "settings": {
-            "text": "Buttery Soft & Ultra Stretchy Fabric",
+            "text": "Buttery soft & ultra stretchy bamboo fabric",
             "image": "shopify://shop_images/icon-bamboo.svg"
           }
         },
         "benefit_qBNKcE": {
           "type": "benefit",
           "settings": {
-            "text": "Oeko-Tex Standard 100 certified bamboo fabric",
+            "text": "Fits 3x longer",
             "image": "shopify://shop_images/icon-certified.svg"
           }
         },
@@ -79,10 +79,16 @@
             "image": "shopify://shop_images/icon-no-flame.svg"
           }
         },
+        "benefit_aKAMc4": {
+          "type": "benefit",
+          "settings": {
+            "text": "Every purchase gives back"
+          }
+        },
         "benefit_KEB7kW": {
           "type": "benefit",
           "settings": {
-            "text": "Our pjs offer the gentlest touch to your little ones skin",
+            "text": "Perfect for sensitive skin",
             "image": "shopify://shop_images/icon-gentile.svg"
           }
         },
@@ -98,6 +104,7 @@
         "benefit_fKp636",
         "benefit_qBNKcE",
         "benefit_EYPnyq",
+        "benefit_aKAMc4",
         "benefit_KEB7kW",
         "benefit_tJccDb"
       ],
@@ -211,7 +218,7 @@
         "table_row_hAg8bA": {
           "type": "table-row",
           "settings": {
-            "text": "Never treated with flame retardants or harsh chemicals.",
+            "text": "Never treated with flame retardants.",
             "show-checkmark": true
           }
         },
