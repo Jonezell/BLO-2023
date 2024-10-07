@@ -88,7 +88,7 @@
         "blo_payment_plans_BXirh9": {
           "type": "blo-payment-plans",
           "settings": {
-            "text": "Split your purchase into multiple small interest-free payments with"
+            "text": "Or, split your purchase into multiple small interest-free payments with"
           }
         },
         "description": {
@@ -115,12 +115,6 @@
             "content": "<p><strong>How do I care for bamboo?</strong></p><p><em><strong>Step One: </strong></em><br/>Turn the garment inside out before washing and drying.<br/></p><p><em><strong>Step Two: </strong></em><br/>Wash in cold water on the normal or quick cycle. We do not recommend washing on delicate since it makes products sit in water for too long.<br/></p><p><em><strong>Step Three: </strong></em><strong><br/></strong>Dry on the normal heat setting.</p>",
             "page": ""
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
@@ -137,8 +131,7 @@
         "blo_payment_plans_BXirh9",
         "description",
         "collapsible-row-0",
-        "collapsible-row-3",
-        "share"
+        "collapsible-row-3"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -169,7 +162,7 @@
         "judge_me_reviews_review_widget_w8Ua44"
       ],
       "custom_css": [
-        "section {background-color: var(--blo-terra);}"
+
       ],
       "settings": {
         "include_margins": false
@@ -212,17 +205,16 @@
         "collapsible_tab_pmXUGa"
       ],
       "settings": {
-        "background_color": "#c27d4c",
+        "background_color": "#fcfcf9",
         "mainHeading": "Have A Question? We Have The Answer.",
         "mainText": "",
         "layout": "image_first",
         "padding_top": 200,
-        "padding_bottom": 200
+        "padding_bottom": 100
       }
     },
     "related-products": {
       "type": "related-products",
-      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
