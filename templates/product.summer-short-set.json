@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -10,6 +19,11 @@
         },
         "price": {
           "type": "price",
+          "settings": {
+          }
+        },
+        "judge_me_reviews_preview_badge_byMa9Q": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -51,7 +65,7 @@
           }
         },
         "d32cf3ff-3cf1-42b1-95be-fd31a14eefc2": {
-          "type": "shopify:\/\/apps\/back-in-stock-customer-alerts\/blocks\/app-block\/bfa6a8c4-24e2-411a-9396-e35031b33f34",
+          "type": "shopify://apps/back-in-stock-customer-alerts/blocks/app-block/bfa6a8c4-24e2-411a-9396-e35031b33f34",
           "settings": {
             "caption": "Email when available",
             "font_size": 16,
@@ -96,7 +110,7 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "washing",
-            "content": "<p><strong>How do I care for bamboo?<\/strong><\/p><p><em><strong>Step One: <\/strong><\/em><br\/>Turn the garment inside out before washing and drying.<br\/><\/p><p><em><strong>Step Two: <\/strong><\/em><br\/>Wash in cold water on the normal or quick cycle. We do not recommend washing on delicate since it makes products sit in water for too long.<br\/><\/p><p><em><strong>Step Three: <\/strong><\/em><strong><br\/><\/strong>Dry on the normal heat setting.<\/p>",
+            "content": "<p><strong>How do I care for bamboo?</strong></p><p><em><strong>Step One: </strong></em><br/>Turn the garment inside out before washing and drying.<br/></p><p><em><strong>Step Two: </strong></em><br/>Wash in cold water on the normal or quick cycle. We do not recommend washing on delicate since it makes products sit in water for too long.<br/></p><p><em><strong>Step Three: </strong></em><strong><br/></strong>Dry on the normal heat setting.</p>",
             "page": ""
           }
         },
@@ -123,6 +137,7 @@
       "block_order": [
         "title",
         "price",
+        "judge_me_reviews_preview_badge_byMa9Q",
         "496b4226-e4d0-4584-a5ae-f630efc1661c",
         "variant_picker",
         "quantity_selector",
@@ -157,7 +172,7 @@
       "type": "apps",
       "blocks": {
         "b57b9dfc-be08-472f-9b60-621e325bb54d": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
@@ -175,9 +190,9 @@
         "template--16169024159913__47995913-1780-4b7f-8067-318167ffdf38-1689283490e040c409-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/A87D08E7-7A14-4486-993E-E19ABE8DE81B.gif",
+            "image": "shopify://shop_images/A87D08E7-7A14-4486-993E-E19ABE8DE81B.gif",
             "title": "Buttery Soft",
-            "text": "<p>Made from buttery soft Bamboo Viscose. Our luxurious material keeps your little one comfortable and stylish, day and night.<\/p>",
+            "text": "<p>Made from buttery soft Bamboo Viscose. Our luxurious material keeps your little one comfortable and stylish, day and night.</p>",
             "link_label": "",
             "link": ""
           }
@@ -185,9 +200,9 @@
         "template--16169024159913__47995913-1780-4b7f-8067-318167ffdf38-1689283490e040c409-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3F02344C-B535-4601-93D1-C447626AEA92.gif",
+            "image": "shopify://shop_images/3F02344C-B535-4601-93D1-C447626AEA92.gif",
             "title": "Breathable",
-            "text": "<p>Bamboo mimics breathability through hollow micro-fibers naturally allowing more airflow.<\/p>",
+            "text": "<p>Bamboo mimics breathability through hollow micro-fibers naturally allowing more airflow.</p>",
             "link_label": "",
             "link": ""
           }
@@ -195,9 +210,9 @@
         "template--16169024159913__47995913-1780-4b7f-8067-318167ffdf38-1689283490e040c409-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1E901AB4-4050-4D01-8276-91106985717A.gif",
+            "image": "shopify://shop_images/1E901AB4-4050-4D01-8276-91106985717A.gif",
             "title": "Gentle on Skin",
-            "text": "<p>Bamboo offers the gentlest touch to a baby’s skin. Smooth fibers lay flat against the skin, limiting irritation for sensitive skin.<\/p>",
+            "text": "<p>Bamboo offers the gentlest touch to a baby’s skin. Smooth fibers lay flat against the skin, limiting irritation for sensitive skin.</p>",
             "link_label": "",
             "link": ""
           }
@@ -205,9 +220,9 @@
         "ad30c632-5eb8-43c9-a4ad-284be343d2d3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ED465C9D-781C-4AB0-8918-DF18C011DCE1.gif",
+            "image": "shopify://shop_images/ED465C9D-781C-4AB0-8918-DF18C011DCE1.gif",
             "title": "Temperature Regulating",
-            "text": "<p>Keeps your little one a few degrees cooler in summer and a few degrees warmer in winter.<\/p>",
+            "text": "<p>Keeps your little one a few degrees cooler in summer and a few degrees warmer in winter.</p>",
             "link_label": "",
             "link": ""
           }
@@ -229,7 +244,7 @@
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "Learn More",
-        "button_link": "shopify:\/\/blogs\/blog\/why-we-fell-in-love-with-bamboo",
+        "button_link": "shopify://blogs/blog/why-we-fell-in-love-with-bamboo",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -250,7 +265,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Gentle enough for your newborn and durable enough for your older kids, our luxurious and buttery-soft bamboo will keep your little ones comfortable and stylish day and night. Our snug-fitting cozy pajamas are CPSC compliant and never treated with flame-retardants or chemicals. <\/p>",
+            "text": "<p>Gentle enough for your newborn and durable enough for your older kids, our luxurious and buttery-soft bamboo will keep your little ones comfortable and stylish day and night. Our snug-fitting cozy pajamas are CPSC compliant and never treated with flame-retardants or chemicals. </p>",
             "text_style": "body"
           }
         },
@@ -258,7 +273,7 @@
           "type": "button",
           "settings": {
             "button_label": "Learn More",
-            "button_link": "shopify:\/\/blogs\/blog\/why-we-fell-in-love-with-bamboo",
+            "button_link": "shopify://blogs/blog/why-we-fell-in-love-with-bamboo",
             "button_style_secondary": false
           }
         }
@@ -270,7 +285,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-7_fc00063c-73f9-49d6-b957-618e74110a92.jpg",
+        "image": "shopify://shop_images/Camel-Small-Ribbed-7_fc00063c-73f9-49d6-b957-618e74110a92.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -298,7 +313,7 @@
         "c09d0457-4256-4666-99d4-c84a5117ccf0": {
           "type": "text",
           "settings": {
-            "text": "<p>Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.<\/p>",
+            "text": "<p>Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.</p>",
             "text_style": "body"
           }
         }
@@ -309,7 +324,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Tagless-set_bda56049-589b-4832-8d31-a50d84a39a4a.png",
+        "image": "shopify://shop_images/Tagless-set_bda56049-589b-4832-8d31-a50d84a39a4a.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -344,7 +359,7 @@
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
         "text": "Discover the ultimate bedtime comfort with our perfectly crafted PJs.",
-        "image": "shopify:\/\/shop_images\/ShortSet.jpg",
+        "image": "shopify://shop_images/ShortSet.jpg",
         "padding_top": 100,
         "padding_bottom": 100
       }
@@ -398,7 +413,7 @@
           "type": "buttons",
           "settings": {
             "button_label": "Learn More",
-            "button_link": "shopify:\/\/blogs\/blog\/why-we-fell-in-love-with-bamboo"
+            "button_link": "shopify://blogs/blog/why-we-fell-in-love-with-bamboo"
           }
         }
       },
@@ -413,7 +428,7 @@
         "template--16169024159913__53c92126-5deb-43f7-8689-7e1fdaf3b5f2-buttons-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Camel-Small-Ribbed-7_fc00063c-73f9-49d6-b957-618e74110a92.jpg",
+        "image": "shopify://shop_images/Camel-Small-Ribbed-7_fc00063c-73f9-49d6-b957-618e74110a92.jpg",
         "texture_top": true,
         "texture_bottom": true
       }
@@ -426,7 +441,7 @@
           "settings": {
             "heading": "Shipping",
             "icon": "truck",
-            "content": "<p>We typically ship orders within 1-4 business days, however during times of high order volume please allow up to 7 business days. We don’t ship on weekends. <\/p>",
+            "content": "<p>We typically ship orders within 1-4 business days, however during times of high order volume please allow up to 7 business days. We don’t ship on weekends. </p>",
             "page": ""
           }
         },
@@ -435,7 +450,7 @@
           "settings": {
             "heading": "Returns",
             "icon": "return",
-            "content": "<p>We allow exchanges within 30 days. All items applicable for exchange must be unwashed, unworn and in original condition with original packaging and tags. A store credit for the item amount will be issued within 3 days after return is received. $6.99 will be deducted from your store credit for the return shipping label. Please use a poly mailer or bubble envelope to return items. Additional fees may apply for returning items in large boxes. Initial shipping costs are not eligible for refund.<br\/><br\/><a href=\"https:\/\/brave-little-ones.happyreturns.com\/\" target=\"_blank\" title=\"Start a Return\">Start a Return<\/a><\/p>",
+            "content": "<p>We allow exchanges within 30 days. All items applicable for exchange must be unwashed, unworn and in original condition with original packaging and tags. A store credit for the item amount will be issued within 3 days after return is received. $6.99 will be deducted from your store credit for the return shipping label. Please use a poly mailer or bubble envelope to return items. Additional fees may apply for returning items in large boxes. Initial shipping costs are not eligible for refund.<br/><br/><a href=\"https://brave-little-ones.happyreturns.com/\" target=\"_blank\" title=\"Start a Return\">Start a Return</a></p>",
             "page": ""
           }
         },
@@ -444,7 +459,7 @@
           "settings": {
             "heading": "Package Protection",
             "icon": "box",
-            "content": "<p>Our Brave Little Ones Package Protection guarantees delivery on all orders placed within the United States.<\/p><p><strong>Our Guarantee<\/strong><\/p><p>Brave Little Ones Package Protection offers you peace of mind and package protection for all of your orders. If you add insurance, your package is fully protected in the event that it is lost, damaged, or stolen. <a href=\"https:\/\/bravelittleones.com\/pages\/faqs\" target=\"_blank\" title=\"https:\/\/bravelittleones.com\/pages\/faqs\">Read more here.<\/a><\/p>",
+            "content": "<p>Our Brave Little Ones Package Protection guarantees delivery on all orders placed within the United States.</p><p><strong>Our Guarantee</strong></p><p>Brave Little Ones Package Protection offers you peace of mind and package protection for all of your orders. If you add insurance, your package is fully protected in the event that it is lost, damaged, or stolen. <a href=\"https://bravelittleones.com/pages/faqs\" target=\"_blank\" title=\"https://bravelittleones.com/pages/faqs\">Read more here.</a></p>",
             "page": ""
           }
         }
