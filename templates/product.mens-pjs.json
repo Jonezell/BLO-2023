@@ -137,12 +137,6 @@
             "image_ratio": "square",
             "enable_quick_add": true
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
@@ -161,8 +155,7 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-3",
-        "complementary_nxRNcF",
-        "share"
+        "complementary_nxRNcF"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -177,7 +170,7 @@
         "hide_variants": true,
         "enable_video_looping": true,
         "padding_top": 36,
-        "padding_bottom": 12
+        "padding_bottom": 100
       }
     },
     "172791928687cb93f7": {
@@ -234,7 +227,7 @@
         "image": "shopify://shop_images/Camel-Small-Ribbed-7_b1e91c78-5b1a-47d1-b4db-7ad4820c5c60.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
