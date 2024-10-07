@@ -88,7 +88,7 @@
         "blo_payment_plans_BXirh9": {
           "type": "blo-payment-plans",
           "settings": {
-            "text": "Split your purchase into multiple small interest-free payments with"
+            "text": "Or, split your purchase into multiple small interest-free payments with"
           }
         },
         "description": {
@@ -181,7 +181,7 @@
         "judge_me_reviews_review_widget_w8Ua44"
       ],
       "custom_css": [
-        "section {background-color: var(--blo-terra);}"
+
       ],
       "settings": {
         "include_margins": false
@@ -207,9 +207,9 @@
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
         "text": "Discover the ultimate bedtime comfort with our perfectly crafted PJs.",
-        "image": "shopify://shop_images/ShortSet.jpg",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "image": "shopify://shop_images/ShortSet_a2f4288a-82a1-4619-9ca7-eb4918c8bd17.jpg",
+        "padding_top": 200,
+        "padding_bottom": 200
       }
     },
     "blo_fabric_3BAiXt": {
@@ -316,7 +316,7 @@
         "collapsible_tab_pmXUGa"
       ],
       "settings": {
-        "background_color": "#c27d4c",
+        "background_color": "#fcfcf9",
         "mainHeading": "Have A Question? We Have The Answer.",
         "mainText": "",
         "layout": "image_first",
