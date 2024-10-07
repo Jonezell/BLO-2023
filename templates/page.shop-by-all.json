@@ -12,12 +12,46 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
+    "blo_collection_pills_Yat8TH": {
+      "type": "blo-collection-pills",
+      "blocks": {
+        "link_3xYCrT": {
+          "type": "link",
+          "settings": {
+            "text": "All",
+            "linkurl": "https://bravelittleones.com/pages/shop-by-all"
+          }
+        },
+        "link_LkhDkh": {
+          "type": "link",
+          "settings": {
+            "text": "Prints",
+            "linkurl": "https://bravelittleones.com/pages/shop-by-print"
+          }
+        },
+        "link_JfjQfQ": {
+          "type": "link",
+          "settings": {
+            "text": "Solids & Stripes",
+            "linkurl": "https://bravelittleones.com/pages/shop-by-small-ribbed"
+          }
+        }
+      },
+      "block_order": [
+        "link_3xYCrT",
+        "link_LkhDkh",
+        "link_JfjQfQ"
+      ],
+      "settings": {
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "blo_collection_pills_Yat8TH"
   ]
 }
