@@ -15,9 +15,19 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "custom_liquid_rkLTFw": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script defer src=\"https://help-center.gorgias.help/api/help-centers/loader.js?v=2\" data-gorgias-loader-help-center data-gorgias-help-center-uid=\"7qrjrmjn\"></script>",
+        "color_scheme": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_liquid_rkLTFw"
   ]
 }
