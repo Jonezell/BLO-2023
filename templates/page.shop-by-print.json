@@ -37,7 +37,7 @@
           "type": "link",
           "settings": {
             "text": "Solids & Stripes",
-            "linkurl": "https://bravelittleones.com/pages/shop-by-small-ribbed"
+            "linkurl": "shopify://pages/shop-by-small-ribbed"
           }
         }
       },
