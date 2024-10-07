@@ -207,10 +207,9 @@
         "callout_qHxr9N",
         "callout_hpqPm8"
       ],
-      "disabled": true,
       "settings": {
-        "title": "We’ve thought of it so you don’t have to.",
-        "text": "Lorem ipsum dolor sit amet consectetur",
+        "title": "Introducing a backpack so good, you might never need another one.",
+        "text": "",
         "image": "shopify://shop_images/SummerZip.jpg",
         "padding_top": 100,
         "padding_bottom": 100
