@@ -160,6 +160,16 @@
     "blo_product_callouts_qHXD4R": {
       "type": "blo-product-callouts",
       "blocks": {
+        "callout_hpqPm8": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_left",
+            "block_title": "Interior Name Tag",
+            "block_text": "Personalize your backpack while still keeping your kiddos privacy.",
+            "horizontal_position": 14,
+            "vertical_position": 12
+          }
+        },
         "callout_7fV3cD": {
           "type": "Callout",
           "settings": {
@@ -189,30 +199,20 @@
             "horizontal_position": 14,
             "vertical_position": 56
           }
-        },
-        "callout_hpqPm8": {
-          "type": "Callout",
-          "settings": {
-            "pin_direction": "top_left",
-            "block_title": "Interior Name Tag",
-            "block_text": "Personalize your backpack while still keeping your kiddos privacy.",
-            "horizontal_position": 14,
-            "vertical_position": 6
-          }
         }
       },
       "block_order": [
+        "callout_hpqPm8",
         "callout_7fV3cD",
         "callout_BxjKGh",
-        "callout_qHxr9N",
-        "callout_hpqPm8"
+        "callout_qHxr9N"
       ],
       "settings": {
         "title": "Introducing a backpack so good, you might never need another one.",
         "text": "",
         "image": "shopify://shop_images/Backpack_db8c8ce7-fd79-4c0e-a7dc-1c5a8afb36b6.jpg",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 200,
+        "padding_bottom": 200
       }
     },
     "blo_faq_7gVA7y": {
