@@ -166,7 +166,7 @@
         "hide_variants": true,
         "enable_video_looping": true,
         "padding_top": 36,
-        "padding_bottom": 12
+        "padding_bottom": 100
       }
     },
     "172791928687cb93f7": {
@@ -182,7 +182,7 @@
         "judge_me_reviews_review_widget_w8Ua44"
       ],
       "custom_css": [
-        "section {background-color: var(--blo-terra);}"
+
       ],
       "settings": {
         "include_margins": false
@@ -219,6 +219,7 @@
         "text_P6E4jP",
         "button_pTNVPQ"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Camel-Small-Ribbed-7_b1e91c78-5b1a-47d1-b4db-7ad4820c5c60.jpg",
         "height": "adapt",
@@ -272,7 +273,7 @@
         "collapsible_tab_pmXUGa"
       ],
       "settings": {
-        "background_color": "#c27d4c",
+        "background_color": "#fcfcf9",
         "mainHeading": "Have A Question? We Have The Answer.",
         "mainText": "",
         "layout": "image_first",
