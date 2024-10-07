@@ -23,7 +23,7 @@
           "type": "link",
           "settings": {
             "text": "All",
-            "linkurl": "https://bravelittleones.com/pages/shop-by-all"
+            "linkurl": "shopify://pages/shop-by-all"
           }
         },
         "link_LkhDkh": {
