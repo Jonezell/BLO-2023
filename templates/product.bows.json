@@ -31,10 +31,10 @@
           "type": "produdct-as-variants",
           "settings": {
             "label": "Style",
-            "style": "image",
+            "style": "swatch",
             "target_collection": "bows",
             "swatch_offset_Y": 50,
-            "swatch_offset_X": 50,
+            "swatch_offset_X": 35,
             "hide_sold_out": true
           }
         },
