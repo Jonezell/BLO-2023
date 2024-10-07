@@ -247,27 +247,27 @@
         "collapsible_tab_ingzBf": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
+            "heading": "How do I care for bamboo?",
+            "icon": "none",
+            "content": "<p><em>Step One: </em><br/>Turn the garment inside out before washing and drying.<br/></p><p><em>Step Two: </em><br/>Wash in cold water on the normal or quick cycle. We do not recommend washing on delicate since it makes products sit in water for too long. <em>For blankets, we recommend washing them by themselves or with other Brave Little Ones blankets.</em><br/></p><p><em>Step Three: </em><br/>Dry on the normal heat setting.</p>",
             "page": ""
           }
         },
         "collapsible_tab_H39qpM": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
+            "heading": "Slight variation in fit or color?",
+            "icon": "none",
+            "content": "<p>Brave Little Ones pjs are very stretchy, and sewn by human hands. A small sewing variance from item to item is normal. While we aim to keep our sizing as consistent as possible, there will always be slight variation.<br/><br/>Similarly, we do our absolute best to ensure our colors remain consistent. However, we custom dye and print our fabric, so there may be slight variations between batches. Print and pattern placement may also vary between pieces.</p>",
             "page": ""
           }
         },
         "collapsible_tab_ekDQ8H": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
+            "heading": "How can I limit pilling?",
+            "icon": "none",
+            "content": "<p>Bamboo is a natural fiber, and it's delicate. When bamboo is rubbed against rough surfaces, especially while wet, it may cause pilling. It should be washed separately from items that may be damaging, like jeans, towels or velcro. </p><p>For the longest wear, you can wash them inside out and line dry when possible.</p>",
             "page": ""
           }
         }
