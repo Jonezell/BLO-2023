@@ -6,9 +6,9 @@
       {%- case block.type -%}
         {%- when 'badge' -%}
           <div
-            class="inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            class="blo-product-badge-container inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
           >
-            <label class="badge">{{ block.settings.badge }}</label>
+            <label class="blo-product-badge badge">{{ block.settings.badge }}</label>
           </div>
         {%- when 'heading' -%}
           <h2
@@ -75,12 +75,6 @@
   .blo-text-block-buttons .button--secondary {
     background: var(--greyscale-White);
   }
-  .blo-fabric-text-wrapper.blo-text-block .badge {
-    background: var(--tan-Medium);
-    color: #716859;
-    border: none;
-    padding: 0.6rem 1.3rem 0.5rem 1.3rem;
-  }
   .blo-fabric-text-block-text {
     display: flex;
     flex-direction: row;
@@ -102,11 +96,11 @@
   }
   .blo-text-block-title {
     margin-top: 0;
-    margin-bottom: 10px
+    margin-bottom: 10px;
   }
   .blo-text-block-buttons {
     margin-bottom: 0;
-    margin-top: 10px
+    margin-top: 10px;
   }
 
   @media screen and (max-width: 989px) {

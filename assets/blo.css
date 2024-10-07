@@ -849,6 +849,9 @@ margin-left:0;
   margin-left: 0px;
   margin-right: 0px;
 }
+.product-card-wrapper .card__content .card__badge .badge + .badge{
+  margin-left: 5px;
+}
 
 
 /* ---------------------------------------- BLO - CUSTOM PRODUCT PAGE STYLES ---------------------------------------- */
@@ -870,12 +873,12 @@ margin-left:0;
 .product .product__title + div[role=status]{
   margin-top: 10px;
 }
-.product .blo-product-badge-container {
+.blo-product-badge-container {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
 }
-.product .blo-product-badge-container .blo-product-badge {
+.blo-product-badge-container .blo-product-badge {
   margin-top: 0;
   margin-bottom: 0;
   color: var(--blo-terra);
@@ -907,6 +910,9 @@ margin-left:0;
 }
 .product .product__info-wrapper .accordion__title {
   font-size: 16px;
+}
+.product .product-form__buttons {
+  max-width: 100%;
 }
 
 
@@ -986,9 +992,10 @@ margin-left:0;
   border: none !important;
 }
 .jdgm-widget.jdgm-review-widget .jdgm-rev-widg__reviews {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  margin-left: 20px;
 }
 .jdgm-form__fieldset p {
   font-size: 14px;
@@ -1049,6 +1056,7 @@ margin-left:0;
   }
   .jdgm-widget.jdgm-review-widget .jdgm-rev-widg__reviews {
     flex-direction: row;
+    margin-left: 0;
   }
   .jdgm-widget.jdgm-review-widget .jdgm-rev {
     width: 100%;
@@ -1191,4 +1199,40 @@ cart-drawer.drawer .drawer__footer .totals__total:after {
   .main-page-title.page-title.h0 {
     font-size: 34px;
   }
+}
+
+
+
+/* -------------------- CUSTOM TABLE STYLING -------------------- */
+
+body table {
+  box-shadow: none;
+}
+
+body table tr p{
+  margin: 0;
+}
+body table tr strong{
+  font-family: 'GothamRounded-Medium' !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  -webkit-font-smoothing: antialiased;
+}
+body table:not([class]) tr td, 
+body table:not([class]) tr th {
+  border: 2px solid var(--blo-dark-cream);
+  border-left: none;
+  border-right: none;
+  padding: 15px;
+}
+body table:not([class]) tr td:first-child, 
+body table:not([class]) tr th:first-child {
+  padding-left: 0;
+}
+body table:not([class]) {
+  box-shadow: none;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.32px;
+  color: var(--blo-espresso);
 }
