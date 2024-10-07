@@ -50,6 +50,13 @@
           "settings": {
           }
         },
+        "custom_low_stock_yhaRWV": {
+          "type": "custom-low-stock",
+          "settings": {
+            "inventory_threshold": 20,
+            "show_inventory_quantity": false
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -95,6 +102,7 @@
         "produdct_as_variants_GbNWtC",
         "variant_picker",
         "quantity_selector",
+        "custom_low_stock_yhaRWV",
         "buy_buttons",
         "description",
         "collapsible-row-0",
