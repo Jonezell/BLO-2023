@@ -212,8 +212,8 @@
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
         "text": "Discover the ultimate daytime comfort with our perfectly crafted Pullovers.",
-        "image": "shopify://shop_images/Pullover_14a7f88f-38af-4fac-a023-f380982a0d49.jpg",
-        "padding_top": 100,
+        "image": "shopify://shop_images/Pullover_358b64aa-39ad-465a-8254-655bb1d01251.jpg",
+        "padding_top": 200,
         "padding_bottom": 100
       }
     },
@@ -254,12 +254,12 @@
         "collapsible_tab_pmXUGa"
       ],
       "settings": {
-        "background_color": "#c27d4c",
+        "background_color": "#fcfcf9",
         "mainHeading": "Have A Question? We Have The Answer.",
         "mainText": "",
         "layout": "image_first",
-        "padding_top": 200,
-        "padding_bottom": 200
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "related-products": {
