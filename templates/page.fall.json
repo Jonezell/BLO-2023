@@ -11,9 +11,48 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 100,
         "padding_bottom": 100
+      }
+    },
+    "blo_banner_PjU3Bx": {
+      "type": "blo-banner",
+      "blocks": {
+        "heading_aMLN89": {
+          "type": "heading",
+          "settings": {
+            "heading": "FALL in love with comfort and style!"
+          }
+        },
+        "text_byaCj6": {
+          "type": "text",
+          "settings": {
+            "text": "Our fall pjs, women’s sets and blankets will keep your family cozy all night long! And, snag some new Joggers and Pullovers for the perfect on-trend fall outfits."
+          }
+        },
+        "buttons_t449Hk": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Shop New Releases",
+            "button_link": "shopify://collections/new"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aMLN89",
+        "text_byaCj6",
+        "buttons_t449Hk"
+      ],
+      "settings": {
+        "media-type": "video",
+        "show_side-gradient": true,
+        "video": "shopify://files/videos/blojunevid-533.mp4",
+        "background-color": "#eeede9",
+        "top-shape-color": "#ce7941",
+        "bottom-shape-color": "#285448",
+        "show-under-header": false
       }
     },
     "custom_liquid_WEhfXE": {
@@ -401,6 +440,7 @@
   },
   "order": [
     "main",
+    "blo_banner_PjU3Bx",
     "custom_liquid_WEhfXE",
     "featured_collection_mji3By",
     "featured_collection_PDNwqE",
