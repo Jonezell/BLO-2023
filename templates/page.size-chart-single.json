@@ -50,13 +50,6 @@
             "linkurl": "shopify://pages/size-chart"
           }
         },
-        "link_GMkmVf": {
-          "type": "link",
-          "settings": {
-            "text": "Zip Rompers",
-            "linkurl": "shopify://pages/size-charts-zip-rompers"
-          }
-        },
         "link_QQRBMD": {
           "type": "link",
           "settings": {
@@ -91,72 +84,15 @@
             "text": "Pullovers",
             "linkurl": "shopify://pages/size-chart-pullovers"
           }
-        },
-        "link_9Vg8Nt": {
-          "type": "link",
-          "settings": {
-            "text": "Zip-Up Jackets",
-            "linkurl": "shopify://pages/size-chart-zip-up-jacket"
-          }
-        },
-        "link_PJdwWB": {
-          "type": "link",
-          "settings": {
-            "text": "Puffer Jackets",
-            "linkurl": "shopify://pages/size-chart-puffer-jackets"
-          }
-        },
-        "link_VxzhnD": {
-          "type": "link",
-          "settings": {
-            "text": "Swim Trunks",
-            "linkurl": "shopify://pages/size-chart-trunks"
-          }
-        },
-        "link_UWrhxE": {
-          "type": "link",
-          "settings": {
-            "text": "Briefs",
-            "linkurl": "shopify://pages/size-chart-briefs"
-          }
-        },
-        "link_x4mGpG": {
-          "type": "link",
-          "settings": {
-            "text": "Underwear",
-            "linkurl": "shopify://pages/size-chart-girl-underwear"
-          }
-        },
-        "link_EjaBCe": {
-          "type": "link",
-          "settings": {
-            "text": "Women's PJs",
-            "linkurl": "https://bravelittleones.com/pages/size-chart-womens"
-          }
-        },
-        "link_DqWm4e": {
-          "type": "link",
-          "settings": {
-            "text": "Women's Pullovers",
-            "linkurl": "https://bravelittleones.com/pages/size-chart-womens-pullovers"
-          }
         }
       },
       "block_order": [
         "link_tepLJk",
-        "link_GMkmVf",
         "link_QQRBMD",
         "link_VTUeY7",
         "link_pCXkpM",
         "link_qbMM8n",
-        "link_aq3Arr",
-        "link_9Vg8Nt",
-        "link_PJdwWB",
-        "link_VxzhnD",
-        "link_UWrhxE",
-        "link_x4mGpG",
-        "link_EjaBCe",
-        "link_DqWm4e"
+        "link_aq3Arr"
       ],
       "settings": {
       }
