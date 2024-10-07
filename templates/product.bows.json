@@ -109,29 +109,13 @@
           "type": "complementary",
           "settings": {
             "block_heading": "Pairs well with",
-            "make_collapsible_row": false,
+            "make_collapsible_row": true,
             "icon": "price_tag",
             "product_list_limit": 10,
             "products_per_page": 3,
             "pagination_style": "counter",
             "image_ratio": "square",
-            "enable_quick_add": false
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Sizing",
-            "icon": "ruler",
-            "content": "",
-            "page": "size-chart-two-piece-set"
+            "enable_quick_add": true
           }
         }
       },
@@ -149,9 +133,7 @@
         "blo_payment_plans_BXirh9",
         "description",
         "collapsible-row-3",
-        "complementary_zAYm6j",
-        "share",
-        "collapsible-row-0"
+        "complementary_zAYm6j"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -182,7 +164,7 @@
         "judge_me_reviews_review_widget_w8Ua44"
       ],
       "settings": {
-        "include_margins": true
+        "include_margins": false
       }
     },
     "image_with_text_n4khB7": {
