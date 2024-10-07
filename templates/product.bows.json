@@ -190,7 +190,7 @@
         "text_i9Cj8X"
       ],
       "custom_css": [
-        ".image-with-text__media {border-color: transparent}"
+        ".image-with-text__media {border-color: transparent;}"
       ],
       "settings": {
         "image": "shopify://shop_images/Bow_375706d1-4026-4ed9-ac61-a29a0bf21e50.png",
@@ -213,14 +213,14 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "enable_video_looping": false,
-        "video": "shopify://files/videos/Brave Knotted - Revised_3383bc4c-b532-4a63-b9a4-24240bc4cfae.mp4",
+        "enable_video_looping": true,
+        "video": "shopify://files/videos/Brave Knotted - Revised.mp4",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "blo_faq_7gVA7y": {
