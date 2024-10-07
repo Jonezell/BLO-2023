@@ -46,53 +46,13 @@
         "link_tepLJk": {
           "type": "link",
           "settings": {
-            "text": "All",
+            "text": "View All Size Charts",
             "linkurl": "shopify://pages/size-chart"
-          }
-        },
-        "link_QQRBMD": {
-          "type": "link",
-          "settings": {
-            "text": "Two-Piece Sets",
-            "linkurl": "shopify://pages/size-chart-two-piece-sets"
-          }
-        },
-        "link_VTUeY7": {
-          "type": "link",
-          "settings": {
-            "text": "Knotted Gowns",
-            "linkurl": "shopify://pages/size-chart-knotted-gowns"
-          }
-        },
-        "link_pCXkpM": {
-          "type": "link",
-          "settings": {
-            "text": "Shirts & Tanks",
-            "linkurl": "https://bravelittleones.com/pages/size-chart-shirts-tanks"
-          }
-        },
-        "link_qbMM8n": {
-          "type": "link",
-          "settings": {
-            "text": "Pocket Dresses",
-            "linkurl": "shopify://pages/size-chart-dresses"
-          }
-        },
-        "link_aq3Arr": {
-          "type": "link",
-          "settings": {
-            "text": "Pullovers",
-            "linkurl": "shopify://pages/size-chart-pullovers"
           }
         }
       },
       "block_order": [
-        "link_tepLJk",
-        "link_QQRBMD",
-        "link_VTUeY7",
-        "link_pCXkpM",
-        "link_qbMM8n",
-        "link_aq3Arr"
+        "link_tepLJk"
       ],
       "settings": {
       }
