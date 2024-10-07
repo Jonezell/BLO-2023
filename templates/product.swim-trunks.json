@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -14,7 +23,7 @@
           }
         },
         "8a754f53-50e1-4858-9d52-1b1df7f935fd": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -56,7 +65,7 @@
           }
         },
         "d32cf3ff-3cf1-42b1-95be-fd31a14eefc2": {
-          "type": "shopify:\/\/apps\/back-in-stock-customer-alerts\/blocks\/app-block\/bfa6a8c4-24e2-411a-9396-e35031b33f34",
+          "type": "shopify://apps/back-in-stock-customer-alerts/blocks/app-block/bfa6a8c4-24e2-411a-9396-e35031b33f34",
           "settings": {
             "caption": "Email when available",
             "font_size": 16,
@@ -93,7 +102,7 @@
             "heading": "Sizing",
             "icon": "ruler",
             "content": "",
-            "page": "size-chart-trunks"
+            "page": "size-chart-swim-trunks"
           }
         },
         "85d7636a-745b-4ef8-a7d8-e26226d2518f": {
@@ -153,7 +162,7 @@
       "type": "apps",
       "blocks": {
         "b57b9dfc-be08-472f-9b60-621e325bb54d": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
@@ -207,7 +216,7 @@
       "settings": {
         "title": "Make a Splash with Brave Little Ones Ultra-Comfy Swim Trunks",
         "text": "",
-        "image": "shopify:\/\/shop_images\/SwimTrunks.jpg",
+        "image": "shopify://shop_images/SwimTrunks.jpg",
         "padding_top": 100,
         "padding_bottom": 100
       }
@@ -220,7 +229,7 @@
           "settings": {
             "heading": "Shipping",
             "icon": "truck",
-            "content": "<p>We typically ship orders within 1-4 business days, however during times of high order volume please allow up to 7 business days. We don’t ship on weekends. <\/p>",
+            "content": "<p>We typically ship orders within 1-4 business days, however during times of high order volume please allow up to 7 business days. We don’t ship on weekends. </p>",
             "page": ""
           }
         },
@@ -229,7 +238,7 @@
           "settings": {
             "heading": "Returns",
             "icon": "return",
-            "content": "<p>We allow exchanges within 30 days. All items applicable for exchange must be unwashed, unworn and in original condition with original packaging and tags. A store credit for the item amount will be issued within 3 days after return is received. $6.99 will be deducted from your store credit for the return shipping label. Please use a poly mailer or bubble envelope to return items. Additional fees may apply for returning items in large boxes. Initial shipping costs are not eligible for refund.<br\/><br\/><a href=\"https:\/\/brave-little-ones.happyreturns.com\/\" target=\"_blank\" title=\"Start a Return\">Start a Return<\/a><\/p>",
+            "content": "<p>We allow exchanges within 30 days. All items applicable for exchange must be unwashed, unworn and in original condition with original packaging and tags. A store credit for the item amount will be issued within 3 days after return is received. $6.99 will be deducted from your store credit for the return shipping label. Please use a poly mailer or bubble envelope to return items. Additional fees may apply for returning items in large boxes. Initial shipping costs are not eligible for refund.<br/><br/><a href=\"https://brave-little-ones.happyreturns.com/\" target=\"_blank\" title=\"Start a Return\">Start a Return</a></p>",
             "page": ""
           }
         },
@@ -238,7 +247,7 @@
           "settings": {
             "heading": "Package Protection",
             "icon": "box",
-            "content": "<p>Our Brave Little Ones Package Protection guarantees delivery on all orders placed within the United States.<\/p><p><strong>Our Guarantee<\/strong><\/p><p>Brave Little Ones Package Protection offers you peace of mind and package protection for all of your orders. If you add insurance, your package is fully protected in the event that it is lost, damaged, or stolen. <a href=\"https:\/\/bravelittleones.com\/pages\/faqs\" target=\"_blank\" title=\"https:\/\/bravelittleones.com\/pages\/faqs\">Read more here.<\/a><\/p>",
+            "content": "<p>Our Brave Little Ones Package Protection guarantees delivery on all orders placed within the United States.</p><p><strong>Our Guarantee</strong></p><p>Brave Little Ones Package Protection offers you peace of mind and package protection for all of your orders. If you add insurance, your package is fully protected in the event that it is lost, damaged, or stolen. <a href=\"https://bravelittleones.com/pages/faqs\" target=\"_blank\" title=\"https://bravelittleones.com/pages/faqs\">Read more here.</a></p>",
             "page": ""
           }
         }
