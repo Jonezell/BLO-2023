@@ -160,11 +160,22 @@
       ],
       "settings": {
       }
+    },
+    "page_9gdpPd": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-two-piece-sets",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "rich_text_ePACrn",
-    "blo_collection_pills_BGjwXg"
+    "blo_collection_pills_BGjwXg",
+    "page_9gdpPd"
   ]
 }
