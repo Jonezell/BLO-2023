@@ -46,117 +46,13 @@
         "link_tPMJxh": {
           "type": "link",
           "settings": {
-            "text": "All",
+            "text": "View All Size Charts",
             "linkurl": "shopify://pages/size-chart"
-          }
-        },
-        "link_fLrEBJ": {
-          "type": "link",
-          "settings": {
-            "text": "Zip Rompers",
-            "linkurl": "shopify://pages/size-charts-zip-rompers"
-          }
-        },
-        "link_WiHNKJ": {
-          "type": "link",
-          "settings": {
-            "text": "Two-Piece Sets",
-            "linkurl": "shopify://pages/size-chart-two-piece-sets"
-          }
-        },
-        "link_qdcQzW": {
-          "type": "link",
-          "settings": {
-            "text": "Knotted Gowns",
-            "linkurl": "shopify://pages/size-chart-knotted-gowns"
-          }
-        },
-        "link_NFWDg9": {
-          "type": "link",
-          "settings": {
-            "text": "Shirts & Tanks",
-            "linkurl": "https://bravelittleones.com/pages/size-chart-shirts-tanks"
-          }
-        },
-        "link_iz73T6": {
-          "type": "link",
-          "settings": {
-            "text": "Pocket Dresses",
-            "linkurl": "shopify://pages/size-chart-dresses"
-          }
-        },
-        "link_KKydeb": {
-          "type": "link",
-          "settings": {
-            "text": "Pullovers",
-            "linkurl": "shopify://pages/size-chart-pullovers"
-          }
-        },
-        "link_L4UnVL": {
-          "type": "link",
-          "settings": {
-            "text": "Zip-Ups",
-            "linkurl": "shopify://pages/size-chart-zip-up-jacket"
-          }
-        },
-        "link_XFkwRV": {
-          "type": "link",
-          "settings": {
-            "text": "Puffer Jackets",
-            "linkurl": "shopify://pages/size-chart-puffer-jackets"
-          }
-        },
-        "link_cK9EFR": {
-          "type": "link",
-          "settings": {
-            "text": "Swim Trunks",
-            "linkurl": "shopify://pages/size-chart-trunks"
-          }
-        },
-        "link_pkTQUK": {
-          "type": "link",
-          "settings": {
-            "text": "Briefs",
-            "linkurl": "shopify://pages/size-chart-briefs"
-          }
-        },
-        "link_GbJMxW": {
-          "type": "link",
-          "settings": {
-            "text": "Underwear",
-            "linkurl": "shopify://pages/size-chart-girl-underwear"
-          }
-        },
-        "link_bdqdme": {
-          "type": "link",
-          "settings": {
-            "text": "Women's PJs",
-            "linkurl": "https://bravelittleones.com/pages/size-charts-all-womens"
-          }
-        },
-        "link_V4XAVn": {
-          "type": "link",
-          "settings": {
-            "text": "Women's Pullovers",
-            "linkurl": "shopify://pages/size-chart-womens-pullovers"
           }
         }
       },
       "block_order": [
-        "link_tPMJxh",
-        "link_fLrEBJ",
-        "link_WiHNKJ",
-        "link_qdcQzW",
-        "link_NFWDg9",
-        "link_iz73T6",
-        "link_KKydeb",
-        "link_L4UnVL",
-        "link_XFkwRV",
-        "link_cK9EFR",
-        "link_pkTQUK",
-        "link_GbJMxW",
-        "link_bdqdme",
-        "link_V4XAVn"
+        "link_tPMJxh"
       ],
       "settings": {
       }
