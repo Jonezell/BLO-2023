@@ -57,6 +57,7 @@
     },
     "custom_liquid_9zAyFp": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "BLO Banner (Release)",
         "color_scheme": "",
@@ -67,12 +68,12 @@
     "featured_collection_XyWbFt": {
       "type": "featured-collection",
       "settings": {
-        "title": "Cookies & Milk",
+        "title": "Shop Christmas PJs",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "cookies-and-milk",
+        "collection": "christmas-2024-releases",
         "products_to_show": 25,
         "columns_desktop": 4,
         "full_width": false,
@@ -88,7 +89,7 @@
         "quick_add": "none",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 0,
+        "padding_top": 100,
         "padding_bottom": 0
       }
     },
@@ -116,7 +117,7 @@
         "quick_add": "none",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 0,
+        "padding_top": 100,
         "padding_bottom": 100
       }
     },
