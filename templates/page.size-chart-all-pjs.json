@@ -67,8 +67,15 @@
         "link_x7WgiL": {
           "type": "link",
           "settings": {
-            "text": "Men's & Women's",
+            "text": "Women's",
             "linkurl": "shopify://pages/size-charts-all-womens"
+          }
+        },
+        "link_LpTYwA": {
+          "type": "link",
+          "settings": {
+            "text": "Men's",
+            "linkurl": "shopify://pages/size-charts-all-mens"
           }
         },
         "link_njzx6M": {
@@ -84,6 +91,7 @@
         "link_Ga3zTE",
         "link_iLKGtW",
         "link_x7WgiL",
+        "link_LpTYwA",
         "link_njzx6M"
       ],
       "settings": {
@@ -95,8 +103,8 @@
         "page": "size-chart-zip-rompers-fold-over",
         "heading_size": "h2",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "page_FiYCKF": {
@@ -105,8 +113,8 @@
         "page": "size-chart-two-piece-set",
         "heading_size": "h2",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "page_Ugatkq": {
@@ -115,8 +123,8 @@
         "page": "size-chart-shorts-two-piece-set",
         "heading_size": "h2",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "page_mYkGzd": {
@@ -125,8 +133,8 @@
         "page": "size-chart-summer-zip-rompers",
         "heading_size": "h2",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "page_mXYyFi": {
@@ -135,8 +143,8 @@
         "page": "size-chart-knotted-gowns",
         "heading_size": "h2",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     }
   },
