@@ -187,88 +187,6 @@
             "text": "When you choose our signature bamboo viscose, you are choosing the ultimate comfort for your little ones. It's the easiest choice you'll ever make."
           }
         },
-        "table_row_qrHg3C": {
-          "type": "table-row",
-          "settings": {
-            "text-pros": "Our Fabric",
-            "text-cons": "Their Fabric",
-            "is-header": true
-          }
-        },
-        "table_row_dgVRmi": {
-          "type": "table-row",
-          "settings": {
-            "text-pros": "Buttery Soft",
-            "text-cons": "Rough",
-            "is-header": false
-          }
-        },
-        "table_row_yHddPU": {
-          "type": "table-row",
-          "settings": {
-            "text-pros": "Super stretchy",
-            "text-cons": "Stiff",
-            "is-header": false
-          }
-        },
-        "table_row_TXPgT6": {
-          "type": "table-row",
-          "settings": {
-            "text-pros": "Breathable",
-            "text-cons": "Stuffy",
-            "is-header": false
-          }
-        },
-        "table_row_KhMTGk": {
-          "type": "table-row",
-          "settings": {
-            "text-pros": "Fits much longer",
-            "text-cons": "Limited wearability ",
-            "is-header": false
-          }
-        },
-        "table_row_YGErWK": {
-          "type": "table-row",
-          "settings": {
-            "text-pros": "Eco-friendly",
-            "text-cons": "Non-renewable",
-            "is-header": false
-          }
-        },
-        "table_row_NMyHMB": {
-          "type": "table-row",
-          "settings": {
-            "text-pros": "Oeko-Tex 100 Standard Certified Fabric",
-            "text-cons": "Not tested or failed testing",
-            "is-header": false
-          }
-        },
-        "table_row_prNbxp": {
-          "type": "table-row",
-          "settings": {
-            "text-pros": "Free of harsh chemicals & flame retardants",
-            "text-cons": "Treated with flame retardants & chemicals ",
-            "is-header": false
-          }
-        },
-        "table_row_NKFUwq": {
-          "type": "table-row",
-          "disabled": true,
-          "settings": {
-            "text-pros": "Naturally hypoallergenic",
-            "text-cons": "Can cause skin irritation",
-            "is-header": false
-          }
-        },
-        "table_row_wQfK4b": {
-          "type": "table-row",
-          "disabled": true,
-          "settings": {
-            "text-pros": "Antibacterial properties",
-            "text-cons": "Harbors more bacteria ",
-            "is-header": false
-          }
-        },
         "buttons_33KPBm": {
           "type": "buttons",
           "settings": {
@@ -280,16 +198,6 @@
       "block_order": [
         "heading_gWEEqL",
         "text_U78aeU",
-        "table_row_qrHg3C",
-        "table_row_dgVRmi",
-        "table_row_yHddPU",
-        "table_row_TXPgT6",
-        "table_row_KhMTGk",
-        "table_row_YGErWK",
-        "table_row_NMyHMB",
-        "table_row_prNbxp",
-        "table_row_NKFUwq",
-        "table_row_wQfK4b",
         "buttons_33KPBm"
       ],
       "settings": {
