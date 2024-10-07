@@ -23,21 +23,21 @@
           "type": "link",
           "settings": {
             "text": "All",
-            "linkurl": "https://bravelittleones.com/pages/shop-by-all"
+            "linkurl": "shopify://pages/shop-by-all"
           }
         },
         "link_Wm7gQn": {
           "type": "link",
           "settings": {
             "text": "Prints",
-            "linkurl": "https://bravelittleones.com/pages/shop-by-print"
+            "linkurl": "shopify://pages/shop-by-print"
           }
         },
         "link_YfwYTr": {
           "type": "link",
           "settings": {
             "text": "Solids & Stripes",
-            "linkurl": "https://bravelittleones.com/pages/shop-by-small-ribbed"
+            "linkurl": "shopify://pages/shop-by-small-ribbed"
           }
         }
       },
