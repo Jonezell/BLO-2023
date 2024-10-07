@@ -30,8 +30,8 @@
         "produdct_as_variants_CXULYg": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Style",
-            "style": "image",
+            "label": "Toddler",
+            "style": "swatch",
             "target_collection": "toddler-blankets",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
@@ -41,8 +41,8 @@
         "produdct_as_variants_axcHkd": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Style",
-            "style": "image",
+            "label": "Youth",
+            "style": "swatch",
             "target_collection": "youth-blanket",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
@@ -52,11 +52,11 @@
         "produdct_as_variants_8CkkC7": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Style",
-            "style": "image",
+            "label": "Adult",
+            "style": "swatch",
             "target_collection": "adult-blankets",
-            "swatch_offset_Y": 50,
-            "swatch_offset_X": 50,
+            "swatch_offset_Y": 30,
+            "swatch_offset_X": 30,
             "hide_sold_out": true
           }
         },
