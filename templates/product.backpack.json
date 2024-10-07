@@ -212,7 +212,7 @@
         "text": "",
         "image": "shopify://shop_images/Backpack_db8c8ce7-fd79-4c0e-a7dc-1c5a8afb36b6.jpg",
         "padding_top": 200,
-        "padding_bottom": 200
+        "padding_bottom": 100
       }
     },
     "blo_faq_7gVA7y": {
@@ -252,12 +252,12 @@
         "collapsible_tab_pmXUGa"
       ],
       "settings": {
-        "background_color": "#c27d4c",
+        "background_color": "#fcfcf9",
         "mainHeading": "Have A Question? We Have The Answer.",
         "mainText": "",
         "layout": "image_first",
-        "padding_top": 200,
-        "padding_bottom": 200
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "related-products": {
