@@ -88,11 +88,66 @@
       ],
       "settings": {
       }
+    },
+    "page_gWLbkc": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-zip-rompers-fold-over",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_FiYCKF": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-two-piece-set",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_Ugatkq": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-shorts-two-piece-set",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_mYkGzd": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-summer-zip-rompers",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_mXYyFi": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-knotted-gowns",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "rich_text_tebE9P",
-    "blo_collection_pills_jRLEam"
+    "blo_collection_pills_jRLEam",
+    "page_gWLbkc",
+    "page_FiYCKF",
+    "page_Ugatkq",
+    "page_mYkGzd",
+    "page_mXYyFi"
   ]
 }
