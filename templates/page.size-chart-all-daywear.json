@@ -57,13 +57,6 @@
             "linkurl": "shopify://pages/size-charts-all-pjs"
           }
         },
-        "link_fNVGUL": {
-          "type": "link",
-          "settings": {
-            "text": "",
-            "linkurl": ""
-          }
-        },
         "link_H3ihU7": {
           "type": "link",
           "settings": {
@@ -89,18 +82,72 @@
       "block_order": [
         "link_KRr4Fj",
         "link_W3iFQ4",
-        "link_fNVGUL",
         "link_H3ihU7",
         "link_jQ9xUj",
         "link_4fAxHy"
       ],
       "settings": {
       }
+    },
+    "page_zjxhkM": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-shirts-tanks",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_jwkMGb": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-dresses",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_rYXTNA": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-trunks",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_hhYq3K": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-rash-guards",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_x8UPqW": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-pullovers",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "rich_text_bX74kW",
-    "blo_collection_pills_7fVGdq"
+    "blo_collection_pills_7fVGdq",
+    "page_zjxhkM",
+    "page_jwkMGb",
+    "page_rYXTNA",
+    "page_hhYq3K",
+    "page_x8UPqW"
   ]
 }
