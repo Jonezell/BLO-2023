@@ -96,16 +96,6 @@
           "settings": {
           }
         },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Sizing",
-            "icon": "ruler",
-            "content": "",
-            "page": "size-chart-two-piece-set"
-          }
-        },
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
@@ -148,7 +138,6 @@
         "blo_restock_note_mE6Xzy",
         "blo_payment_plans_BXirh9",
         "description",
-        "collapsible-row-0",
         "collapsible-row-3",
         "complementary_khkJGT",
         "share"
@@ -166,7 +155,7 @@
         "hide_variants": true,
         "enable_video_looping": true,
         "padding_top": 36,
-        "padding_bottom": 12
+        "padding_bottom": 100
       }
     },
     "172791928687cb93f7": {
@@ -182,7 +171,7 @@
         "judge_me_reviews_review_widget_w8Ua44"
       ],
       "custom_css": [
-        "section {background-color: var(--blo-terra);}"
+
       ],
       "settings": {
         "include_margins": false
@@ -307,7 +296,7 @@
         "collapsible_tab_pmXUGa"
       ],
       "settings": {
-        "background_color": "#c27d4c",
+        "background_color": "#fcfcf9",
         "mainHeading": "Have A Question? We Have The Answer.",
         "mainText": "",
         "layout": "image_first",
