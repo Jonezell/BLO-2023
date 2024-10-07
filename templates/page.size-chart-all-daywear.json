@@ -67,8 +67,15 @@
         "link_jQ9xUj": {
           "type": "link",
           "settings": {
-            "text": "Men's & Women's",
+            "text": "Women's",
             "linkurl": "https://bravelittleones.com/pages/size-charts-all-womens"
+          }
+        },
+        "link_pfyUCQ": {
+          "type": "link",
+          "settings": {
+            "text": "Men's",
+            "linkurl": "shopify://pages/size-charts-all-mens"
           }
         },
         "link_4fAxHy": {
@@ -84,6 +91,7 @@
         "link_W3iFQ4",
         "link_H3ihU7",
         "link_jQ9xUj",
+        "link_pfyUCQ",
         "link_4fAxHy"
       ],
       "settings": {
