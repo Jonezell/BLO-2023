@@ -11,13 +11,110 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "rich_text_h3nNaa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BXLngF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome Retailers!",
+            "heading_size": "h1"
+          }
+        },
+        "text_pAfqeY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Congratulations on being approved to sell wholesale! Please fill out the form below to create your company profile. You'll receive an email once your account has been activated! </p>"
+          }
+        },
+        "button_LkHfeE": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_BXLngF",
+        "text_pAfqeY",
+        "button_LkHfeE"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_hM3LXM": {
+      "type": "rich-text",
+      "blocks": {
+        "text_wnh4KX": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><strong>Wholesale Terms:</strong></h6><ol><li>U.S. Wholesale Shipping is $50 for orders under $1,200 and $60 for orders over $1,200.</li><li>Advertised online discounts over 15% off MSRP are not permitted. We do allow up to 30% off to be offered during Black Friday/Cyber Monday.</li><li>Reselling Brave Little Ones in Facebook groups, Amazon, Ebay, Etsy, or similar platforms is not allowed.</li><li>Accounts are subject to closure for failure to follow the above terms.</li></ol>"
+          }
+        }
+      },
+      "block_order": [
+        "text_wnh4KX"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1728294918c962907e": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_CRHLQa": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "26887",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 64,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_CRHLQa"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_h3nNaa",
+    "rich_text_hM3LXM",
+    "1728294918c962907e"
   ]
 }
