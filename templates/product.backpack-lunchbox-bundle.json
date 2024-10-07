@@ -17,14 +17,6 @@
           "settings": {
           }
         },
-        "caption": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -35,10 +27,15 @@
           "settings": {
           }
         },
-        "custom_liquid_fNJfeT": {
-          "type": "custom_liquid",
+        "produdct_as_variants_GbNWtC": {
+          "type": "produdct-as-variants",
           "settings": {
-            "custom_liquid": "BLO: Products As Variants"
+            "label": "Options",
+            "style": "image",
+            "target_collection": "backpacks-lunch-box-sets",
+            "swatch_offset_Y": 50,
+            "swatch_offset_X": 50,
+            "hide_sold_out": true
           }
         },
         "variant_picker": {
@@ -93,10 +90,9 @@
       },
       "block_order": [
         "title",
-        "caption",
         "price",
         "judge_me_reviews_preview_badge_4jMMRx",
-        "custom_liquid_fNJfeT",
+        "produdct_as_variants_GbNWtC",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
