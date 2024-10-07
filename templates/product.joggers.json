@@ -31,10 +31,10 @@
           "type": "produdct-as-variants",
           "settings": {
             "label": "Style",
-            "style": "image",
+            "style": "swatch",
             "target_collection": "joggers",
-            "swatch_offset_Y": 50,
-            "swatch_offset_X": 50,
+            "swatch_offset_Y": 30,
+            "swatch_offset_X": 40,
             "hide_sold_out": true
           }
         },
