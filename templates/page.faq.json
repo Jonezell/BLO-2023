@@ -22,9 +22,9 @@
         "collapsible_tab_9wxLFp": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
+            "heading": "When will my order ship?",
+            "icon": "none",
+            "content": "<p>We typically ship orders within 1-4 business days, however during times of high order volume please allow up to 7 business days. We don’t ship on weekends. </p>",
             "page": ""
           }
         },
