@@ -53,7 +53,7 @@
         "custom_low_stock_JTRiRj": {
           "type": "custom-low-stock",
           "settings": {
-            "inventory_threshold": 20,
+            "inventory_threshold": 15,
             "show_inventory_quantity": false
           }
         },
@@ -88,7 +88,7 @@
         "blo_payment_plans_BXirh9": {
           "type": "blo-payment-plans",
           "settings": {
-            "text": "Split your purchase into multiple small interest-free payments with"
+            "text": "Or, split your purchase into multiple small interest-free payments with"
           }
         },
         "description": {
@@ -105,33 +105,17 @@
             "page": "copy-of-size-chart-joggers"
           }
         },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "washing",
-            "content": "<p><strong>How do I care for bamboo?</strong></p><p><em><strong>Step One: </strong></em><br/>Turn the garment inside out before washing and drying.<br/></p><p><em><strong>Step Two: </strong></em><br/>Wash in cold water on the normal or quick cycle. We do not recommend washing on delicate since it makes products sit in water for too long.<br/></p><p><em><strong>Step Three: </strong></em><strong><br/></strong>Dry on the normal heat setting.</p>",
-            "page": ""
-          }
-        },
         "complementary_qQy6C8": {
           "type": "complementary",
           "settings": {
             "block_heading": "Pairs well with",
-            "make_collapsible_row": false,
+            "make_collapsible_row": true,
             "icon": "price_tag",
             "product_list_limit": 10,
             "products_per_page": 3,
             "pagination_style": "counter",
             "image_ratio": "square",
-            "enable_quick_add": false
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
+            "enable_quick_add": true
           }
         }
       },
@@ -149,9 +133,7 @@
         "blo_payment_plans_BXirh9",
         "description",
         "collapsible-row-0",
-        "collapsible-row-3",
-        "complementary_qQy6C8",
-        "share"
+        "complementary_qQy6C8"
       ],
       "settings": {
         "enable_sticky_info": true,
