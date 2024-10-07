@@ -233,8 +233,8 @@
         "buttons_33KPBm": {
           "type": "buttons",
           "settings": {
-            "button_label": "Learn More",
-            "button_link": "shopify://blogs/blog/why-we-fell-in-love-with-bamboo"
+            "button_label": "Shop All",
+            "button_link": "shopify://collections/shop-all-pjs"
           }
         }
       },
