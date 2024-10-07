@@ -88,7 +88,7 @@
         "blo_payment_plans_BXirh9": {
           "type": "blo-payment-plans",
           "settings": {
-            "text": "Split your purchase into multiple small interest-free payments with"
+            "text": "Or, split your purchase into multiple small interest-free payments with"
           }
         },
         "description": {
@@ -119,19 +119,13 @@
           "type": "complementary",
           "settings": {
             "block_heading": "Pairs well with",
-            "make_collapsible_row": false,
+            "make_collapsible_row": true,
             "icon": "price_tag",
             "product_list_limit": 10,
             "products_per_page": 3,
             "pagination_style": "counter",
             "image_ratio": "square",
-            "enable_quick_add": false
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
+            "enable_quick_add": true
           }
         }
       },
@@ -150,8 +144,7 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-3",
-        "complementary_ceUBjR",
-        "share"
+        "complementary_ceUBjR"
       ],
       "settings": {
         "enable_sticky_info": true,
