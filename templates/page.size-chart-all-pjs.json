@@ -46,36 +46,36 @@
         "link_RjDrGr": {
           "type": "link",
           "settings": {
-            "text": "",
-            "linkurl": ""
+            "text": "All",
+            "linkurl": "shopify://pages/size-chart"
           }
         },
         "link_Ga3zTE": {
           "type": "link",
           "settings": {
-            "text": "",
-            "linkurl": ""
+            "text": "PJs",
+            "linkurl": "shopify://pages/size-charts-all-pjs"
           }
         },
         "link_iLKGtW": {
           "type": "link",
           "settings": {
-            "text": "",
-            "linkurl": ""
+            "text": "Daywear",
+            "linkurl": "shopify://pages/size-charts-all-daywear"
           }
         },
         "link_x7WgiL": {
           "type": "link",
           "settings": {
-            "text": "",
-            "linkurl": ""
+            "text": "Men's & Women's",
+            "linkurl": "shopify://pages/size-charts-all-womens"
           }
         },
         "link_njzx6M": {
           "type": "link",
           "settings": {
-            "text": "",
-            "linkurl": ""
+            "text": "Sleep Sacks",
+            "linkurl": "shopify://pages/size-chart-sleep-sacks"
           }
         }
       },
