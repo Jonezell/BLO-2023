@@ -83,6 +83,15 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "custom_liquid_fK8nAp": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "About",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -91,6 +100,7 @@
     "custom_liquid_wFermC",
     "blo_footer_wqHwA7",
     "newsletter_WzgFpP",
-    "custom_liquid_4GFHmq"
+    "custom_liquid_4GFHmq",
+    "custom_liquid_fK8nAp"
   ]
 }
