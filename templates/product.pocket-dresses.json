@@ -31,7 +31,7 @@
           "type": "produdct-as-variants",
           "settings": {
             "label": "Style",
-            "style": "image",
+            "style": "swatch",
             "target_collection": "pocket-dresses",
             "swatch_offset_Y": 45,
             "swatch_offset_X": 50,
@@ -165,7 +165,7 @@
         "hide_variants": true,
         "enable_video_looping": true,
         "padding_top": 36,
-        "padding_bottom": 12
+        "padding_bottom": 100
       }
     },
     "172791928687cb93f7": {
