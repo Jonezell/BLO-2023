@@ -17,6 +17,44 @@
         "padding_bottom": 100
       }
     },
+    "blo_banner_XwcWJV": {
+      "type": "blo-banner",
+      "blocks": {
+        "heading_tFbTVy": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shop our Christmas Collection"
+          }
+        },
+        "text_aLczgx": {
+          "type": "text",
+          "settings": {
+            "text": "'Tis the season of comfort and joy. Our festive and adorable seasonal prints are here, but they won't last long."
+          }
+        },
+        "buttons_Dm7FPj": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Shop All",
+            "button_link": "shopify://collections/christmas-2024-releases"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tFbTVy",
+        "text_aLczgx",
+        "buttons_Dm7FPj"
+      ],
+      "settings": {
+        "media-type": "video",
+        "show_side-gradient": true,
+        "video": "shopify://files/videos/bravevideofw24-129.mp4",
+        "background-color": "#e9e9e6",
+        "top-shape-color": "#ce7941",
+        "bottom-shape-color": "#285448",
+        "show-under-header": false
+      }
+    },
     "custom_liquid_9zAyFp": {
       "type": "custom-liquid",
       "settings": {
@@ -94,6 +132,7 @@
   },
   "order": [
     "main",
+    "blo_banner_XwcWJV",
     "custom_liquid_9zAyFp",
     "featured_collection_XyWbFt",
     "featured_collection_kcqFkj",
