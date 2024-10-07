@@ -48,8 +48,8 @@
         "media-type": "video",
         "image": "shopify://shop_images/bannerImage.jpg",
         "show_side-gradient": true,
-        "video": "shopify://files/videos/bravevideofw24-163.mp4",
-        "background-color": "#eaeaea",
+        "video": "shopify://files/videos/bravevideofw24-148.mp4",
+        "background-color": "#f9f6f6",
         "top-shape-color": "#98b5cc",
         "bottom-shape-color": "#edb396",
         "show-under-header": true
