@@ -30,7 +30,7 @@
         "produdct_as_variants_CXULYg": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Style",
+            "label": "Crib Sheets",
             "style": "swatch",
             "target_collection": "crib-sheets",
             "swatch_offset_Y": 50,
@@ -41,7 +41,7 @@
         "produdct_as_variants_ErLkaK": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Style",
+            "label": "Twin Sheets",
             "style": "swatch",
             "target_collection": "twin-sheets",
             "swatch_offset_Y": 75,
