@@ -164,6 +164,34 @@
         "padding_top": 100,
         "padding_bottom": 0
       }
+    },
+    "featured_collection_HkzyLL": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Pine Green Small Ribbed",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "pine-green-small-ribbed",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -173,6 +201,7 @@
     "featured_collection_PDNwqE",
     "featured_collection_cKR4bW",
     "featured_collection_WzNVK8",
-    "featured_collection_aT3mBy"
+    "featured_collection_aT3mBy",
+    "featured_collection_HkzyLL"
   ]
 }
