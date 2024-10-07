@@ -23,28 +23,28 @@
           "type": "link",
           "settings": {
             "text": "All",
-            "linkurl": "https://bravelittleones.com/pages/shop-by-all"
+            "linkurl": "shopify://pages/shop-by-all"
           }
         },
         "link_h79bAB": {
           "type": "link",
           "settings": {
             "text": "Prints",
-            "linkurl": "https://bravelittleones.com/pages/shop-by-print"
+            "linkurl": "shopify://pages/shop-by-print"
           }
         },
         "link_JHHzHq": {
           "type": "link",
           "settings": {
             "text": "Small Ribbed",
-            "linkurl": "https://bravelittleones.com/pages/shop-by-small-ribbed"
+            "linkurl": "shopify://pages/shop-by-small-ribbed"
           }
         },
         "link_niEDKf": {
           "type": "link",
           "settings": {
             "text": "Big Ribbed",
-            "linkurl": "https://admin.shopify.com/store/brave-little-ones/themes/135792525481/editor?previewPath=%2Fpages%2Fshop-by-big-ribbed&block=template--16745274048681__2a3e9bc6-a5e4-40d4-b666-39cc238316a9__03ecd29c-d5c4-40d6-9f2a-f7822945ac95&section=template--16745274048681__2a3e9bc6-a5e4-40d4-b666-39cc238316a9"
+            "linkurl": "shopify://pages/shop-by-big-ribbed"
           }
         }
       },
