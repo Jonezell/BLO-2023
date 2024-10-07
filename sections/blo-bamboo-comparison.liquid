@@ -31,14 +31,12 @@
             class="blo-bamboo-benefit-row rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
             {{ block.shopify_attributes }}
           >
-            <div class="blo-bamboo-benefit-row-content">
-              {% if block.settings['show-checkmark'] == true %}
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 10L8.5 13.5L14 6" stroke="#335348" stroke-width="1.9"/>
-                </svg>
-              {% endif %}
-              <p>{{ block.settings.text }}</p>
-            </div>
+            {% if block.settings['show-checkmark'] == true %}
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 10L8.5 13.5L14 6" stroke="#335348" stroke-width="1.9"/>
+              </svg>
+            {% endif %}
+            <p>{{ block.settings.text }}</p>
           </div>
         {%- when 'buttons' -%}
           <div
@@ -100,6 +98,8 @@
         flex-direction: row;
         align-items: center;
         gap: 10px;
+        padding: 15px 0;
+        color: var(--blo-pine);
     }
     .blo-banner-text + .blo-bamboo-benefit-row {
         margin-top: 40px;
@@ -110,22 +110,14 @@
         flex-direction: row;
         align-items: center;
         gap: 5px;
-        padding: 12px 0;
-        color: var(--blo-pine);
     }
-    .blo-bamboo-benefit-row-content svg path {
+    .blo-bamboo-benefit-row svg path {
         stroke: var(--blo-pine);
-    }
-    .blo-bamboo-benefit-row-content + .blo-bamboo-benefit-row-content p{
-        color: var(--blo-terra);
-    }
-    .blo-bamboo-benefit-row-content + .blo-bamboo-benefit-row-content svg path {
-        fill: var(--blo-terra);
     }
     .blo-bamboo-benefit-row + .blo-bamboo-benefit-row {
         border-top: 1.9px solid var(--blo-dark-cream);
     }
-    .blo-bamboo-benefit-row-content p {
+    .blo-bamboo-benefit-row p {
         margin-top: 0;
         margin-bottom: 0;
         width: 100%;
@@ -134,7 +126,7 @@
         font-weight: bold !important;
         font-style: italic !important;
     }
-    .blo-bamboo-benefit-row-header .blo-bamboo-benefit-row-content svg {
+    .blo-bamboo-benefit-row-header .blo-bamboo-benefit-row svg {
         display: none;
     }
     .blo-bamboo-benefit-row + .blo-bamboo-comparison-buttons {
