@@ -88,7 +88,7 @@
         "blo_payment_plans_BXirh9": {
           "type": "blo-payment-plans",
           "settings": {
-            "text": "Split your purchase into multiple small interest-free payments with"
+            "text": "Or, split your purchase into multiple small interest-free payments with"
           }
         },
         "description": {
@@ -105,16 +105,6 @@
             "page": "size-chart-puffer-jackets"
           }
         },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "washing",
-            "content": "<p><strong>How do I care for bamboo?</strong></p><p><em><strong>Step One: </strong></em><br/>Turn the garment inside out before washing and drying.<br/></p><p><em><strong>Step Two: </strong></em><br/>Wash in cold water on the normal or quick cycle. We do not recommend washing on delicate since it makes products sit in water for too long.<br/></p><p><em><strong>Step Three: </strong></em><strong><br/></strong>Dry on the normal heat setting.</p>",
-            "page": ""
-          }
-        },
         "complementary_dVRqJH": {
           "type": "complementary",
           "settings": {
@@ -126,12 +116,6 @@
             "pagination_style": "counter",
             "image_ratio": "square",
             "enable_quick_add": true
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
           }
         }
       },
@@ -149,9 +133,7 @@
         "blo_payment_plans_BXirh9",
         "description",
         "collapsible-row-0",
-        "collapsible-row-3",
-        "complementary_dVRqJH",
-        "share"
+        "complementary_dVRqJH"
       ],
       "settings": {
         "enable_sticky_info": true,
