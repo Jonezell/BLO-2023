@@ -141,7 +141,7 @@
         "hide_variants": true,
         "enable_video_looping": true,
         "padding_top": 36,
-        "padding_bottom": 12
+        "padding_bottom": 100
       }
     },
     "172791928687cb93f7": {
@@ -157,7 +157,7 @@
         "judge_me_reviews_review_widget_w8Ua44"
       ],
       "settings": {
-        "include_margins": true
+        "include_margins": false
       }
     },
     "image_with_text_F44c8r": {
