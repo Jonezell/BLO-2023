@@ -148,6 +148,46 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "page_n6z3wz": {
+      "type": "page",
+      "settings": {
+        "page": "copy-of-size-chart-joggers",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_rrkXfF": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-puffer-jackets",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_3nc37i": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-briefs",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_jzYiGd": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-girl-underwear",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -159,6 +199,10 @@
     "page_rYXTNA",
     "page_hhYq3K",
     "page_x8UPqW",
-    "page_rcDRDX"
+    "page_rcDRDX",
+    "page_n6z3wz",
+    "page_rrkXfF",
+    "page_3nc37i",
+    "page_jzYiGd"
   ]
 }
