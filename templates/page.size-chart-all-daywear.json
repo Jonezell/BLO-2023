@@ -11,13 +11,88 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "rich_text_bX74kW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_eabTjU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Size Charts",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eabTjU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 28
+      }
+    },
+    "blo_collection_pills_7fVGdq": {
+      "type": "blo-collection-pills",
+      "blocks": {
+        "link_KRr4Fj": {
+          "type": "link",
+          "settings": {
+            "text": "All",
+            "linkurl": "https://bravelittleones.com/pages/size-chart"
+          }
+        },
+        "link_W3iFQ4": {
+          "type": "link",
+          "settings": {
+            "text": "PJs",
+            "linkurl": "https://bravelittleones.com/pages/size-charts-all-pjs"
+          }
+        },
+        "link_H3ihU7": {
+          "type": "link",
+          "settings": {
+            "text": "Daywear",
+            "linkurl": "shopify://pages/size-charts-all-daywear"
+          }
+        },
+        "link_jQ9xUj": {
+          "type": "link",
+          "settings": {
+            "text": "Men's & Women's",
+            "linkurl": "https://bravelittleones.com/pages/size-charts-all-womens"
+          }
+        },
+        "link_4fAxHy": {
+          "type": "link",
+          "settings": {
+            "text": "Sleep Sacks",
+            "linkurl": "shopify://pages/size-chart-sleep-sacks"
+          }
+        }
+      },
+      "block_order": [
+        "link_KRr4Fj",
+        "link_W3iFQ4",
+        "link_H3ihU7",
+        "link_jQ9xUj",
+        "link_4fAxHy"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_bX74kW",
+    "blo_collection_pills_7fVGdq"
   ]
 }
