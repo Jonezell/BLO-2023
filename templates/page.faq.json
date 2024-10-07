@@ -76,45 +76,45 @@
         "collapsible_tab_HyURQH": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
+            "heading": "How much is international shipping? Do I have to pay duties and taxes?",
+            "icon": "none",
+            "content": "<p>International shipping is $35 USD.<br/><br/>Our international orders ship with Delivery Duty Unpaid (DDU). Customers may need to pay for duties or taxes when the item arrives at their country’s customs department.<br/><br/><em>Please note that duties and taxes assessed by customs vary by country and product.</em></p>",
             "page": ""
           }
         },
         "collapsible_tab_qkWrAt": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
+            "heading": "Who handles your international shipping?",
+            "icon": "none",
+            "content": "<p>We ship all our international orders with UPS Mail Innovations DDU. Your order will contain a tracking number so you can track your package as it travels across the globe!</p>",
             "page": ""
           }
         },
         "collapsible_tab_dJHJVU": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
+            "heading": "When will I receive my international order?",
+            "icon": "none",
+            "content": "<p>We want you to receive your order as fast as possible!</p><p>International orders are typically delivered within 6-15 business days once the order has been fulfilled. Once your order has been fulfilled, the estimated delivery date will be shown on your order status page. </p><p>You can track the progress of your order by clicking the tracking number found on your order confirmation page or your order history page found in your <a href=\"https://account.bravelittleones.com/\" target=\"_blank\"><span style=\"text-decoration:underline\">Brave Little Ones Account.</span></a></p>",
             "page": ""
           }
         },
         "collapsible_tab_WWCa3K": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
+            "heading": "How can I track my international package?",
+            "icon": "none",
+            "content": "<p>Once your international order has been fulfilled, you will receive an email from us with your tracking information. You can track the progress of your order by clicking the tracking number found on your order confirmation page or your order history page found in your <a href=\"https://account.bravelittleones.com/\" target=\"_blank\"><span style=\"text-decoration:underline\">Brave Little Ones account.</span></a></p>",
             "page": ""
           }
         },
         "collapsible_tab_ffQpaV": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
+            "heading": "Can I return my international order?",
+            "icon": "none",
+            "content": "<p>We do not accept returns on international orders at this time. </p>",
             "page": ""
           }
         }
