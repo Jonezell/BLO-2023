@@ -48,7 +48,7 @@
         "media-type": "video",
         "show_side-gradient": true,
         "video": "shopify://files/videos/blojunevid-320.mov",
-        "background-color": "#fffdfd",
+        "background-color": "#f7f2f2",
         "top-shape-color": "#98b5cc",
         "bottom-shape-color": "#edb396",
         "show-under-header": true
