@@ -60,10 +60,56 @@
         "padding_top": 0,
         "padding_bottom": 100
       }
+    },
+    "blo_faq_NMVikd": {
+      "type": "blo-faq",
+      "blocks": {
+        "collapsible_tab_D4JD7H": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_HyURQH": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_qkWrAt": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_D4JD7H",
+        "collapsible_tab_HyURQH",
+        "collapsible_tab_qkWrAt"
+      ],
+      "settings": {
+        "background_color": "",
+        "mainHeading": "International Shipping",
+        "mainText": "<p>We offer shipping to select countries across the globe!</p>",
+        "layout": "image_first",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
     "main",
-    "blo_faq_E8UNYw"
+    "blo_faq_E8UNYw",
+    "blo_faq_NMVikd"
   ]
 }
