@@ -140,13 +140,6 @@
             "text": "Women's Pullovers",
             "linkurl": "https://bravelittleones.com/pages/size-chart-womens-pullovers"
           }
-        },
-        "link_RrWqyr": {
-          "type": "link",
-          "settings": {
-            "text": "",
-            "linkurl": ""
-          }
         }
       },
       "block_order": [
@@ -163,16 +156,37 @@
         "link_MY3UFn",
         "link_KFrUCE",
         "link_RtedhV",
-        "link_fW76tR",
-        "link_RrWqyr"
+        "link_fW76tR"
       ],
       "settings": {
+      }
+    },
+    "page_wxXRbG": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-two-piece-set",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "page_dTWFYT": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-shorts-two-piece-set",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
     "rich_text_xG3Cca",
-    "blo_collection_pills_bYXiRM"
+    "blo_collection_pills_bYXiRM",
+    "page_wxXRbG",
+    "page_dTWFYT"
   ]
 }
