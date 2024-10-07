@@ -15,9 +15,19 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "custom_liquid_geNxBD": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"layout_container map-new-theme cs_map_container\" data-url=\"https://msl.cirkleinc.com/default/loader.gif\"></div><script src=\"https://msl.cirkleinc.com/js/frontend.js?v={{ \"now\" | date: \"%s\" }}\"></script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_liquid_geNxBD"
   ]
 }
