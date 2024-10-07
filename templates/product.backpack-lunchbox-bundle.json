@@ -106,7 +106,7 @@
             "products_per_page": 3,
             "pagination_style": "counter",
             "image_ratio": "square",
-            "enable_quick_add": false
+            "enable_quick_add": true
           }
         }
       },
@@ -154,7 +154,7 @@
         "judge_me_reviews_review_widget_w8Ua44"
       ],
       "settings": {
-        "include_margins": true
+        "include_margins": false
       }
     },
     "custom_liquid_PWyCPW": {
