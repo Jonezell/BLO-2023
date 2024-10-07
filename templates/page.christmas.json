@@ -90,44 +90,6 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "blo_banner_ahPrjc": {
-      "type": "blo-banner",
-      "blocks": {
-        "heading_FzECcb": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner"
-          }
-        },
-        "text_TDdPWh": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "buttons_Y4ti6q": {
-          "type": "buttons",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_FzECcb",
-        "text_TDdPWh",
-        "buttons_Y4ti6q"
-      ],
-      "settings": {
-        "media-type": "image",
-        "image": "shopify://shop_images/image-main_2_ec1f6a85-1510-446d-ab41-c93ca4c07db0.jpg",
-        "show_side-gradient": false,
-        "background-color": "#eeeeee",
-        "top-shape-color": "#98B5CC",
-        "bottom-shape-color": "#EDB396",
-        "show-under-header": false
-      }
     }
   },
   "order": [
@@ -135,7 +97,6 @@
     "custom_liquid_9zAyFp",
     "featured_collection_XyWbFt",
     "featured_collection_kcqFkj",
-    "custom_liquid_haApFx",
-    "blo_banner_ahPrjc"
+    "custom_liquid_haApFx"
   ]
 }
