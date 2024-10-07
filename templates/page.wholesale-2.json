@@ -58,22 +58,10 @@
           "settings": {
             "text": "<h6><strong>Want To Be A Retailer? </strong></h6><h6></h6><p>Are you interested in carrying Brave Little Ones in your shop? Please fill out the application below to apply to become a retailer. If accepted, you will receive an email with our wholesale pricing and login information. Let's do this!</p><p></p><p><em>Please note: We are currently NOT selling to online retailers. Please only apply if you have a physical shop.</em></p>"
           }
-        },
-        "button_KgCUix": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
-        "text_VrXnCh",
-        "button_KgCUix"
+        "text_VrXnCh"
       ],
       "settings": {
         "desktop_content_position": "center",
