@@ -104,12 +104,6 @@
             "content": "<p><strong>How do I care for bamboo?</strong></p><p><em><strong>Step One: </strong></em><br/>Turn the garment inside out before washing and drying.<br/></p><p><em><strong>Step Two: </strong></em><br/>Wash in cold water on the normal or quick cycle. We do not recommend washing on delicate since it makes products sit in water for too long.<br/></p><p><em><strong>Step Three: </strong></em><strong><br/></strong>Dry on the normal heat setting.</p>",
             "page": ""
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
@@ -125,8 +119,7 @@
         "blo_restock_note_mE6Xzy",
         "blo_payment_plans_BXirh9",
         "description",
-        "collapsible-row-3",
-        "share"
+        "collapsible-row-3"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -176,20 +169,11 @@
             "text": "<p>Perfect for the cooler months, our soft and warm knit beanies are sure to keep your little one cozy all winter long! Pair a beanie with any of our kids' loungewear to add that extra cozy winter touch.</p>",
             "text_style": "body"
           }
-        },
-        "button_qzf3rg": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_TVCDNa",
-        "text_CrkfEy",
-        "button_qzf3rg"
+        "text_CrkfEy"
       ],
       "settings": {
         "image": "shopify://shop_images/Knit-beanie_2dfdb9d2-5c19-47d8-a799-60441c7f1fea.png",
@@ -203,8 +187,8 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "blo_faq_7gVA7y": {
