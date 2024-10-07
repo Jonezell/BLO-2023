@@ -81,12 +81,22 @@
         "padding_top": 0,
         "padding_bottom": 100
       }
+    },
+    "custom_liquid_haApFx": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe src=\"https://bravelittleones.attn.tv/p/RzK/landing-page2\" style=\"min-height: 800px; border: none;\" width=\"100%\" height=\"100%\"></iframe>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "custom_liquid_9zAyFp",
     "featured_collection_XyWbFt",
-    "featured_collection_kcqFkj"
+    "featured_collection_kcqFkj",
+    "custom_liquid_haApFx"
   ]
 }
