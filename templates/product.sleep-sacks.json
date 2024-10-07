@@ -30,9 +30,9 @@
         "produdct_as_variants_CXULYg": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Options",
+            "label": "Style",
             "style": "image",
-            "target_collection": "",
+            "target_collection": "sleep-sacks",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
@@ -53,7 +53,7 @@
         "custom_low_stock_JTRiRj": {
           "type": "custom-low-stock",
           "settings": {
-            "inventory_threshold": 20,
+            "inventory_threshold": 15,
             "show_inventory_quantity": false
           }
         },
@@ -98,17 +98,15 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Sizing",
+            "heading": "Sizing & TOG Guide",
             "icon": "ruler",
             "content": "",
-            "page": "size-chart-two-piece-set"
+            "page": "size-chart-sleep-sacks"
           }
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Care Instructions",
             "icon": "washing",
@@ -116,9 +114,21 @@
             "page": ""
           }
         },
+        "complementary_9KQ7kD": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": true,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
+        },
         "share": {
           "type": "share",
-          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
@@ -139,6 +149,7 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-3",
+        "complementary_9KQ7kD",
         "share"
       ],
       "settings": {
@@ -154,7 +165,7 @@
         "hide_variants": true,
         "enable_video_looping": true,
         "padding_top": 36,
-        "padding_bottom": 100
+        "padding_bottom": 12
       }
     },
     "172791928687cb93f7": {
@@ -173,7 +184,7 @@
         "section {background-color: var(--blo-terra);}"
       ],
       "settings": {
-        "include_margins": true
+        "include_margins": false
       }
     },
     "blo_product_callouts_qHXD4R": {
@@ -183,32 +194,53 @@
           "type": "Callout",
           "settings": {
             "pin_direction": "top_right",
-            "block_title": "Benefit 2",
-            "block_text": "Feature Text",
-            "horizontal_position": 50,
-            "vertical_position": 28
+            "block_title": "Two Way Double Zipper",
+            "block_text": "Double j-shaped zipper for easy dressing and diaper changes. ",
+            "horizontal_position": 16,
+            "vertical_position": 16
           }
         },
         "callout_BxjKGh": {
           "type": "Callout",
           "settings": {
+            "pin_direction": "top_left",
+            "block_title": "Peace of Mind",
+            "block_text": "Wearable blankets for babies from 14-42 lbs so they stay cozy and safer while they sleep. ",
+            "horizontal_position": 26,
+            "vertical_position": 40
+          }
+        },
+        "callout_LeAc9h": {
+          "type": "Callout",
+          "settings": {
             "pin_direction": "top_right",
-            "block_title": "Benefit",
-            "block_text": "Super cool feature!",
-            "horizontal_position": 18,
-            "vertical_position": 80
+            "block_title": "Grows with baby",
+            "block_text": "Extra length to accommodate your little one’s growth. <em>For safety, do not size up. Collar should never be able to cover baby’s airways.</em>",
+            "horizontal_position": 20,
+            "vertical_position": 64
+          }
+        },
+        "callout_4F3HYU": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_left",
+            "block_title": "Seasonally Appropriate",
+            "block_text": "3 different TOG choices so you can choose based on climate and preferences of your home & nursery.",
+            "horizontal_position": 26,
+            "vertical_position": 88
           }
         }
       },
       "block_order": [
         "callout_7fV3cD",
-        "callout_BxjKGh"
+        "callout_BxjKGh",
+        "callout_LeAc9h",
+        "callout_4F3HYU"
       ],
-      "disabled": true,
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
-        "text": "Lorem ipsum dolor sit amet consectetur",
-        "image": "shopify://shop_images/SummerZip.jpg",
+        "text": "Discover the ultimate bedtime comfort with our perfectly crafted Sleep Sacks.",
+        "image": "shopify://shop_images/SleepSack.jpg",
         "padding_top": 100,
         "padding_bottom": 100
       }
@@ -331,7 +363,7 @@
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
-        "show_rating": true,
+        "show_rating": false,
         "columns_mobile": "1",
         "padding_top": 100,
         "padding_bottom": 100
