@@ -15,9 +15,61 @@
         "padding_top": 48,
         "padding_bottom": 0
       }
+    },
+    "blo_collection_pills_VMH447": {
+      "type": "blo-collection-pills",
+      "blocks": {
+        "link_DNGCM7": {
+          "type": "link",
+          "settings": {
+            "text": "All",
+            "linkurl": "https://bravelittleones.com/pages/shop-by-all"
+          }
+        },
+        "link_h79bAB": {
+          "type": "link",
+          "settings": {
+            "text": "Prints",
+            "linkurl": "https://bravelittleones.com/pages/shop-by-print"
+          }
+        },
+        "link_JHHzHq": {
+          "type": "link",
+          "settings": {
+            "text": "Small Ribbed",
+            "linkurl": "https://bravelittleones.com/pages/shop-by-small-ribbed"
+          }
+        },
+        "link_niEDKf": {
+          "type": "link",
+          "settings": {
+            "text": "Big Ribbed",
+            "linkurl": "https://admin.shopify.com/store/brave-little-ones/themes/135792525481/editor?previewPath=%2Fpages%2Fshop-by-big-ribbed&block=template--16745274048681__2a3e9bc6-a5e4-40d4-b666-39cc238316a9__03ecd29c-d5c4-40d6-9f2a-f7822945ac95&section=template--16745274048681__2a3e9bc6-a5e4-40d4-b666-39cc238316a9"
+          }
+        }
+      },
+      "block_order": [
+        "link_DNGCM7",
+        "link_h79bAB",
+        "link_JHHzHq",
+        "link_niEDKf"
+      ],
+      "settings": {
+      }
+    },
+    "custom_liquid_VJHQBj": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width blo-collection-list\">\n  {%- paginate collections by 100 -%}\n    <ul\n      class=\"collection-list grid grid--4-col-desktop grid--2-col-tablet-down\"\n      role=\"list\"\n    >\n      {%- for collection in collections -%}\n\n          {% if collection.template_suffix == \"shop-by-big-ribbed\"  %} \n            <li\n            class=\"collection-list__item grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}\"\n            {% if settings.animations_reveal_on_scroll %}\n              data-cascade\n              style=\"--animation-order: {{ forloop.index }};\"\n            {% endif %}\n          >\n\n\n          \n            <a\n              {% if collection == blank %}\n                role=\"link\" aria-disabled=\"true\"\n              {% else %}\n                href=\"{{ collection.url }}\"\n              {% endif %}\n              class=\"blo-style-collection-tile\"\n            >\n            {%- if collection.featured_image -%}\n              <img\n                class=\"blo-style-collection-image\"\n                srcset=\"\n                  {%- if collection.featured_image.width >= 165 -%}{{ collection.featured_image | image_url: width: 165 }} 165w,{%- endif -%}\n                  {%- if collection.featured_image.width >= 330 -%}{{ collection.featured_image | image_url: width: 330 }} 330w,{%- endif -%}\n                  {%- if collection.featured_image.width >= 535 -%}{{ collection.featured_image | image_url: width: 535 }} 535w,{%- endif -%}\n                  {%- if collection.featured_image.width >= 750 -%}{{ collection.featured_image | image_url: width: 750 }} 750w,{%- endif -%}\n                  {%- if collection.featured_image.width >= 1000 -%}{{ collection.featured_image | image_url: width: 1000 }} 1000w,{%- endif -%}\n                  {%- if collection.featured_image.width >= 1500 -%}{{ collection.featured_image | image_url: width: 1500 }} 1500w,{%- endif -%}\n                  {%- if collection.featured_image.width >= 3000 -%}{{ collection.featured_image | image_url: width: 3000 }} 3000w,{%- endif -%}\n                  {{ collection.featured_image | image_url }} {{ collection.featured_image.width }}w\n                \"\n                src=\"{{ collection.featured_image | image_url: width: 1500 }}\"\n                sizes=\"\n                  (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: columns }}px,\n                  (min-width: 750px) {% if columns > 1 %}calc((100vw - 10rem) / 2){% else %}calc(100vw - 10rem){% endif %},\n                  calc(100vw - 3rem)\n                \"\n                alt=\"\"\n                height=\"{{ collection.featured_image.height }}\"\n                width=\"{{ collection.featured_image.width }}\"\n                loading=\"lazy\"\n                \n              >\n            {%- endif -%}\n              {%- if collection.title != blank -%}\n                <h6>{{- collection.title | escape -}}</h6>\n                \n              {%- else -%}\n                {{ 'onboarding.collection_title' | t }}\n              {%- endif -%}\n            </a>\n \n          </li>\n          {% else %}\n          {% endif %}     \n        \n      {%- endfor -%}\n    </ul>\n    {% render 'pagination', paginate: paginate %}\n  {%- endpaginate -%}\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "blo_collection_pills_VMH447",
+    "custom_liquid_VJHQBj"
   ]
 }
