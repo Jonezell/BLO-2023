@@ -180,7 +180,7 @@
             "block_title": "Functional Drawstring",
             "block_text": "Our Joggers feature a functional, easy to use knotted drawstring to make getting dressed easy for you and your little ones!",
             "horizontal_position": 34,
-            "vertical_position": 14
+            "vertical_position": 16
           }
         },
         "callout_BxjKGh": {
@@ -190,7 +190,7 @@
             "block_title": "Buttery Soft Bamboo",
             "block_text": "Gentle enough for your little ones and durable enough for your older kids, our luxurious and buttery-soft bamboo french terry will keep your little ones comfortable and stylish day and night.",
             "horizontal_position": 22,
-            "vertical_position": 80
+            "vertical_position": 82
           }
         }
       },
@@ -201,9 +201,9 @@
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
         "text": "Discover the ultimate daytime comfort with our perfectly crafted Joggers.",
-        "image": "shopify://shop_images/Jogger_2ff0faf8-1059-47c6-9f96-005d6e6c8bd8.jpg",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "image": "shopify://shop_images/Jogger_a1a44d51-5ded-4f00-8883-0615b1135ce6.jpg",
+        "padding_top": 200,
+        "padding_bottom": 200
       }
     },
     "blo_faq_7gVA7y": {
