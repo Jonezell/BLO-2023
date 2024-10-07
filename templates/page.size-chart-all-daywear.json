@@ -95,8 +95,8 @@
         "page": "size-chart-shirts-tanks",
         "heading_size": "h2",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "page_jwkMGb": {
@@ -105,22 +105,24 @@
         "page": "size-chart-dresses",
         "heading_size": "h2",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "page_rYXTNA": {
       "type": "page",
+      "disabled": true,
       "settings": {
         "page": "size-chart-trunks",
         "heading_size": "h2",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "page_hhYq3K": {
       "type": "page",
+      "disabled": true,
       "settings": {
         "page": "size-chart-rash-guards",
         "heading_size": "h2",
@@ -135,8 +137,8 @@
         "page": "size-chart-pullovers",
         "heading_size": "h2",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "page_rcDRDX": {
@@ -145,8 +147,8 @@
         "page": "size-chart-fleece-hoodies",
         "heading_size": "h2",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "page_n6z3wz": {
@@ -155,8 +157,8 @@
         "page": "copy-of-size-chart-joggers",
         "heading_size": "h2",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "page_rrkXfF": {
@@ -165,8 +167,8 @@
         "page": "size-chart-puffer-jackets",
         "heading_size": "h2",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "page_3nc37i": {
@@ -175,8 +177,8 @@
         "page": "size-chart-briefs",
         "heading_size": "h2",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "page_jzYiGd": {
@@ -185,8 +187,8 @@
         "page": "size-chart-girl-underwear",
         "heading_size": "h2",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     }
   },
