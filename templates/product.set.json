@@ -126,12 +126,6 @@
             "image_ratio": "square",
             "enable_quick_add": true
           }
-        },
-        "share_9nQKeq": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
@@ -149,8 +143,7 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-3",
-        "complementary_D6JVEg",
-        "share_9nQKeq"
+        "complementary_D6JVEg"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -226,7 +219,7 @@
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
         "text": "Discover the ultimate bedtime comfort with our perfectly crafted PJs.",
-        "image": "shopify://shop_images/Camel-Small-Ribbed-2-Piece-Set-2.jpg",
+        "image": "shopify://shop_images/Set.jpg",
         "padding_top": 100,
         "padding_bottom": 100
       }
