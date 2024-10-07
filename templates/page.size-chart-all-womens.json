@@ -67,8 +67,15 @@
         "link_HnCYmQ": {
           "type": "link",
           "settings": {
-            "text": "Men's & Women's",
+            "text": "Women's",
             "linkurl": "shopify://pages/size-charts-all-womens"
+          }
+        },
+        "link_krCezb": {
+          "type": "link",
+          "settings": {
+            "text": "Men's",
+            "linkurl": "shopify://pages/size-charts-all-mens"
           }
         },
         "link_jxYc4g": {
@@ -84,6 +91,7 @@
         "link_LQCP77",
         "link_CTbQVH",
         "link_HnCYmQ",
+        "link_krCezb",
         "link_jxYc4g"
       ],
       "settings": {
@@ -95,8 +103,8 @@
         "page": "size-chart-womens",
         "heading_size": "h2",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "page_i8xmYf": {
@@ -105,28 +113,8 @@
         "page": "size-chart-womens-shorts-set",
         "heading_size": "h2",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "page_BJwB7T": {
-      "type": "page",
-      "settings": {
-        "page": "working-on-size-chart-mens-shirts",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "page_JhHdac": {
-      "type": "page",
-      "settings": {
-        "page": "size-chart-mens-pants",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     }
   },
@@ -135,8 +123,6 @@
     "rich_text_wMEbN7",
     "blo_collection_pills_thJ4Hy",
     "page_L8RzYA",
-    "page_i8xmYf",
-    "page_BJwB7T",
-    "page_JhHdac"
+    "page_i8xmYf"
   ]
 }
