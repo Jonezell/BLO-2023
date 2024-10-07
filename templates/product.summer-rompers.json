@@ -30,9 +30,9 @@
         "produdct_as_variants_CXULYg": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Options",
+            "label": "Style",
             "style": "image",
-            "target_collection": "",
+            "target_collection": "summer-zip-rompers",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
@@ -53,7 +53,7 @@
         "custom_low_stock_JTRiRj": {
           "type": "custom-low-stock",
           "settings": {
-            "inventory_threshold": 20,
+            "inventory_threshold": 15,
             "show_inventory_quantity": false
           }
         },
@@ -98,17 +98,15 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Sizing",
             "icon": "ruler",
             "content": "",
-            "page": "size-chart-two-piece-set"
+            "page": "size-chart-summer-zip-rompers"
           }
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Care Instructions",
             "icon": "washing",
@@ -116,9 +114,21 @@
             "page": ""
           }
         },
+        "complementary_Gn7JaM": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": true,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
+        },
         "share": {
           "type": "share",
-          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
@@ -139,6 +149,7 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-3",
+        "complementary_Gn7JaM",
         "share"
       ],
       "settings": {
@@ -154,7 +165,7 @@
         "hide_variants": true,
         "enable_video_looping": true,
         "padding_top": 36,
-        "padding_bottom": 100
+        "padding_bottom": 12
       }
     },
     "172791928687cb93f7": {
@@ -173,7 +184,7 @@
         "section {background-color: var(--blo-terra);}"
       ],
       "settings": {
-        "include_margins": true
+        "include_margins": false
       }
     },
     "blo_product_callouts_qHXD4R": {
@@ -183,20 +194,20 @@
           "type": "Callout",
           "settings": {
             "pin_direction": "top_right",
-            "block_title": "Benefit 2",
-            "block_text": "Feature Text",
-            "horizontal_position": 50,
-            "vertical_position": 28
+            "block_title": "Tagless Label",
+            "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
+            "horizontal_position": 44,
+            "vertical_position": 10
           }
         },
         "callout_BxjKGh": {
           "type": "Callout",
           "settings": {
             "pin_direction": "top_right",
-            "block_title": "Benefit",
-            "block_text": "Super cool feature!",
-            "horizontal_position": 18,
-            "vertical_position": 80
+            "block_title": "Zipper",
+            "block_text": "We know how tricky diaper changes can be, so we wanted to help. All of our summer rompers have a zipper to make those middle of the night or on-the-go diaper changes quick and easy!",
+            "horizontal_position": 50,
+            "vertical_position": 50
           }
         }
       },
@@ -204,63 +215,23 @@
         "callout_7fV3cD",
         "callout_BxjKGh"
       ],
-      "disabled": true,
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
-        "text": "Lorem ipsum dolor sit amet consectetur",
+        "text": "Discover the ultimate bedtime comfort with our perfectly crafted PJs.",
         "image": "shopify://shop_images/SummerZip.jpg",
         "padding_top": 100,
         "padding_bottom": 100
       }
     },
-    "blo_faq_7gVA7y": {
-      "type": "blo-faq",
-      "blocks": {
-        "collapsible_tab_D3dTnA": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping",
-            "icon": "truck",
-            "content": "<p>We typically ship orders within 1-4 business days, however during times of high order volume please allow up to 7 business days. We don’t ship on weekends.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_CYJxHw": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Returns",
-            "icon": "return",
-            "content": "<p>We allow exchanges within 30 days. All items applicable for exchange must be unwashed, unworn and in original condition with original packaging and tags. A store credit for the item amount will be issued within 3 days after return is received. $6.99 will be deducted from your store credit for the return shipping label. Please use a poly mailer or bubble envelope to return items. Additional fees may apply for returning items in large boxes. Initial shipping costs are not eligible for refund.<br/><br/><a href=\"https://brave-little-ones.happyreturns.com/\" target=\"_blank\" title=\"Start a Return\">Start a Return</a></p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_pmXUGa": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Package Protection",
-            "icon": "box",
-            "content": "<p>Our Brave Little Ones Package Protection guarantees delivery on all orders placed within the United States.</p><p><strong>Our Guarantee</strong></p><p>Brave Little Ones Package Protection offers you peace of mind and package protection for all of your orders. If you add insurance, your package is fully protected in the event that it is lost, damaged, or stolen. <a href=\"https://bravelittleones.com/pages/faqs\" target=\"_blank\" title=\"https://bravelittleones.com/pages/faqs\">Read more here.</a></p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_tab_D3dTnA",
-        "collapsible_tab_CYJxHw",
-        "collapsible_tab_pmXUGa"
-      ],
-      "settings": {
-        "background_color": "#c27d4c",
-        "mainHeading": "Have A Question? We Have The Answer.",
-        "mainText": "",
-        "layout": "image_first",
-        "padding_top": 200,
-        "padding_bottom": 200
-      }
-    },
     "blo_fabric_3BAiXt": {
       "type": "blo-fabric",
       "blocks": {
+        "badge_xCWVYn": {
+          "type": "badge",
+          "settings": {
+            "badge": "Our Fabric"
+          }
+        },
         "heading_Jzz8Nx": {
           "type": "heading",
           "settings": {
@@ -306,6 +277,7 @@
         }
       },
       "block_order": [
+        "badge_xCWVYn",
         "heading_Jzz8Nx",
         "text_8Utc6r",
         "text_4C4EtG",
@@ -314,9 +286,53 @@
         "text_DPLYYX",
         "buttons_rDdkEK"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/Rust_Fabric_986d7f51-ce81-4388-8098-4392998abf81.jpg"
+        "image": "shopify://shop_images/Camel-Small-Ribbed-7_980c7420-df31-4508-b3f0-70d4d3e8eae3.jpg"
+      }
+    },
+    "blo_faq_7gVA7y": {
+      "type": "blo-faq",
+      "blocks": {
+        "collapsible_tab_D3dTnA": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "icon": "truck",
+            "content": "<p>We typically ship orders within 1-4 business days, however during times of high order volume please allow up to 7 business days. We don’t ship on weekends.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_CYJxHw": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Returns",
+            "icon": "return",
+            "content": "<p>We allow exchanges within 30 days. All items applicable for exchange must be unwashed, unworn and in original condition with original packaging and tags. A store credit for the item amount will be issued within 3 days after return is received. $6.99 will be deducted from your store credit for the return shipping label. Please use a poly mailer or bubble envelope to return items. Additional fees may apply for returning items in large boxes. Initial shipping costs are not eligible for refund.<br/><br/><a href=\"https://brave-little-ones.happyreturns.com/\" target=\"_blank\" title=\"Start a Return\">Start a Return</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_pmXUGa": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Package Protection",
+            "icon": "box",
+            "content": "<p>Our Brave Little Ones Package Protection guarantees delivery on all orders placed within the United States.</p><p><strong>Our Guarantee</strong></p><p>Brave Little Ones Package Protection offers you peace of mind and package protection for all of your orders. If you add insurance, your package is fully protected in the event that it is lost, damaged, or stolen. <a href=\"https://bravelittleones.com/pages/faqs\" target=\"_blank\" title=\"https://bravelittleones.com/pages/faqs\">Read more here.</a></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_D3dTnA",
+        "collapsible_tab_CYJxHw",
+        "collapsible_tab_pmXUGa"
+      ],
+      "settings": {
+        "background_color": "#c27d4c",
+        "mainHeading": "Have A Question? We Have The Answer.",
+        "mainText": "",
+        "layout": "image_first",
+        "padding_top": 200,
+        "padding_bottom": 0
       }
     },
     "related-products": {
@@ -331,7 +347,7 @@
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
-        "show_rating": true,
+        "show_rating": false,
         "columns_mobile": "1",
         "padding_top": 100,
         "padding_bottom": 100
@@ -342,8 +358,8 @@
     "main",
     "172791928687cb93f7",
     "blo_product_callouts_qHXD4R",
-    "blo_faq_7gVA7y",
     "blo_fabric_3BAiXt",
+    "blo_faq_7gVA7y",
     "related-products"
   ]
 }
