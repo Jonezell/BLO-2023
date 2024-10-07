@@ -19,13 +19,6 @@
     "rich_text_kLdrmk": {
       "type": "rich-text",
       "blocks": {
-        "heading_KwR78y": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h2"
-          }
-        },
         "text_xX8ggD": {
           "type": "text",
           "settings": {
@@ -45,7 +38,6 @@
         }
       },
       "block_order": [
-        "heading_KwR78y",
         "text_xX8ggD",
         "button_PTUKkR"
       ],
@@ -61,35 +53,15 @@
     "rich_text_bbGK7r": {
       "type": "rich-text",
       "blocks": {
-        "heading_yELRx9": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
         "text_XHVLJT": {
           "type": "text",
           "settings": {
             "text": "<h6><strong>Want To Apply To Be A Retailer? </strong></h6><p>Are you interested in carrying Brave Little Ones in your shop? Please fill out the application below to apply to become a retailer. If accepted, you will receive an email. Let's do this!</p><p><em>Please note: We are currently NOT selling to online retailers. Please only apply if you have a physical shop.</em></p>"
           }
-        },
-        "button_ymeECh": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
-        "heading_yELRx9",
-        "text_XHVLJT",
-        "button_ymeECh"
+        "text_XHVLJT"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -99,11 +71,21 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "custom_liquid_8PVJ3t": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"NXFcsHxzsDw-4amDhwXpMg\"></div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
     "main",
     "rich_text_kLdrmk",
-    "rich_text_bbGK7r"
+    "rich_text_bbGK7r",
+    "custom_liquid_8PVJ3t"
   ]
 }
