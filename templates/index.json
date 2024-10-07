@@ -187,6 +187,41 @@
             "text": "When you choose our signature bamboo viscose, you are choosing the ultimate comfort for your little ones. It's the easiest choice you'll ever make."
           }
         },
+        "table_row_bfYBr6": {
+          "type": "table-row",
+          "settings": {
+            "text": "Made from buttery soft bamboo viscose. Our luxurious material keeps your little one cozy, day and night.",
+            "show-checkmark": true
+          }
+        },
+        "table_row_ki4KDA": {
+          "type": "table-row",
+          "settings": {
+            "text": "Our pjs offer the gentlest touch to your little ones skin, limiting irritation for sensitive skin.",
+            "show-checkmark": true
+          }
+        },
+        "table_row_LLWELY": {
+          "type": "table-row",
+          "settings": {
+            "text": "Temperature regulating keeping your little one cool in summer and warm in winter.",
+            "show-checkmark": true
+          }
+        },
+        "table_row_hAg8bA": {
+          "type": "table-row",
+          "settings": {
+            "text": "Never treated with flame retardants or harsh chemicals.",
+            "show-checkmark": true
+          }
+        },
+        "table_row_7tzjFQ": {
+          "type": "table-row",
+          "settings": {
+            "text": "Our bamboo viscose fabric is Oeko-Tex® Standard 100 certified and has been rigorously tested against hundreds of toxic chemicals.",
+            "show-checkmark": true
+          }
+        },
         "buttons_33KPBm": {
           "type": "buttons",
           "settings": {
@@ -198,6 +233,11 @@
       "block_order": [
         "heading_gWEEqL",
         "text_U78aeU",
+        "table_row_bfYBr6",
+        "table_row_ki4KDA",
+        "table_row_LLWELY",
+        "table_row_hAg8bA",
+        "table_row_7tzjFQ",
         "buttons_33KPBm"
       ],
       "settings": {
