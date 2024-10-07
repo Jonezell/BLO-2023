@@ -195,6 +195,51 @@
         "padding_top": 0,
         "padding_bottom": 100
       }
+    },
+    "blo_faq_AqV3hw": {
+      "type": "blo-faq",
+      "blocks": {
+        "collapsible_tab_ynt6L6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Size Chart",
+            "icon": "none",
+            "content": "<p>Need sizing help? <a href=\"https://bravelittleones.com/pages/size-chart\" title=\"Size Chart\">See our size chart here</a>. </p><p><em>Our zip rompers fit true to size. It is recommended to size up one size in two-piece sets for longer wear.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_WrtAyn": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How does your product sizing run?",
+            "icon": "none",
+            "content": "<p>Our zip rompers fit true to size. </p><p>It is recommended to size up one size in two-piece sets for longer wear.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_wFLmFe": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What if my little one is in between sizes?",
+            "icon": "none",
+            "content": "<p>If your little one is in-between sizes, we always go by the weight section on our <a href=\"https://bravelittleones.com/pages/size-chart\" title=\"Size Chart\">size chart</a>. </p><p>If you little one is at the end of that weight we recommend sizing up.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_ynt6L6",
+        "collapsible_tab_WrtAyn",
+        "collapsible_tab_wFLmFe"
+      ],
+      "settings": {
+        "background_color": "",
+        "mainHeading": "Sizing Help",
+        "mainText": "",
+        "layout": "image_first",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
@@ -202,6 +247,7 @@
     "blo_faq_E8UNYw",
     "blo_faq_NMVikd",
     "blo_faq_4DJh4E",
-    "blo_faq_rT7ygy"
+    "blo_faq_rT7ygy",
+    "blo_faq_AqV3hw"
   ]
 }
