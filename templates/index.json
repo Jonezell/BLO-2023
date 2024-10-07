@@ -441,7 +441,7 @@
           "type": "buttons",
           "settings": {
             "button_label": "Learn More",
-            "button_link": "shopify://pages/about-us"
+            "button_link": "shopify://pages/about-us-new"
           }
         }
       },
