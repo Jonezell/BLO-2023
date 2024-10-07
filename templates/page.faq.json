@@ -31,9 +31,9 @@
         "collapsible_tab_9FewGE": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
+            "heading": "How can I track my order?",
+            "icon": "none",
+            "content": "<p>You can easily track your order from the link in your order confirmation email or by logging into Brave Little Ones <a href=\"https://account.bravelittleones.com/\" target=\"_blank\"><span style=\"text-decoration:underline\">account</span></a><a href=\"https://account.bravelittleones.com/\"><span style=\"text-decoration:underline\">.</span></a></p>",
             "page": ""
           }
         },
