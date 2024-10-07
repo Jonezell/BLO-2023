@@ -32,7 +32,7 @@
           "type": "produdct-as-variants",
           "settings": {
             "label": "Style",
-            "style": "image",
+            "style": "swatch",
             "target_collection": "shorts-two-piece-set",
             "swatch_offset_Y": 40,
             "swatch_offset_X": 45,
