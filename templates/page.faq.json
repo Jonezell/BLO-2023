@@ -13,11 +13,57 @@
       "type": "main-page",
       "settings": {
         "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "blo_faq_E8UNYw": {
+      "type": "blo-faq",
+      "blocks": {
+        "collapsible_tab_9wxLFp": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_9FewGE": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_E8Mfkq": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_9wxLFp",
+        "collapsible_tab_9FewGE",
+        "collapsible_tab_E8Mfkq"
+      ],
+      "settings": {
+        "background_color": "",
+        "mainHeading": "U.S. Shipping Policy",
+        "mainText": "<p>We offer FREE Standard Shipping on all United States orders over $40.</p>",
+        "layout": "image_first",
+        "padding_top": 0,
         "padding_bottom": 100
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "blo_faq_E8UNYw"
   ]
 }
