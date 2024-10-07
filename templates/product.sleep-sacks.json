@@ -290,67 +290,6 @@
         "padding_bottom": 200
       }
     },
-    "blo_fabric_3BAiXt": {
-      "type": "blo-fabric",
-      "blocks": {
-        "heading_Jzz8Nx": {
-          "type": "heading",
-          "settings": {
-            "heading": "Say Hello To Pjs Your Littles Will Want To Live In."
-          }
-        },
-        "text_8Utc6r": {
-          "type": "text",
-          "settings": {
-            "text": "Made from buttery soft bamboo viscose. Our luxurious material keeps your little one cozy, day and night."
-          }
-        },
-        "text_4C4EtG": {
-          "type": "text",
-          "settings": {
-            "text": "Our pjs offer the gentlest touch to your little ones skin, limiting irritation for sensitive skin."
-          }
-        },
-        "text_kEFwFx": {
-          "type": "text",
-          "settings": {
-            "text": "Temperature regulating keeping your little one cool in summer and warm in winter."
-          }
-        },
-        "text_BtnKJ3": {
-          "type": "text",
-          "settings": {
-            "text": "Our snug-fitting cozy pajamas are CPSC compliant and never treated with flame-retardants or chemicals."
-          }
-        },
-        "text_DPLYYX": {
-          "type": "text",
-          "settings": {
-            "text": "Our bamboo viscose fabric is Oeko-Tex® Standard 100 certified and has been rigorously tested against hundreds of toxic chemicals."
-          }
-        },
-        "buttons_rDdkEK": {
-          "type": "buttons",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "shopify://blogs/blog/why-we-fell-in-love-with-bamboo"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Jzz8Nx",
-        "text_8Utc6r",
-        "text_4C4EtG",
-        "text_kEFwFx",
-        "text_BtnKJ3",
-        "text_DPLYYX",
-        "buttons_rDdkEK"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/Rust_Fabric_986d7f51-ce81-4388-8098-4392998abf81.jpg"
-      }
-    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -375,7 +314,6 @@
     "172791928687cb93f7",
     "blo_product_callouts_qHXD4R",
     "blo_faq_7gVA7y",
-    "blo_fabric_3BAiXt",
     "related-products"
   ]
 }
