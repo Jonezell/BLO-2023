@@ -1,0 +1,120 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "blo_collection_pills_ytP4Gk": {
+      "type": "blo-collection-pills",
+      "blocks": {
+        "link_mf33wC": {
+          "type": "link",
+          "settings": {
+            "text": "All",
+            "linkurl": "shopify://collections/shop-all"
+          }
+        },
+        "link_Ar3png": {
+          "type": "link",
+          "settings": {
+            "text": "PJs",
+            "linkurl": "shopify://collections/shop-all-pjs"
+          }
+        },
+        "link_iYnxaU": {
+          "type": "link",
+          "settings": {
+            "text": "Daywear",
+            "linkurl": "shopify://collections/daywear"
+          }
+        },
+        "link_X6btXJ": {
+          "type": "link",
+          "settings": {
+            "text": "Blankets & Sheets",
+            "linkurl": "shopify://collections/bedding"
+          }
+        },
+        "link_FxV6x8": {
+          "type": "link",
+          "settings": {
+            "text": "Women's",
+            "linkurl": "shopify://collections/womens"
+          }
+        },
+        "link_YVprjC": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "text": "Men's",
+            "linkurl": "shopify://collections/shop-all-mens"
+          }
+        },
+        "link_XzFhNP": {
+          "type": "link",
+          "settings": {
+            "text": "Accessories",
+            "linkurl": "shopify://collections/accessories"
+          }
+        },
+        "link_PL8BaE": {
+          "type": "link",
+          "settings": {
+            "text": "Sleep Sacks",
+            "linkurl": "shopify://collections/sleep-sacks"
+          }
+        }
+      },
+      "block_order": [
+        "link_mf33wC",
+        "link_Ar3png",
+        "link_iYnxaU",
+        "link_X6btXJ",
+        "link_FxV6x8",
+        "link_YVprjC",
+        "link_XzFhNP",
+        "link_PL8BaE"
+      ],
+      "settings": {
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 36,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "standard",
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "columns_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "blo_collection_pills_ytP4Gk",
+    "product-grid"
+  ]
+}
