@@ -43,6 +43,8 @@
         "video": "shopify://files/videos/bravevideofw24-102.mp4",
         "image-secondary": "shopify://shop_images/image-secondary_252e7ba0-4dad-4a03-9777-8328beb3ebf0.jpg",
         "show_decoration": true,
+        "color-decoration-top": "#9e2a2e",
+        "color-decoration-bottom": "#b7a586",
         "image-background-mobile": "shopify://shop_images/banner-background-mobile_b3ee00c4-f98e-4de3-8b8e-ff2c8c8b0872.svg",
         "background_image_mobile_pin": "bottom right",
         "image-background-desktop": "shopify://shop_images/banner-background-desktop_9382f8ff-f0a3-4c37-acdc-849c18ad7dd6.svg",
