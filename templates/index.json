@@ -37,6 +37,7 @@
         "text_PzWAp3",
         "buttons_MynyUL"
       ],
+      "disabled": true,
       "settings": {
         "layout-direction": "layout-left",
         "media-type": "video",
@@ -91,7 +92,6 @@
         "text_kTQFjh",
         "buttons_ccThbN"
       ],
-      "disabled": true,
       "settings": {
         "media-type": "video",
         "show_side-gradient": true,
