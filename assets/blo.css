@@ -650,6 +650,9 @@ body .menu-drawer .menu-drawer__close-button {
 body .announcement-bar__message {
   padding: 1.1rem 0 .9rem 0;
 }
+.utility-bar {
+  overflow: hidden;
+}
 .announcement-bar-section .utility-bar__grid.page-width {
   padding-left: 1rem;
   padding-right: 1rem;
