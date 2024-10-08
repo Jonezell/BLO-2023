@@ -796,6 +796,19 @@ body .menu-drawer .menu-drawer__close-button {
   .section.blo-collection-pills {
     margin-bottom: 0;
   }
+  .mobile-facets__label {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .mobile-facets__label > svg:not(.icon) {
+    margin-top: 4px;
+  }
+  .mobile-facets__label svg.icon-checkmark {
+    top: 22px;
+  }
+  .mobile-facets__sort .select .icon-caret {
+    margin-top: 9px;
+  }
   
 }
 
