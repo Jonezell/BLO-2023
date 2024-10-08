@@ -9,6 +9,49 @@
 */
 {
   "sections": {
+    "blo_banner_release_WUUPWU": {
+      "type": "blo-banner-release",
+      "blocks": {
+        "heading_VEMW9H": {
+          "type": "heading",
+          "settings": {
+            "heading": "Say hello to our first Christmas Collection!"
+          }
+        },
+        "text_PzWAp3": {
+          "type": "text",
+          "settings": {
+            "text": "NEW Santa Small Ribbed just landed. Plus snag one of our popular comeback prints: Cookies & Milk, Deer Tree Farm, and Red Stripe! And for the first time ever we are offering men’s pants & shirts.  Save 20% off the entire collection until midnight tonight with code ‘Santa’."
+          }
+        },
+        "buttons_MynyUL": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Shop New Release",
+            "button_link": "https://bravelittleones.com/discount/Santa?redirect=%2Fcollections%2Fsanta-cookies-milk-red-stripe-and-deer-tree-farm-release"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VEMW9H",
+        "text_PzWAp3",
+        "buttons_MynyUL"
+      ],
+      "settings": {
+        "layout-direction": "layout-left",
+        "media-type": "video",
+        "video": "shopify://files/videos/bravevideofw24-102.mp4",
+        "image-secondary": "shopify://shop_images/image-secondary_252e7ba0-4dad-4a03-9777-8328beb3ebf0.jpg",
+        "show_decoration": true,
+        "image-background-mobile": "shopify://shop_images/banner-background-mobile_c8953b46-ffc0-42ea-be7e-b2a51850bd20.svg",
+        "image-background-desktiop": "shopify://shop_images/banner-background-desktop_0bed9f87-7da9-4601-96ee-45285fb10111.svg",
+        "color-background": "#285448",
+        "color-text": "#f5f4e5",
+        "color-badge": "#CE7941",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "blo_banner_9z7Ute": {
       "type": "blo-banner",
       "blocks": {
@@ -44,6 +87,7 @@
         "text_kTQFjh",
         "buttons_ccThbN"
       ],
+      "disabled": true,
       "settings": {
         "media-type": "video",
         "show_side-gradient": true,
@@ -461,6 +505,7 @@
     }
   },
   "order": [
+    "blo_banner_release_WUUPWU",
     "blo_banner_9z7Ute",
     "blo_scrolling_benefits_afMweU",
     "blo_toggle_collections_bV6gT7",
