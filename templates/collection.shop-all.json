@@ -48,18 +48,19 @@
             "linkurl": "shopify://collections/bedding"
           }
         },
-        "link_PL8BaE": {
-          "type": "link",
-          "settings": {
-            "text": "Sleep Sacks",
-            "linkurl": "shopify://collections/sleep-sacks"
-          }
-        },
         "link_FxV6x8": {
           "type": "link",
           "settings": {
             "text": "Women's",
             "linkurl": "shopify://collections/womens"
+          }
+        },
+        "link_YVprjC": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "text": "Men's",
+            "linkurl": "shopify://collections/shop-all-mens"
           }
         },
         "link_XzFhNP": {
@@ -68,6 +69,13 @@
             "text": "Accessories",
             "linkurl": "shopify://collections/accessories"
           }
+        },
+        "link_PL8BaE": {
+          "type": "link",
+          "settings": {
+            "text": "Sleep Sacks",
+            "linkurl": "shopify://collections/sleep-sacks"
+          }
         }
       },
       "block_order": [
@@ -75,9 +83,10 @@
         "link_Ar3png",
         "link_iYnxaU",
         "link_X6btXJ",
-        "link_PL8BaE",
         "link_FxV6x8",
-        "link_XzFhNP"
+        "link_YVprjC",
+        "link_XzFhNP",
+        "link_PL8BaE"
       ],
       "settings": {
       }
