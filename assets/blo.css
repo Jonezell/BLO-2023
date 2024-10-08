@@ -646,6 +646,21 @@ body .menu-drawer .menu-drawer__close-button {
 
 
 
+/* Announcement  Bar Styles */
+body .announcement-bar__message {
+  padding: 1.1rem 0 .9rem 0;
+}
+.announcement-bar-section .utility-bar__grid.page-width {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media screen and (min-width: 990px) {
+  body:has(.section-header .header:not(.drawer-menu)) .announcement-bar-section .utility-bar .page-width {
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+  }
+}
+
 
 /* ---------------------------------------- BLO - CUSTOM COLLECTION STYLES ---------------------------------------- */
 .collection-hero .collection-hero__title {
