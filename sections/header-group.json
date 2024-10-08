@@ -14,25 +14,24 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_zPQ3jf": {
+          "type": "announcement",
+          "settings": {
+            "text": "Save 20% off christmas release with code 'Santa'",
+            "link": "https://bravelittleones.com/discount/Santa?redirect=%2Fcollections%2Fsanta-cookies-milk-red-stripe-and-deer-tree-farm-release"
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
             "text": "Free Shipping On U.S. Orders Over $40!",
             "link": ""
           }
-        },
-        "announcement_zPQ3jf": {
-          "type": "announcement",
-          "disabled": true,
-          "settings": {
-            "text": "Save 20% off new release with code 'Sale'",
-            "link": "shopify://collections/new"
-          }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "announcement_zPQ3jf"
+        "announcement_zPQ3jf",
+        "announcement-bar-0"
       ],
       "settings": {
         "color_scheme": "",
