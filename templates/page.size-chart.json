@@ -67,8 +67,15 @@
         "link_HwhWkj": {
           "type": "link",
           "settings": {
-            "text": "Men's & Women's",
+            "text": "Women's",
             "linkurl": "shopify://pages/size-charts-all-womens"
+          }
+        },
+        "link_BiMxPN": {
+          "type": "link",
+          "settings": {
+            "text": "Men's",
+            "linkurl": "shopify://pages/size-charts-all-mens"
           }
         },
         "link_Gkzwx9": {
@@ -84,6 +91,7 @@
         "link_xKm9ed",
         "link_xNwfmP",
         "link_HwhWkj",
+        "link_BiMxPN",
         "link_Gkzwx9"
       ],
       "settings": {
