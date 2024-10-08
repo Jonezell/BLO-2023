@@ -1213,10 +1213,7 @@ body table tr p{
   margin: 0;
 }
 body table tr strong{
-  font-family: 'GothamRounded-Medium' !important;
-  font-style: normal !important;
-  font-weight: normal !important;
-  -webkit-font-smoothing: antialiased;
+  font-weight: 700 !important;
 }
 body table:not([class]) tr td, 
 body table:not([class]) tr th {
