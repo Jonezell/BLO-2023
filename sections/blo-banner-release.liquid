@@ -75,12 +75,12 @@
             </div>
           </div>
         {%- when 'heading' -%}
-          <h2
+          <h1
             class="blo-banner-title inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
             {{ block.shopify_attributes }}
           >
             {{ block.settings.heading }}
-          </h2>
+          </h1>
         {%- when 'text' -%}
           <div
             class="blo-banner-text rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
@@ -129,142 +129,169 @@
 </div>
 
 {% style %}
-  .blo-banner-release {
-    overflow: hidden;
-  }
-    .blo-banner-release-container {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 150px;
+    .blo-banner-release {
+      overflow: hidden;
+      background-color: {{ section.settings.color-background }};
     }
-    .blo-banner-release-container.blo-image-on-right {
-        flex-direction: row-reverse;
-    }
-    .blo-banner-release-media {
-        width: 50%;
-        position: relative;
-        font-size: 0;
-    }
-    .blo-banner-release-media img,
-    .blo-banner-release-media video {
-        border-radius: var(--blo-corner-radius);
-        width: 100%;
-        height: auto;
-    }
-    .blo-banner-release-media.has-secondary{
-      padding-right: 120px;
-      padding-bottom: 60px;
-    }
-    .blo-banner-release-media-primary {
-      position: relative;
-    }
-    .blo-banner-release-media.has-secondary .blo-banner-release-media-secondary {
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      width: 190px;
-    }
-    .blo-banner-release-media-secondary {
-      box-shadow: var(--blo-shadow);
-    }
-    .blo-banner-release-decoration-top {
-      position: absolute;
-      top: -102px;
-      right: -160px;
-    }
-    .blo-banner-release-decoration-bottom {
-      position: absolute;
-      bottom: -112px;
-      left: -140px;
-    }
-    .blo-banner-release-text {
-      display: flex;
-      flex-direction: column;
-      gap:10px;
-      width: 50%;
-    }
-    .blo-banner-release-text .button {
-        margin-top: 20px;
-        color: {{section.settings.text_color}};
-        border-color: {{section.settings.text_color}};
-        color: var(--blo-pine);
-        --color-secondary-button-text: 51, 83, 72;
-    }
-    .blo-banner-release-text h2,
-    .blo-banner-release-text p {
-      margin-bottom: 0px;
-      color: {{section.settings.text_color}};
-    }
-    .blo-banner-release-row {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 10px;
-    }
-    .blo-banner-text + .blo-banner-release-row {
-        margin-top: 40px;
-    }
-    .blo-banner-release-row-content {
-        width: 50%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 5px;
-        padding: 12px 0;
-        color: var(--blo-pine);
-    }
-    .blo-banner-release-row-content svg path {
-        stroke: var(--blo-pine);
-    }
-    .blo-badge {
-      display: inline-block;
-      box-sizing: border-box;
-      padding: 2px 9px 5px;
-      border: 1.9px solid var(--blo-terra,#C27D4C);
-      border-radius: 20px;
-      color: var(--blo-terra,#C27D4C);
-      font-size: 14px;
-      line-height: 130%;
-    }
-
-
-    @media screen and (max-width: 989px) {
-      .blo-banner-release-container,
+      .blo-banner-release-container {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 150px;
+      }
       .blo-banner-release-container.blo-image-on-right {
-          flex-direction: column;
-          gap: 40px;
+          flex-direction: row-reverse;
       }
       .blo-banner-release-media {
-          width: 100%;
+          width: 50%;
+          position: relative;
+          font-size: 0;
       }
-      .blo-banner-release-text {
+      .blo-banner-release-media img,
+      .blo-banner-release-media video {
+          border-radius: var(--blo-corner-radius);
           width: 100%;
+          height: auto;
+      }
+      .blo-banner-release-media.has-secondary{
+        padding-right: 120px;
+        padding-bottom: 60px;
+      }
+      .blo-banner-release-media-primary {
+        position: relative;
+      }
+      .blo-banner-release-media.has-secondary .blo-banner-release-media-secondary {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 190px;
+      }
+      .blo-banner-release-media-secondary {
+        box-shadow: var(--blo-shadow);
       }
       .blo-banner-release-decoration-top {
-        width: 200px;
-        top: -126px;
-        right: -90px;
+        position: absolute;
+        top: -102px;
+        right: -160px;
       }
       .blo-banner-release-decoration-bottom {
-        width: 200px;
-        bottom: -126px;
-        left: -70px;
+        position: absolute;
+        bottom: -112px;
+        left: -140px;
       }
-  }
+      .blo-banner-release-text {
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        width: 50%;
+      }
+      .blo-banner-release-text .button {
+          margin-top: 20px;
+          color: {{section.settings.color-background}};
+          border-color: {{section.settings.color-text}};
+          background-color: {{section.settings.color-text}};
+          box-shadow: none;
+      }
+      .blo-banner-release-text .button:before,
+      .blo-banner-release-text .button:after {
+          box-shadow: none !important;
+      }
+      .blo-banner-release-text h1,
+      .blo-banner-release-text p {
+        margin-bottom: 0px;
+        color: {{section.settings.color-text}};
+      }
+      .blo-banner-release-row {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 10px;
+      }
+      .blo-banner-text + .blo-banner-release-row {
+          margin-top: 40px;
+      }
+      .blo-banner-release-row-content {
+          width: 50%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 5px;
+          padding: 12px 0;
+          color: var(--blo-pine);
+      }
+      .blo-banner-release-row-content svg path {
+          stroke: var(--blo-pine);
+      }
+      .blo-badge {
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 2px 9px 5px;
+        border: 1.9px solid {{section.settings.color-badge}};
+        border-radius: 20px;
+        color: {{section.settings.color-badge}};
+        font-size: 14px;
+        line-height: 130%;
+      }
 
 
-
-  .blo-section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-  @media screen and (min-width: 750px) {
-    .blo-section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
+      @media screen and (max-width: 989px) {
+        .blo-banner-release-container,
+        .blo-banner-release-container.blo-image-on-right {
+            flex-direction: column;
+            gap: 40px;
+        }
+        .blo-banner-release-media {
+            width: 100%;
+        }
+        .blo-banner-release-text {
+            width: 100%;
+        }
+        .blo-banner-release-decoration-top {
+          width: 200px;
+          top: -126px;
+          right: -90px;
+        }
+        .blo-banner-release-decoration-bottom {
+          width: 200px;
+          bottom: -126px;
+          left: -70px;
+        }
     }
-  }
+
+
+
+    .blo-section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+    @media screen and (min-width: 750px) {
+      .blo-section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+
+  {% if section.settings.background_image_desktop %}
+    @media screen and (min-width: 990px) {
+        .blo-banner-release {
+          background-image: url(  {{ section.settings.image-background-desktop | image_url: width: 3200 }} );
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: {{ section.settings.background_image_desktop_pin }};
+        }
+      }
+    {% endif %}
+
+    {% if section.settings.background_image_mobile %}
+      @media screen and (max-width: 989px) {
+        .blo-banner-release {
+          background-image: url(  {{ section.settings.image-background-mobile | image_url: width: 900 }} );
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: {{ section.settings.background_image_mobile_pin }};
+        }
+      }
+    {% endif %}
 {% endstyle %}
 
 {% schema %}
@@ -347,9 +374,97 @@
       "label": "Image Background (Mobile)"
     },
     {
+      "type": "select",
+      "id": "background_image_mobile_pin",
+      "label": "Mobile Pin Direction",
+      "options": [
+        {
+          "value": "top left",
+          "label": "Top Left"
+        },
+        {
+          "value": "top center",
+          "label": "Top Center"
+        },
+        {
+          "value": "top right",
+          "label": "Top Right"
+        },
+        {
+          "value": "center left",
+          "label": "Center Left"
+        },
+        {
+          "value": "center center",
+          "label": "Center Center"
+        },
+        {
+          "value": "center right",
+          "label": "Center Right"
+        },
+        {
+          "value": "bottom left",
+          "label": "Bottom Left"
+        },
+        {
+          "value": "bottom center",
+          "label": "Bottom Center"
+        },
+        {
+          "value": "bottom right",
+          "label": "Bottom Right"
+        }
+      ],
+      "default": "center center"
+    },
+    {
       "type": "image_picker",
-      "id": "image-background-desktiop",
+      "id": "image-background-desktop",
       "label": "Image Background (Desktop)"
+    },
+    {
+      "type": "select",
+      "id": "background_image_desktop_pin",
+      "label": "Desktop Pin Direction",
+      "options": [
+        {
+          "value": "top left",
+          "label": "Top Left"
+        },
+        {
+          "value": "top center",
+          "label": "Top Center"
+        },
+        {
+          "value": "top right",
+          "label": "Top Right"
+        },
+        {
+          "value": "center left",
+          "label": "Center Left"
+        },
+        {
+          "value": "center center",
+          "label": "Center Center"
+        },
+        {
+          "value": "center right",
+          "label": "Center Right"
+        },
+        {
+          "value": "bottom left",
+          "label": "Bottom Left"
+        },
+        {
+          "value": "bottom center",
+          "label": "Bottom Center"
+        },
+        {
+          "value": "bottom right",
+          "label": "Bottom Right"
+        }
+      ],
+      "default": "center center"
     },
     {
       "type": "header",
