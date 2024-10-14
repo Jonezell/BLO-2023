@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -155,7 +155,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "color_scheme": "",
+        "color_scheme": "scheme-0a96d3c7-0428-4e18-8f79-e08323d362b2",
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
@@ -167,6 +167,25 @@
         "enable_video_looping": true,
         "padding_top": 36,
         "padding_bottom": 100
+      }
+    },
+    "172791928687cb93f7": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_w8Ua44": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_w8Ua44"
+      ],
+      "custom_css": [
+        "section {background-color: var(--blo-terra);}"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "image_with_text_ngYz4V": {
@@ -214,25 +233,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "172791928687cb93f7": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_w8Ua44": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_w8Ua44"
-      ],
-      "custom_css": [
-        "section {background-color: var(--blo-terra);}"
-      ],
-      "settings": {
-        "include_margins": true
       }
     },
     "blo_product_callouts_qHXD4R": {
