@@ -222,6 +222,17 @@
     margin-top: -100px;
     margin-bottom: -100px;
   }
+  {% if section.settings.show_side-gradient == true %}
+    .blo-banner-image-wrapper:after {
+        content: "";
+        position: absolute;
+        bottom: -50px;
+        right: 0;
+        left: 0;
+        height: 40px;
+        background: linear-gradient(180deg, rgba(225, 226, 227, 0) 0%, {{ section.settings.background-color }} 100%);
+    }
+  {% endif %}
 }
 
 

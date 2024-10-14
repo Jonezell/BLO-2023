@@ -49,16 +49,15 @@
     position: relative;
   }
   .PAV_option:hover {
-    border: 2px solid rgba(0, 0, 0, .1);
+    border: 2px solid rgba(var(--color-foreground), .1);
   }
   .PAV_option.selected {
-    border: 2px solid rgba(0, 0, 0, 1);
+    border: 2px solid rgba(var(--color-foreground), 1);
   }
   .PAV_option label {
     position: absolute;
-    background: #191919;
+    background: rgb(var(--color-foreground));
     color: #fff;
-    font-family: 'GothamRounded-Bold' !important;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -66,7 +65,8 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 10px;
+    padding: 6px 10px 9px 10px;
+    font-weight: 700;
     border-radius: 6px;
     width: auto;
     white-space: nowrap;
@@ -79,7 +79,7 @@
     content: "";
     position: absolute;
     bottom: -7px;
-    border-top: 7px solid #191919;
+    border-top: 7px solid rgb(var(--color-foreground));
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
     left: calc(50% - 8px);

@@ -102,40 +102,60 @@
 </div>
 
 {% style %}
-    .blo-customer-favs .page-width {
-      display: flex;
-      flex-direction: column;
-      gap: 50px;
-    }
-    .blo-customer-favs h2 {
-        color: var(--blo-pine);
-        text-align: center;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-    .blo-customer-favs-card img {
-        width: 100%;
-        height: auto;  
-        margin: 0; 
-        font-size: 0;
-        border-radius: var(--blo-corner-radius);
-        border: 1px solid rgba(0,0,0,.02)
-    }
-    .blo-customer-favs-card-content {
-        margin-top: 10px;
-        text-align: center;
-        color: var(--blo-pine);
-    }
-    .blo-customer-favs-stars svg path{
-        fill: var(--blo-pine);
-    }
-    .blo-customer-favs-card a {
-        text-decoration: none;
-    }
+  .blo-customer-favs .page-width {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .blo-customer-favs h2 {
+      color: var(--blo-pine);
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 0;
+  }
+  .blo-customer-favs-card img {
+      width: 100%;
+      height: auto;  
+      margin: 0; 
+      font-size: 0;
+      border-radius: var(--blo-corner-radius);
+      border: 1px solid rgba(0,0,0,.02)
+  }
+  .blo-customer-favs-card-content {
+      margin-top: 10px;
+      text-align: center;
+      color: var(--blo-pine);
+  }
+  .blo-customer-favs-stars svg path{
+      fill: var(--blo-pine);
+  }
+  .blo-customer-favs-card a {
+      text-decoration: none;
+  }
+  .blo-customer-favs-buttons {
+      text-align: center;
+      --color-button: 40, 84, 72;
+  }
+  @media screen and (max-width: 500px) {
     .blo-customer-favs-buttons {
-        text-align: center;
-        --color-button: 40, 84, 72;
+      padding-left: 25px;
+      padding-right: 25px;
     }
+    .blo-customer-favs-buttons .button {
+        width: 100%
+    }
+  }
+  }
+  @media screen and (max-width: 989px) {
+    .blo-customer-favs .slider--tablet:after {
+      margin-left: 25px;
+    }
+  }
+  @media screen and (max-width: 749px) {
+    .blo-customer-favs .grid--peek.slider:after {
+      margin-left: 25px;
+    }
+  }
 
 
 

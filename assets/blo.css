@@ -1,6 +1,5 @@
 /* THIS IS CUSTOM BLO CSS OVERRIDES FOR THIS THEME */
 
-
 /* -------------------- CUSTOM VARIABLES -------------------- */
 
 :root {
@@ -220,7 +219,7 @@ body H4, body .h4 {
 
 /* H5-H6 AND BODY STYLES */
 H5, .h5, H6, .h6, footer .footer-block__heading, .toggle, .collection-list-wrapper .card__information h3, .product .price__container, .facets-vertical .facets__summary, .product-count__text.text-body, .facet-filters__field .facet-filters__label, .facet-filters__field .facet-filters__sort, .mobile-facets__open, .button, .button-label, .shopify-challenge__button, .customer button,
-p, .p, footer .footer-block__details-content a, .facets-vertical .facet-checkbox, .facet-filters__field .facet-filters__sort, .mega-menu__link, .mega-menu__link--level-2, .mega-menu__content .mega-menu__link, .header__menu-item.list-menu__item, .menu-drawer .menu-drawer__menu-item, .mobile-facets .mobile-facets__summary, .mobile-facets .mobile-facets__label,  .blo-toggle-collections .card__heading, cart-drawer .totals__total, cart-drawer .totals__total-value  {
+p, .p, footer .footer-block__details-content a, .facets-vertical .facet-checkbox, .facet-filters__field .facet-filters__sort, .mega-menu__link, .mega-menu__link--level-2, .mega-menu__content .mega-menu__link, .header__menu-item.list-menu__item, .menu-drawer .menu-drawer__menu-item, .mobile-facets .mobile-facets__summary, .mobile-facets .mobile-facets__label,  .blo-toggle-collections .card__heading, cart-drawer .totals__total, cart-drawer .totals__total-value, .product__description  {
     font-size: 16px;
     line-height: 140%;
     letter-spacing: 0px;
@@ -229,7 +228,7 @@ p, .p, footer .footer-block__details-content a, .facets-vertical .facet-checkbox
 
 /* EYEBROW STYLES */
 
-.eyebrow, th, p.announcement-bar__message.h5, .badge, cart-drawer .free_shipping_card_title_clk1hm7264194051ouy4kiwfuy5.h2{
+.eyebrow, th, p.announcement-bar__message.h5, .badge, cart-drawer .free_shipping_card_title_clk1hm7264194051ouy4kiwfuy5.h2, .predictive-search__heading{
   font-family: 'sofia-pro' !important;
   font-style: normal !important;
   font-weight: 700 !important;
@@ -381,7 +380,8 @@ iframe#chat-button {
 
 
 /* ------- CUSTOM STYLES FOR COOKIES POPUP -------- */
-.shopify-pc__banner__dialog {
+section.shopify-pc__banner__dialog {
+  z-index: 900;
   padding: 30px;
 }
 .shopify-pc__banner__dialog .shopify-pc__banner__body h2 {
@@ -395,7 +395,7 @@ iframe#chat-button {
 .shopify-pc__banner__dialog .shopify-pc__banner__btn-decline,
 .shopify-pc__banner__dialog .shopify-pc__banner__btn-manage-prefs {
   border-radius: 30px;
-  padding: 8px 10px;
+  padding: 5px 10px 10px 10px;
 }
 .shopify-pc__banner__dialog .shopify-pc__banner__btn-accept {
   margin-right: 20px;
@@ -945,6 +945,19 @@ margin-left:0;
 .product .product-form__buttons {
   max-width: 100%;
 }
+.product .product__description li{
+  color: rgb(var(--color-foreground));
+}
+.product .product__description h5, 
+.product .product__description h6{
+  font-size: 16px;
+}
+.product .card.card--horizontal {
+  align-items: center;
+}
+.product .card.card--horizontal .card__content {
+  gap: 10px;
+}
 
 
 @media screen and (max-width: 749px) { 
@@ -956,7 +969,10 @@ margin-left:0;
     margin-left: -25px;
     margin-right: -25px;
   }
-
+  /* making product zoom not zoom in as far */
+  .product-media-modal img.global-media-settings{
+    max-width: 700px;
+  } 
 }
 
 
@@ -1263,4 +1279,24 @@ body table:not([class]) {
   line-height: 180%;
   letter-spacing: 0.32px;
   color: var(--blo-espresso);
+}
+
+
+
+/* ATTENTIVE OVERLAUY Z-INDEX FIX */
+#attentive_overlay {
+  z-index: 800 !important;
+}
+
+/* SHOPIFY POLICY PAGE SPACING */
+.shopify-policy__container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+/* PREDICTIVE SEARCH */
+
+.predictive-search {
+
 }
