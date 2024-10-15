@@ -16,6 +16,7 @@
       "blocks": {
         "announcement_zPQ3jf": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Save 20% off Christmas release with code 'Trains'",
             "link": "https://bravelittleones.com/discount/Trains?redirect=%2Fcollections%2Fchristmas-trains-hot-cocoa-and-stars-small-ribbed-release"
