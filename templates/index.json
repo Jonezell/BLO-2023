@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "blo_banner_release_WUUPWU": {
@@ -37,15 +37,17 @@
         "text_PzWAp3",
         "buttons_MynyUL"
       ],
-      "disabled": true,
       "settings": {
         "layout-direction": "layout-left",
         "media-type": "video",
         "video": "shopify://files/videos/bravevideofw24-102.mp4",
         "image-secondary": "shopify://shop_images/bravelittleonesfw24-439.jpg",
-        "show_decoration": true,
-        "color-decoration-top": "#9e2a2e",
-        "color-decoration-bottom": "#b7a586",
+        "image-decoration-top-right": "shopify://shop_images/Layer_1.svg",
+        "image-decoration-top": 0,
+        "image-decoration-right": 0,
+        "image-decoration-bottom-left": "shopify://shop_images/Layer_2.svg",
+        "image-decoration-bottom": 0,
+        "image-decoration-left": 0,
         "image-background-mobile": "shopify://shop_images/banner-background-mobile_b3ee00c4-f98e-4de3-8b8e-ff2c8c8b0872.svg",
         "background_image_mobile_pin": "bottom right",
         "image-background-desktop": "shopify://shop_images/banner-background-desktop_9382f8ff-f0a3-4c37-acdc-849c18ad7dd6.svg",
@@ -92,6 +94,7 @@
         "text_kTQFjh",
         "buttons_ccThbN"
       ],
+      "disabled": true,
       "settings": {
         "media-type": "video",
         "show_side-gradient": true,
