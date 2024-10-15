@@ -2,20 +2,38 @@
   <div class="blo-banner-release-media {% if section.settings['image-secondary'] %}has-secondary{%- endif -%}">
     <div class="blo-banner-release-media-primary {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       {% if section.settings['media-type'] == 'image' %}
-        {{ section.settings.image | image_url: width: 3200 | image_tag: loading: 'lazy' }}
+        {{
+          section.settings.image
+          | image_url: width: 3200
+          | image_tag: loading: 'lazy', class: 'blo-banner-release-image'
+        }}
       {% else %}
         {{
           section.settings.video
-          | video_tag: image_size: '1100x', autoplay: true, loop: true, controls: false, muted: true
+          | video_tag:
+            image_size: '1100x',
+            autoplay: true,
+            loop: true,
+            controls: false,
+            muted: true,
+            class: 'blo-banner-release-video'
         }}
       {% endif %}
 
       {% if section.settings['image-decoration-top-right'] %}
-        {{ section.settings['image-decoration-top-right'] | image_url: width: 3200 | image_tag: loading: 'lazy' }}
+        {{
+          section.settings['image-decoration-top-right']
+          | image_url: width: 3200
+          | image_tag: loading: 'lazy', class: 'blo-banner-release-decoration-top'
+        }}
       {% endif %}
 
       {% if section.settings['image-decoration-bottom-left'] %}
-        {{ section.settings['image-decoration-bottom-left'] | image_url: width: 3200 | image_tag: loading: 'lazy' }}
+        {{
+          section.settings['image-decoration-bottom-left']
+          | image_url: width: 3200
+          | image_tag: loading: 'lazy', class: 'blo-banner-release-decoration-bottom'
+        }}
       {% endif %}
     </div>
     <div class="blo-banner-release-media-secondary {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
@@ -109,8 +127,9 @@
           position: relative;
           font-size: 0;
       }
-      .blo-banner-release-media img,
-      .blo-banner-release-media video {
+      .blo-banner-release-media .blo-banner-release-image,
+      .blo-banner-release-media .blo-banner-release-video,
+      .blo-banner-release-media-secondary img {
           border-radius: var(--blo-corner-radius);
           width: 100%;
           height: auto;
@@ -133,13 +152,17 @@
       }
       .blo-banner-release-decoration-top {
         position: absolute;
-        top: -102px;
-        right: -160px;
+        top: {{ section.settings.image-decoration-top }};
+        right:  {{ section.settings.image-decoration-right }};
+        width: auto;
+        height: auto;
       }
       .blo-banner-release-decoration-bottom {
         position: absolute;
-        bottom: -102px;
-        left: -152px;
+        bottom:  {{ section.settings.image-decoration-bottom }};
+        left:  {{ section.settings.image-decoration-left }};
+        width: auto;
+        height: auto;
       }
       .blo-banner-release-text {
         display: flex;
@@ -331,6 +354,16 @@
     },
     {
       "type": "range",
+      "id": "image-decoration-top-width",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "%",
+      "label": "Image Width",
+      "default": 20
+    },
+    {
+      "type": "range",
       "id": "image-decoration-top",
       "min": -100,
       "max": 100,
@@ -353,6 +386,16 @@
       "type": "image_picker",
       "id": "image-decoration-bottom-left",
       "label": "Bottom Left Decoration (optional)"
+    },
+    {
+      "type": "range",
+      "id": "image-decoration-bottom-width",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "%",
+      "label": "Image Width",
+      "default": 20
     },
     {
       "type": "range",
