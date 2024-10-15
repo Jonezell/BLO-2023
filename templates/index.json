@@ -15,20 +15,20 @@
         "heading_VEMW9H": {
           "type": "heading",
           "settings": {
-            "heading": "Say hello to our first Christmas Collection!"
+            "heading": "Full Steam Ahead forthe Holidays!"
           }
         },
         "text_PzWAp3": {
           "type": "text",
           "settings": {
-            "text": "NEW Santa Small Ribbed just landed. Plus snag one of our popular comeback prints: Cookies & Milk, Deer Tree Farm, and Red Stripe! And for the first time ever we are offering men’s pants & shirts.  Save 20% off the entire collection until midnight tonight with code ‘Santa’."
+            "text": "Our second Christmas release is so good it will stop you in your tracks. Christmas Trains, Hot Cocoa, and Stars just released. From Polar Express vibes to cozy winter elements, this one is irresistible. Snag Christmas Trains in men’s and women’s styles, plus Blankets too. Don’t forget to grab our only holiday Boxer Briefs set! Save 20% until midnight with code ‘Trains’."
           }
         },
         "buttons_MynyUL": {
           "type": "buttons",
           "settings": {
             "button_label": "Shop New Release",
-            "button_link": "https://bravelittleones.com/discount/Santa?redirect=%2Fcollections%2Fsanta-cookies-milk-red-stripe-and-deer-tree-farm-release"
+            "button_link": "https://bravelittleones.com/discount/Trains?redirect=%2Fcollections%2Fchristmas-trains-hot-cocoa-and-stars-small-ribbed-release"
           }
         }
       },
@@ -41,7 +41,7 @@
         "layout-direction": "layout-left",
         "media-type": "video",
         "video": "shopify://files/videos/bravevideofw24-102.mp4",
-        "image-secondary": "shopify://shop_images/bravelittleonesfw24-439.jpg",
+        "image-secondary": "shopify://shop_images/image-secondary-25.jpg",
         "image-decoration-top-right": "shopify://shop_images/Layer_1.svg",
         "image-decoration-top-width": 60,
         "image-decoration-top": -10,
@@ -50,11 +50,11 @@
         "image-decoration-bottom-width": 60,
         "image-decoration-bottom": -10,
         "image-decoration-left": -28,
-        "image-background-mobile": "shopify://shop_images/banner-background-mobile_b3ee00c4-f98e-4de3-8b8e-ff2c8c8b0872.svg",
+        "image-background-mobile": "shopify://shop_images/banner-background-mobile_0e2d21f7-379e-435b-a92a-44cb16eea7da.svg",
         "background_image_mobile_pin": "bottom right",
-        "image-background-desktop": "shopify://shop_images/banner-background-desktop_9382f8ff-f0a3-4c37-acdc-849c18ad7dd6.svg",
+        "image-background-desktop": "shopify://shop_images/banner-background-desktop_13a54514-591e-4824-988f-e33269a10c80.svg",
         "background_image_desktop_pin": "bottom right",
-        "color-background": "#285448",
+        "color-background": "#466377",
         "color-text": "#f5f4e5",
         "color-badge": "#ce7941",
         "padding_top": 100,

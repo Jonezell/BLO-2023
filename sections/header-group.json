@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -16,10 +16,9 @@
       "blocks": {
         "announcement_zPQ3jf": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "Save 20% off christmas release with code 'Santa'",
-            "link": "https://bravelittleones.com/discount/Santa?redirect=%2Fcollections%2Fsanta-cookies-milk-red-stripe-and-deer-tree-farm-release"
+            "text": "Save 20% off Christmas release with code 'Trains'",
+            "link": "https://bravelittleones.com/discount/Trains?redirect=%2Fcollections%2Fchristmas-trains-hot-cocoa-and-stars-small-ribbed-release"
           }
         },
         "announcement-bar-0": {
