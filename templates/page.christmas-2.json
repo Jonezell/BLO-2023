@@ -174,6 +174,34 @@
         "padding_bottom": 0
       }
     },
+    "featured_collection_qYmRFK": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Hot Cocoa Small Ribbed",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "hot-cocoa-small-ribbed",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
     "featured_collection_mHthcL": {
       "type": "featured-collection",
       "settings": {
@@ -443,6 +471,7 @@
     "custom_liquid_9zAyFp",
     "featured_collection_XyWbFt",
     "featured_collection_r8a6qG",
+    "featured_collection_qYmRFK",
     "featured_collection_mHthcL",
     "featured_collection_CEbwU9",
     "featured_collection_dxVKgD",
