@@ -1,0 +1,283 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "blo_banner_release_N9GXcU": {
+      "type": "blo-banner-release",
+      "blocks": {
+        "heading_kMjd3F": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shop our Christmas Collection"
+          }
+        },
+        "text_MUkNUc": {
+          "type": "text",
+          "settings": {
+            "text": "'Tis the season of comfort and joy. Our festive and adorable seasonal prints are here, but they won't last long."
+          }
+        },
+        "buttons_q7pKaT": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Shop All",
+            "button_link": "shopify://collections/christmas-2024-releases"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kMjd3F",
+        "text_MUkNUc",
+        "buttons_q7pKaT"
+      ],
+      "settings": {
+        "layout-direction": "layout-left",
+        "media-type": "video",
+        "video": "shopify://files/videos/bravevideofw24-136_9dbdd7d6-a8fe-4b2c-b421-91bc8e995806.mp4",
+        "image-secondary": "shopify://shop_images/image-secondary_d4084325-22d5-46ae-9937-9fd851159e90.jpg",
+        "image-decoration-top-right": "shopify://shop_images/Layer_1_c57b00c6-a4a5-42d4-91c3-7b243b799eb5.svg",
+        "image-decoration-top-width": 60,
+        "image-decoration-top": -9,
+        "image-decoration-right": -28,
+        "image-decoration-bottom-left": "shopify://shop_images/Layer_2_3dffa036-6450-46d4-baf8-810b87b750eb.svg",
+        "image-decoration-bottom-width": 60,
+        "image-decoration-bottom": -9,
+        "image-decoration-left": -27,
+        "image-background-mobile": "shopify://shop_images/banner-background-mobile_f3d18fb0-1b4e-484d-9ddf-261e217b5042.svg",
+        "background_image_mobile_pin": "bottom center",
+        "image-background-desktop": "shopify://shop_images/banner-background-desktop_526c3640-b606-4471-a673-5e2d5e3243c8.svg",
+        "background_image_desktop_pin": "bottom center",
+        "color-background": "#285448",
+        "color-text": "#f5f4e6",
+        "color-badge": "#CE7941",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "blo_banner_XwcWJV": {
+      "type": "blo-banner",
+      "blocks": {
+        "heading_tFbTVy": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shop our Christmas Collection"
+          }
+        },
+        "text_aLczgx": {
+          "type": "text",
+          "settings": {
+            "text": "'Tis the season of comfort and joy. Our festive and adorable seasonal prints are here, but they won't last long."
+          }
+        },
+        "buttons_Dm7FPj": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Shop All",
+            "button_link": "shopify://collections/christmas-2024-releases"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tFbTVy",
+        "text_aLczgx",
+        "buttons_Dm7FPj"
+      ],
+      "disabled": true,
+      "settings": {
+        "media-type": "video",
+        "show_side-gradient": true,
+        "video": "shopify://files/videos/bravevideofw24-129.mp4",
+        "background-color": "#e9e9e6",
+        "top-shape-color": "#ce7941",
+        "bottom-shape-color": "#285448",
+        "show-under-header": false
+      }
+    },
+    "custom_liquid_9zAyFp": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "BLO Banner (Release)",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "featured_collection_XyWbFt": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Shop Christmas PJs",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "christmas-2024-releases",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_kcqFkj": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Puffer Jackets",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "puffer-jackets-release",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "featured_collection_jVygrE": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Pullovers",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "pullovers",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "featured_collection_FCrYBU": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Joggers",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "joggers",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "featured_collection_d6bfVw": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Beanies",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "knit-beanies",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "custom_liquid_haApFx": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe src=\"https://bravelittleones.attn.tv/p/RzK/landing-page2\" style=\"min-height: 800px; border: none;\" width=\"100%\" height=\"100%\"></iframe>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "blo_banner_release_N9GXcU",
+    "blo_banner_XwcWJV",
+    "custom_liquid_9zAyFp",
+    "featured_collection_XyWbFt",
+    "featured_collection_kcqFkj",
+    "featured_collection_jVygrE",
+    "featured_collection_FCrYBU",
+    "featured_collection_d6bfVw",
+    "custom_liquid_haApFx"
+  ]
+}
