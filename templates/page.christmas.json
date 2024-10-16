@@ -1,18 +1,64 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "blo_banner_release_N9GXcU": {
+      "type": "blo-banner-release",
+      "blocks": {
+        "heading_kMjd3F": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shop our Christmas Collection"
+          }
+        },
+        "text_MUkNUc": {
+          "type": "text",
+          "settings": {
+            "text": "'Tis the season of comfort and joy. Our festive and adorable seasonal prints are here, but they won't last long."
+          }
+        },
+        "buttons_q7pKaT": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Shop All",
+            "button_link": "shopify://collections/christmas-2024-releases"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kMjd3F",
+        "text_MUkNUc",
+        "buttons_q7pKaT"
+      ],
+      "settings": {
+        "layout-direction": "layout-left",
+        "media-type": "image",
+        "image-decoration-top-width": 50,
+        "image-decoration-top": 0,
+        "image-decoration-right": 0,
+        "image-decoration-bottom-width": 50,
+        "image-decoration-bottom": 0,
+        "image-decoration-left": 0,
+        "background_image_mobile_pin": "center center",
+        "background_image_desktop_pin": "center center",
+        "color-background": "#F5F5EE",
+        "color-text": "#285448",
+        "color-badge": "#CE7941",
         "padding_top": 100,
         "padding_bottom": 100
       }
@@ -217,6 +263,7 @@
   },
   "order": [
     "main",
+    "blo_banner_release_N9GXcU",
     "blo_banner_XwcWJV",
     "custom_liquid_9zAyFp",
     "featured_collection_XyWbFt",
