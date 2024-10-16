@@ -43,7 +43,7 @@
         "custom_low_stock_JTRiRj": {
           "type": "custom-low-stock",
           "settings": {
-            "inventory_threshold": 5,
+            "inventory_threshold": 10,
             "show_inventory_quantity": false
           }
         },

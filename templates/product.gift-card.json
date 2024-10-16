@@ -34,19 +34,6 @@
             "swatch_shape": "circle"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "custom_low_stock_JTRiRj": {
-          "type": "custom-low-stock",
-          "settings": {
-            "inventory_threshold": 20,
-            "show_inventory_quantity": false
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -92,8 +79,6 @@
         "price",
         "judge_me_reviews_preview_badge_pg4eqY",
         "variant_picker",
-        "quantity_selector",
-        "custom_low_stock_JTRiRj",
         "buy_buttons",
         "back_in_stock_customer_alerts_app_block_UBNLgM",
         "blo_restock_note_mE6Xzy",
