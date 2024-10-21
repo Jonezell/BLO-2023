@@ -64,58 +64,9 @@
         "background_image_desktop_pin": "bottom center",
         "color-background": "#285448",
         "color-text": "#f5f4e6",
-        "color-badge": "#CE7941",
+        "color-badge": "#ce7941",
         "padding_top": 100,
         "padding_bottom": 100
-      }
-    },
-    "blo_banner_XwcWJV": {
-      "type": "blo-banner",
-      "blocks": {
-        "heading_tFbTVy": {
-          "type": "heading",
-          "settings": {
-            "heading": "Shop our Christmas Collection"
-          }
-        },
-        "text_aLczgx": {
-          "type": "text",
-          "settings": {
-            "text": "'Tis the season of comfort and joy. Our festive and adorable seasonal prints are here, but they won't last long."
-          }
-        },
-        "buttons_Dm7FPj": {
-          "type": "buttons",
-          "settings": {
-            "button_label": "Shop All",
-            "button_link": "shopify://collections/christmas-2024-releases"
-          }
-        }
-      },
-      "block_order": [
-        "heading_tFbTVy",
-        "text_aLczgx",
-        "buttons_Dm7FPj"
-      ],
-      "disabled": true,
-      "settings": {
-        "media-type": "video",
-        "show_side-gradient": true,
-        "video": "shopify://files/videos/bravevideofw24-129.mp4",
-        "background-color": "#e9e9e6",
-        "top-shape-color": "#ce7941",
-        "bottom-shape-color": "#285448",
-        "show-under-header": false
-      }
-    },
-    "custom_liquid_9zAyFp": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "BLO Banner (Release)",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "featured_collection_XyWbFt": {
@@ -127,6 +78,118 @@
         "show_description": false,
         "description_style": "body",
         "collection": "christmas-2024-releases",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_WXzGP3": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Santa Small Ribbed",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "santa-small-ribbed",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_PfK9QQ": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Cookies And Milk",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "cookies-and-milk",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_KAt7Hi": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Red Stripe Small Ribbed",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "red-stripe-ribbed",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_ybbRaH": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Deer Tree Farm Small Ribbed",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "deer-tree-farm-small-ribbed",
         "products_to_show": 25,
         "columns_desktop": 4,
         "full_width": false,
@@ -271,9 +334,11 @@
   "order": [
     "main",
     "blo_banner_release_N9GXcU",
-    "blo_banner_XwcWJV",
-    "custom_liquid_9zAyFp",
     "featured_collection_XyWbFt",
+    "featured_collection_WXzGP3",
+    "featured_collection_PfK9QQ",
+    "featured_collection_KAt7Hi",
+    "featured_collection_ybbRaH",
     "featured_collection_kcqFkj",
     "featured_collection_jVygrE",
     "featured_collection_FCrYBU",
