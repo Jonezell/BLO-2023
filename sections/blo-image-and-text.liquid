@@ -1,5 +1,19 @@
+{%- for block in section.blocks -%}
+  {%- case block.type -%}
+    {%- when 'buttons' -%}
+      {%- assign section_link = block.settings.button_link -%}
+  {%- endcase -%}
+{%- endfor -%}
+
 <div class="blo-image-and-text-container page-width blo-section-{{ section.id }}-padding {% if section.settings['layout-direction'] == 'layout-right' %}blo-image-on-right{% endif %}">
-  <div class="blo-image-and-text-media {% if section.settings['image-secondary'] %}has-secondary{%- endif -%}">
+  <a
+    class="blo-image-and-text-media {% if section.settings['image-secondary'] %}has-secondary{%- endif -%}"
+    {% if section_link == blank %}
+      role="link" aria-disabled="true"
+    {% else %}
+      href="{{ section_link }}"
+    {% endif %}
+  >
     <div class="blo-image-and-text-media-primary {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       {% if section.settings['media-type'] == 'image' %}
         {{ section.settings.image | image_url: width: 3200 | image_tag: loading: 'lazy' }}
@@ -61,7 +75,7 @@
         {{ section.settings['image-secondary'] | image_url: width: 600 | image_tag: loading: 'lazy' }}
       {% endif %}
     </div>
-  </div>
+  </a>
   <div class="blo-image-and-text-text {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
