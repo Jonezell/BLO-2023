@@ -3,20 +3,6 @@
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 {{ 'blo-sections.css' | asset_url | stylesheet_tag }}
 
-{%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-
-  @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
-  }
-{%- endstyle -%}
-
 {%- liquid
   assign columns_mobile_int = section.settings.columns_mobile | plus: 0
   assign show_mobile_slider = false
@@ -101,32 +87,6 @@
               </li>
             {%- endfor -%}
           </ul>
-          {%- if show_mobile_slider -%}
-            <div class="slider-buttons no-js-hidden">
-              <button
-                type="button"
-                class="slider-button slider-button--prev"
-                name="previous"
-                aria-label="{{ 'general.slider.previous_slide' | t }}"
-              >
-                {% render 'icon-caret' %}
-              </button>
-              <div class="slider-counter caption">
-                <span class="slider-counter--current">1</span>
-                <span aria-hidden="true"> / </span>
-                <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
-                <span class="slider-counter--total">{{ section.blocks.size }}</span>
-              </div>
-              <button
-                type="button"
-                class="slider-button slider-button--next"
-                name="next"
-                aria-label="{{ 'general.slider.next_slide' | t }}"
-              >
-                {% render 'icon-caret' %}
-              </button>
-            </div>
-          {%- endif -%}
         </slider-component>
       {%- endfor -%}
     </div>
@@ -154,12 +114,30 @@
 {% style %}
   .blo-find-your-favorite h2.collection-list-title {
     margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: rgb(var(--color-foreground));
   }
   .blo-find-your-favorite .card__content {
     padding-bottom: 0;
   }
   .blo-find-your-favorite .title-wrapper-with-link {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+  }
+  .blo-find-your-favorite.blo-toggle-swap .toggle-wrapper{
+    justify-content: center;
+  }
+
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
   }
 {% endstyle %}
 
@@ -286,7 +264,7 @@
       "type": "range",
       "id": "padding_top",
       "min": 0,
-      "max": 100,
+      "max": 200,
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_top",
@@ -296,7 +274,7 @@
       "type": "range",
       "id": "padding_bottom",
       "min": 0,
-      "max": 100,
+      "max": 200,
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
@@ -326,7 +304,7 @@
   ],
   "presets": [
     {
-      "name": "BLO: Find Your Fav V2"
+      "name": "BLO: Find Your Fav"
     }
   ]
 }

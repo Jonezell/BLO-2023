@@ -56,7 +56,6 @@
     line-height: 130%;
   }
   .blo-toggle-swap .card--media {
-    background: var(--tan-Medium);
     border-radius: var(--blo-corner-radius);
     overflow: hidden;
   }
