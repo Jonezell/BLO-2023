@@ -202,6 +202,7 @@
       .blo-banner-release-text h1,
       .blo-banner-release-text p {
         margin-bottom: 0px;
+        margin-top: 0;
         color: {{section.settings.color-text}};
       }
       .blo-banner-release-row {
@@ -251,18 +252,33 @@
         }
     }
 
-
-
     .blo-section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px;
       padding-bottom: {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px;
     }
+
     @media screen and (min-width: 750px) {
       .blo-section-{{ section.id }}-padding {
         padding-top: {{ section.settings.padding_top }}px;
         padding-bottom: {{ section.settings.padding_bottom }}px;
       }
     }
+
+    @media screen and (max-width: 500px) {
+    .blo-banner-release-text .button {
+        width: 100%
+    }
+    .blo-section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.3 | round: 0 }}px;
+    }
+    .blo-banner-release-media.has-secondary{
+        padding-right: 120px;
+        padding-bottom: 30px;
+      }
+      .blo-banner-release-media.has-secondary .blo-banner-release-media-secondary {
+        width: 150px;
+      }
+  }
 
   {% if section.settings.image-background-desktop %}
     @media screen and (min-width: 990px) {

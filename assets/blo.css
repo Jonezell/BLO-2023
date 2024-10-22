@@ -887,6 +887,10 @@ margin-left:0;
 }
 
 
+
+
+
+
 /* ---------------------------------------- BLO - CUSTOM PRODUCT PAGE STYLES ---------------------------------------- */
 
 .product .shopify-block.shopify-app-block .jdgm-preview-badge .jdgm-star.jdgm-star {
@@ -959,6 +963,9 @@ margin-left:0;
 }
 .product .card.card--horizontal .card__content {
   gap: 10px;
+}
+.product-form__buttons .shopify-payment-button__button div[role="button"] {
+  border-radius: 30px;
 }
 
 
