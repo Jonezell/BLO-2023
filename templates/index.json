@@ -479,11 +479,11 @@
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 5,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-0a96d3c7-0428-4e18-8f79-e08323d362b2",
         "show_view_all": true,
         "view_all_link": "shopify://pages/shop-by-print",
         "view_all_label": "Shop By Print",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 0,
         "padding_bottom": 100
