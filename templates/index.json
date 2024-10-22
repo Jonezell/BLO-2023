@@ -440,6 +440,55 @@
         "padding_bottom": 200
       }
     },
+    "blo_find_your_fav_RMykHi": {
+      "type": "blo-find-your-fav",
+      "blocks": {
+        "collection_group_4zBkJW": {
+          "type": "collection_group",
+          "settings": {
+            "collection_group_title": "Prints",
+            "collection_list": [
+              "christmas-trains-small-ribbed",
+              "hot-cocoa-small-ribbed",
+              "stars-small-ribbed",
+              "santa-small-ribbed",
+              "cookies-and-milk"
+            ]
+          }
+        },
+        "collection_group_NNMp4D": {
+          "type": "collection_group",
+          "settings": {
+            "collection_group_title": "Solids & Stripes",
+            "collection_list": [
+              "red-stripe-ribbed",
+              "pine-green-big-stripe",
+              "pine-green-small-ribbed",
+              "pinecone-big-stripe-ribbed",
+              "pinecone-small-ribbed"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "collection_group_4zBkJW",
+        "collection_group_NNMp4D"
+      ],
+      "settings": {
+        "title": "Find Your Favorite",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "scheme-46632dcd-ec79-45dd-b3ae-70c533f63255",
+        "show_view_all": true,
+        "view_all_link": "shopify://pages/shop-by-print",
+        "view_all_label": "Shop By Print",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
     "blo_africa_hUickm": {
       "type": "blo-africa",
       "blocks": {
@@ -522,6 +571,7 @@
     "blo_reviews_p8yHqt",
     "blo_customer_favorite_products_efbjN3",
     "blo_image_and_text_YhxCER",
+    "blo_find_your_fav_RMykHi",
     "blo_africa_hUickm",
     "blo_image_and_text_xkiUVn"
   ]
