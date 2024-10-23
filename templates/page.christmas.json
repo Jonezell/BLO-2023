@@ -71,7 +71,6 @@
     },
     "featured_collection_XyWbFt": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Nutcracker",
         "heading_size": "h2",
@@ -100,7 +99,6 @@
     },
     "featured_collection_y4jfWi": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Berry Red Small Ribbed",
         "heading_size": "h2",
@@ -129,7 +127,6 @@
     },
     "featured_collection_TtyhwP": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Scattered Floral Small Ribbed",
         "heading_size": "h2",
