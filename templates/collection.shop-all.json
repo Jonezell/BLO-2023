@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -75,6 +75,13 @@
             "text": "Sleep Sacks",
             "linkurl": "shopify://collections/sleep-sacks"
           }
+        },
+        "link_emK7Yx": {
+          "type": "link",
+          "settings": {
+            "text": "Link Name",
+            "linkurl": "shopify://collections/shorts-two-piece-set"
+          }
         }
       },
       "block_order": [
@@ -85,7 +92,8 @@
         "link_FxV6x8",
         "link_YVprjC",
         "link_XzFhNP",
-        "link_PL8BaE"
+        "link_PL8BaE",
+        "link_emK7Yx"
       ],
       "settings": {
       }
