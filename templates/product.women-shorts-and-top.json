@@ -30,7 +30,7 @@
         "produdct_as_variants_CXULYg": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Tops",
+            "label": "Short Sleeve Tops",
             "style": "image",
             "target_collection": "womens-shorts-tops",
             "swatch_offset_Y": 50,
