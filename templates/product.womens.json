@@ -30,9 +30,9 @@
         "produdct_as_variants_CXULYg": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Tops",
+            "label": "Long Sleeve Tops",
             "style": "image",
-            "target_collection": "womens-tops",
+            "target_collection": "womens-long-sleeve-tops",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
@@ -41,9 +41,9 @@
         "produdct_as_variants_aBpgd7": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Bottoms",
+            "label": "Pants",
             "style": "image",
-            "target_collection": "womens-bottoms",
+            "target_collection": "womens-pants",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
