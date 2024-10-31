@@ -448,11 +448,11 @@
           "settings": {
             "collection_group_title": "Prints",
             "collection_list": [
+              "nativity-small-ribbed",
+              "evergreen-gingham",
+              "snowy-village-ribbed",
               "nutcracker",
-              "scattered-floral-small-ribbed",
-              "christmas-trains-small-ribbed",
-              "hot-cocoa-small-ribbed",
-              "stars-small-ribbed"
+              "scattered-floral-small-ribbed"
             ]
           }
         },
