@@ -31,8 +31,8 @@
           "type": "produdct-as-variants",
           "settings": {
             "label": "Style",
-            "style": "swatch",
-            "target_collection": "two-piece-sets",
+            "style": "image",
+            "target_collection": "harem-rompers",
             "swatch_offset_Y": 25,
             "swatch_offset_X": 40,
             "hide_sold_out": true
@@ -98,6 +98,7 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Sizing",
             "icon": "ruler",
@@ -107,6 +108,7 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Care Instructions",
             "icon": "washing",
@@ -216,6 +218,7 @@
         "callout_xmwwmL",
         "callout_BxjKGh"
       ],
+      "disabled": true,
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
         "text": "Discover the ultimate bedtime comfort with our perfectly crafted PJs.",
@@ -287,23 +290,9 @@
         "text_DPLYYX",
         "buttons_rDdkEK"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Camel-Small-Ribbed-7_980c7420-df31-4508-b3f0-70d4d3e8eae3.jpg"
-      }
-    },
-    "video_kRpUba": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video": "shopify://files/videos/Brave 2 piece.mp4",
-        "video_url": "",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 100,
-        "padding_bottom": 100
       }
     },
     "blo_faq_7gVA7y": {
@@ -375,7 +364,6 @@
     "172791928687cb93f7",
     "blo_product_callouts_qHXD4R",
     "blo_fabric_3BAiXt",
-    "video_kRpUba",
     "blo_faq_7gVA7y",
     "related-products"
   ]
