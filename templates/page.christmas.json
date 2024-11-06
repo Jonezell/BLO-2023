@@ -72,13 +72,13 @@
     "featured_collection_XyWbFt": {
       "type": "featured-collection",
       "settings": {
-        "title": "Nativity Small Ribbed",
+        "title": "Gingerbread Small Ribbed",
         "heading_size": "h2",
         "description": "",
         "show_description": true,
         "description_style": "body",
-        "collection": "nativity-small-ribbed",
-        "products_to_show": 25,
+        "collection": "gingerbread-small-ribbed",
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -92,7 +92,91 @@
         "show_rating": true,
         "quick_add": "none",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_Hnfe8E": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Winter Wonderland",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "winter-wonderland",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_6MTA48": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Christmas Trees Small Ribbed",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "christmas-trees-small-ribbed",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_nz3XYe": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Nativity Small Ribbed",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "nativity-small-ribbed",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 100,
         "padding_bottom": 0
       }
@@ -106,7 +190,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "evergreen-gingham",
-        "products_to_show": 25,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -120,7 +204,7 @@
         "show_rating": true,
         "quick_add": "none",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 100,
         "padding_bottom": 0
       }
@@ -134,7 +218,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "snowy-village-ribbed",
-        "products_to_show": 25,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -148,7 +232,7 @@
         "show_rating": true,
         "quick_add": "none",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 100,
         "padding_bottom": 0
       }
@@ -162,7 +246,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "nutcracker",
-        "products_to_show": 25,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -176,7 +260,7 @@
         "show_rating": true,
         "quick_add": "none",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 100,
         "padding_bottom": 0
       }
@@ -190,7 +274,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "berry-red-small-ribbed",
-        "products_to_show": 25,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -204,7 +288,7 @@
         "show_rating": true,
         "quick_add": "none",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 100,
         "padding_bottom": 0
       }
@@ -218,7 +302,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "scattered-floral-small-ribbed",
-        "products_to_show": 25,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -232,7 +316,7 @@
         "show_rating": true,
         "quick_add": "none",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 100,
         "padding_bottom": 0
       }
@@ -246,7 +330,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "christmas-trains-small-ribbed",
-        "products_to_show": 25,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -260,7 +344,7 @@
         "show_rating": true,
         "quick_add": "none",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 100,
         "padding_bottom": 0
       }
@@ -274,7 +358,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "hot-cocoa-small-ribbed",
-        "products_to_show": 25,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -288,7 +372,7 @@
         "show_rating": true,
         "quick_add": "none",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 100,
         "padding_bottom": 0
       }
@@ -302,7 +386,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "stars-small-ribbed",
-        "products_to_show": 25,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -316,7 +400,7 @@
         "show_rating": true,
         "quick_add": "none",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 100,
         "padding_bottom": 0
       }
@@ -330,7 +414,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "santa-small-ribbed",
-        "products_to_show": 25,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -344,7 +428,7 @@
         "show_rating": true,
         "quick_add": "none",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 100,
         "padding_bottom": 0
       }
@@ -358,7 +442,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "cookies-and-milk",
-        "products_to_show": 25,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -372,7 +456,7 @@
         "show_rating": true,
         "quick_add": "none",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 100,
         "padding_bottom": 0
       }
@@ -386,7 +470,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "red-stripe-ribbed",
-        "products_to_show": 25,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -400,7 +484,7 @@
         "show_rating": true,
         "quick_add": "none",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 100,
         "padding_bottom": 0
       }
@@ -414,7 +498,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "deer-tree-farm-small-ribbed",
-        "products_to_show": 25,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -428,7 +512,7 @@
         "show_rating": true,
         "quick_add": "none",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 100,
         "padding_bottom": 0
       }
@@ -442,7 +526,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "mens-tops",
-        "products_to_show": 25,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -456,7 +540,7 @@
         "show_rating": true,
         "quick_add": "none",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 100,
         "padding_bottom": 0
       }
@@ -470,7 +554,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "puffer-jackets-release",
-        "products_to_show": 25,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -484,7 +568,7 @@
         "show_rating": true,
         "quick_add": "none",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 100,
         "padding_bottom": 100
       }
@@ -498,7 +582,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "pullovers",
-        "products_to_show": 25,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -512,7 +596,7 @@
         "show_rating": true,
         "quick_add": "none",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 100
       }
@@ -526,7 +610,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "joggers",
-        "products_to_show": 25,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -540,7 +624,7 @@
         "show_rating": true,
         "quick_add": "none",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 100
       }
@@ -554,7 +638,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "knit-beanies",
-        "products_to_show": 25,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -568,13 +652,14 @@
         "show_rating": true,
         "quick_add": "none",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 100
       }
     },
     "custom_liquid_haApFx": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<iframe src=\"https://bravelittleones.attn.tv/p/RzK/landing-page2\" style=\"min-height: 800px; border: none;\" width=\"100%\" height=\"100%\"></iframe>",
         "color_scheme": "",
@@ -587,6 +672,9 @@
     "main",
     "blo_banner_release_N9GXcU",
     "featured_collection_XyWbFt",
+    "featured_collection_Hnfe8E",
+    "featured_collection_6MTA48",
+    "featured_collection_nz3XYe",
     "featured_collection_A3N7fH",
     "featured_collection_fUChTJ",
     "featured_collection_9AkrFb",

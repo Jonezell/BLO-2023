@@ -335,7 +335,7 @@
       ],
       "settings": {
         "title": "Don’t Just Take Our Word For it.",
-        "subtitle": "Our 3,800 five star reviews speak for themselves!",
+        "subtitle": "Our 3,900 five star reviews speak for themselves!",
         "padding_top": 200,
         "padding_bottom": 200
       }
@@ -448,11 +448,11 @@
           "settings": {
             "collection_group_title": "Prints",
             "collection_list": [
+              "gingerbread-small-ribbed",
+              "winter-wonderland",
+              "christmas-trees-small-ribbed",
               "nativity-small-ribbed",
-              "evergreen-gingham",
-              "snowy-village-ribbed",
-              "nutcracker",
-              "scattered-floral-small-ribbed"
+              "evergreen-gingham"
             ]
           }
         },
