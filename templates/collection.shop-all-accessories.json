@@ -51,6 +51,7 @@
         },
         "link_PL8BaE": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "text": "Swaddles",
             "linkurl": "shopify://collections/swaddles"
@@ -72,8 +73,7 @@
         "link_PL8BaE",
         "link_FxV6x8"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "product-grid": {
       "type": "main-collection-product-grid",
