@@ -161,8 +161,7 @@
         "benefit_KEB7kW",
         "benefit_tJccDb"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "blo_toggle_collections_bV6gT7": {
       "type": "blo-toggle-collections",
@@ -176,7 +175,7 @@
               "two-piece-sets",
               "shorts-two-piece-set",
               "summer-zip-rompers",
-              "knotted-gowns"
+              "shop-all-pjs"
             ]
           }
         },
@@ -200,7 +199,6 @@
             "collection_list": [
               "bows",
               "knit-beanies",
-              "swaddles",
               "backpacks",
               "accessories"
             ]
