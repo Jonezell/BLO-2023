@@ -1,14 +1,23 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "custom_liquid_Ccnh4t": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<meta name=\"robots\" content=\"noindex\">",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -116,6 +125,7 @@
     }
   },
   "order": [
+    "custom_liquid_Ccnh4t",
     "main",
     "rich_text_h3nNaa",
     "rich_text_hM3LXM",
