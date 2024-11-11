@@ -12,7 +12,7 @@
     "custom_liquid_Ccnh4t": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<meta name=\"robots\" content=\"noindex\">",
+        "custom_liquid": "<meta name=\"robots\" content=\"noindex\"/>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
