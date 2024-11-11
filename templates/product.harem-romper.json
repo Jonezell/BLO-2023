@@ -184,22 +184,32 @@
             "vertical_position": 4
           }
         },
+        "callout_xeXFRk": {
+          "type": "Callout",
+          "settings": {
+            "pin_direction": "top_right",
+            "block_title": "Easy On, Easy Off",
+            "block_text": "Pulls on and off with ease making diaper changes faster. No zippers or snaps necessary!",
+            "horizontal_position": 38,
+            "vertical_position": 36
+          }
+        },
         "callout_xmwwmL": {
           "type": "Callout",
           "settings": {
             "pin_direction": "top_right",
             "block_title": "Super Stretchy",
-            "block_text": "Our pjs fit longer and keep your kids super comfortable thanks to their incredible stretch.",
+            "block_text": "Say hello to the ultimate stretch from the tank top sleeves to the loose midsection to the cuffed ankles. They’re so comfy and have extra stretch for growing kids. ",
             "horizontal_position": 32,
-            "vertical_position": 34
+            "vertical_position": 64
           }
         },
         "callout_BxjKGh": {
           "type": "Callout",
           "settings": {
             "pin_direction": "top_left",
-            "block_title": "Match With Siblings",
-            "block_text": "Your older toddlers and kids will love matching their brothers and sisters every night.",
+            "block_title": "Just Add Accessories",
+            "block_text": "Easiest outfit ever, we promise. Add shoes and a cute hat or bow and your kiddos are ready to go…wherever they’re heading.",
             "horizontal_position": 26,
             "vertical_position": 88
           }
@@ -207,6 +217,7 @@
       },
       "block_order": [
         "callout_7fV3cD",
+        "callout_xeXFRk",
         "callout_xmwwmL",
         "callout_BxjKGh"
       ],
