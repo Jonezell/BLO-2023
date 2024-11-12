@@ -138,21 +138,17 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "17428600031447253342": {
         "type": "shopify://apps/attentive/blocks/attn-tag/8df62c72-8fe4-407e-a5b3-72132be30a0d",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "10864971697205422121": {
         "type": "shopify://apps/gorgias-live-chat-helpdesk/blocks/gorgias/a66db725-7b96-4e3f-916e-6c8e6f87aaaa",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "914574027208035924": {
         "type": "shopify://apps/camouflage-hide-sold-variants/blocks/hide-oos-variants/12f79890-9cb9-4b70-ac12-64dd825d687e",
@@ -169,49 +165,48 @@
       "11646226146262861653": {
         "type": "shopify://apps/msl-store-locators/blocks/install-snippets/f3e7679d-2a7b-4c2c-8e91-6ba7b432967a",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "5674012996228588682": {
         "type": "shopify://apps/cartbot/blocks/cartbot-script-append/f7a44e3b-3901-4412-9d5a-3db0980a9db0",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "13768625480086291342": {
         "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15079184273603081885": {
         "type": "shopify://apps/essential-shipping-bar/blocks/app_embed/4125375e-37c8-4137-949d-c4e1a3aac572",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "319724205969189013": {
         "type": "shopify://apps/hulk-form-builder/blocks/app-embed/b6b8dd14-356b-4725-a4ed-77232212b3c3",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "12526071353035850722": {
         "type": "shopify://apps/back-in-stock-customer-alerts/blocks/app-embed/bfa6a8c4-24e2-411a-9396-e35031b33f34",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "14060646107696862457": {
         "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "5366966397018820931": {
         "type": "shopify://apps/instant-a-b-testing/blocks/tracking/63aa07b1-7397-484f-b6dd-f47e11b50223",
         "disabled": false,
+        "settings": {}
+      },
+      "1206128725646818650": {
+        "type": "shopify://apps/upsell-by-amp/blocks/app-embed/04a7ddf7-3a4c-4228-9a44-33ba2380f058",
+        "disabled": false,
         "settings": {
+          "override_url": ""
         }
       }
     },
