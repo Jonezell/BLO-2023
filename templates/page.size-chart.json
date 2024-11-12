@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -94,8 +94,7 @@
         "link_BiMxPN",
         "link_Gkzwx9"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "page_G7AN88": {
       "type": "page",
@@ -201,6 +200,16 @@
       "type": "page",
       "settings": {
         "page": "size-chart-puffer-jackets",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "page_D9PVtg": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-harem-rompers",
         "heading_size": "h2",
         "color_scheme": "",
         "padding_top": 0,
@@ -325,6 +334,7 @@
     "page_twqega",
     "page_QEQTit",
     "page_WgmCpP",
+    "page_D9PVtg",
     "page_rf9p78",
     "page_gdwhw3",
     "page_tJJt8g",
