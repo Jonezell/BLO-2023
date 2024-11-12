@@ -189,7 +189,7 @@
           "settings": {
             "pin_direction": "top_right",
             "block_title": "Easy On, Easy Off",
-            "block_text": "Pulls on and off with ease making diaper changes faster. No zippers or snaps necessary!",
+            "block_text": "Pulls on and off with ease. No zippers or snaps necessary!",
             "horizontal_position": 38,
             "vertical_position": 36
           }
@@ -198,8 +198,8 @@
           "type": "Callout",
           "settings": {
             "pin_direction": "top_right",
-            "block_title": "Super Stretchy",
-            "block_text": "Say hello to the ultimate stretch from the tank top sleeves to the loose midsection to the cuffed ankles. They’re so comfy and have extra stretch for growing kids. ",
+            "block_title": "Super Soft, Stretchy & Extra Room",
+            "block_text": "Say hello to the ultimate softness and stretch with extra room for your little ones to grow.",
             "horizontal_position": 32,
             "vertical_position": 64
           }
