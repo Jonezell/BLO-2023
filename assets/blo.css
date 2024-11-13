@@ -1244,6 +1244,39 @@ cart-drawer.drawer .drawer__footer .totals__total:after {
   font-style: italic;
 }
 
+/* ---------------------------------------- BLO - CUSTOM STYLES FOR AMP CART DRAWER ---------------------------------------- */
+
+.amp-cart .amp-cart__header {
+  padding: 20px;
+}
+.amp-cart .amp-cart__header-content {
+  font-family: 'Value Serif Pro' !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  -webkit-font-smoothing: antialiased;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.amp-cart .amp-cart__rewards {
+  padding: 10px 20px;
+  gap: 10px;
+}
+.amp-cart .amp-cart__footer {
+  position: sticky;
+  position: -webkit-sticky;
+  bottom: 0;
+  padding: 10px 15px 15px 15px;
+  background-color: var(--blo-dark-cream);
+  border-top: 1px solid rgba(0,0,0,0.01);
+}
+.amp-cart .amp-cart__footer-row {
+  padding-top: 0;
+}
+.amp-cart .amp-cart__cart-line {
+  padding: 10px 20px;
+}
+
+
 
 
 /* ------------------------------ BLO - CUSTOM PAGE ADJUSTMENTS ------------------------------ */
