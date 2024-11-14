@@ -181,7 +181,7 @@
             "block_title": "Tagless Labels",
             "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
             "horizontal_position": 42,
-            "vertical_position": 4
+            "vertical_position": 6
           }
         },
         "callout_xeXFRk": {
@@ -191,7 +191,7 @@
             "block_title": "Easy On, Easy Off",
             "block_text": "Pulls on and off with ease. No zippers or snaps necessary!",
             "horizontal_position": 38,
-            "vertical_position": 36
+            "vertical_position": 32
           }
         },
         "callout_xmwwmL": {
@@ -200,8 +200,8 @@
             "pin_direction": "top_right",
             "block_title": "Super Soft, Stretchy & Extra Room",
             "block_text": "Say hello to the ultimate softness and stretch with extra room for your little ones to grow.",
-            "horizontal_position": 32,
-            "vertical_position": 64
+            "horizontal_position": 22,
+            "vertical_position": 58
           }
         },
         "callout_BxjKGh": {
@@ -211,7 +211,7 @@
             "block_title": "Just Add Accessories",
             "block_text": "Easiest outfit ever, we promise. Add shoes and a cute hat or bow and your kiddos are ready to go…wherever they’re heading.",
             "horizontal_position": 26,
-            "vertical_position": 88
+            "vertical_position": 84
           }
         }
       },
@@ -221,11 +221,10 @@
         "callout_xmwwmL",
         "callout_BxjKGh"
       ],
-      "disabled": true,
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
         "text": "Discover the ultimate comfort with our perfectly crafted Harem Rompers.",
-        "image": "shopify://shop_images/Set.jpg",
+        "image": "shopify://shop_images/DustySage-Harem_b10682ce-eae4-4c02-a71e-0da791ae0982.jpg",
         "padding_top": 200,
         "padding_bottom": 200
       }
