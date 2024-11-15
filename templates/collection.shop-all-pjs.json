@@ -57,6 +57,7 @@
         },
         "link_Vpf4Rh": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "text": "Knotted Gowns",
             "linkurl": "shopify://collections/knotted-gowns"
