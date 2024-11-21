@@ -491,6 +491,7 @@
     },
     "featured_collection_ybbRaH": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Deer Tree Farm Small Ribbed",
         "heading_size": "h2",
