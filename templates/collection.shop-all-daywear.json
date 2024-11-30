@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -34,6 +34,13 @@
             "linkurl": "shopify://collections/shirts"
           }
         },
+        "link_Vpf4Rh": {
+          "type": "link",
+          "settings": {
+            "text": "Harem Rompers",
+            "linkurl": "shopify://collections/harem-rompers"
+          }
+        },
         "link_X6btXJ": {
           "type": "link",
           "settings": {
@@ -51,15 +58,8 @@
         "link_iYnxaU": {
           "type": "link",
           "settings": {
-            "text": "Puffer Jackets",
-            "linkurl": "shopify://collections/puffer-jackets-release"
-          }
-        },
-        "link_Vpf4Rh": {
-          "type": "link",
-          "settings": {
-            "text": "Hoodies",
-            "linkurl": "shopify://collections/hoodies"
+            "text": "Jackets & Hoodies",
+            "linkurl": "shopify://collections/jackets-hoodies"
           }
         },
         "link_CQ9n4K": {
@@ -73,14 +73,13 @@
       "block_order": [
         "link_mf33wC",
         "link_Ar3png",
+        "link_Vpf4Rh",
         "link_X6btXJ",
         "link_PL8BaE",
         "link_iYnxaU",
-        "link_Vpf4Rh",
         "link_CQ9n4K"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "product-grid": {
       "type": "main-collection-product-grid",
