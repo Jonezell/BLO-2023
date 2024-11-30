@@ -604,6 +604,7 @@
     },
     "featured_collection_FCrYBU": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Joggers",
         "heading_size": "h2",
