@@ -28,10 +28,10 @@
           "type": "produdct-as-variants",
           "settings": {
             "label": "Style",
-            "style": "image",
+            "style": "swatch",
             "target_collection": "harem-rompers",
-            "swatch_offset_Y": 25,
-            "swatch_offset_X": 40,
+            "swatch_offset_Y": 50,
+            "swatch_offset_X": 50,
             "hide_sold_out": true
           }
         },
