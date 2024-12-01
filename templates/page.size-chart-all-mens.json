@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -94,13 +94,12 @@
         "link_zknDiY",
         "link_jxYc4g"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "page_BJwB7T": {
       "type": "page",
       "settings": {
-        "page": "working-on-size-chart-mens-shirts",
+        "page": "size-chart-mens-shirts",
         "heading_size": "h2",
         "color_scheme": "",
         "padding_top": 0,
