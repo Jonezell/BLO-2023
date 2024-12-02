@@ -727,6 +727,13 @@ body .announcement-bar__message {
 .facets-container .facets__label.facet-checkbox svg path {
   fill: var(--blo-pine);
 }
+.collection-hero__title+.collection-hero__description {
+  margin-right: auto;
+  margin-left: auto;
+}
+.collection-hero__title+.collection-hero__description p{
+  color: var(--blo-pine);
+}
 @media screen and (max-width: 750px) { 
   .collection-hero .collection-hero__title {
     font-size: 22px;
