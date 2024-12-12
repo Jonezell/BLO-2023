@@ -1,20 +1,19 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
     "blo_footer_JACjzq": {
       "type": "blo-footer",
-      "settings": {
-      }
+      "settings": {}
     },
     "newsletter_cAfByX": {
       "type": "newsletter",
@@ -34,8 +33,7 @@
         },
         "email_form_HdMTJq": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -71,7 +69,7 @@
           "type": "text",
           "settings": {
             "heading": "About Us",
-            "subtext": "<p>Brave Little Ones is dedicated to providing high-quality, buttery soft children’s apparel made for playtime and snuggle time.</p>"
+            "subtext": "<p>{{ shop.metaobjects.website_content[\"about-us\"].content.value }}</p>"
           }
         }
       },
