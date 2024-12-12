@@ -28,11 +28,19 @@
             "text": "Free Shipping On U.S. Orders Over $45!",
             "link": ""
           }
+        },
+        "announcement_aRPEK6": {
+          "type": "announcement",
+          "settings": {
+            "text": "Final days to order for Christmas: Dec 14th for standard, Dec 15th for Expedited & Dec 16 for Priority Shipping",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "announcement_zPQ3jf",
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_aRPEK6"
       ],
       "settings": {
         "color_scheme": "",
