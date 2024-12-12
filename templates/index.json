@@ -68,7 +68,7 @@
         "stars_9JrV8n": {
           "type": "Stars",
           "settings": {
-            "text": "3,900+ five-star Reviews!"
+            "text": "{{ shop.metaobjects.website_content[\"review-count\"].content.value }} five-star Reviews!"
           }
         },
         "heading_m4rzUy": {
@@ -494,13 +494,13 @@
         "heading_PegeeN": {
           "type": "heading",
           "settings": {
-            "heading": "You’ve Helped Us Donate Over 44,260 Meals… And Counting!"
+            "heading": "You’ve Helped Us Donate Over {{ shop.metaobjects.website_content[\"total-meal-count\"].content.value }} Meals… And Counting!"
           }
         },
         "text_DmDJXU": {
           "type": "text",
           "settings": {
-            "text": "What’s better than cozy snuggles? Knowing that every purchase helps fight childhood hunger. You help us donate over 550 meals a month to children in Rwanda, Africa."
+            "text": "What’s better than cozy snuggles? Knowing that every purchase helps fight childhood hunger. You help us donate over {{ shop.metaobjects.website_content[\"meals-a-month-count\"].content.value }} meals a month to children in Rwanda, Africa."
           }
         },
         "buttons_Lex9M6": {
