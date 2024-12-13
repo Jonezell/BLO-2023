@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "parent": "header-group.json",
   "context": {
@@ -14,17 +14,29 @@
   },
   "sections": {
     "announcement-bar": {
-      "settings": {
-      },
-      "blocks": {
-      },
+      "settings": {},
+      "blocks": {},
       "block_order": [
         "announcement_zPQ3jf"
       ]
+    },
+    "custom_liquid_AAVJP": {
+      "type": "custom-liquid",
+      "disabled": false,
+      "settings": {
+        "custom_liquid": "<script>\n      window.AMP_CART_UPDATED = function(rawCart, cartTarget) {\n        console.log(\"blocking rewards and shipping protection module\");\n\n        if (cartTarget) {\n          const newBlocks = cartTarget.blocks.map((block) => {\n              if (block.type === \"CartRewardsBlock\") {\n                return {\n                  ...block,\n                  enabled:false\n                }\n              }\n              if (block.type === \"CartShippingProtectionBlock\") {\n                return {\n                  ...block,\n                  enabled:false\n                }\n              }            \n\n            return block;\n          });\n      \n          return {\n            ...cartTarget,\n            blocks: newBlocks,\n          }\n        }\n      }\n    </script>",
+        "color_scheme": "",
+        "header-0039df9234d1ef10d1dfe20fa3b87acf": null,
+        "padding_top": 40,
+        "padding_bottom": 52
+      },
+      "blocks": {},
+      "block_order": []
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "custom_liquid_AAVJP"
   ]
 }
