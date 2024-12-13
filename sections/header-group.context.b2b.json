@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "parent": "header-group.json",
   "context": {
@@ -19,14 +19,14 @@
       "settings": {
         "color_scheme": "scheme-3",
         "show_line_separator": true,
-        "header-89561045e1ff13dfa2e2e70e0f4f0d9b": null,
+        "header-4e2a9d8631407e937d50cba0bc1c1d63": null,
         "show_social": false,
-        "header-31482c279c265746e5c88a9125ea7e70": null,
+        "header-6e922ade87501a4eee911c85dcdc52ec": null,
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "header-e4931bd9f1aa30883891eec45a1c5b48": null,
+        "header-1a331f1026ed30eb69a7edf77fa7db95": null,
         "enable_country_selector": false,
-        "header-302e6eee2a3cf297b1aa070d90093179": null,
+        "header-96843786385de64061a4c0fd13a24dee": null,
         "enable_language_selector": false
       },
       "blocks": {
@@ -51,10 +51,24 @@
         "announcement_me7b7",
         "announcement_49z7b"
       ]
+    },
+    "custom_liquid_CYxQx": {
+      "type": "custom-liquid",
+      "disabled": false,
+      "settings": {
+        "custom_liquid": "<script>\n      window.AMP_CART_UPDATED = function(rawCart, cartTarget) {\n        console.log(\"blocking rewards and shipping protection module\");\n\n        if (cartTarget) {\n          const newBlocks = cartTarget.blocks.map((block) => {\n              if (block.type === \"CartRewardsBlock\") {\n                return {\n                  ...block,\n                  enabled:false\n                }\n              }\n              if (block.type === \"CartShippingProtectionBlock\") {\n                return {\n                  ...block,\n                  enabled:false\n                }\n              }            \n\n            return block;\n          });\n      \n          return {\n            ...cartTarget,\n            blocks: newBlocks,\n          }\n        }\n      }\n    </script>",
+        "color_scheme": "",
+        "header-0039df9234d1ef10d1dfe20fa3b87acf": null,
+        "padding_top": 40,
+        "padding_bottom": 52
+      },
+      "blocks": {},
+      "block_order": []
     }
   },
   "order": [
     "announcement_bar_tU8Cm",
-    "header"
+    "header",
+    "custom_liquid_CYxQx"
   ]
 }
