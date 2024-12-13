@@ -52,7 +52,7 @@
         "announcement_49z7b"
       ]
     },
-    "custom_liquid_CYxQx": {
+    "custom_liquid_qntJY": {
       "type": "custom-liquid",
       "disabled": false,
       "settings": {
@@ -69,6 +69,6 @@
   "order": [
     "announcement_bar_tU8Cm",
     "header",
-    "custom_liquid_CYxQx"
+    "custom_liquid_qntJY"
   ]
 }
