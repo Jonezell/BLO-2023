@@ -218,7 +218,7 @@
         "collapsible_tab_D3dTnA": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping{{ shop.metaobjects.featured_faqs.shipping.title.value }}",
+            "heading": "{{ shop.metaobjects.featured_faqs.shipping.title.value }}",
             "icon": "truck",
             "content": "{{ shop.metaobjects.featured_faqs.shipping.text | metafield_tag }}",
             "page": ""
