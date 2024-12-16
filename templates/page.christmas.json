@@ -463,6 +463,7 @@
     },
     "featured_collection_KAt7Hi": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Red Stripe Small Ribbed",
         "heading_size": "h2",
