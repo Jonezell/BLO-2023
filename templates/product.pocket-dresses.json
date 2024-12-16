@@ -14,18 +14,15 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "judge_me_reviews_preview_badge_pg4eqY": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         },
         "produdct_as_variants_CXULYg": {
           "type": "produdct-as-variants",
@@ -47,8 +44,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "custom_low_stock_JTRiRj": {
           "type": "custom-low-stock",
@@ -93,8 +89,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
@@ -173,8 +168,7 @@
       "blocks": {
         "judge_me_reviews_review_widget_w8Ua44": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -307,27 +301,27 @@
         "collapsible_tab_D3dTnA": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping",
+            "heading": "{{ shop.metaobjects.featured_faqs.shipping.title.value }}",
             "icon": "truck",
-            "content": "<p>We typically ship orders within 1-4 business days, however during times of high order volume please allow up to 7 business days. We don’t ship on weekends.</p>",
+            "content": "{{ shop.metaobjects.featured_faqs.shipping.text | metafield_tag }}",
             "page": ""
           }
         },
         "collapsible_tab_CYJxHw": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Returns",
+            "heading": "{{ shop.metaobjects.featured_faqs.returns.title.value }}",
             "icon": "return",
-            "content": "<p>We allow exchanges within 30 days. All items applicable for exchange must be unwashed, unworn and in original condition with original packaging and tags. A store credit for the item amount will be issued within 3 days after return is received. $6.99 will be deducted from your store credit for the return shipping label. Please use a poly mailer or bubble envelope to return items. Additional fees may apply for returning items in large boxes. Initial shipping costs are not eligible for refund.<br/><br/><a href=\"https://brave-little-ones.happyreturns.com/\" target=\"_blank\" title=\"Start a Return\">Start a Return</a></p>",
+            "content": "{{ shop.metaobjects.featured_faqs.returns.text | metafield_tag }}",
             "page": ""
           }
         },
         "collapsible_tab_pmXUGa": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Package Protection",
+            "heading": "{{ shop.metaobjects.featured_faqs[\"package-protection\"].title.value }}",
             "icon": "box",
-            "content": "<p>Our Brave Little Ones Package Protection guarantees delivery on all orders placed within the United States.</p><p><strong>Our Guarantee</strong></p><p>Brave Little Ones Package Protection offers you peace of mind and package protection for all of your orders. If you add insurance, your package is fully protected in the event that it is lost, damaged, or stolen. <a href=\"https://bravelittleones.com/pages/faqs\" target=\"_blank\" title=\"https://bravelittleones.com/pages/faqs\">Read more here.</a></p>",
+            "content": "{{ shop.metaobjects.featured_faqs[\"package-protection\"].text | metafield_tag }}",
             "page": ""
           }
         }
