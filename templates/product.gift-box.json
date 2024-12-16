@@ -33,6 +33,7 @@
         },
         "custom_liquid_nHEdgU": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<cart-note class=\"field\" style=\"display: block;\">\n\n<textarea class=\"text-area field__input\" name=\"note\" form=\"cart\" id=\"Cart-note\" placeholder=\"Add A Note\" maxlength=\"120\" style=\"display: block;\">{{ cart.note }}</textarea>\n\n<label for=\"Cart-note\" class=\"field__label\" style=\"\">Handwritten Note (Optional):</label>\n\n</cart-note>\n\n\n\n<p style=\"display:block; font-size: 12px; margin-bottom: 40px;\">120 Character Maximum </p>"
           }
