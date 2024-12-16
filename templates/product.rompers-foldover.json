@@ -327,7 +327,7 @@
           "settings": {
             "heading": "{{ shop.metaobjects.featured_faqs.shipping.title.value }}",
             "icon": "truck",
-            "content": "<p></p>{{ shop.metaobjects.featured_faqs.shipping.text | metafield_tag }}",
+            "content": "{{ shop.metaobjects.featured_faqs.shipping.text | metafield_tag }}",
             "page": ""
           }
         },
