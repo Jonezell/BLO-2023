@@ -212,9 +212,9 @@
         "collapsible_tab_pmXUGa": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Package Protection",
+            "heading": "{{ shop.metaobjects.featured_faqs[\"package-protection\"].title.value }}",
             "icon": "box",
-            "content": "<p>Our Brave Little Ones Package Protection guarantees delivery on all orders placed within the United States.</p><p><strong>Our Guarantee</strong></p><p>Brave Little Ones Package Protection offers you peace of mind and package protection for all of your orders. If you add insurance, your package is fully protected in the event that it is lost, damaged, or stolen. <a href=\"https://bravelittleones.com/pages/faqs\" target=\"_blank\" title=\"https://bravelittleones.com/pages/faqs\">Read more here.</a></p>",
+            "content": "{{ shop.metaobjects.featured_faqs[\"package-protection\"].text | metafield_tag }}",
             "page": ""
           }
         }
