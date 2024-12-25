@@ -14,13 +14,6 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_aRPEK6": {
-          "type": "announcement",
-          "settings": {
-            "text": "Final days to order for Christmas: Dec 14th for standard, Dec 15th for Expedited & Dec 16 for Priority Shipping",
-            "link": ""
-          }
-        },
         "announcement_zPQ3jf": {
           "type": "announcement",
           "disabled": true,
@@ -38,7 +31,6 @@
         }
       },
       "block_order": [
-        "announcement_aRPEK6",
         "announcement_zPQ3jf",
         "announcement-bar-0"
       ],
