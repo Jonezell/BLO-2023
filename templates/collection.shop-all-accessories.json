@@ -34,6 +34,13 @@
             "linkurl": "shopify://collections/bows"
           }
         },
+        "link_m7wW3F": {
+          "type": "link",
+          "settings": {
+            "text": "Trucker Hats",
+            "linkurl": "shopify://collections/trucker-hats"
+          }
+        },
         "link_iYnxaU": {
           "type": "link",
           "settings": {
@@ -67,6 +74,7 @@
       "block_order": [
         "link_mf33wC",
         "link_Ar3png",
+        "link_m7wW3F",
         "link_iYnxaU",
         "link_X6btXJ",
         "link_PL8BaE",
