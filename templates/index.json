@@ -284,7 +284,7 @@
         "buttons_33KPBm": {
           "type": "buttons",
           "settings": {
-            "button_label": "Shop All",
+            "button_label": "Shop Pjs",
             "button_link": "shopify://collections/shop-all-pjs"
           }
         }
