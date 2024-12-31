@@ -506,7 +506,7 @@
         "buttons_Lex9M6": {
           "type": "buttons",
           "settings": {
-            "button_label": "Shop For A Cause",
+            "button_label": "Learn More",
             "button_link": "shopify://pages/help-us-give-back"
           }
         }
