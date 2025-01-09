@@ -61,7 +61,7 @@
           }
         },
         "back_in_stock_customer_alerts_app_block_UBNLgM": {
-          "type": "shopify://apps/back-in-stock-customer-alerts/blocks/app-block/bfa6a8c4-24e2-411a-9396-e35031b33f34",
+          "type": "shopify://apps/amp-back-in-stock/blocks/app-block/bfa6a8c4-24e2-411a-9396-e35031b33f34",
           "settings": {
             "caption": "Email when available",
             "font_size": 16,
@@ -197,8 +197,8 @@
             "pin_direction": "top_left",
             "block_title": "Fold-Over Mittens",
             "block_text": "Our stretchy fold-over mittens not only keep your infant's hands warm, but keep them from scratching their delicate skin too.",
-            "horizontal_position": 6,
-            "vertical_position": 32
+            "horizontal_position": 2,
+            "vertical_position": 20
           }
         }
       },
@@ -209,7 +209,7 @@
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
         "text": "Discover the ultimate bedtime comfort with our perfectly crafted PJs.",
-        "image": "shopify://shop_images/pinecone-1--Gown-2_396b9b8a-c36e-4c32-a325-8beec8a6fb68.jpg",
+        "image": "shopify://shop_images/HoneyStripe-Gown-2.jpg",
         "padding_top": 100,
         "padding_bottom": 100
       }
