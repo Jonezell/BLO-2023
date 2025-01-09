@@ -562,6 +562,9 @@
     },
     "featured_collection_PEqBTF": {
       "type": "featured-collection",
+      "custom_css": [
+        ".title {text-align: center;}"
+      ],
       "settings": {
         "title": "Shop Best Sellers",
         "heading_size": "h2",
