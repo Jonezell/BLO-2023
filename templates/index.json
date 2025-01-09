@@ -195,12 +195,13 @@
         "collection_group_wCa3DY": {
           "type": "collection_group",
           "settings": {
-            "collection_group_title": "Accessories",
+            "collection_group_title": "Blankets & Sheets",
             "collection_list": [
-              "bows",
-              "backpacks",
-              "swaddles",
-              "accessories"
+              "toddler-blankets",
+              "youth-blanket",
+              "adult-blankets",
+              "crib-sheets",
+              "twin-sheets"
             ]
           }
         },
@@ -209,9 +210,9 @@
           "settings": {
             "collection_group_title": "And More",
             "collection_list": [
+              "bows",
+              "swaddles",
               "sleep-sacks",
-              "crib-and-twin-sheets",
-              "blankets",
               "womens",
               "shop-all-mens"
             ]
