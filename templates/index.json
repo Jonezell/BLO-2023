@@ -447,11 +447,11 @@
           "settings": {
             "collection_group_title": "Prints",
             "collection_list": [
+              "dogs-light-blue",
               "slate-rainbows",
               "happy-camper",
               "astronauts",
-              "on-the-farm",
-              "space-explorers"
+              "on-the-farm"
             ]
           }
         },
