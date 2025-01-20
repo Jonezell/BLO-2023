@@ -178,8 +178,8 @@
           "type": "Callout",
           "settings": {
             "pin_direction": "top_left",
-            "block_title": "Tagless Labels",
-            "block_text": "Typical neck tags are often rough and itchy; our tagless labels protect your kiddos' sensitive skin from getting irritated.",
+            "block_title": "Snaps for easy diaper changes.",
+            "block_text": "Three durable snaps will make diaper changes a breeze.",
             "horizontal_position": 42,
             "vertical_position": 6
           }
@@ -188,8 +188,8 @@
           "type": "Callout",
           "settings": {
             "pin_direction": "top_right",
-            "block_title": "Easy On, Easy Off",
-            "block_text": "Pulls on and off with ease. No zippers or snaps necessary!",
+            "block_title": "Flutter Sleeves",
+            "block_text": "Girly and adorable flutters on both sleeves elevate this piece.",
             "horizontal_position": 38,
             "vertical_position": 32
           }
@@ -198,8 +198,8 @@
           "type": "Callout",
           "settings": {
             "pin_direction": "top_right",
-            "block_title": "Super Soft, Stretchy & Extra Room",
-            "block_text": "Say hello to the ultimate softness and stretch with extra room for your little ones to grow.",
+            "block_title": "Leg Ruffles",
+            "block_text": "Elastic ruffles around each leg for extra flair and a better fit on every baby.",
             "horizontal_position": 22,
             "vertical_position": 58
           }
