@@ -30,7 +30,7 @@
             "label": "Style",
             "style": "swatch",
             "target_collection": "two-piece-sets",
-            "swatch_offset_Y": 25,
+            "swatch_offset_Y": 20,
             "swatch_offset_X": 40,
             "hide_sold_out": true
           }
@@ -61,7 +61,7 @@
           }
         },
         "back_in_stock_customer_alerts_app_block_UBNLgM": {
-          "type": "shopify://apps/back-in-stock-customer-alerts/blocks/app-block/bfa6a8c4-24e2-411a-9396-e35031b33f34",
+          "type": "shopify://apps/amp-back-in-stock/blocks/app-block/bfa6a8c4-24e2-411a-9396-e35031b33f34",
           "settings": {
             "caption": "Email when available",
             "font_size": 16,
