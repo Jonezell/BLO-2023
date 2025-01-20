@@ -28,8 +28,8 @@
           "type": "produdct-as-variants",
           "settings": {
             "label": "Style",
-            "style": "swatch",
-            "target_collection": "harem-rompers",
+            "style": "image",
+            "target_collection": "ruffle-rompers",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
