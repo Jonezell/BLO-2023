@@ -174,24 +174,14 @@
     "blo_product_callouts_qHXD4R": {
       "type": "blo-product-callouts",
       "blocks": {
-        "callout_7fV3cD": {
-          "type": "Callout",
-          "settings": {
-            "pin_direction": "top_left",
-            "block_title": "Snaps for easy diaper changes.",
-            "block_text": "Three durable snaps will make diaper changes a breeze.",
-            "horizontal_position": 42,
-            "vertical_position": 6
-          }
-        },
         "callout_xeXFRk": {
           "type": "Callout",
           "settings": {
-            "pin_direction": "top_right",
+            "pin_direction": "top_left",
             "block_title": "Flutter Sleeves",
             "block_text": "Girly and adorable flutters on both sleeves elevate this piece.",
-            "horizontal_position": 38,
-            "vertical_position": 32
+            "horizontal_position": 20,
+            "vertical_position": 8
           }
         },
         "callout_xmwwmL": {
@@ -200,31 +190,30 @@
             "pin_direction": "top_right",
             "block_title": "Leg Ruffles",
             "block_text": "Elastic ruffles around each leg for extra flair and a better fit on every baby.",
-            "horizontal_position": 22,
-            "vertical_position": 58
+            "horizontal_position": 14,
+            "vertical_position": 84
           }
         },
-        "callout_BxjKGh": {
+        "callout_7fV3cD": {
           "type": "Callout",
           "settings": {
             "pin_direction": "top_left",
-            "block_title": "Just Add Accessories",
-            "block_text": "Easiest outfit ever, we promise. Add shoes and a cute hat or bow and your kiddos are ready to go…wherever they’re heading.",
-            "horizontal_position": 26,
-            "vertical_position": 84
+            "block_title": "Snaps",
+            "block_text": "Three durable snaps will make diaper changes a breeze.",
+            "horizontal_position": 32,
+            "vertical_position": 96
           }
         }
       },
       "block_order": [
-        "callout_7fV3cD",
         "callout_xeXFRk",
         "callout_xmwwmL",
-        "callout_BxjKGh"
+        "callout_7fV3cD"
       ],
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
         "text": "Discover the ultimate comfort with our perfectly crafted Harem Rompers.",
-        "image": "shopify://shop_images/DustySage-Harem_b10682ce-eae4-4c02-a71e-0da791ae0982.jpg",
+        "image": "shopify://shop_images/BeMine_FlutterRomper-2.jpg",
         "padding_top": 200,
         "padding_bottom": 200
       }
