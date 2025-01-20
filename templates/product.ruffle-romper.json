@@ -178,8 +178,8 @@
           "type": "Callout",
           "settings": {
             "pin_direction": "top_left",
-            "block_title": "Flutter Sleeves",
-            "block_text": "Girly and adorable flutters on both sleeves elevate this piece.",
+            "block_title": "Adjustable Straps",
+            "block_text": "Adjustable spaghetti straps make this romper a perfect fit for every baby.",
             "horizontal_position": 20,
             "vertical_position": 8
           }
@@ -187,11 +187,21 @@
         "callout_xmwwmL": {
           "type": "Callout",
           "settings": {
+            "pin_direction": "top_left",
+            "block_title": "Smocked Top",
+            "block_text": "Soft & stretchy top for maximum comfort.",
+            "horizontal_position": 28,
+            "vertical_position": 36
+          }
+        },
+        "callout_XY7Bxr": {
+          "type": "Callout",
+          "settings": {
             "pin_direction": "top_right",
-            "block_title": "Leg Ruffles",
-            "block_text": "Elastic ruffles around each leg for extra flair and a better fit on every baby.",
-            "horizontal_position": 14,
-            "vertical_position": 84
+            "block_title": "Layered Ruffles",
+            "block_text": "Two layers of ruffles for the ease of a romper and the look of a dress.",
+            "horizontal_position": 10,
+            "vertical_position": 50
           }
         },
         "callout_7fV3cD": {
@@ -208,11 +218,12 @@
       "block_order": [
         "callout_xeXFRk",
         "callout_xmwwmL",
+        "callout_XY7Bxr",
         "callout_7fV3cD"
       ],
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
-        "text": "Discover the ultimate comfort with our perfectly crafted Flutter Sleeve Rompers.",
+        "text": "Discover the ultimate comfort with our perfectly crafted Ruffle Rompers.",
         "image": "shopify://shop_images/BeMine_FlutterRomper-2.jpg",
         "padding_top": 200,
         "padding_bottom": 200
