@@ -19,7 +19,7 @@
         >
           <div
             class="PAV_image"
-            style="background-image:url({% if PAV_style == "swatch" %}{{ product.featured_image | image_url: width: 260 }}{% else %}{{ product.featured_image | image_url: width: 100 }}{% endif %});"
+            style="background-image:url({% if PAV_style == "swatch" %}{{ product.featured_image | image_url: width: 320 }}{% else %}{{ product.featured_image | image_url: width: 100 }}{% endif %});"
             loading="lazy"
           ></div>
           <label> {{ product.title }}</label>
@@ -129,7 +129,7 @@
   }
   .PAV_container.PAV_style_swatch .PAV_image {
     border-radius: 20px;
-    background-size: 130px;
+    background-size: 160px;
     background-position-y: {{PAV_swatch_offset_Y}}%;
     background-position-x: {{PAV_swatch_offset_X}}%;
   }
