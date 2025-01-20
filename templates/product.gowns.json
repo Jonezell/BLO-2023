@@ -30,8 +30,8 @@
             "label": "Style",
             "style": "swatch",
             "target_collection": "knotted-gowns",
-            "swatch_offset_Y": 30,
-            "swatch_offset_X": 45,
+            "swatch_offset_Y": 18,
+            "swatch_offset_X": 48,
             "hide_sold_out": true
           }
         },
