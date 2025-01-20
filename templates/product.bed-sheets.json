@@ -30,8 +30,8 @@
             "label": "Crib Sheets",
             "style": "swatch",
             "target_collection": "crib-sheets",
-            "swatch_offset_Y": 50,
-            "swatch_offset_X": 50,
+            "swatch_offset_Y": 48,
+            "swatch_offset_X": 48,
             "hide_sold_out": true
           }
         },
@@ -41,8 +41,8 @@
             "label": "Twin Sheets",
             "style": "swatch",
             "target_collection": "twin-sheets",
-            "swatch_offset_Y": 75,
-            "swatch_offset_X": 80,
+            "swatch_offset_Y": 68,
+            "swatch_offset_X": 74,
             "hide_sold_out": true
           }
         },
@@ -72,7 +72,7 @@
           }
         },
         "back_in_stock_customer_alerts_app_block_UBNLgM": {
-          "type": "shopify://apps/back-in-stock-customer-alerts/blocks/app-block/bfa6a8c4-24e2-411a-9396-e35031b33f34",
+          "type": "shopify://apps/amp-back-in-stock/blocks/app-block/bfa6a8c4-24e2-411a-9396-e35031b33f34",
           "settings": {
             "caption": "Email when available",
             "font_size": 16,
