@@ -116,6 +116,16 @@
         "padding_bottom": 100
       }
     },
+    "page_QYxG7H": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-flutter-sleeve-romper",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
     "page_rYXTNA": {
       "type": "page",
       "disabled": true,
@@ -215,6 +225,7 @@
     "blo_collection_pills_7fVGdq",
     "page_zjxhkM",
     "page_jwkMGb",
+    "page_QYxG7H",
     "page_rYXTNA",
     "page_hhYq3K",
     "page_x8UPqW",
