@@ -166,6 +166,16 @@
         "padding_bottom": 100
       }
     },
+    "page_AgRECq": {
+      "type": "page",
+      "settings": {
+        "page": "size-chart-flutter-sleeve-romper",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
     "page_Wf8Amx": {
       "type": "page",
       "settings": {
@@ -210,28 +220,6 @@
       "type": "page",
       "settings": {
         "page": "size-chart-harem-rompers",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 100
-      }
-    },
-    "page_rf9p78": {
-      "type": "page",
-      "disabled": true,
-      "settings": {
-        "page": "size-chart-swim-trunks",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 100
-      }
-    },
-    "page_gdwhw3": {
-      "type": "page",
-      "disabled": true,
-      "settings": {
-        "page": "size-chart-rash-guards",
         "heading_size": "h2",
         "color_scheme": "",
         "padding_top": 0,
@@ -330,13 +318,12 @@
     "page_kKyzyi",
     "page_aVq7pX",
     "page_hFxQcV",
+    "page_AgRECq",
     "page_Wf8Amx",
     "page_twqega",
     "page_QEQTit",
     "page_WgmCpP",
     "page_D9PVtg",
-    "page_rf9p78",
-    "page_gdwhw3",
     "page_tJJt8g",
     "page_cJmEQK",
     "page_AdhXmq",
