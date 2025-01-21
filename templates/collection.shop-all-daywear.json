@@ -57,6 +57,7 @@
         },
         "link_iYnxaU": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "text": "Flutter Sleeve Rompers",
             "linkurl": "shopify://collections/flutter-sleeve-rompers"
