@@ -48,19 +48,18 @@
             "linkurl": "shopify://collections/pocket-dresses"
           }
         },
+        "link_iYnxaU": {
+          "type": "link",
+          "settings": {
+            "text": "Flutter Sleeve Rompers",
+            "linkurl": "shopify://collections/flutter-sleeve-rompers"
+          }
+        },
         "link_PL8BaE": {
           "type": "link",
           "settings": {
             "text": "Pullovers & Jackets",
             "linkurl": "shopify://collections/pullovers-jackets"
-          }
-        },
-        "link_iYnxaU": {
-          "type": "link",
-          "disabled": true,
-          "settings": {
-            "text": "Flutter Sleeve Rompers",
-            "linkurl": "shopify://collections/flutter-sleeve-rompers"
           }
         },
         "link_CQ9n4K": {
@@ -76,8 +75,8 @@
         "link_Ar3png",
         "link_Vpf4Rh",
         "link_X6btXJ",
-        "link_PL8BaE",
         "link_iYnxaU",
+        "link_PL8BaE",
         "link_CQ9n4K"
       ],
       "settings": {}
