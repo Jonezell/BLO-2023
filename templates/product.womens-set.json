@@ -61,7 +61,7 @@
           }
         },
         "back_in_stock_customer_alerts_app_block_UBNLgM": {
-          "type": "shopify://apps/back-in-stock-customer-alerts/blocks/app-block/bfa6a8c4-24e2-411a-9396-e35031b33f34",
+          "type": "shopify://apps/amp-back-in-stock/blocks/app-block/bfa6a8c4-24e2-411a-9396-e35031b33f34",
           "settings": {
             "caption": "Email when available",
             "font_size": 16,
@@ -112,7 +112,7 @@
         "complementary_Njc4LC": {
           "type": "complementary",
           "settings": {
-            "block_heading": "Pairs well with",
+            "block_heading": "Or buy them separate:",
             "make_collapsible_row": true,
             "icon": "price_tag",
             "product_list_limit": 10,
