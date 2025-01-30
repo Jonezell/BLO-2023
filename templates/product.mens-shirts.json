@@ -34,7 +34,7 @@
         "produdct_as_variants_CXULYg": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Tops",
+            "label": "Color",
             "style": "image",
             "target_collection": "mens-tops",
             "swatch_offset_Y": 50,

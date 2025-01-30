@@ -24,6 +24,13 @@
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
         "produdct_as_variants_CXULYg": {
           "type": "produdct-as-variants",
           "settings": {
@@ -33,13 +40,6 @@
             "swatch_offset_Y": 40,
             "swatch_offset_X": 48,
             "hide_sold_out": true
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
           }
         },
         "quantity_selector": {
@@ -133,8 +133,8 @@
         "title",
         "price",
         "judge_me_reviews_preview_badge_pg4eqY",
-        "produdct_as_variants_CXULYg",
         "variant_picker",
+        "produdct_as_variants_CXULYg",
         "quantity_selector",
         "custom_low_stock_JTRiRj",
         "buy_buttons",

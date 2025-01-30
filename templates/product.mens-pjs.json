@@ -34,7 +34,7 @@
         "produdct_as_variants_gGPLHq": {
           "type": "produdct-as-variants",
           "settings": {
-            "label": "Bottoms",
+            "label": "Color",
             "style": "image",
             "target_collection": "mens-pants",
             "swatch_offset_Y": 50,
