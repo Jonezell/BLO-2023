@@ -682,16 +682,21 @@
 
                 {% comment %} START CUSTOM CODE {% endcomment %}
               {%- when 'produdct-as-variants' -%}
-                {% render 'blo-PAV-block',
-                  PAV_product_handle: product.handle,
-                  PAV_target_collection: block.settings.target_collection,
-                  PAV_product_type: product.type,
-                  PAV_label: block.settings.label,
-                  PAV_style: block.settings.style,
-                  PAV_swatch_offset_Y: block.settings.swatch_offset_Y,
-                  PAV_swatch_offset_X: block.settings.swatch_offset_X,
-                  PAV_hide_sold_out: block.settings.hide_sold_out
-                %}
+                {% render 'blo-section-reload' %}
+
+                <div class="custom-block" data-section-id="{{ section.id }}" data-block-id="{{block.id}}">
+                  {% render 'blo-PAV-block',
+                    PAV_product_handle: product.handle,
+                    PAV_target_collection: block.settings.target_collection,
+                    PAV_product_type: product.type,
+                    PAV_label: block.settings.label,
+                    PAV_style: block.settings.style,
+                    PAV_swatch_offset_Y: block.settings.swatch_offset_Y,
+                    PAV_swatch_offset_X: block.settings.swatch_offset_X,
+                    PAV_hide_sold_out: block.settings.hide_sold_out
+                  %}
+                </div>
+
               {%- when 'custom-low-stock' -%}
                 {% render 'blo-low-stock', block: block, product: product %}
               {%- when 'blo-payment-plans' -%}

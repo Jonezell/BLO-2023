@@ -30,9 +30,6 @@
       {%- if picker_type == 'swatch' -%}
         <fieldset
           class="js product-form__input product-form__input--swatch"
-          {%- if option.name == 'Style' and option.values.size <= 1 -%}
-            hidden
-          {%- endif -%}
         >
           <legend class="form__label">
             {{ option.name }}:
@@ -50,9 +47,6 @@
       {%- elsif picker_type == 'button' -%}
         <fieldset
           class="js product-form__input product-form__input--pill"
-          {%- if option.name == 'Style' and option.values.size <= 1 -%}
-            hidden
-          {%- endif -%}
         >
           <legend class="form__label">{{ option.name }}</legend>
           {% render 'product-variant-options',

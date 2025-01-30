@@ -1,0 +1,58 @@
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    let currentUrl = window.location.href;
+
+    // Function to reload all .custom-block elements separately
+    function reloadBlocks() {
+      document.querySelectorAll('.custom-block').forEach((block) => {
+        const sectionId = block.dataset.sectionId;
+        const blockId = block.dataset.blockId; // Get the unique block ID
+
+        if (!sectionId || !blockId) return;
+
+        // Fetch the updated content for this specific block
+        fetch(`${window.location.pathname + window.location.search}&section_id=${sectionId}`)
+          .then((response) => response.text())
+          .then((html) => {
+            const parser = new DOMParser();
+            const newDocument = parser.parseFromString(html, 'text/html');
+
+            // Find the correct block using both section_id and block_id
+            const newBlock = newDocument.querySelector(`.custom-block[data-block-id="${blockId}"]`);
+
+            if (newBlock) {
+              block.innerHTML = newBlock.innerHTML;
+            }
+          })
+          .catch((error) => console.error('Error reloading block:', error));
+      });
+    }
+
+    // Detect URL changes (including query string)
+    function onUrlChange() {
+      if (currentUrl !== window.location.href) {
+        currentUrl = window.location.href;
+        reloadBlocks(); // Reload all custom blocks if URL changes
+      }
+    }
+
+    // Listen for browser navigation changes (popstate)
+    window.addEventListener('popstate', onUrlChange);
+
+    // Override pushState and replaceState to detect AJAX history updates
+    (function (history) {
+      const pushState = history.pushState;
+      const replaceState = history.replaceState;
+
+      history.pushState = function () {
+        pushState.apply(history, arguments);
+        onUrlChange();
+      };
+
+      history.replaceState = function () {
+        replaceState.apply(history, arguments);
+        onUrlChange();
+      };
+    })(window.history);
+  });
+</script>

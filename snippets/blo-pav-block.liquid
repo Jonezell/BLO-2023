@@ -8,20 +8,28 @@
   - PAV_hide_sold_out = True or False
 {% endcomment %}
 
+{% assign current_variant = product.selected_or_first_available_variant %}
+
 <div class="product-options PAV">
   <label class="form__label">{{ PAV_label }}</label>
   <div class="PAV_container PAV_style_{{PAV_style}}">
     {% paginate collections[PAV_target_collection].products by 100 %}
       {% for product in collections[PAV_target_collection].products %}
+        {% for variant in product.variants %}
+          {% if variant.title contains current_variant.title %}
+            {% assign url_variant = variant.id %}
+          {% endif %}
+        {% endfor %}
         <a
-          class="PAV_option {% if product.handle == PAV_product_handle %}selected{% endif %} {% if product.available == false %}SoldOut{% endif %} {% if product.handle != PAV_product_handle and product.available == false and PAV_hide_sold_out == true%}hidden{% endif %}"
-          href="{{ product.url }}"
+          class="PAV_option {% if product.handle == PAV_product_handle %}selected{% endif %} {% if product.available == false %}SoldOut{% endif %} {% if product.handle != PAV_product_handle and product.available == false and PAV_hide_sold_out == true%}hidden{% endif %} {% for variant in product.variants %}{% if variant.available == true and variant.title contains current_variant.title or product.variants.size == 1 %} PAV_Size_instock{% endif %}{% endfor %}"
+          href="{{ product.url }}{% if url_variant %}?variant={{ url_variant }}{% endif %}"
         >
           <div
             class="PAV_image"
             style="background-image:url({% if PAV_style == "swatch" %}{{ product.featured_image | image_url: width: 320 }}{% else %}{{ product.featured_image | image_url: width: 100 }}{% endif %});"
             loading="lazy"
           ></div>
+
           <label> {{ product.title }}</label>
         </a>
       {% endfor %}
@@ -29,7 +37,24 @@
   </div>
 </div>
 
+{% comment %}
+  TO DO LIST:
+  - Fix selection bug: premiee & 10-12Y arent avaliable in all sizes & it shows those that dont have that option
+{% endcomment %}
+
 {% style %}
+  .PAV_Size_instock {
+  }
+  .PAV_option:not(.PAV_Size_instock) .PAV_image:before {
+    content: " ";
+    height: 0;
+    width: 100%;
+    transform: rotate(45deg);
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 0%;
+    border-top: 2px solid var(--blo-cream);
+  }
   .PAV {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -88,7 +113,7 @@
   }
 
   @media screen and (min-width: 750px) {
-   .PAV_option:hover label {
+    .PAV_option:hover label {
       display:block;
     }
   }
