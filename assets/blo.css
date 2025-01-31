@@ -892,7 +892,17 @@ margin-left:0;
 .product-card-wrapper .card__content .card__badge .badge + .badge{
   margin-left: 5px;
 }
-
+.product__info-wrapper .jdgm-widget.jdgm-preview-badge {
+ margin-top: -10px;
+}
+@media screen and (max-width: 749px) {
+  .product .product__media-wrapper .thumbnail-list__item.slider__slide {
+      width: calc(20% - .7rem);
+  }
+  .product .product__media-wrapper .slider-button {
+    margin-bottom: 10px;
+  }
+}
 
 
 
