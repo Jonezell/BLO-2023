@@ -137,7 +137,19 @@
                 id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
                 class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
               >
-                {{- 'products.product.on_sale' | t -}}
+                {% comment %} START CUSTOM CODE _ REPLACEING SALE TEXT WITH PERCENT OFF {% endcomment %}
+
+                {% comment %} {{- 'products.product.on_sale' | t -}} {% endcomment %}
+
+                {%- assign percent = card_product.compare_at_price
+                  | minus: card_product.price
+                  | times: 100
+                  | divided_by: card_product.compare_at_price
+                  | round
+                -%}
+                {{ percent }}% OFF
+
+                {% comment %} END CUSTOM CODE {% endcomment %}
               </span>
             {%- endif -%}
             {%- if card_product.metafields.custom.label != blank -%}
