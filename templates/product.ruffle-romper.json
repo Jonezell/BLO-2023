@@ -191,7 +191,7 @@
             "block_title": "Smocked Top",
             "block_text": "Soft & stretchy top for maximum comfort.",
             "horizontal_position": 28,
-            "vertical_position": 36
+            "vertical_position": 32
           }
         },
         "callout_XY7Bxr": {
@@ -201,7 +201,7 @@
             "block_title": "Layered Ruffles",
             "block_text": "Two layers of ruffles for the ease of a romper and the look of a dress.",
             "horizontal_position": 10,
-            "vertical_position": 50
+            "vertical_position": 62
           }
         },
         "callout_7fV3cD": {
@@ -224,7 +224,7 @@
       "settings": {
         "title": "We’ve thought of it so you don’t have to.",
         "text": "Discover the ultimate comfort with our perfectly crafted Ruffle Rompers.",
-        "image": "shopify://shop_images/BeMine_FlutterRomper-2.jpg",
+        "image": "shopify://shop_images/PastelBunnies_RuffleRomper.jpg",
         "padding_top": 200,
         "padding_bottom": 200
       }
