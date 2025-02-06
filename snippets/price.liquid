@@ -126,10 +126,10 @@
     {%- if show_badges -%}
       <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
         <!-- {{ 'products.product.on_sale' | t }}-->
-        {%- assign percent = products.product.compare_at_price
-          | minus: products.product.price
+        {%- assign percent = product.compare_at_price
+          | minus: product.price
           | times: 100
-          | divided_by: products.product.compare_at_price
+          | divided_by: product.compare_at_price
           | round
         -%}
         {{ percent }}% OFF
