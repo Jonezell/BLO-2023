@@ -125,7 +125,10 @@
     </div>
     {%- if show_badges -%}
       <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
-        <!-- {{ 'products.product.on_sale' | t }}-->
+
+        <!-- CUSTOM CODE - REPLACE 'SALE' TEXT IN BADGE WITH PERCENT OFF -->
+
+        <!-- {{ 'products.product.on_sale' | t }} -->
         {%- assign percent = product.compare_at_price
           | minus: product.price
           | times: 100
