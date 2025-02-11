@@ -36,7 +36,7 @@
           "settings": {
             "label": "Color",
             "style": "image",
-            "target_collection": "mens-tops",
+            "target_collection": "mens-shirts",
             "swatch_offset_Y": 50,
             "swatch_offset_X": 50,
             "hide_sold_out": true
