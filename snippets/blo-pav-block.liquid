@@ -16,12 +16,12 @@
     {% paginate collections[PAV_target_collection].products by 100 %}
       {% for product in collections[PAV_target_collection].products %}
         {% for variant in product.variants %}
-          {% if variant.title contains current_variant.title %}
+          {% if variant.title == current_variant.title %}
             {% assign url_variant = variant.id %}
           {% endif %}
         {% endfor %}
         <a
-          class="PAV_option {% if product.handle == PAV_product_handle %}selected{% endif %} {% if product.available == false %}SoldOut{% endif %} {% if product.handle != PAV_product_handle and product.available == false and PAV_hide_sold_out == true%}hidden{% endif %} {% for variant in product.variants %}{% if variant.available == true and variant.title contains current_variant.title or product.variants.size == 1 %} PAV_Size_instock{% endif %}{% endfor %}"
+          class="PAV_option {% if product.handle == PAV_product_handle %}selected{% endif %} {% if product.available == false %}SoldOut{% endif %} {% if product.handle != PAV_product_handle and product.available == false and PAV_hide_sold_out == true%}hidden{% endif %} {% for variant in product.variants %}{% if variant.available == true and variant.title == current_variant.title or product.variants.size == 1 %} PAV_Size_instock{% endif %}{% endfor %}"
           href="{{ product.url }}{% if url_variant %}?variant={{ url_variant }}{% endif %}"
         >
           <div
